@@ -399,7 +399,7 @@ function generate_full_html(
                     <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] w-1/4 bg-white rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
                 
                     <!-- The buttons. Notice the added data-id attribute -->
-                    <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">Simple</button>
+                    <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🤌🏻 Simple</button>
                     <button data-id="composer" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✨ Composer</button>
                     <button data-id="splitter" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✂️ Splitter</button>
                     <button data-id="compiler" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🔄 Compiler</button>
@@ -658,7 +658,11 @@ function generate_full_html(
                     <a href="https://x.com/yebekhe" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors" title="X (Twitter)"><i data-lucide="twitter" class="h-5 w-5"></i></a>
                 </div>
             </div>
-            <p id="lastGenerated" class="text-xs text-slate-400 mt-4">Last Generated: __TIMESTAMP_PLACEHOLDER__</p>
+            <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
+    <span id="live-ip-info"></span>
+    <span class="mx-2">|</span>
+    <span>Last Generated: __TIMESTAMP_PLACEHOLDER__</span>
+</p>
         </footer>
     </div>
     
@@ -1973,6 +1977,40 @@ async function handleShare(contentToUpload, buttonElement) {
         switchMode('simple'); // Set the initial state to "Simple" mode
 		
     });
+    (function() {
+    const ipInfoSpan = document.getElementById('live-ip-info');
+    if (!ipInfoSpan) return;
+
+    const updateIpInfo = async () => {
+        ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">Checking...</span> ⏳`;
+        
+        try {
+            const response = await fetch('http://ip-api.com/json/?fields=status,message,countryCode,query,isp');
+            const data = await response.json();
+
+            if (data.status !== 'success') throw new Error('Failed to fetch IP.');
+
+            const flag = String.fromCodePoint(...data.countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
+            const refreshButton = `<a href="#" id="ip-refresh-btn" title="Refresh IP" class="inline-block hover:text-indigo-500 hover:rotate-90 transition-transform duration-300">[🔄]</a>`;
+            
+            ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">${data.query}</span> (${data.isp}) ${flag} ${refreshButton}`;
+
+        } catch (e) {
+            ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">Unavailable</span> ⚠️ <a href="#" id="ip-refresh-btn" title="Refresh IP">[🔄]</a>`;
+        }
+    };
+
+    // Add a delegated event listener for the refresh button, since it gets re-created
+    document.body.addEventListener('click', function(e) {
+        if (e.target && e.target.id === 'ip-refresh-btn') {
+            e.preventDefault();
+            updateIpInfo();
+        }
+    });
+
+    // Run it for the first time
+    updateIpInfo();
+})();
     </script>
 </body>
 </html>
