@@ -1,3 +1,4 @@
+
 <?php
 
 declare(strict_types=1);
@@ -98,8 +99,7 @@ function get_client_info(): array
             "ios" => [
                 [
                     "name" => "Stash (Recommended for Clash Meta)",
-                    "url" =>
-                        "https://apps.apple.com/us/app/stash/id1596063349",
+                    "url" => "https://apps.apple.com/us/app/stash/id1596063349",
                 ],
             ],
             "linux" => [
@@ -290,13 +290,13 @@ function process_files_to_structure(array $files_by_category): array
                 strpos($path_for_parsing, "channel/") === 0 ||
                 strpos($path_for_parsing, "location/") === 0
             ) {
-                $parts = explode('/', $path_for_parsing, 3);
+                $parts = explode("/", $path_for_parsing, 3);
                 $type_prefix = $parts[0];
 
-                if (count($parts) < 3 || $parts[1] !== 'base64') {
-                    continue; 
+                if (count($parts) < 3 || $parts[1] !== "base64") {
+                    continue;
                 }
-                $path_for_parsing = $type_prefix . '/' . $parts[2];
+                $path_for_parsing = $type_prefix . "/" . $parts[2];
             }
 
             $parts = explode("/", $path_for_parsing);
@@ -306,7 +306,7 @@ function process_files_to_structure(array $files_by_category): array
 
             $type = array_shift($parts);
             $remaining_path = implode("/", $parts);
-            $name = preg_replace('/\\.[^.\\/]+$/', '', $remaining_path);
+            $name = preg_replace('/\\.[^.\\/]+$/', "", $remaining_path);
 
             $url = GITHUB_REPO_URL . "/" . $path;
 
@@ -371,12 +371,13 @@ function generate_full_html(
     
     <style>
         body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-        .mode-button-active { background-color: #4f46e5; color: white; border-color: #e2e8f0; border-bottom-color: transparent !important; }
-        .mode-button-inactive { background-color: transparent; color: #475569; border-color: transparent; }
         .composer-list::-webkit-scrollbar { width: 5px; }
         .composer-list::-webkit-scrollbar-track { background: #f1f5f9; }
         .composer-list::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
         .composer-list::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        .mode-btn.text-indigo-600 {
+            color: #4f46e5;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 leading-relaxed transition-colors duration-300">
@@ -393,12 +394,16 @@ function generate_full_html(
             <!-- Main Control Panel -->
             <div class="bg-white rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-slate-200 mb-8 sm:mb-10">
                 
-                <!-- Mode Toggle Buttons -->
-                <div class="flex flex-wrap border-b border-slate-200 mb-6">
-                    <button id="simpleModeButton" class="px-4 py-2 text-sm font-semibold rounded-t-md -mb-px border mode-button-active">Simple Mode</button>
-                    <button id="composerModeButton" class="px-4 py-2 text-sm font-semibold rounded-t-md hover:bg-slate-100 mode-button-inactive">✨ Subscription Composer</button>
-                    <button id="splitterModeButton" class="px-4 py-2 text-sm font-semibold rounded-t-md hover:bg-slate-100 mode-button-inactive">✂️ Subscription Splitter</button>
-                    <button id="compilerModeButton" class="px-4 py-2 text-sm font-semibold rounded-t-md hover:bg-slate-100 mode-button-inactive">🔄 Cross-Compiler</button>
+                <!-- NEW: Segmented Control Navigation -->
+                <div class="relative w-full max-w-lg mx-auto mb-8 p-1.5 bg-slate-100 rounded-xl flex items-center">
+                    <!-- The sliding background for the active state -->
+                    <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] w-1/4 bg-white rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
+                
+                    <!-- The buttons. Notice the added data-id attribute -->
+                    <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">Simple</button>
+                    <button data-id="composer" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✨ Composer</button>
+                    <button data-id="splitter" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✂️ Splitter</button>
+                    <button data-id="compiler" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🔄 Compiler</button>
                 </div>
 
                 <!-- Container for "Simple Mode" -->
@@ -579,19 +584,17 @@ function generate_full_html(
                         <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-2">Conversion Complete:</h3>
                         <p id="compilerResultTitle" class="text-sm text-slate-500 mb-4"></p>
                         <textarea id="compilerResultText" readonly class="w-full h-64 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
-                        <!-- Inside #compilerResultArea -->
-<div class="flex items-center gap-2 mt-2">
-   <button id="copyConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
-       <i data-lucide="copy"></i> Copy
-   </button>
-   <button id="downloadConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
-       <i data-lucide="download"></i> Download
-   </button>
-   <!-- EDIT: STEP 2-C - ADD THE COMPILER SHARE BUTTON -->
-   <button id="shareConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
-        <i data-lucide="share-2"></i> Share
-    </button>
-</div>
+                        <div class="flex items-center gap-2 mt-2">
+                           <button id="copyConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
+                               <i data-lucide="copy"></i> Copy
+                           </button>
+                           <button id="downloadConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
+                               <i data-lucide="download"></i> Download
+                           </button>
+                           <button id="shareConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
+                                <i data-lucide="share-2"></i> Share
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -628,19 +631,17 @@ function generate_full_html(
                      <div class="grid grid-cols-1 gap-y-8 items-start">
                         <div>
                              <textarea id="composedResultText" readonly class="w-full h-48 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
-                             <!-- Inside #composerResultArea -->
-<div class="flex items-center gap-2 mt-2">
-    <button id="copyComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
-        <i data-lucide="copy"></i> Copy
-    </button>
-    <button id="downloadComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
-        <i data-lucide="download"></i> Download
-    </button>
-    <!-- EDIT: STEP 2-A - ADD THE COMPOSER SHARE BUTTON -->
-    <button id="shareComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
-        <i data-lucide="share-2"></i> Share
-    </button>
-</div>
+                             <div class="flex items-center gap-2 mt-2">
+                                <button id="copyComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
+                                    <i data-lucide="copy"></i> Copy
+                                </button>
+                                <button id="downloadComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
+                                    <i data-lucide="download"></i> Download
+                                </button>
+                                <button id="shareComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
+                                    <i data-lucide="share-2"></i> Share
+                                </button>
+                            </div>
                         </div>
                      </div>
                 </div>
@@ -939,6 +940,9 @@ class ShzAlClient {
         const clientInfoData = __CLIENT_INFO_PLACEHOLDER__;
         
         // --- DOM REFERENCES ---
+        const modeSlider = document.getElementById('mode-slider');
+        const modeButtons = document.querySelectorAll('.mode-btn');
+
         // Simple Mode
         const configTypeSelect = document.getElementById('configType');
         const ipTypeSelect = document.getElementById('ipType');
@@ -950,20 +954,24 @@ class ShzAlClient {
         const qrcodeDiv = document.getElementById('qrcode');
         const clientInfoList = document.getElementById('client-info-list');
         const subscriptionDetailsContainer = document.getElementById('subscription-details-container');
+        
         // DNA Modal
         const analyzeButton = document.getElementById('analyzeButton');
         const dnaModal = document.getElementById('dnaModal');
         const dnaModalCloseButton = document.getElementById('dnaModalCloseButton');
+        
         // Message Box
         const messageBox = document.getElementById('messageBox');
         const messageBoxText = document.getElementById('messageBoxText');
         const messageBoxClose = document.getElementById('messageBoxClose');
         
-        // Composer Mode
-        const simpleModeButton = document.getElementById('simpleModeButton');
-        const composerModeButton = document.getElementById('composerModeButton');
+        // Mode Containers
         const simpleModeContainer = document.getElementById('simpleModeContainer');
         const composerModeContainer = document.getElementById('composerModeContainer');
+        const splitterModeContainer = document.getElementById('splitterModeContainer');
+        const compilerModeContainer = document.getElementById('compilerModeContainer');
+        
+        // Composer Mode
         const composerSourceList = document.getElementById('composerSourceList');
         const composerProtocolFilters = document.getElementById('composerProtocolFilters');
         const generateCompositionButton = document.getElementById('generateCompositionButton');
@@ -971,10 +979,16 @@ class ShzAlClient {
         const composedResultText = document.getElementById('composedResultText');
         const copyComposedButton = document.getElementById('copyComposedButton');
         const downloadComposedButton = document.getElementById('downloadComposedButton');
+        
+        // Splitter Mode
+        const splitterUrlInput = document.getElementById('splitterUrlInput');
+        const splitSubscriptionButton = document.getElementById('splitSubscriptionButton');
+        const splitterResultArea = document.getElementById('splitterResultArea');
+        const splitterResultList = document.getElementById('splitterResultList');
+        const chunkSizeContainer = document.getElementById('chunkSizeContainer');
+        const chunkSizeInput = document.getElementById('chunkSizeInput');
 
-        // --- DOM REFERENCES for Compiler ---
-        const compilerModeButton = document.getElementById('compilerModeButton');
-        const compilerModeContainer = document.getElementById('compilerModeContainer');
+        // Compiler Mode
         const compilerInputFormat = document.getElementById('compilerInputFormat');
         const compilerOutputFormat = document.getElementById('compilerOutputFormat');
         const compilerInputText = document.getElementById('compilerInputText');
@@ -1070,6 +1084,41 @@ async function handleShare(contentToUpload, buttonElement) {
                 }
                 // If it's not a TypeError, it's a different issue, so re-throw it.
                 throw error;
+            }
+        }
+
+        // --- CORE NAVIGATION LOGIC ---
+        function switchMode(activeMode) {
+            const allModes = {
+                simple: { container: simpleModeContainer, index: 0 },
+                composer: { container: composerModeContainer, index: 1 },
+                splitter: { container: splitterModeContainer, index: 2 },
+                compiler: { container: compilerModeContainer, index: 3 }
+            };
+
+            // 1. Move the slider
+            const activeIndex = allModes[activeMode].index;
+            if (modeSlider) {
+                modeSlider.style.transform = `translateX(${activeIndex * 100}%)`;
+            }
+
+            // 2. Hide all containers and result areas
+            Object.values(allModes).forEach(mode => mode.container.classList.add('hidden'));
+            resultArea.classList.add('hidden');
+            composerResultArea.classList.add('hidden');
+            splitterResultArea.classList.add('hidden');
+            compilerResultArea.classList.add('hidden');
+            
+            // 3. Highlight the active button's text
+            modeButtons.forEach(btn => btn.classList.remove('text-indigo-600'));
+            const activeButton = document.querySelector(`.mode-btn[data-id='${activeMode}']`);
+            if(activeButton) {
+                activeButton.classList.add('text-indigo-600');
+            }
+
+            // 4. Show the active container
+            if (allModes[activeMode]) {
+                allModes[activeMode].container.classList.remove('hidden');
             }
         }
 
@@ -1650,35 +1699,7 @@ async function handleShare(contentToUpload, buttonElement) {
             button.disabled = false; buttonText.textContent = 'Generate Composed Subscription';
         }
 
-                // ====================================================================
-        // SUBSCRIPTION SPLITTER LOGIC
-        // ====================================================================
-
-        // --- DOM REFERENCES for Splitter ---
-        const splitterModeButton = document.getElementById('splitterModeButton');
-        const splitterModeContainer = document.getElementById('splitterModeContainer');
-        const splitterUrlInput = document.getElementById('splitterUrlInput');
-        const splitSubscriptionButton = document.getElementById('splitSubscriptionButton');
-        const splitterResultArea = document.getElementById('splitterResultArea');
-        const splitterResultList = document.getElementById('splitterResultList');
-        const chunkSizeContainer = document.getElementById('chunkSizeContainer');
-        const chunkSizeInput = document.getElementById('chunkSizeInput');
-
-        // --- Event Listeners for Splitter ---
-        splitterModeButton.addEventListener('click', () => {
-            simpleModeContainer.classList.add('hidden');
-            composerModeContainer.classList.add('hidden');
-            splitterModeContainer.classList.remove('hidden');
-
-            resultArea.classList.add('hidden');
-            composerResultArea.classList.add('hidden');
-
-            simpleModeButton.classList.replace('mode-button-active', 'mode-button-inactive');
-            composerModeButton.classList.replace('mode-button-active', 'mode-button-inactive');
-            splitterModeButton.classList.replace('mode-button-inactive', 'mode-button-active');
-        });
-
-        // Show/hide chunk size input based on strategy
+        // --- SUBSCRIPTION SPLITTER LOGIC ---
         document.querySelectorAll('input[name="split_strategy"]').forEach(radio => {
             radio.addEventListener('change', (e) => {
                 if (e.target.value === 'chunk') {
@@ -1689,108 +1710,105 @@ async function handleShare(contentToUpload, buttonElement) {
             });
         });
 
-        // AFTER (The corrected code):
-
-splitSubscriptionButton.addEventListener('click', async () => {
-    const url = splitterUrlInput.value;
-    if (!url) {
-        showMessageBox('Please paste a subscription URL to split.');
-        return;
-    }
-
-    const button = splitSubscriptionButton;
-    const buttonText = document.getElementById('splitButtonText');
-    button.disabled = true;
-    buttonText.textContent = 'Parsing...';
-    splitterResultArea.classList.add('hidden');
-    splitterResultList.innerHTML = '';
-
-    try {
-        const response = await fetchWithCorsFallback(url);
-        if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
-        
-        const content = await response.text();
-        const decoded = atob(content);
-        const uris = decoded.split(/[\n\r]+/).filter(Boolean);
-
-        if (uris.length === 0) throw new Error('No proxy nodes found in the subscription.');
-        
-        buttonText.textContent = 'Splitting...';
-
-        const nodes = uris.map(uri => {
-            const parsed = configParse(uri);
-            return parsed ? { uri, parsed } : null;
-        }).filter(Boolean);
-        
-        const strategy = document.querySelector('input[name="split_strategy"]:checked').value;
-        let groupedNodes = {};
-
-        if (strategy === 'country') {
-            nodes.forEach(node => {
-                const name = node.parsed.ps || node.parsed.hash || 'Unknown';
-                const countryMatch = name.match(/\[([A-Z]{2})\]|\b([A-Z]{2})\b/i);
-                const countryCode = countryMatch ? (countryMatch[1] || countryMatch[2]).toUpperCase() : 'Unknown';
-                if (!groupedNodes[countryCode]) groupedNodes[countryCode] = [];
-                groupedNodes[countryCode].push(node);
-            });
-        } else if (strategy === 'protocol') {
-            nodes.forEach(node => {
-                const protocol = node.parsed.protocol || 'unknown';
-                if (!groupedNodes[protocol]) groupedNodes[protocol] = [];
-                groupedNodes[protocol].push(node);
-            });
-        } else { // chunk
-            const chunkSize = parseInt(chunkSizeInput.value, 10) || 50;
-            for (let i = 0; i < nodes.length; i += chunkSize) {
-                const chunk = nodes.slice(i, i + chunkSize);
-                const chunkName = `Chunk ${Math.floor(i / chunkSize) + 1}`;
-                groupedNodes[chunkName] = chunk;
-            }
-        }
-
-        // Render the results
-        Object.entries(groupedNodes).sort((a,b) => a[0].localeCompare(b[0])).forEach(([groupName, groupNodes]) => {
-            const nodeCount = groupNodes.length;
-            const base64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
-            
-            let displayName = groupName;
-            if (strategy === 'country' && groupName !== 'Unknown') {
-                displayName = `${getFlagEmoji(groupName)} ${getCountryName(groupName)}`;
-            } else if (strategy === 'protocol') {
-                displayName = formatDisplayName(groupName);
+        splitSubscriptionButton.addEventListener('click', async () => {
+            const url = splitterUrlInput.value;
+            if (!url) {
+                showMessageBox('Please paste a subscription URL to split.');
+                return;
             }
 
-            const resultItem = document.createElement('div');
-            resultItem.className = 'bg-white border rounded-lg p-3 flex items-center justify-between';
-            resultItem.innerHTML = `
-                <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
-                <div class="flex items-center gap-2">
-                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${base64Content}">
-                        <i data-lucide="copy" class="h-5 w-5"></i>
-                    </button>
-                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${base64Content}">
-                        <i data-lucide="share-2" class="h-5 w-5"></i>
-                    </button>
-                    <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
-                        <i data-lucide="qr-code" class="h-5 w-5"></i>
-                    </div>
-                </div>
-            `;
-            splitterResultList.appendChild(resultItem);
-        }); // <-- FIX #1: The forEach loop is now correctly closed with a parenthesis and brace.
+            const button = splitSubscriptionButton;
+            const buttonText = document.getElementById('splitButtonText');
+            button.disabled = true;
+            buttonText.textContent = 'Parsing...';
+            splitterResultArea.classList.add('hidden');
+            splitterResultList.innerHTML = '';
 
-        splitterResultArea.classList.remove('hidden'); // <-- FIX #2: This is now outside the loop, so it only runs once.
+            try {
+                const response = await fetchWithCorsFallback(url);
+                if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
+                
+                const content = await response.text();
+                const decoded = atob(content);
+                const uris = decoded.split(/[\n\r]+/).filter(Boolean);
 
-    } catch (error) { // <-- This is now in the correct position.
-        showMessageBox(`Splitting Failed: ${error.message}`);
-    } finally {
-        button.disabled = false;
-        buttonText.textContent = 'Split Subscription';
-        lucide.createIcons(); // Re-render icons for new buttons
-    }
-});
+                if (uris.length === 0) throw new Error('No proxy nodes found in the subscription.');
+                
+                buttonText.textContent = 'Splitting...';
 
-        // Add event delegation for copy and QR buttons
+                const nodes = uris.map(uri => {
+                    const parsed = configParse(uri);
+                    return parsed ? { uri, parsed } : null;
+                }).filter(Boolean);
+                
+                const strategy = document.querySelector('input[name="split_strategy"]:checked').value;
+                let groupedNodes = {};
+
+                if (strategy === 'country') {
+                    nodes.forEach(node => {
+                        const name = node.parsed.ps || node.parsed.hash || 'Unknown';
+                        const countryMatch = name.match(/\[([A-Z]{2})\]|\b([A-Z]{2})\b/i);
+                        const countryCode = countryMatch ? (countryMatch[1] || countryMatch[2]).toUpperCase() : 'Unknown';
+                        if (!groupedNodes[countryCode]) groupedNodes[countryCode] = [];
+                        groupedNodes[countryCode].push(node);
+                    });
+                } else if (strategy === 'protocol') {
+                    nodes.forEach(node => {
+                        const protocol = node.parsed.protocol || 'unknown';
+                        if (!groupedNodes[protocol]) groupedNodes[protocol] = [];
+                        groupedNodes[protocol].push(node);
+                    });
+                } else { // chunk
+                    const chunkSize = parseInt(chunkSizeInput.value, 10) || 50;
+                    for (let i = 0; i < nodes.length; i += chunkSize) {
+                        const chunk = nodes.slice(i, i + chunkSize);
+                        const chunkName = `Chunk ${Math.floor(i / chunkSize) + 1}`;
+                        groupedNodes[chunkName] = chunk;
+                    }
+                }
+
+                // Render the results
+                Object.entries(groupedNodes).sort((a,b) => a[0].localeCompare(b[0])).forEach(([groupName, groupNodes]) => {
+                    const nodeCount = groupNodes.length;
+                    const base64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
+                    
+                    let displayName = groupName;
+                    if (strategy === 'country' && groupName !== 'Unknown') {
+                        displayName = `${getFlagEmoji(groupName)} ${getCountryName(groupName)}`;
+                    } else if (strategy === 'protocol') {
+                        displayName = formatDisplayName(groupName);
+                    }
+
+                    const resultItem = document.createElement('div');
+                    resultItem.className = 'bg-white border rounded-lg p-3 flex items-center justify-between';
+                    resultItem.innerHTML = `
+                        <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
+                        <div class="flex items-center gap-2">
+                            <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${base64Content}">
+                                <i data-lucide="copy" class="h-5 w-5"></i>
+                            </button>
+                            <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${base64Content}">
+                                <i data-lucide="share-2" class="h-5 w-5"></i>
+                            </button>
+                            <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
+                                <i data-lucide="qr-code" class="h-5 w-5"></i>
+                            </div>
+                        </div>
+                    `;
+                    splitterResultList.appendChild(resultItem);
+                });
+
+                splitterResultArea.classList.remove('hidden');
+
+            } catch (error) {
+                showMessageBox(`Splitting Failed: ${error.message}`);
+            } finally {
+                button.disabled = false;
+                buttonText.textContent = 'Split Subscription';
+                lucide.createIcons();
+            }
+        });
+
         splitterResultList.addEventListener('click', e => {
             const copyBtn = e.target.closest('.splitter-copy-btn');
             const qrBtn = e.target.closest('.splitter-qr-btn');
@@ -1802,20 +1820,19 @@ splitSubscriptionButton.addEventListener('click', async () => {
             }
 			
 			if (shareBtn) {
-        const content = shareBtn.dataset.uri; // This is the base64 content
-        handleShare(content, shareBtn);
-    }
+                const content = shareBtn.dataset.uri;
+                handleShare(content, shareBtn);
+            }
 
             if (qrBtn) {
-                const dataUri = qrBtn.previousElementSibling.dataset.uri;
-                const MAX_QR_LENGTH = 2500; // Define a safe max length
+                const dataUri = qrBtn.previousElementSibling.previousElementSibling.dataset.uri;
+                const MAX_QR_LENGTH = 2500;
 
-                // Reuse DNA modal for display
                 const modalContent = document.getElementById('dnaModalContent');
                 const loadingStateDiv = document.getElementById('dnaLoadingState');
                 
-                // Always reset the modal content
-                loadingStateDiv.innerHTML = `<div class="p-4 bg-white"><div id="splitterQrCodeContainer"></div></div>`;
+                loadingStateDiv.innerHTML = `<div class="p-4 bg-white"><div id="splitterQrCodeContainer" class="flex justify-center"></div></div>`;
+                loadingStateDiv.classList.remove('hidden');
                 document.getElementById('dnaResultsContainer').classList.add('hidden');
                 document.getElementById('modalSubscriptionName').textContent = `QR Code`;
                 dnaModal.classList.remove('hidden');
@@ -1824,116 +1841,15 @@ splitSubscriptionButton.addEventListener('click', async () => {
                 const qrContainer = document.getElementById('splitterQrCodeContainer');
 
                 if (dataUri.length > MAX_QR_LENGTH) {
-                    // If content is too long, display a message instead
-                    qrContainer.innerHTML = `
-                        <div class="h-64 flex items-center justify-center text-center text-lg text-slate-600 bg-slate-50 rounded-md p-4">
-                            Content is too large for a QR code.<br><br>Please use the "Copy Link" button instead.
-                        </div>
-                    `;
+                    qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-center text-lg text-slate-600 bg-slate-50 rounded-md p-4">Content is too large for a QR code.</div>`;
                 } else {
-                    // If content length is okay, generate the QR code
-                    try {
-                        new QRCode(qrContainer, { 
-                            text: dataUri, 
-                            width: 256, 
-                            height: 256 
-                        });
-                    } catch (e) {
-                        console.error("QR Code generation failed:", e);
-                        qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-red-500">Error generating QR Code.</div>`;
-                    }
+                    try { new QRCode(qrContainer, { text: dataUri, width: 256, height: 256 }); }
+                    catch (e) { qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-red-500">Error generating QR Code.</div>`; }
                 }
             }
         });
 
-        // --- EVENT LISTENERS ---
-
-        // Centralized function to manage all tabs and containers
-        function switchMode(activeMode) {
-            const modes = {
-                simple: { button: simpleModeButton, container: simpleModeContainer },
-                composer: { button: composerModeButton, container: composerModeContainer },
-                splitter: { button: splitterModeButton, container: splitterModeContainer },
-                compiler: { button: compilerModeButton, container: compilerModeContainer }
-            };
-
-            // Deactivate all modes
-            Object.values(modes).forEach(mode => {
-                mode.button.classList.remove('mode-button-active');
-                mode.button.classList.add('mode-button-inactive');
-                mode.container.classList.add('hidden');
-            });
-
-            // Hide all result areas
-            resultArea.classList.add('hidden');
-            composerResultArea.classList.add('hidden');
-            splitterResultArea.classList.add('hidden');
-            compilerResultArea.classList.add('hidden');
-
-            // Activate the selected mode
-            if (modes[activeMode]) {
-                modes[activeMode].button.classList.add('mode-button-active');
-                modes[activeMode].button.classList.remove('mode-button-inactive');
-                modes[activeMode].container.classList.remove('hidden');
-            }
-        }
-
-        // Assign the new function to each button's click event
-        simpleModeButton.addEventListener('click', () => switchMode('simple'));
-        composerModeButton.addEventListener('click', () => switchMode('composer'));
-        splitterModeButton.addEventListener('click', () => switchMode('splitter'));
-        compilerModeButton.addEventListener('click', () => switchMode('compiler'));
-
-        // --- ALL OTHER EVENT LISTENERS (UNCHANGED) ---
-        configTypeSelect.addEventListener('change', () => { resetSelect(ipTypeSelect, 'Select Client/Core'); resetSelect(otherElementSelect, 'Select Subscription'); searchBar.value = ''; searchBar.disabled = true; resultArea.classList.add('hidden'); if (configTypeSelect.value && structuredData[configTypeSelect.value]) { populateSelect(ipTypeSelect, Object.keys(structuredData[configTypeSelect.value]), 'Select Client/Core'); ipTypeSelect.disabled = false; } });
-        ipTypeSelect.addEventListener('change', () => { searchBar.value = ''; if (ipTypeSelect.value) { updateClientInfo(ipTypeSelect.value); resultArea.classList.remove('hidden'); subscriptionDetailsContainer.classList.add('hidden'); searchBar.disabled = false; updateOtherElementOptions(); } else { resultArea.classList.add('hidden'); searchBar.disabled = true; resetSelect(otherElementSelect, 'Select Subscription'); } });
-        searchBar.addEventListener('input', updateOtherElementOptions);
-        otherElementSelect.addEventListener('change', () => { const url = structuredData[configTypeSelect.value]?.[ipTypeSelect.value]?.[otherElementSelect.value]; if (url) { subscriptionUrlInput.value = url; updateQRCode(qrcodeDiv, url); subscriptionDetailsContainer.classList.remove('hidden'); } else { subscriptionDetailsContainer.classList.add('hidden'); } });
-        copyButton.addEventListener('click', () => { navigator.clipboard.writeText(subscriptionUrlInput.value).then(() => { const icon = copyButton.querySelector('.copy-icon'), check = copyButton.querySelector('.check-icon'); icon.classList.add('hidden'); check.classList.remove('hidden'); setTimeout(() => { icon.classList.remove('hidden'); check.classList.add('hidden'); }, 2000); }); });
-        messageBoxClose.addEventListener('click', () => messageBox.classList.add('hidden'));
-        generateCompositionButton.addEventListener('click', handleGenerateComposition);
-        copyComposedButton.addEventListener('click', () => { navigator.clipboard.writeText(composedResultText.value).then(() => showMessageBox('Copied to clipboard!')); });
-        downloadComposedButton.addEventListener('click', () => { const blob = new Blob([composedResultText.value], { type: 'text/plain' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = composedResultText.dataset.filename || 'psg-config.txt'; document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url); });
-		document.getElementById('shareComposedButton').addEventListener('click', (e) => {
-    const content = document.getElementById('composedResultText').value;
-    handleShare(content, e.currentTarget);
-});
-
-document.getElementById('shareConvertedButton').addEventListener('click', (e) => {
-    const content = document.getElementById('compilerResultText').value;
-    handleShare(content, e.currentTarget);
-});
-
-        // --- INITIALIZATION ---
-        populateSelect(configTypeSelect, Object.keys(structuredData), 'Select Config Type');
-        configTypeSelect.disabled = false;
-        populateComposerSources();
-        lucide.createIcons();
-
-        // ====================================================================
-        // PROXY CROSS-COMPILER LOGIC
-        // ====================================================================
-
-        
-
-        // --- Event Listeners for Compiler ---
-        compilerModeButton.addEventListener('click', () => {
-            simpleModeContainer.classList.add('hidden');
-            composerModeContainer.classList.add('hidden');
-            splitterModeContainer.classList.add('hidden');
-            compilerModeContainer.classList.remove('hidden');
-
-            resultArea.classList.add('hidden');
-            composerResultArea.classList.add('hidden');
-            splitterResultArea.classList.add('hidden');
-            compilerResultArea.classList.add('hidden');
-
-            simpleModeButton.classList.replace('mode-button-active', 'mode-button-inactive');
-            composerModeButton.classList.replace('mode-button-active', 'mode-button-inactive');
-            splitterModeButton.classList.replace('mode-button-active', 'mode-button-inactive');
-            compilerModeButton.classList.replace('mode-button-inactive', 'mode-button-active');
-        });
-
+        // --- CROSS-COMPILER LOGIC ---
         convertButton.addEventListener('click', async () => {
             const buttonText = document.getElementById('convertButtonText');
             let inputText = compilerInputText.value.trim();
@@ -1948,7 +1864,6 @@ document.getElementById('shareConvertedButton').addEventListener('click', (e) =>
             compilerResultArea.classList.add('hidden');
 
             try {
-                // Step 1: Get the raw config content
                 let rawContent = '';
                 const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
                 
@@ -1961,7 +1876,6 @@ document.getElementById('shareConvertedButton').addEventListener('click', (e) =>
                     rawContent = inputText;
                 }
 
-                // Step 2: Parse the input content into a universal node list
                 buttonText.textContent = 'Parsing...';
                 const inputFormat = compilerInputFormat.value;
                 let universalNodes = [];
@@ -1976,12 +1890,9 @@ document.getElementById('shareConvertedButton').addEventListener('click', (e) =>
                 } else if (inputFormat === 'clash') {
                     const parsedYaml = jsyaml.load(rawContent);
                     if (!parsedYaml.proxies || !Array.isArray(parsedYaml.proxies)) throw new Error('Invalid Clash file: "proxies" array not found.');
-                    // We need to reverse-engineer the URIs. This is an approximation.
                     parsedYaml.proxies.forEach(p => {
-                        // This is a simplified reconstruction; it may not capture all details perfectly
-                        // but is good enough for cross-compilation.
                         let uri = `${p.type}://${p.uuid || p.password}@${p.server}:${p.port}#${encodeURIComponent(p.name)}`;
-                        const parsed = configParse(uri); // Re-parse to standardize
+                        const parsed = configParse(uri);
                         if(parsed) universalNodes.push({ uri, parsed });
                     });
                 } else if (inputFormat === 'singbox') {
@@ -2000,23 +1911,15 @@ document.getElementById('shareConvertedButton').addEventListener('click', (e) =>
 
                 if (universalNodes.length === 0) throw new Error("No compatible proxy nodes could be extracted from the input.");
 
-                // Step 3: Generate the output in the desired format
                 buttonText.textContent = 'Compiling...';
                 const outputFormat = compilerOutputFormat.value;
                 let outputContent = '';
                 let fileExtension = 'txt';
                 
-                if (outputFormat === 'base64') {
-                    outputContent = generateBase64Output(universalNodes);
-                } else if (outputFormat === 'clash') {
-                    outputContent = await generateClashOutput(universalNodes);
-                    fileExtension = 'yaml';
-                } else if (outputFormat === 'singbox') {
-                    outputContent = await generateSingboxOutput(universalNodes);
-                    fileExtension = 'json';
-                }
+                if (outputFormat === 'base64') { outputContent = generateBase64Output(universalNodes); } 
+                else if (outputFormat === 'clash') { outputContent = await generateClashOutput(universalNodes); fileExtension = 'yaml'; } 
+                else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(universalNodes); fileExtension = 'json'; }
                 
-                // Step 4: Display results
                 compilerResultTitle.textContent = `Successfully converted ${universalNodes.length} nodes from ${inputFormat.toUpperCase()} to ${outputFormat.toUpperCase()}.`;
                 compilerResultText.value = outputContent;
                 downloadConvertedButton.setAttribute('data-filename', `PSG-converted-config.${fileExtension}`);
@@ -2031,20 +1934,42 @@ document.getElementById('shareConvertedButton').addEventListener('click', (e) =>
             }
         });
 
-        copyConvertedButton.addEventListener('click', () => {
-            navigator.clipboard.writeText(compilerResultText.value).then(() => showMessageBox('Copied to clipboard!'));
+        // --- EVENT LISTENERS ---
+        // NEW: Event listener for the segmented control buttons
+        modeButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                const targetMode = e.currentTarget.dataset.id; // Gets 'simple', 'composer', etc.
+                switchMode(targetMode);
+            });
         });
-        downloadConvertedButton.addEventListener('click', (e) => {
-            const blob = new Blob([compilerResultText.value], { type: 'text/plain;charset=utf-8' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = e.currentTarget.getAttribute('data-filename') || 'psg-converted.txt';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+
+        configTypeSelect.addEventListener('change', () => { resetSelect(ipTypeSelect, 'Select Client/Core'); resetSelect(otherElementSelect, 'Select Subscription'); searchBar.value = ''; searchBar.disabled = true; resultArea.classList.add('hidden'); if (configTypeSelect.value && structuredData[configTypeSelect.value]) { populateSelect(ipTypeSelect, Object.keys(structuredData[configTypeSelect.value]), 'Select Client/Core'); ipTypeSelect.disabled = false; } });
+        ipTypeSelect.addEventListener('change', () => { searchBar.value = ''; if (ipTypeSelect.value) { updateClientInfo(ipTypeSelect.value); resultArea.classList.remove('hidden'); subscriptionDetailsContainer.classList.add('hidden'); searchBar.disabled = false; updateOtherElementOptions(); } else { resultArea.classList.add('hidden'); searchBar.disabled = true; resetSelect(otherElementSelect, 'Select Subscription'); } });
+        searchBar.addEventListener('input', updateOtherElementOptions);
+        otherElementSelect.addEventListener('change', () => { const url = structuredData[configTypeSelect.value]?.[ipTypeSelect.value]?.[otherElementSelect.value]; if (url) { subscriptionUrlInput.value = url; updateQRCode(qrcodeDiv, url); subscriptionDetailsContainer.classList.remove('hidden'); } else { subscriptionDetailsContainer.classList.add('hidden'); } });
+        copyButton.addEventListener('click', () => { navigator.clipboard.writeText(subscriptionUrlInput.value).then(() => { const icon = copyButton.querySelector('.copy-icon'), check = copyButton.querySelector('.check-icon'); icon.classList.add('hidden'); check.classList.remove('hidden'); setTimeout(() => { icon.classList.remove('hidden'); check.classList.add('hidden'); }, 2000); }); });
+        messageBoxClose.addEventListener('click', () => messageBox.classList.add('hidden'));
+        generateCompositionButton.addEventListener('click', handleGenerateComposition);
+        copyComposedButton.addEventListener('click', () => { navigator.clipboard.writeText(composedResultText.value).then(() => showMessageBox('Copied to clipboard!')); });
+        downloadComposedButton.addEventListener('click', () => { const blob = new Blob([composedResultText.value], { type: 'text/plain' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = composedResultText.dataset.filename || 'psg-config.txt'; document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url); });
+        copyConvertedButton.addEventListener('click', () => { navigator.clipboard.writeText(compilerResultText.value).then(() => showMessageBox('Copied to clipboard!')); });
+        downloadConvertedButton.addEventListener('click', (e) => { const blob = new Blob([compilerResultText.value], { type: 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = e.currentTarget.getAttribute('data-filename') || 'psg-converted.txt'; document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url); });
+        
+        document.getElementById('shareComposedButton').addEventListener('click', (e) => {
+            const content = document.getElementById('composedResultText').value;
+            handleShare(content, e.currentTarget);
         });
+        document.getElementById('shareConvertedButton').addEventListener('click', (e) => {
+            const content = document.getElementById('compilerResultText').value;
+            handleShare(content, e.currentTarget);
+        });
+
+        // --- INITIALIZATION ---
+        populateSelect(configTypeSelect, Object.keys(structuredData), 'Select Config Type');
+        configTypeSelect.disabled = false;
+        populateComposerSources();
+        lucide.createIcons();
+        switchMode('simple'); // Set the initial state to "Simple" mode
 		
     });
     </script>
