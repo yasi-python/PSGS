@@ -583,17 +583,18 @@ function generate_full_html(
                         <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-2">Conversion Complete:</h3>
                         <p id="compilerResultTitle" class="text-sm text-slate-500 mb-4"></p>
                         <textarea id="compilerResultText" readonly class="w-full h-64 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
-                        <div class="flex items-center gap-2 mt-2">
-                           <button id="copyConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
-                               <i data-lucide="copy"></i> Copy
-                           </button>
-                           <button id="downloadConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
-                               <i data-lucide="download"></i> Download
-                           </button>
-                           <button id="shareConvertedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
-                                <i data-lucide="share-2"></i> Share
-                            </button>
-                        </div>
+                        <!-- Corrected Layout for Compiler Buttons -->
+<div class="grid grid-cols-3 items-center gap-2 mt-2">
+   <button id="copyConvertedButton" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
+       <i data-lucide="copy"></i> Copy
+   </button>
+   <button id="downloadConvertedButton" class="flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
+       <i data-lucide="download"></i> Download
+   </button>
+   <button id="shareConvertedButton" class="flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
+        <i data-lucide="share-2"></i> Share
+    </button>
+</div>
                     </div>
                 </div>
 
@@ -630,17 +631,18 @@ function generate_full_html(
                      <div class="grid grid-cols-1 gap-y-8 items-start">
                         <div>
                              <textarea id="composedResultText" readonly class="w-full h-48 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
-                             <div class="flex items-center gap-2 mt-2">
-                                <button id="copyComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
-                                    <i data-lucide="copy"></i> Copy
-                                </button>
-                                <button id="downloadComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
-                                    <i data-lucide="download"></i> Download
-                                </button>
-                                <button id="shareComposedButton" class="flex-grow flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
-                                    <i data-lucide="share-2"></i> Share
-                                </button>
-                            </div>
+                             <!-- Corrected Layout for Composer Buttons -->
+<div class="grid grid-cols-3 items-center gap-2 mt-2">
+    <button id="copyComposedButton" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
+        <i data-lucide="copy"></i> Copy
+    </button>
+    <button id="downloadComposedButton" class="flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
+        <i data-lucide="download"></i> Download
+    </button>
+    <button id="shareComposedButton" class="flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
+        <i data-lucide="share-2"></i> Share
+    </button>
+</div>
                         </div>
                      </div>
                 </div>
