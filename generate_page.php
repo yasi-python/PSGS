@@ -1514,7 +1514,7 @@ async function handleShare(contentToUpload, buttonElement) {
                 const p = node.parsed;
                 let clashNode = null;
                 switch(p.protocol) {
-                    case 'vmess': clashNode = { type: 'vmess', name: p.ps, server: p.add, port: parseInt(p.port), uuid: p.id, alterId: parseInt(p.aid) || 0, cipher: 'auto', udp: true, network: p.net, 'ws-opts': p.net === 'ws' ? { path: p.path.split('?')[0], headers: { Host: p.host } } : undefined }; break;
+                    case 'vmess': clashNode = { type: 'vmess', name: p.ps, server: p.add, port: parseInt(p.port), uuid: p.id, alterId: parseInt(p.aid) || 0, cipher: 'auto', udp: true, network: p.net, 'ws-opts': p.net === 'ws' ? { path: (p.path || '/').split('?')[0], headers: { Host: p.host || p.add } } : undefined }; break;
                     case 'vless': clashNode = { type: 'vless', name: p.hash, server: p.hostname, port: p.port, uuid: p.username, udp: true, network: p.params.type, tls: p.params.security === 'tls' || p.params.security === 'reality', 'client-fingerprint': 'chrome', 'ws-opts': p.params.type === 'ws' ? { path: p.params.path } : undefined, 'reality-opts': p.params.security === 'reality' ? { 'public-key': p.params.pbk, 'short-id': p.params.sid } : undefined, 'servername': p.params.sni }; break;
                     case 'trojan': clashNode = { type: 'trojan', name: p.hash, server: p.hostname, port: p.port, password: p.username, udp: true, sni: p.params.sni }; break;
                     case 'ss': clashNode = { type: 'ss', name: p.hash, server: p.hostname, port: p.port, cipher: p.encryption_method, password: p.password, udp: true }; break;
