@@ -152,13 +152,13 @@
                 "❔ XX | 🔴 | vless | @marzazad | 1",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "❔ XX | 🔴 | vless | @maxvpnc | 9",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇳🇱 NL | 🔴 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 83",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
@@ -281,13 +281,13 @@
                 "❔ XX | 🔴 | vless | @marzazad | 1",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "❔ XX | 🔴 | vless | @maxvpnc | 9",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇳🇱 NL | 🔴 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 83",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
@@ -1372,7 +1372,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
+            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1424,6 +1424,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🔴 | vless | @mowjproxy | 4",
+            "type": "vless",
+            "server": "dl3.downloadrigan.ip-ddns.com",
+            "server_port": 33727,
+            "uuid": "75167e23-8086-4ed1-b87b-6b2baa0ce5a2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dl3.downloadrigan.ip-ddns.com"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1473,22 +1489,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 83",
-            "type": "vless",
-            "server": "confident-club.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "confident-club.seotoolsforyou.co.uk"
-                }
             }
         },
         {
