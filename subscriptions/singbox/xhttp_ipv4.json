@@ -90,6 +90,8 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 43",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
@@ -97,8 +99,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
-                "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
-                "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
+                "🇳🇱 NL | 🟢 | vless | @ghalagyann | 17",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
@@ -140,6 +141,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 43",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
@@ -147,8 +150,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
-                "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
-                "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
+                "🇳🇱 NL | 🟢 | vless | @ghalagyann | 17",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
@@ -198,6 +200,38 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0134428a-02d8-4f94-8221-a1e858552212",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 43",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "1ea87307-1d00-4c15-af3f-b363f8562ac5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
+            "type": "vless",
+            "server": "91.99.218.14",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -325,11 +359,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
+            "tag": "🇳🇱 NL | 🟢 | vless | @ghalagyann | 17",
             "type": "vless",
             "server": "45.150.33.157",
             "server_port": 50810,
-            "uuid": "0a806f40-bd95-42c3-8457-f520f80bfd61",
+            "uuid": "1ea87307-1d00-4c15-af3f-b363f8562ac5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -344,29 +378,6 @@
                     "enabled": true,
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
-            "type": "vless",
-            "server": "138.199.168.187",
-            "server_port": 28153,
-            "uuid": "8611dbb2-fdd5-4ba3-b06f-bc10bb75deeb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
-                    "short_id": "b6f9"
                 }
             }
         },
