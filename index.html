@@ -271,63 +271,49 @@
                     </div>
                 </div>
 
-                <!-- Container for "Proxy Cross-Compiler Mode" -->
-                <div id="compilerModeContainer" class="hidden">
-                    <div class="space-y-6">
-                        <p class="text-center text-slate-600">Convert any subscription or configuration file from one format to another.</p>
-
-                        <!-- Input Section -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <label for="compilerInputFormat" class="block text-sm font-medium text-slate-700 mb-2">Input Format:</label>
-                                <select id="compilerInputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
-                                    <option value="base64" selected>Base64 URI List (Sub Link)</option>
-                                    <option value="uri_list">Plain Text (URI List)</option>
-                                    <option value="clash">Clash Profile (YAML)</option>
-                                    <option value="singbox">Sing-box Profile (JSON)</option>
-                                </select>
-                            </div>
-                             <div>
-                                <label for="compilerOutputFormat" class="block text-sm font-medium text-slate-700 mb-2">Output Format:</label>
-                                <select id="compilerOutputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
-                                    <option value="clash" selected>Clash Profile (YAML)</option>
-                                    <option value="singbox">Sing-box Profile (JSON)</option>
-                                    <option value="base64">Base64 URI List</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="compilerInputText" class="block text-sm font-medium text-slate-700 mb-2">Input URL or Raw Text:</label>
-                            <textarea id="compilerInputText" rows="6" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste subscription URL or raw config text here..."></textarea>
-                        </div>
-                        
-                        <!-- Action Button -->
-                        <button id="convertButton" class="w-full flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-3 rounded-md hover:bg-blue-700 transition-colors duration-200 disabled:bg-blue-300">
-                            <i data-lucide="refresh-cw" class="w-5 h-5"></i>
-                            <span id="convertButtonText" class="font-semibold">Convert</span>
-                        </button>
-                    </div>
-
-                    <!-- Compiler Result Area -->
-                    <div id="compilerResultArea" class="hidden mt-8 pt-6 border-t border-slate-200">
-                        <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-2">Conversion Complete:</h3>
-                        <p id="compilerResultTitle" class="text-sm text-slate-500 mb-4"></p>
-                        <textarea id="compilerResultText" readonly class="w-full h-64 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
-                        <!-- Corrected Layout for Compiler Buttons -->
-<div class="grid grid-cols-3 items-center gap-2 mt-2">
-   <button id="copyConvertedButton" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
-       <i data-lucide="copy"></i> Copy
-   </button>
-   <button id="downloadConvertedButton" class="flex items-center justify-center gap-2 bg-slate-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 transition-colors duration-200">
-       <i data-lucide="download"></i> Download
-   </button>
-   <button id="shareConvertedButton" class="flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700 transition-colors duration-200">
-        <i data-lucide="share-2"></i> Share
-    </button>
-</div>
-                    </div>
+                <!-- Container for "Proxy Converter Mode" -->
+<div id="compilerModeContainer" class="hidden">
+    <div class="space-y-8">
+        <p class="text-center text-slate-600">Automatically convert any subscription or config file from one format to another.</p>
+        
+        <!-- Main Conversion Flow UI -->
+        <div class="grid grid-cols-1 md:grid-cols-[2fr_auto_2fr] items-center gap-6">
+            <!-- Panel 1: Input -->
+            <div class="w-full">
+                <div class="flex justify-between items-center mb-2">
+                    <label for="compilerInputText" class="block text-sm font-medium text-slate-700">Input (URL or Raw Config)</label>
+                    <span id="detectedFormatBadge" class="text-xs font-semibold px-2 py-1 rounded-full bg-slate-200 text-slate-600 transition-all">Auto-Detect</span>
                 </div>
+                <textarea id="compilerInputText" rows="8" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste anything here..."></textarea>
+            </div>
+            
+            <!-- Arrow Separator -->
+            <div class="text-center">
+                <i data-lucide="arrow-right-circle" class="h-8 w-8 text-slate-400"></i>
+            </div>
+            
+            <!-- Panel 2: Output -->
+            <div class="w-full">
+                <label for="compilerOutputFormat" class="block text-sm font-medium text-slate-700 mb-2">Output Format</label>
+                <select id="compilerOutputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                    <option value="base64" selected>Base64 URI List</option>
+                    <option value="clash">Clash Profile (YAML)</option>
+                    <option value="singbox">Sing-box Profile (JSON)</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- Action Button -->
+        <button id="convertButton" class="w-full flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-3 rounded-md hover:bg-blue-700 transition-colors duration-200 disabled:bg-blue-300">
+            <i data-lucide="refresh-cw" class="w-5 h-5"></i>
+            <span id="convertButtonText" class="font-semibold">Convert</span>
+        </button>
+    </div>
+    <!-- The result area div remains the same -->
+    <div id="compilerResultArea" class="hidden mt-8 pt-6 border-t border-slate-200">
+        ...
+    </div>
+</div>
 
                 <!-- Result Area for Simple Mode -->
                 <div id="resultArea" class="hidden bg-slate-50 rounded-lg p-4 sm:p-6 border border-slate-200 mt-6">
@@ -392,7 +378,7 @@
             <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
-    <span>Last Generated: 2025-07-24 16:44:51 +0330</span>
+    <span>Last Generated: 2025-07-24 16:53:55 +0330</span>
 </p>
         </footer>
     </div>
@@ -736,10 +722,60 @@ class ShzAlClient {
         const compilerResultText = document.getElementById('compilerResultText');
         const copyConvertedButton = document.getElementById('copyConvertedButton');
         const downloadConvertedButton = document.getElementById('downloadConvertedButton');
+	// --- Add for Compiler Wizard ---
+const detectedFormatBadge = document.getElementById('detectedFormatBadge');
+let detectedInputFormat = null; // To store the auto-detected format
 
         let charts = {};
 
         // --- UTILITY FUNCTIONS ---
+	    /**
+ * Analyzes a string to detect its configuration format.
+ * @param {string} text - The raw input text.
+ * @returns {string|null} The detected format ('clash', 'singbox', 'base64', 'uri_list') or null.
+ */
+function detectInputFormat(text) {
+    const trimmedText = text.trim();
+    
+    // 1. Check for plain URI lists
+    if (trimmedText.startsWith('vless://') || trimmedText.startsWith('vmess://') || trimmedText.startsWith('trojan://') || trimmedText.startsWith('ss://')) {
+        return 'uri_list';
+    }
+
+    // 2. Check for JSON (Sing-box)
+    try {
+        const parsed = JSON.parse(trimmedText);
+        if (parsed && typeof parsed === 'object' && parsed.outbounds) {
+            return 'singbox';
+        }
+    } catch (e) { /* Not JSON */ }
+
+    // 3. Check for YAML (Clash)
+    try {
+        // A simple heuristic: valid Clash configs usually have 'proxies:'
+        if (trimmedText.includes('proxies:') || trimmedText.includes('proxy-groups:')) {
+            const parsed = jsyaml.load(trimmedText);
+            if (parsed && typeof parsed === 'object') {
+                return 'clash';
+            }
+        }
+    } catch (e) { /* Not YAML */ }
+
+    // 4. Check for Base64
+    // Must not contain spaces and only valid Base64 chars
+    const cleanedText = text.replace(/\s/g, '');
+    if (/^[A-Za-z0-9+/=]+$/.test(cleanedText)) {
+         try {
+            // Final check: does it decode to something that looks like a URI list?
+            const decoded = atob(cleanedText);
+            if (decoded.includes('://')) {
+                return 'base64';
+            }
+         } catch(e) { /* Not valid Base64 after all */ }
+    }
+
+    return null; // Could not determine format
+}
 /**
  * Uploads content to shz.al and shows the user the shareable URL.
  * @param {string} contentToUpload The text content to upload.
@@ -1683,95 +1719,101 @@ async function handleShare(contentToUpload, buttonElement) {
 
         // --- CROSS-COMPILER LOGIC ---
         convertButton.addEventListener('click', async () => {
-            const buttonText = document.getElementById('convertButtonText');
-            let inputText = compilerInputText.value.trim();
+    const buttonText = document.getElementById('convertButtonText');
+    let inputText = compilerInputText.value.trim();
 
-            if (!inputText) {
-                showMessageBox('Please paste a URL or raw config text.');
-                return;
-            }
+    if (!inputText) {
+        showMessageBox('Please paste a URL or raw config text.');
+        return;
+    }
 
-            convertButton.disabled = true;
-            buttonText.textContent = 'Working...';
-            compilerResultArea.classList.add('hidden');
+    // Use the auto-detected format. If it's null, try one last time.
+    const inputFormat = detectedInputFormat || detectInputFormat(inputText);
 
-            try {
-                let rawContent = '';
-                const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
-                
-                if (isUrl) {
-                    buttonText.textContent = 'Fetching URL...';
-                    const response = await fetchWithCorsFallback(inputText);
-                    if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
-                    rawContent = await response.text();
-                } else {
-                    rawContent = inputText;
-                }
+    if (!inputFormat) {
+        showMessageBox("Could not determine the input format. Please check your config.");
+        return;
+    }
 
-                buttonText.textContent = 'Parsing...';
-                const inputFormat = compilerInputFormat.value;
-                let universalNodes = [];
+    convertButton.disabled = true;
+    buttonText.textContent = 'Working...';
+    compilerResultArea.classList.add('hidden');
 
-                if (inputFormat === 'base64') {
-                    const decoded = atob(rawContent);
-                    const uris = decoded.split(/[\n\r]+/).filter(Boolean);
-                    uris.forEach(uri => {
-                        const parsed = configParse(uri);
-                        if(parsed) universalNodes.push({ uri, parsed });
+    try {
+        let rawContent = '';
+        const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
+        
+        if (isUrl) {
+            buttonText.textContent = 'Fetching URL...';
+            const response = await fetchWithCorsFallback(inputText);
+            if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
+            rawContent = await response.text();
+        } else {
+            rawContent = inputText;
+        }
+
+        buttonText.textContent = 'Parsing...';
+        let universalNodes = [];
+        let uris = [];
+
+        // --- NEW PARSING LOGIC BASED ON DETECTED FORMAT ---
+        switch (inputFormat) {
+            case 'base64':
+                uris = atob(rawContent.replace(/\s/g, '')).split(/[\n\r]+/).filter(Boolean);
+                break;
+            case 'uri_list':
+                uris = rawContent.split(/[\n\r]+/).filter(Boolean);
+                break;
+            case 'clash':
+                const parsedYaml = jsyaml.load(rawContent);
+                if (!parsedYaml.proxies || !Array.isArray(parsedYaml.proxies)) throw new Error('Invalid Clash file: "proxies" array not found.');
+                uris = parsedYaml.proxies.map(p => {
+                     // A simple attempt to reverse-engineer a URI. May not be perfect for all types.
+                     const name = encodeURIComponent(p.name);
+                     return `${p.type}://${p.uuid || p.password || ''}@${p.server}:${p.port}#${name}`;
+                });
+                break;
+            case 'singbox':
+                const jsonString = rawContent.replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g, (m, g) => g ? "" : m);
+                const parsedJson = JSON.parse(jsonString);
+                if (!parsedJson.outbounds || !Array.isArray(parsedJson.outbounds)) throw new Error('Invalid Sing-box file: "outbounds" array not found.');
+                const utilityTypes = ['selector', 'urltest', 'direct', 'block', 'dns'];
+                uris = parsedJson.outbounds
+                    .filter(o => o.type && !utilityTypes.includes(o.type))
+                    .map(o => {
+                         const name = encodeURIComponent(o.tag);
+                         return `${o.type}://${o.uuid || o.password || ''}@${o.server}:${o.server_port}#${name}`;
                     });
-                } else if (inputFormat === 'uri_list') {
-                    // This handles a plain text list of URIs, one per line. No atob() needed!
-                    const uris = rawContent.split(/[\n\r]+/).filter(Boolean);
-                    uris.forEach(uri => {
-                        const parsed = configParse(uri);
-                        if(parsed) universalNodes.push({ uri, parsed });
-                    });
-                } else if (inputFormat === 'clash') {
-                    const parsedYaml = jsyaml.load(rawContent);
-                    if (!parsedYaml.proxies || !Array.isArray(parsedYaml.proxies)) throw new Error('Invalid Clash file: "proxies" array not found.');
-                    parsedYaml.proxies.forEach(p => {
-                        let uri = `${p.type}://${p.uuid || p.password}@${p.server}:${p.port}#${encodeURIComponent(p.name)}`;
-                        const parsed = configParse(uri);
-                        if(parsed) universalNodes.push({ uri, parsed });
-                    });
-                } else if (inputFormat === 'singbox') {
-                    const jsonString = rawContent.replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g, (m, g) => g ? "" : m);
-                    const parsedJson = JSON.parse(jsonString);
-                    if (!parsedJson.outbounds || !Array.isArray(parsedJson.outbounds)) throw new Error('Invalid Sing-box file: "outbounds" array not found.');
-                    const utilityTypes = ['selector', 'urltest', 'direct', 'block', 'dns'];
-                    parsedJson.outbounds
-                        .filter(o => o.type && !utilityTypes.includes(o.type))
-                        .forEach(o => {
-                            let uri = `${o.type}://${o.uuid || o.password}@${o.server}:${o.server_port}#${encodeURIComponent(o.tag)}`;
-                             const parsed = configParse(uri);
-                             if(parsed) universalNodes.push({ uri, parsed });
-                        });
-                }
+                break;
+        }
 
-                if (universalNodes.length === 0) throw new Error("No compatible proxy nodes could be extracted from the input.");
+        universalNodes = uris.map(uri => ({ uri, parsed: configParse(uri) })).filter(n => n.parsed);
+        
+        if (universalNodes.length === 0) throw new Error("No compatible proxy nodes could be extracted from the input.");
 
-                buttonText.textContent = 'Compiling...';
-                const outputFormat = compilerOutputFormat.value;
-                let outputContent = '';
-                let fileExtension = 'txt';
-                
-                if (outputFormat === 'base64') { outputContent = generateBase64Output(universalNodes); } 
-                else if (outputFormat === 'clash') { outputContent = await generateClashOutput(universalNodes); fileExtension = 'yaml'; } 
-                else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(universalNodes); fileExtension = 'json'; }
-                
-                compilerResultTitle.textContent = `Successfully converted ${universalNodes.length} nodes from ${inputFormat.toUpperCase()} to ${outputFormat.toUpperCase()}.`;
-                compilerResultText.value = outputContent;
-                downloadConvertedButton.setAttribute('data-filename', `PSG-converted-config.${fileExtension}`);
-                compilerResultArea.classList.remove('hidden');
+        buttonText.textContent = 'Compiling...';
+        // The rest of the logic is the same...
+        const outputFormat = compilerOutputFormat.value;
+        let outputContent = '';
+        let fileExtension = 'txt';
+        
+        if (outputFormat === 'base64') { outputContent = generateBase64Output(universalNodes); } 
+        else if (outputFormat === 'clash') { outputContent = await generateClashOutput(universalNodes); fileExtension = 'yaml'; } 
+        else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(universalNodes); fileExtension = 'json'; }
+        
+        compilerResultTitle.textContent = `Successfully converted ${universalNodes.length} nodes from ${inputFormat.toUpperCase()} to ${outputFormat.toUpperCase()}.`;
+        compilerResultText.value = outputContent;
+        downloadConvertedButton.setAttribute('data-filename', `PSG-converted-config.${fileExtension}`);
+        compilerResultArea.classList.remove('hidden');
 
-            } catch (error) {
-                showMessageBox(`Conversion Failed: ${error.message}`);
-                console.error(error);
-            } finally {
-                convertButton.disabled = false;
-                buttonText.textContent = 'Convert';
-            }
-        });
+    } catch (error) {
+        showMessageBox(`Conversion Failed: ${error.message}`);
+        console.error(error);
+    } finally {
+        convertButton.disabled = false;
+        buttonText.textContent = 'Convert';
+    }
+});
 
         // --- EVENT LISTENERS ---
         // NEW: Event listener for the segmented control buttons
@@ -1849,6 +1891,26 @@ composerSourceList.addEventListener('change', () => {
 });
 
 // --- NEW Event Listeners ---
+compilerInputText.addEventListener('input', () => {
+    const text = compilerInputText.value;
+    detectedInputFormat = detectInputFormat(text);
+
+    let badgeText = 'Auto-Detect';
+    let badgeClass = 'bg-slate-200 text-slate-600';
+
+    if (detectedInputFormat) {
+        badgeClass = 'bg-green-100 text-green-800';
+        switch (detectedInputFormat) {
+            case 'clash': badgeText = 'Clash (YAML)'; break;
+            case 'singbox': badgeText = 'Sing-box (JSON)'; break;
+            case 'base64': badgeText = 'Base64'; break;
+            case 'uri_list': badgeText = 'URI List'; break;
+        }
+    }
+    detectedFormatBadge.textContent = badgeText;
+    detectedFormatBadge.className = `text-xs font-semibold px-2 py-1 rounded-full transition-all ${badgeClass}`;
+});
+	    
 configTypeSelect.addEventListener('change', () => {
     // Reset steps 2 and 3
     resetStep(step2);
