@@ -1471,7 +1471,7 @@ async function handleShare(contentToUpload, buttonElement) {
         // Sort sources alphabetically within the group
         sources.sort((a, b) => a.name.localeCompare(b.name));
         
-        onst groupId = title.replace(/[^a-zA-Z0-9]/g, '-'); // e.g., "Main-Types"
+        const groupId = title.replace(/[^a-zA-Z0-9]/g, '-'); // e.g., "Main-Types"
 
         const categoryContainer = document.createElement('div');
         categoryContainer.className = 'mb-6';
