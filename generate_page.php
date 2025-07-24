@@ -2334,10 +2334,10 @@ searchBar.addEventListener('input', updateOtherElementOptions);
             const content = document.getElementById('composedResultText').value;
             handleShare(content, e.currentTarget);
         });
-        document.getElementById('shareConvertedButton').addEventListener('click', (e) => {
-            const content = document.getElementById('compilerResultText').value;
-            handleShare(content, e.currentTarget);
-        });
+        shareConvertedButton.addEventListener('click', (e) => {
+    const content = document.getElementById('compilerResultText').value;
+    handleShare(content, e.currentTarget);
+});
 
         // --- INITIALIZATION ---
         populateSelect(configTypeSelect, Object.keys(structuredData), 'Select Config Type');
