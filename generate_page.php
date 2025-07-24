@@ -403,6 +403,7 @@ function generate_full_html(
                     <button data-id="composer" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✨ Composer</button>
                     <button data-id="splitter" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✂️ Splitter</button>
                     <button data-id="compiler" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🔄 Compiler</button>
+	            <button data-id="inspector" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">⚡ Inspector</button>
                 </div>
 
                 <!-- Container for "Simple Mode" -->
@@ -598,6 +599,82 @@ function generate_full_html(
 </div>
                     </div>
                 </div>
+
+	    <!-- Container for "Live Inspector Mode" -->
+<div id="inspectorModeContainer" class="hidden">
+    <div class="space-y-6">
+        <p class="text-center text-slate-600">Paste any subscription URL or raw text to perform live latency tests and export a list of working nodes.</p>
+
+        <!-- Input Section -->
+        <div>
+            <label for="inspectorInputText" class="block text-sm font-medium text-slate-700 mb-2">Subscription URL or Raw URI List:</label>
+            <textarea id="inspectorInputText" rows="4" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste subscription URL or a list of URIs here..."></textarea>
+        </div>
+        
+        <!-- Action Button -->
+        <button id="loadAndInspectButton" class="w-full flex items-center justify-center gap-2 bg-sky-600 text-white px-4 py-3 rounded-md hover:bg-sky-700 transition-colors duration-200 disabled:bg-sky-300">
+            <i data-lucide="scan-line" class="w-5 h-5"></i>
+            <span id="loadAndInspectButtonText" class="font-semibold">Load & Inspect Nodes</span>
+        </button>
+    </div>
+
+    <!-- Inspector Result Area -->
+    <div id="inspectorResultArea" class="hidden mt-8 pt-6 border-t border-slate-200">
+        <!-- Controls -->
+        <div class="flex flex-col sm:flex-row justify-between items-center mb-4 gap-4">
+            <div class="flex gap-2">
+                <button id="inspectorTestAllBtn" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-sm font-semibold flex items-center gap-1.5 disabled:bg-blue-300">
+                    <i data-lucide="play-circle" class="h-4 w-4"></i>Test All
+                </button>
+                <button id="inspectorStopBtn" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors text-sm font-semibold flex items-center gap-1.5 hidden">
+                     <i data-lucide="stop-circle" class="h-4 w-4"></i>Stop
+                </button>
+            </div>
+            <div id="inspectorProgress" class="text-sm text-slate-500 w-full sm:w-auto text-center"></div>
+             <div class="flex gap-2">
+                <button id="exportResultsBtn" class="bg-emerald-600 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition-colors text-sm font-semibold flex items-center gap-1.5 disabled:bg-emerald-300">
+                    <i data-lucide="download-cloud" class="h-4 w-4"></i>Export Live Nodes
+                </button>
+             </div>
+        </div>
+        <!-- Node Table -->
+        <div class="h-[60vh] overflow-y-auto border border-slate-200 rounded-lg bg-slate-50">
+            <table class="w-full text-sm text-left">
+                <thead class="bg-white border-b border-slate-200 sticky top-0 z-10">
+                    <tr>
+                        <th class="p-3">Node</th>
+                        <th class="p-3">Server</th>
+                        <th class="p-3 w-24">Status</th>
+                        <th id="latencyHeader" class="p-3 w-28 cursor-pointer hover:bg-slate-100 transition-colors">Latency (ms) ⇕</th>
+                    </tr>
+                </thead>
+                <tbody id="inspectorNodeList">
+                    <!-- Node rows will be injected here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Inspector Export Modal -->
+<div id="inspectorExportModal" class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center p-4 z-50 hidden">
+    <div class="bg-white rounded-lg p-6 shadow-xl max-w-sm w-full">
+        <h3 class="text-lg font-semibold text-slate-800 mb-4">Export Live Nodes</h3>
+        <p id="liveNodeCount" class="text-sm text-slate-600 mb-4">Found X live nodes. Select the output format:</p>
+        <div>
+            <label for="inspectorOutputFormat" class="block text-sm font-medium text-slate-700 mb-2">Output Format:</label>
+            <select id="inspectorOutputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                <option value="base64" selected>Base64 URI List</option>
+                <option value="clash">Clash Profile (YAML)</option>
+                <option value="singbox">Sing-box Profile (JSON)</option>
+            </select>
+        </div>
+        <div class="mt-6 flex justify-end gap-3">
+             <button id="inspectorExportCancel" class="bg-slate-200 text-slate-800 px-4 py-2 rounded-md hover:bg-slate-300 transition-colors">Cancel</button>
+             <button id="inspectorExportConfirm" class="bg-emerald-600 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition-colors">Generate & Download</button>
+        </div>
+    </div>
+</div>
 
                 <!-- Result Area for Simple Mode -->
                 <div id="resultArea" class="hidden bg-slate-50 rounded-lg p-4 sm:p-6 border border-slate-200 mt-6">
@@ -1007,6 +1084,26 @@ class ShzAlClient {
 
         let charts = {};
 
+// Inspector Mode
+const inspectorModeContainer = document.getElementById('inspectorModeContainer');
+const loadAndInspectButton = document.getElementById('loadAndInspectButton');
+const inspectorInputText = document.getElementById('inspectorInputText');
+const inspectorResultArea = document.getElementById('inspectorResultArea');
+const inspectorNodeList = document.getElementById('inspectorNodeList');
+const inspectorTestAllBtn = document.getElementById('inspectorTestAllBtn');
+const inspectorStopBtn = document.getElementById('inspectorStopBtn');
+const inspectorProgress = document.getElementById('inspectorProgress');
+const latencyHeader = document.getElementById('latencyHeader');
+const exportResultsBtn = document.getElementById('exportResultsBtn');
+const inspectorExportModal = document.getElementById('inspectorExportModal');
+const liveNodeCount = document.getElementById('liveNodeCount');
+const inspectorOutputFormat = document.getElementById('inspectorOutputFormat');
+const inspectorExportCancel = document.getElementById('inspectorExportCancel');
+const inspectorExportConfirm = document.getElementById('inspectorExportConfirm');
+
+let isTestingCancelled = false;
+let universalNodeStore = []; // Store for parsed nodes in the inspector
+
         // --- UTILITY FUNCTIONS ---
 /**
  * Uploads content to shz.al and shows the user the shareable URL.
@@ -1047,6 +1144,58 @@ async function handleShare(contentToUpload, buttonElement) {
 }
         const countryCodeMap = { US: 'United States', SG: 'Singapore', JP: 'Japan', KR: 'S. Korea', DE: 'Germany', NL: 'Netherlands', GB: 'UK', FR: 'France', CA: 'Canada', AU: 'Australia', HK: 'Hong Kong', TW: 'Taiwan', RU: 'Russia', IN: 'India', TR: 'Turkey', IR: 'Iran', AE: 'UAE' };
         function getCountryName(code) { return countryCodeMap[code.toUpperCase()] || code.toUpperCase(); }
+	/**
+ * Measures the latency to a server by timing a WebSocket connection attempt.
+ * @param {string} host - The server hostname or IP address.
+ * @param {number} port - The server port.
+ * @param {number} [timeout=2000] - Timeout in milliseconds.
+ * @returns {Promise<number>} A promise that resolves with the latency in ms, or rejects on timeout/error.
+ */
+function pingNode(host, port, timeout = 2000) {
+    return new Promise((resolve, reject) => {
+        let ws;
+        const startTime = performance.now();
+        let hasResolved = false;
+
+        try {
+            // Use wss for standard TLS ports, ws for others. A simple heuristic.
+            const protocol = [443, 2053, 2083, 2087, 2096, 8443].includes(port) ? 'wss' : 'ws';
+            ws = new WebSocket(`${protocol}://${host}:${port}`);
+        } catch (e) {
+            // Invalid hostname or other immediate error
+            return reject(new Error("Connection failed"));
+        }
+
+        const cleanUp = () => {
+            clearTimeout(timer);
+            ws.onopen = ws.onerror = ws.onclose = null;
+            if (ws.readyState < 2) { // Not CLOSING or CLOSED
+               ws.close();
+            }
+        };
+        
+        const resolveOnce = (latency) => {
+            if (!hasResolved) {
+                hasResolved = true;
+                cleanUp();
+                resolve(latency);
+            }
+        };
+        
+        const rejectOnce = (error) => {
+            if (!hasResolved) {
+                hasResolved = true;
+                cleanUp();
+                reject(error);
+            }
+        }
+
+        const timer = setTimeout(() => rejectOnce(new Error("Timeout")), timeout);
+        
+        ws.onopen = () => resolveOnce(Math.round(performance.now() - startTime));
+        ws.onerror = () => rejectOnce(new Error("Offline")); // A clear error is considered offline.
+    });
+}
         function getFlagEmoji(countryCode) { if (!/^[A-Z]{2}$/.test(countryCode)) return '🏳️'; return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt())); }
         function showMessageBox(message) { messageBoxText.textContent = message; messageBox.classList.remove('hidden'); }
         function formatDisplayName(name) {
@@ -1099,7 +1248,8 @@ async function handleShare(contentToUpload, buttonElement) {
                 simple: { container: simpleModeContainer, index: 0 },
                 composer: { container: composerModeContainer, index: 1 },
                 splitter: { container: splitterModeContainer, index: 2 },
-                compiler: { container: compilerModeContainer, index: 3 }
+                compiler: { container: compilerModeContainer, index: 3 },
+	        inspector: { container: inspectorModeContainer, index: 4 }
             };
 
             // 1. Move the slider
@@ -1977,12 +2127,215 @@ async function handleShare(contentToUpload, buttonElement) {
             handleShare(content, e.currentTarget);
         });
 
+	// =======================================================
+// --- LIVE INSPECTOR LOGIC ---
+// =======================================================
+
+loadAndInspectButton.addEventListener('click', async () => {
+    const buttonText = document.getElementById('loadAndInspectButtonText');
+    let inputText = inspectorInputText.value.trim();
+    if (!inputText) {
+        showMessageBox('Please paste a subscription URL or raw config text.');
+        return;
+    }
+
+    loadAndInspectButton.disabled = true;
+    buttonText.textContent = 'Loading...';
+    inspectorResultArea.classList.add('hidden');
+    inspectorNodeList.innerHTML = '';
+    universalNodeStore = [];
+
+    try {
+        let rawContent = '';
+        const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
+        if (isUrl) {
+            const response = await fetchWithCorsFallback(inputText);
+            if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
+            rawContent = await response.text();
+        } else {
+            rawContent = inputText;
+        }
+
+        let uris = [];
+        try {
+            // Try decoding as base64 first, as it's the most common format
+            const decoded = atob(rawContent);
+            uris = decoded.split(/[\n\r]+/).filter(Boolean);
+        } catch (e) {
+            // If base64 fails, assume it's a plain URI list
+            uris = rawContent.split(/[\n\r]+/).filter(Boolean);
+        }
+        
+        if (uris.length === 0) throw new Error("No URIs found in the input.");
+
+        buttonText.textContent = 'Parsing...';
+        universalNodeStore = uris.map(uri => ({ uri, parsed: configParse(uri) })).filter(n => n.parsed);
+
+        if (universalNodeStore.length === 0) throw new Error("No valid proxy nodes could be parsed.");
+        
+        // Populate the table
+        universalNodeStore.forEach((node, index) => {
+            const p = node.parsed;
+            const name = p.ps || p.hash || `node_${index}`;
+            const server = p.add || p.hostname;
+            const port = p.port;
+            
+            const row = document.createElement('tr');
+            row.className = 'border-b border-slate-200 bg-white';
+            row.dataset.host = server;
+            row.dataset.port = port;
+            row.dataset.nodeIndex = index; // Link back to the store
+
+            row.innerHTML = `
+                <td class="p-3 font-medium text-slate-800 truncate" title="${name}">${name}</td>
+                <td class="p-3 font-mono text-slate-600">${server}:${port}</td>
+                <td class="p-3 status-cell"><span class="font-semibold text-slate-400">Untested</span></td>
+                <td class="p-3 latency-cell font-mono text-slate-400">-</td>
+            `;
+            inspectorNodeList.appendChild(row);
+        });
+
+        inspectorProgress.textContent = `Loaded ${universalNodeStore.length} nodes. Ready to test.`;
+        inspectorResultArea.classList.remove('hidden');
+        exportResultsBtn.disabled = true;
+
+    } catch (error) {
+        showMessageBox(`Failed to load nodes: ${error.message}`);
+    } finally {
+        loadAndInspectButton.disabled = false;
+        buttonText.textContent = 'Load & Inspect Nodes';
+        lucide.createIcons();
+    }
+});
+
+inspectorTestAllBtn.addEventListener('click', async () => {
+    const rows = Array.from(inspectorNodeList.querySelectorAll('tr'));
+    if (rows.length === 0) return;
+
+    isTestingCancelled = false;
+    inspectorTestAllBtn.disabled = true;
+    inspectorStopBtn.classList.remove('hidden');
+    exportResultsBtn.disabled = true;
+
+    let testedCount = 0;
+    const totalCount = rows.length;
+    const concurrency = 15; // Number of pings to run in parallel
+    
+    for (let i = 0; i < totalCount; i += concurrency) {
+        if (isTestingCancelled) break;
+
+        const chunk = rows.slice(i, i + concurrency);
+        const promises = chunk.map(row => {
+            const statusCell = row.querySelector('.status-cell');
+            const latencyCell = row.querySelector('.latency-cell');
+            statusCell.innerHTML = `<span class="font-semibold text-yellow-500 animate-pulse">Testing...</span>`;
+
+            return pingNode(row.dataset.host, parseInt(row.dataset.port, 10))
+                .then(latency => {
+                    let colorClass = 'text-green-600';
+                    if (latency > 300) colorClass = 'text-orange-500';
+                    if (latency > 800) colorClass = 'text-red-600';
+                    statusCell.innerHTML = `<span class="font-bold text-green-600">Online</span>`;
+                    latencyCell.innerHTML = `<span class="font-bold ${colorClass}">${latency}</span>`;
+                    row.dataset.latency = latency;
+                })
+                .catch(() => {
+                    statusCell.innerHTML = `<span class="font-semibold text-red-700">Offline</span>`;
+                    latencyCell.textContent = '-';
+                    row.dataset.latency = '9999'; // For sorting
+                })
+                .finally(() => {
+                    testedCount++;
+                    inspectorProgress.textContent = `Testing ${testedCount}/${totalCount}...`;
+                });
+        });
+        await Promise.all(promises);
+    }
+
+    inspectorProgress.textContent = isTestingCancelled ? `Test cancelled. ${testedCount}/${totalCount} tested.` : `Test complete. ${testedCount} nodes tested.`;
+    inspectorTestAllBtn.disabled = false;
+    inspectorStopBtn.classList.add('hidden');
+    exportResultsBtn.disabled = false;
+});
+
+inspectorStopBtn.addEventListener('click', () => {
+    isTestingCancelled = true;
+});
+
+latencyHeader.addEventListener('click', () => {
+    const rows = Array.from(inspectorNodeList.querySelectorAll('tr'));
+    rows.sort((a, b) => {
+        const latA = parseInt(a.dataset.latency || '99999');
+        const latB = parseInt(b.dataset.latency || '99999');
+        return latA - latB;
+    });
+    rows.forEach(row => inspectorNodeList.appendChild(row));
+});
+
+exportResultsBtn.addEventListener('click', () => {
+    const liveRows = Array.from(inspectorNodeList.querySelectorAll('tr')).filter(row => row.dataset.latency && parseInt(row.dataset.latency) < 9999);
+    if (liveRows.length === 0) {
+        showMessageBox("No live nodes found to export.");
+        return;
+    }
+    liveNodeCount.textContent = `Found ${liveRows.length} live nodes. Select the output format:`;
+    inspectorExportModal.classList.remove('hidden');
+});
+
+inspectorExportCancel.addEventListener('click', () => {
+    inspectorExportModal.classList.add('hidden');
+});
+
+inspectorExportConfirm.addEventListener('click', async () => {
+    const outputFormat = inspectorOutputFormat.value;
+    const liveRows = Array.from(inspectorNodeList.querySelectorAll('tr')).filter(row => row.dataset.latency && parseInt(row.dataset.latency) < 9999);
+    
+    // Important: Re-sort them by latency before exporting
+    liveRows.sort((a, b) => parseInt(a.dataset.latency) - parseInt(b.dataset.latency));
+
+    const liveNodes = liveRows.map(row => universalNodeStore[parseInt(row.dataset.nodeIndex)]);
+
+    let outputContent = '';
+    let fileExtension = 'txt';
+
+    try {
+        if (outputFormat === 'clash') { outputContent = await generateClashOutput(liveNodes); fileExtension = 'yaml'; } 
+        else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(liveNodes); fileExtension = 'json'; } 
+        else { outputContent = generateBase64Output(liveNodes); }
+        
+        const blob = new Blob([outputContent], { type: 'text/plain;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `PSG-live-nodes.${fileExtension}`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+    } catch (e) {
+        showMessageBox(`Error generating export file: ${e.message}`);
+    } finally {
+        inspectorExportModal.classList.add('hidden');
+    }
+});
+
         // --- INITIALIZATION ---
         populateSelect(configTypeSelect, Object.keys(structuredData), 'Select Config Type');
         configTypeSelect.disabled = false;
         populateComposerSources();
         lucide.createIcons();
-        switchMode('simple'); // Set the initial state to "Simple" mode
+
+        // Check URL for a requested mode, otherwise default to 'simple'
+        const urlParams = new URLSearchParams(window.location.search);
+        const initialMode = urlParams.get('mode');
+        const validModes = ['simple', 'composer', 'splitter', 'compiler', 'inspector'];
+
+        if (initialMode && validModes.includes(initialMode)) {
+            switchMode(initialMode);
+        } else {
+            switchMode('simple'); // Default to simple mode
+        }
 		
     });
     (function() {
