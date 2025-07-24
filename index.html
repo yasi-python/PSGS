@@ -39,6 +39,16 @@
 .step-container.active .step-icon {
     background-color: #4338ca; /* indigo-700 */
 }
+	    details[open] > summary .lucide-chevron-down {
+    transform: rotate(180deg);
+}
+.composer-step.active {
+    opacity: 1;
+    border-color: #4f46e5; /* indigo-500 */
+}
+.composer-step.active .step-icon {
+    background-color: #4338ca; /* indigo-700 */
+}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 leading-relaxed transition-colors duration-300">
@@ -106,62 +116,101 @@
 </div>
 
                 <!-- Container for "Subscription Composer Mode" -->
-                <div id="composerModeContainer" class="hidden">
-                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                        <!-- Step 1: Select Sources -->
-                        <div class="space-y-6">
-                            <h3 class="text-lg font-semibold text-slate-800 flex items-center gap-2">
-                                <span class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center font-bold text-sm">1</span>
-                                Select Sources
-                            </h3>
-                            <div id="composerSourceList">
-                                <!-- Source categories will be dynamically generated here -->
-                            </div>
-                        </div>
+<div id="composerModeContainer" class="hidden">
+    <div class="space-y-4 max-w-4xl mx-auto">
+        <p class="text-center text-slate-600 mb-6">Create a custom subscription by mixing and matching from multiple sources.</p>
 
-                        <!-- Step 2: Filter & Refine -->
-                        <div class="space-y-6">
-                           <h3 class="text-lg font-semibold text-slate-800 flex items-center gap-2">
-                               <span class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center font-bold text-sm">2</span>
-                               Filter & Refine
-                           </h3>
-                           <div>
-                                <label for="filterCountry" class="block text-sm font-medium text-slate-700 mb-2">Filter by Country Code (optional)</label>
-                                <input type="text" id="filterCountry" placeholder="e.g. DE,US,JP (comma-separated)" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400">
-                           </div>
-                           <div>
-                                <label class="block text-sm font-medium text-slate-700 mb-2">Filter by Protocol (optional)</label>
-                                <div id="composerProtocolFilters" class="grid grid-cols-2 gap-2">
-                                    <!-- Protocol checkboxes will be inserted here -->
-                                </div>
-                           </div>
-                           <div>
-                                <label for="nodeLimit" class="block text-sm font-medium text-slate-700 mb-2">Max Nodes in Subscription</label>
-                                <input type="number" id="nodeLimit" value="50" min="1" max="500" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
-                           </div>
+        <!-- Step 1: Select Sources -->
+        <div class="composer-step bg-white p-6 rounded-lg border-2 border-indigo-500 shadow-lg">
+            <details open>
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <div class="flex items-center gap-4">
+                        <div class="flex items-center justify-center w-10 h-10 bg-indigo-600 text-white rounded-full flex-shrink-0">
+                            <span class="text-lg font-bold">1</span>
                         </div>
-
-                        <!-- Step 3: Generate Output -->
-                        <div class="space-y-6">
-                            <h3 class="text-lg font-semibold text-slate-800 flex items-center gap-2">
-                                <span class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center font-bold text-sm">3</span>
-                                Generate Output
-                            </h3>
-                            <div>
-                                <label for="composerTargetClient" class="block text-sm font-medium text-slate-700 mb-2">Target Client Format</label>
-                                <select id="composerTargetClient" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
-                                    <option value="clash">Clash / Meta</option>
-                                    <option value="singbox">Sing-box / Hiddify</option>
-                                    <option value="base64">Base64 (for v2rayN, etc.)</option>
-                                </select>
-                            </div>
-                            <button id="generateCompositionButton" class="w-full flex items-center justify-center gap-2 bg-emerald-600 text-white px-4 py-3 rounded-md hover:bg-emerald-700 transition-colors duration-200 disabled:bg-emerald-300 disabled:cursor-not-allowed">
-                                <i data-lucide="git-merge" class="w-5 h-5"></i>
-                                <span id="generateCompositionButtonText" class="font-semibold">Generate Composed Subscription</span>
-                            </button>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Select Sources</h3>
+                            <p class="text-sm text-slate-500">Choose one or more lists to combine.</p>
                         </div>
                     </div>
+                    <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
+                </summary>
+                <div class="mt-6 border-t border-slate-200 pt-6">
+                    <div id="composerSourceList" class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+                        <!-- Source categories will be dynamically generated here -->
+                    </div>
                 </div>
+            </details>
+        </div>
+
+        <!-- Step 2: Filter & Refine (Initially disabled) -->
+        <div id="composerStep2" class="composer-step bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+             <details>
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <div class="flex items-center gap-4">
+                        <div class="flex items-center justify-center w-10 h-10 bg-slate-400 text-white rounded-full flex-shrink-0 step-icon">
+                            <span class="text-lg font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Filter & Refine (Optional)</h3>
+                            <p class="text-sm text-slate-500">Narrow down the results.</p>
+                        </div>
+                    </div>
+                    <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
+                </summary>
+                <div class="mt-6 border-t border-slate-200 pt-6 space-y-6">
+                    <div>
+                        <label for="filterCountry" class="block text-sm font-medium text-slate-700 mb-2">Filter by Country Code</label>
+                        <input type="text" id="filterCountry" placeholder="e.g. DE,US,JP (comma-separated)" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2">Filter by Protocol</label>
+                        <div id="composerProtocolFilters" class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                            <!-- Protocol checkboxes will be inserted here -->
+                        </div>
+                    </div>
+                    <div>
+                        <label for="nodeLimit" class="block text-sm font-medium text-slate-700 mb-2">Max Nodes in Final Subscription</label>
+                        <input type="number" id="nodeLimit" value="50" min="1" max="500" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                    </div>
+                </div>
+            </details>
+        </div>
+
+        <!-- Step 3: Generate Output (Initially disabled) -->
+        <div id="composerStep3" class="composer-step bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+            <details>
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <div class="flex items-center gap-4">
+                        <div class="flex items-center justify-center w-10 h-10 bg-slate-400 text-white rounded-full flex-shrink-0 step-icon">
+                            <span class="text-lg font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Generate Output</h3>
+                            <p class="text-sm text-slate-500">Choose your final format and create the link.</p>
+                        </div>
+                    </div>
+                    <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
+                </summary>
+                <div class="mt-6 border-t border-slate-200 pt-6 space-y-6">
+                    <div>
+                        <label for="composerTargetClient" class="block text-sm font-medium text-slate-700 mb-2">Target Client Format</label>
+                        <select id="composerTargetClient" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                            <option value="clash">Clash / Meta</option>
+                            <option value="singbox">Sing-box / Hiddify</option>
+                            <option value="base64">Base64 (for v2rayN, etc.)</option>
+                        </select>
+                    </div>
+                    <button id="generateCompositionButton" class="w-full flex items-center justify-center gap-2 bg-emerald-600 text-white px-4 py-3 rounded-md hover:bg-emerald-700 transition-colors duration-200 disabled:bg-emerald-300 disabled:cursor-not-allowed">
+                        <i data-lucide="git-merge" class="w-5 h-5"></i>
+                        <span id="generateCompositionButtonText" class="font-semibold">Generate Composed Subscription</span>
+                    </button>
+                </div>
+            </details>
+        </div>
+
+    </div>
+</div>
 
                 <!-- Container for "Subscription Splitter Mode" -->
                 <div id="splitterModeContainer" class="hidden">
@@ -343,7 +392,7 @@
             <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
-    <span>Last Generated: 2025-07-24 15:54:36 +0330</span>
+    <span>Last Generated: 2025-07-24 16:01:01 +0330</span>
 </p>
         </footer>
     </div>
@@ -666,6 +715,8 @@ class ShzAlClient {
         const composedResultText = document.getElementById('composedResultText');
         const copyComposedButton = document.getElementById('copyComposedButton');
         const downloadComposedButton = document.getElementById('downloadComposedButton');
+	const composerStep2 = document.getElementById('composerStep2');
+	const composerStep3 = document.getElementById('composerStep3');
         
         // Splitter Mode
         const splitterUrlInput = document.getElementById('splitterUrlInput');
@@ -1031,50 +1082,50 @@ async function handleShare(contentToUpload, buttonElement) {
 
         // --- COMPOSER LOGIC ---
         function populateComposerSources() {
-            composerSourceList.innerHTML = '';
-            
-            Object.entries(structuredData).forEach(([configType, clientCores]) => {
-                let sourcesForConfigType = [];
-                 // We only care about base64 sources for the composer
-                Object.entries(clientCores).forEach(([clientCore, subscriptions]) => {
-                    if (['location', 'channel', 'xray'].includes(clientCore.toLowerCase())) {
-                        Object.entries(subscriptions).forEach(([name, url]) => {
-                            sourcesForConfigType.push({ name: `${clientCore}/${name}`, url, configType });
-                        });
-                    }
+    composerSourceList.innerHTML = ''; // Clear previous content
+    
+    let allSources = [];
+    Object.entries(structuredData).forEach(([configType, clientCores]) => {
+        Object.entries(clientCores).forEach(([clientCore, subscriptions]) => {
+            if (['location', 'channel', 'xray'].includes(clientCore.toLowerCase())) {
+                Object.entries(subscriptions).forEach(([name, url]) => {
+                    allSources.push({ name: `${configType}/${clientCore}/${name}`, url });
                 });
+            }
+        });
+    });
 
-                if (sourcesForConfigType.length > 0) {
-                    const container = document.createElement('div');
-                    container.className = 'mb-4';
-                    container.innerHTML = `
-                        <div class="flex justify-between items-center mb-2">
-                            <label class="font-medium text-slate-700">${configType} Sources</label>
-                            <button data-target="source-list-${configType}" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 select-all-btn">Select All</button>
-                        </div>
-                        <div id="source-list-${configType}" class="composer-list bg-slate-50 border border-slate-200 rounded-md p-3 max-h-40 overflow-y-auto space-y-2"></div>
-                    `;
-                    const listDiv = container.querySelector(`#source-list-${configType}`);
-                    sourcesForConfigType.sort((a,b) => a.name.localeCompare(b.name)).forEach(source => {
-                        const checkboxDiv = document.createElement('div');
-                        checkboxDiv.className = 'flex items-center';
-                        checkboxDiv.innerHTML = `<input type="checkbox" id="source_${source.url}" data-url="${source.url}" class="composer-source h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"><label for="source_${source.url}" class="ml-2 block text-sm text-slate-900">${formatDisplayName(source.name)}</label>`;
-                        listDiv.appendChild(checkboxDiv);
-                    });
-                    composerSourceList.appendChild(container);
-                }
-            });
+    // Add a "Select All" / "Deselect All" button at the top
+    const headerDiv = document.createElement('div');
+    headerDiv.className = 'sm:col-span-2 mb-2 flex justify-end';
+    headerDiv.innerHTML = `<button id="composerSelectAllBtn" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800">Select All</button>`;
+    composerSourceList.appendChild(headerDiv);
+    document.getElementById('composerSelectAllBtn').addEventListener('click', (e) => {
+         const button = e.target;
+         const checkboxes = composerSourceList.querySelectorAll('input[type="checkbox"]');
+         const isSelectAll = button.textContent === 'Select All';
+         checkboxes.forEach(cb => cb.checked = isSelectAll);
+         button.textContent = isSelectAll ? 'Deselect All' : 'Select All';
+         // Manually trigger the change event to update the UI
+         composerSourceList.dispatchEvent(new Event('change'));
+    });
 
-            document.querySelectorAll('.select-all-btn').forEach(btn => btn.addEventListener('click', handleSelectAll));
 
-            const protocols = ['VLESS', 'VMess', 'Trojan', 'Shadowsocks', 'REALITY', 'Hysteria2'];
-            composerProtocolFilters.innerHTML = protocols.map(p => `
-                <div class="flex items-center">
-                    <input type="checkbox" id="proto_${p.toLowerCase()}" data-protocol="${p.toLowerCase()}" class="composer-protocol h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500">
-                    <label for="proto_${p.toLowerCase()}" class="ml-2 block text-sm text-slate-900">${p}</label>
-                </div>
-            `).join('');
-        }
+    allSources.sort((a,b) => a.name.localeCompare(b.name)).forEach(source => {
+        const checkboxDiv = document.createElement('div');
+        checkboxDiv.className = 'flex items-center';
+        checkboxDiv.innerHTML = `<input type="checkbox" id="source_${source.url}" data-url="${source.url}" class="composer-source h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"><label for="source_${source.url}" class="ml-2 block text-sm text-slate-900">${formatDisplayName(source.name)}</label>`;
+        composerSourceList.appendChild(checkboxDiv);
+    });
+
+    const protocols = ['VLESS', 'VMess', 'Trojan', 'Shadowsocks', 'REALITY', 'Hysteria2'];
+    composerProtocolFilters.innerHTML = protocols.map(p => `
+        <div class="flex items-center">
+            <input type="checkbox" id="proto_${p.toLowerCase()}" data-protocol="${p.toLowerCase()}" class="composer-protocol h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500">
+            <label for="proto_${p.toLowerCase()}" class="ml-2 block text-sm text-slate-900">${p}</label>
+        </div>
+    `).join('');
+}
 
         function handleSelectAll(e) {
             const button = e.target;
@@ -1667,6 +1718,41 @@ function activateStep(stepElement) {
         primaryInput.disabled = false;
     }
 }
+	    // =======================================================
+// --- GUIDED WIZARD LOGIC FOR COMPOSER MODE ---
+// =======================================================
+
+// Helper to activate a composer step
+function activateComposerStep(stepElement) {
+    stepElement.classList.add('active');
+    stepElement.style.opacity = '1';
+    const icon = stepElement.querySelector('.step-icon');
+    if (icon) {
+        icon.classList.replace('bg-slate-400', 'bg-indigo-700');
+    }
+}
+
+// Listen for any change on the source checkboxes
+composerSourceList.addEventListener('change', () => {
+    const selectedCheckboxes = composerSourceList.querySelectorAll('.composer-source:checked');
+    
+    if (selectedCheckboxes.length > 0) {
+        // Activate steps 2 and 3 if at least one source is selected
+        activateComposerStep(composerStep2);
+        activateComposerStep(composerStep3);
+    } else {
+        // Deactivate if no sources are selected
+        composerStep2.classList.remove('active');
+        composerStep2.style.opacity = '0.5';
+        composerStep2.querySelector('.step-icon')?.classList.replace('bg-indigo-700', 'bg-slate-400');
+        composerStep2.querySelector('details').open = false; // Close the details panel
+
+        composerStep3.classList.remove('active');
+        composerStep3.style.opacity = '0.5';
+        composerStep3.querySelector('.step-icon')?.classList.replace('bg-indigo-700', 'bg-slate-400');
+        composerStep3.querySelector('details').open = false; // Close the details panel
+    }
+});
 
 // --- NEW Event Listeners ---
 configTypeSelect.addEventListener('change', () => {
