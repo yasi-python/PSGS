@@ -20,7 +20,7 @@ define("OUTPUT_HTML_FILE", PROJECT_ROOT . "/index.html");
 define("SCAN_DIRECTORIES", [
     "Standard" => PROJECT_ROOT . "/subscriptions",
     "Lite" => PROJECT_ROOT . "/lite/subscriptions",
-    "Channels" => PROJECT_ROOT . "/channels",
+    "Channels" => PROJECT_ROOT . "/subscriptions/channels",
 ]);
 
 function get_client_info(): array
