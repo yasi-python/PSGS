@@ -392,7 +392,7 @@
             <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
-    <span>Last Generated: 2025-07-24 16:12:34 +0330</span>
+    <span>Last Generated: 2025-07-24 16:15:40 +0330</span>
 </p>
         </footer>
     </div>
@@ -1126,7 +1126,7 @@ async function handleShare(contentToUpload, buttonElement) {
         // Sort sources alphabetically within the group
         sources.sort((a, b) => a.name.localeCompare(b.name));
         
-        const groupId = title.replace(/\s+/g, '-'); // e.g., "Main-Types"
+        const groupId = title.replace(/[^a-zA-Z0-9]/g, '-'); // e.g., "Main-Types"
 
         const categoryContainer = document.createElement('div');
         categoryContainer.className = 'mb-6';
