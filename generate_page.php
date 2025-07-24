@@ -1895,11 +1895,13 @@ async function handleShare(contentToUpload, buttonElement) {
                     if (decoded.includes('://')) {
                          uris = decoded.split(/[\n\r]+/).filter(Boolean);
                     } else {
-                        // It was valid base64 but didn't look like a subscription list, so treat as plain text.
-                        throw new Error("Content is not a subscription list.");
+                        // It was valid base64 but didn't look like a subscription list.
+                        // We will now fall through to the catch block to treat it as plain text.
+                        throw new Error("Content is not a URI list.");
                     }
                 } catch (e) {
-                    // If base64 decoding fails, assume it's a plain text list of URIs.
+                    // If base64 decoding fails OR it's not a valid list,
+                    // assume it's a plain text list of URIs.
                     uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
                 }
 
