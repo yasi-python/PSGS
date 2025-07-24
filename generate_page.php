@@ -563,10 +563,10 @@ function generate_full_html(
                         <p class="text-center text-slate-600">Paste any large subscription link (from here or anywhere else) to split it into smaller, more manageable lists.</p>
                         
                         <!-- Step 1: Input -->
-                        <div>
-                            <label for="splitterUrlInput" class="block text-sm font-medium text-slate-700 mb-2">Subscription URL to Split:</label>
-                            <input type="url" id="splitterUrlInput" placeholder="https://..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400">
-                        </div>
+<div>
+    <label for="splitterUrlInput" class="block text-sm font-medium text-slate-700 mb-2">Subscription URL or Raw Text:</label>
+    <input type="text" id="splitterUrlInput" placeholder="Paste URL, Base64 text, or a list of configs here..." class="block w-full rounded-md ...">
+</div>
 
                         <!-- Step 2: Options -->
                         <div>
@@ -1872,12 +1872,36 @@ async function handleShare(contentToUpload, buttonElement) {
             splitterResultList.innerHTML = '';
 
             try {
-                const response = await fetchWithCorsFallback(url);
-                if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
-                
-                const content = await response.text();
-                const decoded = atob(content);
-                const uris = decoded.split(/[\n\r]+/).filter(Boolean);
+                let rawSubscriptionContent = '';
+
+                // 1. Check if it's a URL
+                const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
+                if (isUrl) {
+                    buttonText.textContent = 'Fetching URL...';
+                    const response = await fetchWithCorsFallback(inputText);
+                    if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
+                    rawSubscriptionContent = await response.text();
+                } else {
+                    // 2. If not a URL, it's raw text
+                    rawSubscriptionContent = inputText;
+                }
+
+                let uris = [];
+                // 3. Intelligently determine if content is Base64 or plain text
+                try {
+                    // Try decoding as base64. If it succeeds and isn't just random text, use it.
+                    const decoded = atob(rawSubscriptionContent);
+                    // A simple heuristic: valid decoded content should contain common protocol schemes.
+                    if (decoded.includes('://')) {
+                         uris = decoded.split(/[\n\r]+/).filter(Boolean);
+                    } else {
+                        // It was valid base64 but didn't look like a subscription list, so treat as plain text.
+                        throw new Error("Content is not a subscription list.");
+                    }
+                } catch (e) {
+                    // If base64 decoding fails, assume it's a plain text list of URIs.
+                    uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
+                }
 
                 if (uris.length === 0) throw new Error('No proxy nodes found in the subscription.');
                 
