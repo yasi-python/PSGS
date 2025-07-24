@@ -392,7 +392,7 @@
             <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
-    <span>Last Generated: 2025-07-24 16:38:43 +0330</span>
+    <span>Last Generated: 2025-07-24 16:44:51 +0330</span>
 </p>
         </footer>
     </div>
@@ -1513,7 +1513,6 @@ async function handleShare(contentToUpload, buttonElement) {
         });
 
         splitSubscriptionButton.addEventListener('click', async () => {
-    // 1. Define inputText at the top level of the function.
     const inputText = splitterUrlInput.value.trim();
     if (!inputText) {
         showMessageBox('Please paste a URL or raw subscription text to split.');
@@ -1530,7 +1529,7 @@ async function handleShare(contentToUpload, buttonElement) {
     try {
         let rawSubscriptionContent = '';
 
-        // 2. Check if inputText is a URL
+        // Check if inputText is a URL
         const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
         if (isUrl) {
             buttonText.textContent = 'Fetching URL...';
@@ -1541,34 +1540,28 @@ async function handleShare(contentToUpload, buttonElement) {
             // If not a URL, the raw text is the inputText itself.
             rawSubscriptionContent = inputText;
         }
-        let uris = [];
 
-        // 3. Intelligently determine if content is Base64 or plain text
-        // First, check if the raw text ITSELF looks like a URI list.
-        // This handles the case where plain text is pasted directly.
-        if (rawSubscriptionContent.trim().startsWith('vless://') || 
-            rawSubscriptionContent.trim().startsWith('vmess://') ||
-            rawSubscriptionContent.trim().startsWith('trojan://') ||
-            rawSubscriptionContent.trim().startsWith('ss://') ||
-            rawSubscriptionContent.trim().startsWith('hy2://')) {
-            
-            // It's a plain text list.
-            uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
+        // --- "ENCODE-FIRST" NORMALIZATION LOGIC ---
+        let base64Content = '';
+        
+        // A robust regex to check if the string is likely already Base64.
+        const isLikelyBase64 = /^[A-Za-z0-9+/=]+$/.test(rawSubscriptionContent.replace(/\s/g, ''));
 
+        if (isLikelyBase64) {
+            // If it already looks like Base64, use it as is (after cleaning whitespace).
+            base64Content = rawSubscriptionContent.replace(/\s/g, '');
         } else {
-            // If it doesn't look like a plain text list, it's likely Base64.
-            // We use a try-catch block here in case it's invalid Base64.
-            try {
-                const decoded = atob(rawSubscriptionContent);
-                uris = decoded.split(/[\n\r]+/).filter(Boolean);
-            } catch (e) {
-                // If decoding fails, it's malformed input.
-                throw new Error("Input is not a valid URL, Base64 content, or URI list.");
-            }
+            // If it's not Base64 (i.e., it's a plain text URI list), then we encode it.
+            base64Content = btoa(rawSubscriptionContent);
         }
+        // --- END OF NORMALIZATION LOGIC ---
+
+        // Now, we can confidently proceed assuming we have valid Base64.
+        const decoded = atob(base64Content);
+        const uris = decoded.split(/[\n\r]+/).filter(Boolean);
 
         if (uris.length === 0) {
-            throw new Error('No valid proxy URIs found in the provided input.');
+            throw new Error('No valid proxy URIs could be processed from the input.');
         }
 
         buttonText.textContent = 'Splitting...';
@@ -1604,9 +1597,12 @@ async function handleShare(contentToUpload, buttonElement) {
             }
         }
 
+        // Clear previous results before rendering new ones
+        splitterResultList.innerHTML = '';
+
         Object.entries(groupedNodes).sort((a,b) => a[0].localeCompare(b[0])).forEach(([groupName, groupNodes]) => {
             const nodeCount = groupNodes.length;
-            const base64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
+            const groupBase64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
             
             let displayName = groupName;
             if (strategy === 'country' && groupName !== 'Unknown') {
@@ -1620,10 +1616,10 @@ async function handleShare(contentToUpload, buttonElement) {
             resultItem.innerHTML = `
                 <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
                 <div class="flex items-center gap-2">
-                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${base64Content}">
+                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${groupBase64Content}">
                         <i data-lucide="copy" class="h-5 w-5"></i>
                     </button>
-                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${base64Content}">
+                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${groupBase64Content}">
                         <i data-lucide="share-2" class="h-5 w-5"></i>
                     </button>
                     <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
