@@ -341,7 +341,7 @@ function generate_full_html(
         JSON_UNESCAPED_SLASHES
     );
 
-    // The entire HTML template with the composer and full JS logic is now here.
+    // The entire HTML template with dark mode support is now here.
     $html_template = <<<'HTML'
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -358,6 +358,7 @@ function generate_full_html(
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script>
       tailwind.config = {
+        darkMode: 'class', // Enable dark mode
         theme: {
           extend: {
             fontFamily: {
@@ -374,52 +375,64 @@ function generate_full_html(
         .composer-list::-webkit-scrollbar-track { background: #f1f5f9; }
         .composer-list::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
         .composer-list::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-        .mode-btn.text-indigo-600 {
-            color: #4f46e5;
+        
+        html.dark .composer-list::-webkit-scrollbar-track { background: #1e293b; } /* slate-800 */
+        html.dark .composer-list::-webkit-scrollbar-thumb { background: #475569; } /* slate-600 */
+        html.dark .composer-list::-webkit-scrollbar-thumb:hover { background: #64748b; } /* slate-500 */
+
+        .mode-btn.text-indigo-600 { color: #4f46e5; }
+        html.dark .mode-btn.text-indigo-600 { color: #818cf8; } /* indigo-400 */
+
+	    .step-container.active {
+            opacity: 1;
+            border-color: #4f46e5; /* indigo-500 */
         }
-	.step-container.active {
-    opacity: 1;
-    border-color: #4f46e5; /* indigo-500 */
-}
-.step-container.active .step-icon {
-    background-color: #4338ca; /* indigo-700 */
-}
+        .step-container.active .step-icon {
+            background-color: #4338ca; /* indigo-700 */
+        }
 	    details[open] > summary .lucide-chevron-down {
-    transform: rotate(180deg);
-}
-.composer-step.active {
-    opacity: 1;
-    border-color: #4f46e5; /* indigo-500 */
-}
-.composer-step.active .step-icon {
-    background-color: #4338ca; /* indigo-700 */
-}
+            transform: rotate(180deg);
+        }
+        .composer-step.active {
+            opacity: 1;
+            border-color: #4f46e5; /* indigo-500 */
+        }
+        .composer-step.active .step-icon {
+            background-color: #4338ca; /* indigo-700 */
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 leading-relaxed transition-colors duration-300">
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-300 leading-relaxed transition-colors duration-300">
     <div class="container max-w-6xl mx-auto px-4 py-8">
         <!-- Main Header -->
         <header class="flex justify-between items-center mb-10">
             <div class="text-left">
-                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 mb-0">Proxy Subscription Generator</h1>
-                <p class="text-base sm:text-lg text-slate-500 mt-2">Your central hub for proxy subscriptions.</p>
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-0">Proxy Subscription Generator</h1>
+                <p class="text-base sm:text-lg text-slate-500 dark:text-slate-400 mt-2">Your central hub for proxy subscriptions.</p>
+            </div>
+            <!-- Dark Mode Toggle -->
+            <div class="flex-shrink-0">
+                <button id="theme-toggle" type="button" class="text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 rounded-lg text-sm p-2.5">
+                    <i id="theme-toggle-dark-icon" class="hidden w-5 h-5" data-lucide="moon"></i>
+                    <i id="theme-toggle-light-icon" class="hidden w-5 h-5" data-lucide="sun"></i>
+                </button>
             </div>
         </header>
 
         <main>
             <!-- Main Control Panel -->
-            <div class="bg-white rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-slate-200 mb-8 sm:mb-10">
+            <div class="bg-white dark:bg-slate-800/50 dark:backdrop-blur-sm rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-slate-200 dark:border-slate-700 mb-8 sm:mb-10">
                 
                 <!-- NEW: Segmented Control Navigation -->
-                <div class="relative w-full max-w-lg mx-auto mb-8 p-1.5 bg-slate-100 rounded-xl flex items-center">
+                <div class="relative w-full max-w-lg mx-auto mb-8 p-1.5 bg-slate-100 dark:bg-slate-700/50 rounded-xl flex items-center">
                     <!-- The sliding background for the active state -->
-                    <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] w-1/4 bg-white rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
+                    <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] w-1/4 bg-white dark:bg-slate-800 rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
                 
                     <!-- The buttons. Notice the added data-id attribute -->
-                    <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🤌🏻 Simple</button>
-                    <button data-id="composer" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✨ Composer</button>
-                    <button data-id="splitter" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">✂️ Splitter</button>
-                    <button data-id="compiler" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🔄 Compiler</button>
+                    <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 dark:text-slate-300 transition-colors">🤌🏻 Simple</button>
+                    <button data-id="composer" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 dark:text-slate-300 transition-colors">✨ Composer</button>
+                    <button data-id="splitter" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 dark:text-slate-300 transition-colors">✂️ Splitter</button>
+                    <button data-id="compiler" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 dark:text-slate-300 transition-colors">🔄 Compiler</button>
                 </div>
 
                 <!-- Container for "Simple Mode" -->
@@ -427,34 +440,34 @@ function generate_full_html(
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
 
         <!-- Step 1: Choose Subscription Category -->
-        <div id="step1" class="step-container bg-white p-6 rounded-lg border-2 border-indigo-500 shadow-lg">
+        <div id="step1" class="step-container bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-indigo-500 dark:border-indigo-500 shadow-lg">
             <div class="flex items-center justify-center w-12 h-12 bg-indigo-600 text-white rounded-full mx-auto mb-4">
                 <span class="text-xl font-bold">1</span>
             </div>
-            <h3 class="text-lg font-semibold text-slate-800 mb-1">Choose Category</h3>
-            <p class="text-sm text-slate-500 mb-4">What kind of subscription do you need?</p>
-            <select id="configType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800"></select>
+            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-1">Choose Category</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">What kind of subscription do you need?</p>
+            <select id="configType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600"></select>
         </div>
 
         <!-- Step 2: Choose Client/Core -->
-        <div id="step2" class="step-container bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+        <div id="step2" class="step-container bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-slate-200 dark:border-slate-700 transition-opacity duration-300 opacity-50">
              <div class="flex items-center justify-center w-12 h-12 bg-slate-400 text-white rounded-full mx-auto mb-4 step-icon">
                 <span class="text-xl font-bold">2</span>
             </div>
-            <h3 class="text-lg font-semibold text-slate-800 mb-1">Select Your App</h3>
-            <p class="text-sm text-slate-500 mb-4">Which app or software will you use?</p>
-            <select id="ipType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800" disabled></select>
+            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-1">Select Your App</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Which app or software will you use?</p>
+            <select id="ipType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600" disabled></select>
         </div>
 
         <!-- Step 3: Find & Select Subscription -->
-        <div id="step3" class="step-container bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+        <div id="step3" class="step-container bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-slate-200 dark:border-slate-700 transition-opacity duration-300 opacity-50">
              <div class="flex items-center justify-center w-12 h-12 bg-slate-400 text-white rounded-full mx-auto mb-4 step-icon">
                 <span class="text-xl font-bold">3</span>
             </div>
-            <h3 class="text-lg font-semibold text-slate-800 mb-1">Find Your Link</h3>
-            <p class="text-sm text-slate-500 mb-4">Search for a specific subscription.</p>
-            <input type="search" id="searchBar" placeholder="Filter subscriptions..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 mb-2 bg-slate-50 text-slate-800 placeholder-slate-400" disabled>
-            <select id="otherElement" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800" disabled></select>
+            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-1">Find Your Link</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Search for a specific subscription.</p>
+            <input type="search" id="searchBar" placeholder="Filter subscriptions..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 mb-2 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 dark:border-slate-600" disabled>
+            <select id="otherElement" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600" disabled></select>
         </div>
 
     </div>
@@ -463,10 +476,10 @@ function generate_full_html(
                 <!-- Container for "Subscription Composer Mode" -->
 <div id="composerModeContainer" class="hidden">
     <div class="space-y-4 max-w-4xl mx-auto">
-        <p class="text-center text-slate-600 mb-6">Create a custom subscription by mixing and matching from multiple sources.</p>
+        <p class="text-center text-slate-600 dark:text-slate-400 mb-6">Create a custom subscription by mixing and matching from multiple sources.</p>
 
         <!-- Step 1: Select Sources -->
-        <div class="composer-step bg-white p-6 rounded-lg border-2 border-indigo-500 shadow-lg">
+        <div class="composer-step bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-indigo-500 shadow-lg">
             <details open>
                 <summary class="flex items-center justify-between cursor-pointer list-none">
                     <div class="flex items-center gap-4">
@@ -474,13 +487,13 @@ function generate_full_html(
                             <span class="text-lg font-bold">1</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-slate-800">Select Sources</h3>
-                            <p class="text-sm text-slate-500">Choose one or more lists to combine.</p>
+                            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200">Select Sources</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400">Choose one or more lists to combine.</p>
                         </div>
                     </div>
                     <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
                 </summary>
-                <div class="mt-6 border-t border-slate-200 pt-6">
+                <div class="mt-6 border-t border-slate-200 dark:border-slate-700 pt-6">
                     <div id="composerSourceList">
     <!-- Categorized source lists will be generated here -->
 </div>
@@ -489,7 +502,7 @@ function generate_full_html(
         </div>
 
         <!-- Step 2: Filter & Refine (Initially disabled) -->
-        <div id="composerStep2" class="composer-step bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+        <div id="composerStep2" class="composer-step bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-slate-200 dark:border-slate-700 transition-opacity duration-300 opacity-50">
              <details>
                 <summary class="flex items-center justify-between cursor-pointer list-none">
                     <div class="flex items-center gap-4">
@@ -497,33 +510,33 @@ function generate_full_html(
                             <span class="text-lg font-bold">2</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-slate-800">Filter & Refine (Optional)</h3>
-                            <p class="text-sm text-slate-500">Narrow down the results.</p>
+                            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200">Filter & Refine (Optional)</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400">Narrow down the results.</p>
                         </div>
                     </div>
                     <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
                 </summary>
-                <div class="mt-6 border-t border-slate-200 pt-6 space-y-6">
+                <div class="mt-6 border-t border-slate-200 dark:border-slate-700 pt-6 space-y-6">
                     <div>
-                        <label for="filterCountry" class="block text-sm font-medium text-slate-700 mb-2">Filter by Country Code</label>
-                        <input type="text" id="filterCountry" placeholder="e.g. DE,US,JP (comma-separated)" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400">
+                        <label for="filterCountry" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Filter by Country Code</label>
+                        <input type="text" id="filterCountry" placeholder="e.g. DE,US,JP (comma-separated)" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 dark:border-slate-600">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-2">Filter by Protocol</label>
+                        <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Filter by Protocol</label>
                         <div id="composerProtocolFilters" class="grid grid-cols-2 sm:grid-cols-3 gap-2">
                             <!-- Protocol checkboxes will be inserted here -->
                         </div>
                     </div>
                     <div>
-                        <label for="nodeLimit" class="block text-sm font-medium text-slate-700 mb-2">Max Nodes in Final Subscription</label>
-                        <input type="number" id="nodeLimit" value="50" min="1" max="500" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                        <label for="nodeLimit" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Max Nodes in Final Subscription</label>
+                        <input type="number" id="nodeLimit" value="50" min="1" max="500" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600">
                     </div>
                 </div>
             </details>
         </div>
 
         <!-- Step 3: Generate Output (Initially disabled) -->
-        <div id="composerStep3" class="composer-step bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+        <div id="composerStep3" class="composer-step bg-white dark:bg-slate-800 p-6 rounded-lg border-2 border-slate-200 dark:border-slate-700 transition-opacity duration-300 opacity-50">
             <details>
                 <summary class="flex items-center justify-between cursor-pointer list-none">
                     <div class="flex items-center gap-4">
@@ -531,16 +544,16 @@ function generate_full_html(
                             <span class="text-lg font-bold">3</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-slate-800">Generate Output</h3>
-                            <p class="text-sm text-slate-500">Choose your final format and create the link.</p>
+                            <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200">Generate Output</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400">Choose your final format and create the link.</p>
                         </div>
                     </div>
                     <i data-lucide="chevron-down" class="lucide-chevron-down transition-transform duration-300"></i>
                 </summary>
-                <div class="mt-6 border-t border-slate-200 pt-6 space-y-6">
+                <div class="mt-6 border-t border-slate-200 dark:border-slate-700 pt-6 space-y-6">
                     <div>
-                        <label for="composerTargetClient" class="block text-sm font-medium text-slate-700 mb-2">Target Client Format</label>
-                        <select id="composerTargetClient" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                        <label for="composerTargetClient" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Target Client Format</label>
+                        <select id="composerTargetClient" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600">
                             <option value="clash">Clash / Meta</option>
                             <option value="singbox">Sing-box / Hiddify</option>
                             <option value="base64">Base64 (for v2rayN, etc.)</option>
@@ -553,50 +566,49 @@ function generate_full_html(
                 </div>
             </details>
         </div>
-
     </div>
 </div>
 
                 <!-- Container for "Subscription Splitter Mode" -->
                 <div id="splitterModeContainer" class="hidden">
                     <div class="space-y-6 max-w-2xl mx-auto">
-                        <p class="text-center text-slate-600">Paste any large subscription link (from here or anywhere else) to split it into smaller, more manageable lists.</p>
+                        <p class="text-center text-slate-600 dark:text-slate-400">Paste any large subscription link (from here or anywhere else) to split it into smaller, more manageable lists.</p>
                         
                         <!-- Step 1: Input -->
 <div>
-    <label for="splitterUrlInput" class="block text-sm font-medium text-slate-700 mb-2">Subscription URL or Raw Text:</label>
-    <textarea id="splitterUrlInput" rows="4" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste URL, Base64 text, or a list of configs here..."></textarea>
+    <label for="splitterUrlInput" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Subscription URL or Raw Text:</label>
+    <textarea id="splitterUrlInput" rows="4" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 font-mono dark:border-slate-600" placeholder="Paste URL, Base64 text, or a list of configs here..."></textarea>
 </div>
 
                         <!-- Step 2: Options -->
                         <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-2">Splitting Strategy:</label>
+                            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Splitting Strategy:</label>
                             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                                 <div>
                                     <input type="radio" name="split_strategy" id="split_by_country" value="country" class="hidden peer" checked>
-                                    <label for="split_by_country" class="block text-center p-4 rounded-lg border border-slate-300 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600">
+                                    <label for="split_by_country" class="block text-center p-4 rounded-lg border border-slate-300 dark:border-slate-600 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400">
                                         <i data-lucide="map-pinned" class="mx-auto h-6 w-6 mb-1"></i>
                                         <span class="font-semibold">By Country</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="split_strategy" id="split_by_protocol" value="protocol" class="hidden peer">
-                                    <label for="split_by_protocol" class="block text-center p-4 rounded-lg border border-slate-300 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600">
+                                    <label for="split_by_protocol" class="block text-center p-4 rounded-lg border border-slate-300 dark:border-slate-600 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400">
                                         <i data-lucide="file-cog" class="mx-auto h-6 w-6 mb-1"></i>
                                         <span class="font-semibold">By Protocol</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="split_strategy" id="split_by_chunk" value="chunk" class="hidden peer">
-                                    <label for="split_by_chunk" class="block text-center p-4 rounded-lg border border-slate-300 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600">
+                                    <label for="split_by_chunk" class="block text-center p-4 rounded-lg border border-slate-300 dark:border-slate-600 cursor-pointer peer-checked:border-indigo-600 peer-checked:ring-2 peer-checked:ring-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400">
                                         <i data-lucide="grip" class="mx-auto h-6 w-6 mb-1"></i>
                                         <span class="font-semibold">By Chunks</span>
                                     </label>
                                 </div>
                             </div>
                             <div id="chunkSizeContainer" class="hidden mt-4">
-                                <label for="chunkSizeInput" class="block text-sm font-medium text-slate-700 mb-2">Nodes per chunk:</label>
-                                <input type="number" id="chunkSizeInput" value="50" min="5" class="block w-full max-w-xs mx-auto rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                                <label for="chunkSizeInput" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Nodes per chunk:</label>
+                                <input type="number" id="chunkSizeInput" value="50" min="5" class="block w-full max-w-xs mx-auto rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600">
                             </div>
                         </div>
 
@@ -608,8 +620,8 @@ function generate_full_html(
                     </div>
 
                     <!-- Splitter Result Area -->
-                    <div id="splitterResultArea" class="hidden mt-8 pt-6 border-t border-slate-200">
-                        <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-4 text-center">Your Split Subscriptions:</h3>
+                    <div id="splitterResultArea" class="hidden mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
+                        <h3 class="text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4 text-center">Your Split Subscriptions:</h3>
                         <div id="splitterResultList" class="space-y-3 max-w-2xl mx-auto">
                             <!-- Results will be injected here -->
                         </div>
@@ -619,28 +631,28 @@ function generate_full_html(
                 <!-- Container for "Proxy Converter Mode" -->
 <div id="compilerModeContainer" class="hidden">
     <div class="space-y-8">
-        <p class="text-center text-slate-600">Automatically convert any subscription or config file from one format to another.</p>
+        <p class="text-center text-slate-600 dark:text-slate-400">Automatically convert any subscription or config file from one format to another.</p>
         
         <!-- Main Conversion Flow UI -->
         <div class="grid grid-cols-1 md:grid-cols-[2fr_auto_2fr] items-center gap-6">
             <!-- Panel 1: Input -->
             <div class="w-full">
                 <div class="flex justify-between items-center mb-2">
-                    <label for="compilerInputText" class="block text-sm font-medium text-slate-700">Input (URL or Raw Config)</label>
-                    <span id="detectedFormatBadge" class="text-xs font-semibold px-2 py-1 rounded-full bg-slate-200 text-slate-600 transition-all">Auto-Detect</span>
+                    <label for="compilerInputText" class="block text-sm font-medium text-slate-700 dark:text-slate-300">Input (URL or Raw Config)</label>
+                    <span id="detectedFormatBadge" class="text-xs font-semibold px-2 py-1 rounded-full bg-slate-200 dark:bg-slate-600 text-slate-600 dark:text-slate-300 transition-all">Auto-Detect</span>
                 </div>
-                <textarea id="compilerInputText" rows="8" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste anything here..."></textarea>
+                <textarea id="compilerInputText" rows="8" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 font-mono dark:border-slate-600" placeholder="Paste anything here..."></textarea>
             </div>
             
             <!-- Arrow Separator -->
             <div class="text-center">
-                <i data-lucide="arrow-right-circle" class="h-8 w-8 text-slate-400"></i>
+                <i data-lucide="arrow-right-circle" class="h-8 w-8 text-slate-400 dark:text-slate-500"></i>
             </div>
             
             <!-- Panel 2: Output -->
             <div class="w-full">
-                <label for="compilerOutputFormat" class="block text-sm font-medium text-slate-700 mb-2">Output Format</label>
-                <select id="compilerOutputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
+                <label for="compilerOutputFormat" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Output Format</label>
+                <select id="compilerOutputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600">
                     <option value="base64" selected>Base64 URI List</option>
                     <option value="clash">Clash Profile (YAML)</option>
                     <option value="singbox">Sing-box Profile (JSON)</option>
@@ -655,10 +667,10 @@ function generate_full_html(
         </button>
     </div>
     <!-- The result area div remains the same -->
-    <div id="compilerResultArea" class="hidden mt-8 pt-6 border-t border-slate-200">
-        <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-2">Conversion Complete:</h3>
-        <p id="compilerResultTitle" class="text-sm text-slate-500 mb-4"></p>
-        <textarea id="compilerResultText" readonly class="w-full h-64 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
+    <div id="compilerResultArea" class="hidden mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
+        <h3 class="text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200 mb-2">Conversion Complete:</h3>
+        <p id="compilerResultTitle" class="text-sm text-slate-500 dark:text-slate-400 mb-4"></p>
+        <textarea id="compilerResultText" readonly class="w-full h-64 font-mono text-xs bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-600 rounded-lg p-3 outline-none resize-vertical"></textarea>
         <div class="grid grid-cols-3 items-center gap-2 mt-2">
            <button id="copyConvertedButton" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
                <i data-lucide="copy"></i> Copy
@@ -674,13 +686,13 @@ function generate_full_html(
 </div>
 
                 <!-- Result Area for Simple Mode -->
-                <div id="resultArea" class="hidden bg-slate-50 rounded-lg p-4 sm:p-6 border border-slate-200 mt-6">
+                <div id="resultArea" class="hidden bg-slate-50 dark:bg-slate-800/50 rounded-lg p-4 sm:p-6 border border-slate-200 dark:border-slate-700 mt-6">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 items-start">
                         <div id="subscription-details-container" class="hidden">
-                            <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-4">Your Subscription Link:</h3>
+                            <h3 class="text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">Your Subscription Link:</h3>
                             <div class="flex items-center mb-4">
-                                <input type="text" id="subscriptionUrl" readonly class="flex-grow font-mono text-xs sm:text-sm py-2.5 px-3 bg-white border border-slate-300 rounded-l-lg outline-none whitespace-nowrap overflow-hidden text-ellipsis" />
-                                <button id="copyButton" class="flex-shrink-0 flex items-center justify-center w-11 h-11 bg-indigo-50 text-indigo-700 border border-l-0 border-indigo-600 rounded-r-lg cursor-pointer transition-colors duration-200 hover:bg-indigo-100" title="Copy URL">
+                                <input type="text" id="subscriptionUrl" readonly class="flex-grow font-mono text-xs sm:text-sm py-2.5 px-3 bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 rounded-l-lg outline-none whitespace-nowrap overflow-hidden text-ellipsis" />
+                                <button id="copyButton" class="flex-shrink-0 flex items-center justify-center w-11 h-11 bg-indigo-50 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-400 border border-l-0 border-indigo-600 dark:border-indigo-500 rounded-r-lg cursor-pointer transition-colors duration-200 hover:bg-indigo-100 dark:hover:bg-indigo-900" title="Copy URL">
                                     <i data-lucide="copy" class="copy-icon w-5 h-5"></i>
                                     <i data-lucide="check" class="check-icon w-5 h-5 hidden"></i>
                                 </button>
@@ -694,18 +706,18 @@ function generate_full_html(
                             </div>
                         </div>
                         <div id="client-info-container">
-                           <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-2">Compatible Clients:</h3>
+                           <h3 class="text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200 mb-2">Compatible Clients:</h3>
                            <div id="client-info-list" class="space-y-5"></div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Result Area for Composer Mode -->
-                <div id="composerResultArea" class="hidden bg-slate-50 rounded-lg p-4 sm:p-6 border border-slate-200 mt-6">
-                    <h3 class="text-lg sm:text-xl font-semibold text-slate-800 mb-4">Your Composed Subscription:</h3>
+                <div id="composerResultArea" class="hidden bg-slate-50 dark:bg-slate-800/50 rounded-lg p-4 sm:p-6 border border-slate-200 dark:border-slate-700 mt-6">
+                    <h3 class="text-lg sm:text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">Your Composed Subscription:</h3>
                      <div class="grid grid-cols-1 gap-y-8 items-start">
                         <div>
-                             <textarea id="composedResultText" readonly class="w-full h-48 font-mono text-xs bg-white border border-slate-300 rounded-lg p-3 outline-none resize-vertical"></textarea>
+                             <textarea id="composedResultText" readonly class="w-full h-48 font-mono text-xs bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-600 rounded-lg p-3 outline-none resize-vertical"></textarea>
                              <!-- Corrected Layout for Composer Buttons -->
 <div class="grid grid-cols-3 items-center gap-2 mt-2">
     <button id="copyComposedButton" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
@@ -725,15 +737,15 @@ function generate_full_html(
             </div>
         </main>
         
-        <footer class="text-center mt-12 sm:mt-16 py-6 sm:py-8 border-t border-slate-200">
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-y-4 gap-x-6 text-slate-500 text-sm">
+        <footer class="text-center mt-12 sm:mt-16 py-6 sm:py-8 border-t border-slate-200 dark:border-slate-700">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-y-4 gap-x-6 text-slate-500 dark:text-slate-400 text-sm">
                 <p>Created with ❤️ by YEBEKHE</p>
                 <div class="flex items-center gap-x-3">
-                    <a href="https://t.me/yebekhe" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors" title="Telegram"><i data-lucide="send" class="h-5 w-5"></i></a>
-                    <a href="https://x.com/yebekhe" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors" title="X (Twitter)"><i data-lucide="twitter" class="h-5 w-5"></i></a>
+                    <a href="https://t.me/yebekhe" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors" title="Telegram"><i data-lucide="send" class="h-5 w-5"></i></a>
+                    <a href="https://x.com/yebekhe" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors" title="X (Twitter)"><i data-lucide="twitter" class="h-5 w-5"></i></a>
                 </div>
             </div>
-            <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
+            <p id="lastGenerated" class="text-xs text-slate-400 dark:text-slate-500 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
     <span>Last Generated: __TIMESTAMP_PLACEHOLDER__</span>
@@ -742,32 +754,32 @@ function generate_full_html(
     </div>
     
     <div id="messageBox" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden">
-        <div class="bg-white rounded-lg p-6 shadow-xl max-w-sm w-full text-center">
-            <p id="messageBoxText" class="text-lg font-semibold text-slate-800 mb-4"></p>
+        <div class="bg-white dark:bg-slate-800 rounded-lg p-6 shadow-xl max-w-sm w-full text-center">
+            <p id="messageBoxText" class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-4"></p>
             <button id="messageBoxClose" class="bg-indigo-600 text-white px-5 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">OK</button>
         </div>
     </div>
     
     <div id="dnaModal" class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center p-4 z-50 hidden">
-        <div id="dnaModalContent" class="bg-white rounded-xl p-4 sm:p-6 lg:p-8 shadow-2xl max-w-5xl w-full text-slate-800 transform transition-all scale-95 opacity-0 overflow-y-auto max-h-[90vh]">
-            <div class="flex justify-between items-center mb-6 border-b border-slate-200 pb-4">
+        <div id="dnaModalContent" class="bg-white dark:bg-slate-800 rounded-xl p-4 sm:p-6 lg:p-8 shadow-2xl max-w-5xl w-full text-slate-800 dark:text-slate-300 transform transition-all scale-95 opacity-0 overflow-y-auto max-h-[90vh]">
+            <div class="flex justify-between items-center mb-6 border-b border-slate-200 dark:border-slate-700 pb-4">
                 <div>
-                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900">Subscription DNA</h2>
-                    <p id="modalSubscriptionName" class="text-sm text-slate-500"></p>
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-slate-100">Subscription DNA</h2>
+                    <p id="modalSubscriptionName" class="text-sm text-slate-500 dark:text-slate-400"></p>
                 </div>
-                <button id="dnaModalCloseButton" class="p-2 rounded-full hover:bg-slate-100">
-                    <i data-lucide="x" class="w-6 h-6 text-slate-600"></i>
+                <button id="dnaModalCloseButton" class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700">
+                    <i data-lucide="x" class="w-6 h-6 text-slate-600 dark:text-slate-400"></i>
                 </button>
             </div>
-            <div id="dnaLoadingState" class="text-center py-10"><p class="flex items-center justify-center gap-2 text-slate-600"><i data-lucide="loader-2" class="animate-spin w-5 h-5"></i>Analyzing... Please wait.</p></div>
+            <div id="dnaLoadingState" class="text-center py-10"><p class="flex items-center justify-center gap-2 text-slate-600 dark:text-slate-400"><i data-lucide="loader-2" class="animate-spin w-5 h-5"></i>Analyzing... Please wait.</p></div>
             <div id="dnaResultsContainer" class="hidden grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="space-y-8">
-                    <div><h3 class="font-semibold mb-3 text-center text-slate-700">Protocol Distribution</h3><div class="max-w-[200px] sm:max-w-[250px] mx-auto relative"><canvas id="protocolChart"></canvas><div id="protocolTotal" class="absolute inset-0 flex items-center justify-center text-center leading-none"><div><span class="text-3xl font-bold text-slate-800"></span><span class="text-sm text-slate-500 block">Nodes</span></div></div></div></div>
-                    <div><h3 class="font-semibold mb-3 text-center text-slate-700">Security Profile</h3><div class="max-w-[200px] sm:max-w-[250px] mx-auto"><canvas id="securityChart"></canvas></div></div>
+                    <div><h3 class="font-semibold mb-3 text-center text-slate-700 dark:text-slate-300">Protocol Distribution</h3><div class="max-w-[200px] sm:max-w-[250px] mx-auto relative"><canvas id="protocolChart"></canvas><div id="protocolTotal" class="absolute inset-0 flex items-center justify-center text-center leading-none"><div><span class="text-3xl font-bold text-slate-800 dark:text-slate-200"></span><span class="text-sm text-slate-500 dark:text-slate-400 block">Nodes</span></div></div></div></div>
+                    <div><h3 class="font-semibold mb-3 text-center text-slate-700 dark:text-slate-300">Security Profile</h3><div class="max-w-[200px] sm:max-w-[250px] mx-auto"><canvas id="securityChart"></canvas></div></div>
                 </div>
                 <div class="space-y-8">
-                     <div><h3 class="font-semibold mb-3 text-center text-slate-700">Top Countries</h3><div id="countryBarChartContainer"><canvas id="countryBarChart"></canvas></div></div>
-                     <div><h3 class="font-semibold mb-3 text-center text-slate-700">Top Transports</h3><div id="transportChartContainer"><canvas id="transportChart"></canvas></div></div>
+                     <div><h3 class="font-semibold mb-3 text-center text-slate-700 dark:text-slate-300">Top Countries</h3><div id="countryBarChartContainer"><canvas id="countryBarChart"></canvas></div></div>
+                     <div><h3 class="font-semibold mb-3 text-center text-slate-700 dark:text-slate-300">Top Transports</h3><div id="transportChartContainer"><canvas id="transportChart"></canvas></div></div>
                 </div>
             </div>
         </div>
@@ -778,6 +790,37 @@ function generate_full_html(
     
     <script>
     document.addEventListener('DOMContentLoaded', () => {
+        // --- THEME TOGGLE LOGIC ---
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        const applyTheme = (isDark) => {
+            document.documentElement.classList.toggle('dark', isDark);
+            themeToggleLightIcon.classList.toggle('hidden', !isDark);
+            themeToggleDarkIcon.classList.toggle('hidden', isDark);
+        };
+        
+        const isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const savedTheme = localStorage.getItem('color-theme');
+
+        if (savedTheme === 'dark' || (!savedTheme && isSystemDark)) {
+            applyTheme(true);
+        } else {
+            applyTheme(false);
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            const isDarkMode = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('color-theme', isDarkMode ? 'dark' : 'light');
+            applyTheme(isDarkMode);
+            updateChartDefaults(); // Update chart colors
+            // Force any visible charts to re-render with new defaults
+            Object.values(charts).forEach(chart => {
+                if (chart) chart.update();
+            });
+        });
+
 		/**
  * A JavaScript client for the shz.al pastebin API.
  * This class provides methods to interact with all endpoints of the API.
@@ -1087,6 +1130,17 @@ let detectedInputFormat = null; // To store the auto-detected format
 
         let charts = {};
 
+        // --- CHART THEME LOGIC ---
+        function updateChartDefaults() {
+            const isDark = document.documentElement.classList.contains('dark');
+            const gridColor = isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(203, 213, 225, 0.5)';
+            const textColor = isDark ? '#cbd5e1' : '#475569';
+
+            Chart.defaults.color = textColor;
+            Chart.defaults.borderColor = gridColor;
+            Chart.defaults.plugins.legend.labels.color = textColor;
+        }
+
         // --- UTILITY FUNCTIONS ---
 	    /**
  * Analyzes a string to detect its configuration format.
@@ -1264,7 +1318,7 @@ async function handleShare(contentToUpload, buttonElement) {
             const MAX_QR_CODE_LENGTH = 2500;
             if (!url) return;
             if (url.length > MAX_QR_CODE_LENGTH) {
-                element.innerHTML = `<div class="w-[128px] h-[128px] flex items-center justify-center text-center text-xs text-slate-500 bg-slate-100 rounded-md p-2">Content is too large for a QR code. Please copy the URL.</div>`;
+                element.innerHTML = `<div class="w-[128px] h-[128px] flex items-center justify-center text-center text-xs text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 rounded-md p-2">Content is too large for a QR code. Please copy the URL.</div>`;
                 return;
             }
             try { new QRCode(element, { text: url, width: 128, height: 128, colorDark: "#000000", colorLight: "#FFFFFF", correctLevel: QRCode.CorrectLevel.H }); } catch (error) { console.error('QR code init failed:', error); }
@@ -1279,13 +1333,13 @@ async function handleShare(contentToUpload, buttonElement) {
                 if (clients.length > 0) {
                     const platformContainer = document.createElement('div');
                     const titleDiv = document.createElement('div');
-                    titleDiv.className = 'flex items-center gap-2 text-sm font-semibold text-slate-600 mb-2';
+                    titleDiv.className = 'flex items-center gap-2 text-sm font-semibold text-slate-600 dark:text-slate-400 mb-2';
                     const iconName = { windows: 'monitor', macos: 'apple', android: 'smartphone', ios: 'tablet', linux: 'terminal' }[platformName.toLowerCase()] || 'box';
-                    titleDiv.innerHTML = `<i data-lucide="${iconName}" class="w-4 h-4 text-slate-500"></i><span>${platformName.charAt(0).toUpperCase() + platformName.slice(1)}</span>`;
+                    titleDiv.innerHTML = `<i data-lucide="${iconName}" class="w-4 h-4 text-slate-500 dark:text-slate-400"></i><span>${platformName.charAt(0).toUpperCase() + platformName.slice(1)}</span>`;
                     platformContainer.appendChild(titleDiv);
                     const linksContainer = document.createElement('div');
                     linksContainer.className = 'flex flex-col gap-2';
-                    clients.forEach(client => { linksContainer.innerHTML += `<a href="${client.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 bg-slate-100 rounded-lg hover:bg-slate-200 transition-colors duration-200 text-slate-700 hover:text-indigo-600"><span class="font-medium text-sm">${client.name}</span><i data-lucide="download" class="w-4 h-4 text-slate-500"></i></a>`; });
+                    clients.forEach(client => { linksContainer.innerHTML += `<a href="${client.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 bg-slate-100 dark:bg-slate-700 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors duration-200 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"><span class="font-medium text-sm">${client.name}</span><i data-lucide="download" class="w-4 h-4 text-slate-500 dark:text-slate-400"></i></a>`; });
                     platformContainer.appendChild(linksContainer);
                     clientInfoList.appendChild(platformContainer);
                 }
@@ -1527,9 +1581,9 @@ async function handleShare(contentToUpload, buttonElement) {
         categoryContainer.className = 'mb-6';
 
         categoryContainer.innerHTML = `
-            <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-200">
-                <label class="font-semibold text-slate-700">${title}</label>
-                <button data-target-list="source-list-${groupId}" class="composer-select-all-btn text-xs font-semibold text-indigo-600 hover:text-indigo-800">Select All</button>
+            <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">
+                <label class="font-semibold text-slate-700 dark:text-slate-300">${title}</label>
+                <button data-target-list="source-list-${groupId}" class="composer-select-all-btn text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300">Select All</button>
             </div>
             <!-- THIS IS THE SCROLLABLE CONTAINER -->
             <div id="source-list-${groupId}" class="composer-list space-y-2 max-h-40 overflow-y-auto pr-2">
@@ -1542,8 +1596,8 @@ async function handleShare(contentToUpload, buttonElement) {
             const checkboxDiv = document.createElement('div');
             checkboxDiv.className = 'flex items-center';
             checkboxDiv.innerHTML = `
-                <input type="checkbox" id="source_${source.url}" data-url="${source.url}" class="composer-source h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500">
-                <label for="source_${source.url}" class="ml-2 block text-sm text-slate-900 truncate" title="${source.name}">${formatDisplayName(source.name)}</label>
+                <input type="checkbox" id="source_${source.url}" data-url="${source.url}" class="composer-source h-4 w-4 rounded border-slate-300 dark:border-slate-500 text-indigo-600 focus:ring-indigo-500">
+                <label for="source_${source.url}" class="ml-2 block text-sm text-slate-900 dark:text-slate-300 truncate" title="${source.name}">${formatDisplayName(source.name)}</label>
             `;
             listDiv.appendChild(checkboxDiv);
         });
@@ -1581,8 +1635,8 @@ async function handleShare(contentToUpload, buttonElement) {
     const protocols = ['VLESS', 'VMess', 'Trojan', 'Shadowsocks', 'REALITY', 'Hysteria2'];
     composerProtocolFilters.innerHTML = protocols.map(p => `
         <div class="flex items-center">
-            <input type="checkbox" id="proto_${p.toLowerCase()}" data-protocol="${p.toLowerCase()}" class="composer-protocol h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500">
-            <label for="proto_${p.toLowerCase()}" class="ml-2 block text-sm text-slate-900">${p}</label>
+            <input type="checkbox" id="proto_${p.toLowerCase()}" data-protocol="${p.toLowerCase()}" class="composer-protocol h-4 w-4 rounded border-slate-300 dark:border-slate-500 text-indigo-600 focus:ring-indigo-500">
+            <label for="proto_${p.toLowerCase()}" class="ml-2 block text-sm text-slate-900 dark:text-slate-300">${p}</label>
         </div>
     `).join('');
 }
@@ -2007,17 +2061,17 @@ async function handleShare(contentToUpload, buttonElement) {
             }
 
             const resultItem = document.createElement('div');
-            resultItem.className = 'bg-white border rounded-lg p-3 flex items-center justify-between';
+            resultItem.className = 'bg-white dark:bg-slate-700/50 border dark:border-slate-600 rounded-lg p-3 flex items-center justify-between';
             resultItem.innerHTML = `
-                <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
+                <div class="font-semibold text-slate-800 dark:text-slate-200">${displayName} <span class="text-sm text-slate-500 dark:text-slate-400 font-normal">(${nodeCount} nodes)</span></div>
                 <div class="flex items-center gap-2">
-                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${groupBase64Content}">
+                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-400 hover:bg-indigo-100 dark:hover:bg-indigo-800" title="Copy Base64 Content" data-uri="${groupBase64Content}">
                         <i data-lucide="copy" class="h-5 w-5"></i>
                     </button>
-                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${groupBase64Content}">
+                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 dark:bg-teal-900/50 text-teal-700 dark:text-teal-400 hover:bg-teal-100 dark:hover:bg-teal-800" title="Generate Share Link" data-uri="${groupBase64Content}">
                         <i data-lucide="share-2" class="h-5 w-5"></i>
                     </button>
-                    <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
+                    <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 dark:bg-slate-600 hover:bg-slate-200 dark:hover:bg-slate-500" title="Show QR Code">
                         <i data-lucide="qr-code" class="h-5 w-5"></i>
                     </div>
                 </div>
@@ -2058,7 +2112,7 @@ async function handleShare(contentToUpload, buttonElement) {
                 const modalContent = document.getElementById('dnaModalContent');
                 const loadingStateDiv = document.getElementById('dnaLoadingState');
                 
-                loadingStateDiv.innerHTML = `<div class="p-4 bg-white"><div id="splitterQrCodeContainer" class="flex justify-center"></div></div>`;
+                loadingStateDiv.innerHTML = `<div class="p-4 bg-white dark:bg-slate-800"><div id="splitterQrCodeContainer" class="flex justify-center"></div></div>`;
                 loadingStateDiv.classList.remove('hidden');
                 document.getElementById('dnaResultsContainer').classList.add('hidden');
                 document.getElementById('modalSubscriptionName').textContent = `QR Code`;
@@ -2068,9 +2122,9 @@ async function handleShare(contentToUpload, buttonElement) {
                 const qrContainer = document.getElementById('splitterQrCodeContainer');
 
                 if (dataUri.length > MAX_QR_LENGTH) {
-                    qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-center text-lg text-slate-600 bg-slate-50 rounded-md p-4">Content is too large for a QR code.</div>`;
+                    qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-center text-lg text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-700 rounded-md p-4">Content is too large for a QR code.</div>`;
                 } else {
-                    try { new QRCode(qrContainer, { text: dataUri, width: 256, height: 256 }); }
+                    try { new QRCode(qrContainer, { text: dataUri, width: 256, height: 256, colorDark: "#111827", colorLight: "#FFFFFF" }); }
                     catch (e) { qrContainer.innerHTML = `<div class="h-64 flex items-center justify-center text-red-500">Error generating QR Code.</div>`; }
                 }
             }
@@ -2114,7 +2168,7 @@ async function handleShare(contentToUpload, buttonElement) {
         
         // Update the badge with the format of the fetched content
         let badgeText = 'Auto-Detect';
-        let badgeClass = 'bg-green-100 text-green-800';
+        let badgeClass = 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300';
         switch (inputFormat) {
             case 'clash': badgeText = 'Clash (YAML)'; break;
             case 'singbox': badgeText = 'Sing-box (JSON)'; break;
@@ -2171,7 +2225,7 @@ async function handleShare(contentToUpload, buttonElement) {
         
         if (outputFormat === 'base64') { outputContent = generateBase64Output(universalNodes); } 
         else if (outputFormat === 'clash') { outputContent = await generateClashOutput(universalNodes); fileExtension = 'yaml'; } 
-        else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(universalNodes); fileExtension = 'json'; }
+        else if (outputFormat === 'singbox') { outputContent = await generateSingboxOutput(universalNodes); fileExtension = 'json'; } 
         
         compilerResultTitle.textContent = `Successfully converted ${universalNodes.length} nodes from ${inputFormat.toUpperCase()} to ${outputFormat.toUpperCase()}.`;
         compilerResultText.value = outputContent;
@@ -2268,10 +2322,10 @@ compilerInputText.addEventListener('input', () => {
     detectedInputFormat = detectInputFormat(text);
 
     let badgeText = 'Auto-Detect';
-    let badgeClass = 'bg-slate-200 text-slate-600';
+    let badgeClass = 'bg-slate-200 text-slate-600 dark:bg-slate-600 dark:text-slate-300';
 
     if (detectedInputFormat) {
-        badgeClass = 'bg-green-100 text-green-800';
+        badgeClass = 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300';
         switch (detectedInputFormat) {
             case 'clash': badgeText = 'Clash (YAML)'; break;
             case 'singbox': badgeText = 'Sing-box (JSON)'; break;
@@ -2356,8 +2410,9 @@ searchBar.addEventListener('input', updateOtherElementOptions);
         populateSelect(configTypeSelect, Object.keys(structuredData), 'Select Config Type');
         configTypeSelect.disabled = false;
         populateComposerSources();
-        lucide.createIcons();
         switchMode('simple'); // Set the initial state to "Simple" mode
+        lucide.createIcons();
+		updateChartDefaults();
 		
     });
     (function() {
@@ -2381,7 +2436,7 @@ searchBar.addEventListener('input', updateOtherElementOptions);
             
             const flag = getFlagEmoji(data.country);
             const location = [data.city, data.region, data.country].filter(Boolean).join(', ');
-            const refreshButton = `<a href="#" id="ip-refresh-btn" title="Refresh Info" class="inline-block text-slate-400 hover:text-indigo-500 hover:rotate-90 transition-transform duration-300 ml-2">[🔄]</a>`;
+            const refreshButton = `<a href="#" id="ip-refresh-btn" title="Refresh Info" class="inline-block text-slate-400 dark:text-slate-500 hover:text-indigo-500 dark:hover:text-indigo-400 hover:rotate-90 transition-transform duration-300 ml-2">[🔄]</a>`;
 
             ipInfoSpan.innerHTML = `
                 Your IP: <span class="font-semibold">${data.ip}</span> 
