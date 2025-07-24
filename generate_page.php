@@ -2086,14 +2086,6 @@ async function handleShare(contentToUpload, buttonElement) {
         return;
     }
 
-    // Use the auto-detected format. If it's null, try one last time.
-    const inputFormat = detectedInputFormat || detectInputFormat(inputText);
-
-    if (!inputFormat) {
-        showMessageBox("Could not determine the input format. Please check your config.");
-        return;
-    }
-
     convertButton.disabled = true;
     buttonText.textContent = 'Working...';
     compilerResultArea.classList.add('hidden');
@@ -2102,6 +2094,7 @@ async function handleShare(contentToUpload, buttonElement) {
         let rawContent = '';
         const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
         
+        // --- FIX: FETCH THE CONTENT BEFORE DETECTION ---
         if (isUrl) {
             buttonText.textContent = 'Fetching URL...';
             const response = await fetchWithCorsFallback(inputText);
@@ -2111,11 +2104,32 @@ async function handleShare(contentToUpload, buttonElement) {
             rawContent = inputText;
         }
 
+        // Now, run detection on the ACTUAL content (either from the URL or the textarea)
+        const inputFormat = detectInputFormat(rawContent);
+
+        if (!inputFormat) {
+            // If detection fails on the content, then it's truly an unknown format.
+            throw new Error("Could not determine the format of the provided content.");
+        }
+        
+        // Update the badge with the format of the fetched content
+        let badgeText = 'Auto-Detect';
+        let badgeClass = 'bg-green-100 text-green-800';
+        switch (inputFormat) {
+            case 'clash': badgeText = 'Clash (YAML)'; break;
+            case 'singbox': badgeText = 'Sing-box (JSON)'; break;
+            case 'base64': badgeText = 'Base64'; break;
+            case 'uri_list': badgeText = 'URI List'; break;
+        }
+        detectedFormatBadge.textContent = badgeText;
+        detectedFormatBadge.className = `text-xs font-semibold px-2 py-1 rounded-full transition-all ${badgeClass}`;
+
+
         buttonText.textContent = 'Parsing...';
         let universalNodes = [];
         let uris = [];
 
-        // --- NEW PARSING LOGIC BASED ON DETECTED FORMAT ---
+        // --- PARSING LOGIC BASED ON DETECTED FORMAT ---
         switch (inputFormat) {
             case 'base64':
                 uris = atob(rawContent.replace(/\s/g, '')).split(/[\n\r]+/).filter(Boolean);
@@ -2127,7 +2141,6 @@ async function handleShare(contentToUpload, buttonElement) {
                 const parsedYaml = jsyaml.load(rawContent);
                 if (!parsedYaml.proxies || !Array.isArray(parsedYaml.proxies)) throw new Error('Invalid Clash file: "proxies" array not found.');
                 uris = parsedYaml.proxies.map(p => {
-                     // A simple attempt to reverse-engineer a URI. May not be perfect for all types.
                      const name = encodeURIComponent(p.name);
                      return `${p.type}://${p.uuid || p.password || ''}@${p.server}:${p.port}#${name}`;
                 });
@@ -2151,7 +2164,7 @@ async function handleShare(contentToUpload, buttonElement) {
         if (universalNodes.length === 0) throw new Error("No compatible proxy nodes could be extracted from the input.");
 
         buttonText.textContent = 'Compiling...';
-        // The rest of the logic is the same...
+        
         const outputFormat = compilerOutputFormat.value;
         let outputContent = '';
         let fileExtension = 'txt';
