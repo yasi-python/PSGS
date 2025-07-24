@@ -1981,35 +1981,47 @@ async function handleShare(contentToUpload, buttonElement) {
     const ipInfoSpan = document.getElementById('live-ip-info');
     if (!ipInfoSpan) return;
 
-    const updateIpInfo = async () => {
-        ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">Checking...</span> ⏳`;
-        
+    const getFlagEmoji = (countryCode) => {
+        if (!/^[A-Z]{2}$/.test(countryCode)) return '🏳️';
+        return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
+    };
+
+    const updateIpAndLocationInfo = async () => {
+        ipInfoSpan.innerHTML = `Your Info: <span class="font-semibold">Fetching...</span> ⏳`;
+
         try {
-            const response = await fetch('http://ip-api.com/json/?fields=status,message,countryCode,query,isp');
+            const response = await fetch('https://ipinfo.io/json');
+            if (!response.ok) {
+                throw new Error(`API request failed with status ${response.status}`);
+            }
             const data = await response.json();
-
-            if (data.status !== 'success') throw new Error('Failed to fetch IP.');
-
-            const flag = String.fromCodePoint(...data.countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
-            const refreshButton = `<a href="#" id="ip-refresh-btn" title="Refresh IP" class="inline-block hover:text-indigo-500 hover:rotate-90 transition-transform duration-300">[🔄]</a>`;
             
-            ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">${data.query}</span> (${data.isp}) ${flag} ${refreshButton}`;
+            const flag = getFlagEmoji(data.country);
+            const location = [data.city, data.region, data.country].filter(Boolean).join(', ');
+            const refreshButton = `<a href="#" id="ip-refresh-btn" title="Refresh Info" class="inline-block text-slate-400 hover:text-indigo-500 hover:rotate-90 transition-transform duration-300 ml-2">[🔄]</a>`;
+
+            ipInfoSpan.innerHTML = `
+                Your IP: <span class="font-semibold">${data.ip}</span> 
+                (${data.org}) ${flag} ${location}
+                ${refreshButton}
+            `;
 
         } catch (e) {
-            ipInfoSpan.innerHTML = `Your IP: <span class="font-semibold">Unavailable</span> ⚠️ <a href="#" id="ip-refresh-btn" title="Refresh IP">[🔄]</a>`;
+            console.error("Failed to fetch IP info:", e);
+            ipInfoSpan.innerHTML = `Your Info: <span class="font-semibold text-red-500">Unavailable</span> ⚠️ <a href="#" id="ip-refresh-btn" title="Refresh Info">[🔄]</a>`;
         }
     };
 
-    // Add a delegated event listener for the refresh button, since it gets re-created
+    // Use a delegated event listener for the refresh button, since it gets re-created
     document.body.addEventListener('click', function(e) {
         if (e.target && e.target.id === 'ip-refresh-btn') {
             e.preventDefault();
-            updateIpInfo();
+            updateIpAndLocationInfo();
         }
     });
 
-    // Run it for the first time
-    updateIpInfo();
+    // Run it for the first time when the page loads
+    updateIpAndLocationInfo();
 })();
     </script>
 </body>
