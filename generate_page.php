@@ -552,6 +552,7 @@ function generate_full_html(
                                 <label for="compilerInputFormat" class="block text-sm font-medium text-slate-700 mb-2">Input Format:</label>
                                 <select id="compilerInputFormat" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800">
                                     <option value="base64" selected>Base64 URI List (Sub Link)</option>
+                                    <option value="uri_list">Plain Text (URI List)</option>
                                     <option value="clash">Clash Profile (YAML)</option>
                                     <option value="singbox">Sing-box Profile (JSON)</option>
                                 </select>
@@ -1888,6 +1889,13 @@ async function handleShare(contentToUpload, buttonElement) {
                 if (inputFormat === 'base64') {
                     const decoded = atob(rawContent);
                     const uris = decoded.split(/[\n\r]+/).filter(Boolean);
+                    uris.forEach(uri => {
+                        const parsed = configParse(uri);
+                        if(parsed) universalNodes.push({ uri, parsed });
+                    });
+                } else if (inputFormat === 'uri_list') {
+                    // This handles a plain text list of URIs, one per line. No atob() needed!
+                    const uris = rawContent.split(/[\n\r]+/).filter(Boolean);
                     uris.forEach(uri => {
                         const parsed = configParse(uri);
                         if(parsed) universalNodes.push({ uri, parsed });
