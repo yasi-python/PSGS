@@ -377,6 +377,13 @@ function generate_full_html(
         .mode-btn.text-indigo-600 {
             color: #4f46e5;
         }
+	.step-container.active {
+    opacity: 1;
+    border-color: #4f46e5; /* indigo-500 */
+}
+.step-container.active .step-icon {
+    background-color: #4338ca; /* indigo-700 */
+}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 leading-relaxed transition-colors duration-300">
@@ -406,23 +413,42 @@ function generate_full_html(
                 </div>
 
                 <!-- Container for "Simple Mode" -->
-                <div id="simpleModeContainer">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-6">
-                        <div>
-                            <label for="configType" class="block text-sm font-medium text-slate-700 mb-2">Config Type:</label>
-                            <select id="configType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800"></select>
-                        </div>
-                        <div>
-                            <label for="ipType" class="block text-sm font-medium text-slate-700 mb-2">Client/Core:</label>
-                            <select id="ipType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800" disabled></select>
-                        </div>
-                        <div>
-                            <label for="otherElement" class="block text-sm font-medium text-slate-700 mb-2">Subscription:</label>
-                            <input type="search" id="searchBar" placeholder="Filter subscriptions..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 mb-2 bg-slate-100 text-slate-800 placeholder-slate-400" disabled>
-                            <select id="otherElement" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800" disabled></select>
-                        </div>
-                    </div>
-                </div>
+<div id="simpleModeContainer">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+
+        <!-- Step 1: Choose Subscription Category -->
+        <div id="step1" class="step-container bg-white p-6 rounded-lg border-2 border-indigo-500 shadow-lg">
+            <div class="flex items-center justify-center w-12 h-12 bg-indigo-600 text-white rounded-full mx-auto mb-4">
+                <span class="text-xl font-bold">1</span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-1">Choose Category</h3>
+            <p class="text-sm text-slate-500 mb-4">What kind of subscription do you need?</p>
+            <select id="configType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800"></select>
+        </div>
+
+        <!-- Step 2: Choose Client/Core -->
+        <div id="step2" class="step-container bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+             <div class="flex items-center justify-center w-12 h-12 bg-slate-400 text-white rounded-full mx-auto mb-4 step-icon">
+                <span class="text-xl font-bold">2</span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-1">Select Your App</h3>
+            <p class="text-sm text-slate-500 mb-4">Which app or software will you use?</p>
+            <select id="ipType" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800" disabled></select>
+        </div>
+
+        <!-- Step 3: Find & Select Subscription -->
+        <div id="step3" class="step-container bg-white p-6 rounded-lg border-2 border-slate-200 transition-opacity duration-300 opacity-50">
+             <div class="flex items-center justify-center w-12 h-12 bg-slate-400 text-white rounded-full mx-auto mb-4 step-icon">
+                <span class="text-xl font-bold">3</span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-1">Find Your Link</h3>
+            <p class="text-sm text-slate-500 mb-4">Search for a specific subscription.</p>
+            <input type="search" id="searchBar" placeholder="Filter subscriptions..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 mb-2 bg-slate-50 text-slate-800 placeholder-slate-400" disabled>
+            <select id="otherElement" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 text-slate-800" disabled></select>
+        </div>
+
+    </div>
+</div>
 
                 <!-- Container for "Subscription Composer Mode" -->
                 <div id="composerModeContainer" class="hidden">
@@ -1955,11 +1981,91 @@ async function handleShare(contentToUpload, buttonElement) {
                 switchMode(targetMode);
             });
         });
+	    // =======================================================
+// --- GUIDED WIZARD LOGIC FOR SIMPLE MODE ---
+// =======================================================
+const step1 = document.getElementById('step1');
+const step2 = document.getElementById('step2');
+const step3 = document.getElementById('step3');
 
-        configTypeSelect.addEventListener('change', () => { resetSelect(ipTypeSelect, 'Select Client/Core'); resetSelect(otherElementSelect, 'Select Subscription'); searchBar.value = ''; searchBar.disabled = true; resultArea.classList.add('hidden'); if (configTypeSelect.value && structuredData[configTypeSelect.value]) { populateSelect(ipTypeSelect, Object.keys(structuredData[configTypeSelect.value]), 'Select Client/Core'); ipTypeSelect.disabled = false; } });
-        ipTypeSelect.addEventListener('change', () => { searchBar.value = ''; if (ipTypeSelect.value) { updateClientInfo(ipTypeSelect.value); resultArea.classList.remove('hidden'); subscriptionDetailsContainer.classList.add('hidden'); searchBar.disabled = false; updateOtherElementOptions(); } else { resultArea.classList.add('hidden'); searchBar.disabled = true; resetSelect(otherElementSelect, 'Select Subscription'); } });
+function resetStep(stepElement) {
+    stepElement.classList.remove('active');
+    stepElement.style.opacity = '0.5';
+    stepElement.querySelector('.step-icon')?.classList.replace('bg-indigo-700', 'bg-slate-400');
+
+    // Disable all inputs within this step
+    stepElement.querySelectorAll('select, input').forEach(input => {
+        if (input.id !== 'configType') { // Don't disable the very first select
+            input.disabled = true;
+        }
+    });
+}
+
+function activateStep(stepElement) {
+    stepElement.classList.add('active');
+    stepElement.style.opacity = '1';
+    stepElement.querySelector('.step-icon')?.classList.replace('bg-slate-400', 'bg-indigo-700');
+    
+    // Enable the primary input of this step
+    const primaryInput = stepElement.querySelector('select, input');
+    if (primaryInput) {
+        primaryInput.disabled = false;
+    }
+}
+
+// --- NEW Event Listeners ---
+configTypeSelect.addEventListener('change', () => {
+    // Reset steps 2 and 3
+    resetStep(step2);
+    resetStep(step3);
+    resetSelect(ipTypeSelect, 'Select Your App');
+    resetSelect(otherElementSelect, 'Select Subscription');
+    searchBar.value = '';
+    searchBar.disabled = true;
+    resultArea.classList.add('hidden');
+
+    if (configTypeSelect.value) {
+        // Activate Step 2
+        activateStep(step2);
+        populateSelect(ipTypeSelect, Object.keys(structuredData[configTypeSelect.value]), 'Select Your App');
+    }
+});
+
+ipTypeSelect.addEventListener('change', () => {
+    // Reset step 3
+    resetStep(step3);
+    resetSelect(otherElementSelect, 'Select Subscription');
+    searchBar.value = '';
+    resultArea.classList.add('hidden');
+
+    if (ipTypeSelect.value) {
+        // Activate Step 3
+        activateStep(step3);
+        searchBar.disabled = false;
+        otherElementSelect.disabled = false;
+        
+        // Populate and show client info immediately
+        updateClientInfo(ipTypeSelect.value);
+        resultArea.classList.remove('hidden');
+        subscriptionDetailsContainer.classList.add('hidden'); // Hide URL until a sub is chosen
+        updateOtherElementOptions();
+    }
+});
+
+otherElementSelect.addEventListener('change', () => {
+    const url = structuredData[configTypeSelect.value]?.[ipTypeSelect.value]?.[otherElementSelect.value];
+    if (url) {
+        subscriptionUrlInput.value = url;
+        updateQRCode(qrcodeDiv, url);
+        subscriptionDetailsContainer.classList.remove('hidden');
+    } else {
+        subscriptionDetailsContainer.classList.add('hidden');
+    }
+});
+
+// The search bar listener remains the same, as it's just for filtering
+searchBar.addEventListener('input', updateOtherElementOptions);
         searchBar.addEventListener('input', updateOtherElementOptions);
-        otherElementSelect.addEventListener('change', () => { const url = structuredData[configTypeSelect.value]?.[ipTypeSelect.value]?.[otherElementSelect.value]; if (url) { subscriptionUrlInput.value = url; updateQRCode(qrcodeDiv, url); subscriptionDetailsContainer.classList.remove('hidden'); } else { subscriptionDetailsContainer.classList.add('hidden'); } });
         copyButton.addEventListener('click', () => { navigator.clipboard.writeText(subscriptionUrlInput.value).then(() => { const icon = copyButton.querySelector('.copy-icon'), check = copyButton.querySelector('.check-icon'); icon.classList.add('hidden'); check.classList.remove('hidden'); setTimeout(() => { icon.classList.remove('hidden'); check.classList.add('hidden'); }, 2000); }); });
         messageBoxClose.addEventListener('click', () => messageBox.classList.add('hidden'));
         generateCompositionButton.addEventListener('click', handleGenerateComposition);
