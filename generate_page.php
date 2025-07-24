@@ -1858,129 +1858,133 @@ async function handleShare(contentToUpload, buttonElement) {
         });
 
         splitSubscriptionButton.addEventListener('click', async () => {
-            const url = splitterUrlInput.value;
-            if (!url) {
-                showMessageBox('Please paste a subscription URL to split.');
-                return;
+    // 1. Define inputText at the top level of the function.
+    const inputText = splitterUrlInput.value.trim();
+    if (!inputText) {
+        showMessageBox('Please paste a URL or raw subscription text to split.');
+        return;
+    }
+
+    const button = splitSubscriptionButton;
+    const buttonText = document.getElementById('splitButtonText');
+    button.disabled = true;
+    buttonText.textContent = 'Parsing...';
+    splitterResultArea.classList.add('hidden');
+    splitterResultList.innerHTML = '';
+
+    try {
+        let rawSubscriptionContent = '';
+
+        // 2. Check if inputText is a URL
+        const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
+        if (isUrl) {
+            buttonText.textContent = 'Fetching URL...';
+            const response = await fetchWithCorsFallback(inputText);
+            if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
+            rawSubscriptionContent = await response.text();
+        } else {
+            // If not a URL, the raw text is the inputText itself.
+            rawSubscriptionContent = inputText;
+        }
+
+        let uris = [];
+        // 3. Intelligently determine if rawSubscriptionContent is Base64 or plain text
+        try {
+            const decoded = atob(rawSubscriptionContent);
+            // Heuristic check: does the decoded content look like a list of URIs?
+            if (decoded.includes('://')) {
+                uris = decoded.split(/[\n\r]+/).filter(Boolean);
+            } else {
+                // It's valid Base64 but doesn't contain URIs, so it's probably just plain text that happens to be base64-decodable.
+                // We'll fall through to the catch block to treat it as a plain list.
+                throw new Error("Decoded content is not a URI list.");
+            }
+        } catch (e) {
+            // If base64 decoding fails OR the heuristic check fails,
+            // we assume the original content is a plain text list of URIs.
+            uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
+        }
+
+        if (uris.length === 0) {
+            throw new Error('No valid proxy URIs found in the provided input.');
+        }
+
+        buttonText.textContent = 'Splitting...';
+
+        const nodes = uris.map(uri => {
+            const parsed = configParse(uri);
+            return parsed ? { uri, parsed } : null;
+        }).filter(Boolean);
+
+        const strategy = document.querySelector('input[name="split_strategy"]:checked').value;
+        let groupedNodes = {};
+
+        // ... THE REST OF YOUR SPLITTING LOGIC (strategy handling, rendering results) ...
+        // ... REMAINS EXACTLY THE SAME AND IS CORRECT ...
+
+        if (strategy === 'country') {
+            nodes.forEach(node => {
+                const name = node.parsed.ps || node.parsed.hash || 'Unknown';
+                const countryMatch = name.match(/\[([A-Z]{2})\]|\b([A-Z]{2})\b/i);
+                const countryCode = countryMatch ? (countryMatch[1] || countryMatch[2]).toUpperCase() : 'Unknown';
+                if (!groupedNodes[countryCode]) groupedNodes[countryCode] = [];
+                groupedNodes[countryCode].push(node);
+            });
+        } else if (strategy === 'protocol') {
+            nodes.forEach(node => {
+                const protocol = node.parsed.protocol || 'unknown';
+                if (!groupedNodes[protocol]) groupedNodes[protocol] = [];
+                groupedNodes[protocol].push(node);
+            });
+        } else { // chunk
+            const chunkSize = parseInt(chunkSizeInput.value, 10) || 50;
+            for (let i = 0; i < nodes.length; i += chunkSize) {
+                const chunk = nodes.slice(i, i + chunkSize);
+                const chunkName = `Chunk ${Math.floor(i / chunkSize) + 1}`;
+                groupedNodes[chunkName] = chunk;
+            }
+        }
+
+        Object.entries(groupedNodes).sort((a,b) => a[0].localeCompare(b[0])).forEach(([groupName, groupNodes]) => {
+            const nodeCount = groupNodes.length;
+            const base64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
+            
+            let displayName = groupName;
+            if (strategy === 'country' && groupName !== 'Unknown') {
+                displayName = `${getFlagEmoji(groupName)} ${getCountryName(groupName)}`;
+            } else if (strategy === 'protocol') {
+                displayName = formatDisplayName(groupName);
             }
 
-            const button = splitSubscriptionButton;
-            const buttonText = document.getElementById('splitButtonText');
-            button.disabled = true;
-            buttonText.textContent = 'Parsing...';
-            splitterResultArea.classList.add('hidden');
-            splitterResultList.innerHTML = '';
-
-            try {
-                let rawSubscriptionContent = '';
-
-                // 1. Check if it's a URL
-                const isUrl = inputText.startsWith('http://') || inputText.startsWith('https://');
-                if (isUrl) {
-                    buttonText.textContent = 'Fetching URL...';
-                    const response = await fetchWithCorsFallback(inputText);
-                    if (!response.ok) throw new Error(`Fetch failed (${response.status})`);
-                    rawSubscriptionContent = await response.text();
-                } else {
-                    // 2. If not a URL, it's raw text
-                    rawSubscriptionContent = inputText;
-                }
-
-                let uris = [];
-                // 3. Intelligently determine if content is Base64 or plain text
-                try {
-                    // Try decoding as base64. If it succeeds and isn't just random text, use it.
-                    const decoded = atob(rawSubscriptionContent);
-                    // A simple heuristic: valid decoded content should contain common protocol schemes.
-                    if (decoded.includes('://')) {
-                         uris = decoded.split(/[\n\r]+/).filter(Boolean);
-                    } else {
-                        // It was valid base64 but didn't look like a subscription list.
-                        // We will now fall through to the catch block to treat it as plain text.
-                        throw new Error("Content is not a URI list.");
-                    }
-                } catch (e) {
-                    // If base64 decoding fails OR it's not a valid list,
-                    // assume it's a plain text list of URIs.
-                    uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
-                }
-
-                if (uris.length === 0) throw new Error('No proxy nodes found in the subscription.');
-                
-                buttonText.textContent = 'Splitting...';
-
-                const nodes = uris.map(uri => {
-                    const parsed = configParse(uri);
-                    return parsed ? { uri, parsed } : null;
-                }).filter(Boolean);
-                
-                const strategy = document.querySelector('input[name="split_strategy"]:checked').value;
-                let groupedNodes = {};
-
-                if (strategy === 'country') {
-                    nodes.forEach(node => {
-                        const name = node.parsed.ps || node.parsed.hash || 'Unknown';
-                        const countryMatch = name.match(/\[([A-Z]{2})\]|\b([A-Z]{2})\b/i);
-                        const countryCode = countryMatch ? (countryMatch[1] || countryMatch[2]).toUpperCase() : 'Unknown';
-                        if (!groupedNodes[countryCode]) groupedNodes[countryCode] = [];
-                        groupedNodes[countryCode].push(node);
-                    });
-                } else if (strategy === 'protocol') {
-                    nodes.forEach(node => {
-                        const protocol = node.parsed.protocol || 'unknown';
-                        if (!groupedNodes[protocol]) groupedNodes[protocol] = [];
-                        groupedNodes[protocol].push(node);
-                    });
-                } else { // chunk
-                    const chunkSize = parseInt(chunkSizeInput.value, 10) || 50;
-                    for (let i = 0; i < nodes.length; i += chunkSize) {
-                        const chunk = nodes.slice(i, i + chunkSize);
-                        const chunkName = `Chunk ${Math.floor(i / chunkSize) + 1}`;
-                        groupedNodes[chunkName] = chunk;
-                    }
-                }
-
-                // Render the results
-                Object.entries(groupedNodes).sort((a,b) => a[0].localeCompare(b[0])).forEach(([groupName, groupNodes]) => {
-                    const nodeCount = groupNodes.length;
-                    const base64Content = btoa(groupNodes.map(n => n.uri).join('\n'));
-                    
-                    let displayName = groupName;
-                    if (strategy === 'country' && groupName !== 'Unknown') {
-                        displayName = `${getFlagEmoji(groupName)} ${getCountryName(groupName)}`;
-                    } else if (strategy === 'protocol') {
-                        displayName = formatDisplayName(groupName);
-                    }
-
-                    const resultItem = document.createElement('div');
-                    resultItem.className = 'bg-white border rounded-lg p-3 flex items-center justify-between';
-                    resultItem.innerHTML = `
-                        <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
-                        <div class="flex items-center gap-2">
-                            <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${base64Content}">
-                                <i data-lucide="copy" class="h-5 w-5"></i>
-                            </button>
-                            <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${base64Content}">
-                                <i data-lucide="share-2" class="h-5 w-5"></i>
-                            </button>
-                            <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
-                                <i data-lucide="qr-code" class="h-5 w-5"></i>
-                            </div>
-                        </div>
-                    `;
-                    splitterResultList.appendChild(resultItem);
-                });
-
-                splitterResultArea.classList.remove('hidden');
-
-            } catch (error) {
-                showMessageBox(`Splitting Failed: ${error.message}`);
-            } finally {
-                button.disabled = false;
-                buttonText.textContent = 'Split Subscription';
-                lucide.createIcons();
-            }
+            const resultItem = document.createElement('div');
+            resultItem.className = 'bg-white border rounded-lg p-3 flex items-center justify-between';
+            resultItem.innerHTML = `
+                <div class="font-semibold text-slate-800">${displayName} <span class="text-sm text-slate-500 font-normal">(${nodeCount} nodes)</span></div>
+                <div class="flex items-center gap-2">
+                    <button class="splitter-copy-btn p-2 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100" title="Copy Base64 Content" data-uri="${base64Content}">
+                        <i data-lucide="copy" class="h-5 w-5"></i>
+                    </button>
+                    <button class="splitter-share-btn p-2 rounded-md bg-teal-50 text-teal-700 hover:bg-teal-100" title="Generate Share Link" data-uri="${base64Content}">
+                        <i data-lucide="share-2" class="h-5 w-5"></i>
+                    </button>
+                    <div class="splitter-qr-btn p-2 rounded-md bg-slate-100 hover:bg-slate-200" title="Show QR Code">
+                        <i data-lucide="qr-code" class="h-5 w-5"></i>
+                    </div>
+                </div>
+            `;
+            splitterResultList.appendChild(resultItem);
         });
+
+        splitterResultArea.classList.remove('hidden');
+
+    } catch (error) {
+        showMessageBox(`Splitting Failed: ${error.message}`);
+    } finally {
+        button.disabled = false;
+        buttonText.textContent = 'Split Subscription';
+        lucide.createIcons();
+    }
+});
 
         splitterResultList.addEventListener('click', e => {
             const copyBtn = e.target.closest('.splitter-copy-btn');
