@@ -565,7 +565,7 @@ function generate_full_html(
                         <!-- Step 1: Input -->
 <div>
     <label for="splitterUrlInput" class="block text-sm font-medium text-slate-700 mb-2">Subscription URL or Raw Text:</label>
-    <input type="text" id="splitterUrlInput" placeholder="Paste URL, Base64 text, or a list of configs here..." class="block w-full rounded-md ...">
+    <textarea id="splitterUrlInput" rows="4" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-100 text-slate-800 placeholder-slate-400 font-mono" placeholder="Paste URL, Base64 text, or a list of configs here..."></textarea>
 </div>
 
                         <!-- Step 2: Options -->
