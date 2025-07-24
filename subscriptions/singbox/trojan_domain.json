@@ -91,10 +91,8 @@
                 "direct",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇨🇾 CY | 🔴 | trojan | @configshubplus | 15",
-                "🇨🇾 CY | 🔴 | trojan | @configshubplus | 16",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -115,10 +113,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇨🇾 CY | 🔴 | trojan | @configshubplus | 15",
-                "🇨🇾 CY | 🔴 | trojan | @configshubplus | 16",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -178,34 +174,6 @@
             }
         },
         {
-            "tag": "🇨🇾 CY | 🔴 | trojan | @configshubplus | 15",
-            "type": "trojan",
-            "server": "fastcup.net",
-            "server_port": 8443,
-            "password": "dac2d4dd-9a4d-4eb0-92a6-028532caed52",
-            "transport": {
-                "type": "ws",
-                "path": "/profile/telegram@ssrsub",
-                "headers": {
-                    "Host": "cdn-node-oss-99.paofu.de"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾 CY | 🔴 | trojan | @configshubplus | 16",
-            "type": "trojan",
-            "server": "pubg.ac",
-            "server_port": 8443,
-            "password": "dac2d4dd-9a4d-4eb0-92a6-028532caed52",
-            "transport": {
-                "type": "ws",
-                "path": "/profile/telegram@ssrsub",
-                "headers": {
-                    "Host": "cdn-node-oss-99.paofu.de"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | trojan | @fati_ffx | 1",
             "type": "trojan",
             "server": "t3.teslacdn2.live",
@@ -222,25 +190,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "stirring-parakeet.shiner427.skin",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "74260628090146500",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "stirring-parakeet.shiner427.skin",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },
