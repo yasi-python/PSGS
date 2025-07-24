@@ -392,7 +392,7 @@
             <p id="lastGenerated" class="text-xs text-slate-400 mt-4">
     <span id="live-ip-info"></span>
     <span class="mx-2">|</span>
-    <span>Last Generated: 2025-07-24 16:30:01 +0330</span>
+    <span>Last Generated: 2025-07-24 16:36:24 +0330</span>
 </p>
         </footer>
     </div>
@@ -1541,23 +1541,30 @@ async function handleShare(contentToUpload, buttonElement) {
             // If not a URL, the raw text is the inputText itself.
             rawSubscriptionContent = inputText;
         }
-
         let uris = [];
-        // 3. Intelligently determine if rawSubscriptionContent is Base64 or plain text
-        try {
-            const decoded = atob(rawSubscriptionContent);
-            // Heuristic check: does the decoded content look like a list of URIs?
-            if (decoded.includes('://')) {
-                uris = decoded.split(/[\n\r]+/).filter(Boolean);
-            } else {
-                // It's valid Base64 but doesn't contain URIs, so it's probably just plain text that happens to be base64-decodable.
-                // We'll fall through to the catch block to treat it as a plain list.
-                throw new Error("Decoded content is not a URI list.");
-            }
-        } catch (e) {
-            // If base64 decoding fails OR the heuristic check fails,
-            // we assume the original content is a plain text list of URIs.
+
+        // 3. Intelligently determine if content is Base64 or plain text
+        // First, check if the raw text ITSELF looks like a URI list.
+        // This handles the case where plain text is pasted directly.
+        if (rawSubscriptionContent.trim().startsWith('vless://') || 
+            rawSubscriptionContent.trim().startsWith('vmess://') ||
+            rawSubscriptionContent.trim().startsWith('trojan://') ||
+            rawSubscriptionContent.trim().startsWith('ss://') ||
+            rawSubscriptionContent.trim().startsWith('hy2://')) {
+            
+            // It's a plain text list.
             uris = rawSubscriptionContent.split(/[\n\r]+/).filter(Boolean);
+
+        } else {
+            // If it doesn't look like a plain text list, it's likely Base64.
+            // We use a try-catch block here in case it's invalid Base64.
+            try {
+                const decoded = atob(rawSubscriptionContent);
+                uris = decoded.split(/[\n\r]+/).filter(Boolean);
+            } catch (e) {
+                // If decoding fails, it's malformed input.
+                throw new Error("Input is not a valid URL, Base64 content, or URI list.");
+            }
         }
 
         if (uris.length === 0) {
@@ -1573,9 +1580,6 @@ async function handleShare(contentToUpload, buttonElement) {
 
         const strategy = document.querySelector('input[name="split_strategy"]:checked').value;
         let groupedNodes = {};
-
-        // ... THE REST OF YOUR SPLITTING LOGIC (strategy handling, rendering results) ...
-        // ... REMAINS EXACTLY THE SAME AND IS CORRECT ...
 
         if (strategy === 'country') {
             nodes.forEach(node => {
