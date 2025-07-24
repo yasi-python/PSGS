@@ -1429,59 +1429,65 @@ async function handleShare(contentToUpload, buttonElement) {
         function populateComposerSources() {
     composerSourceList.innerHTML = ''; // Clear previous content
 
-    // We will now group sources by their top-level category from SCAN_DIRECTORIES
-    const sourcesByCategory = {};
+    // Define the specific sub-folders we want to use from the "Standard" category
+    const allowedSubFolders = ['location', 'channel', 'xray'];
 
-    Object.entries(structuredData).forEach(([configType, clientCores]) => {
-        // Initialize the category if it doesn't exist
-        if (!sourcesByCategory[configType]) {
-            sourcesByCategory[configType] = [];
-        }
-        
-        Object.entries(clientCores).forEach(([clientCore, subscriptions]) => {
-            // We only compose from base64/URI list sources
-            if (['location', 'channel', 'xray'].includes(clientCore.toLowerCase())) {
+    // This object will hold the final, grouped sources
+    const curatedGroups = {
+        Locations: [],
+        Channels: [],
+        Types: [] // For the 'xray' folder
+    };
+
+    // Only process the "Standard" category from our main data
+    const standardCategory = structuredData['Standard'];
+    if (standardCategory) {
+        Object.entries(standardCategory).forEach(([subFolderName, subscriptions]) => {
+            // Check if this sub-folder is one we're allowed to use
+            if (allowedSubFolders.includes(subFolderName.toLowerCase())) {
+                
                 Object.entries(subscriptions).forEach(([name, url]) => {
-                    sourcesByCategory[configType].push({
-                        // Create a shorter, cleaner name for display
-                        name: `${clientCore}/${name}`,
-                        url
-                    });
+                    const sourceItem = { name, url };
+                    
+                    // Sort the item into the correct curated group
+                    if (subFolderName === 'location') {
+                        curatedGroups.Locations.push(sourceItem);
+                    } else if (subFolderName === 'channel') {
+                        curatedGroups.Channels.push(sourceItem);
+                    } else if (subFolderName === 'xray') {
+                        curatedGroups.Types.push(sourceItem);
+                    }
                 });
             }
         });
-    });
+    }
 
-    // Now, build the HTML for each category
-    for (const categoryName in sourcesByCategory) {
-        const sources = sourcesByCategory[categoryName];
-
-        // Skip rendering if a category has no compatible sources
+    // A helper function to build the HTML for each group
+    const buildGroupUI = (title, sources, parentElement) => {
         if (sources.length === 0) {
-            continue;
+            return; // Don't build a section if there are no sources for it
         }
 
-        // Sort sources alphabetically within the category
+        // Sort sources alphabetically within the group
         sources.sort((a, b) => a.name.localeCompare(b.name));
         
-        // Create the container for this category group
-        const categoryContainer = document.createElement('div');
-        categoryContainer.className = 'mb-6'; // Add some space between categories
+        const groupId = title.replace(/\s+/g, '-'); // e.g., "Main-Types"
 
-        // Create the header with category name and a "Select All" button
+        const categoryContainer = document.createElement('div');
+        categoryContainer.className = 'mb-6';
+
         categoryContainer.innerHTML = `
             <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-200">
-                <label class="font-semibold text-slate-700">${categoryName} Sources</label>
-                <button data-target-list="source-list-${categoryName}" class="composer-select-all-btn text-xs font-semibold text-indigo-600 hover:text-indigo-800">Select All</button>
+                <label class="font-semibold text-slate-700">${title}</label>
+                <button data-target-list="source-list-${groupId}" class="composer-select-all-btn text-xs font-semibold text-indigo-600 hover:text-indigo-800">Select All</button>
             </div>
-            <div id="source-list-${categoryName}" class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2">
+            <!-- THIS IS THE SCROLLABLE CONTAINER -->
+            <div id="source-list-${groupId}" class="composer-list space-y-2 max-h-40 overflow-y-auto pr-2">
                 <!-- Checkboxes will be inserted here -->
             </div>
         `;
-
-        const listDiv = categoryContainer.querySelector(`#source-list-${categoryName}`);
-
-        // Populate the list with checkboxes for this category
+        
+        const listDiv = categoryContainer.querySelector(`#source-list-${groupId}`);
         sources.forEach(source => {
             const checkboxDiv = document.createElement('div');
             checkboxDiv.className = 'flex items-center';
@@ -1492,11 +1498,16 @@ async function handleShare(contentToUpload, buttonElement) {
             listDiv.appendChild(checkboxDiv);
         });
         
-        // Add the completed category group to the main container
-        composerSourceList.appendChild(categoryContainer);
-    }
+        parentElement.appendChild(categoryContainer);
+    };
     
-    // Attach a single event listener to the parent for all "Select All" buttons
+    // Build the UI for each of our curated groups
+    buildGroupUI('Locations (by Country)', curatedGroups.Locations, composerSourceList);
+    buildGroupUI('Channels (by Provider)', curatedGroups.Channels, composerSourceList);
+    buildGroupUI('Types (by Protocol)', curatedGroups.Types, composerSourceList);
+    
+    // This event listener for the "Select All" buttons remains the same as before,
+    // as it is generic enough to handle the new structure.
     composerSourceList.addEventListener('click', (e) => {
         if (e.target.classList.contains('composer-select-all-btn')) {
             const button = e.target;
@@ -1512,15 +1523,11 @@ async function handleShare(contentToUpload, buttonElement) {
             });
             
             button.textContent = isSelectAll ? 'Deselect All' : 'Select All';
-            
-            // Manually trigger the change event on the parent container
-            // This ensures our main wizard logic still activates/deactivates Steps 2 & 3
             composerSourceList.dispatchEvent(new Event('change', { bubbles: true }));
         }
     });
 
-
-    // --- This part for Protocol Filters remains unchanged ---
+    // Protocol Filters section remains unchanged
     const protocols = ['VLESS', 'VMess', 'Trojan', 'Shadowsocks', 'REALITY', 'Hysteria2'];
     composerProtocolFilters.innerHTML = protocols.map(p => `
         <div class="flex items-center">
@@ -1529,7 +1536,6 @@ async function handleShare(contentToUpload, buttonElement) {
         </div>
     `).join('');
 }
-
         function handleSelectAll(e) {
             const button = e.target;
             const targetId = button.dataset.target;
