@@ -413,7 +413,7 @@ function generate_full_html(
                 <!-- NEW: Segmented Control Navigation -->
                 <div class="relative w-full max-w-lg mx-auto mb-8 p-1.5 bg-slate-100 rounded-xl flex items-center">
                     <!-- The sliding background for the active state -->
-                    <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] w-1/4 bg-white rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
+                    <div id="mode-slider" class="absolute top-1.5 left-1.5 h-[calc(100%-12px)] bg-white rounded-lg shadow-md transition-all duration-300 ease-in-out"></div>
                 
                     <!-- The buttons. Notice the added data-id attribute -->
                     <button data-id="simple" class="mode-btn flex-1 relative z-10 text-center px-2 py-2 text-sm font-semibold text-slate-700 transition-colors">🤌🏻 Simple</button>
@@ -1222,38 +1222,48 @@ async function handleShare(contentToUpload, buttonElement) {
 
         // --- CORE NAVIGATION LOGIC ---
         function switchMode(activeMode) {
-            const allModes = {
-                simple: { container: simpleModeContainer, index: 0 },
-                composer: { container: composerModeContainer, index: 1 },
-                splitter: { container: splitterModeContainer, index: 2 },
-                compiler: { container: compilerModeContainer, index: 3 }
-            };
+    const allModes = {
+        simple: { container: simpleModeContainer, index: 0 },
+        composer: { container: composerModeContainer, index: 1 },
+        splitter: { container: splitterModeContainer, index: 2 },
+        compiler: { container: compilerModeContainer, index: 3 },
+        inspector: { container: inspectorModeContainer, index: 4 }
+    };
+    
+    // --- ROBUST SLIDER LOGIC ---
+    const activeButton = document.querySelector(`.mode-btn[data-id='${activeMode}']`);
+    if (activeButton && modeSlider) {
+        // Get the position of the button relative to its parent container.
+        const buttonLeft = activeButton.offsetLeft;
+        
+        // Move the slider to that exact pixel position.
+        modeSlider.style.transform = `translateX(${buttonLeft}px)`;
 
-            // 1. Move the slider
-            const activeIndex = allModes[activeMode].index;
-            if (modeSlider) {
-                modeSlider.style.transform = `translateX(${activeIndex * 100}%)`;
-            }
+        // We can also match the slider's width to the button's width for perfect alignment.
+        const buttonWidth = activeButton.offsetWidth;
+        modeSlider.style.width = `${buttonWidth}px`;
+    }
 
-            // 2. Hide all containers and result areas
-            Object.values(allModes).forEach(mode => mode.container.classList.add('hidden'));
-            resultArea.classList.add('hidden');
-            composerResultArea.classList.add('hidden');
-            splitterResultArea.classList.add('hidden');
-            compilerResultArea.classList.add('hidden');
-            
-            // 3. Highlight the active button's text
-            modeButtons.forEach(btn => btn.classList.remove('text-indigo-600'));
-            const activeButton = document.querySelector(`.mode-btn[data-id='${activeMode}']`);
-            if(activeButton) {
-                activeButton.classList.add('text-indigo-600');
-            }
+    // --- The rest of the function remains the same ---
 
-            // 4. Show the active container
-            if (allModes[activeMode]) {
-                allModes[activeMode].container.classList.remove('hidden');
-            }
-        }
+    // Hide all containers and result areas
+    Object.values(allModes).forEach(mode => mode.container.classList.add('hidden'));
+    resultArea.classList.add('hidden');
+    composerResultArea.classList.add('hidden');
+    splitterResultArea.classList.add('hidden');
+    compilerResultArea.classList.add('hidden');
+    
+    // Highlight the active button's text
+    modeButtons.forEach(btn => btn.classList.remove('text-indigo-600'));
+    if(activeButton) {
+        activeButton.classList.add('text-indigo-600');
+    }
+
+    // Show the active container
+    if (allModes[activeMode]) {
+        allModes[activeMode].container.classList.remove('hidden');
+    }
+}
 
         // --- SIMPLE MODE & DNA LOGIC (largely unchanged) ---
         function populateSelect(selectElement, sortedKeys, defaultOptionText) { selectElement.innerHTML = `<option value="">${defaultOptionText}</option>`; sortedKeys.forEach(key => { const option = document.createElement('option'); option.value = key; option.textContent = formatDisplayName(key); selectElement.appendChild(option); }); }
