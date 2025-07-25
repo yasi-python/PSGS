@@ -168,11 +168,11 @@
                 "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
-                "🇺🇸 US | 🔴 | vless | @outline_ir | 18",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
@@ -297,11 +297,11 @@
                 "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
-                "🇺🇸 US | 🔴 | vless | @outline_ir | 18",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
@@ -1682,22 +1682,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @outline_ir | 18",
-            "type": "vless",
-            "server": "famous-experience.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "7f09e7b4-4680-4653-a2da-307d110b6961",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-experience.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔴 | vless | @proxy48 | 14",
             "type": "vless",
             "server": "www.forcepower.monster",
@@ -1760,6 +1744,31 @@
                     "enabled": true,
                     "public_key": "blF2p2FE_fexB29-tmU9HfVs6TwqsSQVxWAHIiP2KTk",
                     "short_id": "b28a0dd8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
+            "type": "vless",
+            "server": "edt-f5k.pages.dev",
+            "server_port": 443,
+            "uuid": "98371613-b71d-4185-9e8a-eb7ba73373b4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "edt-f5k.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "edt-f5k.pages.dev"
                 }
             }
         },
