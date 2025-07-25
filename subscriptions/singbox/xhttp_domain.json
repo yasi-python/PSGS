@@ -109,7 +109,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
+                "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -118,7 +118,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
+                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 12",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "tag": "proxy",
@@ -147,7 +147,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
+                "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -156,7 +156,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
+                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 12",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "tag": "auto",
@@ -377,13 +377,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
+            "tag": "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
             "type": "vless",
-            "server": "configline.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "luna.postpapet.ir",
+            "server_port": 8443,
+            "uuid": "b28446a5-c6ba-4c53-af62-4a7d067d51fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
@@ -490,7 +504,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 12",
             "type": "vless",
             "server": "EVAY_VPN.fast.hosting-ip.com",
             "server_port": 80,
