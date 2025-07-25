@@ -1306,6 +1306,9 @@ async function handleShare(contentToUpload, buttonElement) {
             // 4. Show the active container
             if (allModes[activeMode]) {
                 allModes[activeMode].container.classList.remove('hidden');
+	        if (activeMode === 'simple' && ipTypeSelect.value) {
+                    resultArea.classList.remove('hidden');
+                }
             }
         }
 
