@@ -91,12 +91,13 @@
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 8",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 4",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
@@ -113,7 +114,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -129,7 +129,8 @@
                 "🇳🇱 NL | 🟢 | vless | @v2trayproxy | 10",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,12 +140,13 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 8",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 4",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
@@ -161,7 +163,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -177,7 +178,8 @@
                 "🇳🇱 NL | 🟢 | vless | @v2trayproxy | 10",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -205,6 +207,29 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 8",
+            "type": "vless",
+            "server": "142.93.171.104",
+            "server_port": 443,
+            "uuid": "b28446a5-c6ba-4c53-af62-4a7d067d51fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
@@ -298,7 +323,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
+            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -562,29 +587,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 16",
-            "type": "vless",
-            "server": "142.93.171.104",
-            "server_port": 443,
-            "uuid": "b28446a5-c6ba-4c53-af62-4a7d067d51fd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
@@ -857,6 +859,15 @@
                     "short_id": "aa60a00122200b76"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16",
+            "type": "vless",
+            "server": "91.99.218.14",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
