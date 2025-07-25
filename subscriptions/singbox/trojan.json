@@ -111,9 +111,9 @@
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇩🇪 DE | 🟢 | trojan | @flyv2ray | 7",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @hope_net | 16",
-                "🏳️  | 🟢 | trojan | @hope_net | 19",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
+                "🏳️  | 🟢 | trojan | @hope_net | 17",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
@@ -122,8 +122,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🔴 | trojan | @v2raych | 16",
-                "🇲🇻 MV | 🔴 | trojan | @v2raych | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2raych | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2raying | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
@@ -164,9 +163,9 @@
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇩🇪 DE | 🟢 | trojan | @flyv2ray | 7",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @hope_net | 16",
-                "🏳️  | 🟢 | trojan | @hope_net | 19",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
+                "🏳️  | 🟢 | trojan | @hope_net | 17",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
@@ -175,8 +174,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🔴 | trojan | @v2raych | 16",
-                "🇲🇻 MV | 🔴 | trojan | @v2raych | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2raych | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2raying | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
@@ -597,30 +595,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @hope_net | 16",
-            "type": "trojan",
-            "server": "188.114.98.138",
-            "server_port": 2053,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "G1-21N.paGEs.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "G1-21N.paGEs.dev"
-                }
-            }
-        },
-        {
-            "tag": "🏳️  | 🟢 | trojan | @hope_net | 19",
+            "tag": "🏳️  | 🟢 | trojan | @hope_net | 17",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -636,25 +611,34 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
+            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
             "type": "trojan",
-            "server": "104.25.165.81",
-            "server_port": 8443,
-            "password": "123456",
+            "server": "104.27.63.104",
+            "server_port": 443,
+            "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "top-azx.pages.dev",
+                "server_name": "104.27.63.104",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12",
+            "type": "trojan",
+            "server": "192.3.107.252",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc8.freeguard.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -794,41 +778,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2raych | 16",
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2raych | 19",
             "type": "trojan",
-            "server": "198.41.214.39",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
+            "server": "52.21.177.242",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
-                "server_name": "198.41.214.39",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇲🇻 MV | 🔴 | trojan | @v2raych | 18",
-            "type": "trojan",
-            "server": "154.85.99.206",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb.my79801.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tr",
-                "headers": {
-                    "Host": "bpb.my79801.com"
                 }
             }
         },
