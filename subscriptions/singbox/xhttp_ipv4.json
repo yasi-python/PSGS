@@ -90,8 +90,9 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
+                "🇩🇪 DE | 🟢 | vless | @config_proxy | 29",
+                "🇫🇮 FI | 🟢 | vless | @config_proxy | 30",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -138,8 +139,9 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
+                "🇩🇪 DE | 🟢 | vless | @config_proxy | 29",
+                "🇫🇮 FI | 🟢 | vless | @config_proxy | 30",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -198,6 +200,52 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @config_proxy | 29",
+            "type": "vless",
+            "server": "91.99.161.27",
+            "server_port": 2222,
+            "uuid": "03595633-dc93-4d67-b494-93cd07bc1508",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OIA3DwTDdqNQybLyRaF2zCIB6c2lZt5jLHwasBR7cXA",
+                    "short_id": "62e73a9ff93761"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 30",
+            "type": "vless",
+            "server": "46.62.147.184",
+            "server_port": 2222,
+            "uuid": "9f0d5ad6-f4f9-4d15-8494-f8a4c4f137d4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pz4dS3KmMNVN-0mcLQ97cMbnkjBvfMsnNb0oiq-jixs",
+                    "short_id": "e2732809"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @configfa | 13",
             "type": "vless",
             "server": "91.99.218.14",
@@ -205,29 +253,6 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 16",
-            "type": "vless",
-            "server": "142.93.171.104",
-            "server_port": 443,
-            "uuid": "b28446a5-c6ba-4c53-af62-4a7d067d51fd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
