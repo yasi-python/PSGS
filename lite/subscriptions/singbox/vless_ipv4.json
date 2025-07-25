@@ -153,7 +153,6 @@
                 "🇮🇷 IR | 🔴 | vless | @norbertpro_vpn | 0",
                 "🇺🇸 US | 🟢 | vless | @ntconfig | 0",
                 "🇮🇷 IR | 🔴 | vless | @orgempirenet | 1",
-                "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇮🇷 IR | 🔴 | vless | @pusyvpn | 9",
@@ -163,7 +162,7 @@
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
-                "🇬🇧 GB | 🔴 | vless | @summertimeus | 12",
+                "🇺🇸 US | 🟢 | vless | @summertimeus | 12",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
@@ -265,7 +264,6 @@
                 "🇮🇷 IR | 🔴 | vless | @norbertpro_vpn | 0",
                 "🇺🇸 US | 🟢 | vless | @ntconfig | 0",
                 "🇮🇷 IR | 🔴 | vless | @orgempirenet | 1",
-                "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇮🇷 IR | 🔴 | vless | @pusyvpn | 9",
@@ -275,7 +273,7 @@
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
-                "🇬🇧 GB | 🔴 | vless | @summertimeus | 12",
+                "🇺🇸 US | 🟢 | vless | @summertimeus | 12",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
@@ -1402,31 +1400,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 11",
-            "type": "vless",
-            "server": "172.67.69.216",
-            "server_port": 2053,
-            "uuid": "39a91eaf-a379-4fff-a9c8-1cb01442b76f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iran.akcovufun.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "iran.akcovufun.ir"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxie | 15",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1579,13 +1552,29 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @summertimeus | 12",
+            "tag": "🇺🇸 US | 🟢 | vless | @summertimeus | 12",
             "type": "vless",
-            "server": "54.38.214.56",
-            "server_port": 37171,
-            "uuid": "19199927-fb46-4203-8872-672fd1daca14",
+            "server": "172.67.69.216",
+            "server_port": 2053,
+            "uuid": "39a91eaf-a379-4fff-a9c8-1cb01442b76f",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iran.akcovufun.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "iran.akcovufun.ir"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",

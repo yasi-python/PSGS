@@ -91,7 +91,6 @@
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 191",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
@@ -110,7 +109,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
-                "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_v_vpn | 27",
@@ -121,7 +119,6 @@
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 17",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -169,7 +166,6 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 191",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
@@ -188,7 +184,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
-                "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_v_vpn | 27",
@@ -199,7 +194,6 @@
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 17",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -279,15 +273,6 @@
                     "short_id": "aeba"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @config_proxy | 191",
-            "type": "vless",
-            "server": "speedy.mooo.info",
-            "server_port": 80,
-            "uuid": "968e304b-a629-446c-b390-c98a77416222",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -452,15 +437,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
-            "type": "vless",
-            "server": "CoNFiGLiNE.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "b0dc0687-a93b-48e0-b80c-e7604d3a3f05",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
             "type": "vless",
             "server": "optmaze.speegy.club",
@@ -595,24 +571,6 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @configshubplus | 17",
-            "type": "vless",
-            "server": "206.71.158.10",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
