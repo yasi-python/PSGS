@@ -90,9 +90,10 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 15",
+                "🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
+                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2raying | 13",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14"
@@ -104,9 +105,10 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 15",
+                "🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
+                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2raying | 13",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14"
@@ -137,20 +139,11 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 15",
+            "tag": "🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 15",
             "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "155.117.228.70",
+            "server_port": 26193,
+            "password": "7367d04e-4c59-4dff-a50e-12e730a09891"
         },
         {
             "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -184,6 +177,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
