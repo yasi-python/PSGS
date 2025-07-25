@@ -118,8 +118,6 @@
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 56",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 60",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
@@ -144,7 +142,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 17",
+                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -196,8 +194,6 @@
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 9",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 56",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 60",
                 "🇩🇪 DE | 🔴 | vless | @configfa | 13",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
@@ -222,7 +218,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 17",
+                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -554,38 +550,6 @@
             "uuid": "0134428a-02d8-4f94-8221-a1e858552212",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @config_proxy | 56",
-            "type": "vless",
-            "server": "91.99.80.215",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 60",
-            "type": "vless",
-            "server": "77.110.103.21",
-            "server_port": 50810,
-            "uuid": "72059c29-a302-4bbd-a67a-ed0119fb754e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
-                    "short_id": "19dc3c81"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @configfa | 13",
@@ -965,7 +929,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 17",
+            "tag": "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
             "type": "vless",
             "server": "91.99.181.47",
             "server_port": 8443,
