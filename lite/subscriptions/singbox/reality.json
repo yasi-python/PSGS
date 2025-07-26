@@ -98,6 +98,7 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 7",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
@@ -110,6 +111,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇬🇧 GB | 🟢 | vless | @free1_vpn | 4",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -118,11 +120,11 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
+                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 126",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10"
+                "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,6 +141,7 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 7",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
@@ -151,6 +154,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇬🇧 GB | 🟢 | vless | @free1_vpn | 4",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -159,11 +163,11 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
+                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 126",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10"
+                "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -385,6 +389,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 7",
+            "type": "vless",
+            "server": "152.42.134.154",
+            "server_port": 20410,
+            "uuid": "1021e906-bc49-4961-8e67-1164a83c45ea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
                     "short_id": ""
                 }
             }
@@ -690,6 +717,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 14",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
+        },
+        {
             "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -886,6 +936,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 126",
+            "type": "vless",
+            "server": "aiteam.lonup.org",
+            "server_port": 55900,
+            "uuid": "d196897a-006e-4454-9478-67b6fd8ce021",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jH08UU9id-Q8i17ltvHPO3sfGL6YTJIFveAJGgNjNl8",
+                    "short_id": "190d32b118caf07f"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @torang_vpn | 16",
             "type": "vless",
             "server": "join.v2ryvip.csgopc.shop",
@@ -978,29 +1051,6 @@
                     "enabled": true,
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         }
