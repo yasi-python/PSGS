@@ -7,6 +7,8 @@ declare(strict_types=1);
  * AND address type (IPv4, IPv6, Domain), and generates separate subscription
  * files for each combination. It also includes special categories for "reality"
  * and "xhttp" (HTTP Obfuscation) configs, AND a main subscription for each protocol.
+ *
+ * It now adds specific "fake" configs to the end of every generated subscription file.
  */
 
 // --- Setup ---
@@ -22,7 +24,29 @@ const CONFIG_FILE = __DIR__ . '/config.txt';
 const SUBS_DIR_NORMAL = __DIR__ . '/subscriptions/xray/normal';
 const SUBS_DIR_BASE64 = __DIR__ . '/subscriptions/xray/base64';
 
+// NEW: Define the names for the fake configurations to be added
+const FAKE_CONFIG_NAMES = [
+    '#همکاری_ملی',
+    '#جاویدشاه',
+    '#KingRezaPahlavi'
+];
+
 // --- Helper Functions ---
+
+/**
+ * NEW: Creates a fake, non-functional VLESS config URI with a specific name.
+ * These will be added to every subscription file.
+ *
+ * @param string $name The desired name for the config (e.g., '#MyFakeConfig').
+ * @return string A VLESS URI string.
+ */
+function create_fake_config(string $name): string
+{
+    // The name should be URL encoded for the URI fragment part.
+    $encodedName = urlencode(ltrim($name, '#'));
+    // Create a non-functional VLESS config pointing to localhost.
+    return "vless://00000000-0000-0000-0000-000000000000@127.0.0.1:443?security=none&type=ws&path=/#{$encodedName}";
+}
 
 /**
  * Detects if the host in a config URI is an IPv4, IPv6, or a domain name.
@@ -128,6 +152,9 @@ echo "Sorting complete. Found " . count($sortedConfigs) . " unique protocol/spec
 
 echo "3. Writing subscription files..." . PHP_EOL;
 
+// NEW: Generate the list of fake config strings that will be appended to every file
+$fakeConfigs = array_map('create_fake_config', FAKE_CONFIG_NAMES);
+
 if (!is_dir(SUBS_DIR_NORMAL)) {
     mkdir(SUBS_DIR_NORMAL, 0775, true);
 }
@@ -144,7 +171,10 @@ foreach ($sortedConfigs as $type => $addressGroups) {
         $fileName = "{$type}_{$addressType}";
         $header = hiddifyHeader("PSG | " . strtoupper($type) . " " . strtoupper($addressType));
         
-        $plainTextContent = $header . implode(PHP_EOL, $configs);
+        // NEW: Merge real configs with the fake ones
+        $contentWithFakes = array_merge($configs, $fakeConfigs);
+        
+        $plainTextContent = $header . implode(PHP_EOL, $contentWithFakes);
         $base64Content = base64_encode($plainTextContent);
 
         $normalFilePath = SUBS_DIR_NORMAL . '/' . $fileName;
@@ -163,7 +193,10 @@ foreach ($sortedConfigs as $type => $addressGroups) {
         $fileName = $type;
         $header = hiddifyHeader("PSG | " . strtoupper($type));
         
-        $plainTextContent = $header . implode(PHP_EOL, $allConfigsForType);
+        // NEW: Merge all configs for this type with the fake ones
+        $allContentWithFakes = array_merge($allConfigsForType, $fakeConfigs);
+
+        $plainTextContent = $header . implode(PHP_EOL, $allContentWithFakes);
         $base64Content = base64_encode($plainTextContent);
         
         $normalFilePath = SUBS_DIR_NORMAL . '/' . $fileName;
