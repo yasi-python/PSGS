@@ -121,7 +121,6 @@
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @freev2raym | 10",
-                "🇺🇸 US | 🔴 | vless | @freevpnatm | 19",
                 "🇳🇱 NL | 🔴 | vless | @frev2rayng | 19",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
@@ -174,7 +173,7 @@
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
-                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 124",
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
@@ -199,7 +198,6 @@
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
@@ -252,7 +250,6 @@
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @freev2raym | 10",
-                "🇺🇸 US | 🔴 | vless | @freevpnatm | 19",
                 "🇳🇱 NL | 🔴 | vless | @frev2rayng | 19",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
@@ -305,7 +302,7 @@
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
-                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 124",
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
@@ -330,7 +327,6 @@
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
@@ -848,22 +844,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "sourceforge.net"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @freevpnatm | 19",
-            "type": "vless",
-            "server": "zz4.1010991.xyz",
-            "server_port": 2052,
-            "uuid": "7f4d81cb-5f08-436b-b961-64cd99b1de51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "zz4.1010991.xyz"
-                }
             }
         },
         {
@@ -1794,7 +1774,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @prrofile_purple | 129",
+            "tag": "🇺🇸 US | 🟢 | vless | @prrofile_purple | 124",
             "type": "vless",
             "server": "edt-f5k.pages.dev",
             "server_port": 443,
@@ -2267,31 +2247,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "confignginxV2rayng.vpncustomize.Website"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "8495462c-1140-48ac-9331-fdb8e1fde8fe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "638886055652728185.warsaw-prx-dnraaao.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/zmgbizws",
-                "headers": {
-                    "Host": "638886055652728185.warsaw-prx-dnraaao.info"
                 }
             }
         },
