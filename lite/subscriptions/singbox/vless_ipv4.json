@@ -117,7 +117,6 @@
                 "🇺🇸 US | 🔴 | vless | @freev2flyng | 17",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
-                "🇺🇸 US | 🟢 | vless | @freevpnatm | 19",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
@@ -141,6 +140,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 11",
@@ -228,7 +228,6 @@
                 "🇺🇸 US | 🔴 | vless | @freev2flyng | 17",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
-                "🇺🇸 US | 🟢 | vless | @freevpnatm | 19",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
@@ -252,6 +251,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 11",
@@ -832,28 +832,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @freevpnatm | 19",
-            "type": "vless",
-            "server": "104.21.13.36",
-            "server_port": 443,
-            "uuid": "ce921385-2b31-45fe-84c5-1843e8ae845b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "LLLllLLLLK.0890604.XyZ",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "1xrOld7e5RpKauAsMHFPu9"
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @gervpn | 0",
             "type": "vless",
             "server": "104.18.218.118",
@@ -1235,6 +1213,22 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "172.67.65.158",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
+                "headers": {
+                    "Host": "172.67.65.158"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
