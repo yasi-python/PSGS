@@ -95,6 +95,7 @@
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇺🇸 US | 🟢 | vmess | @darkfiilter | 1",
+                "🇩🇪 DE | 🔴 | vmess | @farahvpn | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freakconfig | 14",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
@@ -111,7 +112,7 @@
                 "🇫🇷 FR | 🟢 | vmess | @mahsaproxy | 3",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
-                "🇺🇸 US | 🔴 | vmess | @mowjproxy | 3",
+                "🇺🇸 US | 🟢 | vmess | @mowjproxy | 4",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
@@ -127,7 +128,7 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇺🇸 US | 🟢 | vmess | @v2rayopen | 10",
+                "🇺🇸 US | 🟢 | vmess | @v2rayopen | 11",
                 "🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 17",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
@@ -146,6 +147,7 @@
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇺🇸 US | 🟢 | vmess | @darkfiilter | 1",
+                "🇩🇪 DE | 🔴 | vmess | @farahvpn | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freakconfig | 14",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
@@ -162,7 +164,7 @@
                 "🇫🇷 FR | 🟢 | vmess | @mahsaproxy | 3",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
-                "🇺🇸 US | 🔴 | vmess | @mowjproxy | 3",
+                "🇺🇸 US | 🟢 | vmess | @mowjproxy | 4",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
@@ -178,7 +180,7 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇺🇸 US | 🟢 | vmess | @v2rayopen | 10",
+                "🇺🇸 US | 🟢 | vmess | @v2rayopen | 11",
                 "🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 17",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
@@ -293,6 +295,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @farahvpn | 19",
+            "type": "vmess",
+            "server": "91.107.243.150",
+            "server_port": 32017,
+            "uuid": "c0ccdeb9-784c-4d67-b904-20dcaac9902a",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vmess | @freakconfig | 14",
@@ -533,18 +544,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @mowjproxy | 3",
+            "tag": "🇺🇸 US | 🟢 | vmess | @mowjproxy | 4",
             "type": "vmess",
-            "server": "172.66.40.99",
-            "server_port": 80,
-            "uuid": "v2box-v2",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2",
+                "path": "/panel?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "api3.waltonweb.ir"
                 }
             }
         },
@@ -778,7 +798,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayopen | 10",
+            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayopen | 11",
             "type": "vmess",
             "server": "172.67.131.27",
             "server_port": 2053,
