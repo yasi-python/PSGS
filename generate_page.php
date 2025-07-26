@@ -407,9 +407,7 @@ function generate_full_html(
             <!-- START: New Section for Flag and Hashtags -->
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6 text-center">
             <!-- Flag Image -->
-            <a href="https://en.wikipedia.org/wiki/Reza_Pahlavi,_Crown_Prince_of_Iran" target="_blank" rel="noopener noreferrer">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_Iran_lion_and_sun.svg/255px-Flag_of_Iran_lion_and_sun.svg.png" alt="Lion and Sun Flag of Iran" class="h-10 sm:h-12 w-auto transition-transform hover:scale-105">
-            </a>
+                <img src="https://static.wixstatic.com/media/fbe150_de0ae4fc01c348d59b8d27f34a4fbeb5~mv2.png/v1/fill/w_503,h_288,al_c,q_85,enc_auto/Untitled%20design%20(8).png" alt="Lion and Sun Flag of Iran" class="h-10 sm:h-12 w-auto transition-transform hover:scale-105">
 
             <!-- Hashtags Container -->
             <div class="flex flex-wrap justify-center gap-2">
