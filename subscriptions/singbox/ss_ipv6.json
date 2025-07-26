@@ -89,12 +89,12 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | ss | @free_omega | 4",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 7",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 8",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "❔ XX | 🟢 | ss | @free_omega | 4",
+                "❔ XX | 🟢 | ss | @freevv2rayng | 7",
+                "❔ XX | 🟢 | ss | @freevv2rayng | 8"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,12 +102,12 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | ss | @free_omega | 4",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 7",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 8",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "❔ XX | 🟢 | ss | @free_omega | 4",
+                "❔ XX | 🟢 | ss | @freevv2rayng | 7",
+                "❔ XX | 🟢 | ss | @freevv2rayng | 8"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,30 +117,6 @@
         {
             "tag": "direct",
             "type": "direct"
-        },
-        {
-            "tag": "❔ XX | 🟢 | ss | @free_omega | 4",
-            "type": "shadowsocks",
-            "server": "[2a01:4f8:c012:42dc::1]",
-            "server_port": 2060,
-            "method": "chacha20-ietf-poly1305",
-            "password": "DU7nmmEPs5eGoqrt_SwBEQ"
-        },
-        {
-            "tag": "❔ XX | 🟢 | ss | @freevv2rayng | 7",
-            "type": "shadowsocks",
-            "server": "[2a12:5940:1527::2]",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "SaV68PD8ace6lAZkvukLqX3G6xBJ/PwMCalr+h3uxSo="
-        },
-        {
-            "tag": "❔ XX | 🟢 | ss | @freevv2rayng | 8",
-            "type": "shadowsocks",
-            "server": "[2a12:5940:1527::2]",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "T0fI0EdmSXqpdrFdsuW643yGO4MwlUBgQLfjhdRYWd4="
         },
         {
             "tag": "همکاری_ملی",
@@ -216,6 +192,30 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🟢 | ss | @free_omega | 4",
+            "type": "shadowsocks",
+            "server": "[2a01:4f8:c012:42dc::1]",
+            "server_port": 2060,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DU7nmmEPs5eGoqrt_SwBEQ"
+        },
+        {
+            "tag": "❔ XX | 🟢 | ss | @freevv2rayng | 7",
+            "type": "shadowsocks",
+            "server": "[2a12:5940:1527::2]",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "SaV68PD8ace6lAZkvukLqX3G6xBJ/PwMCalr+h3uxSo="
+        },
+        {
+            "tag": "❔ XX | 🟢 | ss | @freevv2rayng | 8",
+            "type": "shadowsocks",
+            "server": "[2a12:5940:1527::2]",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "T0fI0EdmSXqpdrFdsuW643yGO4MwlUBgQLfjhdRYWd4="
         }
     ],
     "route": {

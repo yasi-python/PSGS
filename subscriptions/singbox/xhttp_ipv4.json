@@ -89,6 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -128,10 +131,7 @@
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 15",
-                "همکاری_ملی",
-                "جاویدشاه",
-                "KingRezaPahlavi"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,6 +139,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -178,10 +181,7 @@
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 15",
-                "همکاری_ملی",
-                "جاویدشاه",
-                "KingRezaPahlavi"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -191,6 +191,81 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
@@ -878,81 +953,6 @@
                     "enabled": true,
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
-                }
-            }
-        },
-        {
-            "tag": "همکاری_ملی",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "جاویدشاه",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "KingRezaPahlavi",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
                 }
             }
         }

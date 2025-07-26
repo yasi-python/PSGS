@@ -89,6 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -122,7 +125,6 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🟢 | vless | @icv2ray | 15",
-                "🇩🇪 DE | 🔴 | vless | @ip_cf_config | 13",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -145,6 +147,7 @@
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇸🇪 SE | 🔴 | vless | @mtpv2ray | 12",
                 "🇩🇪 DE | 🔴 | vless | @narco_nett | 17",
+                "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🟢 | vless | @new_proxy_channel | 8",
                 "🇺🇸 US | 🔴 | vless | @nitrovpne | 1",
@@ -209,7 +212,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -324,6 +327,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -357,7 +363,6 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🟢 | vless | @icv2ray | 15",
-                "🇩🇪 DE | 🔴 | vless | @ip_cf_config | 13",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -380,6 +385,7 @@
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇸🇪 SE | 🔴 | vless | @mtpv2ray | 12",
                 "🇩🇪 DE | 🔴 | vless | @narco_nett | 17",
+                "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🟢 | vless | @new_proxy_channel | 8",
                 "🇺🇸 US | 🔴 | vless | @nitrovpne | 1",
@@ -444,7 +450,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -561,6 +567,81 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
@@ -1145,15 +1226,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @ip_cf_config | 13",
-            "type": "vless",
-            "server": "85.133.228.198",
-            "server_port": 41546,
-            "uuid": "@narcod_ping",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
             "type": "vless",
             "server": "188.165.122.11",
@@ -1499,6 +1571,15 @@
             "server": "85.133.228.198",
             "server_port": 41546,
             "uuid": "narcod_ping",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
+            "type": "vless",
+            "server": "85.133.228.198",
+            "server_port": 41546,
+            "uuid": "@narcod_ping",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2626,7 +2707,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,

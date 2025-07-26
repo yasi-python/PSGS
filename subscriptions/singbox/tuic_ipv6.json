@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,25 +113,6 @@
         {
             "tag": "direct",
             "type": "direct"
-        },
-        {
-            "tag": "❔ XX | 🟢 | tuic | @goodbyefiltering | 6",
-            "type": "tuic",
-            "server": "[2a12:5940:71f8::2]",
-            "server_port": 443,
-            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
-            "password": "----Join-Telegram:@IP_CF----",
-            "congestion_control": "cubic",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a12:5940:71f8::2]",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
         },
         {
             "tag": "همکاری_ملی",
@@ -206,6 +187,25 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | tuic | @goodbyefiltering | 6",
+            "type": "tuic",
+            "server": "[2a12:5940:71f8::2]",
+            "server_port": 443,
+            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
+            "password": "----Join-Telegram:@IP_CF----",
+            "congestion_control": "cubic",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2a12:5940:71f8::2]",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
             }
         }
     ],
