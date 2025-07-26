@@ -172,7 +172,7 @@ foreach ($sortedConfigs as $type => $addressGroups) {
         $header = hiddifyHeader("PSG | " . strtoupper($type) . " " . strtoupper($addressType));
         
         // NEW: Merge real configs with the fake ones
-        $contentWithFakes = array_merge($configs, $fakeConfigs);
+        $contentWithFakes = array_merge($fakeConfigs, $configs);
         
         $plainTextContent = $header . implode(PHP_EOL, $contentWithFakes);
         $base64Content = base64_encode($plainTextContent);
@@ -194,7 +194,7 @@ foreach ($sortedConfigs as $type => $addressGroups) {
         $header = hiddifyHeader("PSG | " . strtoupper($type));
         
         // NEW: Merge all configs for this type with the fake ones
-        $allContentWithFakes = array_merge($allConfigsForType, $fakeConfigs);
+        $allContentWithFakes = array_merge($fakeConfigs, $allConfigsForType);
 
         $plainTextContent = $header . implode(PHP_EOL, $allContentWithFakes);
         $base64Content = base64_encode($plainTextContent);
