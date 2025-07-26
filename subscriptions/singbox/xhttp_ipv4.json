@@ -90,7 +90,6 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 36",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -111,6 +110,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
@@ -135,7 +135,6 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 36",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
@@ -156,6 +155,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
@@ -190,29 +190,6 @@
             "uuid": "0134428a-02d8-4f94-8221-a1e858552212",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @config_proxy | 36",
-            "type": "vless",
-            "server": "5.253.246.137",
-            "server_port": 443,
-            "uuid": "5ddef7f7-ae60-435f-8413-3b1b01a68d41",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.aparat.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "spoCcVz7MlzugleKorXVNP6mI7zTnLIT3H0ehUIplRw",
-                    "short_id": "a18761"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
@@ -540,6 +517,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
+            "type": "vless",
+            "server": "91.99.85.185",
+            "server_port": 8443,
+            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
