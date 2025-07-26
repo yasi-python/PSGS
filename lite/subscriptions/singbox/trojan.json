@@ -90,10 +90,10 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 17",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 18",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
@@ -107,10 +107,10 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 17",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 18",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
@@ -146,6 +146,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "production.tj.ojan.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
+            "type": "trojan",
+            "server": "stirring-parakeet.shiner427.skin",
+            "server_port": 443,
+            "password": "74260628090146500",
+            "tls": {
+                "enabled": true,
+                "server_name": "stirring-parakeet.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -199,26 +215,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 18",
-            "type": "trojan",
-            "server": "104.21.96.1",
-            "server_port": 443,
-            "password": "bce0c7cb-08d1-46a7-b77b-7bff8b46252f",
-            "tls": {
-                "enabled": true,
-                "server_name": "XxXcdvfgTyy67.222569.XYz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "x9F83IcyjcEyBX5Ttq58yozYn"
             }
         },
         {
