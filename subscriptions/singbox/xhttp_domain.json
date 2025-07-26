@@ -89,8 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @canfing_vpn | 16",
+                "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -110,6 +112,7 @@
                 "🇬🇧 GB | 🟢 | vless | @netmellianti | 11",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 13",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -123,8 +126,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @canfing_vpn | 16",
+                "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -144,6 +149,7 @@
                 "🇬🇧 GB | 🟢 | vless | @netmellianti | 11",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 13",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -161,7 +167,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @canfing_vpn | 16",
+            "tag": "❔ XX | 🟢 | vless | @canfing_vpn | 17",
             "type": "vless",
             "server": "de6rt.samsungmarketshop.ir",
             "server_port": 2083,
@@ -189,6 +195,24 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+            "type": "vless",
+            "server": "ftp5.tehran-park.com",
+            "server_port": 80,
+            "uuid": "2658fffa-e35a-43cd-9df8-5ad29576931b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
+            "type": "vless",
+            "server": "EVAY_VPN.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -388,6 +412,29 @@
                     "enabled": true,
                     "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
                     "short_id": "0570"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxystore11 | 13",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 2052,
+            "uuid": "423a18a5-0798-46d9-83f1-5bec04a2f49e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vultr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
+                    "short_id": "f8fcb589"
                 }
             }
         },
