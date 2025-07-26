@@ -91,7 +91,10 @@
                 "direct",
                 "❔ XX | 🟢 | ss | @free_omega | 4",
                 "❔ XX | 🟢 | ss | @freevv2rayng | 7",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 8"
+                "❔ XX | 🟢 | ss | @freevv2rayng | 8",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +104,10 @@
             "outbounds": [
                 "❔ XX | 🟢 | ss | @free_omega | 4",
                 "❔ XX | 🟢 | ss | @freevv2rayng | 7",
-                "❔ XX | 🟢 | ss | @freevv2rayng | 8"
+                "❔ XX | 🟢 | ss | @freevv2rayng | 8",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +141,81 @@
             "server_port": 80,
             "method": "chacha20-ietf-poly1305",
             "password": "T0fI0EdmSXqpdrFdsuW643yGO4MwlUBgQLfjhdRYWd4="
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
         }
     ],
     "route": {
