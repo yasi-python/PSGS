@@ -124,6 +124,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hoshmasnoiyfarsi #14",
                 "🚩 CF | 🔒 VLESS | @icv2ray #17",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp #10",
+                "🇮🇷 IR | 🔓 VLESS | @ip_cf_config #16",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi #12",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn #1",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray #17",
@@ -147,7 +148,6 @@
                 "🚩 CF | 🔒 VLESS | @netspeedservice #5",
                 "🚩 CF | 🔒 VLESS | @new_proxy_channel #9",
                 "🚩 CF | 🔓 VLESS | @nitrovpne #2",
-                "🇮🇷 IR | 🔓 VLESS | @norbertpro_vpn #1",
                 "🚩 CF | 🔒 VLESS | @ntconfig #1",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet #2",
                 "🚩 CF | 🔒 VLESS | @outline_ir #19",
@@ -169,6 +169,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter #9",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray_iran88 #10",
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil #44",
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii #10",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig #13",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol #11",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess #18",
@@ -229,6 +230,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hoshmasnoiyfarsi #14",
                 "🚩 CF | 🔒 VLESS | @icv2ray #17",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp #10",
+                "🇮🇷 IR | 🔓 VLESS | @ip_cf_config #16",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi #12",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn #1",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray #17",
@@ -252,7 +254,6 @@
                 "🚩 CF | 🔒 VLESS | @netspeedservice #5",
                 "🚩 CF | 🔒 VLESS | @new_proxy_channel #9",
                 "🚩 CF | 🔓 VLESS | @nitrovpne #2",
-                "🇮🇷 IR | 🔓 VLESS | @norbertpro_vpn #1",
                 "🚩 CF | 🔒 VLESS | @ntconfig #1",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet #2",
                 "🚩 CF | 🔒 VLESS | @outline_ir #19",
@@ -274,6 +275,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter #9",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray_iran88 #10",
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil #44",
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii #10",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig #13",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol #11",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess #18",
@@ -947,6 +949,15 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @ip_cf_config #16",
+            "type": "vless",
+            "server": "46.245.66.198",
+            "server_port": 1232,
+            "uuid": "--------NORBERT-VPN--------",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @ip_ramzi #12",
             "type": "vless",
             "server": "188.165.122.11",
@@ -1325,15 +1336,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @norbertpro_vpn #1",
-            "type": "vless",
-            "server": "46.245.66.198",
-            "server_port": 1232,
-            "uuid": "--------NORBERT-VPN--------",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @ntconfig #1",
             "type": "vless",
             "server": "188.114.96.3",
@@ -1709,6 +1711,29 @@
                 "path": "/Telegram,VPNCUSTOMIZE?ed=8080",
                 "headers": {
                     "Host": "join.VPNCUSTOMIZE.www.speedtest.net.ovh.Powerfullserver.de"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raymelliii #10",
+            "type": "vless",
+            "server": "178.236.254.41",
+            "server_port": 443,
+            "uuid": "e134f4a5-346e-493f-b74a-988ef7a4ff27",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+                    "short_id": "19aa22f681923dc8"
                 }
             }
         },
