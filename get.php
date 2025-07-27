@@ -31,21 +31,20 @@ const CONFIGS_FOR_CHANNEL_SUBS = 25; // Process latest 25 configs for the per-ch
 
 const PRIVATE_CONFIGS_URL = "https://raw.githubusercontent.com/itsyebekhe/PSGP/main/private_configs.json";
 
-// --- Reusable Processing Function ---
 /**
  * Processes a single raw config string and enriches it with metadata.
  * @param string $config The raw config string.
  * @param string $source The source channel name.
  * @param int $key The original index of the config.
  * @param array &$ipInfoCache A reference to the IP information cache.
- * @return array|null The enriched config and its country code, or null if invalid. // MODIFIED: Return type changed
+ * @return array|null The enriched config and its country code, or null if invalid.
  */
 function processAndEnrichConfig(
     string $config,
     string $source,
     int $key,
     array &$ipInfoCache
-): ?array { // MODIFIED: Return type hint changed to array
+): ?array {
     static $configFields = [
         "vmess" => ["ip" => "add", "name" => "ps"],
         "vless" => ["ip" => "hostname", "name" => "hash"],
@@ -93,17 +92,24 @@ function processAndEnrichConfig(
             : ($countryCode === "CF"
                 ? "🚩"
                 : getFlags($countryCode));
-    $encryptionStatus = isEncrypted($config) ? "🟢" : "🔴";
+    // This version places the lock icon next to the protocol type for clarity.
 
+    // 1. Determine the security status using your existing function.
+    $securityEmoji = isEncrypted($config) ? '🔒' : '🔓';
+
+    // 2. Format the new name string. The format is:
+    //    FLAG COUNTRY_CODE | SECURITY_ICON PROTOCOL_TYPE | @source #ID
     $newName = sprintf(
-        "%s %s | %s | %s | @%s | %d",
-        $flag,
-        $countryCode,
-        $encryptionStatus,
-        $type,
-        $source,
-        $key
+        '%s %s | %s %s | @%s #%d',
+        $flag,                      // Flag emoji (e.g., 🇺🇸)
+        $countryCode,               // 2-letter country code (e.g., US)
+        $securityEmoji,             // Security status emoji (🔒 or 🔓)
+        strtoupper($type),          // Protocol type in uppercase (e.g., VLESS)
+        $source,                    // Source channel name (e.g., MyChannel)
+        $key + 1                    // 1-based index for readability (e.g., #16)
     );
+    // --- END: FINAL NAMING STRATEGY ---
+
     $decodedConfig[$configFields[$type]["name"]] = $newName;
 
     $encodedConfig = reparseConfig($decodedConfig, $type);
@@ -112,8 +118,7 @@ function processAndEnrichConfig(
     }
 
     $finalConfigString = str_replace("amp%3B", "", $encodedConfig);
-    
-    // MODIFIED: Return an array containing both the config and the country code
+
     return [
         'config' => $finalConfigString,
         'country' => $countryCode,
