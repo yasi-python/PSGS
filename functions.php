@@ -40,32 +40,20 @@ function parse_key_value_string(string $input): array
 }
 
 /**
- * Fetches geolocation information for an IP address or hostname.
- * It uses a fallback mechanism with multiple API endpoints.
+ * Gets geolocation information for an IP or hostname.
  *
- * @param string $ipOrHost The IP address or hostname.
- * @return stdClass|null An object with country info, or null on failure.
+ * @param string $ipOrHost The IP address or hostname to look up.
+ * @return ?stdClass An object with country information, or null on failure.
  */
 function ip_info(string $ipOrHost): ?stdClass
 {
-    // Check for Cloudflare first (cached).
-    if (is_cloudflare_ip($ipOrHost)) {
-        $traceUrl = "http://{$ipOrHost}/cdn-cgi/trace";
-        // Use a timeout for file_get_contents to prevent long waits.
-        $context = stream_context_create(['http' => ['timeout' => 5]]);
-        $traceContent = @file_get_contents($traceUrl, false, $context);
+    // First, check if it's a Cloudflare IP. If so, we can stop and return 'CF'.
+    // This check is very fast because it uses a local cache.
+    // Note: We need the final IP, so we resolve hostnames first.
 
-        if ($traceContent) {
-            $traceData = parse_key_value_string($traceContent);
-            return (object) [
-                "country" => $traceData['loc'] ?? 'CF',
-            ];
-        }
-    }
-    
     $ip = $ipOrHost;
     // Resolve hostname to IP if needed.
-    if (!is_ip($ip)) {
+    if (filter_var($ip, FILTER_VALIDATE_IP) === false) {
         // Use '@' to suppress warnings on invalid domains.
         $ip_records = @dns_get_record($ip, DNS_A);
         if (empty($ip_records)) {
@@ -74,33 +62,38 @@ function ip_info(string $ipOrHost): ?stdClass
         $ip = $ip_records[array_rand($ip_records)]["ip"];
     }
 
+    // Now check if the resolved IP is from Cloudflare.
+    if (is_cloudflare_ip($ip)) {
+        return (object) [
+            "country" => "CF", // Cloudflare network
+        ];
+    }
+    
+    // If not Cloudflare, proceed with geo-lookup APIs.
+
     // API endpoint configuration [url_template, country_code_key]
     $endpoints = [
         ['https://ipapi.co/{ip}/json/', 'country_code'],
-        ['https://ipwhois.app/json/{ip}', 'country_code'],
+        ['https://ipwho.is/{ip}', 'country_code'], // Note: ipwhois.app has been rebranded to ipwho.is
         ['http://www.geoplugin.net/json.gp?ip={ip}', 'geoplugin_countryCode'],
-        // Note: ipbase.com requires an API key for most uses. This might fail.
-        ['https://api.ipbase.com/v1/json/{ip}', 'country_code'],
     ];
 
-    // Create stream context once with a reasonable timeout.
     $options = [
         'http' => [
             'method' => 'GET',
-            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\r\n",
-            'timeout' => 5, // 5 second timeout
+            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\n",
+            'timeout' => 3, // 3 second timeout is plenty
+            'ignore_errors' => true, // Allows reading response body on 4xx/5xx errors
         ],
     ];
     $context = stream_context_create($options);
 
     foreach ($endpoints as [$url_template, $country_key]) {
-        $url = str_replace('{ip}', $ip, $url_template);
-        // Use '@' to suppress warnings from file_get_contents on failure.
+        $url = str_replace('{ip}', urlencode($ip), $url_template);
         $response = @file_get_contents($url, false, $context);
 
         if ($response !== false) {
             $data = json_decode($response);
-            // Check if JSON decoding was successful and the key exists
             if (json_last_error() === JSON_ERROR_NONE && isset($data->{$country_key})) {
                 return (object) [
                     "country" => $data->{$country_key} ?? 'XX',
@@ -113,68 +106,103 @@ function ip_info(string $ipOrHost): ?stdClass
     return (object) ["country" => "XX"];
 }
 
-
 /**
- * Checks if an IP is a Cloudflare IP, using a local cache.
+ * Checks if a given IP address belongs to Cloudflare.
  *
- * @param string $ip The IP to check.
- * @return bool
+ * This function fetches Cloudflare's official IP lists, caches them locally,
+ * and checks the given IP against the CIDR ranges.
+ *
+ * @param string $ip The IP address to check.
+ * @param string $cacheFile The path to the cache file.
+ * @param int $cacheDuration The cache duration in seconds (e.g., 86400 for 24 hours).
+ * @return bool True if the IP is a Cloudflare IP, false otherwise.
  */
-function is_cloudflare_ip(string $ip): bool
+function is_cloudflare_ip(string $ip, string $cacheFile = 'cloudflare_ips.json', int $cacheDuration = 86400): bool
 {
-    $cacheFile = sys_get_temp_dir() . '/cloudflare_ips_v4.cache';
-    $cacheTime = 3600 * 24; // 24 hours
-
-    // Use cache if it exists and is not expired.
-    if (file_exists($cacheFile) && (time() - filemtime($cacheFile)) < $cacheTime) {
-        $cloudflare_ranges_str = file_get_contents($cacheFile);
-    } else {
-        // Fetch fresh list and update cache.
-        $cloudflare_ranges_str = @file_get_contents('https://www.cloudflare.com/ips-v4');
-        if ($cloudflare_ranges_str === false) {
-            // If fetch fails but an old cache exists, use it to prevent total failure.
-            return file_exists($cacheFile) ? is_cloudflare_ip($ip) : false;
-        }
-        file_put_contents($cacheFile, $cloudflare_ranges_str);
+    // Check if the provided string is a valid IP address
+    if (filter_var($ip, FILTER_VALIDATE_IP) === false) {
+        return false;
     }
-    
-    $cloudflare_ranges = explode("\n", $cloudflare_ranges_str);
 
-    foreach ($cloudflare_ranges as $range) {
-        if (!empty($range) && cidr_match($ip, $range)) {
+    $ipRanges = [];
+
+    // Check if a valid cache file exists
+    if (file_exists($cacheFile) && (time() - filemtime($cacheFile)) < $cacheDuration) {
+        $ipRanges = json_decode(file_get_contents($cacheFile), true);
+    } else {
+        // Fetch fresh lists from Cloudflare if cache is old or doesn't exist
+        $ipv4 = @file_get_contents('https://www.cloudflare.com/ips-v4');
+        $ipv6 = @file_get_contents('https://www.cloudflare.com/ips-v6');
+
+        if ($ipv4 && $ipv6) {
+            $ipv4Ranges = explode("\n", trim($ipv4));
+            $ipv6Ranges = explode("\n", trim($ipv6));
+            $ipRanges = array_merge($ipv4Ranges, $ipv6Ranges);
+            // Save the fresh list to the cache file
+            file_put_contents($cacheFile, json_encode($ipRanges));
+        } else {
+             // Fallback to old cache if fetch fails to prevent service disruption
+            if (file_exists($cacheFile)) {
+                 $ipRanges = json_decode(file_get_contents($cacheFile), true);
+            }
+        }
+    }
+
+    if (empty($ipRanges)) {
+        // Could not load ranges from cache or network
+        return false;
+    }
+
+    foreach ($ipRanges as $range) {
+        if (ip_in_cidr($ip, $range)) {
             return true;
         }
     }
+
     return false;
 }
 
 /**
- * Matches an IP address to a CIDR range.
+ * Helper function to check if an IP is within a CIDR range.
+ * Supports both IPv4 and IPv6.
  *
  * @param string $ip The IP address.
- * @param string $range The CIDR range (e.g., "192.168.1.0/24").
+ * @param string $cidr The CIDR range.
  * @return bool
  */
-function cidr_match(string $ip, string $range): bool
+function ip_in_cidr(string $ip, string $cidr): bool
 {
-    // Robustly handle ranges with or without a bitmask.
-    if (!str_contains($range, '/')) {
-        $range .= '/32';
+    // Make sure CIDR is valid
+    if (strpos($cidr, '/') === false) {
+        // Handle cases where Cloudflare list might just be an IP
+        return $ip === $cidr;
     }
+    
+    list($net, $mask) = explode('/', $cidr);
 
-    list($subnet, $bits) = explode('/', $range, 2);
-
-    // Validate inputs to prevent errors with ip2long.
-    if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) === false ||
-        filter_var($subnet, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) === false) {
+    $ip_net = inet_pton($ip);
+    $net_net = inet_pton($net);
+    
+    if ($ip_net === false || $net_net === false) {
         return false;
     }
 
-    $ip_long = ip2long($ip);
-    $subnet_long = ip2long($subnet);
-    $mask = -1 << (32 - (int)$bits);
+    $ip_len = strlen($ip_net);
+    $net_len = strlen($net_net);
+
+    if ($ip_len !== $net_len) {
+        return false; // Mismatch between IPv4/IPv6
+    }
     
-    return ($ip_long & $mask) === ($subnet_long & $mask);
+    // Create a mask string of the correct length
+    $mask_bin = str_repeat('1', $mask) . str_repeat('0', ($ip_len * 8) - $mask);
+    $mask_net = '';
+    // Convert binary mask string to packed binary
+    foreach (str_split($mask_bin, 8) as $byte) {
+        $mask_net .= chr(bindec($byte));
+    }
+
+    return ($ip_net & $mask_net) === ($net_net & $mask_net);
 }
 
 
