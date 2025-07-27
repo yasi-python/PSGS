@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy #36",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
@@ -167,7 +168,6 @@
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos #3",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub #7",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes #14",
-                "🇦🇺 AU | 🔒 VLESS | @v2raych #18",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress #8",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress #10",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress #11",
@@ -204,6 +204,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy #36",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
@@ -277,7 +278,6 @@
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos #3",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub #7",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes #14",
-                "🇦🇺 AU | 🔒 VLESS | @v2raych #18",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress #8",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress #10",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress #11",
@@ -430,6 +430,29 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy #36",
+            "type": "vless",
+            "server": "3.147.72.243",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -2244,29 +2267,6 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇺 AU | 🔒 VLESS | @v2raych #18",
-            "type": "vless",
-            "server": "45.80.230.190",
-            "server_port": 65047,
-            "uuid": "814514d0-7fb5-41c9-ba9d-e4eff68c1311",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "F3vOEhZMIEs_djWjttPmQbv9MNAl3OTUWpDWLn5hTHw",
-                    "short_id": "f481"
                 }
             }
         },
