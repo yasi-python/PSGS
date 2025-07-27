@@ -96,7 +96,7 @@
                 "❔ XX | 🔓 TROJAN | @armodchannel #61",
                 "🚩 CF | 🔒 TROJAN | @falcunargo #4",
                 "❔ XX | 🔒 TROJAN | @fati_ffx #2",
-                "❔ XX | 🔒 TROJAN | @hope_net #23",
+                "❔ XX | 🔓 TROJAN | @ip_cf_config #14",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray #4",
                 "❔ XX | 🔒 TROJAN | @jiedianf #3",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #5",
@@ -121,7 +121,7 @@
                 "❔ XX | 🔓 TROJAN | @armodchannel #61",
                 "🚩 CF | 🔒 TROJAN | @falcunargo #4",
                 "❔ XX | 🔒 TROJAN | @fati_ffx #2",
-                "❔ XX | 🔒 TROJAN | @hope_net #23",
+                "❔ XX | 🔓 TROJAN | @ip_cf_config #14",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray #4",
                 "❔ XX | 🔒 TROJAN | @jiedianf #3",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #5",
@@ -294,17 +294,19 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net #23",
+            "tag": "❔ XX | 🔓 TROJAN | @ip_cf_config #14",
             "type": "trojan",
-            "server": "my.jasrama.com",
-            "server_port": 2096,
-            "password": "f82c2052-7411-40e8-96ef-d433127979a6",
-            "transport": {
-                "type": "http",
-                "host": [
-                    "dalfak.com"
-                ],
-                "path": "/"
+            "server": "stirring-parakeet.shiner427.skin",
+            "server_port": 443,
+            "password": "74260628090146500",
+            "tls": {
+                "enabled": true,
+                "server_name": "stirring-parakeet.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
