@@ -152,11 +152,20 @@ foreach ($configsList as $source => $configs) {
         $countryCode = $ipInfoCache[$ipOrHost];
 
         $flag = ($countryCode === 'XX') ? '❔' : (($countryCode === 'CF') ? '🚩' : getFlags($countryCode));
-        $encryptionStatus = isEncrypted($config) ? '🟢' : '🔴';
         
+        // 1. Use lock emojis for security status instead of colored circles.
+        $securityEmoji = isEncrypted($config) ? '🔒' : '🔓';
+
+        // 2. Create the new name using your preferred format.
+        //    Format: FLAG COUNTRY_CODE | SECURITY_ICON PROTOCOL_TYPE | @source #ID
         $newName = sprintf(
-            '%s %s | %s | %s | @%s | %d',
-            $flag, $countryCode, $encryptionStatus, $type, $source, ($key + $key_offset)
+            '%s %s | %s %s | @%s #%d',
+            $flag,                          // Flag emoji (e.g., 🇺🇸)
+            $countryCode,                   // 2-letter country code (e.g., US)
+            $securityEmoji,                 // Security status emoji (🔒 or 🔓)
+            strtoupper($type),              // Protocol type in uppercase (e.g., VLESS)
+            $source,                        // Source channel name
+            ($key + $key_offset) + 1        // 1-based index for user-friendliness
         );
         $decodedConfig[$nameField] = $newName;
         
