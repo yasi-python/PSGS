@@ -103,7 +103,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @freevpnatm | 15",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -130,9 +129,10 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇰🇷 KR | 🟢 | vmess | @vpnfail_v2ray | 17",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
+                "🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "🇭🇰 HK | 🟢 | vmess | @zdyz2 | 1"
             ],
@@ -156,7 +156,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @freevpnatm | 15",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -183,9 +182,10 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇰🇷 KR | 🟢 | vmess | @vpnfail_v2ray | 17",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
+                "🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "🇭🇰 HK | 🟢 | vmess | @zdyz2 | 1"
             ],
@@ -450,22 +450,6 @@
             "transport": {
                 "type": "ws",
                 "path": "/telegram-id-@privatevpns",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @freevpnatm | 15",
-            "type": "vmess",
-            "server": "2606:4700:3030::6815:6001",
-            "server_port": 80,
-            "uuid": "67e010ae-0df0-40d7-893d-32cd0f8657f4",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/sz6hlcaoUZUxYikAUO",
                 "headers": {
                     "Host": ""
                 }
@@ -857,16 +841,16 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🟢 | vmess | @vpnfail_v2ray | 17",
+            "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
             "type": "vmess",
-            "server": "202.79.160.243",
+            "server": "57.129.25.22",
             "server_port": 443,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "www.32278117.xyz",
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -875,9 +859,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/path/191019072927",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "www.32278117.xyz"
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
@@ -914,6 +898,15 @@
                     "Host": "sinaazizpor.cozwao.wORKeRs.dev"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 3",
+            "type": "vmess",
+            "server": "s3.ipyar.org",
+            "server_port": 12470,
+            "uuid": "5d291962-05ac-48f3-b9e5-ca6fead05966",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
