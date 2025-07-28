@@ -94,9 +94,12 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy #43",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy #43",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy #44",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
+                "🇺🇸 US | 🔒 VLESS | @configshubplus #12",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus #15",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -108,6 +111,7 @@
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel #10",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel #2",
                 "🇭🇺 HU | 🔒 VLESS | @freakconfig #13",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig #16",
                 "🇩🇪 DE | 🔒 VLESS | @freenapsternetv #3",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv #5",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn #1",
@@ -204,9 +208,12 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy #43",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy #43",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy #44",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
+                "🇺🇸 US | 🔒 VLESS | @configshubplus #12",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus #15",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -218,6 +225,7 @@
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel #10",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel #2",
                 "🇭🇺 HU | 🔒 VLESS | @freakconfig #13",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig #16",
                 "🇩🇪 DE | 🔒 VLESS | @freenapsternetv #3",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv #5",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn #1",
@@ -434,16 +442,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy #43",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy #43",
             "type": "vless",
-            "server": "91.99.115.113",
-            "server_port": 2012,
-            "uuid": "81294d12-9b29-438d-8af2-2bfcba7bd450",
+            "server": "46.62.160.130",
+            "server_port": 8443,
+            "uuid": "e3a42c00-5212-4f7f-a6fc-61826dbee596",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.pcmag.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -451,8 +459,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy #44",
+            "type": "vless",
+            "server": "91.99.205.12",
+            "server_port": 8443,
+            "uuid": "e3a42c00-5212-4f7f-a6fc-61826dbee596",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
@@ -503,6 +534,52 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @configshubplus #12",
+            "type": "vless",
+            "server": "103.175.79.2",
+            "server_port": 443,
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus #15",
+            "type": "vless",
+            "server": "178.236.254.41",
+            "server_port": 443,
+            "uuid": "e134f4a5-346e-493f-b74a-988ef7a4ff27",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+                    "short_id": "19aa22f681923dc8"
                 }
             }
         },
@@ -764,6 +841,29 @@
                     "enabled": true,
                     "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
                     "short_id": "4ae260"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig #16",
+            "type": "vless",
+            "server": "91.99.115.113",
+            "server_port": 2012,
+            "uuid": "81294d12-9b29-438d-8af2-2bfcba7bd450",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pcmag.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
+                    "short_id": ""
                 }
             }
         },
