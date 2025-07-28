@@ -97,6 +97,7 @@
                 "🇬🇧GB|🔒VLESS|@fire_vpn_channel#2",
                 "🇬🇧GB|🔒VLESS|@freevlessvpn#1",
                 "🇺🇸US|🔒VLESS|@happ_tm_official#2",
+                "🇨🇿CZ|🔒VLESS|@icv2ray#17",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
@@ -125,6 +126,7 @@
                 "🇬🇧GB|🔒VLESS|@fire_vpn_channel#2",
                 "🇬🇧GB|🔒VLESS|@freevlessvpn#1",
                 "🇺🇸US|🔒VLESS|@happ_tm_official#2",
+                "🇨🇿CZ|🔒VLESS|@icv2ray#17",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
@@ -340,6 +342,33 @@
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ|🔒VLESS|@icv2ray#17",
+            "type": "vless",
+            "server": "194.182.79.252",
+            "server_port": 37814,
+            "uuid": "d5f63b9e-780a-472a-9d1b-e2088087a037",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rk5UKshtrRPf3achXqaxQgA-7EryZABGx6fSXv35D14",
+                    "short_id": "10a5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
