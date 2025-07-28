@@ -104,6 +104,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @defenyx_vpn #2",
                 "🇸🇪 SE | 🔓 VLESS | @deli_servers #3",
                 "🇹🇷 TR | 🔒 VLESS | @f_nirevil #3",
+                "🚩 CF | 🔒 VLESS | @farahvpn #20",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig #1",
                 "🚩 CF | 🔒 VLESS | @fastkanfig #14",
                 "🚩 CF | 🔓 VLESS | @filterk0sh #17",
@@ -169,6 +170,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil #44",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii #10",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig #13",
+                "🇩🇪 DE | 🔓 VLESS | @v2rayopen #12",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol #11",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess #18",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy #16",
@@ -176,8 +178,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vaslbemmonid #6",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli #3",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey #40",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig #16",
-                "🚩 CF | 🔒 VLESS | @vmess_ir #18",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig #16",
+                "🚩 CF | 🔓 VLESS | @vmess_ir #18",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch #4",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean #2",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn #14",
@@ -208,6 +210,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @defenyx_vpn #2",
                 "🇸🇪 SE | 🔓 VLESS | @deli_servers #3",
                 "🇹🇷 TR | 🔒 VLESS | @f_nirevil #3",
+                "🚩 CF | 🔒 VLESS | @farahvpn #20",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig #1",
                 "🚩 CF | 🔒 VLESS | @fastkanfig #14",
                 "🚩 CF | 🔓 VLESS | @filterk0sh #17",
@@ -273,6 +276,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil #44",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii #10",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig #13",
+                "🇩🇪 DE | 🔓 VLESS | @v2rayopen #12",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol #11",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess #18",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy #16",
@@ -280,8 +284,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vaslbemmonid #6",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli #3",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey #40",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig #16",
-                "🚩 CF | 🔒 VLESS | @vmess_ir #18",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig #16",
+                "🚩 CF | 🔓 VLESS | @vmess_ir #18",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch #4",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean #2",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn #14",
@@ -577,6 +581,31 @@
                 "path": "/NiREvilxXx",
                 "headers": {
                     "Host": "TURKISH.NSCL.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @farahvpn #20",
+            "type": "vless",
+            "server": "104.26.14.69",
+            "server_port": 443,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=zani.yaemiko.ggff.net",
+                "headers": {
+                    "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
             }
         },
@@ -1709,6 +1738,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen #12",
+            "type": "vless",
+            "server": "91.99.234.153",
+            "server_port": 2095,
+            "uuid": "cd307b67-8180-491c-ad97-5dfd74cb38de",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol #11",
             "type": "vless",
             "server": "185.209.21.36",
@@ -1843,9 +1881,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig #16",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig #16",
             "type": "vless",
-            "server": "13.36.102.158",
+            "server": "3.127.1.123",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1868,27 +1906,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmess_ir #18",
+            "tag": "🚩 CF | 🔓 VLESS | @vmess_ir #18",
             "type": "vless",
-            "server": "172.66.47.61",
-            "server_port": 8443,
-            "uuid": "a396b860-11b7-4af3-9950-146caf79735e",
+            "server": "104.16.51.36",
+            "server_port": 80,
+            "uuid": "5459f68e-d914-4b31-93a3-ecdf638b7a5b",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gghdfa.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram@v2ray_alpha/?ed=2560",
+                "path": "/JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN?ed=2560",
                 "headers": {
-                    "Host": "gghdfa.pages.dev"
+                    "Host": "barayeiran-mahsang.taraneh.dpdns.org"
                 }
             }
         },
