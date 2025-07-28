@@ -101,7 +101,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel #16"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel #16",
+                "❔ XX | 🔓 TROJAN | @freevpnatm #17"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -121,7 +122,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel #16"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel #16",
+                "❔ XX | 🔓 TROJAN | @freevpnatm #17"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -389,6 +391,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 TROJAN | @freevpnatm #17",
+            "type": "trojan",
+            "server": "[2606:4700:3035::ac43:a24a]",
+            "server_port": 443,
+            "password": "7248e825-887c-48b9-83bc-c26bc6392bf8",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3035::ac43:a24a]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3035::ac43:a24a]"
                 }
             }
         }

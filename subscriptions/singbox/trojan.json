@@ -104,6 +104,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig #42",
                 "❔ XX | 🔒 TROJAN | @xrayzxn #5",
+                "🚩 CF | 🔒 TROJAN | @configshubplus #16",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #14",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #15",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #16",
@@ -111,7 +112,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #18",
                 "🇩🇪 DE | 🔒 TROJAN | @flyv2ray #4",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym #8",
-                "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #13",
+                "🇭🇰 HK | 🔒 TROJAN | @hope_net #20",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config #12",
                 "🇫🇷 FR | 🔒 TROJAN | @jiedianf #5",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy #7",
@@ -123,7 +125,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns #18",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🇸🇬 SG | 🔒 TROJAN | @v2ray_collector #37",
-                "🇨🇿 CZ | 🔒 TROJAN | @v2raych #16",
+                "❔ XX | 🔒 TROJAN | @v2raych #18",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig #43",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig #44",
@@ -156,6 +158,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig #42",
                 "❔ XX | 🔒 TROJAN | @xrayzxn #5",
+                "🚩 CF | 🔒 TROJAN | @configshubplus #16",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #14",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #15",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #16",
@@ -163,7 +166,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #18",
                 "🇩🇪 DE | 🔒 TROJAN | @flyv2ray #4",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym #8",
-                "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #13",
+                "🇭🇰 HK | 🔒 TROJAN | @hope_net #20",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config #12",
                 "🇫🇷 FR | 🔒 TROJAN | @jiedianf #5",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy #7",
@@ -175,7 +179,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns #18",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🇸🇬 SG | 🔒 TROJAN | @v2ray_collector #37",
-                "🇨🇿 CZ | 🔒 TROJAN | @v2raych #16",
+                "❔ XX | 🔒 TROJAN | @v2raych #18",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig #43",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig #44",
@@ -512,6 +516,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @configshubplus #16",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Stupid-World/103.106.228.126-2053",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn #14",
             "type": "trojan",
             "server": "13.36.102.158",
@@ -615,11 +642,36 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #13",
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @hope_net #20",
             "type": "trojan",
-            "server": "155.117.228.70",
-            "server_port": 26193,
-            "password": "7367d04e-4c59-4dff-a50e-12e730a09891"
+            "server": "43.199.161.255",
+            "server_port": 40091,
+            "password": "3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb",
+            "tls": {
+                "enabled": true,
+                "server_name": "hk12.bilibili.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config #12",
+            "type": "trojan",
+            "server": "176.32.39.29",
+            "server_port": 443,
+            "password": "8OXD5VVt8s",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 TROJAN | @jiedianf #5",
@@ -812,25 +864,18 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 TROJAN | @v2raych #16",
+            "tag": "❔ XX | 🔒 TROJAN | @v2raych #18",
             "type": "trojan",
-            "server": "14.102.228.61",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "bcbcaaa-aabc-aabc-dacb-ababacbbaccc",
             "tls": {
                 "enabled": true,
-                "server_name": "zb.ylks.xyz",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "zb.ylks.xyz"
                 }
             }
         },

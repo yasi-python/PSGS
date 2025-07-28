@@ -102,7 +102,7 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock #5",
                 "🚩 CF | 🔓 VMESS | @freev2rays #20",
                 "🇩🇪 DE | 🔓 VMESS | @freevmess #5",
-                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #14",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #15",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy #14",
                 "🚩 CF | 🔓 VMESS | @iran_mehr_vpn #18",
                 "🚩 CF | 🔒 VMESS | @iranvpnet #1",
@@ -154,7 +154,7 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock #5",
                 "🚩 CF | 🔓 VMESS | @freev2rays #20",
                 "🇩🇪 DE | 🔓 VMESS | @freevmess #5",
-                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #14",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #15",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy #14",
                 "🚩 CF | 🔓 VMESS | @iran_mehr_vpn #18",
                 "🚩 CF | 🔒 VMESS | @iranvpnet #1",
@@ -445,16 +445,25 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #14",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @ip_cf_config #15",
             "type": "vmess",
-            "server": "8.214.33.158",
-            "server_port": 80,
-            "uuid": "cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef",
+            "server": "103.253.26.134",
+            "server_port": 443,
+            "uuid": "aba50dd4-5484-3b05-b14a-4661caf862d5",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 4,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/ws",
                 "headers": {
                     "Host": ""
                 }
@@ -848,14 +857,14 @@
         {
             "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray #17",
             "type": "vmess",
-            "server": "15.235.83.228",
+            "server": "15.235.50.172",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -866,7 +875,7 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                    "Host": ""
                 }
             }
         },
