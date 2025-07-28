@@ -116,6 +116,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie #14",
                 "🚩 CF | 🔒 VLESS | @proxie #15",
                 "🚩 CF | 🔒 VLESS | @proxie #16",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free #5",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand #8",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly #1",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver #13",
@@ -166,6 +167,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie #14",
                 "🚩 CF | 🔒 VLESS | @proxie #15",
                 "🚩 CF | 🔒 VLESS | @proxie #16",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free #5",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand #8",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly #1",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver #13",
@@ -655,6 +657,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free #5",
+            "type": "vless",
+            "server": "206.71.158.75",
+            "server_port": 465,
+            "uuid": "9e2e9775-3156-471c-8f00-8a8c2d8f1358",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "smtp.zoho.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
+                    "short_id": "7f2798f9"
                 }
             }
         },
