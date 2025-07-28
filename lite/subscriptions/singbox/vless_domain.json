@@ -161,7 +161,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray #12",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn #1",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping #1",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy #6",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
                 "❔ XX | 🔒 VLESS | @mt_team_iran #5",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray #82",
@@ -205,7 +204,6 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 #13",
                 "🇩🇪 DE | 🔒 VLESS | @v2source #19",
                 "❔ XX | 🔒 VLESS | @vp22ray #11",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss #18",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii #9",
                 "❔ XX | 🔒 VLESS | @vpn_storm #1",
                 "❔ XX | 🔒 VLESS | @vpncostume #9",
@@ -296,7 +294,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray #12",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn #1",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping #1",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy #6",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
                 "❔ XX | 🔒 VLESS | @mt_team_iran #5",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray #82",
@@ -340,7 +337,6 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 #13",
                 "🇩🇪 DE | 🔒 VLESS | @v2source #19",
                 "❔ XX | 🔒 VLESS | @vp22ray #11",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss #18",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii #9",
                 "❔ XX | 🔒 VLESS | @vpn_storm #1",
                 "❔ XX | 🔒 VLESS | @vpncostume #9",
@@ -1543,24 +1539,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy #6",
-            "type": "vless",
-            "server": "fz.piko-network.top",
-            "server_port": 443,
-            "uuid": "2e17c09d-57f8-42fc-be07-744dd30ae8b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fz.piko-network.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1810,16 +1788,16 @@
         {
             "tag": "🚩 CF | 🔓 VLESS | @outlinev2rayng #14",
             "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server": "communal-loss.oneeat.co",
             "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                    "Host": "communal-loss.oneeat.co"
                 }
             }
         },
@@ -2402,22 +2380,6 @@
                     "enabled": true,
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss #18",
-            "type": "vless",
-            "server": "communal-loss.oneeat.co",
-            "server_port": 80,
-            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "communal-loss.oneeat.co"
                 }
             }
         },
