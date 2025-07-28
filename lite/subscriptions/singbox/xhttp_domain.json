@@ -98,6 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 #10",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn #3",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 #7",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven #16",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn #9",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes #17"
@@ -117,6 +118,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 #10",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn #3",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 #7",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven #16",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn #9",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes #17"
@@ -258,6 +260,24 @@
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
+            "type": "vless",
+            "server": "server271816966957306554.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server271816966957306554.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @noforcedheaven #16",

@@ -110,7 +110,7 @@
                 "🚩 CF | 🔓 VLESS | @connectshu #15",
                 "❔ XX | 🔒 VLESS | @custom_14 #8",
                 "🇺🇸 US | 🔓 VLESS | @dailytek #14",
-                "🚩 CF | 🔓 VLESS | @darkma3ter24 #14",
+                "🇮🇷 IR | 🔓 VLESS | @darkma3ter24 #14",
                 "❔ XX | 🔒 VLESS | @deragv2ray #3",
                 "❔ XX | 🔓 VLESS | @dgkbza #22",
                 "🇮🇷 IR | 🔓 VLESS | @drvpn_net #3",
@@ -120,6 +120,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn #3",
                 "❔ XX | 🔒 VLESS | @flash_proxies #1",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 #7",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
                 "🚩 CF | 🔓 VLESS | @freakconfig1 #3",
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us #20",
                 "❔ XX | 🔓 VLESS | @freedom_config #10",
@@ -190,6 +191,7 @@
                 "🚩 CF | 🔓 VLESS | @v2pedia #7",
                 "❔ XX | 🔓 VLESS | @v2raxx #10",
                 "🚩 CF | 🔒 VLESS | @v2ray_reality_new #9",
+                "🚩 CF | 🔓 VLESS | @v2ray_sub #10",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes #17",
                 "❔ XX | 🔒 VLESS | @v2raycollectordonate #9",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 #2",
@@ -244,7 +246,7 @@
                 "🚩 CF | 🔓 VLESS | @connectshu #15",
                 "❔ XX | 🔒 VLESS | @custom_14 #8",
                 "🇺🇸 US | 🔓 VLESS | @dailytek #14",
-                "🚩 CF | 🔓 VLESS | @darkma3ter24 #14",
+                "🇮🇷 IR | 🔓 VLESS | @darkma3ter24 #14",
                 "❔ XX | 🔒 VLESS | @deragv2ray #3",
                 "❔ XX | 🔓 VLESS | @dgkbza #22",
                 "🇮🇷 IR | 🔓 VLESS | @drvpn_net #3",
@@ -254,6 +256,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn #3",
                 "❔ XX | 🔒 VLESS | @flash_proxies #1",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 #7",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
                 "🚩 CF | 🔓 VLESS | @freakconfig1 #3",
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us #20",
                 "❔ XX | 🔓 VLESS | @freedom_config #10",
@@ -324,6 +327,7 @@
                 "🚩 CF | 🔓 VLESS | @v2pedia #7",
                 "❔ XX | 🔓 VLESS | @v2raxx #10",
                 "🚩 CF | 🔒 VLESS | @v2ray_reality_new #9",
+                "🚩 CF | 🔓 VLESS | @v2ray_sub #10",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes #17",
                 "❔ XX | 🔒 VLESS | @v2raycollectordonate #9",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 #2",
@@ -713,7 +717,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @darkma3ter24 #14",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @darkma3ter24 #14",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -837,6 +841,24 @@
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig #17",
+            "type": "vless",
+            "server": "server271816966957306554.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server271816966957306554.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @freakconfig1 #3",
@@ -2095,6 +2117,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "cdn.biglog.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2ray_sub #10",
+            "type": "vless",
+            "server": "jealous-competition.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "7094df26-af60-41c4-afac-857060d1bab0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "jealous-competition.seotoolsforyou.co.uk"
                 }
             }
         },
