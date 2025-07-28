@@ -93,11 +93,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @cryptoguardvpn #3",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #14",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config #14",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
+                "🚩 CF | 🔒 TROJAN | @outline_ir #19",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns #14",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
@@ -114,11 +115,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @cryptoguardvpn #3",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #14",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config #14",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
+                "🚩 CF | 🔒 TROJAN | @outline_ir #19",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns #14",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
@@ -233,13 +235,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
             "type": "trojan",
             "server": "maradona_vpn.history-paint.art",
@@ -292,6 +287,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config #14",
+            "type": "trojan",
+            "server": "104.25.165.81",
+            "server_port": 8443,
+            "password": "123456",
+            "tls": {
+                "enabled": true,
+                "server_name": "top-azx.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Az1.vpn.33.TOP/?ed=2560",
+                "headers": {
+                    "Host": "top-azx.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -311,6 +329,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "aka.ms"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @outline_ir #19",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Stupid-World/103.106.228.126-2053",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },
