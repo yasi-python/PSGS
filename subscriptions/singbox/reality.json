@@ -94,8 +94,11 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy #39",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy #40",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
+                "🇨🇿 CZ | 🔒 VLESS | @configshubplus #18",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -205,10 +208,10 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn #6",
                 "❔ XX | 🔒 VLESS | @canfing_vpn #17",
                 "❔ XX | 🔒 VLESS | @catvpns #11",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy #36",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #8",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus #16",
                 "❔ XX | 🔒 VLESS | @custom_14 #8",
-                "🇩🇪 DE | 🔒 VLESS | @filter_breaker #44",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker #49",
                 "🇬🇧 GB | 🔒 VLESS | @free1_vpn #4",
                 "❔ XX | 🔒 VLESS | @free_omega #1",
                 "❔ XX | 🔒 VLESS | @fsv2ray #1",
@@ -285,8 +288,11 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy #39",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy #40",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
+                "🇨🇿 CZ | 🔒 VLESS | @configshubplus #18",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -396,10 +402,10 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn #6",
                 "❔ XX | 🔒 VLESS | @canfing_vpn #17",
                 "❔ XX | 🔒 VLESS | @catvpns #11",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy #36",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #8",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus #16",
                 "❔ XX | 🔒 VLESS | @custom_14 #8",
-                "🇩🇪 DE | 🔒 VLESS | @filter_breaker #44",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker #49",
                 "🇬🇧 GB | 🔒 VLESS | @free1_vpn #4",
                 "❔ XX | 🔒 VLESS | @free_omega #1",
                 "❔ XX | 🔒 VLESS | @fsv2ray #1",
@@ -596,6 +602,56 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy #39",
+            "type": "vless",
+            "server": "18.212.133.88",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy #40",
+            "type": "vless",
+            "server": "148.113.143.3",
+            "server_port": 2053,
+            "uuid": "43121bff-3e8a-44bb-9c33-3f1000f8efe3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
+                    "short_id": "5640288dca4f8519"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli #5",
             "type": "vless",
             "server": "91.107.183.90",
@@ -643,6 +699,33 @@
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @configshubplus #18",
+            "type": "vless",
+            "server": "194.182.79.235",
+            "server_port": 28257,
+            "uuid": "e40a9ae6-872f-4452-a19b-a63fbd759d54",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1mkQipIydK3Je5xGCdYUhuEmnsqMvdEGyheJxtBKwlY",
+                    "short_id": "c9497c0ea7a8ce1e"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
@@ -3327,29 +3410,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy #36",
-            "type": "vless",
-            "server": "de01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "31"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli #8",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -3369,6 +3429,29 @@
                     "enabled": true,
                     "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus #16",
+            "type": "vless",
+            "server": "auto.lonup.org",
+            "server_port": 55600,
+            "uuid": "9cffbdcf-e54c-4e5c-8af8-a98756edce13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jH08UU9id-Q8i17ltvHPO3sfGL6YTJIFveAJGgNjNl8",
+                    "short_id": "190d32b118caf07f"
                 }
             }
         },
@@ -3400,7 +3483,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @filter_breaker #44",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @filter_breaker #49",
             "type": "vless",
             "server": "geteway.nub-shop.ir",
             "server_port": 443,
