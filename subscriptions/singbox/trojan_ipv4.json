@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩CF|🔓TROJAN|@configshubplus#16",
                 "🚩CF|🔒TROJAN|@configshubplus#17",
+                "🚩CF|🔓TROJAN|@configshubplus#18",
                 "🚩CF|🔓TROJAN|@configshubplus#19",
                 "🇫🇷FR|🔒TROJAN|@directvpn#12",
                 "🇩🇪DE|🔒TROJAN|@directvpn#13",
@@ -100,8 +102,10 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn#15",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
                 "🇩🇪DE|🔓TROJAN|@freev2raym#8",
-                "🚩CF|🔒TROJAN|@hope_net#20",
-                "🇭🇰HK|🔓TROJAN|@ip_cf_config#13",
+                "🚩CF|🔒TROJAN|@hope_net#18",
+                "🚩CF|🔓TROJAN|@hope_net#19",
+                "🇷🇺RU|🔓TROJAN|@hope_net#20",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config#13",
                 "🇫🇷FR|🔒TROJAN|@jiedianf#5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy#7",
@@ -111,7 +115,6 @@
                 "🇩🇪DE|🔒TROJAN|@privatevpns#14",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#15",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#16",
-                "🇫🇷FR|🔒TROJAN|@proxyfn#19",
                 "🚩CF|🔒TROJAN|@v2raying#17",
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig#43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig#44",
@@ -132,7 +135,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩CF|🔓TROJAN|@configshubplus#16",
                 "🚩CF|🔒TROJAN|@configshubplus#17",
+                "🚩CF|🔓TROJAN|@configshubplus#18",
                 "🚩CF|🔓TROJAN|@configshubplus#19",
                 "🇫🇷FR|🔒TROJAN|@directvpn#12",
                 "🇩🇪DE|🔒TROJAN|@directvpn#13",
@@ -140,8 +145,10 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn#15",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
                 "🇩🇪DE|🔓TROJAN|@freev2raym#8",
-                "🚩CF|🔒TROJAN|@hope_net#20",
-                "🇭🇰HK|🔓TROJAN|@ip_cf_config#13",
+                "🚩CF|🔒TROJAN|@hope_net#18",
+                "🚩CF|🔓TROJAN|@hope_net#19",
+                "🇷🇺RU|🔓TROJAN|@hope_net#20",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config#13",
                 "🇫🇷FR|🔒TROJAN|@jiedianf#5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy#7",
@@ -151,7 +158,6 @@
                 "🇩🇪DE|🔒TROJAN|@privatevpns#14",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#15",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#16",
-                "🇫🇷FR|🔒TROJAN|@proxyfn#19",
                 "🚩CF|🔒TROJAN|@v2raying#17",
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig#43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig#44",
@@ -248,14 +254,60 @@
             }
         },
         {
-            "tag": "🚩CF|🔒TROJAN|@configshubplus#17",
+            "tag": "🚩CF|🔓TROJAN|@configshubplus#16",
             "type": "trojan",
-            "server": "162.159.153.19",
+            "server": "188.114.96.208",
             "server_port": 443,
-            "password": "bpb-trojan",
+            "password": "blue2024",
             "tls": {
                 "enabled": true,
-                "server_name": "cf.090227.xyz",
+                "server_name": "hb.lii2010.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hb.lii2010.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF|🔒TROJAN|@configshubplus#17",
+            "type": "trojan",
+            "server": "104.20.22.149",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF|🔓TROJAN|@configshubplus#18",
+            "type": "trojan",
+            "server": "108.162.195.161",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "tb.promote.icu",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -266,12 +318,12 @@
         {
             "tag": "🚩CF|🔓TROJAN|@configshubplus#19",
             "type": "trojan",
-            "server": "104.17.52.133",
+            "server": "103.21.244.161",
             "server_port": 443,
             "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "104.17.52.133",
+                "server_name": "103.21.244.161",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -367,7 +419,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩CF|🔒TROJAN|@hope_net#20",
+            "tag": "🚩CF|🔒TROJAN|@hope_net#18",
             "type": "trojan",
             "server": "104.17.36.105",
             "server_port": 443,
@@ -390,11 +442,52 @@
             }
         },
         {
-            "tag": "🇭🇰HK|🔓TROJAN|@ip_cf_config#13",
+            "tag": "🚩CF|🔓TROJAN|@hope_net#19",
             "type": "trojan",
-            "server": "155.117.228.70",
-            "server_port": 26193,
-            "password": "7367d04e-4c59-4dff-a50e-12e730a09891"
+            "server": "198.41.193.49",
+            "server_port": 443,
+            "password": "NISHIKUITAN111",
+            "tls": {
+                "enabled": true,
+                "server_name": "198.41.193.49",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU|🔓TROJAN|@hope_net#20",
+            "type": "trojan",
+            "server": "185.148.104.114",
+            "server_port": 443,
+            "password": "NISHIKUITAN111",
+            "tls": {
+                "enabled": true,
+                "server_name": "185.148.104.114",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR|🔒TROJAN|@ip_cf_config#13",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇷FR|🔒TROJAN|@jiedianf#5",
@@ -547,22 +640,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR|🔒TROJAN|@proxyfn#19",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

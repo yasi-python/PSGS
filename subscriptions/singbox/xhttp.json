@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
+                "🇺🇸US|🔓VLESS|@config_proxy#41",
                 "🇺🇸US|🔓VLESS|@configscenter#3",
                 "🇺🇸US|🔓VLESS|@dailytek#10",
                 "🇺🇸US|🔓VLESS|@dailytek#13",
@@ -118,7 +119,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#9",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇺🇸US|🔓VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5",
@@ -137,13 +137,12 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
+                "🚩CF|🔒VLESS|@mowjproxy#4",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -172,6 +171,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
+                "🇺🇸US|🔓VLESS|@config_proxy#41",
                 "🇺🇸US|🔓VLESS|@configscenter#3",
                 "🇺🇸US|🔓VLESS|@dailytek#10",
                 "🇺🇸US|🔓VLESS|@dailytek#13",
@@ -197,7 +197,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#9",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇺🇸US|🔓VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5",
@@ -216,13 +215,12 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
+                "🚩CF|🔒VLESS|@mowjproxy#4",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -347,6 +345,15 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸US|🔓VLESS|@config_proxy#41",
+            "type": "vless",
+            "server": "tunel.smartpanel.com.tr",
+            "server_port": 80,
+            "uuid": "70bea667-d767-4592-8247-016f66c41e85",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸US|🔓VLESS|@configscenter#3",
@@ -616,15 +623,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸US|🔓VLESS|@v2raych#17",
-            "type": "vless",
-            "server": "ftp55.basalam.eu",
-            "server_port": 80,
-            "uuid": "- KINGOFV2RAY -",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -907,7 +905,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔒VLESS|@mowjproxy#5",
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#4",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -998,24 +996,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
-            "type": "vless",
-            "server": "207.246.67.33",
-            "server_port": 443,
-            "uuid": "9379bbd7-96a6-4ea5-8c88-a1a9af932ec0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "207.246.67.33",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

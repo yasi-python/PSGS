@@ -93,9 +93,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
+                "🚩CF|🔒TROJAN|@freevpnatm#17",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config#11",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#16",
-                "🇫🇷FR|🔒TROJAN|@proxyfn#19",
                 "🚩CF|🔒TROJAN|@v2raying#17",
                 "🇺🇸US|🔒TROJAN|@v2rayngconfig#46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel#15"
@@ -110,9 +111,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
+                "🚩CF|🔒TROJAN|@freevpnatm#17",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config#11",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇫🇷FR|🔒TROJAN|@privatevpns#16",
-                "🇫🇷FR|🔒TROJAN|@proxyfn#19",
                 "🚩CF|🔒TROJAN|@v2raying#17",
                 "🇺🇸US|🔒TROJAN|@v2rayngconfig#46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel#15"
@@ -218,6 +220,45 @@
             }
         },
         {
+            "tag": "🚩CF|🔒TROJAN|@freevpnatm#17",
+            "type": "trojan",
+            "server": "104.21.25.72",
+            "server_port": 443,
+            "password": "7248e825-887c-48b9-83bc-c26bc6392bf8",
+            "tls": {
+                "enabled": true,
+                "server_name": "GggBnmJk.006660666.xYZ",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ctdmgeIg3NII3ibrzzKXJGy3S1",
+                "headers": {
+                    "Host": "GggBnmJk.006660666.xYZ"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR|🔒TROJAN|@ip_cf_config#11",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬SG|🔒TROJAN|@mpmehi#1",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -249,22 +290,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR|🔒TROJAN|@proxyfn#19",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

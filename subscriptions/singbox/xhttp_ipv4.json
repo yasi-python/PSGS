@@ -107,13 +107,12 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
+                "🚩CF|🔒VLESS|@mowjproxy#4",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -156,13 +155,12 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
+                "🚩CF|🔒VLESS|@mowjproxy#4",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -508,7 +506,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔒VLESS|@mowjproxy#5",
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#4",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -599,24 +597,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#14",
-            "type": "vless",
-            "server": "207.246.67.33",
-            "server_port": 443,
-            "uuid": "9379bbd7-96a6-4ea5-8c88-a1a9af932ec0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "207.246.67.33",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -139,7 +139,8 @@
                 "🇫🇷FR|🔓VMESS|@garnet_free#10",
                 "🇺🇸US|🔓VMESS|@ghotb_scarf#6",
                 "🇮🇷IR|🔓VMESS|@goldenvpn_v2rayy#2",
-                "🚩CF|🔓VMESS|@hope_net#19",
+                "🚩CF|🔓VMESS|@hope_net#17",
+                "🚩CF|🔓VMESS|@ip_cf_config#12",
                 "🇺🇸US|🔓VMESS|@ipv2rayng#4",
                 "🇯🇵JP|🔓VMESS|@ipv2rayng#6",
                 "🇯🇵JP|🔓VMESS|@ipv2rayng#7",
@@ -198,6 +199,7 @@
                 "❔XX|🔓VMESS|@prooxyk#4",
                 "❔XX|🔒VMESS|@prooxyk#5",
                 "🇮🇷IR|🔓VMESS|@proxse11#1",
+                "🇷🇺RU|🔓VMESS|@proxy_mtproto_vpns_free#16",
                 "🇩🇪DE|🔓VMESS|@proxygodratmand#5",
                 "🇮🇷IR|🔒VMESS|@public504#11",
                 "❔XX|🔓VMESS|@pydriclub#4",
@@ -328,7 +330,8 @@
                 "🇫🇷FR|🔓VMESS|@garnet_free#10",
                 "🇺🇸US|🔓VMESS|@ghotb_scarf#6",
                 "🇮🇷IR|🔓VMESS|@goldenvpn_v2rayy#2",
-                "🚩CF|🔓VMESS|@hope_net#19",
+                "🚩CF|🔓VMESS|@hope_net#17",
+                "🚩CF|🔓VMESS|@ip_cf_config#12",
                 "🇺🇸US|🔓VMESS|@ipv2rayng#4",
                 "🇯🇵JP|🔓VMESS|@ipv2rayng#6",
                 "🇯🇵JP|🔓VMESS|@ipv2rayng#7",
@@ -387,6 +390,7 @@
                 "❔XX|🔓VMESS|@prooxyk#4",
                 "❔XX|🔒VMESS|@prooxyk#5",
                 "🇮🇷IR|🔓VMESS|@proxse11#1",
+                "🇷🇺RU|🔓VMESS|@proxy_mtproto_vpns_free#16",
                 "🇩🇪DE|🔓VMESS|@proxygodratmand#5",
                 "🇮🇷IR|🔒VMESS|@public504#11",
                 "❔XX|🔓VMESS|@pydriclub#4",
@@ -1309,7 +1313,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩CF|🔓VMESS|@hope_net#19",
+            "tag": "🚩CF|🔓VMESS|@hope_net#17",
             "type": "vmess",
             "server": "104.18.114.203",
             "server_port": 2086,
@@ -1319,6 +1323,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/github.com/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF|🔓VMESS|@ip_cf_config#12",
+            "type": "vmess",
+            "server": "104.21.20.162",
+            "server_port": 8443,
+            "uuid": "57e595e6-ef54-4e0d-b8df-e96db9612b99",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/horsen",
                 "headers": {
                     "Host": ""
                 }
@@ -2175,6 +2204,15 @@
             "server": "188.213.67.214",
             "server_port": 20883,
             "uuid": "1a5f5c30-daf9-46c6-96da-4de4b42bef85",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇷🇺RU|🔓VMESS|@proxy_mtproto_vpns_free#16",
+            "type": "vmess",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
         },
