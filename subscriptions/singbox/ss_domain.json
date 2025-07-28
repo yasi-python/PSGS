@@ -96,13 +96,14 @@
                 "🇮🇷 IR | 🔒 SS | @configscenter #1",
                 "🇬🇧 GB | 🔒 SS | @dalton_ping #6",
                 "🇬🇧 GB | 🔒 SS | @freevirgoolnet #5",
+                "🇩🇪 DE | 🔒 SS | @ip_cf_config #11",
                 "🇺🇸 US | 🔒 SS | @mester_v2ray #16",
                 "🇨🇳 CN | 🔒 SS | @mftizi #18",
                 "❔ XX | 🔒 SS | @mt_proxy #5",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram #1",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram #2",
                 "🇬🇧 GB | 🔒 SS | @ntgreenplus #1",
-                "🇺🇸 US | 🔒 SS | @outlinereleasedkey #19",
+                "🇺🇸 US | 🔒 SS | @outlinereleasedkey #18",
                 "❔ XX | 🔒 SS | @proxy_confiingir #2",
                 "🇬🇧 GB | 🔒 SS | @prroxyng #1",
                 "❔ XX | 🔒 SS | @public504 #8",
@@ -112,8 +113,9 @@
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf #18",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 #8",
                 "🇬🇧 GB | 🔒 SS | @v2raybe #7",
-                "🇯🇵 JP | 🔒 SS | @vpn451 #13",
-                "🇺🇸 US | 🔒 SS | @vpn451 #14"
+                "🇯🇵 JP | 🔒 SS | @vpn451 #12",
+                "🇺🇸 US | 🔒 SS | @vpn451 #13",
+                "🇺🇸 US | 🔒 SS | @vpn451 #16"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,13 +130,14 @@
                 "🇮🇷 IR | 🔒 SS | @configscenter #1",
                 "🇬🇧 GB | 🔒 SS | @dalton_ping #6",
                 "🇬🇧 GB | 🔒 SS | @freevirgoolnet #5",
+                "🇩🇪 DE | 🔒 SS | @ip_cf_config #11",
                 "🇺🇸 US | 🔒 SS | @mester_v2ray #16",
                 "🇨🇳 CN | 🔒 SS | @mftizi #18",
                 "❔ XX | 🔒 SS | @mt_proxy #5",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram #1",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram #2",
                 "🇬🇧 GB | 🔒 SS | @ntgreenplus #1",
-                "🇺🇸 US | 🔒 SS | @outlinereleasedkey #19",
+                "🇺🇸 US | 🔒 SS | @outlinereleasedkey #18",
                 "❔ XX | 🔒 SS | @proxy_confiingir #2",
                 "🇬🇧 GB | 🔒 SS | @prroxyng #1",
                 "❔ XX | 🔒 SS | @public504 #8",
@@ -144,8 +147,9 @@
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf #18",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 #8",
                 "🇬🇧 GB | 🔒 SS | @v2raybe #7",
-                "🇯🇵 JP | 🔒 SS | @vpn451 #13",
-                "🇺🇸 US | 🔒 SS | @vpn451 #14"
+                "🇯🇵 JP | 🔒 SS | @vpn451 #12",
+                "🇺🇸 US | 🔒 SS | @vpn451 #13",
+                "🇺🇸 US | 🔒 SS | @vpn451 #16"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -264,6 +268,14 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 SS | @ip_cf_config #11",
+            "type": "shadowsocks",
+            "server": "fin.outlinebot1.ru",
+            "server_port": 5904,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5TZnwPb23pQS39lIucspJw"
+        },
+        {
             "tag": "🇺🇸 US | 🔒 SS | @mester_v2ray #16",
             "type": "shadowsocks",
             "server": "api.namasha.co",
@@ -312,7 +324,7 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @outlinereleasedkey #19",
+            "tag": "🇺🇸 US | 🔒 SS | @outlinereleasedkey #18",
             "type": "shadowsocks",
             "server": "ltnl13.saint.ydns.eu",
             "server_port": 8080,
@@ -392,7 +404,7 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 #13",
+            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 #12",
             "type": "shadowsocks",
             "server": "sakura.outlinekeys.net",
             "server_port": 1235,
@@ -400,12 +412,20 @@
             "password": "FGHwtC6cjw1zSSiRbEg5T4"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @vpn451 #14",
+            "tag": "🇺🇸 US | 🔒 SS | @vpn451 #13",
             "type": "shadowsocks",
             "server": "fox-usa.outlinekeys.net",
             "server_port": 34868,
             "method": "chacha20-ietf-poly1305",
             "password": "TiiaduS9VbEHgfkRugj3xO"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @vpn451 #16",
+            "type": "shadowsocks",
+            "server": "fox-usa.outlinekeys.net",
+            "server_port": 34868,
+            "method": "chacha20-ietf-poly1305",
+            "password": "To8uQIZua71xAA3JMbUWEi"
         }
     ],
     "route": {
