@@ -112,11 +112,12 @@
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🚩CF|🔒VLESS|@proxie#16",
+                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#15",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
                 "🇩🇪DE|🔒VLESS|@v2ray_vmes#14",
+                "🇹🇷TR|🔒VLESS|@v2raych#16",
                 "🇪🇸ES|🔒VLESS|@v2rayexpress#8",
                 "🇳🇱NL|🔒VLESS|@v2rayexpress#10",
                 "🇳🇱NL|🔒VLESS|@v2rayexpress#11",
@@ -160,11 +161,12 @@
                 "🚩CF|🔒VLESS|@proxie#13",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
-                "🚩CF|🔒VLESS|@proxie#16",
+                "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#15",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
                 "🇩🇪DE|🔒VLESS|@v2ray_vmes#14",
+                "🇹🇷TR|🔒VLESS|@v2raych#16",
                 "🇪🇸ES|🔒VLESS|@v2rayexpress#8",
                 "🇳🇱NL|🔒VLESS|@v2rayexpress#10",
                 "🇳🇱NL|🔒VLESS|@v2rayexpress#11",
@@ -519,7 +521,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "edf78ca5-7ccb-44d4-88e6-b5bfb00499f2",
+            "uuid": "13b5abce-df4b-4e08-8b38-5fbfa5a5a95a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -537,7 +539,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "13b5abce-df4b-4e08-8b38-5fbfa5a5a95a",
+            "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -555,7 +557,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
+            "uuid": "dc4ed804-2ffb-4354-bd97-ad7b6ccf99b4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -571,24 +573,6 @@
         {
             "tag": "🚩CF|🔒VLESS|@proxie#15",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "dc4ed804-2ffb-4354-bd97-ad7b6ccf99b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@proxie#16",
-            "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
             "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
@@ -597,6 +581,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔓VLESS|@proxy_mtproto_vpns_free#15",
+            "type": "vless",
+            "server": "207.246.67.33",
+            "server_port": 443,
+            "uuid": "9379bbd7-96a6-4ea5-8c88-a1a9af932ec0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "207.246.67.33",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -679,6 +681,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR|🔒VLESS|@v2raych#16",
+            "type": "vless",
+            "server": "46.31.76.3",
+            "server_port": 80,
+            "uuid": "215d71a9-0047-4600-9240-7c3b86b62313",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oTX6mQJYxkmmdF7Rq_stAKX_hYoOMXGaWmoblFl2zgo",
+                    "short_id": "5942e2"
                 }
             }
         },

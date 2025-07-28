@@ -161,7 +161,6 @@
                 "❔XX|🔓VLESS|@maxvpnc#10",
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
-                "❔XX|🔓VLESS|@miyanbor_vpn#1",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
@@ -175,7 +174,6 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔓VLESS|@outlinev2rayng#14",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -187,7 +185,6 @@
                 "🚩CF|🔓VLESS|@shahedtec#5",
                 "🇮🇷IR|🔓VLESS|@tobevasl#17",
                 "❔XX|🔒VLESS|@torang_vpn#17",
-                "🚩CF|🔒VLESS|@v2aryng_vpn#9",
                 "🚩CF|🔒VLESS|@v2logy#11",
                 "🚩CF|🔓VLESS|@v2pedia#7",
                 "❔XX|🔓VLESS|@v2raxx#10",
@@ -298,7 +295,6 @@
                 "❔XX|🔓VLESS|@maxvpnc#10",
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
-                "❔XX|🔓VLESS|@miyanbor_vpn#1",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
@@ -312,7 +308,6 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔓VLESS|@outlinev2rayng#14",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -324,7 +319,6 @@
                 "🚩CF|🔓VLESS|@shahedtec#5",
                 "🇮🇷IR|🔓VLESS|@tobevasl#17",
                 "❔XX|🔒VLESS|@torang_vpn#17",
-                "🚩CF|🔒VLESS|@v2aryng_vpn#9",
                 "🚩CF|🔒VLESS|@v2logy#11",
                 "🚩CF|🔓VLESS|@v2pedia#7",
                 "❔XX|🔓VLESS|@v2raxx#10",
@@ -1556,15 +1550,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔XX|🔓VLESS|@miyanbor_vpn#1",
-            "type": "vless",
-            "server": "p.boardbear.ir",
-            "server_port": 2053,
-            "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪DE|🔓VLESS|@moon_ping#1",
             "type": "vless",
             "server": "all61-vip.f-sub.com",
@@ -1821,22 +1806,6 @@
             }
         },
         {
-            "tag": "🚩CF|🔓VLESS|@outlinev2rayng#14",
-            "type": "vless",
-            "server": "enthusiastic-century.oneeat.co",
-            "server_port": 80,
-            "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "enthusiastic-century.oneeat.co"
-                }
-            }
-        },
-        {
             "tag": "❔XX|🔓VLESS|@proxy48#15",
             "type": "vless",
             "server": "www.forcepower.monster",
@@ -2020,24 +1989,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "ea1058117be12087"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@v2aryng_vpn#9",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pars.stepson.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
