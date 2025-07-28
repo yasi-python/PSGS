@@ -110,7 +110,7 @@ function processAndEnrichConfig(
     );
     // --- END: FINAL NAMING STRATEGY ---
 
-    $decodedConfig[$configFields[$type]["name"]] = $newName;
+    $decodedConfig[$configFields[$type]["name"]] = url_encode($newName);
 
     $encodedConfig = reparseConfig($decodedConfig, $type);
     if ($encodedConfig === null) {
