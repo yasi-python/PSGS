@@ -102,7 +102,6 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock #5",
                 "🚩 CF | 🔓 VMESS | @freev2rays #20",
                 "🇩🇪 DE | 🔓 VMESS | @freevmess #5",
-                "🚩 CF | 🔒 VMESS | @freevpnatm #19",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy #14",
                 "🚩 CF | 🔓 VMESS | @iran_mehr_vpn #18",
                 "🚩 CF | 🔒 VMESS | @iranvpnet #1",
@@ -114,7 +113,6 @@
                 "🇫🇷 FR | 🔒 VMESS | @mahsaproxy #4",
                 "🇨🇳 CN | 🔓 VMESS | @mftizi #20",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official #3",
-                "🇮🇷 IR | 🔓 VMESS | @mowjproxy #4",
                 "❔ XX | 🔓 VMESS | @net_azad_1 #13",
                 "🇮🇷 IR | 🔓 VMESS | @pro_chaneel #2",
                 "❔ XX | 🔒 VMESS | @prooxyk #5",
@@ -130,7 +128,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll #6",
                 "🇦🇹 AT | 🔓 VMESS | @v2rayngconfiig #13",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn #19",
-                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray #18",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray #18",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config #19",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline #11",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin #4",
@@ -155,7 +153,6 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock #5",
                 "🚩 CF | 🔓 VMESS | @freev2rays #20",
                 "🇩🇪 DE | 🔓 VMESS | @freevmess #5",
-                "🚩 CF | 🔒 VMESS | @freevpnatm #19",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy #14",
                 "🚩 CF | 🔓 VMESS | @iran_mehr_vpn #18",
                 "🚩 CF | 🔒 VMESS | @iranvpnet #1",
@@ -167,7 +164,6 @@
                 "🇫🇷 FR | 🔒 VMESS | @mahsaproxy #4",
                 "🇨🇳 CN | 🔓 VMESS | @mftizi #20",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official #3",
-                "🇮🇷 IR | 🔓 VMESS | @mowjproxy #4",
                 "❔ XX | 🔓 VMESS | @net_azad_1 #13",
                 "🇮🇷 IR | 🔓 VMESS | @pro_chaneel #2",
                 "❔ XX | 🔒 VMESS | @prooxyk #5",
@@ -183,7 +179,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll #6",
                 "🇦🇹 AT | 🔓 VMESS | @v2rayngconfiig #13",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn #19",
-                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray #18",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray #18",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config #19",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline #11",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin #4",
@@ -447,31 +443,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @freevpnatm #19",
-            "type": "vmess",
-            "server": "104.21.21.72",
-            "server_port": 443,
-            "uuid": "38873d57-9b22-4a76-9f63-4f9fc353cb4d",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "xssder.003330333.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/UiGuTsbOWPz5bSX3dUiURrtDWS",
-                "headers": {
-                    "Host": "xssder.003330333.xyz"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔓 VMESS | @ir_netproxy #14",
             "type": "vmess",
             "server": "89.116.38.184",
@@ -626,15 +597,6 @@
                     "Host": "glweidf.sbs"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @mowjproxy #4",
-            "type": "vmess",
-            "server": "85.133.153.22",
-            "server_port": 20883,
-            "uuid": "8c1b9bf0-9376-4b50-ac5e-82c0b9722846",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @net_azad_1 #13",
@@ -866,13 +828,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray #18",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray #18",
             "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "server": "23.162.200.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "23.162.200.227",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "23.162.200.227"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @vpngate_config #19",
