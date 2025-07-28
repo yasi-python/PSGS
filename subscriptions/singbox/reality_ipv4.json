@@ -94,9 +94,9 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy #33",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
-                "🇱🇻 LV | 🔒 VLESS | @configshubplus #16",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -125,7 +125,6 @@
                 "🇦🇪 AE | 🔒 VLESS | @grizzlyvpn #5",
                 "🇦🇪 AE | 🔒 VLESS | @grizzlyvpn #7",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official #2",
-                "🇬🇧 GB | 🔒 VLESS | @hope_net #17",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray #3",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray #4",
                 "🇩🇪 DE | 🔒 VLESS | @injectormconf #36",
@@ -142,6 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn #1",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter #6",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter #8",
+                "🇫🇮 FI | 🔒 VLESS | @kingofilter #9",
                 "🇺🇸 US | 🔒 VLESS | @kkkkkoabvbbvbvv #11",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping #9",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn #72",
@@ -205,9 +205,9 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner #9",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner #11",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy #33",
                 "🇩🇪 DE | 🔒 VLESS | @configasli #5",
                 "🇫🇷 FR | 🔒 VLESS | @configasli #7",
-                "🇱🇻 LV | 🔒 VLESS | @configshubplus #16",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver #9",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping #4",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis #1",
@@ -236,7 +236,6 @@
                 "🇦🇪 AE | 🔒 VLESS | @grizzlyvpn #5",
                 "🇦🇪 AE | 🔒 VLESS | @grizzlyvpn #7",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official #2",
-                "🇬🇧 GB | 🔒 VLESS | @hope_net #17",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray #3",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray #4",
                 "🇩🇪 DE | 🔒 VLESS | @injectormconf #36",
@@ -253,6 +252,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn #1",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter #6",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter #8",
+                "🇫🇮 FI | 🔒 VLESS | @kingofilter #9",
                 "🇺🇸 US | 🔒 VLESS | @kkkkkoabvbbvbvv #11",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping #9",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn #72",
@@ -436,6 +436,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy #33",
+            "type": "vless",
+            "server": "188.245.237.23",
+            "server_port": 443,
+            "uuid": "60bc841c-cfbd-408f-889b-473f90bb4a26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jH08UU9id-Q8i17ltvHPO3sfGL6YTJIFveAJGgNjNl8",
+                    "short_id": "190d32b118caf07f"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli #5",
             "type": "vless",
             "server": "91.107.183.90",
@@ -482,29 +505,6 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @configshubplus #16",
-            "type": "vless",
-            "server": "213.21.222.172",
-            "server_port": 443,
-            "uuid": "e134f4a5-346e-493f-b74a-988ef7a4ff27",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdnjs.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
-                    "short_id": "19aa22f681923dc8"
                 }
             }
         },
@@ -1197,29 +1197,6 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @hope_net #17",
-            "type": "vless",
-            "server": "38.180.140.203",
-            "server_port": 443,
-            "uuid": "801fe3b2-d716-4d64-908d-6a05fa5c49b9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "github.githubassets.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MrRkN1igtfFrRAuezc93ZKZN3Dl4pHUS30XzTBOT6G0",
-                    "short_id": "0000000000000000"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @hopev2ray #3",
             "type": "vless",
             "server": "91.107.167.104",
@@ -1594,6 +1571,29 @@
             "server": "46.62.160.130",
             "server_port": 8443,
             "uuid": "69bc0de5-1edc-4028-9aca-ad9280149268",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @kingofilter #9",
+            "type": "vless",
+            "server": "46.62.160.130",
+            "server_port": 8443,
+            "uuid": "e3a42c00-5212-4f7f-a6fc-61826dbee596",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

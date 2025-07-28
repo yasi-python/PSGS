@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #16",
-                "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #15",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config #13",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns #16",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
@@ -111,7 +111,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn #16",
-                "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #15",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config #13",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns #16",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
@@ -220,11 +220,20 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 TROJAN | @ip_cf_config #15",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config #13",
             "type": "trojan",
-            "server": "155.117.228.70",
-            "server_port": 26193,
-            "password": "7367d04e-4c59-4dff-a50e-12e730a09891"
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc6.freeguard.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇬 SG | 🔒 TROJAN | @mpmehi #1",
