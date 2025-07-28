@@ -122,7 +122,8 @@
                 "🇩🇪DE|🔒VLESS|@kesslervpn#3",
                 "❔XX|🔒VLESS|@kkkkkoabvbbvbvv#10",
                 "🇩🇪DE|🔒VLESS|@lexernet#12",
-                "🇩🇪DE|🔒VLESS|@netmellianti#13",
+                "🇩🇪DE|🔒VLESS|@netmellianti#12",
+                "🇮🇳IN|🔒VLESS|@netmellianti#15",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#3",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
                 "❔XX|🔒VLESS|@persian_proxy6#1",
@@ -199,7 +200,8 @@
                 "🇩🇪DE|🔒VLESS|@kesslervpn#3",
                 "❔XX|🔒VLESS|@kkkkkoabvbbvbvv#10",
                 "🇩🇪DE|🔒VLESS|@lexernet#12",
-                "🇩🇪DE|🔒VLESS|@netmellianti#13",
+                "🇩🇪DE|🔒VLESS|@netmellianti#12",
+                "🇮🇳IN|🔒VLESS|@netmellianti#15",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#3",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
                 "❔XX|🔒VLESS|@persian_proxy6#1",
@@ -1079,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@netmellianti#13",
+            "tag": "🇩🇪DE|🔒VLESS|@netmellianti#12",
             "type": "vless",
             "server": "ger.afterhav.ir",
             "server_port": 8880,
@@ -1098,6 +1100,29 @@
                     "enabled": true,
                     "public_key": "i9i0gRbOcihFuDWgbY8fiRO-uYfmkbAixksapkkI_wA",
                     "short_id": "e5caf4654f"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN|🔒VLESS|@netmellianti#15",
+            "type": "vless",
+            "server": "ind01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
                 }
             }
         },

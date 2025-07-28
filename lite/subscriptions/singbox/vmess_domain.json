@@ -127,7 +127,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll#6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig#13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn#19",
-                "🇭🇰HK|🔓VMESS|@vpnfail_v2ray#19",
+                "🇩🇪DE|🔒VMESS|@vpnfail_v2ray#20",
                 "🇺🇸US|🔓VMESS|@vpngate_config#19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline#11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin#4",
@@ -177,7 +177,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll#6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig#13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn#19",
-                "🇭🇰HK|🔓VMESS|@vpnfail_v2ray#19",
+                "🇩🇪DE|🔒VMESS|@vpnfail_v2ray#20",
                 "🇺🇸US|🔓VMESS|@vpngate_config#19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline#11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin#4",
@@ -810,13 +810,29 @@
             }
         },
         {
-            "tag": "🇭🇰HK|🔓VMESS|@vpnfail_v2ray#19",
+            "tag": "🇩🇪DE|🔒VMESS|@vpnfail_v2ray#20",
             "type": "vmess",
-            "server": "103.181.165.26",
-            "server_port": 49597,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "57.129.64.238",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kapelleng.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "kapelleng.com"
+                }
+            }
         },
         {
             "tag": "🇺🇸US|🔓VMESS|@vpngate_config#19",
