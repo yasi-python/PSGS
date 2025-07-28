@@ -162,6 +162,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray #12",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn #1",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping #1",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy #5",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
                 "❔ XX | 🔒 VLESS | @mt_team_iran #5",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray #85",
@@ -174,11 +175,12 @@
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven #16",
                 "🚩 CF | 🔒 VLESS | @ohvpn #18",
                 "🚩 CF | 🔓 VLESS | @oonfig #2",
+                "🚩 CF | 🔓 VLESS | @outlinev2rayng #14",
                 "❔ XX | 🔓 VLESS | @proxy48 #15",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir #4",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto #1",
                 "❔ XX | 🔒 VLESS | @proxysudo #3",
-                "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #133",
+                "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #125",
                 "❔ XX | 🔓 VLESS | @realvpnmaster #15",
                 "❔ XX | 🔓 VLESS | @red2ray #14",
                 "🇺🇸 US | 🔓 VLESS | @rez1vpn #2",
@@ -296,6 +298,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray #12",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn #1",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping #1",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy #5",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
                 "❔ XX | 🔒 VLESS | @mt_team_iran #5",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray #85",
@@ -308,11 +311,12 @@
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven #16",
                 "🚩 CF | 🔒 VLESS | @ohvpn #18",
                 "🚩 CF | 🔓 VLESS | @oonfig #2",
+                "🚩 CF | 🔓 VLESS | @outlinev2rayng #14",
                 "❔ XX | 🔓 VLESS | @proxy48 #15",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir #4",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto #1",
                 "❔ XX | 🔒 VLESS | @proxysudo #3",
-                "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #133",
+                "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #125",
                 "❔ XX | 🔓 VLESS | @realvpnmaster #15",
                 "❔ XX | 🔓 VLESS | @red2ray #14",
                 "🇺🇸 US | 🔓 VLESS | @rez1vpn #2",
@@ -1557,6 +1561,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy #5",
+            "type": "vless",
+            "server": "de1.configlinepanel.com",
+            "server_port": 8443,
+            "uuid": "cd307b67-8180-491c-ad97-5dfd74cb38de",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nn2Vf-5Q8DqxunZXrhIXUr329pkYvLyEb10zRVjpIxk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 #5",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1804,6 +1831,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @outlinev2rayng #14",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @proxy48 #15",
             "type": "vless",
             "server": "www.forcepower.monster",
@@ -1870,7 +1913,7 @@
             }
         },
         {
-            "tag": "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #133",
+            "tag": "🇱🇰 LK | 🔒 VLESS | @prrofile_purple #125",
             "type": "vless",
             "server": "russiatest-tap2.servers807.ir",
             "server_port": 2025,

@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @cryptoguardvpn #3",
+                "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #14",
@@ -101,8 +102,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir #18"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,6 +114,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @cryptoguardvpn #3",
+                "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro #7",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn #14",
@@ -122,8 +123,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir #18"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -231,6 +231,13 @@
                     "Host": "production.tj.ojan.workers.dev"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 TROJAN | @ip_cf_config #13",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 15229,
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn #9",
@@ -391,29 +398,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir #18",
-            "type": "trojan",
-            "server": "104.26.4.60",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "zamim340.ggff.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tr?ed=2560",
-                "headers": {
-                    "Host": "zamim340.ggff.net"
                 }
             }
         }

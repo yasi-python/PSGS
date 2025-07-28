@@ -98,8 +98,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir #18"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,8 +115,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn #19",
                 "🚩 CF | 🔒 TROJAN | @v2raying #18",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig #46",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir #18"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel #15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -326,29 +324,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir #18",
-            "type": "trojan",
-            "server": "104.26.4.60",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "zamim340.ggff.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tr?ed=2560",
-                "headers": {
-                    "Host": "zamim340.ggff.net"
                 }
             }
         }
