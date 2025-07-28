@@ -103,7 +103,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis #5",
                 "🇮🇷 IR | 🔓 VLESS | @defenyx_vpn #2",
                 "🇸🇪 SE | 🔓 VLESS | @deli_servers #3",
-                "🚩 CF | 🔒 VLESS | @drvpn_net #2",
                 "🇹🇷 TR | 🔒 VLESS | @f_nirevil #3",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig #1",
                 "🚩 CF | 🔒 VLESS | @fastkanfig #14",
@@ -115,7 +114,6 @@
                 "🚩 CF | 🔓 VLESS | @freev2flyng #18",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn #1",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 #7",
-                "🚩 CF | 🔒 VLESS | @freevpnatm #16",
                 "🚩 CF | 🔒 VLESS | @gervpn #1",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf #10",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy #4",
@@ -209,7 +207,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis #5",
                 "🇮🇷 IR | 🔓 VLESS | @defenyx_vpn #2",
                 "🇸🇪 SE | 🔓 VLESS | @deli_servers #3",
-                "🚩 CF | 🔒 VLESS | @drvpn_net #2",
                 "🇹🇷 TR | 🔒 VLESS | @f_nirevil #3",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig #1",
                 "🚩 CF | 🔒 VLESS | @fastkanfig #14",
@@ -221,7 +218,6 @@
                 "🚩 CF | 🔓 VLESS | @freev2flyng #18",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn #1",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 #7",
-                "🚩 CF | 🔒 VLESS | @freevpnatm #16",
                 "🚩 CF | 🔒 VLESS | @gervpn #1",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf #10",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy #4",
@@ -560,31 +556,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @drvpn_net #2",
-            "type": "vless",
-            "server": "188.114.97.2",
-            "server_port": 443,
-            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@vemessvpn-channel-telegram",
-                "headers": {
-                    "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇹🇷 TR | 🔒 VLESS | @f_nirevil #3",
             "type": "vless",
             "server": "185.8.129.187",
@@ -788,28 +759,6 @@
             "uuid": "5b5c6557-d611-4c6f-a43b-a2c48c0b541d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @freevpnatm #16",
-            "type": "vless",
-            "server": "104.21.28.26",
-            "server_port": 443,
-            "uuid": "d34446e0-9045-4307-8ffa-81225d9f924d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ddDDDDdDFFFGTy.999182.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Dfo4APuoevGF1Cb1FA22Hj1Z4b3"
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @gervpn #1",
