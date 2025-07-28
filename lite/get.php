@@ -159,7 +159,7 @@ foreach ($configsList as $source => $configs) {
         // 2. Create the new name using your preferred format.
         //    Format: FLAG COUNTRY_CODE | SECURITY_ICON PROTOCOL_TYPE | @source #ID
         $newName = sprintf(
-            '%s %s | %s %s | @%s #%d',
+            '%s%s|%s%s|@%s#%d',
             $flag,                          // Flag emoji (e.g., 🇺🇸)
             $countryCode,                   // 2-letter country code (e.g., US)
             $securityEmoji,                 // Security status emoji (🔒 or 🔓)
