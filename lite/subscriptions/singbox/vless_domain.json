@@ -97,7 +97,6 @@
                 "🚩CF|🔓VLESS|@artemis_vpn_free#2",
                 "🚩CF|🔓VLESS|@aryoovpn#5",
                 "🇮🇷IR|🔓VLESS|@asak_vpn#12",
-                "🇺🇸US|🔓VLESS|@befreewithus#2",
                 "🚩CF|🔓VLESS|@canfing_vpn#20",
                 "❔XX|🔓VLESS|@castom_v2ray#5",
                 "❔XX|🔓VLESS|@ch_a2l#6",
@@ -163,7 +162,6 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
-                "🚩CF|🔓VLESS|@mowjproxy#3",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
@@ -175,7 +173,7 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔓VLESS|@outlinev2rayng#14",
+                "🚩CF|🔒VLESS|@outlinev2rayng#15",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -233,7 +231,6 @@
                 "🚩CF|🔓VLESS|@artemis_vpn_free#2",
                 "🚩CF|🔓VLESS|@aryoovpn#5",
                 "🇮🇷IR|🔓VLESS|@asak_vpn#12",
-                "🇺🇸US|🔓VLESS|@befreewithus#2",
                 "🚩CF|🔓VLESS|@canfing_vpn#20",
                 "❔XX|🔓VLESS|@castom_v2ray#5",
                 "❔XX|🔓VLESS|@ch_a2l#6",
@@ -299,7 +296,6 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
-                "🚩CF|🔓VLESS|@mowjproxy#3",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
@@ -311,7 +307,7 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔓VLESS|@outlinev2rayng#14",
+                "🚩CF|🔒VLESS|@outlinev2rayng#15",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -504,22 +500,6 @@
             "uuid": "1d845272-528e-4d76-a721-9de31bf1326f",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸US|🔓VLESS|@befreewithus#2",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "7f9f019f-0471-4f8f-bffb-13bb7dfce2c3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
         },
         {
             "tag": "🚩CF|🔓VLESS|@canfing_vpn#20",
@@ -1579,22 +1559,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔓VLESS|@mowjproxy#3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/hajmi?ed=2050",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "❔XX|🔒VLESS|@mrvpn1403#5",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1826,18 +1790,27 @@
             }
         },
         {
-            "tag": "🚩CF|🔓VLESS|@outlinev2rayng#14",
+            "tag": "🚩CF|🔒VLESS|@outlinev2rayng#15",
             "type": "vless",
-            "server": "wonderful-degree.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "6192c1d9-5ae1-40ba-9cbb-cfacc2f8533c",
+            "server": "web.xhamster.biz.id",
+            "server_port": 443,
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "web.xhamster.biz.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/Free-CF-Proxy-AT4",
                 "headers": {
-                    "Host": "wonderful-degree.seotoolsforyou.co.uk"
+                    "Host": "web.xhamster.biz.id"
                 }
             }
         },
