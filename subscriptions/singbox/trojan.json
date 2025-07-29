@@ -110,11 +110,8 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn$17",
                 "🇫🇷FR|🔒TROJAN|@directvpn$18",
                 "🇩🇪DE|🔓TROJAN|@freev2raym$8",
-                "🇭🇰HK|🔓TROJAN|@hope_net$17",
-                "🇷🇺RU|🔓TROJAN|@hope_net$18",
-                "🚩CF|🔓TROJAN|@hope_net$20",
-                "🇺🇸US|🔒TROJAN|@ip_cf_config$7",
-                "🚩CF|🔒TROJAN|@ip_cf_config$9",
+                "🇷🇺RU|🔓TROJAN|@hope_net$16",
+                "🚩CF|🔓TROJAN|@hope_net$18",
                 "🇫🇷FR|🔒TROJAN|@jiedianf$5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi$1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy$7",
@@ -125,9 +122,11 @@
                 "🇫🇷FR|🔒TROJAN|@privatevpns$18",
                 "🇫🇷FR|🔒TROJAN|@proxyfn$19",
                 "🇫🇷FR|🔒TROJAN|@v2ray_free_conf$19",
+                "🇸🇬SG|🔓TROJAN|@v2raych$18",
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig$43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig$44",
                 "🇫🇷FR|🔒TROJAN|@v2rayngconfig$45",
+                "🇺🇸US|🔒TROJAN|@v2rayngconfig$46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel$12",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$13",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$14",
@@ -161,11 +160,8 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn$17",
                 "🇫🇷FR|🔒TROJAN|@directvpn$18",
                 "🇩🇪DE|🔓TROJAN|@freev2raym$8",
-                "🇭🇰HK|🔓TROJAN|@hope_net$17",
-                "🇷🇺RU|🔓TROJAN|@hope_net$18",
-                "🚩CF|🔓TROJAN|@hope_net$20",
-                "🇺🇸US|🔒TROJAN|@ip_cf_config$7",
-                "🚩CF|🔒TROJAN|@ip_cf_config$9",
+                "🇷🇺RU|🔓TROJAN|@hope_net$16",
+                "🚩CF|🔓TROJAN|@hope_net$18",
                 "🇫🇷FR|🔒TROJAN|@jiedianf$5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi$1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy$7",
@@ -176,9 +172,11 @@
                 "🇫🇷FR|🔒TROJAN|@privatevpns$18",
                 "🇫🇷FR|🔒TROJAN|@proxyfn$19",
                 "🇫🇷FR|🔒TROJAN|@v2ray_free_conf$19",
+                "🇸🇬SG|🔓TROJAN|@v2raych$18",
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig$43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig$44",
                 "🇫🇷FR|🔒TROJAN|@v2rayngconfig$45",
+                "🇺🇸US|🔒TROJAN|@v2rayngconfig$46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel$12",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$13",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$14",
@@ -597,14 +595,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇭🇰HK|🔓TROJAN|@hope_net$17",
-            "type": "trojan",
-            "server": "18.167.172.191",
-            "server_port": 44560,
-            "password": "3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb"
-        },
-        {
-            "tag": "🇷🇺RU|🔓TROJAN|@hope_net$18",
+            "tag": "🇷🇺RU|🔓TROJAN|@hope_net$16",
             "type": "trojan",
             "server": "213.241.198.195",
             "server_port": 443,
@@ -620,7 +611,7 @@
             }
         },
         {
-            "tag": "🚩CF|🔓TROJAN|@hope_net$20",
+            "tag": "🚩CF|🔓TROJAN|@hope_net$18",
             "type": "trojan",
             "server": "104.16.110.37",
             "server_port": 443,
@@ -632,45 +623,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US|🔒TROJAN|@ip_cf_config$7",
-            "type": "trojan",
-            "server": "104.149.155.13",
-            "server_port": 443,
-            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
-            "tls": {
-                "enabled": true,
-                "server_name": "vzwzasc.cn",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒TROJAN|@ip_cf_config$9",
-            "type": "trojan",
-            "server": "104.25.165.81",
-            "server_port": 8443,
-            "password": "123456",
-            "tls": {
-                "enabled": true,
-                "server_name": "top-azx.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
                 }
             }
         },
@@ -842,6 +794,22 @@
             }
         },
         {
+            "tag": "🇸🇬SG|🔓TROJAN|@v2raych$18",
+            "type": "trojan",
+            "server": "45.8.211.242",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb.my79801.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE|🔒TROJAN|@v2rayngconfig$43",
             "type": "trojan",
             "server": "146.19.215.81",
@@ -882,6 +850,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔒TROJAN|@v2rayngconfig$46",
+            "type": "trojan",
+            "server": "104.149.155.13",
+            "server_port": 443,
+            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
+            "tls": {
+                "enabled": true,
+                "server_name": "vzwzasc.cn",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
