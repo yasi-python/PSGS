@@ -97,13 +97,8 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
-                "🇩🇪DE|🔒VLESS|@config_proxy#51",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#48",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#49",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#50",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#51",
                 "❔XX|🔒VLESS|@free1_vpn#3",
                 "❔XX|🔒VLESS|@free_omega#1",
                 "❔XX|🔒VLESS|@fsv2ray#1",
@@ -135,7 +130,7 @@
                 "🇩🇪DE|🔒VLESS|@proxystore11#11",
                 "❔XX|🔒VLESS|@proxysudo#2",
                 "❔XX|🔒VLESS|@proxysudo#3",
-                "🇳🇱NL|🔒VLESS|@prrofile_purple#122",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple#129",
                 "❔XX|🔒VLESS|@public504#10",
                 "❔XX|🔒VLESS|@public504#12",
                 "❔XX|🔒VLESS|@rezaw_server#1",
@@ -150,7 +145,7 @@
                 "❔XX|🔒VLESS|@v2rayang201#4",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
-                "🇰🇷KR|🔒VLESS|@v2rayngrit#15",
+                "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
                 "❔XX|🔒VLESS|@v2rayturbo#5",
                 "❔XX|🔒VLESS|@v2rayy_vpn13#9",
                 "❔XX|🔒VLESS|@v2rayza#19",
@@ -179,13 +174,8 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
-                "🇩🇪DE|🔒VLESS|@config_proxy#51",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#48",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#49",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#50",
-                "🇳🇱NL|🔒VLESS|@filter_breaker#51",
                 "❔XX|🔒VLESS|@free1_vpn#3",
                 "❔XX|🔒VLESS|@free_omega#1",
                 "❔XX|🔒VLESS|@fsv2ray#1",
@@ -217,7 +207,7 @@
                 "🇩🇪DE|🔒VLESS|@proxystore11#11",
                 "❔XX|🔒VLESS|@proxysudo#2",
                 "❔XX|🔒VLESS|@proxysudo#3",
-                "🇳🇱NL|🔒VLESS|@prrofile_purple#122",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple#129",
                 "❔XX|🔒VLESS|@public504#10",
                 "❔XX|🔒VLESS|@public504#12",
                 "❔XX|🔒VLESS|@rezaw_server#1",
@@ -232,7 +222,7 @@
                 "❔XX|🔒VLESS|@v2rayang201#4",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
-                "🇰🇷KR|🔒VLESS|@v2rayngrit#15",
+                "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
                 "❔XX|🔒VLESS|@v2rayturbo#5",
                 "❔XX|🔒VLESS|@v2rayy_vpn13#9",
                 "❔XX|🔒VLESS|@v2rayza#19",
@@ -455,29 +445,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@config_proxy#51",
-            "type": "vless",
-            "server": "free-de.vpnkey.dev",
-            "server_port": 8443,
-            "uuid": "36c1ebec-a90f-46c5-a5a4-6e1ac693eda3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GRiw6XeGeENtmahBvZnGQbcxsHPlvSNBiA_DJXiqrjM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE|🔒VLESS|@configasli#8",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -525,98 +492,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇳🇱NL|🔒VLESS|@filter_breaker#48",
-            "type": "vless",
-            "server": "mci.sbarshia.ir",
-            "server_port": 443,
-            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zoomit.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
-                    "short_id": "fdf18126a0768480"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL|🔒VLESS|@filter_breaker#49",
-            "type": "vless",
-            "server": "irancell.sbarshia.ir",
-            "server_port": 8443,
-            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
-                    "short_id": "fdf18126a0768480"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL|🔒VLESS|@filter_breaker#50",
-            "type": "vless",
-            "server": "irancell.sbarshia.ir",
-            "server_port": 443,
-            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tapsi.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
-                    "short_id": "fdf18126a0768480"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL|🔒VLESS|@filter_breaker#51",
-            "type": "vless",
-            "server": "s2.sbarshia.ir",
-            "server_port": 8443,
-            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "divar.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
-                    "short_id": "fdf18126a0768480"
-                }
             }
         },
         {
@@ -1400,7 +1275,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL|🔒VLESS|@prrofile_purple#122",
+            "tag": "🇳🇱NL|🔒VLESS|@prrofile_purple#129",
             "type": "vless",
             "server": "direct2.yasharteam.com",
             "server_port": 443,
@@ -1753,7 +1628,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR|🔒VLESS|@v2rayngrit#15",
+            "tag": "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
