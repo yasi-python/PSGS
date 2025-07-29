@@ -129,7 +129,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇦🇹 AT | 🔓 VMESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]",
-                "🇸🇪 SE | 🔓 VMESS | @vpnfail_v2ray [20]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline [11]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
@@ -181,7 +181,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇦🇹 AT | 🔓 VMESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]",
-                "🇸🇪 SE | 🔓 VMESS | @vpnfail_v2ray [20]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline [11]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
@@ -846,13 +846,29 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [20]",
             "type": "vmess",
-            "server": "169.150.208.83",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "server": "134.195.198.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "134.195.198.147",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "134.195.198.147"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
