@@ -162,6 +162,7 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
+                "🚩CF|🔓VLESS|@mowjproxy#5",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🚩CF|🔓VLESS|@mtproxy22_v2ray#73",
@@ -174,6 +175,7 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
+                "🚩CF|🔓VLESS|@outlinev2rayng#14",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -296,6 +298,7 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
+                "🚩CF|🔓VLESS|@mowjproxy#5",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🚩CF|🔓VLESS|@mtproxy22_v2ray#73",
@@ -308,6 +311,7 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
+                "🚩CF|🔓VLESS|@outlinev2rayng#14",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -1559,6 +1563,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩CF|🔓VLESS|@mowjproxy#5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔XX|🔒VLESS|@mrvpn1403#5",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1802,6 +1822,22 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF|🔓VLESS|@outlinev2rayng#14",
+            "type": "vless",
+            "server": "wonderful-degree.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "6192c1d9-5ae1-40ba-9cbb-cfacc2f8533c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "wonderful-degree.seotoolsforyou.co.uk"
                 }
             }
         },
