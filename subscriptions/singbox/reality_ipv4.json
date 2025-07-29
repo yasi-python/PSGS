@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
@@ -114,8 +115,8 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [21]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [23]",
+                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [20]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [22]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [3]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [4]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [6]",
@@ -208,6 +209,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
@@ -228,8 +230,8 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [21]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [23]",
+                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [20]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [22]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [3]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [4]",
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann2 [6]",
@@ -438,6 +440,29 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "35.88.48.118",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -930,7 +955,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [21]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [20]",
             "type": "vless",
             "server": "194.182.79.216",
             "server_port": 43708,
@@ -957,7 +982,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [23]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [22]",
             "type": "vless",
             "server": "5.75.195.253",
             "server_port": 443,

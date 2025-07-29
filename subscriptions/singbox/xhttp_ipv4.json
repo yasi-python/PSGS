@@ -102,10 +102,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [14]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
+                "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [131]",
@@ -121,7 +121,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [14]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -142,10 +143,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [14]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
+                "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [131]",
@@ -161,7 +162,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [14]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -394,24 +396,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [14]",
             "type": "vless",
             "server": "104.21.62.144",
@@ -453,6 +437,24 @@
             "server": "104.21.62.144",
             "server_port": 443,
             "uuid": "c5c7f099-17fa-40d6-8217-d3f5e44f555f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [18]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "f624d719-b18b-4e9b-8d32-0c987b3348b4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -746,6 +748,24 @@
                     "enabled": true,
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [11]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

@@ -113,20 +113,18 @@
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [12]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [14]",
-                "🇨🇭 CH | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
                 "❔ XX | 🔓 VLESS | @proxy_v2box [4]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
-                "🇨🇭 CH | 🔒 VLESS | @proxygodratmand [6]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [11]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -159,20 +157,18 @@
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [12]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [14]",
-                "🇨🇭 CH | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
                 "❔ XX | 🔓 VLESS | @proxy_v2box [4]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
-                "🇨🇭 CH | 🔒 VLESS | @proxygodratmand [6]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [11]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -500,29 +496,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @mowjproxy [5]",
-            "type": "vless",
-            "server": "dl-04.saitsazs.ir",
-            "server_port": 13110,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @netmellianti [12]",
             "type": "vless",
             "server": "dl.dornagamesco.ir",
@@ -539,52 +512,6 @@
             "uuid": "785e05fc-66e4-4141-8587-72c4ee8ce65e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
-            "type": "vless",
-            "server": "dl-02.saitsazs.ir",
-            "server_port": 13113,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
-            "type": "vless",
-            "server": "meow.postpapet.ir",
-            "server_port": 443,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @proxy_v2box [4]",
@@ -605,7 +532,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @proxygodratmand [6]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
             "server_port": 12107,
@@ -703,6 +630,29 @@
             "uuid": "e018bfab-0902-47a0-abfc-7efbd017ec73",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "meow.postpapet.ir",
+            "server_port": 443,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
