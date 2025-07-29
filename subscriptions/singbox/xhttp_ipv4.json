@@ -93,10 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪DE|🔓VLESS|@configfa#16",
-                "🇩🇪DE|🔓VLESS|@configshubplus#14",
                 "🇩🇪DE|🔒VLESS|@customvpnserver#9",
                 "🇺🇸US|🔓VLESS|@dailytek#11",
-                "🇺🇸US|🔓VLESS|@fastkanfig#11",
+                "🇺🇸US|🔓VLESS|@fastkanfig#10",
                 "🇩🇪DE|🔓VLESS|@freakconfig#16",
                 "🇺🇸US|🔒VLESS|@game_file2020#10",
                 "🇦🇪AE|🔒VLESS|@grizzlyvpn#3",
@@ -107,10 +106,11 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@proxie#12",
+                "🚩CF|🔒VLESS|@mowjproxy#5",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#16",
-                "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#9",
+                "🚩CF|🔒VLESS|@proxie#17",
+                "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#5",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#6",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -138,10 +138,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪DE|🔓VLESS|@configfa#16",
-                "🇩🇪DE|🔓VLESS|@configshubplus#14",
                 "🇩🇪DE|🔒VLESS|@customvpnserver#9",
                 "🇺🇸US|🔓VLESS|@dailytek#11",
-                "🇺🇸US|🔓VLESS|@fastkanfig#11",
+                "🇺🇸US|🔓VLESS|@fastkanfig#10",
                 "🇩🇪DE|🔓VLESS|@freakconfig#16",
                 "🇺🇸US|🔒VLESS|@game_file2020#10",
                 "🇦🇪AE|🔒VLESS|@grizzlyvpn#3",
@@ -152,10 +151,11 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@proxie#12",
+                "🚩CF|🔒VLESS|@mowjproxy#5",
                 "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#16",
-                "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#9",
+                "🚩CF|🔒VLESS|@proxie#17",
+                "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#5",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#6",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -267,15 +267,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪DE|🔓VLESS|@configshubplus#14",
-            "type": "vless",
-            "server": "91.99.181.47",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪DE|🔒VLESS|@customvpnserver#9",
             "type": "vless",
             "server": "91.107.254.202",
@@ -308,7 +299,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸US|🔓VLESS|@fastkanfig#11",
+            "tag": "🇺🇸US|🔓VLESS|@fastkanfig#10",
             "type": "vless",
             "server": "216.22.5.96",
             "server_port": 443,
@@ -486,7 +477,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔒VLESS|@proxie#12",
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#5",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -540,7 +531,25 @@
             }
         },
         {
-            "tag": "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#9",
+            "tag": "🚩CF|🔒VLESS|@proxie#17",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c5c7f099-17fa-40d6-8217-d3f5e44f555f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL|🔓VLESS|@proxy_mtproto_vpns_free#5",
             "type": "vless",
             "server": "45.131.4.147",
             "server_port": 8080,

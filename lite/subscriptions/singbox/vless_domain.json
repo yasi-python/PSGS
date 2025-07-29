@@ -117,6 +117,7 @@
                 "🇺🇸US|🔓VLESS|@eliteproxyv2#10",
                 "❔XX|🔓VLESS|@elitevpnv2#10",
                 "🇩🇪DE|🔓VLESS|@farahvpn#20",
+                "🚩CF|🔓VLESS|@fastkanfig#14",
                 "🇺🇸US|🔓VLESS|@fastshovpn#3",
                 "❔XX|🔒VLESS|@flash_proxies#1",
                 "🇺🇸US|🔓VLESS|@fnet00#7",
@@ -125,7 +126,6 @@
                 "🚩CF|🔒VLESS|@free_vpn_for_all_of_us#20",
                 "❔XX|🔓VLESS|@freedom_config#10",
                 "❔XX|🔒VLESS|@freev2raym#11",
-                "🇸🇬SG|🔓VLESS|@freevirgoolnet#9",
                 "🇳🇱NL|🔓VLESS|@frev2rayng#20",
                 "❔XX|🔒VLESS|@fsv2ray#4",
                 "❔XX|🔒VLESS|@garnet_free#12",
@@ -167,7 +167,7 @@
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
                 "🚩CF|🔒VLESS|@nepo_v2ray#24",
                 "❔XX|🔓VLESS|@next_serverpanel#5",
-                "❔XX|🔓VLESS|@nitroserver_ir#2",
+                "🇱🇹LT|🔓VLESS|@nitroserver_ir#2",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
                 "🇩🇪DE|🔓VLESS|@nofilter_v2rayng#6",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
@@ -251,6 +251,7 @@
                 "🇺🇸US|🔓VLESS|@eliteproxyv2#10",
                 "❔XX|🔓VLESS|@elitevpnv2#10",
                 "🇩🇪DE|🔓VLESS|@farahvpn#20",
+                "🚩CF|🔓VLESS|@fastkanfig#14",
                 "🇺🇸US|🔓VLESS|@fastshovpn#3",
                 "❔XX|🔒VLESS|@flash_proxies#1",
                 "🇺🇸US|🔓VLESS|@fnet00#7",
@@ -259,7 +260,6 @@
                 "🚩CF|🔒VLESS|@free_vpn_for_all_of_us#20",
                 "❔XX|🔓VLESS|@freedom_config#10",
                 "❔XX|🔒VLESS|@freev2raym#11",
-                "🇸🇬SG|🔓VLESS|@freevirgoolnet#9",
                 "🇳🇱NL|🔓VLESS|@frev2rayng#20",
                 "❔XX|🔒VLESS|@fsv2ray#4",
                 "❔XX|🔒VLESS|@garnet_free#12",
@@ -301,7 +301,7 @@
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
                 "🚩CF|🔒VLESS|@nepo_v2ray#24",
                 "❔XX|🔓VLESS|@next_serverpanel#5",
-                "❔XX|🔓VLESS|@nitroserver_ir#2",
+                "🇱🇹LT|🔓VLESS|@nitroserver_ir#2",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
                 "🇩🇪DE|🔓VLESS|@nofilter_v2rayng#6",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
@@ -799,6 +799,22 @@
             }
         },
         {
+            "tag": "🚩CF|🔓VLESS|@fastkanfig#14",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "d626ea85-ab8b-410f-9d9b-6cc3a03a7c28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US|🔓VLESS|@fastshovpn#3",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
@@ -934,15 +950,6 @@
                 "type": "grpc",
                 "service_name": "sourceforge.net"
             }
-        },
-        {
-            "tag": "🇸🇬SG|🔓VLESS|@freevirgoolnet#9",
-            "type": "vless",
-            "server": "catherinede.hpcdn.info",
-            "server_port": 80,
-            "uuid": "fd9eb6e9-bc83-4ff3-afb5-f923600e65f6",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇳🇱NL|🔓VLESS|@frev2rayng#20",
@@ -1674,7 +1681,7 @@
             }
         },
         {
-            "tag": "❔XX|🔓VLESS|@nitroserver_ir#2",
+            "tag": "🇱🇹LT|🔓VLESS|@nitroserver_ir#2",
             "type": "vless",
             "server": "vip.pingkiller.online",
             "server_port": 80,
@@ -2420,18 +2427,11 @@
         {
             "tag": "🚩CF|🔓VLESS|@vpnaloo#16",
             "type": "vless",
-            "server": "kafshu.ir",
-            "server_port": 8080,
-            "uuid": "48137ea2-8cfd-4726-9ff2-d6e8bd09454a",
+            "server": "ip.hostingcloud.reallyclody.ir",
+            "server_port": 2052,
+            "uuid": "4319b62e-38d0-4439-8891-2ea6265ed30e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec",
-                "headers": {
-                    "Host": "kafshu.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔XX|🔒VLESS|@vpncostume#9",

@@ -94,9 +94,9 @@
                 "KingRezaPahlavi",
                 "🇮🇪IE|🔒VLESS|@appsooner#9",
                 "🇫🇮FI|🔒VLESS|@appsooner#11",
-                "🇩🇪DE|🔒VLESS|@config_proxy#50",
                 "🇩🇪DE|🔒VLESS|@configasli#5",
                 "🇫🇷FR|🔒VLESS|@configasli#7",
+                "🇺🇸US|🔒VLESS|@configshubplus#19",
                 "🇩🇪DE|🔒VLESS|@customvpnserver#9",
                 "🇩🇪DE|🔒VLESS|@dalton_ping#3",
                 "🇮🇷IR|🔒VLESS|@dargiiriis#1",
@@ -141,10 +141,10 @@
                 "🇬🇧GB|🔒VLESS|@jokerv2ray#16",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
                 "🇩🇪DE|🔒VLESS|@kesslervpn#1",
-                "🇩🇪DE|🔒VLESS|@kingofilter#6",
+                "🇩🇪DE|🔒VLESS|@kingofilter#5",
+                "🇫🇮FI|🔒VLESS|@kingofilter#7",
                 "🇫🇮FI|🔒VLESS|@kingofilter#8",
-                "🇫🇮FI|🔒VLESS|@kingofilter#9",
-                "🇩🇪DE|🔒VLESS|@kingofilter#10",
+                "🇩🇪DE|🔒VLESS|@kingofilter#9",
                 "🇺🇸US|🔒VLESS|@kkkkkoabvbbvbvv#11",
                 "🇩🇪DE|🔒VLESS|@mahan_ping#9",
                 "🇫🇷FR|🔒VLESS|@manstervpn#72",
@@ -185,8 +185,8 @@
                 "🇷🇺RU|🔒VLESS|@vipnetmeli#2",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
-                "🇭🇺HU|🔒VLESS|@vistav2ray#18",
-                "🇩🇪DE|🔒VLESS|@vmess_ir#16",
+                "🇭🇺HU|🔒VLESS|@vistav2ray#15",
+                "🇩🇪DE|🔒VLESS|@vmess_ir#15",
                 "🇩🇪DE|🔒VLESS|@vmessorg#20",
                 "🇳🇱NL|🔒VLESS|@vpn451#15",
                 "🇫🇮FI|🔒VLESS|@vpn_ocean#1",
@@ -211,9 +211,9 @@
                 "KingRezaPahlavi",
                 "🇮🇪IE|🔒VLESS|@appsooner#9",
                 "🇫🇮FI|🔒VLESS|@appsooner#11",
-                "🇩🇪DE|🔒VLESS|@config_proxy#50",
                 "🇩🇪DE|🔒VLESS|@configasli#5",
                 "🇫🇷FR|🔒VLESS|@configasli#7",
+                "🇺🇸US|🔒VLESS|@configshubplus#19",
                 "🇩🇪DE|🔒VLESS|@customvpnserver#9",
                 "🇩🇪DE|🔒VLESS|@dalton_ping#3",
                 "🇮🇷IR|🔒VLESS|@dargiiriis#1",
@@ -258,10 +258,10 @@
                 "🇬🇧GB|🔒VLESS|@jokerv2ray#16",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
                 "🇩🇪DE|🔒VLESS|@kesslervpn#1",
-                "🇩🇪DE|🔒VLESS|@kingofilter#6",
+                "🇩🇪DE|🔒VLESS|@kingofilter#5",
+                "🇫🇮FI|🔒VLESS|@kingofilter#7",
                 "🇫🇮FI|🔒VLESS|@kingofilter#8",
-                "🇫🇮FI|🔒VLESS|@kingofilter#9",
-                "🇩🇪DE|🔒VLESS|@kingofilter#10",
+                "🇩🇪DE|🔒VLESS|@kingofilter#9",
                 "🇺🇸US|🔒VLESS|@kkkkkoabvbbvbvv#11",
                 "🇩🇪DE|🔒VLESS|@mahan_ping#9",
                 "🇫🇷FR|🔒VLESS|@manstervpn#72",
@@ -302,8 +302,8 @@
                 "🇷🇺RU|🔒VLESS|@vipnetmeli#2",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
-                "🇭🇺HU|🔒VLESS|@vistav2ray#18",
-                "🇩🇪DE|🔒VLESS|@vmess_ir#16",
+                "🇭🇺HU|🔒VLESS|@vistav2ray#15",
+                "🇩🇪DE|🔒VLESS|@vmess_ir#15",
                 "🇩🇪DE|🔒VLESS|@vmessorg#20",
                 "🇳🇱NL|🔒VLESS|@vpn451#15",
                 "🇫🇮FI|🔒VLESS|@vpn_ocean#1",
@@ -448,33 +448,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@config_proxy#50",
-            "type": "vless",
-            "server": "91.107.170.231",
-            "server_port": 24070,
-            "uuid": "709d1512-da43-487c-889d-50b84fa46e6c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk",
-                    "short_id": "93"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
             "tag": "🇩🇪DE|🔒VLESS|@configasli#5",
             "type": "vless",
             "server": "91.107.183.90",
@@ -521,6 +494,29 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔒VLESS|@configshubplus#19",
+            "type": "vless",
+            "server": "3.139.91.10",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
             }
         },
@@ -1621,7 +1617,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@kingofilter#6",
+            "tag": "🇩🇪DE|🔒VLESS|@kingofilter#5",
             "type": "vless",
             "server": "91.99.234.212",
             "server_port": 8443,
@@ -1644,7 +1640,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI|🔒VLESS|@kingofilter#8",
+            "tag": "🇫🇮FI|🔒VLESS|@kingofilter#7",
             "type": "vless",
             "server": "46.62.160.130",
             "server_port": 8443,
@@ -1667,7 +1663,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI|🔒VLESS|@kingofilter#9",
+            "tag": "🇫🇮FI|🔒VLESS|@kingofilter#8",
             "type": "vless",
             "server": "46.62.160.130",
             "server_port": 8443,
@@ -1690,7 +1686,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@kingofilter#10",
+            "tag": "🇩🇪DE|🔒VLESS|@kingofilter#9",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
@@ -2711,7 +2707,7 @@
             }
         },
         {
-            "tag": "🇭🇺HU|🔒VLESS|@vistav2ray#18",
+            "tag": "🇭🇺HU|🔒VLESS|@vistav2ray#15",
             "type": "vless",
             "server": "5.182.38.91",
             "server_port": 17267,
@@ -2734,7 +2730,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@vmess_ir#16",
+            "tag": "🇩🇪DE|🔒VLESS|@vmess_ir#15",
             "type": "vless",
             "server": "5.231.29.29",
             "server_port": 443,
