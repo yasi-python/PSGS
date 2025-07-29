@@ -97,6 +97,7 @@
                 "❔XX|🔓VMESS|@configforvpn$10",
                 "🇫🇷FR|🔒VMESS|@configsstore$8",
                 "🚩CF|🔒VMESS|@darkfiilter$2",
+                "🇱🇻LV|🔓VMESS|@farahvpn$20",
                 "🇨🇦CA|🔓VMESS|@free4allvpn$15",
                 "🇫🇮FI|🔓VMESS|@freeshadowsock$5",
                 "🚩CF|🔓VMESS|@freev2rays$20",
@@ -113,7 +114,6 @@
                 "🇫🇷FR|🔒VMESS|@mahsaproxy$4",
                 "🇨🇳CN|🔓VMESS|@mftizi$20",
                 "🚩CF|🔒VMESS|@mi_pn_official$3",
-                "🇱🇻LV|🔓VMESS|@mowjproxy$6",
                 "❔XX|🔓VMESS|@net_azad_1$13",
                 "🇮🇷IR|🔓VMESS|@pro_chaneel$2",
                 "❔XX|🔒VMESS|@prooxyk$5",
@@ -129,7 +129,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll$6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig$13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn$19",
-                "🇺🇸US|🔓VMESS|@vpnfail_v2ray$19",
+                "🇩🇪DE|🔓VMESS|@vpnfail_v2ray$19",
                 "🇺🇸US|🔓VMESS|@vpngate_config$19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline$11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin$4",
@@ -149,6 +149,7 @@
                 "❔XX|🔓VMESS|@configforvpn$10",
                 "🇫🇷FR|🔒VMESS|@configsstore$8",
                 "🚩CF|🔒VMESS|@darkfiilter$2",
+                "🇱🇻LV|🔓VMESS|@farahvpn$20",
                 "🇨🇦CA|🔓VMESS|@free4allvpn$15",
                 "🇫🇮FI|🔓VMESS|@freeshadowsock$5",
                 "🚩CF|🔓VMESS|@freev2rays$20",
@@ -165,7 +166,6 @@
                 "🇫🇷FR|🔒VMESS|@mahsaproxy$4",
                 "🇨🇳CN|🔓VMESS|@mftizi$20",
                 "🚩CF|🔒VMESS|@mi_pn_official$3",
-                "🇱🇻LV|🔓VMESS|@mowjproxy$6",
                 "❔XX|🔓VMESS|@net_azad_1$13",
                 "🇮🇷IR|🔓VMESS|@pro_chaneel$2",
                 "❔XX|🔒VMESS|@prooxyk$5",
@@ -181,7 +181,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll$6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig$13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn$19",
-                "🇺🇸US|🔓VMESS|@vpnfail_v2ray$19",
+                "🇩🇪DE|🔓VMESS|@vpnfail_v2ray$19",
                 "🇺🇸US|🔓VMESS|@vpngate_config$19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline$11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin$4",
@@ -359,6 +359,22 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻LV|🔓VMESS|@farahvpn$20",
+            "type": "vmess",
+            "server": "216.173.69.250",
+            "server_port": 8443,
+            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -608,22 +624,6 @@
             }
         },
         {
-            "tag": "🇱🇻LV|🔓VMESS|@mowjproxy$6",
-            "type": "vmess",
-            "server": "216.173.69.250",
-            "server_port": 8443,
-            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX|🔓VMESS|@net_azad_1$13",
             "type": "vmess",
             "server": "adsl.stylebender209.ir",
@@ -846,29 +846,13 @@
             }
         },
         {
-            "tag": "🇺🇸US|🔓VMESS|@vpnfail_v2ray$19",
+            "tag": "🇩🇪DE|🔓VMESS|@vpnfail_v2ray$19",
             "type": "vmess",
-            "server": "vc.fly.dev",
-            "server_port": 443,
-            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+            "server": "135.125.182.74",
+            "server_port": 28213,
+            "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
             "security": "auto",
-            "alter_id": 32,
-            "tls": {
-                "enabled": true,
-                "server_name": "vc.fly.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vc",
-                "headers": {
-                    "Host": "vc.fly.dev"
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇺🇸US|🔓VMESS|@vpngate_config$19",

@@ -118,6 +118,7 @@
                 "❔XX|🔒VLESS|@itv2ray$30",
                 "🇩🇪DE|🔒VLESS|@kesslervpn$3",
                 "🇩🇪DE|🔒VLESS|@lexernet$12",
+                "🇩🇪DE|🔒VLESS|@mowjproxy$6",
                 "❔XX|🔒VLESS|@mt_team_iran$5",
                 "🇳🇱NL|🔒VLESS|@nn_vpn$4",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
@@ -164,6 +165,7 @@
                 "❔XX|🔒VLESS|@itv2ray$30",
                 "🇩🇪DE|🔒VLESS|@kesslervpn$3",
                 "🇩🇪DE|🔒VLESS|@lexernet$12",
+                "🇩🇪DE|🔒VLESS|@mowjproxy$6",
                 "❔XX|🔒VLESS|@mt_team_iran$5",
                 "🇳🇱NL|🔒VLESS|@nn_vpn$4",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
@@ -895,6 +897,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇩🇪DE|🔒VLESS|@mowjproxy$6",
+            "type": "vless",
+            "server": "ecohopetamiz2.ivy-net.ir",
+            "server_port": 1616,
+            "uuid": "b47cb428-097a-4987-b195-c9d983253be2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BySjBybAQUJzCP66kzVrN5fRYorgUGnY4TuCO8mRFjA",
+                    "short_id": "150210e2e45b002e"
+                }
             }
         },
         {
