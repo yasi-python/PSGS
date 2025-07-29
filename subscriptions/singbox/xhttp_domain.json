@@ -94,6 +94,10 @@
                 "KingRezaPahlavi",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "🇺🇸US|🔓VLESS|@configscenter#3",
+                "🇨🇭CH|🔒VLESS|@configshubplus#3",
+                "🇩🇪DE|🔒VLESS|@configshubplus#4",
+                "🇨🇭CH|🔒VLESS|@configshubplus#5",
+                "🇨🇭CH|🔒VLESS|@configshubplus#6",
                 "🇺🇸US|🔓VLESS|@dailytek#10",
                 "🇺🇸US|🔓VLESS|@dailytek#13",
                 "🇺🇸US|🔓VLESS|@dailytek#14",
@@ -113,6 +117,7 @@
                 "🇩🇪DE|🔓VLESS|@iseqaro#1",
                 "🚩CF|🔓VLESS|@proxy_v2box#4",
                 "🇩🇪DE|🔓VLESS|@proxycrone#15",
+                "🇨🇭CH|🔒VLESS|@proxygodratmand#6",
                 "🇩🇪DE|🔒VLESS|@proxystore11#11",
                 "🇺🇸US|🔓VLESS|@turboo_server#7",
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
@@ -133,6 +138,10 @@
                 "KingRezaPahlavi",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "🇺🇸US|🔓VLESS|@configscenter#3",
+                "🇨🇭CH|🔒VLESS|@configshubplus#3",
+                "🇩🇪DE|🔒VLESS|@configshubplus#4",
+                "🇨🇭CH|🔒VLESS|@configshubplus#5",
+                "🇨🇭CH|🔒VLESS|@configshubplus#6",
                 "🇺🇸US|🔓VLESS|@dailytek#10",
                 "🇺🇸US|🔓VLESS|@dailytek#13",
                 "🇺🇸US|🔓VLESS|@dailytek#14",
@@ -152,6 +161,7 @@
                 "🇩🇪DE|🔓VLESS|@iseqaro#1",
                 "🚩CF|🔓VLESS|@proxy_v2box#4",
                 "🇩🇪DE|🔓VLESS|@proxycrone#15",
+                "🇨🇭CH|🔒VLESS|@proxygodratmand#6",
                 "🇩🇪DE|🔒VLESS|@proxystore11#11",
                 "🇺🇸US|🔓VLESS|@turboo_server#7",
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
@@ -276,6 +286,98 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭CH|🔒VLESS|@configshubplus#3",
+            "type": "vless",
+            "server": "dl-13.saitsazs.ir",
+            "server_port": 12106,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE|🔒VLESS|@configshubplus#4",
+            "type": "vless",
+            "server": "dl-15.saitsazs.ir",
+            "server_port": 12102,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭CH|🔒VLESS|@configshubplus#5",
+            "type": "vless",
+            "server": "dl-02.saitsazs.ir",
+            "server_port": 12103,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭CH|🔒VLESS|@configshubplus#6",
+            "type": "vless",
+            "server": "dl-02.saitsazs.ir",
+            "server_port": 12105,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇺🇸US|🔓VLESS|@dailytek#10",
@@ -470,6 +572,29 @@
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭CH|🔒VLESS|@proxygodratmand#6",
+            "type": "vless",
+            "server": "dl-04.saitsazs.ir",
+            "server_port": 12107,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE|🔒VLESS|@proxystore11#11",

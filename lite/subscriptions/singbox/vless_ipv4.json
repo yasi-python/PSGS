@@ -121,7 +121,7 @@
                 "🇮🇷IR|🔓VLESS|@hoshmasnoiyfarsi#14",
                 "🇩🇪DE|🔒VLESS|@icv2ray#18",
                 "🚩CF|🔓VLESS|@imhdiyvp#10",
-                "🇺🇸US|🔓VLESS|@ip_cf_config#13",
+                "🇮🇷IR|🔓VLESS|@ip_cf_config#14",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn#1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
@@ -146,7 +146,6 @@
                 "🚩CF|🔒VLESS|@netspeedservice#5",
                 "🚩CF|🔒VLESS|@new_proxy_channel#9",
                 "🚩CF|🔓VLESS|@nitrovpne#2",
-                "🇮🇷IR|🔓VLESS|@norbertpro_vpn#1",
                 "🚩CF|🔒VLESS|@ntconfig#1",
                 "🇮🇷IR|🔓VLESS|@orgempirenet#2",
                 "🇩🇪DE|🔓VLESS|@outlinev2rayng#14",
@@ -177,7 +176,6 @@
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
                 "🇫🇷FR|🔒VLESS|@vlessconfig#18",
-                "🚩CF|🔒VLESS|@vmess_ir#19",
                 "🚩CF|🔓VLESS|@vpn_bal0uch#4",
                 "🚩CF|🔒VLESS|@vpn_ocean#2",
                 "🚩CF|🔓VLESS|@vpn_zvpn#14",
@@ -225,7 +223,7 @@
                 "🇮🇷IR|🔓VLESS|@hoshmasnoiyfarsi#14",
                 "🇩🇪DE|🔒VLESS|@icv2ray#18",
                 "🚩CF|🔓VLESS|@imhdiyvp#10",
-                "🇺🇸US|🔓VLESS|@ip_cf_config#13",
+                "🇮🇷IR|🔓VLESS|@ip_cf_config#14",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn#1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
@@ -250,7 +248,6 @@
                 "🚩CF|🔒VLESS|@netspeedservice#5",
                 "🚩CF|🔒VLESS|@new_proxy_channel#9",
                 "🚩CF|🔓VLESS|@nitrovpne#2",
-                "🇮🇷IR|🔓VLESS|@norbertpro_vpn#1",
                 "🚩CF|🔒VLESS|@ntconfig#1",
                 "🇮🇷IR|🔓VLESS|@orgempirenet#2",
                 "🇩🇪DE|🔓VLESS|@outlinev2rayng#14",
@@ -281,7 +278,6 @@
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
                 "🇫🇷FR|🔒VLESS|@vlessconfig#18",
-                "🚩CF|🔒VLESS|@vmess_ir#19",
                 "🚩CF|🔓VLESS|@vpn_bal0uch#4",
                 "🚩CF|🔒VLESS|@vpn_ocean#2",
                 "🚩CF|🔓VLESS|@vpn_zvpn#14",
@@ -888,20 +884,13 @@
             }
         },
         {
-            "tag": "🇺🇸US|🔓VLESS|@ip_cf_config#13",
+            "tag": "🇮🇷IR|🔓VLESS|@ip_cf_config#14",
             "type": "vless",
-            "server": "162.120.94.251",
-            "server_port": 8880,
-            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "server": "46.245.66.198",
+            "server_port": 1232,
+            "uuid": "--------NORBERT-VPN--------",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "Telegram-channel-WangCai2"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
@@ -1310,15 +1299,6 @@
                     "Host": "104.18.203.232"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷IR|🔓VLESS|@norbertpro_vpn#1",
-            "type": "vless",
-            "server": "46.245.66.198",
-            "server_port": 1232,
-            "uuid": "--------NORBERT-VPN--------",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩CF|🔒VLESS|@ntconfig#1",
@@ -1870,31 +1850,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@vmess_ir#19",
-            "type": "vless",
-            "server": "104.18.36.24",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm---proxy_mtm?ed=2560",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
             }
         },
