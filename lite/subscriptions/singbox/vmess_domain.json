@@ -101,7 +101,7 @@
                 "🇫🇮FI|🔓VMESS|@freeshadowsock$5",
                 "🚩CF|🔓VMESS|@freev2rays$20",
                 "🇩🇪DE|🔓VMESS|@freevmess$5",
-                "🚩CF|🔓VMESS|@freevpnatm$16",
+                "🚩CF|🔓VMESS|@freevpnatm$15",
                 "🇫🇷FR|🔓VMESS|@ir_netproxy$14",
                 "🚩CF|🔓VMESS|@iran_mehr_vpn$18",
                 "🚩CF|🔒VMESS|@iranvpnet$1",
@@ -113,6 +113,7 @@
                 "🇫🇷FR|🔒VMESS|@mahsaproxy$4",
                 "🇨🇳CN|🔓VMESS|@mftizi$20",
                 "🚩CF|🔒VMESS|@mi_pn_official$3",
+                "🇱🇻LV|🔓VMESS|@mowjproxy$6",
                 "❔XX|🔓VMESS|@net_azad_1$13",
                 "🇮🇷IR|🔓VMESS|@pro_chaneel$2",
                 "❔XX|🔒VMESS|@prooxyk$5",
@@ -152,7 +153,7 @@
                 "🇫🇮FI|🔓VMESS|@freeshadowsock$5",
                 "🚩CF|🔓VMESS|@freev2rays$20",
                 "🇩🇪DE|🔓VMESS|@freevmess$5",
-                "🚩CF|🔓VMESS|@freevpnatm$16",
+                "🚩CF|🔓VMESS|@freevpnatm$15",
                 "🇫🇷FR|🔓VMESS|@ir_netproxy$14",
                 "🚩CF|🔓VMESS|@iran_mehr_vpn$18",
                 "🚩CF|🔒VMESS|@iranvpnet$1",
@@ -164,6 +165,7 @@
                 "🇫🇷FR|🔒VMESS|@mahsaproxy$4",
                 "🇨🇳CN|🔓VMESS|@mftizi$20",
                 "🚩CF|🔒VMESS|@mi_pn_official$3",
+                "🇱🇻LV|🔓VMESS|@mowjproxy$6",
                 "❔XX|🔓VMESS|@net_azad_1$13",
                 "🇮🇷IR|🔓VMESS|@pro_chaneel$2",
                 "❔XX|🔒VMESS|@prooxyk$5",
@@ -434,7 +436,7 @@
             }
         },
         {
-            "tag": "🚩CF|🔓VMESS|@freevpnatm$16",
+            "tag": "🚩CF|🔓VMESS|@freevpnatm$15",
             "type": "vmess",
             "server": "104.21.10.97",
             "server_port": 80,
@@ -602,6 +604,22 @@
                 "path": "/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻LV|🔓VMESS|@mowjproxy$6",
+            "type": "vmess",
+            "server": "216.173.69.250",
+            "server_port": 8443,
+            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

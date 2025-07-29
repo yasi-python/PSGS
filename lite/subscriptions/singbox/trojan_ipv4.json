@@ -92,12 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷FR|🔒TROJAN|@directvpn$18",
+                "🇩🇪DE|🔒TROJAN|@directvpn$16",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config$13",
                 "🇸🇬SG|🔒TROJAN|@mpmehi$1",
-                "🇫🇷FR|🔒TROJAN|@privatevpns$18",
-                "🇫🇷FR|🔒TROJAN|@proxyfn$19",
+                "🇩🇪DE|🔒TROJAN|@privatevpns$16",
                 "🇺🇸US|🔒TROJAN|@v2rayngconfig$46",
-                "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel$16"
+                "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,12 +108,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷FR|🔒TROJAN|@directvpn$18",
+                "🇩🇪DE|🔒TROJAN|@directvpn$16",
+                "🇫🇷FR|🔒TROJAN|@ip_cf_config$13",
                 "🇸🇬SG|🔒TROJAN|@mpmehi$1",
-                "🇫🇷FR|🔒TROJAN|@privatevpns$18",
-                "🇫🇷FR|🔒TROJAN|@proxyfn$19",
+                "🇩🇪DE|🔒TROJAN|@privatevpns$16",
                 "🇺🇸US|🔒TROJAN|@v2rayngconfig$46",
-                "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel$16"
+                "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -200,14 +200,30 @@
             }
         },
         {
-            "tag": "🇫🇷FR|🔒TROJAN|@directvpn$18",
+            "tag": "🇩🇪DE|🔒TROJAN|@directvpn$16",
             "type": "trojan",
-            "server": "13.37.134.157",
+            "server": "18.153.144.90",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR|🔒TROJAN|@ip_cf_config$13",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -239,30 +255,14 @@
             }
         },
         {
-            "tag": "🇫🇷FR|🔒TROJAN|@privatevpns$18",
+            "tag": "🇩🇪DE|🔒TROJAN|@privatevpns$16",
             "type": "trojan",
-            "server": "13.37.134.157",
+            "server": "18.153.144.90",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR|🔒TROJAN|@proxyfn$19",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -287,9 +287,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel$16",
+            "tag": "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel$15",
             "type": "trojan",
-            "server": "13.37.134.157",
+            "server": "18.153.144.90",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
