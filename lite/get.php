@@ -167,7 +167,7 @@ foreach ($configsList as $source => $configs) {
             $source,                        // Source channel name
             ($key + $key_offset) + 1        // 1-based index for user-friendliness
         );
-        $decodedConfig[$nameField] = urlencode($newName);
+        $decodedConfig[$nameField] = $newName;
         
         $encodedConfig = reparseConfig($decodedConfig, $type);
         if ($encodedConfig === null) continue;
