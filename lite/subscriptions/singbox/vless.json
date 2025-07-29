@@ -137,6 +137,7 @@
                 "🇩🇪DE|🔒VLESS|@merdesert#4",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
+                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@mpproxy#14",
                 "🚩CF|🔓VLESS|@mr_vpn123#8",
                 "🇳🇱NL|🔓VLESS|@msv2flyng#10",
@@ -313,6 +314,7 @@
                 "❔XX|🔓VLESS|@womanlifefreedomvpn#17",
                 "🇮🇷IR|🔓VLESS|@xnxv2ray#15",
                 "❔XX|🔒VLESS|@xrayzxn#7",
+                "❔XX|🔓VLESS|@freevpnatm#17",
                 "❔XX|🔓VLESS|@freevv2rayng#11",
                 "❔XX|🔓VLESS|@internet_nor#3",
                 "❔XX|🔓VLESS|@v2ryngfree#11",
@@ -372,6 +374,7 @@
                 "🇩🇪DE|🔒VLESS|@merdesert#4",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
+                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@mpproxy#14",
                 "🚩CF|🔓VLESS|@mr_vpn123#8",
                 "🇳🇱NL|🔓VLESS|@msv2flyng#10",
@@ -548,6 +551,7 @@
                 "❔XX|🔓VLESS|@womanlifefreedomvpn#17",
                 "🇮🇷IR|🔓VLESS|@xnxv2ray#15",
                 "❔XX|🔒VLESS|@xrayzxn#7",
+                "❔XX|🔓VLESS|@freevpnatm#17",
                 "❔XX|🔓VLESS|@freevv2rayng#11",
                 "❔XX|🔓VLESS|@internet_nor#3",
                 "❔XX|🔓VLESS|@v2ryngfree#11",
@@ -1436,6 +1440,24 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#3",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸US|🔓VLESS|@mpproxy#14",
@@ -4503,6 +4525,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "EJUVVd6sh0f9J6drcXIcStL"
+            }
+        },
+        {
+            "tag": "❔XX|🔓VLESS|@freevpnatm#17",
+            "type": "vless",
+            "server": "[2606:4700:3030::ac43:dff3]",
+            "server_port": 443,
+            "uuid": "7248e825-887c-48b9-83bc-c26bc6392bf8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3030::ac43:dff3]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3030::ac43:dff3]"
+                }
             }
         },
         {

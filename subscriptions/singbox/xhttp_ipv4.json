@@ -107,10 +107,9 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
+                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
-                "🚩CF|🔒VLESS|@proxie#13",
-                "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
@@ -154,10 +153,9 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
+                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
-                "🚩CF|🔒VLESS|@proxie#13",
-                "🚩CF|🔒VLESS|@proxie#14",
                 "🚩CF|🔒VLESS|@proxie#15",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
@@ -504,6 +502,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#3",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US|🔓VLESS|@nofiltering2#21",
             "type": "vless",
             "server": "151.101.67.8",
@@ -514,42 +530,6 @@
         },
         {
             "tag": "🚩CF|🔒VLESS|@proxie#12",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "13b5abce-df4b-4e08-8b38-5fbfa5a5a95a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@proxie#13",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@proxie#14",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -571,7 +551,7 @@
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
-            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
+            "uuid": "b0d51fa0-20e8-447c-832a-c24546a74595",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {

@@ -95,7 +95,7 @@
                 "❔XX|🔒TROJAN|@armodchannel#60",
                 "❔XX|🔓TROJAN|@armodchannel#61",
                 "❔XX|🔒TROJAN|@fati_ffx#2",
-                "❔XX|🔓TROJAN|@ip_cf_config#15",
+                "🚩CF|🔒TROJAN|@ip_cf_config#12",
                 "❔XX|🔒TROJAN|@iraniv2ray#4",
                 "❔XX|🔒TROJAN|@maradona_vpn#5",
                 "❔XX|🔒TROJAN|@maradona_vpn#7",
@@ -111,8 +111,9 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn#15",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
                 "🇩🇪DE|🔓TROJAN|@freev2raym#8",
-                "🇭🇰HK|🔓TROJAN|@ip_cf_config#16",
-                "🇺🇸US|🔒TROJAN|@ip_cf_config#17",
+                "🚩CF|🔒TROJAN|@hope_net#19",
+                "🇷🇺RU|🔒TROJAN|@ip_cf_config#13",
+                "🇺🇸US|🔒TROJAN|@ip_cf_config#16",
                 "🇫🇷FR|🔒TROJAN|@jiedianf#5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy#7",
@@ -127,6 +128,7 @@
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig#43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig#44",
                 "🇫🇷FR|🔒TROJAN|@v2rayngconfig#45",
+                "🇺🇸US|🔒TROJAN|@v2rayngconfig#46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel#11",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel#12",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel#13",
@@ -145,7 +147,7 @@
                 "❔XX|🔒TROJAN|@armodchannel#60",
                 "❔XX|🔓TROJAN|@armodchannel#61",
                 "❔XX|🔒TROJAN|@fati_ffx#2",
-                "❔XX|🔓TROJAN|@ip_cf_config#15",
+                "🚩CF|🔒TROJAN|@ip_cf_config#12",
                 "❔XX|🔒TROJAN|@iraniv2ray#4",
                 "❔XX|🔒TROJAN|@maradona_vpn#5",
                 "❔XX|🔒TROJAN|@maradona_vpn#7",
@@ -161,8 +163,9 @@
                 "🇫🇷FR|🔒TROJAN|@directvpn#15",
                 "🇫🇷FR|🔒TROJAN|@directvpn#16",
                 "🇩🇪DE|🔓TROJAN|@freev2raym#8",
-                "🇭🇰HK|🔓TROJAN|@ip_cf_config#16",
-                "🇺🇸US|🔒TROJAN|@ip_cf_config#17",
+                "🚩CF|🔒TROJAN|@hope_net#19",
+                "🇷🇺RU|🔒TROJAN|@ip_cf_config#13",
+                "🇺🇸US|🔒TROJAN|@ip_cf_config#16",
                 "🇫🇷FR|🔒TROJAN|@jiedianf#5",
                 "🇸🇬SG|🔒TROJAN|@mpmehi#1",
                 "🇩🇪DE|🔒TROJAN|@mt_proxy#7",
@@ -177,6 +180,7 @@
                 "🇩🇪DE|🔒TROJAN|@v2rayngconfig#43",
                 "🇨🇦CA|🔒TROJAN|@v2rayngconfig#44",
                 "🇫🇷FR|🔒TROJAN|@v2rayngconfig#45",
+                "🇺🇸US|🔒TROJAN|@v2rayngconfig#46",
                 "🇫🇷FR|🔒TROJAN|@v2rayvpnchannel#11",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel#12",
                 "🇩🇪DE|🔒TROJAN|@v2rayvpnchannel#13",
@@ -321,11 +325,27 @@
             }
         },
         {
-            "tag": "❔XX|🔓TROJAN|@ip_cf_config#15",
+            "tag": "🚩CF|🔒TROJAN|@ip_cf_config#12",
             "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
+                }
+            }
         },
         {
             "tag": "❔XX|🔒TROJAN|@iraniv2ray#4",
@@ -602,21 +622,53 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇭🇰HK|🔓TROJAN|@ip_cf_config#16",
+            "tag": "🚩CF|🔒TROJAN|@hope_net#19",
             "type": "trojan",
-            "server": "155.117.228.70",
-            "server_port": 26193,
-            "password": "7367d04e-4c59-4dff-a50e-12e730a09891"
-        },
-        {
-            "tag": "🇺🇸US|🔒TROJAN|@ip_cf_config#17",
-            "type": "trojan",
-            "server": "104.149.155.13",
+            "server": "104.21.29.75",
             "server_port": 443,
-            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
+            "password": "891d999f-7864-45c5-8db9-3c69f35dcb96",
             "tls": {
                 "enabled": true,
-                "server_name": "vzwzasc.cn",
+                "server_name": "uciranir-uciranir-uciranir-uciranir-uciranir-uiranir-uciranir4.bopidi6268.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2047",
+                "headers": {
+                    "Host": "uciranir-uciranir-uciranir-uciranir-uciranir-uiranir-uciranir4.bopidi6268.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU|🔒TROJAN|@ip_cf_config#13",
+            "type": "trojan",
+            "server": "176.32.39.29",
+            "server_port": 443,
+            "password": "8OXD5VVt8s",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔒TROJAN|@ip_cf_config#16",
+            "type": "trojan",
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc6.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -862,6 +914,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔒TROJAN|@v2rayngconfig#46",
+            "type": "trojan",
+            "server": "104.149.155.13",
+            "server_port": 443,
+            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
+            "tls": {
+                "enabled": true,
+                "server_name": "vzwzasc.cn",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
