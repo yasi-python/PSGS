@@ -97,6 +97,7 @@
                 "🇨🇭CH|🔓VLESS|@minovpnch$15",
                 "🇺🇸US|🔓VLESS|@moiinmk$3",
                 "🇺🇸US|🔒VLESS|@proxygrizzly$1",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
                 "🇺🇸US|🔓VLESS|@qeshmserver$13",
                 "🇺🇸US|🔓VLESS|@configscenter$3",
                 "🇺🇸US|🔓VLESS|@dailytek$14",
@@ -105,7 +106,7 @@
                 "🇺🇸US|🔓VLESS|@evay_vpn$17",
                 "🇺🇸US|🔓VLESS|@fastshovpn$3",
                 "🇺🇸US|🔓VLESS|@fnet00$7",
-                "🇨🇭CH|🔒VLESS|@mowjproxy$6",
+                "🇨🇭CH|🔒VLESS|@mowjproxy$8",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes$17"
             ],
@@ -123,6 +124,7 @@
                 "🇨🇭CH|🔓VLESS|@minovpnch$15",
                 "🇺🇸US|🔓VLESS|@moiinmk$3",
                 "🇺🇸US|🔒VLESS|@proxygrizzly$1",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
                 "🇺🇸US|🔓VLESS|@qeshmserver$13",
                 "🇺🇸US|🔓VLESS|@configscenter$3",
                 "🇺🇸US|🔓VLESS|@dailytek$14",
@@ -131,7 +133,7 @@
                 "🇺🇸US|🔓VLESS|@evay_vpn$17",
                 "🇺🇸US|🔓VLESS|@fastshovpn$3",
                 "🇺🇸US|🔓VLESS|@fnet00$7",
-                "🇨🇭CH|🔒VLESS|@mowjproxy$6",
+                "🇨🇭CH|🔒VLESS|@mowjproxy$8",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes$17"
             ],
@@ -307,6 +309,29 @@
             }
         },
         {
+            "tag": "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
+            "type": "vless",
+            "server": "206.71.158.75",
+            "server_port": 465,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "smtp.zoho.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
+                    "short_id": "7f2798f9"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US|🔓VLESS|@qeshmserver$13",
             "type": "vless",
             "server": "151.101.3.8",
@@ -379,7 +404,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭CH|🔒VLESS|@mowjproxy$6",
+            "tag": "🇨🇭CH|🔒VLESS|@mowjproxy$8",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
             "server_port": 13110,

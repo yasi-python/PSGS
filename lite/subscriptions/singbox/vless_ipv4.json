@@ -148,8 +148,9 @@
                 "🚩CF|🔒VLESS|@ntconfig$1",
                 "🇮🇷IR|🔓VLESS|@orgempirenet$2",
                 "🚩CF|🔒VLESS|@outline_ir$18",
+                "🇳🇱NL|🔒VLESS|@outlinev2rayng$15",
                 "🇺🇸US|🔒VLESS|@proxygrizzly$1",
-                "🇫🇮FI|🔒VLESS|@prrofile_purple$124",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
                 "🇮🇷IR|🔓VLESS|@pusyvpn$10",
                 "🇺🇸US|🔓VLESS|@qeshmserver$13",
                 "🇩🇪DE|🔓VLESS|@redfree8$7",
@@ -173,7 +174,7 @@
                 "🇺🇸US|🔓VLESS|@vaslbemmonid$6",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli$3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey$40",
-                "🇩🇪DE|🔒VLESS|@vlessconfig$16",
+                "🇫🇷FR|🔒VLESS|@vlessconfig$16",
                 "🚩CF|🔓VLESS|@vpn_bal0uch$4",
                 "🚩CF|🔒VLESS|@vpn_ocean$2",
                 "🚩CF|🔓VLESS|@vpn_zvpn$14",
@@ -249,8 +250,9 @@
                 "🚩CF|🔒VLESS|@ntconfig$1",
                 "🇮🇷IR|🔓VLESS|@orgempirenet$2",
                 "🚩CF|🔒VLESS|@outline_ir$18",
+                "🇳🇱NL|🔒VLESS|@outlinev2rayng$15",
                 "🇺🇸US|🔒VLESS|@proxygrizzly$1",
-                "🇫🇮FI|🔒VLESS|@prrofile_purple$124",
+                "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
                 "🇮🇷IR|🔓VLESS|@pusyvpn$10",
                 "🇺🇸US|🔓VLESS|@qeshmserver$13",
                 "🇩🇪DE|🔓VLESS|@redfree8$7",
@@ -274,7 +276,7 @@
                 "🇺🇸US|🔓VLESS|@vaslbemmonid$6",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli$3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey$40",
-                "🇩🇪DE|🔒VLESS|@vlessconfig$16",
+                "🇫🇷FR|🔒VLESS|@vlessconfig$16",
                 "🚩CF|🔓VLESS|@vpn_bal0uch$4",
                 "🚩CF|🔒VLESS|@vpn_ocean$2",
                 "🚩CF|🔓VLESS|@vpn_zvpn$14",
@@ -1358,6 +1360,31 @@
             }
         },
         {
+            "tag": "🇳🇱NL|🔒VLESS|@outlinev2rayng$15",
+            "type": "vless",
+            "server": "45.131.208.14",
+            "server_port": 443,
+            "uuid": "7a80a8d9-92f9-4f0a-8352-9005a8215ab8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-12.LeIlA.DpDnS.OrG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@rayan_config",
+                "headers": {
+                    "Host": "rAyAn-12.LeIlA.DpDnS.OrG"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US|🔒VLESS|@proxygrizzly$1",
             "type": "vless",
             "server": "147.182.183.207",
@@ -1381,20 +1408,25 @@
             }
         },
         {
-            "tag": "🇫🇮FI|🔒VLESS|@prrofile_purple$124",
+            "tag": "🇳🇱NL|🔒VLESS|@prrofile_purple$131",
             "type": "vless",
-            "server": "65.108.231.185",
-            "server_port": 443,
-            "uuid": "440766d1-858f-4719-84f5-c2de6f6227ba",
-            "flow": "",
+            "server": "206.71.158.75",
+            "server_port": 465,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "local.rogsoftwaregroup.com",
+                "server_name": "smtp.zoho.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
+                    "short_id": "7f2798f9"
                 }
             }
         },
@@ -1805,9 +1837,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@vlessconfig$16",
+            "tag": "🇫🇷FR|🔒VLESS|@vlessconfig$16",
             "type": "vless",
-            "server": "18.192.52.65",
+            "server": "15.236.182.90",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
