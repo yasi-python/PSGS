@@ -105,7 +105,6 @@
                 "🇸🇪SE|🔓VLESS|@deli_servers#3",
                 "🇩🇪DE|🔓VLESS|@evay_vpn#16",
                 "🇹🇷TR|🔒VLESS|@f_nirevil#3",
-                "🚩CF|🔒VLESS|@farahvpn#20",
                 "🇫🇮FI|🔒VLESS|@fastfreeconfig#1",
                 "🚩CF|🔒VLESS|@fastkanfig#14",
                 "🚩CF|🔓VLESS|@filterk0sh#17",
@@ -123,6 +122,7 @@
                 "🇮🇷IR|🔓VLESS|@hoshmasnoiyfarsi#14",
                 "🇨🇿CZ|🔒VLESS|@icv2ray#17",
                 "🚩CF|🔓VLESS|@imhdiyvp#10",
+                "🇺🇸US|🔓VLESS|@ip_cf_config#13",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn#1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
@@ -179,7 +179,7 @@
                 "🇺🇸US|🔓VLESS|@vaslbemmonid#6",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
-                "🇩🇪DE|🔒VLESS|@vlessconfig#16",
+                "🇩🇪DE|🔒VLESS|@vlessconfig#14",
                 "🇩🇪DE|🔒VLESS|@vmess_ir#19",
                 "🚩CF|🔓VLESS|@vpn_bal0uch#4",
                 "🚩CF|🔒VLESS|@vpn_ocean#2",
@@ -212,7 +212,6 @@
                 "🇸🇪SE|🔓VLESS|@deli_servers#3",
                 "🇩🇪DE|🔓VLESS|@evay_vpn#16",
                 "🇹🇷TR|🔒VLESS|@f_nirevil#3",
-                "🚩CF|🔒VLESS|@farahvpn#20",
                 "🇫🇮FI|🔒VLESS|@fastfreeconfig#1",
                 "🚩CF|🔒VLESS|@fastkanfig#14",
                 "🚩CF|🔓VLESS|@filterk0sh#17",
@@ -230,6 +229,7 @@
                 "🇮🇷IR|🔓VLESS|@hoshmasnoiyfarsi#14",
                 "🇨🇿CZ|🔒VLESS|@icv2ray#17",
                 "🚩CF|🔓VLESS|@imhdiyvp#10",
+                "🇺🇸US|🔓VLESS|@ip_cf_config#13",
                 "🇫🇷FR|🔒VLESS|@ip_ramzi#12",
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn#1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray#17",
@@ -286,7 +286,7 @@
                 "🇺🇸US|🔓VLESS|@vaslbemmonid#6",
                 "🇩🇪DE|🔒VLESS|@vipnetmeli#3",
                 "🇩🇪DE|🔒VLESS|@vipv2rey#40",
-                "🇩🇪DE|🔒VLESS|@vlessconfig#16",
+                "🇩🇪DE|🔒VLESS|@vlessconfig#14",
                 "🇩🇪DE|🔒VLESS|@vmess_ir#19",
                 "🚩CF|🔓VLESS|@vpn_bal0uch#4",
                 "🚩CF|🔒VLESS|@vpn_ocean#2",
@@ -612,31 +612,6 @@
             }
         },
         {
-            "tag": "🚩CF|🔒VLESS|@farahvpn#20",
-            "type": "vless",
-            "server": "104.26.15.69",
-            "server_port": 2096,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/proxyip=zani.yaemiko.ggff.net",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮FI|🔒VLESS|@fastfreeconfig#1",
             "type": "vless",
             "server": "37.27.191.27",
@@ -940,6 +915,22 @@
                 "path": "/Tel-@V2ray_Alpha/?ed=2560",
                 "headers": {
                     "Host": "barayeiran.mahiozonboroon.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US|🔓VLESS|@ip_cf_config#13",
+            "type": "vless",
+            "server": "159.246.55.251",
+            "server_port": 8880,
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram",
+                "headers": {
+                    "Host": "Telegram-channel-WangCai2"
                 }
             }
         },
@@ -1901,9 +1892,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔒VLESS|@vlessconfig#16",
+            "tag": "🇩🇪DE|🔒VLESS|@vlessconfig#14",
             "type": "vless",
-            "server": "63.177.185.232",
+            "server": "63.177.208.147",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
