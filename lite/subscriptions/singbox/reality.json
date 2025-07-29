@@ -97,7 +97,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi [12]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -119,6 +118,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [8]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -144,7 +144,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi [12]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -166,6 +165,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [8]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -378,33 +378,6 @@
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
-            "type": "vless",
-            "server": "91.99.97.62",
-            "server_port": 51479,
-            "uuid": "bd7cd6f1-049b-4db3-d78f-4eb94678c709",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
             }
         },
         {
@@ -920,6 +893,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @mowjproxy [8]",
+            "type": "vless",
+            "server": "5am.postpapet.ir",
+            "server_port": 13136,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
             }
         },
         {

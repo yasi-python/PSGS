@@ -119,7 +119,7 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇮🇷 IR | 🔓 VLESS | @hoshmasnoiyfarsi [14]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
+                "🚩 CF | 🔒 VLESS | @icv2ray [18]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi [12]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -175,7 +175,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
-                "🇬🇧 GB | 🔓 VLESS | @vmess_ir [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
@@ -222,7 +221,7 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇮🇷 IR | 🔓 VLESS | @hoshmasnoiyfarsi [14]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
+                "🚩 CF | 🔒 VLESS | @icv2ray [18]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇫🇷 FR | 🔒 VLESS | @ip_ramzi [12]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -278,7 +277,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
-                "🇬🇧 GB | 🔓 VLESS | @vmess_ir [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
@@ -859,30 +857,28 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @icv2ray [18]",
             "type": "vless",
-            "server": "91.99.97.62",
-            "server_port": 51479,
-            "uuid": "bd7cd6f1-049b-4db3-d78f-4eb94678c709",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "eDi.SpEeDtEsT2029.CoM",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
-                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "eDi.SpEeDtEsT2029.CoM"
+                }
             }
         },
         {
@@ -1860,22 +1856,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @vmess_ir [18]",
-            "type": "vless",
-            "server": "91.228.10.202",
-            "server_port": 2052,
-            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
-                "headers": {
-                    "Host": "91.228.10.202"
                 }
             }
         },
