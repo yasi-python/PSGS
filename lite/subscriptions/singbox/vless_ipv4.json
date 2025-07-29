@@ -103,7 +103,7 @@
                 "🇺🇸US|🔓VLESS|@dargiiriis$5",
                 "🇮🇷IR|🔓VLESS|@defenyx_vpn$2",
                 "🇸🇪SE|🔓VLESS|@deli_servers$3",
-                "🇩🇪DE|🔓VLESS|@evay_vpn$16",
+                "🚩CF|🔒VLESS|@drvpn_net$2",
                 "🇹🇷TR|🔒VLESS|@f_nirevil$3",
                 "🇫🇮FI|🔒VLESS|@fastfreeconfig$1",
                 "🚩CF|🔓VLESS|@filterk0sh$17",
@@ -125,7 +125,6 @@
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn$1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray$17",
                 "🇩🇪DE|🔓VLESS|@kanfig_majani$6",
-                "🇬🇧GB|🔓VLESS|@kurdistan_vpn_perfectt$7",
                 "🇺🇸US|🔒VLESS|@limootuursh$1",
                 "🇩🇪DE|🔓VLESS|@lombo_channel$4",
                 "🚩CF|🔒VLESS|@mahdivpn2$5",
@@ -205,7 +204,7 @@
                 "🇺🇸US|🔓VLESS|@dargiiriis$5",
                 "🇮🇷IR|🔓VLESS|@defenyx_vpn$2",
                 "🇸🇪SE|🔓VLESS|@deli_servers$3",
-                "🇩🇪DE|🔓VLESS|@evay_vpn$16",
+                "🚩CF|🔒VLESS|@drvpn_net$2",
                 "🇹🇷TR|🔒VLESS|@f_nirevil$3",
                 "🇫🇮FI|🔒VLESS|@fastfreeconfig$1",
                 "🚩CF|🔓VLESS|@filterk0sh$17",
@@ -227,7 +226,6 @@
                 "🇫🇷FR|🔓VLESS|@iranmedicalvpn$1",
                 "🇩🇪DE|🔒VLESS|@jokerv2ray$17",
                 "🇩🇪DE|🔓VLESS|@kanfig_majani$6",
-                "🇬🇧GB|🔓VLESS|@kurdistan_vpn_perfectt$7",
                 "🇺🇸US|🔒VLESS|@limootuursh$1",
                 "🇩🇪DE|🔓VLESS|@lombo_channel$4",
                 "🚩CF|🔒VLESS|@mahdivpn2$5",
@@ -568,13 +566,29 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔓VLESS|@evay_vpn$16",
+            "tag": "🚩CF|🔒VLESS|@drvpn_net$2",
             "type": "vless",
-            "server": "91.107.130.24",
-            "server_port": 32401,
-            "uuid": "cbf5530d-4a92-4179-913e-1d9b8b5e05da",
+            "server": "188.114.97.2",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@vemessvpn-channel-telegram",
+                "headers": {
+                    "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇹🇷TR|🔒VLESS|@f_nirevil$3",
@@ -950,22 +964,6 @@
             "uuid": "b79ee06f-d158-48c3-b32d-7ecb90f5f317",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧GB|🔓VLESS|@kurdistan_vpn_perfectt$7",
-            "type": "vless",
-            "server": "77.91.101.228",
-            "server_port": 2082,
-            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?---Join-TELEGRAM-@FarshidHUB---Join-TELEGRAM-@FarshidHUB---Join-TELEGRAM-@FarshidHUB---Join-TELEGRAM-@FarshidHUB---Join-TELEGRAM-@FarshidHUB",
-                "headers": {
-                    "Host": "77.91.101.228"
-                }
-            }
         },
         {
             "tag": "🇺🇸US|🔒VLESS|@limootuursh$1",

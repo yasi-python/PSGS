@@ -98,9 +98,11 @@
                 "🇬🇧GB|🔒SS|@bislullproxy$19",
                 "🇳🇱NL|🔒SS|@father_vpn$4",
                 "🇵🇹PT|🔒SS|@filtershekan_channel$13",
-                "🇩🇪DE|🔒SS|@free_outline_keys$16",
+                "🇩🇪DE|🔒SS|@free_outline_keys$15",
                 "🇫🇷FR|🔒SS|@freevirgoolnet$8",
                 "🇬🇧GB|🔒SS|@injectormconf$40",
+                "🇺🇸US|🔒SS|@ip_cf_config$14",
+                "🇨🇦CA|🔒SS|@kurdistan_vpn_perfectt$9",
                 "🇬🇧GB|🔒SS|@megavpn_link$12",
                 "🇺🇸US|🔒SS|@mester_v2ray$19",
                 "🇬🇧GB|🔒SS|@novinology$17",
@@ -115,14 +117,14 @@
                 "🇹🇷TR|🔒SS|@v2rayngvvpn$28",
                 "🇵🇱PL|🔒SS|@vipufovpn$20",
                 "🇺🇸US|🔒SS|@vmessiranproxy$20",
-                "❔XX|🔒SS|@free_omega$5",
-                "🇬🇧GB|🔒SS|@nationalproxytelegram$3",
+                "🇬🇧GB|🔒SS|@freakconfig$17",
                 "🇬🇧GB|🔒SS|@ntgreenplus$1",
                 "❔XX|🔒SS|@outlines_vpn$6",
                 "🇬🇧GB|🔒SS|@serverv2ray00$20",
                 "🇬🇧GB|🔒SS|@v2rayang201$8",
                 "🇬🇧GB|🔒SS|@v2raybe$7",
-                "🇬🇧GB|🔒SS|@vmess_iran$1"
+                "🇬🇧GB|🔒SS|@vmess_iran$1",
+                "❔XX|🔒SS|@free_omega$5"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,9 +141,11 @@
                 "🇬🇧GB|🔒SS|@bislullproxy$19",
                 "🇳🇱NL|🔒SS|@father_vpn$4",
                 "🇵🇹PT|🔒SS|@filtershekan_channel$13",
-                "🇩🇪DE|🔒SS|@free_outline_keys$16",
+                "🇩🇪DE|🔒SS|@free_outline_keys$15",
                 "🇫🇷FR|🔒SS|@freevirgoolnet$8",
                 "🇬🇧GB|🔒SS|@injectormconf$40",
+                "🇺🇸US|🔒SS|@ip_cf_config$14",
+                "🇨🇦CA|🔒SS|@kurdistan_vpn_perfectt$9",
                 "🇬🇧GB|🔒SS|@megavpn_link$12",
                 "🇺🇸US|🔒SS|@mester_v2ray$19",
                 "🇬🇧GB|🔒SS|@novinology$17",
@@ -156,14 +160,14 @@
                 "🇹🇷TR|🔒SS|@v2rayngvvpn$28",
                 "🇵🇱PL|🔒SS|@vipufovpn$20",
                 "🇺🇸US|🔒SS|@vmessiranproxy$20",
-                "❔XX|🔒SS|@free_omega$5",
-                "🇬🇧GB|🔒SS|@nationalproxytelegram$3",
+                "🇬🇧GB|🔒SS|@freakconfig$17",
                 "🇬🇧GB|🔒SS|@ntgreenplus$1",
                 "❔XX|🔒SS|@outlines_vpn$6",
                 "🇬🇧GB|🔒SS|@serverv2ray00$20",
                 "🇬🇧GB|🔒SS|@v2rayang201$8",
                 "🇬🇧GB|🔒SS|@v2raybe$7",
-                "🇬🇧GB|🔒SS|@vmess_iran$1"
+                "🇬🇧GB|🔒SS|@vmess_iran$1",
+                "❔XX|🔒SS|@free_omega$5"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -298,7 +302,7 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇩🇪DE|🔒SS|@free_outline_keys$16",
+            "tag": "🇩🇪DE|🔒SS|@free_outline_keys$15",
             "type": "shadowsocks",
             "server": "81.19.141.45",
             "server_port": 443,
@@ -320,6 +324,22 @@
             "server_port": 49499,
             "method": "chacha20-ietf-poly1305",
             "password": "kTjlLxrncKx4i2HIjxfA3M"
+        },
+        {
+            "tag": "🇺🇸US|🔒SS|@ip_cf_config$14",
+            "type": "shadowsocks",
+            "server": "45.87.175.164",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
+        },
+        {
+            "tag": "🇨🇦CA|🔒SS|@kurdistan_vpn_perfectt$9",
+            "type": "shadowsocks",
+            "server": "64.74.163.218",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇬🇧GB|🔒SS|@megavpn_link$12",
@@ -434,15 +454,7 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "❔XX|🔒SS|@free_omega$5",
-            "type": "shadowsocks",
-            "server": "[2a01:4f8:c012:42dc::1]",
-            "server_port": 2060,
-            "method": "chacha20-ietf-poly1305",
-            "password": "DU7nmmEPs5eGoqrt_SwBEQ"
-        },
-        {
-            "tag": "🇬🇧GB|🔒SS|@nationalproxytelegram$3",
+            "tag": "🇬🇧GB|🔒SS|@freakconfig$17",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -496,6 +508,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
+        },
+        {
+            "tag": "❔XX|🔒SS|@free_omega$5",
+            "type": "shadowsocks",
+            "server": "[2a01:4f8:c012:42dc::1]",
+            "server_port": 2060,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DU7nmmEPs5eGoqrt_SwBEQ"
         }
     ],
     "route": {

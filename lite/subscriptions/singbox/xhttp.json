@@ -102,9 +102,10 @@
                 "🇺🇸US|🔓VLESS|@dailytek$14",
                 "❔XX|🔓VLESS|@dgkbza$22",
                 "🇺🇸US|🔓VLESS|@eliteproxyv2$10",
+                "🇺🇸US|🔓VLESS|@evay_vpn$17",
                 "🇺🇸US|🔓VLESS|@fastshovpn$3",
                 "🇺🇸US|🔓VLESS|@fnet00$7",
-                "🇩🇪DE|🔓VLESS|@freakconfig$17",
+                "🇨🇭CH|🔒VLESS|@mowjproxy$6",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes$17"
             ],
@@ -127,9 +128,10 @@
                 "🇺🇸US|🔓VLESS|@dailytek$14",
                 "❔XX|🔓VLESS|@dgkbza$22",
                 "🇺🇸US|🔓VLESS|@eliteproxyv2$10",
+                "🇺🇸US|🔓VLESS|@evay_vpn$17",
                 "🇺🇸US|🔓VLESS|@fastshovpn$3",
                 "🇺🇸US|🔓VLESS|@fnet00$7",
-                "🇩🇪DE|🔓VLESS|@freakconfig$17",
+                "🇨🇭CH|🔒VLESS|@mowjproxy$6",
                 "🇷🇺RU|🔒VLESS|@noforcedheaven$16",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes$17"
             ],
@@ -350,6 +352,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸US|🔓VLESS|@evay_vpn$17",
+            "type": "vless",
+            "server": "EVAY_VPN.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "785e05fc-66e4-4141-8587-72c4ee8ce65e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸US|🔓VLESS|@fastshovpn$3",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
@@ -368,20 +379,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪DE|🔓VLESS|@freakconfig$17",
+            "tag": "🇨🇭CH|🔒VLESS|@mowjproxy$6",
             "type": "vless",
-            "server": "server271816966957306554.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
-            "flow": "",
+            "server": "dl-04.saitsazs.ir",
+            "server_port": 13110,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "server271816966957306554.tas-bazi.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
