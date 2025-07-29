@@ -96,7 +96,6 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13"
             ],
@@ -113,7 +112,6 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
-                "🚩CF|🔒VLESS|@mowjproxy#5",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13"
             ],
@@ -264,24 +262,6 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@mowjproxy#5",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸US|🔒VLESS|@proxygrizzly#1",

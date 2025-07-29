@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩CF|🔓VLESS|@alo_v2rayng#1",
-                "🇩🇪DE|🔓VLESS|@argotaz#1",
                 "🚩CF|🔓VLESS|@artemis_vpn_free#2",
                 "🚩CF|🔓VLESS|@aryoovpn#5",
                 "🇮🇷IR|🔓VLESS|@asak_vpn#12",
@@ -109,7 +108,7 @@
                 "🚩CF|🔓VLESS|@connectshu#15",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "🇺🇸US|🔓VLESS|@dailytek#14",
-                "🚩CF|🔓VLESS|@darkma3ter24#14",
+                "🇮🇷IR|🔓VLESS|@darkma3ter24#14",
                 "❔XX|🔒VLESS|@deragv2ray#3",
                 "❔XX|🔓VLESS|@dgkbza#22",
                 "🇮🇷IR|🔓VLESS|@drvpn_net#3",
@@ -162,6 +161,7 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
+                "🚩CF|🔓VLESS|@mowjproxy#5",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
@@ -173,7 +173,6 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔒VLESS|@outlinev2rayng#15",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -227,7 +226,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩CF|🔓VLESS|@alo_v2rayng#1",
-                "🇩🇪DE|🔓VLESS|@argotaz#1",
                 "🚩CF|🔓VLESS|@artemis_vpn_free#2",
                 "🚩CF|🔓VLESS|@aryoovpn#5",
                 "🇮🇷IR|🔓VLESS|@asak_vpn#12",
@@ -243,7 +241,7 @@
                 "🚩CF|🔓VLESS|@connectshu#15",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "🇺🇸US|🔓VLESS|@dailytek#14",
-                "🚩CF|🔓VLESS|@darkma3ter24#14",
+                "🇮🇷IR|🔓VLESS|@darkma3ter24#14",
                 "❔XX|🔒VLESS|@deragv2ray#3",
                 "❔XX|🔓VLESS|@dgkbza#22",
                 "🇮🇷IR|🔓VLESS|@drvpn_net#3",
@@ -296,6 +294,7 @@
                 "🚩CF|🔒VLESS|@mimitdl#6",
                 "❔XX|🔓VLESS|@miov2ray#12",
                 "🇩🇪DE|🔓VLESS|@moon_ping#1",
+                "🚩CF|🔓VLESS|@mowjproxy#5",
                 "❔XX|🔒VLESS|@mrvpn1403#5",
                 "❔XX|🔒VLESS|@mt_team_iran#5",
                 "🇨🇦CA|🔒VLESS|@n2vpn#10",
@@ -307,7 +306,6 @@
                 "🇷🇺RU|🔒VLESS|@noforcedheaven#16",
                 "🚩CF|🔒VLESS|@ohvpn#18",
                 "🚩CF|🔓VLESS|@oonfig#2",
-                "🚩CF|🔒VLESS|@outlinev2rayng#15",
                 "❔XX|🔓VLESS|@proxy48#15",
                 "❔XX|🔒VLESS|@proxy_confiingir#4",
                 "🇮🇷IR|🔓VLESS|@proxy_kuto#1",
@@ -450,15 +448,6 @@
                     "Host": "sourceforge.net"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪DE|🔓VLESS|@argotaz#1",
-            "type": "vless",
-            "server": "vrp2.vidasuniversity.ir",
-            "server_port": 8443,
-            "uuid": "52200463-3f3e-4751-8887-b80b70212af7",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩CF|🔓VLESS|@artemis_vpn_free#2",
@@ -697,7 +686,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔓VLESS|@darkma3ter24#14",
+            "tag": "🇮🇷IR|🔓VLESS|@darkma3ter24#14",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -1566,6 +1555,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩CF|🔓VLESS|@mowjproxy#5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔XX|🔒VLESS|@mrvpn1403#5",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1793,31 +1798,6 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@outlinev2rayng#15",
-            "type": "vless",
-            "server": "web.xhamster.biz.id",
-            "server_port": 443,
-            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "web.xhamster.biz.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Free-CF-Proxy-AT4",
-                "headers": {
-                    "Host": "web.xhamster.biz.id"
                 }
             }
         },

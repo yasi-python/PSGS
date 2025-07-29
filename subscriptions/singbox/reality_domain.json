@@ -97,7 +97,8 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
-                "🇳🇱NL|🔒VLESS|@config_proxy#52",
+                "🇳🇱NL|🔒VLESS|@config_proxy#49",
+                "🇳🇱NL|🔒VLESS|@config_proxy#50",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "❔XX|🔒VLESS|@free1_vpn#3",
@@ -108,7 +109,6 @@
                 "❔XX|🔒VLESS|@fsv2ray#4",
                 "🇫🇷FR|🔒VLESS|@grizzlyvpn#7",
                 "🇷🇺RU|🔒VLESS|@icv2ray#14",
-                "❔XX|🔒VLESS|@ip_cf_config#15",
                 "🇦🇪AE|🔒VLESS|@iran_access#14",
                 "❔XX|🔒VLESS|@iran_mehr_vpn#16",
                 "🇺🇸US|🔒VLESS|@iranbaxvpn#5",
@@ -145,6 +145,8 @@
                 "❔XX|🔒VLESS|@tc_v2ray#2",
                 "❔XX|🔒VLESS|@torang_vpn#17",
                 "❔XX|🔒VLESS|@v2rayang201#4",
+                "🇳🇱NL|🔒VLESS|@v2raych#16",
+                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
                 "🇺🇸US|🔒VLESS|@v2rayngrit#15",
@@ -176,7 +178,8 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
-                "🇳🇱NL|🔒VLESS|@config_proxy#52",
+                "🇳🇱NL|🔒VLESS|@config_proxy#49",
+                "🇳🇱NL|🔒VLESS|@config_proxy#50",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "❔XX|🔒VLESS|@free1_vpn#3",
@@ -187,7 +190,6 @@
                 "❔XX|🔒VLESS|@fsv2ray#4",
                 "🇫🇷FR|🔒VLESS|@grizzlyvpn#7",
                 "🇷🇺RU|🔒VLESS|@icv2ray#14",
-                "❔XX|🔒VLESS|@ip_cf_config#15",
                 "🇦🇪AE|🔒VLESS|@iran_access#14",
                 "❔XX|🔒VLESS|@iran_mehr_vpn#16",
                 "🇺🇸US|🔒VLESS|@iranbaxvpn#5",
@@ -224,6 +226,8 @@
                 "❔XX|🔒VLESS|@tc_v2ray#2",
                 "❔XX|🔒VLESS|@torang_vpn#17",
                 "❔XX|🔒VLESS|@v2rayang201#4",
+                "🇳🇱NL|🔒VLESS|@v2raych#16",
+                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
                 "🇺🇸US|🔒VLESS|@v2rayngrit#15",
@@ -449,30 +453,49 @@
             }
         },
         {
-            "tag": "🇳🇱NL|🔒VLESS|@config_proxy#52",
+            "tag": "🇳🇱NL|🔒VLESS|@config_proxy#49",
             "type": "vless",
-            "server": "fast.dissertationhelpspecialist.com",
+            "server": "mci.sbarshia.ir",
             "server_port": 443,
-            "uuid": "3bd876df-415f-4bea-9700-ee33d9a8f1bc",
+            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "zoomit.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Q1PDMwa1fT6RUZ2CpNMGns-QFUhmk8vrf2fIS6PaoFU",
-                    "short_id": "44a3ef0168e834"
+                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
+                    "short_id": "fdf18126a0768480"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
+            "tag": "🇳🇱NL|🔒VLESS|@config_proxy#50",
+            "type": "vless",
+            "server": "irancell.sbarshia.ir",
+            "server_port": 443,
+            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tapsi.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
+                    "short_id": "fdf18126a0768480"
+                }
             }
         },
         {
@@ -722,29 +745,6 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "48720c"
-                }
-            }
-        },
-        {
-            "tag": "❔XX|🔒VLESS|@ip_cf_config#15",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -1628,6 +1628,52 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL|🔒VLESS|@v2raych#16",
+            "type": "vless",
+            "server": "s2.sbarshia.ir",
+            "server_port": 8443,
+            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "divar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
+                    "short_id": "fdf18126a0768480"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL|🔒VLESS|@v2raych#17",
+            "type": "vless",
+            "server": "reality.sbarshia.ir",
+            "server_port": 443,
+            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "digikala.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
+                    "short_id": "fdf18126a0768480"
                 }
             }
         },
