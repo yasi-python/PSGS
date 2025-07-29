@@ -804,10 +804,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
-            "vless",
             "vmess",
-            "trojan"
+            "trojan",
+            "vless",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2242,8 +2242,8 @@
     },
     "v2source": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
@@ -2305,7 +2305,6 @@
     },
     "vmess_ir": {
         "types": [
-            "trojan",
             "vmess",
             "ss",
             "vless"
