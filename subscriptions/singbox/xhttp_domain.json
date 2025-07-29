@@ -118,7 +118,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5"
@@ -158,7 +157,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5"
@@ -540,29 +538,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱NL|🔒VLESS|@v2raych#17",
-            "type": "vless",
-            "server": "dailyconfigs.resurrection-time.sbs",
-            "server_port": 55302,
-            "uuid": "91dddf80-6acc-460d-bf52-977a55191eea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dw9G4kyw_REg5aQXHfhKIYgYQbn4k71N3b-gu5P87CI",
-                    "short_id": "006325e08dfe80ab"
-                }
-            }
         },
         {
             "tag": "🇳🇱NL|🔒VLESS|@v2raymelliii#7",

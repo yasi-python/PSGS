@@ -111,6 +111,7 @@
                 "🚩CF|🔓VLESS|@filterk0sh#17",
                 "🇩🇪DE|🔓VLESS|@filtershkan2#5",
                 "🇬🇧GB|🔒VLESS|@fire_vpn_channel#2",
+                "🇮🇳IN|🔓VLESS|@free_outline_keys#16",
                 "🇸🇪SE|🔓VLESS|@free_vip3#7",
                 "🚩CF|🔓VLESS|@freev2flyng#18",
                 "🇬🇧GB|🔒VLESS|@freevlessvpn#1",
@@ -137,7 +138,6 @@
                 "🇩🇪DE|🔒VLESS|@merdesert#4",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
-                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@mpproxy#14",
                 "🚩CF|🔓VLESS|@mr_vpn123#8",
                 "🇳🇱NL|🔓VLESS|@msv2flyng#10",
@@ -219,6 +219,7 @@
                 "🚩CF|🔓VLESS|@filterk0sh#17",
                 "🇩🇪DE|🔓VLESS|@filtershkan2#5",
                 "🇬🇧GB|🔒VLESS|@fire_vpn_channel#2",
+                "🇮🇳IN|🔓VLESS|@free_outline_keys#16",
                 "🇸🇪SE|🔓VLESS|@free_vip3#7",
                 "🚩CF|🔓VLESS|@freev2flyng#18",
                 "🇬🇧GB|🔒VLESS|@freevlessvpn#1",
@@ -245,7 +246,6 @@
                 "🇩🇪DE|🔒VLESS|@merdesert#4",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
                 "🇺🇸US|🔓VLESS|@moiinmk#3",
-                "🚩CF|🔒VLESS|@mowjproxy#3",
                 "🇺🇸US|🔓VLESS|@mpproxy#14",
                 "🚩CF|🔓VLESS|@mr_vpn123#8",
                 "🇳🇱NL|🔓VLESS|@msv2flyng#10",
@@ -746,6 +746,24 @@
             }
         },
         {
+            "tag": "🇮🇳IN|🔓VLESS|@free_outline_keys#16",
+            "type": "vless",
+            "server": "45.88.183.155",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.88.183.155",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE|🔓VLESS|@free_vip3#7",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1182,24 +1200,6 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@mowjproxy#3",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸US|🔓VLESS|@mpproxy#14",

@@ -118,7 +118,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5",
@@ -141,6 +140,7 @@
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#15",
+                "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -194,7 +194,6 @@
                 "🚩CF|🔒VLESS|@v2aryng_vpn#8",
                 "🇺🇸US|🔓VLESS|@v2ray_sub#7",
                 "🇺🇸US|🔓VLESS|@v2ray_vmes#17",
-                "🇳🇱NL|🔒VLESS|@v2raych#17",
                 "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
                 "🇺🇸US|🔓VLESS|@vpnfree_irann#3",
                 "🇮🇹IT|🔓VLESS|@xsv2ray#5",
@@ -217,6 +216,7 @@
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
                 "🚩CF|🔒VLESS|@proxie#12",
                 "🚩CF|🔒VLESS|@proxie#15",
+                "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
                 "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
@@ -614,29 +614,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱NL|🔒VLESS|@v2raych#17",
-            "type": "vless",
-            "server": "dailyconfigs.resurrection-time.sbs",
-            "server_port": 55302,
-            "uuid": "91dddf80-6acc-460d-bf52-977a55191eea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dw9G4kyw_REg5aQXHfhKIYgYQbn4k71N3b-gu5P87CI",
-                    "short_id": "006325e08dfe80ab"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL|🔒VLESS|@v2raymelliii#7",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
@@ -974,6 +951,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
+            "type": "vless",
+            "server": "206.71.158.75",
+            "server_port": 465,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "smtp.zoho.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
+                    "short_id": "7f2798f9"
                 }
             }
         },
