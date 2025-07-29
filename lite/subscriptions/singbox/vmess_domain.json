@@ -127,7 +127,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll#6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig#13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn#19",
-                "🇩🇪DE|🔓VMESS|@vpnfail_v2ray#17",
+                "🇨🇭CH|🔓VMESS|@vpnfail_v2ray#16",
                 "🇺🇸US|🔓VMESS|@vpngate_config#19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline#11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin#4",
@@ -177,7 +177,7 @@
                 "🇩🇪DE|🔒VMESS|@v2rayngchannelll#6",
                 "🇦🇹AT|🔓VMESS|@v2rayngconfiig#13",
                 "🇩🇪DE|🔓VMESS|@v2rayngvpnn#19",
-                "🇩🇪DE|🔓VMESS|@vpnfail_v2ray#17",
+                "🇨🇭CH|🔓VMESS|@vpnfail_v2ray#16",
                 "🇺🇸US|🔓VMESS|@vpngate_config#19",
                 "🚩CF|🔒VMESS|@vpnv2rayonline#11",
                 "🇩🇪DE|🔓VMESS|@vpnzamin#4",
@@ -810,29 +810,13 @@
             }
         },
         {
-            "tag": "🇩🇪DE|🔓VMESS|@vpnfail_v2ray#17",
+            "tag": "🇨🇭CH|🔓VMESS|@vpnfail_v2ray#16",
             "type": "vmess",
-            "server": "57.129.24.125",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "23.166.88.183",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "57.129.24.125",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "57.129.24.125"
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇺🇸US|🔓VMESS|@vpngate_config#19",
