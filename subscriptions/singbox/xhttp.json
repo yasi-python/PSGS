@@ -136,12 +136,11 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#3",
+                "🚩CF|🔒VLESS|@mowjproxy#1",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
-                "🚩CF|🔒VLESS|@proxie#12",
-                "🚩CF|🔒VLESS|@proxie#15",
-                "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
-                "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
+                "🚩CF|🔒VLESS|@proxie#14",
+                "🚩CF|🔒VLESS|@proxie#16",
+                "🇬🇧GB|🔒VLESS|@proxygodratmand#6",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
                 "🇩🇪DE|🔒VLESS|@v2ray_vmes#14",
@@ -212,12 +211,11 @@
                 "🇩🇪DE|🔒VLESS|@mehduox_vpn#3",
                 "🇳🇱NL|🔓VLESS|@minovpnch#14",
                 "🇨🇭CH|🔓VLESS|@minovpnch#15",
-                "🚩CF|🔒VLESS|@mowjproxy#3",
+                "🚩CF|🔒VLESS|@mowjproxy#1",
                 "🇺🇸US|🔓VLESS|@nofiltering2#21",
-                "🚩CF|🔒VLESS|@proxie#12",
-                "🚩CF|🔒VLESS|@proxie#15",
-                "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
-                "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
+                "🚩CF|🔒VLESS|@proxie#14",
+                "🚩CF|🔒VLESS|@proxie#16",
+                "🇬🇧GB|🔒VLESS|@proxygodratmand#6",
                 "🇺🇸US|🔒VLESS|@proxygrizzly#1",
                 "🇺🇸US|🔓VLESS|@qeshmserver#13",
                 "🇩🇪DE|🔒VLESS|@v2ray_vmes#14",
@@ -892,7 +890,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔒VLESS|@mowjproxy#3",
+            "tag": "🚩CF|🔒VLESS|@mowjproxy#1",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -919,25 +917,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩CF|🔒VLESS|@proxie#12",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "dc4ed804-2ffb-4354-bd97-ad7b6ccf99b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF|🔒VLESS|@proxie#15",
+            "tag": "🚩CF|🔒VLESS|@proxie#14",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -955,30 +935,25 @@
             }
         },
         {
-            "tag": "🇳🇱NL|🔒VLESS|@proxy_mtproto_vpns_free#8",
+            "tag": "🚩CF|🔒VLESS|@proxie#16",
             "type": "vless",
-            "server": "206.71.158.75",
-            "server_port": 465,
-            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "2241fa5e-4187-404e-bb29-a2a3299ddd1b",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "smtp.zoho.com",
+                "server_name": "varda2.manwe.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
-                    "short_id": "7f2798f9"
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB|🔒VLESS|@proxygodratmand#7",
+            "tag": "🇬🇧GB|🔒VLESS|@proxygodratmand#6",
             "type": "vless",
             "server": "83.147.18.191",
             "server_port": 4653,

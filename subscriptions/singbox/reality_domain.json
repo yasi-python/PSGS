@@ -97,6 +97,7 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
+                "🇮🇷IR|🔒VLESS|@config_proxy#33",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "❔XX|🔒VLESS|@free1_vpn#4",
@@ -121,10 +122,10 @@
                 "🇩🇪DE|🔒VLESS|@kesslervpn#3",
                 "❔XX|🔒VLESS|@kkkkkoabvbbvbvv#10",
                 "🇩🇪DE|🔒VLESS|@lexernet#12",
-                "🇮🇳IN|🔒VLESS|@netmellianti#13",
+                "🇮🇳IN|🔒VLESS|@netmellianti#12",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#3",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
-                "🇮🇹IT|🔒VLESS|@outlinev2rayng#12",
+                "🇮🇹IT|🔒VLESS|@outlinev2rayng#11",
                 "❔XX|🔒VLESS|@persian_proxy6#1",
                 "❔XX|🔒VLESS|@persian_proxy6#4",
                 "❔XX|🔒VLESS|@proxy_iranv2#4",
@@ -145,7 +146,7 @@
                 "❔XX|🔒VLESS|@v2rayang201#4",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
-                "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
+                "🇯🇵JP|🔒VLESS|@v2rayngrit#15",
                 "❔XX|🔒VLESS|@v2rayturbo#5",
                 "❔XX|🔒VLESS|@v2rayy_vpn13#9",
                 "❔XX|🔒VLESS|@v2rayza#19",
@@ -174,6 +175,7 @@
                 "❔XX|🔒VLESS|@buffalo_vpn#6",
                 "❔XX|🔒VLESS|@canfing_vpn#17",
                 "❔XX|🔒VLESS|@catvpns#11",
+                "🇮🇷IR|🔒VLESS|@config_proxy#33",
                 "🇩🇪DE|🔒VLESS|@configasli#8",
                 "❔XX|🔒VLESS|@custom_14#8",
                 "❔XX|🔒VLESS|@free1_vpn#4",
@@ -198,10 +200,10 @@
                 "🇩🇪DE|🔒VLESS|@kesslervpn#3",
                 "❔XX|🔒VLESS|@kkkkkoabvbbvbvv#10",
                 "🇩🇪DE|🔒VLESS|@lexernet#12",
-                "🇮🇳IN|🔒VLESS|@netmellianti#13",
+                "🇮🇳IN|🔒VLESS|@netmellianti#12",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#3",
                 "🇳🇱NL|🔒VLESS|@nn_vpn#4",
-                "🇮🇹IT|🔒VLESS|@outlinev2rayng#12",
+                "🇮🇹IT|🔒VLESS|@outlinev2rayng#11",
                 "❔XX|🔒VLESS|@persian_proxy6#1",
                 "❔XX|🔒VLESS|@persian_proxy6#4",
                 "❔XX|🔒VLESS|@proxy_iranv2#4",
@@ -222,7 +224,7 @@
                 "❔XX|🔒VLESS|@v2rayang201#4",
                 "❔XX|🔒VLESS|@v2rayng_my2#2",
                 "❔XX|🔒VLESS|@v2rayngconfings#18",
-                "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
+                "🇯🇵JP|🔒VLESS|@v2rayngrit#15",
                 "❔XX|🔒VLESS|@v2rayturbo#5",
                 "❔XX|🔒VLESS|@v2rayy_vpn13#9",
                 "❔XX|🔒VLESS|@v2rayza#19",
@@ -442,6 +444,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇮🇷IR|🔒VLESS|@config_proxy#33",
+            "type": "vless",
+            "server": "Host.iranservers.space",
+            "server_port": 1030,
+            "uuid": "ac2a2fca-5477-49d3-b419-9da98032607e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fInGVxoPLyML5AI8QonrXDCozxPVzIHNY1SRKnsRjBc",
+                    "short_id": "8b"
+                }
             }
         },
         {
@@ -1056,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN|🔒VLESS|@netmellianti#13",
+            "tag": "🇮🇳IN|🔒VLESS|@netmellianti#12",
             "type": "vless",
             "server": "ind01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -1133,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT|🔒VLESS|@outlinev2rayng#12",
+            "tag": "🇮🇹IT|🔒VLESS|@outlinev2rayng#11",
             "type": "vless",
             "server": "it.panelmarzban.com",
             "server_port": 3037,
@@ -1628,7 +1653,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE|🔒VLESS|@v2rayngrit#15",
+            "tag": "🇯🇵JP|🔒VLESS|@v2rayngrit#15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
