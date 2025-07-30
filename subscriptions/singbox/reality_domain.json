@@ -97,6 +97,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇷🇺 RU | 🔒 VLESS | @configfa [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -122,7 +123,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @kkkkkoabvbbvbvv [10]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @netmellianti [13]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -147,7 +147,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -178,6 +178,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇷🇺 RU | 🔒 VLESS | @configfa [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -203,7 +204,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @kkkkkoabvbbvbvv [10]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @netmellianti [13]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -228,7 +228,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -450,6 +450,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "free-nl.vpnkey.dev",
+            "server_port": 8443,
+            "uuid": "55f8769d-480c-47c6-a6e6-3b6a8ac21db8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IFP6-DHmPEybBWDfXFgR3BSLZFTULXsOC3YKCuiOmkY",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1087,29 +1110,6 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "5am.postpapet.ir",
-            "server_port": 13136,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @netmellianti [13]",
             "type": "vless",
             "server": "api.hostbaran.info",
@@ -1682,7 +1682,7 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

@@ -125,11 +125,11 @@
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
@@ -201,11 +201,11 @@
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
@@ -705,15 +705,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
             "type": "vless",
             "server": "netmeli.noytads.ir",
@@ -762,6 +753,29 @@
             "uuid": "0b4e0f6a-98a2-468a-910f-4a0b3fbeec36",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
+            "type": "vless",
+            "server": "91.99.153.13",
+            "server_port": 443,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "cd0b"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",

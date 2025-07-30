@@ -105,6 +105,7 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [5]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [1]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel [10]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇨🇿 CZ | 🔒 VLESS | @flyv2ray [7]",
@@ -124,7 +125,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @goodbyefiltering [4]",
                 "🇩🇪 DE | 🔒 VLESS | @goodbyefiltering [5]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [20]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [4]",
                 "🇨🇿 CZ | 🔒 VLESS | @icv2ray [16]",
@@ -140,10 +140,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kanfig_majani [1]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇫🇮 FI | 🔒 VLESS | @kingofilter [4]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [5]",
-                "🇫🇮 FI | 🔒 VLESS | @kingofilter [6]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [8]",
                 "🇺🇸 US | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [9]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [72]",
@@ -220,6 +220,7 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [5]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [1]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel [10]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇨🇿 CZ | 🔒 VLESS | @flyv2ray [7]",
@@ -239,7 +240,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @goodbyefiltering [4]",
                 "🇩🇪 DE | 🔒 VLESS | @goodbyefiltering [5]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [20]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [4]",
                 "🇨🇿 CZ | 🔒 VLESS | @icv2ray [16]",
@@ -255,10 +255,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kanfig_majani [1]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇫🇮 FI | 🔒 VLESS | @kingofilter [4]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [5]",
-                "🇫🇮 FI | 🔒 VLESS | @kingofilter [6]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [8]",
                 "🇺🇸 US | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [9]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [72]",
@@ -706,6 +706,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @filter_breaker [78]",
+            "type": "vless",
+            "server": "91.99.153.13",
+            "server_port": 443,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "cd0b"
+                }
             }
         },
         {
@@ -1194,33 +1217,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @hope_net [20]",
-            "type": "vless",
-            "server": "31.44.2.219",
-            "server_port": 8443,
-            "uuid": "e84e0eac-7ac9-4029-bdf9-0d79219e60ce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r5t0FMNYQZ6MyEjittGRVQtAtyV8miQC3Cqzcx_cRG4",
-                    "short_id": "37c6859775"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
             "type": "vless",
             "server": "91.107.167.104",
@@ -1590,7 +1586,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @kingofilter [5]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @kingofilter [4]",
             "type": "vless",
             "server": "46.62.160.130",
             "server_port": 8443,
@@ -1613,7 +1609,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @kingofilter [6]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @kingofilter [5]",
             "type": "vless",
             "server": "46.62.160.130",
             "server_port": 8443,
@@ -1636,7 +1632,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
@@ -1659,7 +1655,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
