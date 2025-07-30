@@ -147,7 +147,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @norbertpro_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @ntconfig [1]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
+                "🚩 CF | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [124]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -175,7 +176,6 @@
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnaloo [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnhouse_official [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [4]",
                 "🚩 CF | 🔒 VLESS | @vpnstorefast [18]",
@@ -246,7 +246,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @norbertpro_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @ntconfig [1]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
+                "🚩 CF | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [124]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -274,7 +275,6 @@
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnaloo [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnhouse_official [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [4]",
                 "🚩 CF | 🔒 VLESS | @vpnstorefast [18]",
@@ -1318,16 +1318,32 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [19]",
             "type": "vless",
-            "server": "188.42.89.145",
-            "server_port": 443,
-            "uuid": "7a80a8d9-92f9-4f0a-8352-9005a8215ab8",
+            "server": "104.21.54.198",
+            "server_port": 8880,
+            "uuid": "7e948e09-fa6f-4b8e-8c5d-181fa15fbec5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/HBRQp44s2AcLDzpm?ed=2560",
+                "headers": {
+                    "Host": "104.21.54.198"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @outlinev2rayng [15]",
+            "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 8443,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "rAyAn-12.LeIlA.DpDnS.OrG",
+                "server_name": "mycloudproject2025.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1336,9 +1352,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/client/connection/socket?ed=8080",
                 "headers": {
-                    "Host": "rAyAn-12.LeIlA.DpDnS.OrG"
+                    "Host": "mycloudproject2025.site"
                 }
             }
         },
@@ -1763,7 +1779,7 @@
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
             "type": "vless",
-            "server": "51.44.54.149",
+            "server": "35.181.187.191",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1834,15 +1850,6 @@
                     "Host": "104.18.14.19"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnaloo [16]",
-            "type": "vless",
-            "server": "128.140.95.33",
-            "server_port": 2020,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @vpnhouse_official [1]",
