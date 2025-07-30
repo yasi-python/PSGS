@@ -158,6 +158,7 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
@@ -287,6 +288,7 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
@@ -1504,6 +1506,22 @@
             "uuid": "13b0c901-3fbe-bb19-c6b8-89b2c314e975",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
