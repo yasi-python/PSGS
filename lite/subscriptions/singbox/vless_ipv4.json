@@ -134,6 +134,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @moiinmk [3]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
                 "🚩 CF | 🔓 VLESS | @mr_vpn123 [8]",
                 "🇳🇱 NL | 🔓 VLESS | @msv2flyng [10]",
@@ -172,6 +173,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
+                "🇨🇦 CA | 🔓 VLESS | @vmess_ir [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
@@ -233,6 +235,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @moiinmk [3]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
                 "🚩 CF | 🔓 VLESS | @mr_vpn123 [8]",
                 "🇳🇱 NL | 🔓 VLESS | @msv2flyng [10]",
@@ -271,6 +274,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
+                "🇨🇦 CA | 🔓 VLESS | @vmess_ir [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
@@ -1114,6 +1118,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "104.16.86.73",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.16.86.73"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
             "type": "vless",
             "server": "151.101.128.223",
@@ -1793,6 +1813,15 @@
                     "Host": "trojan.burgerip.co.uk"
                 }
             }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VLESS | @vmess_ir [18]",
+            "type": "vless",
+            "server": "51.222.84.252",
+            "server_port": 25429,
+            "uuid": "f64ec975-bed6-4c91-b02b-80e5fdad363b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @vpn_bal0uch [4]",

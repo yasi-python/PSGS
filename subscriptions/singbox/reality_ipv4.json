@@ -94,7 +94,6 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [35]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
                 "🇵🇱 PL | 🔒 VLESS | @configfa [14]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -173,6 +172,7 @@
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -208,7 +208,6 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [35]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
                 "🇵🇱 PL | 🔒 VLESS | @configfa [14]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -287,6 +286,7 @@
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -438,29 +438,6 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "141.11.51.69",
-            "server_port": 443,
-            "uuid": "a05d3b5b-3274-42c0-a63a-58c1b644f042",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.j-wave.co.jp",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DaVESe6LnHDkrjuiq8Mk3bsxtDuMJYfX-Pp4qeu1rhc",
-                    "short_id": "23ecfbbf"
                 }
             }
         },
@@ -2395,6 +2372,33 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "194.182.79.250",
+            "server_port": 52612,
+            "uuid": "83dc5c38-92fb-4d92-adb2-038575a12d49",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tVPnI0CG8zT6VlwpceDzo2WqrNwBSUMbYk0_08ybxhs",
+                    "short_id": "78a48e1e"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
