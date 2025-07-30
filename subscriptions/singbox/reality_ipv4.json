@@ -94,6 +94,10 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇦🇺 AU | 🔒 VLESS | @configshubplus [16]",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis [1]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -121,8 +125,8 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [4]",
-                "🇨🇿 CZ | 🔒 VLESS | @icv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [17]",
+                "🇨🇿 CZ | 🔒 VLESS | @icv2ray [15]",
+                "🇩🇪 DE | 🔒 VLESS | @icv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @injectormconf [36]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇦🇪 AE | 🔒 VLESS | @irv2rey [6]",
@@ -202,6 +206,10 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇦🇺 AU | 🔒 VLESS | @configshubplus [16]",
+                "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis [1]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -229,8 +237,8 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [4]",
-                "🇨🇿 CZ | 🔒 VLESS | @icv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @icv2ray [17]",
+                "🇨🇿 CZ | 🔒 VLESS | @icv2ray [15]",
+                "🇩🇪 DE | 🔒 VLESS | @icv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @injectormconf [36]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇦🇪 AE | 🔒 VLESS | @irv2rey [6]",
@@ -426,6 +434,98 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "91.99.181.7",
+            "server_port": 443,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "54"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "91.99.205.255",
+            "server_port": 443,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "89a9e21076b66a13"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇺 AU | 🔒 VLESS | @configshubplus [16]",
+            "type": "vless",
+            "server": "45.80.229.254",
+            "server_port": 58258,
+            "uuid": "f73d8952-81f2-4bac-b6c4-d81348f282ef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "t75QpaHSW2E2O2jzeAa7ELBlrDk4ttCKUJYzwsfvPzk",
+                    "short_id": "a3"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
+            "type": "vless",
+            "server": "188.68.53.100",
+            "server_port": 6666,
+            "uuid": "0abf9050-c7be-464d-80af-24094c2b97de",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g",
+                    "short_id": "b525ecd2fc"
                 }
             }
         },
@@ -1103,7 +1203,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @icv2ray [16]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @icv2ray [15]",
             "type": "vless",
             "server": "194.182.79.252",
             "server_port": 37814,
@@ -1130,7 +1230,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @icv2ray [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @icv2ray [16]",
             "type": "vless",
             "server": "91.99.97.62",
             "server_port": 51479,

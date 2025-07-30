@@ -103,7 +103,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
-                "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -129,7 +129,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
-                "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -375,13 +375,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
             "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "785e05fc-66e4-4141-8587-72c4ee8ce65e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
+                    "short_id": "f23547"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [5]",
