@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
@@ -209,6 +210,7 @@
                 "KingRezaPahlavi",
                 "🇮🇪 IE | 🔒 VLESS | @appsooner [9]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [13]",
@@ -440,6 +442,29 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "193.123.81.17",
+            "server_port": 443,
+            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0Vvc6EFXPQHWWqyhG4wek-MEh",
+                    "short_id": ""
                 }
             }
         },
