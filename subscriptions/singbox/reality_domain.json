@@ -97,6 +97,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [14]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [4]",
@@ -146,11 +147,9 @@
                 "❔ XX | 🔒 VLESS | @tc_v2ray [2]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇨🇦 CA | 🔒 VLESS | @v2raych [16]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -181,6 +180,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [14]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [4]",
@@ -230,11 +230,9 @@
                 "❔ XX | 🔒 VLESS | @tc_v2ray [2]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇨🇦 CA | 🔒 VLESS | @v2raych [16]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -456,6 +454,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "neth.liitle-zoo.ir",
+            "server_port": 2025,
+            "uuid": "61e4792d-ac2f-4194-bcd7-0bc967f8a8f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "sadf2341sad"
             }
         },
         {
@@ -1665,52 +1690,6 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [16]",
-            "type": "vless",
-            "server": "ca2.seluna.ir",
-            "server_port": 8890,
-            "uuid": "eb80a285-5737-4597-9aba-cfcfd25f4f9b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fZlxWuS-vWZhQ5PQ1VwBWsKxL6T5uKn5zSzGvnUeKhM",
-                    "short_id": "57dae9386011aceb"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
-            "type": "vless",
-            "server": "mostaq1.seluna.ir",
-            "server_port": 8890,
-            "uuid": "eb80a285-5737-4597-9aba-cfcfd25f4f9b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fZlxWuS-vWZhQ5PQ1VwBWsKxL6T5uKn5zSzGvnUeKhM",
-                    "short_id": "57dae9386011aceb"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -1761,7 +1740,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
