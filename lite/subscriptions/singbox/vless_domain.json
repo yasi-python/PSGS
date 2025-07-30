@@ -159,7 +159,6 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
-                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [63]",
@@ -184,7 +183,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🚩 CF | 🔓 VLESS | @v2pedia [7]",
-                "❔ XX | 🔓 VLESS | @v2raxx [10]",
+                "❔ XX | 🔓 VLESS | @v2raxx [9]",
                 "🚩 CF | 🔒 VLESS | @v2ray_reality_new [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -201,6 +200,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔒 VLESS | @v2source [19]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [19]",
+                "🚩 CF | 🔒 VLESS | @vmess_ir [20]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [6]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
@@ -293,7 +293,6 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
-                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [63]",
@@ -318,7 +317,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🚩 CF | 🔓 VLESS | @v2pedia [7]",
-                "❔ XX | 🔓 VLESS | @v2raxx [10]",
+                "❔ XX | 🔓 VLESS | @v2raxx [9]",
                 "🚩 CF | 🔒 VLESS | @v2ray_reality_new [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -335,6 +334,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔒 VLESS | @v2source [19]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [19]",
+                "🚩 CF | 🔒 VLESS | @vmess_ir [20]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [6]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
@@ -1530,22 +1530,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/hajmi?ed=2050",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -2014,7 +1998,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2raxx [10]",
+            "tag": "❔ XX | 🔓 VLESS | @v2raxx [9]",
             "type": "vless",
             "server": "V2RAXX-channel.cataba.ir",
             "server_port": 6666,
@@ -2353,6 +2337,31 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
                     "Host": "kafshu.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmess_ir [20]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2096,
+            "uuid": "3056458b-913a-4193-b428-cdf22675b3b5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "638890562127852879.amsterdam-prx-dnraaal.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ydgmopws",
+                "headers": {
+                    "Host": "638890562127852879.amsterdam-prx-dnraaal.info"
                 }
             }
         },

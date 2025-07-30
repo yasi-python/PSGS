@@ -136,6 +136,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @moiinmk [3]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
                 "🚩 CF | 🔓 VLESS | @mr_vpn123 [8]",
                 "🇳🇱 NL | 🔓 VLESS | @msv2flyng [10]",
@@ -154,6 +155,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @redfree8 [7]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
+                "🚩 CF | 🔓 VLESS | @selinc [12]",
                 "🇺🇸 US | 🔒 VLESS | @sobi_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @speedconfig00 [36]",
                 "🇩🇪 DE | 🔓 VLESS | @srovpn [16]",
@@ -173,7 +175,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
-                "🚩 CF | 🔓 VLESS | @vmess_ir [19]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnhouse_official [1]",
@@ -235,6 +236,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @moiinmk [3]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
                 "🚩 CF | 🔓 VLESS | @mr_vpn123 [8]",
                 "🇳🇱 NL | 🔓 VLESS | @msv2flyng [10]",
@@ -253,6 +255,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @redfree8 [7]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
+                "🚩 CF | 🔓 VLESS | @selinc [12]",
                 "🇺🇸 US | 🔒 VLESS | @sobi_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @speedconfig00 [36]",
                 "🇩🇪 DE | 🔓 VLESS | @srovpn [16]",
@@ -272,7 +275,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
-                "🚩 CF | 🔓 VLESS | @vmess_ir [19]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnhouse_official [1]",
@@ -1132,6 +1134,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8080,
+            "uuid": "Parsashonam-Bot-10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
             "type": "vless",
             "server": "151.101.128.223",
@@ -1412,6 +1430,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "173.245.58.31"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @selinc [12]",
+            "type": "vless",
+            "server": "104.21.112.1",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/193.123.81.105=443",
+                "headers": {
+                    "Host": "104.21.112.1"
                 }
             }
         },
@@ -1768,22 +1802,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmess_ir [19]",
-            "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
-                "headers": {
-                    "Host": "172.67.65.158"
                 }
             }
         },

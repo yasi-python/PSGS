@@ -105,6 +105,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [34]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [35]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -126,8 +129,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -153,6 +156,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [34]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [35]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -174,8 +180,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -407,6 +413,33 @@
                     "short_id": "f23547"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
+            "type": "vless",
+            "server": "cdn-rezenintal.fastsoft98.ir",
+            "server_port": 80,
+            "uuid": "b590cb9f-869c-4610-badb-922cc145b70b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [34]",
+            "type": "vless",
+            "server": "star.fastsoft98.ir",
+            "server_port": 80,
+            "uuid": "b590cb9f-869c-4610-badb-922cc145b70b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [35]",
+            "type": "vless",
+            "server": "star.fastsoft98.ir",
+            "server_port": 80,
+            "uuid": "b590cb9f-869c-4610-badb-922cc145b70b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
@@ -672,15 +705,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "d62494a5-4feb-4422-9547-1050a907afa8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -691,6 +715,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
