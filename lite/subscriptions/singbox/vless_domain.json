@@ -174,10 +174,11 @@
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [123]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @realvpnmaster [15]",
                 "❔ XX | 🔓 VLESS | @red2ray [14]",
                 "🇺🇸 US | 🔓 VLESS | @rez1vpn [2]",
+                "🇮🇷 IR | 🔓 VLESS | @selinc [11]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -199,7 +200,6 @@
                 "❔ XX | 🔒 VLESS | @v2rayvpnclub [21]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [19]",
-                "🚩 CF | 🔓 VLESS | @vmess_ir [20]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [6]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
@@ -306,10 +306,11 @@
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [123]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @realvpnmaster [15]",
                 "❔ XX | 🔓 VLESS | @red2ray [14]",
                 "🇺🇸 US | 🔓 VLESS | @rez1vpn [2]",
+                "🇮🇷 IR | 🔓 VLESS | @selinc [11]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -331,7 +332,6 @@
                 "❔ XX | 🔒 VLESS | @v2rayvpnclub [21]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [19]",
-                "🚩 CF | 🔓 VLESS | @vmess_ir [20]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_bal0uch [6]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
@@ -1832,7 +1832,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [123]",
+            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [131]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1892,6 +1892,24 @@
                 "path": "/ws/?ed=2048",
                 "headers": {
                     "Host": "live.skornorth.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @selinc [11]",
+            "type": "vless",
+            "server": "ir-netherland.v2shop2.xyz",
+            "server_port": 443,
+            "uuid": "0815223d-7855-42b0-b526-76fa691101ea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ir-netherland.v2shop2.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2308,22 +2326,6 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
                     "Host": "kafshu.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmess_ir [20]",
-            "type": "vless",
-            "server": "magical-fish.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "magical-fish.seotoolsforyou.co.uk"
                 }
             }
         },
