@@ -151,6 +151,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [28]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [6]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [22]",
@@ -161,7 +162,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [131]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [3]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
@@ -179,7 +179,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
-                "🇨🇿 CZ | 🔒 VLESS | @v2ry_proxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -264,6 +263,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [28]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [6]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [22]",
@@ -274,7 +274,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [131]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [3]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
@@ -292,7 +291,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
-                "🇨🇿 CZ | 🔒 VLESS | @v2ry_proxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -1850,6 +1848,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "206.71.158.75",
+            "server_port": 465,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "smtp.zoho.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
+                    "short_id": "7f2798f9"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @msv2flyng [6]",
             "type": "vless",
             "server": "89.23.108.188",
@@ -2092,29 +2113,6 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [131]",
-            "type": "vless",
-            "server": "206.71.158.75",
-            "server_port": 465,
-            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smtp.zoho.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
-                    "short_id": "7f2798f9"
                 }
             }
         },
@@ -2542,33 +2540,6 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
-            }
-        },
-        {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2ry_proxy [9]",
-            "type": "vless",
-            "server": "194.182.79.216",
-            "server_port": 43708,
-            "uuid": "edb86e51-2e28-4c6f-9244-e472b27c697c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "U7hggIW1N_h8wh3XqaEDH1JwVk5_yF1Kd2L3JfXNRW0",
-                    "short_id": "c9f107e34d7a09"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
