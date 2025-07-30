@@ -159,6 +159,7 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [63]",
@@ -171,6 +172,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
                 "🚩 CF | 🔒 VLESS | @ohvpn [18]",
                 "🚩 CF | 🔓 VLESS | @oonfig [2]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
@@ -291,6 +293,7 @@
                 "🚩 CF | 🔒 VLESS | @mimitdl [6]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @moon_ping [1]",
+                "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [63]",
@@ -303,6 +306,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
                 "🚩 CF | 🔒 VLESS | @ohvpn [18]",
                 "🚩 CF | 🔓 VLESS | @oonfig [2]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
@@ -1526,6 +1530,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1776,6 +1796,31 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "www.visa.com.sg",
+            "server_port": 2087,
+            "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vl.hongkong6.qzz.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
+                "headers": {
+                    "Host": "vl.hongkong6.qzz.io"
                 }
             }
         },
