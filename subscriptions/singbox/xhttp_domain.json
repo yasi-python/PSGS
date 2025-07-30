@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
@@ -110,7 +111,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [4]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
@@ -129,8 +130,7 @@
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [18]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -143,6 +143,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
@@ -160,7 +161,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [4]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
@@ -179,8 +180,7 @@
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [18]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -287,6 +287,24 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "server581122609014369419.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server581122609014369419.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -444,7 +462,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "server271816966957306554.tas-bazi.com",
             "server_port": 443,
@@ -698,16 +716,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "speedy.mooo.info",
-            "server_port": 80,
-            "uuid": "2379092b-964e-4183-8cb9-d6e0044420a2",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "mci.dl101movis.ir",
             "server_port": 80,
