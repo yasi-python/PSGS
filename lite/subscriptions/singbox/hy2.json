@@ -91,7 +91,8 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 HY2 | @freevpnatm [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +102,8 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 HY2 | @freevpnatm [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -185,6 +187,25 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 HY2 | @freevpnatm [16]",
+            "type": "hysteria2",
+            "server": "ukhub.xg-hub.icu",
+            "server_port": 25785,
+            "password": "e6c29ae0-f573-4dca-9b02-b4133edd7e38",
+            "obfs": {
+                "type": "salamander",
+                "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ukhub.xg-hub.icu",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
             }
         }
     ],

@@ -167,7 +167,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil [44]",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess [18]",
-                "🇦🇪 AE | 🔓 VLESS | @v2trayproxy [17]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @vaslbemmonid [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -212,7 +211,6 @@
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]",
                 "❔ XX | 🔓 VLESS | @freedom_config [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
-                "🚩 CF | 🔓 VLESS | @freevpnatm [19]",
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "❔ XX | 🔒 VLESS | @garnet_free [12]",
@@ -288,6 +286,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayvpnclub [21]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔒 VLESS | @v2source [19]",
+                "🚩 CF | 🔒 VLESS | @v2trayproxy [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii [9]",
@@ -390,7 +389,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_swhil [44]",
                 "🇳🇱 NL | 🔓 VLESS | @v2rayprotocol [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvmess [18]",
-                "🇦🇪 AE | 🔓 VLESS | @v2trayproxy [17]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @vaslbemmonid [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -435,7 +433,6 @@
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]",
                 "❔ XX | 🔓 VLESS | @freedom_config [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
-                "🚩 CF | 🔓 VLESS | @freevpnatm [19]",
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "❔ XX | 🔒 VLESS | @garnet_free [12]",
@@ -511,6 +508,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayvpnclub [21]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [13]",
                 "🚩 CF | 🔒 VLESS | @v2source [19]",
+                "🚩 CF | 🔒 VLESS | @v2trayproxy [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii [9]",
@@ -1934,15 +1932,6 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @v2trayproxy [17]",
-            "type": "vless",
-            "server": "87.248.129.226",
-            "server_port": 3215,
-            "uuid": "2367e117-0d3e-4b8c-9fd6-0abceb115933",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
             "type": "vless",
             "server": "162.159.15.252",
@@ -2676,22 +2665,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "sourceforge.net"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @freevpnatm [19]",
-            "type": "vless",
-            "server": "communal-loss.oneeat.co",
-            "server_port": 80,
-            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "communal-loss.oneeat.co"
-                }
             }
         },
         {
@@ -4077,6 +4050,31 @@
                 "path": "/kskoxmws",
                 "headers": {
                     "Host": "638886055652729522.warsaw-prx-dnraaao.info"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2trayproxy [19]",
+            "type": "vless",
+            "server": "freexxx.xhamster.biz.id",
+            "server_port": 443,
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "freexxx.xhamster.biz.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-CF-Proxy-AE19",
+                "headers": {
+                    "Host": "freexxx.xhamster.biz.id"
                 }
             }
         },
