@@ -118,7 +118,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇺🇸 US | 🔒 VLESS | @mowjproxy [6]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -164,7 +163,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇺🇸 US | 🔒 VLESS | @mowjproxy [6]",
                 "❔ XX | 🔒 VLESS | @mt_team_iran [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
@@ -891,29 +889,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @mowjproxy [6]",
-            "type": "vless",
-            "server": "api.hostbaran.info",
-            "server_port": 15810,
-            "uuid": "4ad963a1-48a4-40cf-9ec0-26a732e0d887",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pottermore.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
-                    "short_id": "75"
-                }
             }
         },
         {
