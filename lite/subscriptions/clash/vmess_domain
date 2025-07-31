@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name":"❔ XX | 🔓 VMESS | @configforvpn01 [10]","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @freevpnatm [15]","type":"vmess","server":"104.16.0.0","port":443,"cipher":"auto","uuid":"22347b56-b6a4-4143-90f1-bf04ec590e86","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/22347b56-b6a4-4143-90f1-bf04ec590e86-vm?ed=2048","headers":{"Host":"reservation-commentary-maintained-stores.trycloudflare.com"}}}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @jetupnet [2]","type":"vmess","server":"46.38.146.68","port":38585,"cipher":"auto","uuid":"e3cc1286-8401-4b1f-b110-dac3a2b15050","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔓 VMESS | @savagenet [2]","type":"vmess","server":"ir.svgspeedtest.net","port":38960,"cipher":"auto","uuid":"41c91b85-66bb-4aa7-a7f5-e30ec82cffab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]","type":"vmess","server":"91.107.160.240","port":15795,"cipher":"auto","uuid":"7ca6c13a-e450-49fa-9b9c-b49a6eda5b79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -42,6 +43,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '❔ XX | 🔓 VMESS | @configforvpn01 [10]'
+      - '🚩 CF | 🔒 VMESS | @freevpnatm [15]'
       - '🇮🇷 IR | 🔓 VMESS | @jetupnet [2]'
       - '❔ XX | 🔓 VMESS | @savagenet [2]'
       - '🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]'

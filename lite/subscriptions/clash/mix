@@ -25,11 +25,13 @@ dns:
 proxies: 
   - {"name":"❔ XX | 🔓 VMESS | @configforvpn01 [10]","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
   - {"name":"🇵🇹 PT | 🔒 SS | @filtershekan_channel [13]","type":"ss","server":"185.231.233.173","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔒 VMESS | @freevpnatm [15]","type":"vmess","server":"104.16.0.0","port":443,"cipher":"auto","uuid":"22347b56-b6a4-4143-90f1-bf04ec590e86","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/22347b56-b6a4-4143-90f1-bf04ec590e86-vm?ed=2048","headers":{"Host":"reservation-commentary-maintained-stores.trycloudflare.com"}}}
   - {"name":"🇬🇧 GB | 🔒 SS | @injectormconf [40]","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [16]","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @jetupnet [2]","type":"vmess","server":"46.38.146.68","port":38585,"cipher":"auto","uuid":"e3cc1286-8401-4b1f-b110-dac3a2b15050","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦 CA | 🔒 SS | @kurdistan_vpn_perfectt [9]","type":"ss","server":"64.74.163.218","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
-  - {"name":"🇸🇬 SG | 🔒 SS | @outlinereleasedkey [20]","type":"ss","server":"45.76.180.205","port":31298,"password":"c976721a-e390-4dbf-b4f9-72c3feb9594c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱 PL | 🔒 SS | @outlinereleasedkey [20]","type":"ss","server":"45.144.49.140","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🔒 SS | @outlines_vpn [6]","type":"ss","server":"www.outline.network.ak1915.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8388,"password":"NTdkZ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪 AE | 🔒 SS | @proxy_net_meli [10]","type":"ss","server":"217.138.193.10","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🔓 VMESS | @savagenet [2]","type":"vmess","server":"ir.svgspeedtest.net","port":38960,"cipher":"auto","uuid":"41c91b85-66bb-4aa7-a7f5-e30ec82cffab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -54,11 +56,13 @@ proxy-groups:
     proxies: 
       - '❔ XX | 🔓 VMESS | @configforvpn01 [10]'
       - '🇵🇹 PT | 🔒 SS | @filtershekan_channel [13]'
+      - '🚩 CF | 🔒 VMESS | @freevpnatm [15]'
       - '🇬🇧 GB | 🔒 SS | @injectormconf [40]'
+      - '🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [16]'
       - '🇮🇷 IR | 🔓 VMESS | @jetupnet [2]'
       - '🇨🇦 CA | 🔒 SS | @kurdistan_vpn_perfectt [9]'
       - '🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]'
-      - '🇸🇬 SG | 🔒 SS | @outlinereleasedkey [20]'
+      - '🇵🇱 PL | 🔒 SS | @outlinereleasedkey [20]'
       - '❔ XX | 🔒 SS | @outlines_vpn [6]'
       - '🇦🇪 AE | 🔒 SS | @proxy_net_meli [10]'
       - '❔ XX | 🔓 VMESS | @savagenet [2]'

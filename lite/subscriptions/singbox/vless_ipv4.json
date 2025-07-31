@@ -103,7 +103,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
-                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -121,7 +120,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @tc_v2ray [6]",
                 "🚩 CF | 🔓 VLESS | @topvpn02 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
@@ -146,7 +144,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
-                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -164,7 +161,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @tc_v2ray [6]",
                 "🚩 CF | 🔓 VLESS | @topvpn02 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
@@ -466,29 +462,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
-            "type": "vless",
-            "server": "160.30.5.118",
-            "server_port": 54777,
-            "uuid": "1ff0f64d-f578-4aab-8f4e-d5aae561f425",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "swdist.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0Ls6zXxXC4_ZxxzuRg7tbghA4D4hJMDCQIEO6T3h410",
-                    "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
             "type": "vless",
             "server": "109.122.255.184",
@@ -767,15 +740,6 @@
                 "type": "grpc",
                 "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
-            "type": "vless",
-            "server": "78.46.251.109",
-            "server_port": 2020,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
