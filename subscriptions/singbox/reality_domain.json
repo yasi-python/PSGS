@@ -104,7 +104,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
@@ -133,7 +132,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
@@ -519,29 +517,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [16]",
-            "type": "vless",
-            "server": "ger.afterhav.ir",
-            "server_port": 8880,
-            "uuid": "de30882a-e276-443c-9abb-09142d1650a7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com.cn",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "i9i0gRbOcihFuDWgbY8fiRO-uYfmkbAixksapkkI_wA",
-                    "short_id": "62cce1a746fa"
-                }
             }
         },
         {

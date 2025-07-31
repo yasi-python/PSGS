@@ -96,6 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=meow.postpapet.ir&type=xhttp#🇳🇱 NL | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
@@ -111,7 +112,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇺🇸 US | 🔓 VLESS | @filter_breaker [57]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
@@ -132,6 +132,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=meow.postpapet.ir&type=xhttp#🇳🇱 NL | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
@@ -147,7 +148,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇺🇸 US | 🔓 VLESS | @filter_breaker [57]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
@@ -288,6 +288,24 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -521,15 +539,6 @@
                     "short_id": "f23547"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @filter_breaker [57]",
-            "type": "vless",
-            "server": "star.fastsoft98.ir",
-            "server_port": 80,
-            "uuid": "b590cb9f-869c-4610-badb-922cc145b70b",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",

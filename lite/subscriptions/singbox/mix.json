@@ -109,7 +109,7 @@
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
-                "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
+                "❔ XX | 🔓 VLESS | @freevpnatm [18]",
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
@@ -118,7 +118,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
@@ -209,7 +209,7 @@
                 "🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
-                "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
+                "❔ XX | 🔓 VLESS | @freevpnatm [18]",
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
@@ -218,7 +218,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
@@ -640,16 +640,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
-            "type": "vmess",
-            "server": "172.67.150.132",
+            "tag": "❔ XX | 🔓 VLESS | @freevpnatm [18]",
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:b0c4]",
             "server_port": 443,
             "uuid": "f69b7304-9bea-4740-a555-797514012a53",
-            "security": "auto",
-            "alter_id": 0,
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ZZzxXXcDfrT.444682.XyZ",
+                "server_name": "[2606:4700:3033::ac43:b0c4]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -657,8 +657,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "9AYJ8jsARg3AJojchcVZUcmW"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3033::ac43:b0c4]"
+                }
             }
         },
         {
@@ -774,25 +777,18 @@
             "password": "kTjlLxrncKx4i2HIjxfA3M"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [15]",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "198.23.229.250",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "rc6.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },

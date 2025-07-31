@@ -10,16 +10,15 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔ XX | 🔓 VMESS | @configforvpn01 [10] = vmess, shahinnet-freenetcdn.melodyshopone2.ir, 8080, username = 96588912-3bcb-491c-8ce3-7a965bbec07f, ws = true, tls = false, ws-path = /, ws-headers = Host:"sog.shahinnet.shop"
-🚩 CF | 🔒 VMESS | @freevpnatm [18] = vmess, 172.67.150.132, 443, username = f69b7304-9bea-4740-a555-797514012a53, ws = false, tls = true
 🇮🇷 IR | 🔓 VMESS | @jetupnet [2] = vmess, 46.38.146.68, 38585, username = e3cc1286-8401-4b1f-b110-dac3a2b15050, ws = false, tls = false
 ❔ XX | 🔓 VMESS | @savagenet [2] = vmess, ir.svgspeedtest.net, 38960, username = 41c91b85-66bb-4aa7-a7f5-e30ec82cffab, ws = false, tls = false
 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8] = vmess, 91.107.160.240, 15795, username = 7ca6c13a-e450-49fa-9b9c-b49a6eda5b79, ws = false, tls = false
 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19] = vmess, 162.55.174.135, 80, username = 4d9aa6db-705a-4bfa-b05b-8f442c839557, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🚩 CF | 🔒 VMESS | @freevpnatm [18], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
-PSG-AUTO = url-test, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🚩 CF | 🔒 VMESS | @freevpnatm [18], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
-PSG-FALLBACK = fallback, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🚩 CF | 🔒 VMESS | @freevpnatm [18], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
+PSG-AUTO = url-test, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
+PSG-FALLBACK = fallback, ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇮🇷 IR | 🔓 VMESS | @jetupnet [2], ❔ XX | 🔓 VMESS | @savagenet [2], 🇩🇪 DE | 🔓 VMESS | @v2ray4win [8], 🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -41,14 +41,14 @@ proxies:
   - {"name":"🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]","type":"vless","server":"www.speedtest.net","port":443,"uuid":"8b7efacf-8e83-4e51-ab55-1263baccd4b2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"7f905f51.garywelch.pages.dev","ws-opts":{"path":"/","headers":{"Host":"7f905f51.garywelch.pages.dev"}}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]","type":"vless","server":"78.141.233.176","port":8000,"uuid":"4188aee8-0117-445d-a51b-ec214b3318c3","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GGlKs0cQDaQoDkiDlpeIWE-h0K3ohsHr7u9B3A9GODU","short-id":"17ce7de25d262bbe"}}
   - {"name":"🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]","type":"vless","server":"46.102.136.69","port":57803,"uuid":"5b5c6557-d611-4c6f-a43b-a2c48c0b541d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🚩 CF | 🔒 VMESS | @freevpnatm [18]","type":"vmess","server":"172.67.150.132","port":443,"cipher":"auto","uuid":"f69b7304-9bea-4740-a555-797514012a53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"9AYJ8jsARg3AJojchcVZUcmW","grpc-mode":""}}
+  - {"name":"❔ XX | 🔓 VLESS | @freevpnatm [18]","type":"vless","server":"[2606:4700:3033::ac43:b0c4]","port":443,"uuid":"f69b7304-9bea-4740-a555-797514012a53","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]","type":"vless","server":"abdzgg.teemazad.com","port":37062,"uuid":"b3a0f19f-b0f9-4a96-95de-49c5c5a725e0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]","type":"vless","server":"cdnjs.com","port":8880,"uuid":"e0f52d31-566b-437d-9961-1865e38d10fb","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"up.sourceforge.sbs"}}}
   - {"name":"🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]","type":"vless","server":"85.133.200.76","port":443,"uuid":"acda7cb1-54f5-4852-b296-5dbe49261f19","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]","type":"vless","server":"s16.leader21.top","port":5053,"uuid":"3feabdf2-320f-4692-94d5-5a197b0f1ea6","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"s16.leader21.top"}}}
   - {"name":"🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]","type":"vless","server":"85.133.215.172","port":8080,"uuid":"fd704838-af11-436e-84c3-5c89d649fbd4","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇬🇧 GB | 🔒 SS | @injectormconf [40]","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🚩 CF | 🔒 TROJAN | @ip_cf_config [16]","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔒 TROJAN | @ip_cf_config [15]","type":"trojan","server":"198.23.229.250","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]","type":"vless","server":"benefits.by","port":80,"uuid":"2d29bc24-aaf2-4e48-b0c1-ec6d625f8271","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
   - {"name":"🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]","type":"vless","server":"45.77.62.215","port":2052,"uuid":"2df97e78-5a88-4186-bac6-9685b781becf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]","type":"vless","server":"all1.hajhesam.biz.id","port":443,"uuid":"f3f09bd1-b42b-4c40-a773-ee5ae8614444","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de222.hajhesam.biz.id","ws-opts":{"path":"/ws?ed=2056","headers":{"Host":"de222.hajhesam.biz.id"}}}
@@ -133,14 +133,14 @@ proxy-groups:
       - '🚩 CF | 🔒 VLESS | @free_vpn_for_all_of_us [20]'
       - '🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]'
       - '🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]'
-      - '🚩 CF | 🔒 VMESS | @freevpnatm [18]'
+      - '❔ XX | 🔓 VLESS | @freevpnatm [18]'
       - '🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]'
       - '🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]'
       - '🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]'
       - '🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]'
       - '🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]'
       - '🇬🇧 GB | 🔒 SS | @injectormconf [40]'
-      - '🚩 CF | 🔒 TROJAN | @ip_cf_config [16]'
+      - '🇺🇸 US | 🔒 TROJAN | @ip_cf_config [15]'
       - '🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]'
       - '🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]'
       - '🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]'

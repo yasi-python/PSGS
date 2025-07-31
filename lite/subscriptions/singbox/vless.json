@@ -163,7 +163,8 @@
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @xrayzxn [7]"
+                "❔ XX | 🔒 VLESS | @xrayzxn [7]",
+                "❔ XX | 🔓 VLESS | @freevpnatm [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -245,7 +246,8 @@
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @xrayzxn [7]"
+                "❔ XX | 🔒 VLESS | @xrayzxn [7]",
+                "❔ XX | 🔓 VLESS | @freevpnatm [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1602,6 +1604,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "EJUVVd6sh0f9J6drcXIcStL"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @freevpnatm [18]",
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:b0c4]",
+            "server_port": 443,
+            "uuid": "f69b7304-9bea-4740-a555-797514012a53",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3033::ac43:b0c4]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3033::ac43:b0c4]"
+                }
             }
         }
     ],
