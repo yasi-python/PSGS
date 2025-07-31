@@ -97,7 +97,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
@@ -106,9 +105,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇺🇸 US | 🔒 VLESS | @vistav2ray [13]",
                 "🇷🇺 RU | 🔒 VLESS | @vistav2ray [16]"
@@ -127,7 +127,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
@@ -136,9 +135,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇺🇸 US | 🔒 VLESS | @vistav2ray [13]",
                 "🇷🇺 RU | 🔒 VLESS | @vistav2ray [16]"
@@ -339,29 +339,6 @@
                     "enabled": true,
                     "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
                     "short_id": "e1afb93bfe75a34b"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -570,6 +547,29 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "fr.safeline.12.afterhav.ir",
+            "server_port": 8880,
+            "uuid": "ServerNett",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XetKmjWtt6D08aG4I5F9tETkO4RogFgDaqW6F-HHoyA",
+                    "short_id": "64ede3f582de"
+                }
+            }
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
             "type": "vless",
             "server": "luna.postpapet.ir",
@@ -620,7 +620,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
