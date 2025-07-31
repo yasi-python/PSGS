@@ -32,7 +32,7 @@ const IP_CACHE_FILE = __DIR__ . "/channelsData/ip_info_cache.json";
 const SUMMARY_FILE = OUTPUT_DIR . "/summary.json";
 
 // REFACTORED: Renamed for clarity. This now defines the number of configs to include in the main files.
-const CONFIGS_FOR_AGGREGATE = 10; // Process latest 2 configs from each source for final files.
+const CONFIGS_FOR_AGGREGATE = 15; // Process latest 2 configs from each source for final files.
 const PRIVATE_CONFIGS_URL = 'https://raw.githubusercontent.com/itsyebekhe/PSGP/main/private_configs.json';
 
 
