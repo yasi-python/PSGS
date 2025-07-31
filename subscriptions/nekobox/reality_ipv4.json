@@ -96,6 +96,7 @@
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [10]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [15]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [19]",
                 "🇳🇱 NL | 🔒 VLESS | @jokerv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [7]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [8]",
@@ -114,7 +115,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [9]",
                 "🇩🇪 DE | 🔒 VLESS | @nepo_v2ray [2]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
-                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇹🇷 TR | 🔒 VLESS | @proxycrone [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [8]",
@@ -158,6 +159,7 @@
                 "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [10]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [15]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [19]",
                 "🇳🇱 NL | 🔒 VLESS | @jokerv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [7]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [8]",
@@ -176,7 +178,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [9]",
                 "🇩🇪 DE | 🔒 VLESS | @nepo_v2ray [2]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
-                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇹🇷 TR | 🔒 VLESS | @proxycrone [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [8]",
@@ -688,6 +690,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [19]",
+            "type": "vless",
+            "server": "5.75.195.253",
+            "server_port": 443,
+            "uuid": "801d482c-8c42-479d-9a8f-2abcdf25b35d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2jslY7dFcR14gsOun3LqiXXgqp_72YBk35VDWGwTajs",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android"
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @jokerv2ray [2]",
             "type": "vless",
             "server": "178.62.240.53",
@@ -1118,7 +1147,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
             "type": "vless",
             "server": "5.181.20.219",
             "server_port": 17422,
