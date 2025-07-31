@@ -96,11 +96,9 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=meow.postpapet.ir&type=xhttp#🇳🇱 NL | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -117,6 +115,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]"
             ],
@@ -133,11 +132,9 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=meow.postpapet.ir&type=xhttp#🇳🇱 NL | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -154,6 +151,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]"
             ],
@@ -292,24 +290,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c791bcdc-b9b3-4ca2-8110-fa705f4a9d32",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
             "type": "vless",
             "server": "147.182.183.207",
@@ -363,15 +343,6 @@
                     "short_id": "7f2798f9"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "9f9aaa95-3380-4d63-a3df-fa07e8aef582",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
@@ -598,6 +569,29 @@
                     "enabled": true,
                     "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
                     "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "realusa.varzesh3esteghlal.ir",
+            "server_port": 8302,
+            "uuid": "24647fae-269e-4075-be72-2fc9d68e2bb3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PICxFRuAS1nuBRfWUf09e9FDlE_Fx5JfsFgVophwgBs",
+                    "short_id": ""
                 }
             }
         },

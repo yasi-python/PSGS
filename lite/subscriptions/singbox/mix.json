@@ -118,7 +118,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [17]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
@@ -178,7 +178,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnmeg [3]",
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]",
-                "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -218,7 +217,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [17]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
@@ -278,7 +277,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnmeg [3]",
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]",
-                "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -775,18 +773,25 @@
             "password": "kTjlLxrncKx4i2HIjxfA3M"
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [17]",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "www.yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -1751,29 +1756,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @vpnwlf [11]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
             }
         },
         {

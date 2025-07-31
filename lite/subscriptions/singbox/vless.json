@@ -135,6 +135,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
@@ -162,7 +163,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnmeg [3]",
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
-                "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
@@ -218,6 +218,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @frev2rayng [20]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇺🇸 US | 🔒 VLESS | @iransoftware90 [2]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
@@ -245,7 +246,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_meliii [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnmeg [3]",
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
-                "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
@@ -1078,6 +1078,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [16]",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
             "type": "vless",
             "server": "benefits.by",
@@ -1558,29 +1581,6 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @vpnwlf [11]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @wbrovers [1]",
