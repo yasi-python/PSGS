@@ -321,7 +321,7 @@
             "logo": ""
         },
         "type": "reality",
-        "config": "vless://1ff0f64d-f578-4aab-8f4e-d5aae561f425@160.30.5.118:54777?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=swdist.apple.com&allowInsecure=1&fp=chrome&security=reality&pbk=0Ls6zXxXC4_ZxxzuRg7tbghA4D4hJMDCQIEO6T3h410&sid=6ba85179e30d4fc2&packetEncoding=xudp#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40freevpnatm%20%5B9%5D"
+        "config": "vless://1ff0f64d-f578-4aab-8f4e-d5aae561f425@160.30.5.118:54777?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=swdist.apple.com&allowInsecure=1&fp=chrome&security=reality&pbk=0Ls6zXxXC4_ZxxzuRg7tbghA4D4hJMDCQIEO6T3h410&sid=6ba85179e30d4fc2&packetEncoding=xudp#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40freevpnatm%20%5B8%5D"
     },
     {
         "channel": {
@@ -330,7 +330,7 @@
             "logo": ""
         },
         "type": "vmess",
-        "config": "vmess://eyJ2IjoiMiIsImFkZCI6IjEwNC4xNi4wLjAiLCJwb3J0IjoiNDQzIiwiaWQiOiIyMjM0N2I1Ni1iNmE0LTQxNDMtOTBmMS1iZjA0ZWM1OTBlODYiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoicmVzZXJ2YXRpb24tY29tbWVudGFyeS1tYWludGFpbmVkLXN0b3Jlcy50cnljbG91ZGZsYXJlLmNvbSIsInBhdGgiOiJcLzIyMzQ3YjU2LWI2YTQtNDE0My05MGYxLWJmMDRlYzU5MGU4Ni12bT9lZD0yMDQ4IiwidGxzIjoidGxzIiwic25pIjoicmVzZXJ2YXRpb24tY29tbWVudGFyeS1tYWludGFpbmVkLXN0b3Jlcy50cnljbG91ZGZsYXJlLmNvbSIsImFscG4iOiIiLCJmcCI6IiIsInBzIjoiXHVkODNkXHVkZWE5IENGIHwgXHVkODNkXHVkZDEyIFZNRVNTIHwgQGZyZWV2cG5hdG0gWzEwXSJ9"
+        "config": "vmess://eyJ2IjoiMiIsImFkZCI6IjEwNC4xNi4wLjAiLCJwb3J0IjoiNDQzIiwiaWQiOiIyMjM0N2I1Ni1iNmE0LTQxNDMtOTBmMS1iZjA0ZWM1OTBlODYiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoicmVzZXJ2YXRpb24tY29tbWVudGFyeS1tYWludGFpbmVkLXN0b3Jlcy50cnljbG91ZGZsYXJlLmNvbSIsInBhdGgiOiJcLzIyMzQ3YjU2LWI2YTQtNDE0My05MGYxLWJmMDRlYzU5MGU4Ni12bT9lZD0yMDQ4IiwidGxzIjoidGxzIiwic25pIjoicmVzZXJ2YXRpb24tY29tbWVudGFyeS1tYWludGFpbmVkLXN0b3Jlcy50cnljbG91ZGZsYXJlLmNvbSIsImFscG4iOiIiLCJmcCI6IiIsInBzIjoiXHVkODNkXHVkZWE5IENGIHwgXHVkODNkXHVkZDEyIFZNRVNTIHwgQGZyZWV2cG5hdG0gWzldIn0"
     },
     {
         "channel": {
@@ -464,8 +464,8 @@
             "title": "Unknown Channel",
             "logo": ""
         },
-        "type": "trojan",
-        "config": "trojan://2ee85121-31de-4581-a492-eb00f606e392@192.3.107.252:443?security=tls&sni=rc8.freeguard.org#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%94%92%20TROJAN%20%7C%20%40ip_cf_config%20%5B13%5D"
+        "type": "vmess",
+        "config": "vmess://eyJhZGQiOiI1MS43OS4xMDIuMjUzIiwiYWlkIjowLCJob3N0IjoiNTEuNzkuMTAyLjI1MyIsImlkIjoiNThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9JT2ViaExNaGwxQ1RiRkhiTDk1bXlmUlgyIiwicG9ydCI6ODAsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwicHMiOiJcdWQ4M2NcdWRkZThcdWQ4M2NcdWRkZTYgQ0EgfCBcdWQ4M2RcdWRkMTMgVk1FU1MgfCBAaXBfY2ZfY29uZmlnIFsxNV0ifQ"
     },
     {
         "channel": {
@@ -473,8 +473,8 @@
             "title": "Unknown Channel",
             "logo": ""
         },
-        "type": "vmess",
-        "config": "vmess://eyJhZGQiOiI1NDEwMjkzNi1zd2toczAtc3h3c29zLWczYjMuaGsucDVwdi5jb20iLCJhaWQiOjIsImhvc3QiOiI1NDEwMjkzNi1zd2toczAtc3h3c29zLWczYjMuaGsucDVwdi5jb20iLCJpZCI6IjlhZDA1ODcwLWQ4YzUtMTFlZi05ZjFjLWYyM2M5MTNjOGQyYiIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwicG9ydCI6ODAsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6ZmFsc2UsInNuaSI6ImJyb2FkY2FzdGx2LmNoYXQuYmlsaWJpbGkuY29tIiwicHMiOiJcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjAgSEsgfCBcdWQ4M2RcdWRkMTMgVk1FU1MgfCBAaXBfY2ZfY29uZmlnIFsxNF0ifQ"
+        "type": "trojan",
+        "config": "trojan://5e2f888c-68ef-11ef-96ca-f23c9164ca5d@13c2c931-swin40-swy6li-tni2.cu.plebai.net:15229?allowInsecure=0&sni=13c2c931-swin40-swy6li-tni2.cu.plebai.net#%E2%9D%94%20XX%20%7C%20%F0%9F%94%93%20TROJAN%20%7C%20%40ip_cf_config%20%5B16%5D"
     },
     {
         "channel": {
@@ -608,8 +608,17 @@
             "title": "Unknown Channel",
             "logo": ""
         },
-        "type": "vless",
-        "config": "vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.24.171.107:443?path=%2FeJ5JZ3A1HxfU0bPO%3Fed%3D2560%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI&security=tls&encryption=none&host=vngsupply.ip-ddns.com&type=ws&sni=vNgSUppLy.IP-dDnS.COm#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40lranonline_new%20%5B4%5D"
+        "type": "reality",
+        "config": "vless://Telegram---SRCVPN@91.107.129.66:3080?type=grpc&serviceName=&authority=-%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40lranonline_new%20%5B4%5D"
+    },
+    {
+        "channel": {
+            "username": "unknown",
+            "title": "Unknown Channel",
+            "logo": ""
+        },
+        "type": "reality",
+        "config": "vless://Telegram---SRCVPN@91.107.129.66:3090?type=grpc&serviceName=&authority=-%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN---%40SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40lranonline_new%20%5B5%5D"
     },
     {
         "channel": {
@@ -1383,7 +1392,7 @@
             "logo": ""
         },
         "type": "vless",
-        "config": "vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.120.35.48:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vlessconfig%20%5B13%5D"
+        "config": "vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.120.35.48:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vlessconfig%20%5B17%5D"
     },
     {
         "channel": {
@@ -1392,7 +1401,7 @@
             "logo": ""
         },
         "type": "vless",
-        "config": "vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.179.68.57:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vlessconfig%20%5B14%5D"
+        "config": "vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.179.68.57:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vlessconfig%20%5B18%5D"
     },
     {
         "channel": {

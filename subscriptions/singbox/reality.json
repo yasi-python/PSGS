@@ -140,6 +140,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
@@ -214,6 +215,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
@@ -1476,6 +1478,29 @@
                     "enabled": true,
                     "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
                     "short_id": "e1afb93bfe75a34b"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
