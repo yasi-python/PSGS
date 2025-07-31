@@ -96,8 +96,8 @@
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [20]",
-                "🚩 CF | 🔓 VMESS | @ip_cf_config [14]",
+                "❔ XX | 🔓 VMESS | @hope_net [24]",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VMESS | @ipv2rayng [9]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [13]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [15]",
@@ -139,7 +139,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔓 VMESS | @v2ray_n [17]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -168,8 +169,8 @@
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [20]",
-                "🚩 CF | 🔓 VMESS | @ip_cf_config [14]",
+                "❔ XX | 🔓 VMESS | @hope_net [24]",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VMESS | @ipv2rayng [9]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [13]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [15]",
@@ -211,7 +212,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔓 VMESS | @v2ray_n [17]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -373,32 +375,25 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [24]",
             "type": "vmess",
-            "server": "104.21.238.41",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "baaaccb-abca-caba-dcba-aacccacbabbb",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "104.21.238.41"
-                }
-            }
+            "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @ip_cf_config [14]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [14]",
             "type": "vmess",
-            "server": "172.67.131.27",
-            "server_port": 2053,
-            "uuid": "350e2b01-d410-44a6-90ba-6483f1062972",
+            "server": "103.253.26.134",
+            "server_port": 443,
+            "uuid": "aba50dd4-5484-3b05-b14a-4661caf862d5",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 4,
             "tls": {
                 "enabled": true,
-                "server_name": "rak2d4.89060004.xyz",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -407,9 +402,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/ws",
                 "headers": {
-                    "Host": "rak2d4.89060004.xyz"
+                    "Host": ""
                 }
             }
         },
@@ -1090,7 +1085,7 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "twjxlnnoljxc2.jkhkgj.xyz",
             "server_port": 80,
@@ -1100,6 +1095,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/market/us1?ed=512",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "vjp3.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/chat",
                 "headers": {
                     "Host": ""
                 }
