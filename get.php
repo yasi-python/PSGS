@@ -3,11 +3,13 @@
 declare(strict_types=1);
 
 /**
- * Stage 2: Config Extractor
+ * Stage 2: Config Extractor (Refactored for Performance + Summary)
  * - Reads channel data and cached HTML from Stage 1.
  * - Extracts proxy configs from both cached HTML files AND the remote private_configs.json.
- * - Processes, enriches, and saves the final subscription files.
+ * - Processes, enriches, and saves the final subscription files using a "Process Once, Use Many" strategy.
+ * - Uses a persistent cache for IP geolocation to reduce network lookups.
  * - Removes channels from channelsAssets.json if they no longer provide valid configs.
+ * - Generates a summary.json file with statistics about the run.
  */
 
 // --- Setup ---
@@ -24,10 +26,13 @@ const OUTPUT_DIR = __DIR__ . "/subscriptions";
 const LOCATION_DIR = OUTPUT_DIR . "/location";
 const CHANNEL_SUBS_DIR = OUTPUT_DIR . "/channel";
 const FINAL_CONFIG_FILE = __DIR__ . "/config.txt";
+const IP_CACHE_FILE = __DIR__ . "/channelsData/ip_info_cache.json";
+// SUMMARY: Define the path for the new summary file.
+const SUMMARY_FILE = OUTPUT_DIR . "/summary.json";
 
-// --- NEW: Separate limits for different outputs ---
-const CONFIGS_FOR_MAIN_AGGREGATE = 5; // Process latest 5 configs for the main/location files.
-const CONFIGS_FOR_CHANNEL_SUBS = 25; // Process latest 25 configs for the per-channel subscription files.
+// --- Limits for different outputs ---
+const CONFIGS_FOR_MAIN_AGGREGATE = 5;
+const CONFIGS_FOR_CHANNEL_SUBS = 25;
 
 const PRIVATE_CONFIGS_URL = "https://raw.githubusercontent.com/itsyebekhe/PSGP/main/private_configs.json";
 
@@ -37,7 +42,7 @@ const PRIVATE_CONFIGS_URL = "https://raw.githubusercontent.com/itsyebekhe/PSGP/m
  * @param string $source The source channel name.
  * @param int $key The original index of the config.
  * @param array &$ipInfoCache A reference to the IP information cache.
- * @return array|null The enriched config and its country code, or null if invalid.
+ * @return array|null The enriched config and its metadata, or null if invalid.
  */
 function processAndEnrichConfig(
     string $config,
@@ -66,11 +71,7 @@ function processAndEnrichConfig(
     if ($decodedConfig === null) {
         return null;
     }
-    if (
-        $type === "ss" &&
-        (empty($decodedConfig["encryption_method"]) ||
-            empty($decodedConfig["password"]))
-    ) {
+    if ($type === "ss" && (empty($decodedConfig["encryption_method"]) || empty($decodedConfig["password"]))) {
         return null;
     }
 
@@ -86,42 +87,25 @@ function processAndEnrichConfig(
     }
     $countryCode = $ipInfoCache[$ipOrHost];
 
-    $flag =
-        $countryCode === "XX"
-            ? "❔"
-            : ($countryCode === "CF"
-                ? "🚩"
-                : getFlags($countryCode));
-    // This version places the lock icon next to the protocol type for clarity.
-
-    // 1. Determine the security status using your existing function.
+    $flag = $countryCode === "XX" ? "❔" : ($countryCode === "CF" ? "🚩" : getFlags($countryCode));
     $securityEmoji = isEncrypted($config) ? '🔒' : '🔓';
-
-    // 2. Format the new name string. The format is:
-    //    FLAG COUNTRY_CODE | SECURITY_ICON PROTOCOL_TYPE | @source #ID
     $newName = sprintf(
         '%s %s | %s %s | @%s [%d]',
-        $flag,                      // Flag emoji (e.g., 🇺🇸)
-        $countryCode,               // 2-letter country code (e.g., US)
-        $securityEmoji,             // Security status emoji (🔒 or 🔓)
-        strtoupper($type),          // Protocol type in uppercase (e.g., VLESS)
-        $source,                    // Source channel name (e.g., MyChannel)
-        $key + 1                    // 1-based index for readability (e.g., #16)
+        $flag, $countryCode, $securityEmoji, strtoupper($type), $source, $key + 1
     );
-    // --- END: FINAL NAMING STRATEGY ---
-
     $decodedConfig[$configFields[$type]["name"]] = $newName;
-
     $encodedConfig = reparseConfig($decodedConfig, $type);
     if ($encodedConfig === null) {
         return null;
     }
-
     $finalConfigString = str_replace("amp%3B", "", $encodedConfig);
 
     return [
         'config' => $finalConfigString,
         'country' => $countryCode,
+        'source' => $source,
+        // SUMMARY: Also return the protocol type for statistics.
+        'type' => $type,
     ];
 }
 
@@ -130,14 +114,10 @@ echo "--- STAGE 2: CONFIG EXTRACTOR ---" . PHP_EOL;
 echo "1. Loading source list from assets file..." . PHP_EOL;
 
 if (!file_exists(ASSETS_FILE)) {
-    die(
-        "Error: channelsAssets.json not found. Please run the assets script first." .
-            PHP_EOL
-    );
+    die("Error: channelsAssets.json not found. Please run the assets script first." . PHP_EOL);
 }
 if (!is_dir(HTML_CACHE_DIR)) {
-    echo "Warning: HTML cache directory not found. Will only process subscription-based channels if any." .
-        PHP_EOL;
+    echo "Warning: HTML cache directory not found. Will only process subscription-based channels if any." . PHP_EOL;
 }
 
 $sourcesArray = json_decode(file_get_contents(ASSETS_FILE), true);
@@ -153,189 +133,132 @@ $sourceCounter = 0;
 
 foreach ($sourcesArray as $source => $sourceData) {
     print_progress(++$sourceCounter, $totalSources, "Extracting (HTML):");
-    if (isset($sourceData["subscription_url"])) {
-        continue;
-    }
-
+    if (isset($sourceData["subscription_url"])) continue;
     $htmlFile = HTML_CACHE_DIR . "/" . $source . ".html";
-    if (!file_exists($htmlFile)) {
-        continue;
-    }
-
-    $htmlContent = file_get_contents($htmlFile);
-    if (empty($htmlContent)) {
-        continue;
-    }
-
-    $extractedLinks = extractLinksByType($htmlContent);
-    if (!empty($extractedLinks)) {
-        $configsList[$source] = array_values(array_unique($extractedLinks));
+    if (file_exists($htmlFile)) {
+        $htmlContent = file_get_contents($htmlFile);
+        if (!empty($htmlContent)) {
+            $extractedLinks = extractLinksByType($htmlContent);
+            if (!empty($extractedLinks)) {
+                $configsList[$source] = array_values(array_unique($extractedLinks));
+            }
+        }
     }
 }
-echo PHP_EOL .
-    "HTML extraction complete. Found configs from " .
-    count($configsList) .
-    " sources." .
-    PHP_EOL;
+echo PHP_EOL . "HTML extraction complete. Found configs from " . count($configsList) . " sources." . PHP_EOL;
 
 // --- 2.5. Integrate configs from the remote private_configs.json file ---
 echo "\n2.5. Integrating configs from private source..." . PHP_EOL;
 $privateConfigsJson = @file_get_contents(PRIVATE_CONFIGS_URL);
-
-if ($privateConfigsJson === false) {
-    echo "  - WARNING: Could not fetch private_configs.json. Skipping this integration." .
-        PHP_EOL;
-} else {
+if ($privateConfigsJson !== false) {
     $privateConfigsData = json_decode($privateConfigsJson, true);
-    if (json_last_error() !== JSON_ERROR_NONE) {
-        echo "  - WARNING: The fetched private_configs.json is not valid JSON. Skipping." .
-            PHP_EOL;
-    } else {
+    if (json_last_error() === JSON_ERROR_NONE) {
         echo "  - Successfully fetched private configs. Merging..." . PHP_EOL;
         foreach ($privateConfigsData as $source => $configs) {
-            if (empty($configs) || !is_array($configs)) {
-                continue;
-            }
-
+            if (empty($configs) || !is_array($configs)) continue;
             if (isset($configsList[$source])) {
-                $configsList[$source] = array_values(
-                    array_unique(array_merge($configsList[$source], $configs))
-                );
-                echo "    - Merged private configs for existing source: '{$source}'" .
-                    PHP_EOL;
+                $configsList[$source] = array_values(array_unique(array_merge($configsList[$source], $configs)));
             } else {
                 $configsList[$source] = $configs;
-                echo "    - Added configs for private-only source: '{$source}'" .
-                    PHP_EOL;
             }
         }
-        echo "  - Finished merging private configs." . PHP_EOL;
+    } else {
+        echo "  - WARNING: The fetched private_configs.json is not valid JSON. Skipping." . PHP_EOL;
     }
+} else {
+    echo "  - WARNING: Could not fetch private_configs.json. Skipping this integration." . PHP_EOL;
 }
 
-// --- 3. Process and Enrich Configs for MAIN AGGREGATE files ---
-echo "\n3. Processing configs for main aggregate files (max " .
-    CONFIGS_FOR_MAIN_AGGREGATE .
-    " per source)..." .
-    PHP_EOL;
-$ipInfoCache = [];
-$finalOutput = [];
-$locationBased = [];
-$sourcesWithValidConfigs = []; // This will be populated fully in the next step
+// --- 3. Process All Configs Once and Store in a Master List ---
+echo "\n3. Processing all found configs (max " . CONFIGS_FOR_CHANNEL_SUBS . " per source)..." . PHP_EOL;
+
+$ipInfoCache = file_exists(IP_CACHE_FILE) ? json_decode(file_get_contents(IP_CACHE_FILE), true) : [];
+$allProcessedConfigs = [];
+$sourcesWithValidConfigs = [];
+
+// SUMMARY: Initialize stats counters.
+$stats = [
+    'total_extracted_raw' => 0,
+    'protocol_counts' => [],
+];
+foreach ($configsList as $configs) {
+    $stats['total_extracted_raw'] += count($configs);
+}
 
 $totalConfigsToProcess = 0;
 foreach ($configsList as $configs) {
-    $totalConfigsToProcess += min(count($configs), CONFIGS_FOR_MAIN_AGGREGATE);
+    $totalConfigsToProcess += min(count($configs), CONFIGS_FOR_CHANNEL_SUBS);
 }
 $processedCount = 0;
 
 foreach ($configsList as $source => $configs) {
-    $configsToProcess = array_slice($configs, -CONFIGS_FOR_MAIN_AGGREGATE);
-    $key_offset = count($configs) - count($configsToProcess);
-
-    foreach ($configsToProcess as $key => $config) {
-        if ($totalConfigsToProcess > 0) {
-            print_progress(
-                ++$processedCount,
-                $totalConfigsToProcess,
-                "Processing (Main):"
-            );
-        }
-
-        // MODIFIED: Get the returned array from the function
-        $processedData = processAndEnrichConfig(
-            $config,
-            $source,
-            $key + $key_offset,
-            $ipInfoCache
-        );
-
-        // MODIFIED: Use the structured data directly
-        if ($processedData !== null) {
-            $finalOutput[] = $processedData['config'];
-            $countryCode = $processedData['country'];
-            $locationBased[$countryCode][] = $processedData['config'];
-        }
-    }
-}
-echo PHP_EOL . "Main processing complete." . PHP_EOL;
-
-// --- 4. Write Main and Location-Based Subscription Files ---
-echo "\n4. Writing main and location-based subscription files..." . PHP_EOL;
-if (is_dir(LOCATION_DIR)) {
-    deleteFolder(LOCATION_DIR);
-}
-mkdir(LOCATION_DIR . "/normal", 0775, true);
-mkdir(LOCATION_DIR . "/base64", 0775, true);
-
-foreach ($locationBased as $location => $configs) {
-    if (empty(trim($location))) {
-        continue;
-    }
-    $plainText = implode(PHP_EOL, $configs);
-    file_put_contents(LOCATION_DIR . "/normal/" . $location, $plainText);
-    file_put_contents(
-        LOCATION_DIR . "/base64/" . $location,
-        base64_encode($plainText)
-    );
-}
-file_put_contents(FINAL_CONFIG_FILE, implode(PHP_EOL, $finalOutput));
-echo "Main and location files written." . PHP_EOL;
-
-// --- 4.5. Process and Write Channel-Specific Subscription Files ---
-echo "\n4.5. Generating channel-specific subscriptions (max " .
-    CONFIGS_FOR_CHANNEL_SUBS .
-    " configs)..." .
-    PHP_EOL;
-if (is_dir(CHANNEL_SUBS_DIR)) {
-    deleteFolder(CHANNEL_SUBS_DIR);
-}
-mkdir(CHANNEL_SUBS_DIR . "/normal", 0775, true);
-mkdir(CHANNEL_SUBS_DIR . "/base64", 0775, true);
-
-$totalChannels = count($configsList);
-$channelCounter = 0;
-
-foreach ($configsList as $source => $configs) {
-    print_progress(++$channelCounter, $totalChannels, "Writing Channels:");
-
-    $channelSpecificConfigs = [];
     $configsToProcess = array_slice($configs, -CONFIGS_FOR_CHANNEL_SUBS);
     $key_offset = count($configs) - count($configsToProcess);
 
     foreach ($configsToProcess as $key => $config) {
-        // MODIFIED: Get the returned array from the function
-        $processedData = processAndEnrichConfig(
-            $config,
-            $source,
-            $key + $key_offset,
-            $ipInfoCache
-        );
+        print_progress(++$processedCount, $totalConfigsToProcess, "Processing:");
+        $processedData = processAndEnrichConfig($config, $source, $key + $key_offset, $ipInfoCache);
 
-        // MODIFIED: Use the config string from the returned array
         if ($processedData !== null) {
-            $channelSpecificConfigs[] = $processedData['config'];
-            // A source is valid if it produces at least one valid config in this comprehensive check
-            if (!isset($sourcesWithValidConfigs[$source])) {
-                $sourcesWithValidConfigs[$source] = true;
-            }
+            $allProcessedConfigs[] = $processedData;
+            $sourcesWithValidConfigs[$source] = true;
+
+            // SUMMARY: Tally the protocol counts.
+            $protocol = $processedData['type'];
+            $stats['protocol_counts'][$protocol] = ($stats['protocol_counts'][$protocol] ?? 0) + 1;
         }
     }
+}
+echo PHP_EOL . "Processing complete. Found " . count($allProcessedConfigs) . " valid configs in total." . PHP_EOL;
 
-    if (!empty($channelSpecificConfigs)) {
-        $plainText = implode(PHP_EOL, $channelSpecificConfigs);
-        $fileName = preg_replace("/[^a-zA-Z0-9_-]/", "", $source);
-        file_put_contents(
-            CHANNEL_SUBS_DIR . "/normal/" . $fileName,
-            $plainText
-        );
-        file_put_contents(
-            CHANNEL_SUBS_DIR . "/base64/" . $fileName,
-            base64_encode($plainText)
-        );
+// --- 4. Write All Subscription Files from the Processed Master List ---
+echo "\n4. Writing all subscription files..." . PHP_EOL;
+
+if (is_dir(OUTPUT_DIR)) deleteFolder(OUTPUT_DIR);
+mkdir(LOCATION_DIR . "/normal", 0775, true);
+mkdir(LOCATION_DIR . "/base64", 0775, true);
+mkdir(CHANNEL_SUBS_DIR . "/normal", 0775, true);
+mkdir(CHANNEL_SUBS_DIR . "/base64", 0775, true);
+
+$mainAggregateConfigs = [];
+$locationBased = [];
+$channelBased = [];
+
+$groupedBySource = [];
+foreach ($allProcessedConfigs as $procConf) {
+    $groupedBySource[$procConf['source']][] = $procConf['config'];
+}
+
+foreach ($groupedBySource as $source => $s_configs) {
+    $mainAggregateSlice = array_slice($s_configs, -CONFIGS_FOR_MAIN_AGGREGATE);
+    $mainAggregateConfigs = array_merge($mainAggregateConfigs, $mainAggregateSlice);
+    $channelBased[$source] = $s_configs;
+}
+
+foreach ($allProcessedConfigs as $procConf) {
+    if (in_array($procConf['config'], $mainAggregateConfigs)) {
+        $locationBased[$procConf['country']][] = $procConf['config'];
     }
 }
-echo PHP_EOL . "Channel-specific files written." . PHP_EOL;
+
+echo "  - Writing main and location files..." . PHP_EOL;
+file_put_contents(FINAL_CONFIG_FILE, implode(PHP_EOL, $mainAggregateConfigs));
+foreach ($locationBased as $location => $configs) {
+    if (empty(trim($location))) continue;
+    $plainText = implode(PHP_EOL, $configs);
+    file_put_contents(LOCATION_DIR . "/normal/" . $location, $plainText);
+    file_put_contents(LOCATION_DIR . "/base64/" . $location, base64_encode($plainText));
+}
+echo "    Done." . PHP_EOL;
+
+echo "  - Writing channel-specific files..." . PHP_EOL;
+foreach ($channelBased as $source => $configs) {
+    $plainText = implode(PHP_EOL, $configs);
+    $fileName = preg_replace("/[^a-zA-Z0-9_-]/", "", $source);
+    file_put_contents(CHANNEL_SUBS_DIR . "/normal/" . $fileName, $plainText);
+    file_put_contents(CHANNEL_SUBS_DIR . "/base64/" . $fileName, base64_encode($plainText));
+}
+echo "    Done." . PHP_EOL;
 
 // --- 5. Clean up channelsAssets.json ---
 echo "\n5. Cleaning up channelsAssets.json..." . PHP_EOL;
@@ -343,9 +266,7 @@ $originalSourceCount = count($sourcesArray);
 $updatedSourcesArray = array_filter(
     $sourcesArray,
     function ($sourceData, $key) use ($sourcesWithValidConfigs) {
-        if (isset($sourceData["subscription_url"])) {
-            return true;
-        }
+        if (isset($sourceData["subscription_url"])) return true;
         return isset($sourcesWithValidConfigs[$key]);
     },
     ARRAY_FILTER_USE_BOTH
@@ -353,17 +274,51 @@ $updatedSourcesArray = array_filter(
 $finalSourceCount = count($updatedSourcesArray);
 $removedCount = $originalSourceCount - $finalSourceCount;
 if ($removedCount > 0) {
-    echo "Removed $removedCount source(s) that had no valid configs and were not subscription links." .
-        PHP_EOL;
-    file_put_contents(
-        ASSETS_FILE,
-        json_encode(
-            $updatedSourcesArray,
-            JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
-        )
-    );
+    echo "Removed $removedCount source(s) that had no valid configs and were not subscription links." . PHP_EOL;
+    file_put_contents(ASSETS_FILE, json_encode($updatedSourcesArray, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
 } else {
     echo "No sources needed to be removed." . PHP_EOL;
 }
+
+// --- 6. Save Caches and Generate Summary ---
+
+// Save the IP cache
+echo "\n6. Saving IP information cache to disk..." . PHP_EOL;
+file_put_contents(IP_CACHE_FILE, json_encode($ipInfoCache, JSON_PRETTY_PRINT));
+echo "Cache saved." . PHP_EOL;
+
+// SUMMARY: Assemble and write the summary file.
+echo "\n7. Generating summary file..." . PHP_EOL;
+
+// Get country distribution from the main aggregate configs for relevance.
+$countryDistribution = array_count_values(array_column($locationBased, 0));
+arsort($countryDistribution);
+
+$summaryData = [
+    'meta' => [
+        'last_updated' => date('c'), // ISO 8601 format
+        'author' => 'itsyebekhe/PSG',
+    ],
+    'sources' => [
+        'total_from_assets' => $originalSourceCount,
+        'had_configs_extracted' => count($configsList),
+        'had_valid_configs' => count($sourcesWithValidConfigs),
+        'removed_in_cleanup' => $removedCount,
+    ],
+    'configs' => [
+        'total_extracted_raw' => $stats['total_extracted_raw'],
+        'total_valid_processed' => count($allProcessedConfigs),
+        'breakdown_by_protocol' => $stats['protocol_counts'],
+    ],
+    'outputs' => [
+        'main_aggregate_size' => count($mainAggregateConfigs),
+        'location_files_created' => count($locationBased),
+        'channel_files_created' => count($channelBased),
+        'country_distribution' => $countryDistribution,
+    ],
+];
+
+file_put_contents(SUMMARY_FILE, json_encode($summaryData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+echo "Summary file generated at: " . SUMMARY_FILE . PHP_EOL;
 
 echo "\nDone! All files have been generated successfully." . PHP_EOL;
