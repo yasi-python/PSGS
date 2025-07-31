@@ -239,7 +239,9 @@ file_put_contents(IP_CACHE_FILE, json_encode($ipInfoCache, JSON_PRETTY_PRINT));
 
 // NEW: Assemble and write the summary file.
 echo "\n7. Generating summary file..." . PHP_EOL;
-$countryDistribution = array_map('count', $locationBased);
+// Get country distribution by directly counting countries from the master list.
+$allCountryCodes = array_column($allProcessedConfigs, 'country');
+$countryDistribution = array_count_values($allCountryCodes);
 arsort($countryDistribution);
 
 $summaryData = [
