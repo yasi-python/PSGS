@@ -1692,7 +1692,8 @@ async function handleShare(contentToUpload, buttonElement) {
                     case 'vless':
                     case 'trojan':
                     case 'tuic':
-                    case 'hy2': {
+                    case 'hy2': 
+                    case 'hysteria2': {
                         let url;
                         try {
                             url = new URL(uri);
@@ -1827,9 +1828,11 @@ async function handleShare(contentToUpload, buttonElement) {
                 // 1. It uses an allowed advanced transport.
                 // OR
                 // 2. Its transport is 'tcp' AND it's using TLS.
-                if (!ALLOWED_ADVANCED_TRANSPORTS.includes(transportType) && !(transportType === 'tcp' && isTlsEnabled)) {
-                    return null; // Discard plain, unencrypted TCP and other unsupported transports.
-                }
+                if (p.protocol === 'hy2' || p.protocol === 'hysteria2') {
+	            // This is a valid node, do nothing and let it pass the filter.
+	        } else if (!ALLOWED_ADVANCED_TRANSPORTS.includes(transportType) && !(transportType === 'tcp' && isTlsEnabled)) {
+	            return null; // Discard other plain, unencrypted TCP and unsupported transports.
+	        }
 
                 let transport = null;
                 // Only create a transport object for the advanced, non-tcp types
@@ -1869,8 +1872,13 @@ async function handleShare(contentToUpload, buttonElement) {
                         singboxNode = { tag: p.hash, type: 'trojan', server: p.hostname, server_port: p.port, password: p.username, tls: tlsSettings }; 
                         break;
                     case 'ss':
-                         singboxNode = { tag: p.hash, type: 'shadowsocks', server: p.hostname, server_port: p.port, method: p.encryption_method, password: p.password, tls: tlsSettings };
-                         break;
+                        singboxNode = { tag: p.hash, type: 'shadowsocks', server: p.hostname, server_port: p.port, method: p.encryption_method, password: p.password, tls: tlsSettings };
+                        break;
+	            case 'hy2':
+	            case 'hysteria2':
+                        singboxNode = { tag: p.hash, type: 'hysteria2', server: p.hostname, server_port: p.port, password: p.username, obfs: p.params.obfs ? { type: p.params.obfs, password: p.params['obfs-password'] || '' } : undefined, tls: { enabled: true, server_name: p.params.sni, insecure: p.params.insecure === '1' || p.params.insecure === 'true' } };
+	                if (singboxNode.obfs === undefined) { delete singboxNode.obfs; }
+	                break;
                 }
                 
                 if (singboxNode && transport) {
