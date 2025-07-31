@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]"
             ],
             "tag": "proxy",
@@ -103,6 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]"
             ],
             "tag": "auto",
@@ -186,6 +188,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [16]",
+            "type": "trojan",
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },

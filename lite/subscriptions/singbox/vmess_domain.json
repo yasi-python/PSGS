@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
-                "🚩 CF | 🔓 VMESS | @freevpnatm [11]",
+                "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
                 "🇩🇪 DE | 🔒 VMESS | @mahanfix [19]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
@@ -112,7 +112,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
-                "🚩 CF | 🔓 VMESS | @freevpnatm [11]",
+                "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
                 "🇩🇪 DE | 🔒 VMESS | @mahanfix [19]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
@@ -222,19 +222,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @freevpnatm [11]",
+            "tag": "🚩 CF | 🔒 VMESS | @freevpnatm [18]",
             "type": "vmess",
-            "server": "2606:4700:3035::6815:5Bb4",
-            "server_port": 80,
-            "uuid": "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
+            "server": "172.67.150.132",
+            "server_port": 443,
+            "uuid": "f69b7304-9bea-4740-a555-797514012a53",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/WsUikr8wXrXrFl2p8BiMhP42l",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "ZZzxXXcDfrT.444682.XyZ",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "9AYJ8jsARg3AJojchcVZUcmW"
             }
         },
         {

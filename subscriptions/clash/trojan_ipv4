@@ -23,19 +23,18 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇭🇰 HK | 🔓 TROJAN | @hope_net [16]","type":"trojan","server":"204.93.210.216","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
-  - {"name":"🇺🇸 US | 🔓 TROJAN | @hope_net [18]","type":"trojan","server":"45.159.218.249","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
-  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [20]","type":"trojan","server":"104.18.19.56","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
+  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [16]","type":"trojan","server":"104.18.19.56","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
+  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [17]","type":"trojan","server":"104.19.224.216","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
+  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [18]","type":"trojan","server":"104.27.117.74","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
+  - {"name":"🇱🇹 LT | 🔓 TROJAN | @hope_net [19]","type":"trojan","server":"86.38.214.132","port":443,"password":"bpb-trojan","skip-cert-verify":true}
+  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [20]","type":"trojan","server":"104.24.14.219","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @jiujied [4]","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]","type":"trojan","server":"35.181.187.191","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]","type":"trojan","server":"63.179.47.86","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]","type":"trojan","server":"18.192.89.212","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]","type":"trojan","server":"15.188.186.181","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]","type":"trojan","server":"15.236.215.37","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
-  - {"name":"🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]","type":"trojan","server":"52.59.70.243","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
-  - {"name":"🚩 CF | 🔓 TROJAN | @v2raych [16]","type":"trojan","server":"104.27.46.241","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
-  - {"name":"🚩 CF | 🔓 TROJAN | @v2raych [19]","type":"trojan","server":"104.27.193.213","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
-  - {"name":"🚩 CF | 🔓 TROJAN | @v2raych [20]","type":"trojan","server":"104.25.101.97","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
+  - {"name":"🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]","type":"trojan","server":"35.181.187.191","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]","type":"trojan","server":"146.19.215.81","port":443,"password":"769c2da7-add3-42e8-a03c-07be9fcf483c","skip-cert-verify":false}
   - {"name":"🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]","type":"trojan","server":"15.222.9.61","port":22222,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]","type":"trojan","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","skip-cert-verify":false}
@@ -58,8 +57,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | 🔓 TROJAN | @hope_net [16]'
-      - '🇺🇸 US | 🔓 TROJAN | @hope_net [18]'
+      - '🚩 CF | 🔓 TROJAN | @hope_net [16]'
+      - '🚩 CF | 🔓 TROJAN | @hope_net [17]'
+      - '🚩 CF | 🔓 TROJAN | @hope_net [18]'
+      - '🇱🇹 LT | 🔓 TROJAN | @hope_net [19]'
       - '🚩 CF | 🔓 TROJAN | @hope_net [20]'
       - '🇫🇷 FR | 🔒 TROJAN | @jiujied [4]'
       - '🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]'
@@ -67,10 +68,7 @@ proxy-groups:
       - '🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]'
       - '🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]'
       - '🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]'
-      - '🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]'
-      - '🚩 CF | 🔓 TROJAN | @v2raych [16]'
-      - '🚩 CF | 🔓 TROJAN | @v2raych [19]'
-      - '🚩 CF | 🔓 TROJAN | @v2raych [20]'
+      - '🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]'
       - '🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]'
       - '🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]'
       - '🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]'
