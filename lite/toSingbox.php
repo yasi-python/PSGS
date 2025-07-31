@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 /**
  * This script converts various proxy subscription formats (VLESS, VMess, etc.)
- * into the sing-box JSON configuration format. It processes multiple input
- * files from a directory and generates corresponding sing-box profiles.
+ * into multiple JSON configuration formats (sing-box, nekobox). It processes 
+ * multiple input files and generates corresponding profiles for each format.
  */
 
 // --- Setup ---
@@ -17,18 +17,33 @@ require_once __DIR__ . '/functions.php';
 
 // --- Configuration Constants ---
 const INPUT_DIR = __DIR__ . '/subscriptions/xray/base64';
-const OUTPUT_DIR = __DIR__ . '/subscriptions/singbox';
-const STRUCTURE_FILE = __DIR__ . '/templates/structure.json';
+
+// NEW: Define an array of conversion tasks. This makes adding more formats in the future easy.
+const CONVERSION_TASKS = [
+    'sing-box' => [
+        'output_dir' => __DIR__ . '/subscriptions/singbox',
+        'structure_file' => __DIR__ . '/templates/structure.json',
+        'include_header' => true
+    ],
+    'nekobox' => [
+        'output_dir' => __DIR__ . '/subscriptions/nekobox',
+        'structure_file' => __DIR__ . '/templates/nekobox.json',
+        'include_header' => false
+    ],
+];
+
 const ALLOWED_SS_METHODS = [
     "chacha20-ietf-poly1305",
     "aes-256-gcm",
     "2022-blake3-aes-256-gcm"
 ];
 
-
 // #############################################################################
 // Refactored Conversion Functions
 // #############################################################################
+
+// --- These functions remain unchanged as they convert the individual proxy URLs, ---
+// --- which is a common step for both sing-box and nekobox. ---
 
 function vmessToSingbox(ConfigWrapper $c): ?array
 {
@@ -167,12 +182,13 @@ function createTransportSettings(ConfigWrapper $c): ?array
 /**
  * Main router function to convert any config string to a sing-box array.
  */
-function convert_to_singbox_array(string $config_string): ?array
+function convert_to_config_array(string $config_string): ?array // MODIFIED: Renamed for clarity
 {
     $wrapper = new ConfigWrapper($config_string);
     if (!$wrapper->isValid()) {
         return null;
     }
+    // MODIFIED: Renamed function calls, but the logic is identical.
     return match($wrapper->getType()) {
         "vmess" => vmessToSingbox($wrapper),
         "vless" => vlessToSingbox($wrapper),
@@ -185,25 +201,33 @@ function convert_to_singbox_array(string $config_string): ?array
 }
 
 /**
- * Generates the full sing-box JSON profile from a list of configs.
+ * Generates the full profile JSON from a list of configs and a base structure.
  */
-function generate_singbox_profile(string $base64_configs, array $base_structure, string $profile_name): string
+function generate_profile(string $base64_configs, array $base_structure, string $profile_name, bool $include_header): string
 {
     $configs = file(sprintf('data:text/plain;base64,%s', $base64_configs), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     
     foreach ($configs as $config) {
-        $singboxConfig = convert_to_singbox_array($config);
-        if ($singboxConfig !== null) {
-            $base_structure['outbounds'][] = $singboxConfig;
-            $tag = $singboxConfig['tag'];
-            // Add tag to "All" and "Auto" groups
-            $base_structure['outbounds'][0]['outbounds'][] = $tag;
-            $base_structure['outbounds'][1]['outbounds'][] = $tag;
+        $outboundConfig = convert_to_config_array($config);
+        if ($outboundConfig !== null) {
+            $base_structure['outbounds'][] = $outboundConfig;
+            $tag = $outboundConfig['tag'];
+
+            if (isset($base_structure['outbounds'][0]['outbounds']) && is_array($base_structure['outbounds'][0]['outbounds'])) {
+                 $base_structure['outbounds'][0]['outbounds'][] = $tag;
+            }
+            if (isset($base_structure['outbounds'][1]['outbounds']) && is_array($base_structure['outbounds'][1]['outbounds'])) {
+                $base_structure['outbounds'][1]['outbounds'][] = $tag;
+            }
         }
     }
 
-    $base64Name = base64_encode($profile_name);
-    $header = <<<HEADER
+    $final_output = '';
+
+    // MODIFIED: Conditionally generate and prepend the header
+    if ($include_header) {
+        $base64Name = base64_encode($profile_name);
+        $header = <<<HEADER
 //profile-title: base64:{$base64Name}
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
@@ -211,46 +235,70 @@ function generate_singbox_profile(string $base64_configs, array $base_structure,
 //profile-web-page-url: ithub.com/itsyebekhe/PSG
 
 HEADER;
+        $final_output .= $header;
+    }
 
-    return $header . json_encode($base_structure, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+    $final_output .= json_encode($base_structure, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+
+    return $final_output;
 }
 
 
 // --- Script Execution ---
 
-echo "Starting conversion to sing-box format..." . PHP_EOL;
+// MODIFIED: The entire execution block is refactored to loop through the tasks.
 
-if (!file_exists(STRUCTURE_FILE)) {
-    die("Error: structure.json not found." . PHP_EOL);
-}
-// **PERFORMANCE**: Read the structure file ONCE.
-$base_structure = json_decode(file_get_contents(STRUCTURE_FILE), true);
-if (json_last_error() !== JSON_ERROR_NONE) {
-    die("Error: Invalid JSON in structure.json" . PHP_EOL);
-}
-
-// **ROBUSTNESS**: Use glob to find files dynamically.
+// **ROBUSTNESS**: Use glob to find all input files once.
 $files_to_process = glob(INPUT_DIR . '/*');
 if (empty($files_to_process)) {
     echo "No files found in " . INPUT_DIR . " to process." . PHP_EOL;
     exit;
 }
 
-if (!is_dir(OUTPUT_DIR)) {
-    mkdir(OUTPUT_DIR, 0775, true);
+// Loop through each conversion task (sing-box, nekobox, etc.)
+foreach (CONVERSION_TASKS as $task_name => $task_config) {
+    echo "#####################################################" . PHP_EOL;
+    echo "Starting conversion to {$task_name} format..." . PHP_EOL;
+
+    $output_dir = $task_config['output_dir'];
+    $structure_file = $task_config['structure_file'];
+
+    if (!file_exists($structure_file)) {
+        echo "Error: Structure file '{$structure_file}' for {$task_name} not found. Skipping." . PHP_EOL;
+        continue; // Skip to the next task
+    }
+    
+    // Read the base structure for the current task
+    $base_structure = json_decode(file_get_contents($structure_file), true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        echo "Error: Invalid JSON in '{$structure_file}'. Skipping {$task_name}." . PHP_EOL;
+        continue; // Skip to the next task
+    }
+
+    // Ensure the output directory for the current task exists
+    if (!is_dir($output_dir)) {
+        mkdir($output_dir, 0775, true);
+    }
+    
+    // Process all input files for the current task
+    foreach ($files_to_process as $filepath) {
+        $filename = pathinfo($filepath, PATHINFO_FILENAME);
+        $profile_name = "PSG | " . strtoupper($filename);
+        
+        echo "  -> Processing {$filename} for {$task_name}..." . PHP_EOL;
+
+        $base64_data = file_get_contents($filepath);
+
+        // We need a fresh copy of the structure for each file, so we re-assign it.
+        $structure_for_this_file = $base_structure;
+        
+        $converted_profile = generate_profile($base64_data, $structure_for_this_file, $profile_name);
+        
+        file_put_contents($output_dir . '/' . $filename . ".json", $converted_profile, $task_config['include_header']);
+    }
+
+    echo "Conversion to {$task_name} complete!" . PHP_EOL;
 }
 
-foreach ($files_to_process as $filepath) {
-    // **ROBUSTNESS**: Use pathinfo to get filename reliably.
-    $filename = pathinfo($filepath, PATHINFO_FILENAME);
-    $profile_name = "PSG | " . strtoupper($filename);
-    
-    echo "Processing {$filename}..." . PHP_EOL;
-
-    $base64_data = file_get_contents($filepath);
-    $converted_profile = generate_singbox_profile($base64_data, $base_structure, $profile_name);
-    
-    file_put_contents(OUTPUT_DIR . '/' . $filename . ".json", $converted_profile);
-}
-
-echo "Conversion to sing-box complete!" . PHP_EOL;
+echo "#####################################################" . PHP_EOL;
+echo "All tasks finished." . PHP_EOL;
