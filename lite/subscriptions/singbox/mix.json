@@ -138,7 +138,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [13]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -179,7 +180,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @oonfig [1]",
                 "🚩 CF | 🔓 VLESS | @oonfig [2]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [18]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
                 "🇸🇬 SG | 🔒 SS | @outlinereleasedkey [19]",
                 "🇵🇱 PL | 🔒 SS | @outlinereleasedkey [20]",
                 "🇩🇪 DE | 🔒 SS | @outlines_vpn [5]",
@@ -305,7 +306,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
                 "🇬🇧 GB | 🔒 SS | @injectormconf [40]",
-                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [13]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -346,7 +348,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @oonfig [1]",
                 "🚩 CF | 🔓 VLESS | @oonfig [2]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [18]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
                 "🇸🇬 SG | 🔒 SS | @outlinereleasedkey [19]",
                 "🇵🇱 PL | 🔒 SS | @outlinereleasedkey [20]",
                 "🇩🇪 DE | 🔒 SS | @outlines_vpn [5]",
@@ -1275,18 +1277,50 @@
             "password": "kTjlLxrncKx4i2HIjxfA3M"
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [13]",
             "type": "vmess",
-            "server": "54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com",
-            "server_port": 80,
-            "uuid": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+            "server": "134.195.198.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "broadcastlv.chat.bilibili.com"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [14]",
+            "type": "trojan",
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },
@@ -1938,31 +1972,6 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @outline_ir [18]",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 2087,
-            "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vl.hongkong6.qzz.io",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
-                "headers": {
-                    "Host": "vl.hongkong6.qzz.io"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [19]",
-            "type": "vless",
             "server": "162.159.152.69",
             "server_port": 443,
             "uuid": "c98a16e4-0dc5-42f0-b3db-30f04525c123",
@@ -1982,6 +1991,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "zzz-eff.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
                 }
             }
         },

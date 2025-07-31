@@ -96,7 +96,8 @@
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [14]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [1]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [3]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [5]",
@@ -130,9 +131,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇮🇩 ID | 🔓 VMESS | @proxy_mtproto_vpns_free [12]",
-                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [15]",
-                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [10]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
@@ -170,7 +168,8 @@
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [14]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [1]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [3]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [5]",
@@ -204,9 +203,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇮🇩 ID | 🔓 VMESS | @proxy_mtproto_vpns_free [12]",
-                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [15]",
-                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [10]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
@@ -377,18 +373,52 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+            "tag": "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
             "type": "vmess",
-            "server": "54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com",
-            "server_port": 80,
-            "uuid": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+            "server": "104.21.20.162",
+            "server_port": 8443,
+            "uuid": "57e595e6-ef54-4e0d-b8df-e96db9612b99",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/horsen",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [14]",
+            "type": "vmess",
+            "server": "134.195.198.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "broadcastlv.chat.bilibili.com"
+                    "Host": ""
                 }
             }
         },
@@ -917,33 +947,6 @@
                     "Host": "join.v1-amironetwork.site"
                 }
             }
-        },
-        {
-            "tag": "🇮🇩 ID | 🔓 VMESS | @proxy_mtproto_vpns_free [12]",
-            "type": "vmess",
-            "server": "154.90.49.57",
-            "server_port": 58868,
-            "uuid": "fbffeb6b-b5e5-4f77-8888-c7919fbeb0ad",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [15]",
-            "type": "vmess",
-            "server": "subtel.strangled.net",
-            "server_port": 32970,
-            "uuid": "61fa9900-8029-45f6-dc78-83bc5374b5ee",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [16]",
-            "type": "vmess",
-            "server": "subtel.strangled.net",
-            "server_port": 32970,
-            "uuid": "61fa9900-8029-45f6-dc78-83bc5374b5ee",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @pydriclub [4]",
