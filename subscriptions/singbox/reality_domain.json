@@ -104,7 +104,7 @@
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [2]",
-                "🇯🇵 JP | 🔒 VLESS | @freeconfigsplus [9]",
+                "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
                 "🇮🇹 IT | 🔒 VLESS | @freeconfigsplus [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [3]",
@@ -119,6 +119,7 @@
                 "🇺🇸 US | 🔒 VLESS | @manzariyeh_rasht [29]",
                 "🇮🇳 IN | 🔒 VLESS | @manzariyeh_rasht [38]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [11]",
                 "🇱🇰 LK | 🔒 VLESS | @prrofile_purple [103]",
@@ -132,9 +133,10 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [6]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
                 "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
+                "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
             "tag": "proxy",
@@ -158,7 +160,7 @@
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [2]",
-                "🇯🇵 JP | 🔒 VLESS | @freeconfigsplus [9]",
+                "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
                 "🇮🇹 IT | 🔒 VLESS | @freeconfigsplus [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [3]",
@@ -173,6 +175,7 @@
                 "🇺🇸 US | 🔒 VLESS | @manzariyeh_rasht [29]",
                 "🇮🇳 IN | 🔒 VLESS | @manzariyeh_rasht [38]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [11]",
                 "🇱🇰 LK | 🔒 VLESS | @prrofile_purple [103]",
@@ -186,9 +189,10 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [6]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
                 "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
+                "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
             "tag": "auto",
@@ -568,7 +572,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @freeconfigsplus [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
             "type": "vless",
             "server": "amazon-15.cristiano.name.ng",
             "server_port": 443,
@@ -941,6 +945,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
+            "type": "vless",
+            "server": "list.dayhostpro.com",
+            "server_port": 14685,
+            "uuid": "fc628c94-3c38-44e7-90aa-5ccde28ef29c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "getchef.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V_rrBSTErY7NYhN8tPG460tL0hpCKMwxnM0YPLZPYDs",
+                    "short_id": "aa9c5414806589"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
             "type": "vless",
             "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
@@ -1256,7 +1283,7 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1321,6 +1348,29 @@
                     "enabled": true,
                     "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
                     "short_id": "75"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "itgetsbetter.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
+                    "short_id": "462c73aef9f448"
                 }
             }
         },
