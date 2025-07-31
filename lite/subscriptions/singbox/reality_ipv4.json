@@ -94,8 +94,11 @@
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
+                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [14]",
+                "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
             ],
             "tag": "proxy",
@@ -109,8 +112,11 @@
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
+                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [14]",
+                "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
             ],
             "tag": "auto",
@@ -244,6 +250,52 @@
             }
         },
         {
+            "tag": "🇲🇾 MY | 🔒 VLESS | @freevpnatm [14]",
+            "type": "vless",
+            "server": "160.30.5.118",
+            "server_port": 54777,
+            "uuid": "1ff0f64d-f578-4aab-8f4e-d5aae561f425",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "swdist.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0Ls6zXxXC4_ZxxzuRg7tbghA4D4hJMDCQIEO6T3h410",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
+            "type": "vless",
+            "server": "172.104.148.48",
+            "server_port": 443,
+            "uuid": "07402610-3f00-4384-b54b-eb8cd5037b4c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "digg.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MFhTxw6M0UU7nAoxP-jAw8szA2vhXy6KYmBCrDwbpRw",
+                    "short_id": "99d38a68"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @icv2ray [18]",
             "type": "vless",
             "server": "91.99.97.62",
@@ -295,6 +347,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
+            "type": "vless",
+            "server": "5.75.215.191",
+            "server_port": 443,
+            "uuid": "738c5e99-7faa-4893-81a8-4d6655adde47",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e2VGvHwmGudsNxadrgFCv3ENvRLyD_8x9csN6tTMGns",
+                    "short_id": "ab7b40b2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray"
             }
         },
         {

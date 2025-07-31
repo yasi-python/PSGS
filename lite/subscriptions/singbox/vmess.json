@@ -92,15 +92,24 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
+                "🇱🇻 LV | 🔓 VMESS | @farahvpn [17]",
                 "🚩 CF | 🔒 VMESS | @freevpnatm [15]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
+                "🇺🇸 US | 🔓 VMESS | @mahanfix [18]",
                 "🇩🇪 DE | 🔒 VMESS | @mahanfix [19]",
+                "🚩 CF | 🔒 VMESS | @qeshmserver [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
+                "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
+                "🇫🇮 FI | 🔓 VMESS | @v2rayngvpnn [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]"
+                "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
+                "❔ XX | 🔓 VMESS | @xrayzxn [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,15 +120,24 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
+                "🇱🇻 LV | 🔓 VMESS | @farahvpn [17]",
                 "🚩 CF | 🔒 VMESS | @freevpnatm [15]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
+                "🇺🇸 US | 🔓 VMESS | @mahanfix [18]",
                 "🇩🇪 DE | 🔒 VMESS | @mahanfix [19]",
+                "🚩 CF | 🔒 VMESS | @qeshmserver [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
+                "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
+                "🇫🇮 FI | 🔓 VMESS | @v2rayngvpnn [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngvpnn [19]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]"
+                "🇩🇪 DE | 🔓 VMESS | @vpnzamin [4]",
+                "❔ XX | 🔓 VMESS | @xrayzxn [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -206,11 +224,52 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
+            "type": "vmess",
+            "server": "join.melodyfreenet2.shop",
+            "server_port": 443,
+            "uuid": "50ef0b23-f14b-459f-97aa-d0f346189d2a",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "Join.MelodyFeenEt2.shoP.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/mail/",
+                "headers": {
+                    "Host": "Join.MelodyFeenEt2.shoP."
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
             "type": "vmess",
             "server": "shahinnet-freenetcdn.melodyshopone2.ir",
             "server_port": 8080,
             "uuid": "96588912-3bcb-491c-8ce3-7a965bbec07f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VMESS | @farahvpn [17]",
+            "type": "vmess",
+            "server": "216.173.69.250",
+            "server_port": 8443,
+            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -247,6 +306,22 @@
             }
         },
         {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+            "type": "vmess",
+            "server": "54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com",
+            "server_port": 80,
+            "uuid": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "broadcastlv.chat.bilibili.com"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
             "type": "vmess",
             "server": "46.38.146.68",
@@ -254,6 +329,31 @@
             "uuid": "e3cc1286-8401-4b1f-b110-dac3a2b15050",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @mahanfix [18]",
+            "type": "vmess",
+            "server": "38.54.94.122",
+            "server_port": 2053,
+            "uuid": "2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/L0229-16",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VMESS | @mahanfix [19]",
@@ -281,6 +381,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VMESS | @qeshmserver [12]",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "a06f0f04-d32d-4c39-a0dc-f1fe2cfc67c8",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @savagenet [2]",
             "type": "vmess",
             "server": "ir.svgspeedtest.net",
@@ -290,6 +406,31 @@
             "alter_id": 0
         },
         {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray4win [7]",
+            "type": "vmess",
+            "server": "cf.sudoer.net",
+            "server_port": 443,
+            "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api05",
+                "headers": {
+                    "Host": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
             "type": "vmess",
             "server": "91.107.160.240",
@@ -297,6 +438,22 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
+            "type": "vmess",
+            "server": "185.219.221.128",
+            "server_port": 40348,
+            "uuid": "a7a4df02-55ff-49d0-a13c-d71f7d05606e",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
@@ -309,6 +466,22 @@
             "transport": {
                 "type": "ws",
                 "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2rayngvpnn [18]",
+            "type": "vmess",
+            "server": "65.109.137.157",
+            "server_port": 80,
+            "uuid": "2aac77de-b3e4-4017-845c-ca1380f2e8d0",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-id-@privatevpns",
                 "headers": {
                     "Host": ""
                 }
@@ -341,6 +514,22 @@
             "transport": {
                 "type": "ws",
                 "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @xrayzxn [6]",
+            "type": "vmess",
+            "server": "amin.karkas1.ir",
+            "server_port": 80,
+            "uuid": "11ae0edd-2f63-4495-8683-037abbda9986",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/t14FEa4TBzLbwZsNkGkxxW7",
                 "headers": {
                     "Host": ""
                 }

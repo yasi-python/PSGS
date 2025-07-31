@@ -99,7 +99,8 @@
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis [1]",
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel [10]",
                 "🇨🇿 CZ | 🔒 VLESS | @flyv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [16]",
+                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [12]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [14]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [19]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
@@ -110,6 +111,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @lranonline_new [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [6]",
@@ -122,6 +124,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [7]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -152,7 +155,8 @@
                 "🇮🇷 IR | 🔒 VLESS | @dargiiriis [1]",
                 "🇺🇸 US | 🔒 VLESS | @filtershekan_channel [10]",
                 "🇨🇿 CZ | 🔒 VLESS | @flyv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [16]",
+                "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [12]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [14]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann [19]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @hopev2ray [3]",
@@ -163,6 +167,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @lranonline_new [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @msv2flyng [6]",
@@ -175,6 +180,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_v_vpn [47]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [7]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -443,7 +449,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [16]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @ghalagyann [12]",
+            "type": "vless",
+            "server": "194.182.79.216",
+            "server_port": 43708,
+            "uuid": "edb86e51-2e28-4c6f-9244-e472b27c697c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U7hggIW1N_h8wh3XqaEDH1JwVk5_yF1Kd2L3JfXNRW0",
+                    "short_id": "c9f107e34d7a09"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [14]",
             "type": "vless",
             "server": "5.75.195.253",
             "server_port": 443,
@@ -709,6 +742,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "."
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
+            "type": "vless",
+            "server": "91.107.244.143",
+            "server_port": 8443,
+            "uuid": "1999c5a1-de07-4e55-b93a-5d778948e7c1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.244.143",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BmwfqSOh33mH2ywv3xgKgTANTSvqgmWMRB9Et695dVk",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@loatvpn"
             }
         },
         {
@@ -1016,6 +1076,29 @@
                     "enabled": true,
                     "public_key": "-3FYNptvHNKGKULt4jOkSqSfBbpl9ef_ijzo_8I7OXk",
                     "short_id": "7f2798f9"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [7]",
+            "type": "vless",
+            "server": "139.162.146.9",
+            "server_port": 443,
+            "uuid": "b5e5c843-eb6b-438d-93c5-4faa71780ac4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "eu.account.battle.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JrQipo4fliL8f9hLW49Wpr96XjYFaZPsom7hzlvaMio",
+                    "short_id": "02"
                 }
             }
         },

@@ -93,7 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
+                "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
+                "🚩 CF | 🔒 VLESS | @noforcedheaven [15]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]"
             ],
@@ -107,7 +109,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
+                "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
+                "🚩 CF | 🔒 VLESS | @noforcedheaven [15]",
                 "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]"
             ],
@@ -205,6 +209,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
             "type": "vless",
             "server": "Ip2.yw5jk.org",
@@ -212,6 +225,24 @@
             "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @noforcedheaven [15]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "25cff889-0921-40a9-814b-15d3af3bbc58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru2.asc-sam.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @noforcedheaven [16]",
