@@ -290,8 +290,9 @@ echo "Cache saved." . PHP_EOL;
 // SUMMARY: Assemble and write the summary file.
 echo "\n7. Generating summary file..." . PHP_EOL;
 
-// Get country distribution from the main aggregate configs for relevance.
-$countryDistribution = array_count_values(array_column($locationBased, 0));
+// Get country distribution by directly counting countries from the master list.
+$allCountryCodes = array_column($allProcessedConfigs, 'country');
+$countryDistribution = array_count_values($allCountryCodes);
 arsort($countryDistribution);
 
 $summaryData = [
