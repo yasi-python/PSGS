@@ -103,6 +103,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
+                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -163,8 +164,7 @@
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "❔ XX | 🔓 VLESS | @freevpnatm [18]"
+                "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -186,6 +186,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @freevpn3327 [7]",
+                "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
                 "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
                 "🇮🇷 IR | 🔓 VLESS | @goldenvpn_v2rayy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -246,8 +247,7 @@
                 "❔ XX | 🔓 VLESS | @vpnv2rayng90 [1]",
                 "❔ XX | 🔒 VLESS | @vpnwlf [11]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "❔ XX | 🔓 VLESS | @freevpnatm [18]"
+                "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -544,6 +544,29 @@
             "uuid": "5b5c6557-d611-4c6f-a43b-a2c48c0b541d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇲🇾 MY | 🔒 VLESS | @freevpnatm [16]",
+            "type": "vless",
+            "server": "160.30.5.118",
+            "server_port": 54777,
+            "uuid": "1ff0f64d-f578-4aab-8f4e-d5aae561f425",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "swdist.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0Ls6zXxXC4_ZxxzuRg7tbghA4D4hJMDCQIEO6T3h410",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @ghotb_scarf [9]",
@@ -1604,31 +1627,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "EJUVVd6sh0f9J6drcXIcStL"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @freevpnatm [18]",
-            "type": "vless",
-            "server": "[2606:4700:3033::ac43:b0c4]",
-            "server_port": 443,
-            "uuid": "f69b7304-9bea-4740-a555-797514012a53",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3033::ac43:b0c4]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3033::ac43:b0c4]"
-                }
             }
         }
     ],

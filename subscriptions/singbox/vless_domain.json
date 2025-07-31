@@ -277,7 +277,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [14]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [16]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇨🇳 CN | 🔒 VLESS | @v_2rayng0 [1]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [4]",
@@ -298,8 +298,8 @@
                 "🚩 CF | 🔒 VLESS | @vpnv2raytop [2]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [4]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [24]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [26]"
+                "❔ XX | 🔓 VLESS | @zerobaipiao [25]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [27]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -495,7 +495,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [14]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [16]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇨🇳 CN | 🔒 VLESS | @v_2rayng0 [1]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [4]",
@@ -516,8 +516,8 @@
                 "🚩 CF | 🔒 VLESS | @vpnv2raytop [2]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [4]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [24]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [26]"
+                "❔ XX | 🔓 VLESS | @zerobaipiao [25]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [27]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -3688,7 +3688,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -4067,23 +4067,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [24]",
-            "type": "vless",
-            "server": "[email&nbsp;protected]",
-            "server_port": 8880,
-            "uuid": "",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "Telegram-channel-WangCai2"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [26]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [25]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -4095,6 +4079,22 @@
                 "path": "/Telegram",
                 "headers": {
                     "Host": "us.laoyoutiao.link"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [27]",
+            "type": "vless",
+            "server": "[email&nbsp;protected]",
+            "server_port": 8880,
+            "uuid": "",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/TelegramU0001F1E8U0001F1F3",
+                "headers": {
+                    "Host": "sk.laoyoutiao.link"
                 }
             }
         }
