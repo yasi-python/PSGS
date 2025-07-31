@@ -89,8 +89,11 @@
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇩🇪 DE | 🔓 VMESS | @foxnt [2]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🇩🇪 DE | 🔓 VMESS | @hope_net [26]",
-                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [11]",
+                "🇩🇪 DE | 🔓 VMESS | @hope_net [24]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [11]",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [12]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [13]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [15]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [17]",
@@ -193,8 +196,11 @@
                 "🇺🇸 US | 🔒 VMESS | @fati_ffx [3]",
                 "🇩🇪 DE | 🔓 VMESS | @foxnt [2]",
                 "🇮🇷 IR | 🔓 VMESS | @freeconfigsplus [18]",
-                "🇩🇪 DE | 🔓 VMESS | @hope_net [26]",
-                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [11]",
+                "🇩🇪 DE | 🔓 VMESS | @hope_net [24]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [11]",
+                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [12]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
                 "🇨🇳 CN | 🔓 VMESS | @ipv2rayng [13]",
                 "🇺🇸 US | 🔓 VMESS | @ipv2rayng [15]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [17]",
@@ -490,7 +496,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @hope_net [26]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @hope_net [24]",
             "type": "vmess",
             "server": "193.108.119.112",
             "server_port": 12281,
@@ -499,18 +505,84 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [11]",
+            "tag": "🚩 CF | 🔓 VMESS | @ip_cf_config [10]",
             "type": "vmess",
-            "server": "51.79.102.253",
-            "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "server": "104.21.20.162",
+            "server_port": 8443,
+            "uuid": "57e595e6-ef54-4e0d-b8df-e96db9612b99",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "path": "/horsen",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [11]",
+            "type": "vmess",
+            "server": "76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "5acc7a7c-d7ea-11eb-8673-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "broadcastlv.chat.bilibili.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [12]",
+            "type": "vmess",
+            "server": "103.253.26.134",
+            "server_port": 443,
+            "uuid": "aba50dd4-5484-3b05-b14a-4661caf862d5",
+            "security": "auto",
+            "alter_id": 4,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+            "type": "vmess",
+            "server": "54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com",
+            "server_port": 80,
+            "uuid": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "broadcastlv.chat.bilibili.com"
                 }
             }
         },

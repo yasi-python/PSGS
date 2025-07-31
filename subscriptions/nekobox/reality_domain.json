@@ -92,7 +92,7 @@
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [2]",
-                "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
+                "🇰🇷 KR | 🔒 VLESS | @freeconfigsplus [9]",
                 "🇮🇹 IT | 🔒 VLESS | @freeconfigsplus [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [3]",
@@ -118,12 +118,12 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_sub [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [6]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
-                "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
                 "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
@@ -148,7 +148,7 @@
                 "❔ XX | 🔒 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeconfigsplus [2]",
-                "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
+                "🇰🇷 KR | 🔒 VLESS | @freeconfigsplus [9]",
                 "🇮🇹 IT | 🔒 VLESS | @freeconfigsplus [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [3]",
@@ -174,12 +174,12 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_sub [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [6]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
-                "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
                 "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
@@ -564,7 +564,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @freeconfigsplus [9]",
+            "tag": "🇰🇷 KR | 🔒 VLESS | @freeconfigsplus [9]",
             "type": "vless",
             "server": "amazon-15.cristiano.name.ng",
             "server_port": 443,
@@ -1194,6 +1194,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "api.hostbaran.info",
+            "server_port": 15810,
+            "uuid": "4ad963a1-48a4-40cf-9ec0-26a732e0d887",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pottermore.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
+                    "short_id": "75"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @v2rayngconfings [3]",
             "type": "vless",
             "server": "vpnafra.mmdtitaniom.com",
@@ -1275,7 +1298,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1317,29 +1340,6 @@
                     "enabled": true,
                     "public_key": "B65r_UBsBFSlwq7XbrrWI0SuCxkB8KhQEYaGrB54mTc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
-            "type": "vless",
-            "server": "api.hostbaran.info",
-            "server_port": 15810,
-            "uuid": "4ad963a1-48a4-40cf-9ec0-26a732e0d887",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pottermore.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
-                    "short_id": "75"
                 }
             }
         },

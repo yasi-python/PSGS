@@ -109,12 +109,12 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_sub [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
-                "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
-                "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
+                "🇮🇹 IT | 🔒 VLESS | @vmesc [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
             "tag": "proxy",
@@ -155,12 +155,12 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_sub [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2ray_v_vpn [45]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+                "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngseven [5]",
-                "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
-                "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
+                "🇮🇹 IT | 🔒 VLESS | @vmesc [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnod [6]"
             ],
             "tag": "auto",
@@ -955,6 +955,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "api.hostbaran.info",
+            "server_port": 15810,
+            "uuid": "4ad963a1-48a4-40cf-9ec0-26a732e0d887",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pottermore.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
+                    "short_id": "75"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
             "type": "vless",
             "server": "618-Join.V2RayTz.sbs",
@@ -982,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇰🇷 KR | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1051,30 +1074,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vistav2ray [7]",
-            "type": "vless",
-            "server": "api.hostbaran.info",
-            "server_port": 15810,
-            "uuid": "4ad963a1-48a4-40cf-9ec0-26a732e0d887",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pottermore.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY",
-                    "short_id": "75"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
             "server_port": 443,
