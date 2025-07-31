@@ -116,7 +116,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]",
                 "🇺🇸 US | 🔒 VLESS | @limootuursh [1]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [6]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [2]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
                 "🇩🇪 DE | 🔓 VLESS | @narcod_ping [14]",
@@ -141,6 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
+                "🚩 CF | 🔒 VLESS | @vpnaloo [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnvg [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
             ],
@@ -177,7 +178,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]",
                 "🇺🇸 US | 🔒 VLESS | @limootuursh [1]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [6]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [2]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
                 "🇩🇪 DE | 🔓 VLESS | @narcod_ping [14]",
@@ -202,6 +203,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_zvpn [14]",
+                "🚩 CF | 🔒 VLESS | @vpnaloo [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnvg [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnvg [15]"
             ],
@@ -745,7 +747,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [6]",
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [2]",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 80,
@@ -1158,6 +1160,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.18.14.19"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnaloo [16]",
+            "type": "vless",
+            "server": "104.21.76.15",
+            "server_port": 443,
+            "uuid": "5a5d9654-2f1e-4537-b3ca-e76168b2e03f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wlma.jeremaih-talik.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "wlma.jeremaih-talik.workers.dev"
                 }
             }
         },
