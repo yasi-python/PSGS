@@ -92,11 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 TUIC | @vipv2rey [14]",
+                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [15]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [17]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
                 "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
-                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]",
                 "❔ XX | 🔒 TUIC | @vipv2rey [18]",
@@ -111,11 +112,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 TUIC | @vipv2rey [14]",
+                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [15]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [17]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
                 "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
-                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]",
                 "❔ XX | 🔒 TUIC | @vipv2rey [18]",
@@ -206,6 +208,43 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 TUIC | @vipv2rey [14]",
+            "type": "tuic",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
+            "password": "dongtaiwang.com",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 TUIC | @vipv2rey [15]",
+            "type": "tuic",
+            "server": "70.34.197.98",
+            "server_port": 443,
+            "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+            "password": "crivAv10hAdr-fop4Lne",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "70.34.197.98",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
+            }
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 TUIC | @vipv2rey [17]",
             "type": "tuic",
             "server": "64.176.186.193",
@@ -277,25 +316,6 @@
                 "insecure": true,
                 "alpn": [
                     "h3"
-                ]
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
-            "type": "tuic",
-            "server": "70.34.197.98",
-            "server_port": 443,
-            "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-            "password": "crivAv10hAdr-fop4Lne",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "70.34.197.98",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
                 ]
             }
         },
