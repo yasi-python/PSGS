@@ -292,9 +292,9 @@ foreach (CONVERSION_TASKS as $task_name => $task_config) {
         // We need a fresh copy of the structure for each file, so we re-assign it.
         $structure_for_this_file = $base_structure;
         
-        $converted_profile = generate_profile($base64_data, $structure_for_this_file, $profile_name);
+        $converted_profile = generate_profile($base64_data, $structure_for_this_file, $profile_name, $task_config['include_header']);
         
-        file_put_contents($output_dir . '/' . $filename . ".json", $converted_profile, $task_config['include_header']);
+        file_put_contents($output_dir . '/' . $filename . ".json", $converted_profile);
     }
 
     echo "Conversion to {$task_name} complete!" . PHP_EOL;
