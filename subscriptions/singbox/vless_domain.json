@@ -180,7 +180,8 @@
                 "❔ XX | 🔓 VLESS | @imhdiyvp [4]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [5]",
                 "🚩 CF | 🔒 VLESS | @imhdiyvp [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [2]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [5]",
+                "🚩 CF | 🔓 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [7]",
                 "🚩 CF | 🔒 VLESS | @iran_access [10]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
@@ -407,10 +408,11 @@
                 "❔ XX | 🔓 VLESS | @zerobaipiao [3]",
                 "❔ XX | 🔓 VLESS | @zerobaipiao [5]",
                 "❔ XX | 🔓 VLESS | @zerobaipiao [7]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [10]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [12]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [15]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [22]"
+                "❔ XX | 🔓 VLESS | @zerobaipiao [9]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [11]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [14]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [21]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [27]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -509,7 +511,8 @@
                 "❔ XX | 🔓 VLESS | @imhdiyvp [4]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [5]",
                 "🚩 CF | 🔒 VLESS | @imhdiyvp [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [2]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [5]",
+                "🚩 CF | 🔓 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [7]",
                 "🚩 CF | 🔒 VLESS | @iran_access [10]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
@@ -736,10 +739,11 @@
                 "❔ XX | 🔓 VLESS | @zerobaipiao [3]",
                 "❔ XX | 🔓 VLESS | @zerobaipiao [5]",
                 "❔ XX | 🔓 VLESS | @zerobaipiao [7]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [10]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [12]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [15]",
-                "❔ XX | 🔓 VLESS | @zerobaipiao [22]"
+                "❔ XX | 🔓 VLESS | @zerobaipiao [9]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [11]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [14]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [21]",
+                "❔ XX | 🔓 VLESS | @zerobaipiao [27]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -2197,7 +2201,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [2]",
+            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [5]",
             "type": "vless",
             "server": "WLF-V-P-N-ID2.dnsfree.one",
             "server_port": 443,
@@ -2216,6 +2220,22 @@
                     "enabled": true,
                     "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
                     "short_id": "6bb85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @ip_cf_config [14]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Parsashonam--10-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -5970,22 +5990,6 @@
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/TelegramU0001F1E8U0001F1F3",
-                "headers": {
-                    "Host": "Telegram-channel-WangCai2"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [3]",
-            "type": "vless",
-            "server": "[email&nbsp;protected]",
-            "server_port": 8880,
-            "uuid": "",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "jp.laoyoutiao.link"
@@ -5993,7 +5997,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [5]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [3]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6009,7 +6013,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [7]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [5]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6025,7 +6029,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [10]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [7]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6041,7 +6045,23 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [12]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [9]",
+            "type": "vless",
+            "server": "[email&nbsp;protected]",
+            "server_port": 8880,
+            "uuid": "",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/TelegramU0001F1E8U0001F1F3",
+                "headers": {
+                    "Host": "Telegram-channel-WangCai2"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [11]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6057,7 +6077,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [15]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [14]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6073,7 +6093,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [22]",
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [21]",
             "type": "vless",
             "server": "[email&nbsp;protected]",
             "server_port": 8880,
@@ -6085,6 +6105,22 @@
                 "path": "/Telegram",
                 "headers": {
                     "Host": "jp.laoyoutiao.link"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @zerobaipiao [27]",
+            "type": "vless",
+            "server": "[email&nbsp;protected]",
+            "server_port": 8880,
+            "uuid": "",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram",
+                "headers": {
+                    "Host": "Telegram-channel-WangCai2"
                 }
             }
         }
