@@ -552,17 +552,19 @@ HEADER;
 }
 
 /**
- * Fetches multiple URLs in parallel using cURL for maximum efficiency.
- * @param array $urls An associative array of [key => url]
- * @return array An associative array of [key => content] for successful requests.
+ * INTERNAL FUNCTION: Fetches a single batch of URLs in parallel.
+ * This is the core worker function that will be called by the retry wrapper.
+ *
+ * @param array $urls An associative array of [key => url].
+ * @return array An associative array of [key => content] for successful fetches.
+ *               Failed fetches will be missing from the returned array.
  */
-function fetch_multiple_urls_parallel(array $urls): array
+function _internal_fetch_batch(array $urls): array
 {
     $multi_handle = curl_multi_init();
     $handles = [];
     $results = [];
 
-    // Quietly return if there are no URLs to process.
     if (empty($urls)) {
         return [];
     }
@@ -573,9 +575,10 @@ function fetch_multiple_urls_parallel(array $urls): array
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_MAXREDIRS => 5,
-            CURLOPT_TIMEOUT => 20, // Increased timeout slightly for potentially slow pages
+            CURLOPT_TIMEOUT => 20,
+            CURLOPT_CONNECTTIMEOUT => 10, // Good practice to add a connection timeout
             CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYPEER => false, // Be cautious with these in production
             CURLOPT_SSL_VERIFYHOST => false,
         ]);
         $handles[$key] = $ch;
@@ -585,40 +588,77 @@ function fetch_multiple_urls_parallel(array $urls): array
     $running = null;
     do {
         curl_multi_exec($multi_handle, $running);
-        curl_multi_select($multi_handle);
+        if ($running) {
+            curl_multi_select($multi_handle);
+        }
     } while ($running > 0);
 
     foreach ($handles as $key => $ch) {
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $content = curl_multi_getcontent($ch);
         
-        // Check for success: no cURL error, a 200 OK status, and non-empty content.
         if (curl_errno($ch) === 0 && $http_code === 200 && !empty($content)) {
             $results[$key] = $content;
-        } else {
-            // ---- START OF FIX ----
-            // This is the new warning logic.
-            $error_message = curl_error($ch);
-            if (empty($error_message)) {
-                // Provide a more descriptive message if cURL doesn't give one.
-                if ($http_code !== 200) {
-                    $error_message = "HTTP Status Code {$http_code}";
-                } elseif (empty($content)) {
-                    $error_message = "Received empty response";
-                } else {
-                    $error_message = "Unknown error";
-                }
-            }
-            // Use PHP_EOL for clean newlines in console output.
-            echo PHP_EOL . "  [!] Warning: Failed to fetch for key '{$key}'. Reason: {$error_message}" . PHP_EOL;
-            // ---- END OF FIX ----
         }
+        // No 'else' here. The calling function will determine what failed by comparing arrays.
+        
         curl_multi_remove_handle($multi_handle, $ch);
         curl_close($ch);
     }
 
     curl_multi_close($multi_handle);
     return $results;
+}
+
+
+/**
+ * PUBLIC FUNCTION: Fetches multiple URLs in parallel with a retry mechanism.
+ * This is the new function that your Stage 1 script will call.
+ *
+ * @param array $urls An associative array of [key => url].
+ * @param int $max_retries The maximum number of attempts for each URL.
+ * @param int $delay The delay in seconds between retry attempts.
+ * @return array An associative array of [key => content] containing all successfully fetched content.
+ */
+function fetch_multiple_urls_parallel(array $urls, int $max_retries = 3, int $delay = 2): array
+{
+    $all_fetched_content = [];
+    $urls_to_retry = $urls;
+
+    for ($attempt = 1; $attempt <= $max_retries; $attempt++) {
+        // If there are no URLs left to fetch, we can stop early.
+        if (empty($urls_to_retry)) {
+            break;
+        }
+
+        echo "\n  - Fetch attempt #{$attempt} for " . count($urls_to_retry) . " URLs...";
+        
+        // Call our internal worker function to fetch the current batch.
+        $fetched_this_round = _internal_fetch_batch($urls_to_retry);
+        
+        // Add the newly fetched content to our master list of results.
+        $all_fetched_content = array_merge($all_fetched_content, $fetched_this_round);
+
+        // Determine which URLs failed and need to be retried.
+        // This is done by finding which keys exist in the original list but not in the results.
+        $urls_to_retry = array_diff_key($urls_to_retry, $fetched_this_round);
+
+        // If some URLs failed and this isn't the last attempt, wait before retrying.
+        if (!empty($urls_to_retry) && $attempt < $max_retries) {
+            echo PHP_EOL . "  [!] " . count($urls_to_retry) . " URLs failed. Retrying in {$delay} seconds..." . PHP_EOL;
+            sleep($delay);
+        }
+    }
+    
+    // After all attempts, if any URLs still failed, log them as a critical warning.
+    if (!empty($urls_to_retry)) {
+        echo PHP_EOL . "  [!!] CRITICAL WARNING: The following URLs failed after all attempts:" . PHP_EOL;
+        foreach (array_keys($urls_to_retry) as $failed_key) {
+            echo "      - {$failed_key}" . PHP_EOL;
+        }
+    }
+
+    return $all_fetched_content;
 }
 
 /**
