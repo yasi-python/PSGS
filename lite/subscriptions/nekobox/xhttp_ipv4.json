@@ -87,7 +87,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [20]",
@@ -99,7 +98,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
-                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [18]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]"
             ],
             "tag": "proxy",
@@ -118,7 +116,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [20]",
@@ -130,7 +127,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
-                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [18]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]"
             ],
             "tag": "auto",
@@ -341,24 +337,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "2e13e747-018e-4141-b7b7-cc01af603eb7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sauron2.melkore.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
             "type": "vless",
             "server": "91.99.183.30",
@@ -530,24 +508,6 @@
             "uuid": "joinshotoV2rayNGFreee",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇴🇲 OM | 🔓 VLESS | @vmess_ir [18]",
-            "type": "vless",
-            "server": "38.54.116.156",
-            "server_port": 443,
-            "uuid": "16e55e1a-6152-4d92-a422-31490e8ef563",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "38.54.116.156",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]",
