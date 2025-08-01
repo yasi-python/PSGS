@@ -140,6 +140,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [7]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vistav2ray [16]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [8]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [14]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=lake5.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔓 VLESS | @vmess_ir [9]",
@@ -151,7 +152,6 @@
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @configms [4]",
                 "🇺🇸 US | 🔓 VLESS | @configms [6]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [15]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -207,7 +207,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [10]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmess_ir [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
@@ -292,6 +292,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [7]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vistav2ray [16]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [8]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [14]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=lake5.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔓 VLESS | @vmess_ir [9]",
@@ -303,7 +304,6 @@
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @configms [4]",
                 "🇺🇸 US | 🔓 VLESS | @configms [6]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [15]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -359,7 +359,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [10]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmess_ir [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
@@ -1189,6 +1189,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vistav2ray [16]",
+            "type": "vless",
+            "server": "server229242717676380726.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server229242717676380726.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [8]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -1286,29 +1304,6 @@
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus [15]",
-            "type": "vless",
-            "server": "91.99.153.13",
-            "server_port": 443,
-            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
-                    "short_id": "cd0b"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -2133,7 +2128,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [9]",
             "type": "vless",
             "server": "151.101.195.8",
             "server_port": 80,
