@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 HY2 | @filter_breaker [46]",
                 "🇹🇷 TR | 🔒 HY2 | @filter_breaker [47]",
-                "🇹🇷 TR | 🔒 HY2 | @filter_breaker [48]"
+                "🇧🇷 BR | 🔒 HY2 | @filter_breaker [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 HY2 | @filter_breaker [46]",
                 "🇹🇷 TR | 🔒 HY2 | @filter_breaker [47]",
-                "🇹🇷 TR | 🔒 HY2 | @filter_breaker [48]"
+                "🇧🇷 BR | 🔒 HY2 | @filter_breaker [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +194,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 HY2 | @filter_breaker [47]",
+            "tag": "🇹🇷 TR | 🔒 HY2 | @filter_breaker [46]",
             "type": "hysteria2",
             "server": "nexiateq.688997.xyz",
             "server_port": 20957,
@@ -211,7 +213,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 HY2 | @filter_breaker [48]",
+            "tag": "🇹🇷 TR | 🔒 HY2 | @filter_breaker [47]",
             "type": "hysteria2",
             "server": "teq.dport.top",
             "server_port": 33658,
@@ -223,6 +225,25 @@
             "tls": {
                 "enabled": true,
                 "server_name": "teq.dport.top",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇧🇷 BR | 🔒 HY2 | @filter_breaker [48]",
+            "type": "hysteria2",
+            "server": "bx.dport.top",
+            "server_port": 33654,
+            "password": "923e41fe-1893-489b-b827-71364438e293",
+            "obfs": {
+                "type": "salamander",
+                "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bx.dport.top",
                 "insecure": true,
                 "alpn": [
                     "h3"
