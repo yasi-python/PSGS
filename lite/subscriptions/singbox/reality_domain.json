@@ -117,11 +117,13 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -178,11 +180,13 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -909,6 +913,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "de01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "31"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "de-re.afteam.ir",
+            "server_port": 3810,
+            "uuid": "1d79ae59-02b4-402d-c529-4c0a7facec28",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BHwcQOO7FJVCW0W2naMQ3F7tbZlLgBrKfjhspc66IzU",
+                    "short_id": "f830f6"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -1013,7 +1063,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [6]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
             "server_port": 12107,

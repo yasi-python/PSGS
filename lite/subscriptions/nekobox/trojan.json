@@ -89,15 +89,17 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @freakconfig [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [11]",
+                "🚩 CF | 🔒 TROJAN | @freakconfig [15]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [18]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [20]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
@@ -123,15 +125,17 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @freakconfig [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [11]",
+                "🚩 CF | 🔒 TROJAN | @freakconfig [15]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [18]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [20]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
@@ -395,7 +399,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @freakconfig [16]",
+            "tag": "🚩 CF | 🔒 TROJAN | @freakconfig [15]",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
@@ -418,30 +422,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "190.93.244.223",
+            "server": "198.41.193.49",
             "server_port": 443,
             "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "190.93.244.223",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [11]",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "198.41.193.49",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -537,7 +525,23 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
             "type": "trojan",
             "server": "15.236.10.186",
             "server_port": 22222,
@@ -549,6 +553,45 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [18]",
+            "type": "trojan",
+            "server": "172.67.153.198",
+            "server_port": 2083,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "102.DJr999998.Eu.oRG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @v2raych [20]",
+            "type": "trojan",
+            "server": "173.245.49.251",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "hb.lii2010.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hb.lii2010.us.kg"
                 }
             }
         },
