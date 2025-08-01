@@ -108,7 +108,6 @@
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -118,7 +117,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -136,7 +134,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇬🇧 GB | 🔒 VLESS | @v2rayngrit [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
@@ -171,7 +169,6 @@
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -181,7 +178,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -199,7 +195,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇬🇧 GB | 🔒 VLESS | @v2rayngrit [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
@@ -686,29 +682,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [12]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
-        },
-        {
             "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -933,29 +906,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "de-re.afteam.ir",
-            "server_port": 3810,
-            "uuid": "1d79ae59-02b4-402d-c529-4c0a7facec28",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BHwcQOO7FJVCW0W2naMQ3F7tbZlLgBrKfjhspc66IzU",
-                    "short_id": "f830f6"
-                }
             }
         },
         {
@@ -1370,7 +1320,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2rayngrit [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
