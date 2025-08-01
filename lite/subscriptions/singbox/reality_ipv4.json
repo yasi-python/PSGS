@@ -105,8 +105,9 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇺🇸 US | 🔒 VLESS | @ghalagyann [21]",
-                "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+                "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [16]",
@@ -140,6 +141,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
@@ -184,8 +186,9 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇺🇸 US | 🔒 VLESS | @ghalagyann [21]",
-                "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+                "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [16]",
@@ -219,6 +222,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
@@ -641,7 +645,34 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @ghalagyann [21]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+            "type": "vless",
+            "server": "91.107.189.227",
+            "server_port": 24070,
+            "uuid": "96179fe7-15f8-4ea1-bfd7-8c691e0608db",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk",
+                    "short_id": "93"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [5]",
             "type": "vless",
             "server": "62.60.178.200",
             "server_port": 40792,
@@ -664,16 +695,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @ghalagyann2 [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [7]",
             "type": "vless",
-            "server": "62.60.178.200",
-            "server_port": 40792,
-            "uuid": "b435cdd4-5465-4e5e-81c4-c1757beab7cd",
+            "server": "91.107.189.227",
+            "server_port": 24070,
+            "uuid": "96179fe7-15f8-4ea1-bfd7-8c691e0608db",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.latimes.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -681,9 +712,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "I2gX0RY5PEXPm6shWotiQ5bVwoBs4cmGV_sQUryQ63w",
-                    "short_id": "5a"
+                    "public_key": "Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk",
+                    "short_id": "93"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--"
             }
         },
         {
@@ -1499,6 +1534,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "5.75.201.180",
+            "server_port": 14703,
+            "uuid": "ServerNett-ServerNett2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y9zKrv5hG5fbRdibewYRmulK0HEHX6QgaU30EbKxrAU",
+                    "short_id": "a3"
+                }
             }
         },
         {
