@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [16]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -119,7 +120,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [8]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [11]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [6]",
@@ -151,8 +153,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [9]",
-                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [8]",
-                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [7]",
+                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessorg [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpn_meliii [2]",
@@ -177,6 +179,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [16]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -202,7 +205,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [8]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [11]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [6]",
@@ -234,8 +238,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [9]",
-                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [8]",
-                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [7]",
+                "🇴🇲 OM | 🔓 VLESS | @vmess_ir [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessorg [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpn_meliii [2]",
@@ -350,6 +354,29 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "91.99.153.13",
+            "server_port": 443,
+            "uuid": "89ba9206-305a-4dbf-bd62-9144c1b0e0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "54"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [1]",
@@ -684,7 +711,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [12]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+            "type": "vless",
+            "server": "91.99.219.10",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.219.10",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [11]",
             "type": "vless",
             "server": "91.99.183.30",
             "server_port": 8443,
@@ -1201,7 +1246,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmess_ir [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmess_ir [7]",
             "type": "vless",
             "server": "91.99.181.47",
             "server_port": 8443,
@@ -1210,7 +1255,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇴🇲 OM | 🔓 VLESS | @vmess_ir [14]",
+            "tag": "🇴🇲 OM | 🔓 VLESS | @vmess_ir [13]",
             "type": "vless",
             "server": "38.54.116.156",
             "server_port": 443,

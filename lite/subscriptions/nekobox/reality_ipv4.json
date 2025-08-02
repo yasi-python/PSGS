@@ -81,11 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [1]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [20]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -130,6 +132,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -145,7 +148,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vpnod [12]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [14]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]",
                 "🇩🇪 DE | 🔒 VLESS | @zerov2shop [1]"
@@ -160,11 +162,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [1]",
+                "🇩🇪 DE | 🔒 VLESS | @filter_breaker [20]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -209,6 +213,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -224,7 +229,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vpnod [12]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [14]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]",
                 "🇩🇪 DE | 🔒 VLESS | @zerov2shop [1]"
@@ -338,6 +342,33 @@
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "49.12.119.56",
+            "server_port": 2083,
+            "uuid": "aeb5ac1e-4353-4c59-9bb2-d17f6e62f84f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khamenei.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
+                    "short_id": "54602915a7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray"
             }
         },
         {
@@ -461,6 +492,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @filter_breaker [20]",
+            "type": "vless",
+            "server": "91.107.159.97",
+            "server_port": 443,
+            "uuid": "7c74dea1-426c-439d-8faf-afaf2c6b0077",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pxq_sXLY_HXTALGb_zb61Phln6mxkEN67u_ZBK2Uc3A",
+                    "short_id": "3d1fc5a13456b34a"
+                }
             }
         },
         {
@@ -1556,6 +1610,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "91.107.168.101",
+            "server_port": 2083,
+            "uuid": "aeb5ac1e-4353-4c59-9bb2-d17f6e62f84f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khamenei.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
+                    "short_id": "54602915a7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray"
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
             "type": "vless",
             "server": "199.247.28.17",
@@ -1917,33 +1998,6 @@
                     "public_key": "7cbcFHSx2vqz38zW9BmlSIHTTSdNtlgv_S5uZ0MSIAE",
                     "short_id": "788456bc"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "91.99.97.62",
-            "server_port": 51479,
-            "uuid": "dcdbb1fb-ab20-447b-aa0a-7d149add2a53",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
             }
         },
         {

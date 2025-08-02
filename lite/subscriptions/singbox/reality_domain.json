@@ -117,7 +117,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [29]",
-                "🇮🇳 IN | 🔒 VLESS | @mowjproxy [3]",
+                "🇮🇳 IN | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -139,6 +139,8 @@
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vistav2ray [14]",
+                "🇮🇳 IN | 🔒 VLESS | @vistav2ray [15]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -180,7 +182,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [29]",
-                "🇮🇳 IN | 🔒 VLESS | @mowjproxy [3]",
+                "🇮🇳 IN | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -202,6 +204,8 @@
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vistav2ray [14]",
+                "🇮🇳 IN | 🔒 VLESS | @vistav2ray [15]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -913,7 +917,7 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇮🇳 IN | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "ind01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -1435,6 +1439,52 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vistav2ray [14]",
+            "type": "vless",
+            "server": "login.dayhostpro.com",
+            "server_port": 25685,
+            "uuid": "ad7666ba-a2f0-4bc0-a591-c2b5c71defc8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hoteltonight-test.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mh8q2kQofhOY1y0L2UWOiJ8OedYKb0G7jD0GK_A0YRs",
+                    "short_id": "80e33dd85656c7"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @vistav2ray [15]",
+            "type": "vless",
+            "server": "ind01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
                 }
             }
         },
