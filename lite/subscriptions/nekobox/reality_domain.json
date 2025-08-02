@@ -86,6 +86,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
@@ -95,7 +96,6 @@
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -150,6 +150,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
@@ -159,7 +160,6 @@
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -434,6 +434,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "accounting.cafegamingblackhorse.ir",
+            "server_port": 443,
+            "uuid": "f2b2791d-3534-438b-afbd-1a888b4c7f71",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T7Cwk-B3EvZqqRywIgN_TNotJiUOXYUI9bHqYKPnTi0",
+                    "short_id": "105e89ba3d2a1c3b"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -653,29 +676,6 @@
                     "enabled": true,
                     "public_key": "wzVTHc8AVy3DCkAhNrAayePA82teKZ0A2ckdPI3xsSk",
                     "short_id": "b9"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [11]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
