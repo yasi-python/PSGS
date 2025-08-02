@@ -97,7 +97,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [66]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -147,6 +146,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔓 VLESS | @v2rayngn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [4]",
@@ -171,7 +171,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [66]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -221,6 +220,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔓 VLESS | @v2rayngn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [4]",
@@ -371,29 +371,6 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [66]",
-            "type": "vless",
-            "server": "justdoit.broken-dreams.ir",
-            "server_port": 38414,
-            "uuid": "2676eb11-2935-46b4-8c30-6470637edaac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbdPbvMbWOhuGuXF2R9Dn-hoasBiuhsHazRwqrZ5YGU",
-                    "short_id": "74b07567d6b0"
                 }
             }
         },
@@ -1003,6 +980,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "server990857935246795719.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server990857935246795719.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",

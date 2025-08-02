@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
-                "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [8]",
@@ -116,9 +115,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
-                "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [8]",
@@ -232,13 +230,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "meli.ultimateman.ir",
-            "server_port": 80,
-            "uuid": "f83cdbdd-f062-4722-aaab-ec4d72e0dcfe",
+            "server": "server708670620525069264.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server708670620525069264.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [3]",
@@ -248,29 +255,6 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
-            "type": "vless",
-            "server": "justdoit.broken-dreams.ir",
-            "server_port": 38414,
-            "uuid": "2676eb11-2935-46b4-8c30-6470637edaac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbdPbvMbWOhuGuXF2R9Dn-hoasBiuhsHazRwqrZ5YGU",
-                    "short_id": "74b07567d6b0"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
