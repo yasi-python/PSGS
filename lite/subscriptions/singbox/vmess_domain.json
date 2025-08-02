@@ -124,8 +124,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [8]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [15]",
-                "🚩 CF | 🔓 VMESS | @ip_cf_config [17]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [15]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [11]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
@@ -156,6 +156,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -192,7 +193,6 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇸🇬 SG | 🔓 VMESS | @v2rayngconfiig [13]",
-                "🇩🇪 DE | 🔓 VMESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "❔ XX | 🔓 VMESS | @v2rayvmess [16]",
                 "🇩🇪 DE | 🔓 VMESS | @vipv2rayvip [1]",
@@ -253,8 +253,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [8]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [15]",
-                "🚩 CF | 🔓 VMESS | @ip_cf_config [17]",
+                "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
+                "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [15]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [11]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
@@ -285,6 +285,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -321,7 +322,6 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇸🇬 SG | 🔓 VMESS | @v2rayngconfiig [13]",
-                "🇩🇪 DE | 🔓 VMESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "❔ XX | 🔓 VMESS | @v2rayvmess [16]",
                 "🇩🇪 DE | 🔓 VMESS | @vipv2rayvip [1]",
@@ -951,52 +951,34 @@
             "alter_id": 0
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @ip_cf_config [15]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @ip_cf_config [13]",
             "type": "vmess",
-            "server": "103.253.26.20",
-            "server_port": 443,
-            "uuid": "aba50dd4-5484-3b05-b14a-4661caf862d5",
+            "server": "76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "5acc7a7c-d7ea-11eb-8673-f23c9164ca5d",
             "security": "auto",
-            "alter_id": 4,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @ip_cf_config [17]",
-            "type": "vmess",
-            "server": "172.67.131.27",
-            "server_port": 2053,
-            "uuid": "350e2b01-d410-44a6-90ba-6483f1062972",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "rak2d4.89060004.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
+            "alter_id": 2,
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "rak2d4.89060004.xyz"
+                    "Host": "broadcastlv.chat.bilibili.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @ip_cf_config [15]",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -1454,6 +1436,31 @@
             "uuid": "ad687825-5f77-428f-d3b0-34e59db68fa2",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
@@ -2014,22 +2021,6 @@
             "uuid": "dd1f5e36-fb05-45fd-b90d-38fb3bef5e59",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayopen [8]",
-            "type": "vmess",
-            "server": "91.99.153.39",
-            "server_port": 39130,
-            "uuid": "985af489-fb16-491a-813c-fdd91b6b06ee",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
