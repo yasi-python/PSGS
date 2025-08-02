@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -107,7 +108,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [11]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -137,7 +138,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [6]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmess_ir [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
@@ -163,6 +164,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -188,7 +190,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [11]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -218,7 +220,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2raytg [60]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [6]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2trayproxy [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmess_ir [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [16]",
@@ -338,6 +340,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "172.232.185.91",
+            "server_port": 443,
+            "uuid": "fd7eb872-66bd-4bf7-be5b-8f349e7c5f16",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.232.185.91",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [1]",
@@ -681,7 +701,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [11]",
             "type": "vless",
             "server": "91.99.219.10",
             "server_port": 443,
@@ -1175,7 +1195,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [5]",
             "type": "vless",
             "server": "151.101.195.8",
             "server_port": 80,
