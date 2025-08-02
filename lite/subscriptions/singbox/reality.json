@@ -98,17 +98,16 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
-                "🇹🇷 TR | 🔒 VLESS | @configshubplus [17]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [4]",
+                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -192,6 +191,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -228,17 +228,16 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
-                "🇹🇷 TR | 🔒 VLESS | @configshubplus [17]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [4]",
+                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
+                "❔ XX | 🔒 VLESS | @ip_cf_config [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -322,6 +321,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -574,33 +574,6 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "rep.tr.xpnvip.ir",
-            "server_port": 2689,
-            "uuid": "fa695024-dff5-47c0-8976-64b963236c22",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -648,33 +621,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @configshubplus [17]",
-            "type": "vless",
-            "server": "rep.tr.xpnvip.ir",
-            "server_port": 2689,
-            "uuid": "fa695024-dff5-47c0-8976-64b963236c22",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama"
             }
         },
         {
@@ -728,7 +674,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @free1_vpn [4]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
             "type": "vless",
             "server": "list.dayhostpro.com",
             "server_port": 14685,
@@ -851,6 +797,29 @@
                     "enabled": true,
                     "public_key": "wzVTHc8AVy3DCkAhNrAayePA82teKZ0A2ckdPI3xsSk",
                     "short_id": "b9"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [13]",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -2877,6 +2846,33 @@
                     "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
                     "short_id": "4ae260"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "213.21.245.54",
+            "server_port": 2030,
+            "uuid": "6c34743c-1b09-4ee5-a725-3e53f7807b48",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "7fe29733"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@@jet_config-@jet_config-@jet_config"
             }
         },
         {
