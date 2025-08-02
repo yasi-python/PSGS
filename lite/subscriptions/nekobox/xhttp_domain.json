@@ -95,6 +95,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
@@ -102,7 +103,6 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [124]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔒 VLESS | @v2trayproxy [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -129,6 +129,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
@@ -136,7 +137,6 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [124]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔒 VLESS | @v2trayproxy [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -395,6 +395,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -493,24 +502,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @v2trayproxy [16]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "f3c2dacb-fd09-4e08-b9fc-45ed09b987b5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pars.stepson.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",

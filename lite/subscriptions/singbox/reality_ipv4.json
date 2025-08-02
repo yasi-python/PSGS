@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [72]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [17]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -104,7 +105,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [17]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
@@ -136,7 +137,6 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
@@ -168,6 +168,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [72]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇧🇪 BE | 🔒 VLESS | @configfa [17]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -179,7 +180,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [17]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
@@ -211,7 +212,6 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇨🇿 CZ | 🔒 VLESS | @v2ray_sos [3]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
@@ -337,6 +337,29 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "85.234.65.120",
+            "server_port": 443,
+            "uuid": "2a562107-43a6-40a4-a35e-e01e6f21684e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ng4h6xKU-cqoC_T4U9_wGbYlFqpj9RJbsWVR4AJ_MSo",
+                    "short_id": "e2"
                 }
             }
         },
@@ -610,7 +633,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
             "type": "vless",
             "server": "91.107.189.227",
             "server_port": 24070,
@@ -1395,29 +1418,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-            "type": "vless",
-            "server": "5.75.201.180",
-            "server_port": 14703,
-            "uuid": "ServerNett-ServerNett1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Y9zKrv5hG5fbRdibewYRmulK0HEHX6QgaU30EbKxrAU",
-                    "short_id": "a3"
-                }
             }
         },
         {
