@@ -87,9 +87,9 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
+                "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @filter_breaker [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -105,7 +105,8 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [29]",
+                "🇬🇧 GB | 🔒 VLESS | @manzariyeh_rasht [30]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [31]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -127,7 +128,6 @@
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇬🇧 GB | 🔒 VLESS | @vistav2ray [14]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -151,9 +151,9 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
+                "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @filter_breaker [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -169,7 +169,8 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [29]",
+                "🇬🇧 GB | 🔒 VLESS | @manzariyeh_rasht [30]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [31]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -191,7 +192,6 @@
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngrit [16]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇬🇧 GB | 🔒 VLESS | @vistav2ray [14]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -457,6 +457,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @configshubplus [20]",
+            "type": "vless",
+            "server": "justdoit.broken-dreams.ir",
+            "server_port": 38414,
+            "uuid": "2676eb11-2935-46b4-8c30-6470637edaac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbdPbvMbWOhuGuXF2R9Dn-hoasBiuhsHazRwqrZ5YGU",
+                    "short_id": "74b07567d6b0"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @custom_14 [8]",
             "type": "vless",
             "server": "usa-join.outline-vpn.fun",
@@ -503,29 +526,6 @@
                     "enabled": true,
                     "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
                     "short_id": "f23547"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @filter_breaker [17]",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
                 }
             }
         },
@@ -907,7 +907,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [29]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @manzariyeh_rasht [30]",
+            "type": "vless",
+            "server": "gb01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "ea58dac7-6ca9-448a-aeff-af1ac5070acf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "31"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [31]",
             "type": "vless",
             "server": "login.dayhostpro.com",
             "server_port": 25685,
@@ -1429,29 +1452,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vistav2ray [14]",
-            "type": "vless",
-            "server": "gb01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "ea58dac7-6ca9-448a-aeff-af1ac5070acf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "31"
                 }
             }
         },
