@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
-                "🇴🇲 OM | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -102,7 +102,6 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [10]",
@@ -123,9 +122,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
-                "🇴🇲 OM | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -133,7 +132,6 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [10]",
@@ -230,6 +228,24 @@
             }
         },
         {
+            "tag": "🇴🇲 OM | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "156.244.29.59",
+            "server_port": 443,
+            "uuid": "16e55e1a-6152-4d92-a422-31490e8ef563",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "156.244.29.59",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
             "type": "vless",
             "server": "91.107.254.202",
@@ -260,24 +276,6 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇴🇲 OM | 🔓 VLESS | @freakconfig [15]",
-            "type": "vless",
-            "server": "38.54.116.73",
-            "server_port": 443,
-            "uuid": "16e55e1a-6152-4d92-a422-31490e8ef563",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "38.54.116.73",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
@@ -377,24 +375,6 @@
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [18]",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c1c6f7b2-0a36-43cf-a309-66fea055cafe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @proxie [19]",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
