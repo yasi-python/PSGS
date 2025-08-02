@@ -89,14 +89,14 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇳🇴 NO | 🔒 TROJAN | @hope_net [19]",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [12]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇭🇺 HU | 🔓 TROJAN | @v2raych [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
@@ -122,14 +122,14 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇳🇴 NO | 🔒 TROJAN | @hope_net [19]",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [12]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇭🇺 HU | 🔓 TROJAN | @v2raych [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
@@ -393,7 +393,23 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [14]",
+            "tag": "🇳🇴 NO | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "95.164.38.151",
+            "server_port": 443,
+            "password": "c5691b8f-d833-41e4-9295-769f3edb4cd2",
+            "tls": {
+                "enabled": true,
+                "server_name": "customer-95-164-38-151.stark-industries.solutions",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [12]",
             "type": "trojan",
             "server": "176.32.39.29",
             "server_port": 443,
@@ -508,29 +524,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇺 HU | 🔓 TROJAN | @v2raych [19]",
-            "type": "trojan",
-            "server": "141.11.203.203",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
-            "tls": {
-                "enabled": true,
-                "server_name": "za.ylks.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "za.ylks.xyz"
                 }
             }
         },

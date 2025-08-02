@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
@@ -114,6 +115,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
@@ -224,6 +226,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "server229242717676380726.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server229242717676380726.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
