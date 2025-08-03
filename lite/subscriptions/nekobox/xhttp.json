@@ -80,10 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [15]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇸🇦 SA | 🔓 VLESS | @freakconfig [16]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇸🇦 SA | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @icv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
@@ -137,10 +137,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [15]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇸🇦 SA | 🔓 VLESS | @freakconfig [16]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇸🇦 SA | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @icv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
@@ -274,24 +274,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "45.77.99.100",
-            "server_port": 443,
-            "uuid": "4bf96dd2-f451-4938-8fa4-1a2251290920",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.77.99.100",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @configfa [15]",
             "type": "vless",
             "server": "91.99.218.14",
@@ -324,7 +306,25 @@
             }
         },
         {
-            "tag": "🇸🇦 SA | 🔓 VLESS | @freakconfig [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "91.99.219.10",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.219.10",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇦 SA | 🔓 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "38.54.61.25",
             "server_port": 443,
