@@ -102,6 +102,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
+                "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [4]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -116,7 +117,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2graphy [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [15]",
-                "🇫🇮 FI | 🔓 VLESS | @vmess_ir [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -138,6 +138,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
+                "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [4]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -152,7 +153,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2graphy [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [15]",
-                "🇫🇮 FI | 🔓 VLESS | @vmess_ir [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -353,6 +353,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "d6bfe23e-f7a8-4beb-971c-c68ddd8fdd8c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
@@ -540,24 +549,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "server271816966957306554.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @vmess_ir [17]",
-            "type": "vless",
-            "server": "server990857935246795719.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "server990857935246795719.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

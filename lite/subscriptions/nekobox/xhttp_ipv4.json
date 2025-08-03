@@ -88,6 +88,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -97,8 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -117,6 +117,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -126,8 +127,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -355,6 +355,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "91.99.239.156",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
             "type": "vless",
             "server": "91.99.98.90",
@@ -522,15 +531,6 @@
                     "short_id": "aa60a00122200b76"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]",
-            "type": "vless",
-            "server": "91.99.153.233",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
