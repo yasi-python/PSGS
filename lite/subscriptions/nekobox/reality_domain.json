@@ -90,6 +90,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇫🇮 FI | 🔒 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -104,7 +105,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -151,6 +151,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇫🇮 FI | 🔒 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -165,7 +166,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -524,6 +524,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "direct.yasharteam.com",
+            "server_port": 443,
+            "uuid": "59db3b45-830a-4b6c-8b7d-9bd6d7189c7d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
             "type": "vless",
             "server": "list.dayhostpro.com",
@@ -875,29 +898,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
-            "type": "vless",
-            "server": "login.dayhostpro.com",
-            "server_port": 25685,
-            "uuid": "ad7666ba-a2f0-4bc0-a591-c2b5c71defc8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hoteltonight-test.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mh8q2kQofhOY1y0L2UWOiJ8OedYKb0G7jD0GK_A0YRs",
-                    "short_id": "80e33dd85656c7"
-                }
             }
         },
         {
