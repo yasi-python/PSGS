@@ -115,9 +115,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -167,9 +168,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -557,6 +559,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
+            "type": "vless",
+            "server": "server271816966957306554.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server271816966957306554.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
             "type": "vless",
             "server": "fast-01.saitsazs.ir",
@@ -589,7 +609,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [8]",
             "type": "vless",
             "server": "91.99.218.14",
             "server_port": 8443,
