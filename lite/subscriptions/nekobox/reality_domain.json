@@ -86,10 +86,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
-                "🇬🇧 GB | 🔒 VLESS | @configshubplus [15]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [16]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
@@ -149,10 +148,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
-                "🇬🇧 GB | 🔒 VLESS | @configshubplus [15]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [16]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
@@ -432,6 +430,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "ru01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -479,52 +500,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @configshubplus [15]",
-            "type": "vless",
-            "server": "gb01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "ea58dac7-6ca9-448a-aeff-af1ac5070acf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "31"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus [16]",
-            "type": "vless",
-            "server": "direct2.androiland.ir",
-            "server_port": 181,
-            "uuid": "9cbd3913-d0a8-4f11-be9d-4e5102d8f689",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1sDMgyhL5HPRAaRYJcAf21sWbSlq0kgitPVL2HQwB2M",
-                    "short_id": ""
-                }
             }
         },
         {
