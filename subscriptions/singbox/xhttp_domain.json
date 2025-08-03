@@ -99,6 +99,7 @@
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "🇫🇮 FI | 🔓 VLESS | @configfa [2]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [18]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -143,8 +144,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
-                "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [119]",
-                "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [124]",
+                "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [112]",
+                "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [117]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [6]",
@@ -176,6 +177,7 @@
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
                 "🇫🇮 FI | 🔓 VLESS | @configfa [2]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [18]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -220,8 +222,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
-                "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [119]",
-                "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [124]",
+                "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [112]",
+                "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [117]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [6]",
@@ -406,6 +408,24 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [18]",
+            "type": "vless",
+            "server": "server708670620525069264.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server708670620525069264.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configtrapi [15]",
@@ -961,7 +981,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [119]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @prrofile_purple [112]",
             "type": "vless",
             "server": "a1-l.1.in.neternal.cyou",
             "server_port": 8880,
@@ -984,7 +1004,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [124]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [117]",
             "type": "vless",
             "server": "filmnet.filimnet.com",
             "server_port": 80,
