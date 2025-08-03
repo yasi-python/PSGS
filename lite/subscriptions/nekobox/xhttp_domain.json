@@ -99,6 +99,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇫🇮 FI | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -132,6 +133,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇫🇮 FI | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -441,6 +443,24 @@
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
+            "type": "vless",
+            "server": "server990857935246795719.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server990857935246795719.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
