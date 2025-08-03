@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
@@ -99,6 +100,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -116,6 +118,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
@@ -135,6 +138,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -230,6 +234,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "e02a83a6-16c9-4eaf-d40e-1387028d93a0",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [3]",
@@ -438,6 +451,24 @@
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+            "type": "vless",
+            "server": "server79787566814164569.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server79787566814164569.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",

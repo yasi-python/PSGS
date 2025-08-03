@@ -83,7 +83,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🇪🇪 EE | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -109,7 +111,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🇪🇪 EE | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -260,14 +264,53 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+            "tag": "🇪🇪 EE | 🔓 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "159.112.235.35",
+            "server": "185.159.247.167",
             "server_port": 443,
             "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "159.112.235.35",
+                "server_name": "za.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "za.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.24.180.183",
+            "server_port": 443,
+            "password": "NISHIKUITAN111",
+            "tls": {
+                "enabled": true,
+                "server_name": "104.24.180.183",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
+            "type": "trojan",
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc6.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
