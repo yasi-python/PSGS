@@ -98,7 +98,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -117,8 +116,8 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇮🇳 IN | 🔒 VLESS | @netmellianti [11]",
-                "🇬🇧 GB | 🔒 VLESS | @netmellianti [13]",
+                "🇮🇳 IN | 🔒 VLESS | @netmellianti [10]",
+                "🇬🇧 GB | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -160,7 +159,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -179,8 +177,8 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇮🇳 IN | 🔒 VLESS | @netmellianti [11]",
-                "🇬🇧 GB | 🔒 VLESS | @netmellianti [13]",
+                "🇮🇳 IN | 🔒 VLESS | @netmellianti [10]",
+                "🇬🇧 GB | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -435,29 +433,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "ru01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "48720c"
-                }
             }
         },
         {
@@ -915,7 +890,7 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔒 VLESS | @netmellianti [11]",
+            "tag": "🇮🇳 IN | 🔒 VLESS | @netmellianti [10]",
             "type": "vless",
             "server": "ind01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -938,7 +913,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @netmellianti [13]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @netmellianti [12]",
             "type": "vless",
             "server": "uka.motorbazan.com",
             "server_port": 8443,
