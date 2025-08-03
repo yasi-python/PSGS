@@ -101,9 +101,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
+                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
-                "🇮🇹 IT | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -136,9 +136,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
+                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
-                "🇮🇹 IT | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -488,6 +488,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 15110,
+            "uuid": "b1400a69-146b-4534-8718-5f2122b620f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
+                    "short_id": "0570"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -497,7 +520,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [16]",
             "type": "vless",
             "server": "server271816966957306554.tas-bazi.com",
             "server_port": 443,
@@ -513,15 +536,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "filmnet.filimnet.com",
-            "server_port": 80,
-            "uuid": "0b370af8-af86-45dc-bc02-b8fb95e0ab7d",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
