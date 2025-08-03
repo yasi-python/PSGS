@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
-                "🚩 CF | 🔒 VLESS | @configshubplus [11]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [5]",
@@ -100,8 +99,9 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
-                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
+                "🇮🇹 IT | 🔓 VLESS | @mowjproxy [3]",
+                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -118,7 +118,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [3]",
-                "🚩 CF | 🔒 VLESS | @configshubplus [11]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [5]",
@@ -137,8 +136,9 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
-                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
+                "🇮🇹 IT | 🔓 VLESS | @mowjproxy [3]",
+                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -241,24 +241,6 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @configshubplus [11]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2053,
-            "uuid": "ed2591a2-26f5-4cfc-a652-557e518bf7c5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ham.stepson.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
@@ -469,7 +451,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [18]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "filmnet.filimnet.com",
             "server_port": 80,
@@ -478,7 +460,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
+            "type": "vless",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "56e49ef2-673a-48ee-bb2a-c74ebb6601ba",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔓 VLESS | @proxy_mtproto_vpns_free [17]",
             "type": "vless",
             "server": "filmnet.filimnet.com",
             "server_port": 80,

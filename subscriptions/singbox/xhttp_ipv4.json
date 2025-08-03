@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -121,8 +122,8 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [8]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [6]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [7]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [6]",
@@ -140,7 +141,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [10]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
-                "🇺🇸 US | 🔓 VLESS | @v2graphy [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2graphy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -177,6 +178,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configms [3]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -204,8 +206,8 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [8]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [6]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [7]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [6]",
@@ -223,7 +225,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [10]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
-                "🇺🇸 US | 🔓 VLESS | @v2graphy [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2graphy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -350,6 +352,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "uuid": "d5012012-a850-49fc-bb81-17a4bf6876b4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Kasler.lol",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [1]",
@@ -711,7 +731,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [7]",
             "type": "vless",
             "server": "91.99.219.10",
             "server_port": 443,
@@ -729,7 +749,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [5]",
             "type": "vless",
             "server": "91.99.183.30",
             "server_port": 8443,
@@ -1036,7 +1056,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2graphy [4]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2graphy [2]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,

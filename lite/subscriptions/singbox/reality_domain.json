@@ -98,6 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -116,6 +117,7 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇮🇳 IN | 🔒 VLESS | @netmellianti [10]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -159,6 +161,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇫🇮 FI | 🔒 VLESS | @configfa [18]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -177,6 +180,7 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇮🇳 IN | 🔒 VLESS | @netmellianti [10]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -433,6 +437,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+            "server_port": 443,
+            "uuid": "33707040-edcf-4185-94e4-2a071315c602",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
+                    "short_id": "7def4dde"
+                }
             }
         },
         {
@@ -887,6 +914,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "order.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "001c1efb-0302-4974-8be7-b1a5bbcbaabc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
+                    "short_id": "3da49e0b43"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         },
         {
