@@ -93,19 +93,19 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
-                "❔ XX | 🔓 VLESS | @parsashonam [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @parsashonam [10]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
@@ -125,19 +125,19 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
-                "❔ XX | 🔓 VLESS | @parsashonam [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @parsashonam [10]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
@@ -259,20 +259,13 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
             "type": "vless",
-            "server": "[2a01:4f9:c010:1ac8::1]",
-            "server_port": 8443,
-            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-292",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@InterNet_Nor",
-                "headers": {
-                    "Host": "[2a01:4f9:c010:1ac8::1]"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -386,6 +379,22 @@
             }
         },
         {
+            "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
+            "type": "vless",
+            "server": "[2a01:4f9:c010:1ac8::1]",
+            "server_port": 8443,
+            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@InterNet_Nor",
+                "headers": {
+                    "Host": "[2a01:4f9:c010:1ac8::1]"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @internet_nor [2]",
             "type": "vless",
             "server": "[2a01:4f9:c010:1ac8::1]",
@@ -450,15 +459,6 @@
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
             "uuid": "Parsashonam-291",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @parsashonam [6]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-292",
             "flow": "",
             "packet_encoding": "xudp"
         },
