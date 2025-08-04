@@ -82,10 +82,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [8]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -111,6 +108,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -160,10 +158,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [8]",
-                "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -189,6 +184,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -334,24 +330,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "172.235.143.48",
-            "server_port": 443,
-            "uuid": "fe858a71-b4e2-4767-bd6b-f4616773f112",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.235.143.48",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [2]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -359,38 +337,6 @@
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [8]",
-            "type": "vless",
-            "server": "91.99.218.14",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @configshubplus [17]",
-            "type": "vless",
-            "server": "212.95.41.20",
-            "server_port": 900,
-            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
-                    "short_id": "2cc45a0088671249"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -741,6 +687,29 @@
             "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
+            "type": "vless",
+            "server": "212.95.41.20",
+            "server_port": 900,
+            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
+                    "short_id": "2cc45a0088671249"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
