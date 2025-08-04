@@ -91,15 +91,12 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [30]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [16]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -128,6 +125,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @v2graphy [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [10]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -158,15 +156,12 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [30]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [16]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
-                "❔ XX | 🔒 VLESS | @ip_cf_config [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @iranbaxvpn [7]",
@@ -195,6 +190,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @v2graphy [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [10]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -559,56 +555,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "def.irimcs.org",
-            "server_port": 2053,
-            "uuid": "ff07526f-7fab-431c-cf38-ab96eeb568f9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "penvJFtaVngcSYXhoZk1hf_AwOJRI8LtJEis-FmwpDA",
-                    "short_id": "fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [60]",
-            "type": "vless",
-            "server": "nl01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "d3b13f31"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "direct.yasharteam.com",
@@ -755,29 +701,6 @@
                     "enabled": true,
                     "public_key": "wzVTHc8AVy3DCkAhNrAayePA82teKZ0A2ckdPI3xsSk",
                     "short_id": "b9"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @ip_cf_config [14]",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -1458,6 +1381,29 @@
                     "enabled": true,
                     "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
                     "short_id": "fdf18126a0768480"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [10]",
+            "type": "vless",
+            "server": "nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
                 }
             }
         },

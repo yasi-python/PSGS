@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -102,7 +104,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [8]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [8]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
@@ -173,7 +174,9 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -181,7 +184,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [8]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [8]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
@@ -344,11 +346,38 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
+            "type": "vless",
+            "server": "45.32.88.176",
+            "server_port": 443,
+            "uuid": "a333acaf-2817-4bf9-9221-c1a63bb80de8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.32.88.176",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [2]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
+            "type": "vless",
+            "server": "91.99.85.185",
+            "server_port": 8443,
+            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -440,15 +469,6 @@
             "server": "91.99.218.14",
             "server_port": 8443,
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
-            "type": "vless",
-            "server": "91.99.85.185",
-            "server_port": 8443,
-            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
