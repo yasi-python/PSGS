@@ -86,11 +86,10 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "🇺🇸 US | 🔒 TROJAN | @hopev2ray [1]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [2]",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config [7]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [3]",
                 "🚩 CF | 🔓 TROJAN | @jiedianssr [2]",
@@ -105,7 +104,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [8]",
+                "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [12]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
@@ -136,11 +135,10 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "🇺🇸 US | 🔒 TROJAN | @hopev2ray [1]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [2]",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config [7]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [3]",
                 "🚩 CF | 🔓 TROJAN | @jiedianssr [2]",
@@ -155,7 +153,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [8]",
+                "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [12]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
@@ -366,6 +364,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [54]",
+            "type": "trojan",
+            "server": "www.digitalocean.com",
+            "server_port": 443,
+            "password": "trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet-9ya.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "azadnet-9ya.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
             "type": "trojan",
             "server": "t3.teslacdn2.live",
@@ -406,45 +427,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "usa.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [2]",
-            "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
-            "server_port": 443,
-            "password": "9yu6m5okr",
-            "tls": {
-                "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 TROJAN | @ip_cf_config [7]",
-            "type": "trojan",
-            "server": "stirring-parakeet.shiner427.skin",
-            "server_port": 443,
-            "password": "74260628090146500",
-            "tls": {
-                "enabled": true,
-                "server_name": "stirring-parakeet.shiner427.skin",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -735,7 +717,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [8]",
+            "tag": "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
             "type": "trojan",
             "server": "oss-cn-shanghai.westdatacloud.top",
             "server_port": 20048,
