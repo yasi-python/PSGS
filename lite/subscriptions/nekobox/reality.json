@@ -90,11 +90,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
                 "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
+                "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
@@ -218,11 +220,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
                 "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
+                "❔ XX | 🔒 VLESS | @fsv2ray [4]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iran_mehr_vpn [16]",
@@ -658,11 +662,34 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
+            "type": "vless",
+            "server": "hajimamad.timeclassic.ir",
+            "server_port": 900,
+            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
+                    "short_id": "2cc45a0088671249"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "FsV2ray.t-sub.site",
-            "server_port": 51019,
-            "uuid": "83656dde-bb8f-4f02-c771-8123b8943c71",
+            "server": "accpremium.outlineprivate.store",
+            "server_port": 443,
+            "uuid": "3003c4dc-66c7-446c-b4ba-5f3ee893ec66",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -671,17 +698,17 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "geB_QyPKFXVFbAD8fWednlx-7d1NOGAuLPVQOgHzRw0",
-                    "short_id": "354998e8"
+                    "public_key": "bbGjxnVYyeEri21g3WxECXblTTUYtSdah1nn0zYeKUw",
+                    "short_id": "6f760d96"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@FsV2ray"
+                "service_name": "@OUTLINEIRAN,@OUTLINEIRAN,@OUTLINEIRAN,@OUTLINEIRAN,@OUTLINEIRAN"
             }
         },
         {
@@ -782,6 +809,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "چنل"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fsv2ray [4]",
+            "type": "vless",
+            "server": "FsV2ray.t-sub.site",
+            "server_port": 51019,
+            "uuid": "83656dde-bb8f-4f02-c771-8123b8943c71",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "geB_QyPKFXVFbAD8fWednlx-7d1NOGAuLPVQOgHzRw0",
+                    "short_id": "354998e8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@FsV2ray"
             }
         },
         {
