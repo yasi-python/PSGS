@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config [16]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -102,6 +101,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -113,8 +113,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [18]"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -126,7 +125,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @ip_cf_config [16]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -135,6 +133,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -146,8 +145,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [18]"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -246,13 +244,6 @@
                     "Host": "asia.artunnel57.host"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 TROJAN | @ip_cf_config [16]",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -404,6 +395,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
+            "type": "trojan",
+            "server": "104.25.165.81",
+            "server_port": 8443,
+            "password": "123456",
+            "tls": {
+                "enabled": true,
+                "server_name": "top-azx.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Az1.vpn.33.TOP/?ed=2560",
+                "headers": {
+                    "Host": "top-azx.pages.dev"
                 }
             }
         },
@@ -603,29 +617,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [18]",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         }
