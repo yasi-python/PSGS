@@ -99,8 +99,6 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [19]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [20]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -119,6 +117,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -155,8 +154,6 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [19]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [20]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -175,6 +172,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -476,38 +474,6 @@
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [19]",
-            "type": "vless",
-            "server": "hajimamad.timeclassic.ir",
-            "server_port": 900,
-            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
-                    "short_id": "2cc45a0088671249"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [20]",
-            "type": "vless",
-            "server": "hajimamadvpn.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "378b8e58-6a23-4fc6-b227-67665a78033d",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -823,6 +789,24 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
+            "type": "vless",
+            "server": "91.99.233.77",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.233.77",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
