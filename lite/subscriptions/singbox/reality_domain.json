@@ -98,6 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -121,7 +122,6 @@
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -142,6 +142,7 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -161,6 +162,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -184,7 +186,6 @@
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -205,6 +206,7 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -437,6 +439,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "nl.2.tryfreenet24.xyz",
+            "server_port": 8023,
+            "uuid": "ViP_Fragmemt_V2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.xom",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IeLdc7dCgdzACeAK1wq4rxuuBmp9kTh4Wq_pjZhJeXo",
+                    "short_id": "62e9"
+                }
             }
         },
         {
@@ -1017,29 +1042,6 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
-            "type": "vless",
-            "server": "itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
-            "server_port": 443,
-            "uuid": "1ae544de-4b19-4bd0-a7d6-e47e2e19a057",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "itgetsbetter.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc",
-                    "short_id": "462c73aef9f448"
-                }
-            }
-        },
-        {
             "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
@@ -1509,6 +1511,33 @@
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "gr.globalunlimitedinternet.xyz",
+            "server_port": 1911,
+            "uuid": "ad91dd85-29e2-4a6b-b024-16cac7c7093e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4",
+                    "short_id": "32aaf12b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc.reality"
             }
         },
         {

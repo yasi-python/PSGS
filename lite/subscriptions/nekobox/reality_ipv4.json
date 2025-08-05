@@ -95,10 +95,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [8]",
+                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [17]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇫🇮 FI | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
@@ -114,7 +115,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -168,10 +168,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [8]",
+                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🇩🇪 DE | 🔒 VLESS | @icv2ray [17]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇫🇮 FI | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
@@ -187,7 +188,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -679,7 +679,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [8]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [7]",
             "type": "vless",
             "server": "65.109.194.11",
             "server_port": 23584,
@@ -775,6 +775,29 @@
                     "enabled": true,
                     "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
                     "short_id": "8b62ab46"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @iseqaro [2]",
+            "type": "vless",
+            "server": "65.108.27.213",
+            "server_port": 2096,
+            "uuid": "e4a7c496-d651-462d-b9b0-5ee1c3828f24",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "22F-CjB4ooEv2WPdVV5owFpWo6Zl4vqEOhnXVExu620",
+                    "short_id": "5209f4d7c31b51c9"
                 }
             }
         },
@@ -1132,29 +1155,6 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
-            "type": "vless",
-            "server": "152.53.142.189",
-            "server_port": 20558,
-            "uuid": "11cb3fc7-f30d-4b42-9ebc-d015f3753403",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VZ4lK5AZMihPtshVNW2nJtWxD4JO80hhCK2EwY4KqRs",
-                    "short_id": "03e60665"
                 }
             }
         },
