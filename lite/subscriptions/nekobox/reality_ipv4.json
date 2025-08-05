@@ -87,6 +87,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
+                "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [14]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -110,9 +111,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [23]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [17]",
@@ -157,6 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
+                "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [14]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -180,9 +184,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [23]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [17]",
@@ -469,6 +475,29 @@
                     "enabled": true,
                     "public_key": "n9OO75eOaHXQyfUByQSZviDY4RmSUQyoU1YSs4yQXEs",
                     "short_id": "7f700392"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -1034,7 +1063,34 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "91.99.97.62",
+            "server_port": 51479,
+            "uuid": "e4848d5d-3380-45ff-f9d5-48cb1f492926",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
             "type": "vless",
             "server": "62.60.179.68",
             "server_port": 443,
@@ -1099,6 +1155,29 @@
                     "enabled": true,
                     "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
                     "short_id": "0ecc2c1392"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
