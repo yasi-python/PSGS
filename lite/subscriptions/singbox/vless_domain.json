@@ -154,8 +154,6 @@
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [33]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [19]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
@@ -197,7 +195,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "❔ XX | 🔓 VLESS | @goodbyefiltering [8]",
                 "🇫🇮 FI | 🔓 VLESS | @grizzlyvpn [6]",
                 "❔ XX | 🔓 VLESS | @guard_revil [4]",
                 "🇬🇧 GB | 🔒 VLESS | @info_2it_channel [9]",
@@ -312,7 +309,6 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
@@ -503,8 +499,6 @@
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [33]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [19]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
@@ -546,7 +540,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "❔ XX | 🔓 VLESS | @goodbyefiltering [8]",
                 "🇫🇮 FI | 🔓 VLESS | @grizzlyvpn [6]",
                 "❔ XX | 🔓 VLESS | @guard_revil [4]",
                 "🇬🇧 GB | 🔒 VLESS | @info_2it_channel [9]",
@@ -661,7 +654,6 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [16]",
@@ -1901,42 +1893,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "c2.vact.ir",
-            "server_port": 443,
-            "uuid": "f2a98714-c363-43c0-8c72-a1163df38c33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gmfZyQtoXXrck45kkXm_vO3TlB0CcDNvkLkd3-HAfFA",
-                    "short_id": "b542ac"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "4b75a44d-3c91-461e-b5a0-6060ac8aff68",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -2576,22 +2532,6 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @goodbyefiltering [8]",
-            "type": "vless",
-            "server": "cdn.king4father.shop",
-            "server_port": 8080,
-            "uuid": "9208e854-c58f-4d42-9fb4-8d0927b33285",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/custom-config",
-                "headers": {
-                    "Host": "cdn.king4father.shop"
                 }
             }
         },
@@ -4606,22 +4546,6 @@
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "61426e5a-aeb7-4f12-8c7d-3d78115dcca0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [8]",

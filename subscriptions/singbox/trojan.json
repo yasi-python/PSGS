@@ -130,6 +130,7 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇮🇪 IE | 🔒 TROJAN | @configshubplus [7]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [2]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [2]",
@@ -150,7 +151,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [20]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [8]",
+                "❔ XX | 🔒 TROJAN | @hope_net [6]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -186,6 +187,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -253,6 +255,7 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇮🇪 IE | 🔒 TROJAN | @configshubplus [7]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [2]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [2]",
@@ -273,7 +276,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [20]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [8]",
+                "❔ XX | 🔒 TROJAN | @hope_net [6]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -309,6 +312,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -1069,6 +1073,22 @@
             }
         },
         {
+            "tag": "🇮🇪 IE | 🔒 TROJAN | @configshubplus [7]",
+            "type": "trojan",
+            "server": "54.75.220.189",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 TROJAN | @dailytek [2]",
             "type": "trojan",
             "server": "104.21.44.185",
@@ -1380,7 +1400,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [8]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [6]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -2012,6 +2032,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+            "type": "trojan",
+            "server": "104.25.254.4",
+            "server_port": 2087,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojanfree-76s.pages.dev",
+                "headers": {
+                    "Host": "trojanfree-76s.pages.dev"
                 }
             }
         },
