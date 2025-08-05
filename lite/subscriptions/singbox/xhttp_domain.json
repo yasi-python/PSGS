@@ -101,7 +101,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -111,8 +110,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -141,7 +141,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -151,8 +150,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -343,29 +343,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
-            "type": "vless",
-            "server": "hajimamad.timeclassic.ir",
-            "server_port": 900,
-            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
-                    "short_id": "2cc45a0088671249"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @farahvpn [20]",
             "type": "vless",
             "server": "speedtest.net",
@@ -456,7 +433,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -475,6 +452,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "ham.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [14]",
+            "type": "vless",
+            "server": "rde.datgame.info",
+            "server_port": 2087,
+            "uuid": "e05806b7-ebb1-4eed-b196-e75af30f0901",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rde.datgame.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
