@@ -89,7 +89,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [1]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
@@ -108,6 +107,7 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [2]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -144,7 +144,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [6]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -164,7 +164,6 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [1]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
@@ -183,6 +182,7 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [2]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
@@ -219,7 +219,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [6]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -417,15 +417,6 @@
                     "short_id": "2cc45a0088671249"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [1]",
-            "type": "vless",
-            "server": "91.99.85.185",
-            "server_port": 8443,
-            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
@@ -683,6 +674,15 @@
             "server": "91.99.98.90",
             "server_port": 8443,
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
+            "type": "vless",
+            "server": "91.99.85.185",
+            "server_port": 8443,
+            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1321,7 +1321,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "209.250.243.231",
             "server_port": 44914,
