@@ -85,6 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -140,11 +141,10 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raych [15]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [20]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -163,6 +163,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -218,11 +219,10 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raych [15]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vmess_ir [20]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -373,6 +373,15 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "b28dba52-6300-4307-8f94-feb346e0b543",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -1064,13 +1073,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raych [15]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @v2raych [20]",
             "type": "vless",
-            "server": "filmnet.filimnet.com",
-            "server_port": 80,
-            "uuid": "e1944266-3548-4914-8c94-c5e216fa26a9",
+            "server": "server320258253370151493.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server320258253370151493.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2trayproxy [11]",
@@ -1116,24 +1134,6 @@
             "uuid": "378b8e58-6a23-4fc6-b227-67665a78033d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmess_ir [20]",
-            "type": "vless",
-            "server": "server18477021984150715.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "0077f357-40b8-4496-8ff6-3f012bdb2eaa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "server18477021984150715.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @vpnfree_irann [1]",
