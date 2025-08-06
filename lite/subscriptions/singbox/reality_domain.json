@@ -101,6 +101,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -113,10 +114,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [14]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -160,6 +161,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -172,10 +174,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [14]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -505,6 +507,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+            "type": "vless",
+            "server": "german.vp22ray.site",
+            "server_port": 2087,
+            "uuid": "05898b79-2bc1-4126-88ca-e8e081c19b5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
+                    "short_id": "32c43ca1"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @fsv2ray [2]",
             "type": "vless",
             "server": "FsV2ray.t-sub.site",
@@ -813,7 +838,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
             "type": "vless",
             "server": "balancer.russia.purr.bot",
             "server_port": 10443,
@@ -890,7 +915,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
             "server_port": 443,
