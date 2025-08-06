@@ -89,7 +89,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -102,13 +101,15 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
+                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [13]",
+                "🇦🇲 AM | 🔒 VLESS | @proxystore11 [15]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -148,7 +149,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -161,13 +161,15 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
+                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [13]",
+                "🇦🇲 AM | 🔒 VLESS | @proxystore11 [15]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -497,29 +499,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "balancer.russia.purr.bot",
-            "server_port": 10443,
-            "uuid": "043c6983-e720-4e82-9568-5694cbf43753",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sweetpurr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jydcbn_c_lQzE7FxMCqmo4pzl9oYypd-EdpJzpdvfS4",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @fsv2ray [2]",
             "type": "vless",
             "server": "FsV2ray.t-sub.site",
@@ -828,6 +807,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
+            "type": "vless",
+            "server": "balancer.russia.purr.bot",
+            "server_port": 10443,
+            "uuid": "043c6983-e720-4e82-9568-5694cbf43753",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sweetpurr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jydcbn_c_lQzE7FxMCqmo4pzl9oYypd-EdpJzpdvfS4",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -882,7 +884,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [12]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -978,7 +980,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxystore11 [13]",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 15110,
@@ -997,6 +999,29 @@
                     "enabled": true,
                     "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
                     "short_id": "0570"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @proxystore11 [15]",
+            "type": "vless",
+            "server": "soren1.risktravelers.top",
+            "server_port": 26779,
+            "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vvnHrHSA5bEUrUChLnljMVrJTsSQxIVTvB-6LR8KXhw",
+                    "short_id": "76b5"
                 }
             }
         },
