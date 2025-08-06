@@ -101,7 +101,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -114,7 +114,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
@@ -161,7 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -174,7 +173,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [13]",
@@ -507,25 +505,25 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "german.vp22ray.site",
-            "server_port": 2087,
-            "uuid": "05898b79-2bc1-4126-88ca-e8e081c19b5d",
+            "server": "balancer.russia.purr.bot",
+            "server_port": 10443,
+            "uuid": "043c6983-e720-4e82-9568-5694cbf43753",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "Ftp.debian.org",
+                "server_name": "www.sweetpurr.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
-                    "short_id": "32c43ca1"
+                    "public_key": "jydcbn_c_lQzE7FxMCqmo4pzl9oYypd-EdpJzpdvfS4",
+                    "short_id": ""
                 }
             }
         },
@@ -835,29 +833,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @manzariyeh_rasht [24]",
-            "type": "vless",
-            "server": "balancer.russia.purr.bot",
-            "server_port": 10443,
-            "uuid": "043c6983-e720-4e82-9568-5694cbf43753",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sweetpurr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jydcbn_c_lQzE7FxMCqmo4pzl9oYypd-EdpJzpdvfS4",
-                    "short_id": ""
-                }
             }
         },
         {
