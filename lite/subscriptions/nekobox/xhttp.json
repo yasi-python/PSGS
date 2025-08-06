@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
@@ -88,7 +88,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -116,6 +115,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🚩 CF | 🔓 VLESS | @kingofilter [5]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [9]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -134,7 +134,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
@@ -142,7 +142,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -170,6 +169,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🚩 CF | 🔓 VLESS | @kingofilter [5]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [9]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -268,16 +268,16 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "185.226.181.227",
-            "server_port": 2055,
-            "uuid": "5990e261-1942-4983-aa40-3f585a699fae",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "kifpool.me",
+                "server_name": "Google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -285,8 +285,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uUxB4kGyHwy-oKZ6mKoXTIWsXJGsDLop9NiRd0B36zI",
-                    "short_id": "54994c92a0"
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -422,29 +422,6 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -802,6 +779,15 @@
             "server": "llc.v2sub.ir",
             "server_port": 2082,
             "uuid": "000f1ace-a4d6-44ea-93b0-d5d384fc9cd7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "nufilter.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "d214752d-1ebd-40be-89f6-7e901a4066f1",
             "flow": "",
             "packet_encoding": "xudp"
         },
