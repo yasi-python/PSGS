@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -123,13 +124,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [19]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -167,6 +169,7 @@
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -196,13 +199,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇮🇩 ID | 🔒 VLESS | @oonfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [19]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -361,6 +365,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "185.239.48.109",
+            "server_port": 8443,
+            "uuid": "ba8506fd-2980-468a-9ed6-45a4fb5f0c8d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eO0nZefhicOmghlvSXK-88YNJFIsxYTeGCw8HkLzdhc",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1071,7 +1098,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "91.99.97.62",
             "server_port": 51479,
@@ -1241,6 +1268,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [19]",
+            "type": "vless",
+            "server": "94.237.27.223",
+            "server_port": 33115,
+            "uuid": "dae81384-bbf5-4134-bcd4-110ce819fd9d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yelp.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "53Q1y0Vmf2zaGBBlcO1NyKFvQM1TShkJKBCNjlevpns",
+                    "short_id": "09cb"
+                }
             }
         },
         {
