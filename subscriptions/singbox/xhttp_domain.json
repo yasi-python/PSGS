@@ -97,7 +97,9 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
+                "🇫🇮 FI | 🔒 VLESS | @configshubplus [10]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -137,7 +139,7 @@
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🚩 CF | 🔓 VLESS | @kingofilter [2]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [4]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [4]",
@@ -175,7 +177,9 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
+                "🇫🇮 FI | 🔒 VLESS | @configshubplus [10]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -215,7 +219,7 @@
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🚩 CF | 🔓 VLESS | @kingofilter [2]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [4]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [4]",
@@ -383,6 +387,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "soren1.mahmouditravelers.top",
+            "server_port": 26779,
+            "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -390,6 +403,29 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @configshubplus [10]",
+            "type": "vless",
+            "server": "join-daily-configs.easypeasytech.ir",
+            "server_port": 17635,
+            "uuid": "d69a17e6-b352-44af-a139-7a41bd544f8c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "slack.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YdPRbmqcFmVOd9gcuR0f6f3I1UDcbMTWxxXm5QPRo0U",
+                    "short_id": "8fe9"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configtrapi [15]",
@@ -849,7 +885,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
             "type": "vless",
             "server": "configline.fast.hosting-ip.com",
             "server_port": 80,
