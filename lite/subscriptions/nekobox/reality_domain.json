@@ -89,6 +89,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -104,9 +105,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
-                "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [11]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -121,7 +120,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [9]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [14]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -147,6 +146,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -162,9 +162,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
-                "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxystore11 [11]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -179,7 +177,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [9]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [14]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -492,6 +490,33 @@
                     "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
                     "short_id": "f23547"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "vpncustomize.cam",
+            "server_port": 443,
+            "uuid": "4fd0c05c-3d20-4512-9628-0eeade38d4c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.iranserver.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
+                    "short_id": "6b0541cd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE"
             }
         },
         {
@@ -880,33 +905,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-            "type": "vless",
-            "server": "vpncustomize.cam",
-            "server_port": 443,
-            "uuid": "4fd0c05c-3d20-4512-9628-0eeade38d4c4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.iranserver.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
-                    "short_id": "6b0541cd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE"
-            }
-        },
-        {
             "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
@@ -926,29 +924,6 @@
                     "enabled": true,
                     "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
                     "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxystore11 [11]",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 15110,
-            "uuid": "b1400a69-146b-4534-8718-5f2122b620f5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
-                    "short_id": "0570"
                 }
             }
         },
@@ -1283,7 +1258,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [14]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
