@@ -85,7 +85,6 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -109,6 +108,7 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -148,7 +148,6 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -172,6 +171,7 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -402,33 +402,6 @@
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "91.99.150.157",
-            "server_port": 2182,
-            "uuid": "b96981a2-a6aa-44c0-b21f-88328379ec33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "chess.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "chessgame"
             }
         },
         {
@@ -982,6 +955,33 @@
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
+            "type": "vless",
+            "server": "91.99.150.157",
+            "server_port": 2182,
+            "uuid": "b96981a2-a6aa-44c0-b21f-88328379ec33",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chess.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "chessgame"
             }
         },
         {
