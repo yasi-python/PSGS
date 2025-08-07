@@ -89,6 +89,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [29]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
@@ -142,6 +143,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [29]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
@@ -359,6 +361,24 @@
             "uuid": "4801c19d-37aa-4704-921e-9ee9bab80f1d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
