@@ -82,9 +82,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [12]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -106,6 +105,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔓 VLESS | @netmellianti [10]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -153,9 +153,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [12]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -177,6 +176,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔓 VLESS | @netmellianti [10]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -320,25 +320,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "199.247.16.203",
-            "server_port": 17928,
-            "uuid": "71243590-61ff-46b9-816c-ec48ea9ea692",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "2e13e747-018e-4141-b7b7-cc01af603eb7",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "sauron2.melkore.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hP4TGbnaexWt-MKrFPd67DoFwSmr-o72GILwFvmZxiA",
-                    "short_id": "d3c49afc00"
                 }
             }
         },
@@ -348,15 +343,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [12]",
-            "type": "vless",
-            "server": "91.99.98.90",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -643,6 +629,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @netmellianti [10]",
+            "type": "vless",
+            "server": "91.99.98.90",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
         },
