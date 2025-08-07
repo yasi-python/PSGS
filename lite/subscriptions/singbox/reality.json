@@ -144,6 +144,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [16]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -159,7 +160,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇫🇮 FI | 🔒 VLESS | @iseqaro [2]",
                 "🇫🇮 FI | 🔒 VLESS | @iseqaro [3]",
@@ -208,7 +208,7 @@
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [18]"
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -271,6 +271,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [16]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -286,7 +287,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇫🇮 FI | 🔒 VLESS | @iseqaro [2]",
                 "🇫🇮 FI | 🔒 VLESS | @iseqaro [3]",
@@ -335,7 +335,7 @@
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [18]"
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1690,6 +1690,33 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "31.44.0.122",
+            "server_port": 8443,
+            "uuid": "757d305d-821d-4ddb-8ba0-c322835ee983",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oDKhzvBnNlnZbic5xcVv75M3gCDYLz6dTPA7q79Vkks",
+                    "short_id": "6935161307"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -2055,29 +2082,6 @@
                     "enabled": true,
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "172.235.141.7",
-            "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
                 }
             }
         },
@@ -3237,7 +3241,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [18]",
+            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
             "server": "[2a03:b0c0:3:f0:0:1:230e:f000]",
             "server_port": 27270,
