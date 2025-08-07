@@ -82,7 +82,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -141,8 +141,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -155,7 +154,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
                 "🇺🇸 US | 🔓 VLESS | @configms [2]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -214,8 +213,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -324,13 +322,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
             "type": "vless",
-            "server": "151.101.194.219",
-            "server_port": 80,
-            "uuid": "2aa24fff-1d13-41cd-a724-b8a613c19cd9",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "87.120.205.76",
+            "server_port": 1002,
+            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [2]",
@@ -1249,18 +1261,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "91.99.176.24",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]",
-            "type": "vless",
-            "server": "91.99.176.24",
+            "server": "91.99.153.233",
             "server_port": 8443,
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
