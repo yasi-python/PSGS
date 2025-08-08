@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔒 SS | @canfing_vpn [6]",
                 "🇸🇪 SE | 🔒 SS | @configshubplus [9]",
                 "❔ XX | 🔒 SS | @darkma3ter24 [1]",
+                "🇯🇵 JP | 🔒 SS | @fastfreeconfig [46]",
                 "🇺🇸 US | 🔒 SS | @fastkanfig [2]",
                 "🇺🇸 US | 🔒 SS | @fastkanfig [3]",
                 "🇺🇸 US | 🔒 SS | @filtershekan_channel [5]",
@@ -112,7 +113,7 @@
                 "🇦🇪 AE | 🔒 SS | @shadowsockskeys [4]",
                 "🇷🇺 RU | 🔒 SS | @shadowsockskeys [16]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
-                "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
+                "🇷🇺 RU | 🔒 SS | @v2rayopen [14]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
                 "❔ XX | 🔒 SS | @v_2ray1 [7]",
                 "🇺🇸 US | 🔒 SS | @v_2ray1 [8]",
@@ -122,8 +123,7 @@
                 "🇳🇱 NL | 🔒 SS | @vpn451 [9]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [11]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
-                "🇺🇸 US | 🔒 SS | @vpn451 [14]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
+                "🇺🇸 US | 🔒 SS | @vpn451 [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -138,6 +138,7 @@
                 "🇺🇸 US | 🔒 SS | @canfing_vpn [6]",
                 "🇸🇪 SE | 🔒 SS | @configshubplus [9]",
                 "❔ XX | 🔒 SS | @darkma3ter24 [1]",
+                "🇯🇵 JP | 🔒 SS | @fastfreeconfig [46]",
                 "🇺🇸 US | 🔒 SS | @fastkanfig [2]",
                 "🇺🇸 US | 🔒 SS | @fastkanfig [3]",
                 "🇺🇸 US | 🔒 SS | @filtershekan_channel [5]",
@@ -166,7 +167,7 @@
                 "🇦🇪 AE | 🔒 SS | @shadowsockskeys [4]",
                 "🇷🇺 RU | 🔒 SS | @shadowsockskeys [16]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
-                "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
+                "🇷🇺 RU | 🔒 SS | @v2rayopen [14]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
                 "❔ XX | 🔒 SS | @v_2ray1 [7]",
                 "🇺🇸 US | 🔒 SS | @v_2ray1 [8]",
@@ -176,8 +177,7 @@
                 "🇳🇱 NL | 🔒 SS | @vpn451 [9]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [11]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
-                "🇺🇸 US | 🔒 SS | @vpn451 [14]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
+                "🇺🇸 US | 🔒 SS | @vpn451 [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -298,6 +298,14 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "a8bt9fY0QsLS6eLnXUe0Ym"
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 SS | @fastfreeconfig [46]",
+            "type": "shadowsocks",
+            "server": "sakura.outlinekeys.net",
+            "server_port": 1235,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DUsnjmWz0Bhz27aFh68WHr"
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @fastkanfig [2]",
@@ -524,7 +532,7 @@
             "password": "9tqhMdIrTkgQ46PvhyAtMH"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
+            "tag": "🇷🇺 RU | 🔒 SS | @v2rayopen [14]",
             "type": "shadowsocks",
             "server": "ss.sps1.sbs",
             "server_port": 20,
@@ -610,14 +618,6 @@
             "server_port": 34868,
             "method": "chacha20-ietf-poly1305",
             "password": "um2h1vWlmNLwKcN18ySgLQ"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
-            "type": "shadowsocks",
-            "server": "sakura.outlinekeys.net",
-            "server_port": 1235,
-            "method": "chacha20-ietf-poly1305",
-            "password": "DUsnjmWz0Bhz27aFh68WHr"
         }
     ],
     "route": {
