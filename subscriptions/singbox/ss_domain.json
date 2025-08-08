@@ -121,7 +121,8 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [5]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
-                "🇦🇪 AE | 🔒 SS | @shadowsockskeys [5]",
+                "🇦🇪 AE | 🔒 SS | @shadowsockskeys [4]",
+                "🇷🇺 RU | 🔒 SS | @shadowsockskeys [16]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
                 "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -134,8 +135,7 @@
                 "🇯🇵 JP | 🔒 SS | @vpn451 [11]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
-                "🇷🇺 RU | 🔒 SS | @zerobaipiao [9]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -175,7 +175,8 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [5]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
-                "🇦🇪 AE | 🔒 SS | @shadowsockskeys [5]",
+                "🇦🇪 AE | 🔒 SS | @shadowsockskeys [4]",
+                "🇷🇺 RU | 🔒 SS | @shadowsockskeys [16]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
                 "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -188,8 +189,7 @@
                 "🇯🇵 JP | 🔒 SS | @vpn451 [11]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
-                "🇷🇺 RU | 🔒 SS | @zerobaipiao [9]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -508,12 +508,20 @@
             "password": "7ivrGEHY88sQk3DP"
         },
         {
-            "tag": "🇦🇪 AE | 🔒 SS | @shadowsockskeys [5]",
+            "tag": "🇦🇪 AE | 🔒 SS | @shadowsockskeys [4]",
             "type": "shadowsocks",
             "server": "ae-1.stunnel.cc",
             "server_port": 8444,
             "method": "chacha20-ietf-poly1305",
             "password": "tunnel-astrovpn_official_ae"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 SS | @shadowsockskeys [16]",
+            "type": "shadowsocks",
+            "server": "ytreserved.opengate.wiki",
+            "server_port": 2222,
+            "method": "chacha20-ietf-poly1305",
+            "password": "trErto8XzLALaQEslTp_jw"
         },
         {
             "tag": "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
@@ -618,14 +626,6 @@
             "server_port": 1235,
             "method": "chacha20-ietf-poly1305",
             "password": "DUsnjmWz0Bhz27aFh68WHr"
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 SS | @zerobaipiao [9]",
-            "type": "shadowsocks",
-            "server": "ytreserved.opengate.wiki",
-            "server_port": 2222,
-            "method": "chacha20-ietf-poly1305",
-            "password": "trErto8XzLALaQEslTp_jw"
         }
     ],
     "route": {
