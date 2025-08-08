@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
@@ -107,6 +108,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
@@ -210,6 +212,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "38.54.116.178",
+            "server_port": 443,
+            "uuid": "16e55e1a-6152-4d92-a422-31490e8ef563",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "38.54.116.178",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

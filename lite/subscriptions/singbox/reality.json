@@ -139,6 +139,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -254,6 +255,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -1544,6 +1546,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
+            }
+        },
+        {
+            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+            "type": "vless",
+            "server": "1.170.211.61",
+            "server_port": 24230,
+            "uuid": "3e769264-67e5-44cc-98bc-4d0a6ba1febb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-51j7Z4Yd8IOvVaIJG9ksffyU76lxHVDC4ckrPse4xc",
+                    "short_id": ""
+                }
             }
         },
         {
