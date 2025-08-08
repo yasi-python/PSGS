@@ -101,7 +101,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [59]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -118,6 +117,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [12]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -158,7 +158,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
-                "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [59]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -175,6 +174,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [12]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -497,29 +497,6 @@
                     "enabled": true,
                     "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
                     "short_id": "f23547"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "dl-04.saitsazs.ir",
-            "server_port": 12107,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
@@ -933,6 +910,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
+            "type": "vless",
+            "server": "dl-04.saitsazs.ir",
+            "server_port": 12107,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
             }
         },
         {
