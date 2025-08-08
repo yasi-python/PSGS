@@ -83,10 +83,10 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇳🇱 NL | 🔓 TROJAN | @hope_net [20]",
+                "🇸🇬 SG | 🔒 TROJAN | @fastfreeconfig [57]",
+                "🇩🇪 DE | 🔒 TROJAN | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
-                "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -110,10 +110,10 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇳🇱 NL | 🔓 TROJAN | @hope_net [20]",
+                "🇸🇬 SG | 🔒 TROJAN | @fastfreeconfig [57]",
+                "🇩🇪 DE | 🔒 TROJAN | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
-                "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -262,14 +262,37 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🇸🇬 SG | 🔒 TROJAN | @fastfreeconfig [57]",
             "type": "trojan",
-            "server": "94.242.229.89",
+            "server": "146.190.87.238",
             "server_port": 443,
-            "password": "NISHIKUITAN111",
+            "password": "oZAugtgF5T",
             "tls": {
                 "enabled": true,
-                "server_name": "za.ylks.xyz",
+                "server_name": "aka.ms",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "aka.ms"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @fastfreeconfig [59]",
+            "type": "trojan",
+            "server": "18.193.191.106",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -306,29 +329,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
-            "type": "trojan",
-            "server": "146.190.87.238",
-            "server_port": 443,
-            "password": "oZAugtgF5T",
-            "tls": {
-                "enabled": true,
-                "server_name": "aka.ms",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "aka.ms"
                 }
             }
         },
