@@ -97,7 +97,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -123,6 +122,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -154,7 +154,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2trayproxy [4]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -173,7 +172,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -199,6 +197,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -230,7 +229,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2trayproxy [4]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -375,29 +373,6 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "sjdnsjs.varzesh3.com.tr",
-            "server_port": 1002,
-            "uuid": "8f912dcc-3c65-4003-bfeb-fd8f8d1b38a4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
-                    "short_id": ""
                 }
             }
         },
@@ -651,6 +626,15 @@
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "d6bfe23e-f7a8-4beb-971c-c68ddd8fdd8c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "DailyConfigs.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "378b8e58-6a23-4fc6-b227-67665a78033d",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1073,15 +1057,6 @@
             "server": "configline.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "TELEGRAM-CONFiGLiNE",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2trayproxy [4]",
-            "type": "vless",
-            "server": "DailyConfigs.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "378b8e58-6a23-4fc6-b227-67665a78033d",
             "flow": "",
             "packet_encoding": "xudp"
         },
