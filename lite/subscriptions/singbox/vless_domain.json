@@ -146,7 +146,8 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [14]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -374,7 +375,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
-                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -481,7 +482,8 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [14]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -709,7 +711,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
-                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -1752,13 +1754,38 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "full.VIGIlantecOllecTIOn.shop",
-            "server_port": 666,
-            "uuid": "ff8fffd7-3546-488b-a5f2-a74896da74a2",
+            "server": "tt1.hennessypro.site",
+            "server_port": 4001,
+            "uuid": "03cc6a8a-73fe-4e81-8bba-f66b145575ea",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "derby.howareu.xyz",
+            "server_port": 8443,
+            "uuid": "ab42912e-cb64-4472-8876-827968a798c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Melody.howareu.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Melody.howareu.xyz"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
@@ -5752,7 +5779,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,

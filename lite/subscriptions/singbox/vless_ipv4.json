@@ -104,8 +104,9 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [18]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔒 VLESS | @confing_chanel [9]",
@@ -167,7 +168,8 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [18]",
+                "🇳🇱 NL | 🔒 VLESS | @hope_net [19]",
                 "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [8]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [9]",
@@ -390,8 +392,9 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [18]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔒 VLESS | @confing_chanel [9]",
@@ -453,7 +456,8 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [18]",
+                "🇳🇱 NL | 🔒 VLESS | @hope_net [19]",
                 "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [8]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [9]",
@@ -974,16 +978,16 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [49]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "47.57.233.126",
+            "server": "104.19.144.33",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pvg.aghabeiki.homes",
+                "server_name": "104.19.144.33",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -992,34 +996,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2744",
+                "path": "/",
                 "headers": {
-                    "Host": "pvg.aghabeiki.homes"
+                    "Host": "104.19.144.33"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "193.122.58.158",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "172.67.188.18",
+            "server_port": 80,
+            "uuid": "2cf5523e-c4e2-4e97-be1f-b9b7d356c140",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pvg.aghabeiki.homes",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2744",
+                "path": "/aioproxybot/8.215.59.6-443",
                 "headers": {
-                    "Host": "pvg.aghabeiki.homes"
+                    "Host": "172.67.188.18"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "151.101.194.228",
+            "server_port": 80,
+            "uuid": "5e1ccc49-5a88-46ad-88d9-ccff2bf0abd5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "151.101.194.228"
                 }
             }
         },
@@ -2131,9 +2142,9 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
-            "server": "141.144.197.111",
+            "server": "152.70.18.37",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
@@ -2156,9 +2167,34 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "2.58.56.31",
+            "server_port": 2003,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.mifeng.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "a.mifeng.us.kg"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "152.70.18.37",
+            "server": "138.3.254.39",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
