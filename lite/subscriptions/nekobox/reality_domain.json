@@ -87,6 +87,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -97,7 +98,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇭🇷 HR | 🔒 VLESS | @lexernet [9]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [10]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -142,6 +142,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -152,7 +153,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇭🇷 HR | 🔒 VLESS | @lexernet [9]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [10]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -443,6 +443,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "germansana.kesslershop.ir",
+            "server_port": 8997,
+            "uuid": "201c05a2-f76b-4088-bb1d-e4c8ee8909dd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8",
+                    "short_id": "f23d09"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @fsv2ray [2]",
             "type": "vless",
             "server": "FsV2ray.t-sub.site",
@@ -697,29 +720,6 @@
                     "enabled": true,
                     "public_key": "qy53GvnlUOQTQmMrqnXSwoZEgxMTW_HAA6Xhpqx9OU0",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-            "type": "vless",
-            "server": "germansana.kesslershop.ir",
-            "server_port": 8997,
-            "uuid": "201c05a2-f76b-4088-bb1d-e4c8ee8909dd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8",
-                    "short_id": "f23d09"
                 }
             }
         },
