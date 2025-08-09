@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -114,11 +115,11 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
-                "🇩🇪 DE | 🔓 VLESS | @netmellianti [9]",
+                "🇩🇪 DE | 🔓 VLESS | @netmellianti [8]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [7]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇨🇦 CA | 🔓 VLESS | @prrofile_purple [122]",
@@ -157,6 +158,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔓 VLESS | @configms [1]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -178,11 +180,11 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
-                "🇩🇪 DE | 🔓 VLESS | @netmellianti [9]",
+                "🇩🇪 DE | 🔓 VLESS | @netmellianti [8]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [7]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇨🇦 CA | 🔓 VLESS | @prrofile_purple [122]",
@@ -303,6 +305,29 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "5.253.246.137",
+            "server_port": 443,
+            "uuid": "5ddef7f7-ae60-435f-8413-3b1b01a68d41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.aparat.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "spoCcVz7MlzugleKorXVNP6mI7zTnLIT3H0ehUIplRw",
+                    "short_id": "87ee"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configms [1]",
@@ -572,7 +597,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @netmellianti [9]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @netmellianti [8]",
             "type": "vless",
             "server": "91.99.98.90",
             "server_port": 8443,
@@ -631,7 +656,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
             "type": "vless",
             "server": "91.99.220.150",
             "server_port": 8443,
