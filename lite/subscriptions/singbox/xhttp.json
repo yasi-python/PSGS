@@ -101,6 +101,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
@@ -115,7 +116,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇩🇪 DE | 🔓 VLESS | @lexernet [8]",
+                "🇩🇪 DE | 🔓 VLESS | @lexernet [7]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -149,6 +150,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
@@ -163,7 +165,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇩🇪 DE | 🔓 VLESS | @lexernet [8]",
+                "🇩🇪 DE | 🔓 VLESS | @lexernet [7]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -357,6 +359,24 @@
             "uuid": "503b59d2-8d11-4c3d-9e46-391f4b65134c",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -573,7 +593,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @lexernet [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lexernet [7]",
             "type": "vless",
             "server": "91.99.219.15",
             "server_port": 443,
