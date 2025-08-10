@@ -87,7 +87,6 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -110,6 +109,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇨🇭 CH | 🔒 VLESS | @netmellianti [10]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
@@ -159,7 +159,6 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -182,6 +181,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇨🇭 CH | 🔒 VLESS | @netmellianti [10]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
@@ -469,29 +469,6 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "62.60.179.68",
-            "server_port": 443,
-            "uuid": "40e07aa0-665e-4d77-ab88-2aa02fca83b7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.latimes.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e3dW-3-dYEVMkTUNOlqVZY2RuSXK-DxhvmdVn1lijxY",
-                    "short_id": "8c0bcf"
                 }
             }
         },
@@ -1018,6 +995,29 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+            "type": "vless",
+            "server": "62.60.179.68",
+            "server_port": 443,
+            "uuid": "40e07aa0-665e-4d77-ab88-2aa02fca83b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e3dW-3-dYEVMkTUNOlqVZY2RuSXK-DxhvmdVn1lijxY",
+                    "short_id": "8c0bcf"
                 }
             }
         },
