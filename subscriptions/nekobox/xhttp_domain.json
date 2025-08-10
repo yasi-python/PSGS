@@ -85,6 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [24]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -110,12 +111,12 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [3]",
                 "❔ XX | 🔓 VLESS | @freakconfig [6]",
-                "❔ XX | 🔓 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "❔ XX | 🔓 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @game_file2020 [2]",
@@ -159,6 +160,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [24]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -184,12 +186,12 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [3]",
                 "❔ XX | 🔓 VLESS | @freakconfig [6]",
-                "❔ XX | 🔓 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "❔ XX | 🔓 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @game_file2020 [2]",
@@ -365,6 +367,15 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "a7343619-6181-4e26-b31b-6bcf21b9e0be",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -620,13 +631,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [58]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
             "type": "vless",
-            "server": "alman.netblocksir.ir",
-            "server_port": 8001,
-            "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
+            "server": "server271816966957306554.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server271816966957306554.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
@@ -634,6 +654,15 @@
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "b7f7dce6-cb82-4236-83de-cfc4dda91662",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
+            "type": "vless",
+            "server": "alman.netblocksir.ir",
+            "server_port": 8001,
+            "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -675,24 +704,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "server134372561849834943.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @freakconfig [14]",
-            "type": "vless",
-            "server": "server271816966957306554.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "server271816966957306554.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
