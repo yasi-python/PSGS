@@ -95,13 +95,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
@@ -124,13 +123,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
@@ -274,23 +272,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "3.74.96.58",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "172.66.44.106",
             "server_port": 8443,
@@ -309,6 +291,20 @@
                 "path": "/",
                 "headers": {
                     "Host": "e9464f45.trauma-2r4.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "92.118.190.131",
+            "server_port": 80,
+            "password": "49699004-a1ba-4621-9744-3d41e98040a9",
+            "transport": {
+                "type": "ws",
+                "path": "/tf3gqdlcz4d9ATYNtIiFQxNPNVWGh",
+                "headers": {
+                    "Host": "92.118.190.131"
                 }
             }
         },
@@ -376,22 +372,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [17]",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.181.173",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

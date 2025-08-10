@@ -99,6 +99,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -154,6 +156,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -447,6 +451,56 @@
                     "enabled": true,
                     "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
                     "short_id": "f23547"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "Mashhad-Website.thorav.ir",
+            "server_port": 2087,
+            "uuid": "df0a7c22-83e7-4580-a123-ce4e1010ba4a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yXSBn5-hiNy4K9Lg_w2E0cGXSkcwXtwGn6r46UJ96HU",
+                    "short_id": "55"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "ru.maviks.eu",
+            "server_port": 443,
+            "uuid": "0a947205-01a0-4634-8e78-daf200d02def",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.eu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
                 }
             }
         },
