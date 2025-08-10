@@ -101,7 +101,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -109,6 +108,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
             ],
             "tag": "proxy",
@@ -129,7 +129,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -137,6 +136,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
             ],
             "tag": "auto",
@@ -398,24 +398,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-            "type": "vless",
-            "server": "172.105.26.226",
-            "server_port": 443,
-            "uuid": "606ca99f-93ec-4fcb-b45d-86d0d3fb149d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.105.26.226",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
             "type": "vless",
             "server": "147.182.183.207",
@@ -559,6 +541,29 @@
                     "enabled": true,
                     "public_key": "HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o",
                     "short_id": "008c74"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
+            "type": "vless",
+            "server": "87.120.205.76",
+            "server_port": 1002,
+            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
                 }
             }
         },

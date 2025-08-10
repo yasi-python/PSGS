@@ -111,10 +111,9 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [10]",
                 "🇨🇭 CH | 🔒 VLESS | @netmellianti [11]",
-                "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
+                "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [18]",
-                "🇹🇷 TR | 🔒 VLESS | @outline_vpn [19]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [11]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -135,6 +134,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -181,10 +181,9 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [10]",
                 "🇨🇭 CH | 🔒 VLESS | @netmellianti [11]",
-                "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
+                "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [18]",
-                "🇹🇷 TR | 🔒 VLESS | @outline_vpn [19]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [11]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -205,6 +204,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -1041,7 +1041,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
             "type": "vless",
             "server": "31.56.206.70",
             "server_port": 443,
@@ -1106,29 +1106,6 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @outline_vpn [19]",
-            "type": "vless",
-            "server": "185.33.24.229",
-            "server_port": 28495,
-            "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
-                    "short_id": "0ecc2c1392"
                 }
             }
         },
@@ -1620,6 +1597,29 @@
                     "enabled": true,
                     "public_key": "HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o",
                     "short_id": "008c74"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [11]",
+            "type": "vless",
+            "server": "87.120.205.76",
+            "server_port": 1002,
+            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
                 }
             }
         },
