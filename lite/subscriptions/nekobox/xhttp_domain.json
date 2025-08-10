@@ -88,8 +88,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
@@ -99,8 +97,9 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔒 VLESS | @vmesc [20]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -120,8 +119,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
@@ -131,8 +128,9 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔒 VLESS | @vmesc [20]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -310,38 +308,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
-            "type": "vless",
-            "server": "EXPRESSVPN_420.fAst.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "503b59d2-8d11-4c3d-9e46-391f4b65134c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "423a18a5-0798-46d9-83f1-5bec04a2f49e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
             "type": "vless",
             "server": "alman.netblocksir.ir",
@@ -469,6 +435,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 2052,
+            "uuid": "423a18a5-0798-46d9-83f1-5bec04a2f49e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vultr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
+                    "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -478,7 +467,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [20]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
