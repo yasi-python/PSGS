@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -113,13 +114,14 @@
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [3]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
-                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
+                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [1]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -153,6 +155,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -173,13 +176,14 @@
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [3]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
-                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
+                "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇴🇲 OM | 🔓 VLESS | @selinc [1]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -293,6 +297,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "1b30b01b-18fa-4724-91b0-9d567285136d",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -560,7 +573,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
             "type": "vless",
             "server": "172.105.26.226",
             "server_port": 443,
@@ -679,6 +692,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-296-Bot",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
