@@ -84,6 +84,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
@@ -113,10 +114,10 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [6]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [5]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+                "🇨🇦 CA | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -138,6 +139,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
@@ -167,10 +169,10 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [6]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [5]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+                "🇨🇦 CA | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -365,6 +367,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "742967d6-c255-49e7-bc33-558a2f1ebbd7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
             }
         },
         {
@@ -1083,7 +1108,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [5]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -1156,7 +1181,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
