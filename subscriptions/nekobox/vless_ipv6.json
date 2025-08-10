@@ -82,7 +82,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @dalton_ping [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -90,18 +91,17 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
-                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
-                "❔ XX | 🔓 VLESS | @v2ryngfree [9]"
+                "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
+                "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,7 +114,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @dalton_ping [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -122,18 +123,17 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
-                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
-                "❔ XX | 🔓 VLESS | @v2ryngfree [9]"
+                "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
+                "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -260,18 +260,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [57]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
             "type": "vless",
-            "server": "[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]",
-            "server_port": 2053,
-            "uuid": "1c7f075c-0021-4f4b-8fbd-326672770d61",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-296",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "[2a01:4f9:c010:1ac8::1]",
+            "server_port": 8443,
+            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/@v2ryngfree@v2ryngfree@v2ryngfree",
+                "path": "/@InterNet_Nor",
                 "headers": {
-                    "Host": "[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]"
+                    "Host": "[2a01:4f9:c010:1ac8::1]"
                 }
             }
         },
@@ -396,22 +405,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:1ac8::1]",
-            "server_port": 8443,
-            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@InterNet_Nor",
-                "headers": {
-                    "Host": "[2a01:4f9:c010:1ac8::1]"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @internet_nor [2]",
             "type": "vless",
             "server": "[2a01:4f9:c010:1ac8::1]",
@@ -476,15 +469,6 @@
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
             "uuid": "Parsashonam-295",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-296",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -569,6 +553,22 @@
             "uuid": "c566c1a7-5040-4f1a-95b0-3f97e256ea27",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2ryngfree [11]",
+            "type": "vless",
+            "server": "[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]",
+            "server_port": 2053,
+            "uuid": "1c7f075c-0021-4f4b-8fbd-326672770d61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@v2ryngfree@v2ryngfree@v2ryngfree",
+                "headers": {
+                    "Host": "[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]"
+                }
+            }
         }
     ],
     "route": {

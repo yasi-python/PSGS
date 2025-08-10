@@ -91,6 +91,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -101,6 +102,7 @@
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [19]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
@@ -139,6 +141,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -149,6 +152,7 @@
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [19]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
@@ -355,6 +359,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "sss19711.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss19711.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
             "type": "vless",
             "server": "speedtest.net",
@@ -501,6 +523,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "212.107.12.77",
+            "server_port": 11676,
+            "uuid": "4945bf8a-bde4-4d25-9004-ac8d947b951b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com:443",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LRRHR_xkAaA1sfRggwMUtiE4KcZKBaUnS_SGSSTTERA",
+                    "short_id": "a92c028967"
                 }
             }
         },

@@ -103,6 +103,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -132,6 +133,7 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -323,6 +325,24 @@
             "uuid": "6a45de8b-46e5-4da4-b242-3e18f3228087",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "sss19711.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss19711.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [12]",
