@@ -109,7 +109,6 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -140,7 +139,6 @@
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -441,29 +439,6 @@
             "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "423a18a5-0798-46d9-83f1-5bec04a2f49e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
