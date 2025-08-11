@@ -94,10 +94,9 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [57]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [16]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -105,6 +104,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
@@ -122,10 +122,9 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [57]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [16]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -133,6 +132,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
@@ -270,38 +270,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [57]",
-            "type": "vless",
-            "server": "91.99.216.9",
-            "server_port": 2009,
-            "uuid": "4f929f18-d2c8-49af-9701-6a5b8baabda6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "7b93491b-d1c0-4679-938d-56f0abec50b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
             "type": "vless",
             "server": "5.161.151.225",
@@ -346,6 +314,15 @@
                     "short_id": "61e683d41fdb"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
+            "type": "vless",
+            "server": "91.99.216.9",
+            "server_port": 2009,
+            "uuid": "4f929f18-d2c8-49af-9701-6a5b8baabda6",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
@@ -449,6 +426,29 @@
             "server": "199.247.28.17",
             "server_port": 44914,
             "uuid": "55a4210c-e765-427f-813d-0c55b763f6b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "black-moai.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
+                    "short_id": "1ac2a2dde288"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
+            "type": "vless",
+            "server": "199.247.28.17",
+            "server_port": 44914,
+            "uuid": "7b93491b-d1c0-4679-938d-56f0abec50b2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
