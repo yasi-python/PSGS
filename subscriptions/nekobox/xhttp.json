@@ -85,7 +85,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -152,9 +151,9 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [8]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [3]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [13]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
@@ -209,7 +208,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -276,9 +274,9 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [8]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [3]",
                 "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [13]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
@@ -465,15 +463,6 @@
                     "short_id": "aeba"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "soren1.mahmouditravelers.top",
-            "server_port": 26779,
-            "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -1241,29 +1230,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
             "tag": "🇴🇲 OM | 🔓 VLESS | @freakconfig [3]",
             "type": "vless",
             "server": "38.54.116.73",
@@ -1296,6 +1262,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
+            "type": "vless",
+            "server": "5.161.151.225",
+            "server_port": 6009,
+            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "adtarget.com.tr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
+                    "short_id": "dc5db021ae2038a9"
                 }
             }
         },
