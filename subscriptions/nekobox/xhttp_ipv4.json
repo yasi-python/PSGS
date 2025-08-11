@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [30]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -139,6 +140,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [30]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -283,6 +285,29 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "31.47.51.143",
+            "server_port": 50438,
+            "uuid": "c49a1c23-8ada-4966-bb94-68c87b84c19b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m_FkbkmmXoiP8nBbRDYOyhjFS8cao7junseGmWYRSD4",
+                    "short_id": "90da61"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
