@@ -81,11 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -105,7 +107,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
@@ -148,11 +150,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -172,7 +176,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
@@ -321,6 +325,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "5.231.29.29",
+            "server_port": 443,
+            "uuid": "19029831-477f-498e-a280-bd5291e955fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg",
+                    "short_id": "f7f1058c"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -422,6 +449,29 @@
             "server": "91.99.16.244",
             "server_port": 443,
             "uuid": "Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-297",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -897,7 +947,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "85.9.204.21",
             "server_port": 23328,
