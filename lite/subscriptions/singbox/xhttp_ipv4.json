@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
@@ -120,6 +121,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
@@ -220,6 +222,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "5.253.246.137",
+            "server_port": 443,
+            "uuid": "0ab93320-4009-4121-86b8-f55b5ddf790b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.aparat.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "spoCcVz7MlzugleKorXVNP6mI7zTnLIT3H0ehUIplRw",
+                    "short_id": "c63267bcb1"
                 }
             }
         },
