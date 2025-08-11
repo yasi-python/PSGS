@@ -81,12 +81,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [27]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -110,7 +112,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇨🇭 CH | 🔒 VLESS | @netmellianti [10]",
+                "🇨🇭 CH | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -153,12 +155,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [27]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -182,7 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇨🇭 CH | 🔒 VLESS | @netmellianti [10]",
+                "🇨🇭 CH | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -331,6 +335,29 @@
             }
         },
         {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [27]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "34101927-c4c0-4c96-bb14-a63dd8d1d454",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -469,6 +496,29 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "9d21a437-dbae-4995-949b-d9920f2613a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
                 }
             }
         },
@@ -1022,7 +1072,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @netmellianti [10]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @netmellianti [9]",
             "type": "vless",
             "server": "84.234.28.212",
             "server_port": 666,

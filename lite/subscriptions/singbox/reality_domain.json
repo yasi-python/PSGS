@@ -96,7 +96,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
@@ -129,7 +128,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [5]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -151,7 +149,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
@@ -184,7 +181,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [5]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -375,29 +371,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "ptshop.carbutik.ir",
-            "server_port": 8880,
-            "uuid": "0c78fe8f-8a9b-4b7d-ba2c-b58fa2ee60d1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uFxizQtVudLmc6HOF_MJ0KVW4r4UbOdSyLOelTzzEAI",
-                    "short_id": "c2c50ac7a4"
-                }
             }
         },
         {
@@ -1185,29 +1158,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
                 }
             }
         },
