@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -101,9 +101,9 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
+                "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -157,7 +157,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -165,9 +165,9 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
+                "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -305,16 +305,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "91.98.46.233",
+            "server": "69.164.195.66",
             "server_port": 443,
-            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
+            "uuid": "2a0e68d1-56e9-43cc-802f-5cbc617e8e98",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.98.46.233",
+                "server_name": "69.164.195.66",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -409,6 +409,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-297",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
             "type": "vless",
             "server": "5.161.151.225",
@@ -439,29 +462,6 @@
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-297",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
