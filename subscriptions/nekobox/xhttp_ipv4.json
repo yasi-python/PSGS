@@ -87,6 +87,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [1]",
@@ -102,11 +103,10 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
-                "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [130]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
@@ -149,6 +149,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [1]",
@@ -164,11 +165,10 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
-                "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [130]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
@@ -359,6 +359,29 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "147.182.183.207",
+            "server_port": 443,
+            "uuid": "e7be1334-6a1d-47c0-8c9a-c7a5b8575499",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
+                    "short_id": "4c"
+                }
+            }
         },
         {
             "tag": "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
@@ -565,7 +588,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
             "type": "vless",
             "server": "91.99.147.163",
             "server_port": 443,
@@ -583,7 +606,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
             "type": "vless",
             "server": "91.99.15.181",
             "server_port": 443,
@@ -601,7 +624,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
             "type": "vless",
             "server": "91.99.114.25",
             "server_port": 443,
@@ -638,29 +661,6 @@
                     "enabled": true,
                     "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
                     "short_id": "a1b2c3d4e5f67890"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-            "type": "vless",
-            "server": "147.182.183.207",
-            "server_port": 443,
-            "uuid": "e7be1334-6a1d-47c0-8c9a-c7a5b8575499",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
-                    "short_id": "4c"
                 }
             }
         },
