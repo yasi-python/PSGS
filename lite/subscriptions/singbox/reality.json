@@ -98,6 +98,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -135,7 +136,7 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -162,6 +163,7 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @netmellianti [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
+                "🇫🇮 FI | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
@@ -210,6 +212,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -247,7 +250,7 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -274,6 +277,7 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @netmellianti [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
+                "🇫🇮 FI | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
@@ -539,6 +543,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+            "type": "vless",
+            "server": "gr2.shahinpanel.site",
+            "server_port": 26717,
+            "uuid": "1385ed54-d251-48fb-801f-ee52663bcab2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.api.www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bzqIqnE_o81ih-XahmftHAPn-X1Vh1LqbOzlY2SvPzg",
+                    "short_id": "1364c780"
+                }
             }
         },
         {
@@ -1449,25 +1476,25 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
             "type": "vless",
-            "server": "92.112.126.22",
-            "server_port": 8442,
-            "uuid": "31303020-3531-4035-b120-343920343920",
+            "server": "89.58.1.98",
+            "server_port": 44807,
+            "uuid": "9f69c514-7aba-4cb2-88d2-1be504c97061",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "creativecommons.org",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA",
-                    "short_id": "59b75803"
+                    "public_key": "CKRx3TijRUQqqRcEOVF07CfvekiUlPbr0twB3wrpfiQ",
+                    "short_id": "6d78523a82d71956"
                 }
             }
         },
@@ -2090,6 +2117,29 @@
                     "enabled": true,
                     "public_key": "s7Ai9wZFZdDEA3ox2FSjMAqaugUFKja-7TMNCu2GYmo",
                     "short_id": "c6d0465acae1"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @outlinev2rayng [16]",
+            "type": "vless",
+            "server": "185.250.181.128",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
                 }
             }
         },

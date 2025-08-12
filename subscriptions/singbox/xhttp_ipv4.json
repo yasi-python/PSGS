@@ -93,16 +93,17 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [6]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [1]",
-                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [11]",
+                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [2]",
+                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -110,6 +111,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔓 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [23]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -155,16 +157,17 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [6]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [1]",
-                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [11]",
+                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [2]",
+                "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -172,6 +175,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔓 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [23]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -301,6 +305,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "91.98.46.233",
+            "server_port": 443,
+            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.98.46.233",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -360,7 +382,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
             "type": "vless",
             "server": "91.99.126.93",
             "server_port": 8443,
@@ -410,7 +432,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [1]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [2]",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -419,7 +441,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @gh_v2rayng [12]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
@@ -510,6 +532,15 @@
             "server": "91.99.169.64",
             "server_port": 8443,
             "uuid": "b1fe7cec-3028-4cf0-b1c3-af55efd23ad8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [23]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "576d23e5-30f5-4915-8b8c-109e813ffeb5",
             "flow": "",
             "packet_encoding": "xudp"
         },
