@@ -99,10 +99,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
-                "🇩🇪 DE | 🔓 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇨🇾 CY | 🔓 TROJAN | @hope_net [7]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -116,6 +114,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -145,10 +144,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
-                "🇩🇪 DE | 🔓 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇨🇾 CY | 🔓 TROJAN | @hope_net [7]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -162,6 +159,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -389,22 +387,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 TROJAN | @fastfreeconfig [54]",
-            "type": "trojan",
-            "server": "de1.test3.net",
-            "server_port": 443,
-            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
             "type": "trojan",
             "server": "t3.teslacdn2.live",
@@ -433,29 +415,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾 CY | 🔓 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "www.csgo.com",
-            "server_port": 443,
-            "password": "blue2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "hb.lii2010.us.kg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "hb.lii2010.us.kg"
                 }
             }
         },
@@ -706,6 +665,22 @@
                 "path": "/howdy",
                 "headers": {
                     "Host": "de1.test3.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+            "type": "trojan",
+            "server": "de1.test3.net",
+            "server_port": 443,
+            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
