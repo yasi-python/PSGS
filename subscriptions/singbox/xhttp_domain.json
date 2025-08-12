@@ -97,7 +97,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -152,7 +151,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
@@ -174,7 +172,6 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -229,7 +226,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
@@ -377,29 +373,6 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "ampol.marana.sbs",
-            "server_port": 16096,
-            "uuid": "d1faaa2a-066e-4281-b364-da15e2261809",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KYCVixhC9tnJR5P14_IJCU_q7I_tHk-p_Nf1cmn0OHo",
-                    "short_id": "f11760"
                 }
             }
         },
@@ -1045,13 +1018,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
-            "type": "trojan",
-            "server": "ampol.marana.sbs",
-            "server_port": 15186,
-            "password": "HhzsSAc8hz"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
