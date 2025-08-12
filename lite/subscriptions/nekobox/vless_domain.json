@@ -92,7 +92,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔓 VLESS | @configms [12]",
@@ -133,7 +132,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [31]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [58]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -353,7 +353,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇨🇭 CH | 🔓 VLESS | @v2ry_proxy [13]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [8]",
-                "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [10]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [10]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -419,7 +419,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔓 VLESS | @configms [12]",
@@ -460,7 +459,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [31]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
+                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [58]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -680,7 +680,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇨🇭 CH | 🔓 VLESS | @v2ry_proxy [13]",
                 "🚩 CF | 🔓 VLESS | @v2trayproxy [8]",
-                "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [10]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [10]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -1046,29 +1046,6 @@
                 "path": "/CH_A2L",
                 "headers": {
                     "Host": "A2L.GODGAME.FUN"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
                 }
             }
         },
@@ -1705,18 +1682,45 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "1b766abe-05da-46fa-973c-0d06d9605736",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 443,
+            "uuid": "57f00763-7751-4e0c-a6c9-29d3176a74fb",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "638901504444939106.esfahan-prx-dnraabg.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420?ed=2080",
+                "path": "/urdpjvws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "638901504444939106.esfahan-prx-dnraabg.info"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -5586,7 +5590,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [10]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [10]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
