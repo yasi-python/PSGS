@@ -99,15 +99,17 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -127,15 +129,17 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [26]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
-                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -287,6 +291,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
+            "type": "vless",
+            "server": "EXPRESSVPN_420.fAst.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "2dac3536-244a-4558-9ab9-ab9ae34638c1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
             "type": "vless",
             "server": "alman.netblocksir.ir",
@@ -332,7 +345,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [8]",
             "type": "vless",
             "server": "sss71534.tas-bazi.com",
             "server_port": 443,
@@ -391,7 +404,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 8443,
+            "uuid": "d8be0f7f-1052-4d9d-990a-c563fe12ddc4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "prx11.proxystore11.news",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [129]",
             "type": "vless",
             "server": "sss71534.tas-bazi.com",
             "server_port": 443,

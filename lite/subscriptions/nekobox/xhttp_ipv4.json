@@ -98,6 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
             ],
             "tag": "proxy",
@@ -127,6 +128,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
             ],
             "tag": "auto",
@@ -558,6 +560,24 @@
                     "enabled": true,
                     "public_key": "HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o",
                     "short_id": "008c74"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [13]",
+            "type": "vless",
+            "server": "91.99.228.179",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.228.179",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
