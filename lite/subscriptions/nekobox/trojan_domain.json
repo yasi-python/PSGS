@@ -81,6 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -97,6 +99,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -202,6 +206,45 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "www.okcupid.com",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "hb.lii2010.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "cris.ns.cloudflare.com",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "hb.lii2010.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "hb.lii2010.us.kg"
                 }
             }
         },
