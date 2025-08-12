@@ -95,7 +95,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -104,6 +104,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -111,8 +112,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [11]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [12]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -126,7 +126,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
@@ -135,6 +135,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @netmellianti [11]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -142,8 +143,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [11]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [12]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -285,7 +285,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 80,
@@ -427,6 +427,24 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [143]",
+            "type": "vless",
+            "server": "91.99.216.213",
+            "server_port": 443,
+            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.216.213",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -583,24 +601,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.237.215",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "91.99.114.25",
-            "server_port": 443,
-            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.114.25",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
