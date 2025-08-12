@@ -119,6 +119,7 @@
                 "🇺🇸 US | 🔒 SS | @selinc [3]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
                 "🇷🇺 RU | 🔒 SS | @shadowsockskeys [14]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [20]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [2]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -129,10 +130,9 @@
                 "🇯🇵 JP | 🔒 SS | @vpn451 [7]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [9]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [10]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇳🇱 NL | 🔒 SS | @vpn451 [17]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [11]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -170,6 +170,7 @@
                 "🇺🇸 US | 🔒 SS | @selinc [3]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
                 "🇷🇺 RU | 🔒 SS | @shadowsockskeys [14]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [20]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [2]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -180,10 +181,9 @@
                 "🇯🇵 JP | 🔒 SS | @vpn451 [7]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [9]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [10]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇳🇱 NL | 🔒 SS | @vpn451 [17]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [11]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -486,6 +486,14 @@
             "password": "trErto8XzLALaQEslTp_jw"
         },
         {
+            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "sakura.outlinekeys.net",
+            "server_port": 1235,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DUsnjmWz0Bhz27aFh68WHr"
+        },
+        {
             "tag": "🇺🇸 US | 🔒 SS | @v2rayngalpha [2]",
             "type": "shadowsocks",
             "server": "series-a2-me.varzesh360.co",
@@ -566,14 +574,6 @@
             "password": "um2h1vWlmNLwKcN18ySgLQ"
         },
         {
-            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 [13]",
-            "type": "shadowsocks",
-            "server": "sakura.outlinekeys.net",
-            "server_port": 1235,
-            "method": "chacha20-ietf-poly1305",
-            "password": "DUsnjmWz0Bhz27aFh68WHr"
-        },
-        {
             "tag": "🇺🇸 US | 🔒 SS | @vpn451 [14]",
             "type": "shadowsocks",
             "server": "fox-usa.outlinekeys.net",
@@ -590,7 +590,7 @@
             "password": "pKjQM6UYCUfV6cWMru9dja"
         },
         {
-            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [11]",
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]",
             "type": "shadowsocks",
             "server": "mm.huawei-api.top",
             "server_port": 19852,

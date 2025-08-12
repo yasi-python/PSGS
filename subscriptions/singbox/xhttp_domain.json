@@ -97,7 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -136,7 +136,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [16]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @netmellianti [8]",
+                "🇺🇸 US | 🔓 VLESS | @netmellianti [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [11]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -152,6 +152,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
@@ -173,7 +174,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -212,7 +213,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [16]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @netmellianti [8]",
+                "🇺🇸 US | 🔓 VLESS | @netmellianti [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [11]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
@@ -228,6 +229,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
@@ -379,20 +381,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
-            "flow": "",
+            "server": "ampol.marana.sbs",
+            "server_port": 16096,
+            "uuid": "d1faaa2a-066e-4281-b364-da15e2261809",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ashil.tas-bazi.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KYCVixhC9tnJR5P14_IJCU_q7I_tHk-p_Nf1cmn0OHo",
+                    "short_id": "f11760"
                 }
             }
         },
@@ -827,7 +834,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [7]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -1038,6 +1045,13 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 TROJAN | @v2raych [8]",
+            "type": "trojan",
+            "server": "ampol.marana.sbs",
+            "server_port": 15186,
+            "password": "HhzsSAc8hz"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
