@@ -99,9 +99,10 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇨🇾 CY | 🔓 TROJAN | @hope_net [11]",
+                "🇨🇾 CY | 🔓 TROJAN | @hope_net [9]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -110,7 +111,6 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
-                "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
@@ -145,9 +145,10 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇨🇾 CY | 🔓 TROJAN | @hope_net [11]",
+                "🇨🇾 CY | 🔓 TROJAN | @hope_net [9]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -156,7 +157,6 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
-                "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
@@ -389,6 +389,26 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
+            "type": "trojan",
+            "server": "pouriya.cf",
+            "server_port": 443,
+            "password": "22dxmxezsm",
+            "tls": {
+                "enabled": true,
+                "server_name": "brec3xLN7Zl2.pouriya.cf",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Amsterdam"
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
             "type": "trojan",
             "server": "t3.teslacdn2.live",
@@ -421,7 +441,7 @@
             }
         },
         {
-            "tag": "🇨🇾 CY | 🔓 TROJAN | @hope_net [11]",
+            "tag": "🇨🇾 CY | 🔓 TROJAN | @hope_net [9]",
             "type": "trojan",
             "server": "www.csgo.com",
             "server_port": 443,
@@ -593,26 +613,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @public504 [4]",
-            "type": "trojan",
-            "server": "pouriya.cf",
-            "server_port": 443,
-            "password": "22dxmxezsm",
-            "tls": {
-                "enabled": true,
-                "server_name": "brec3xLN7Zl2.pouriya.cf",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Amsterdam"
             }
         },
         {

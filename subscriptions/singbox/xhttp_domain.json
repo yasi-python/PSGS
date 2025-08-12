@@ -97,6 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -145,8 +146,8 @@
                 "❔ XX | 🔒 VLESS | @proxystore11 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [9]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [127]",
-                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [142]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [2]",
@@ -154,7 +155,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [2]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
@@ -174,6 +175,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [7]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [15]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
@@ -222,8 +224,8 @@
                 "❔ XX | 🔒 VLESS | @proxystore11 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [9]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [127]",
-                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [142]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🚩 CF | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [2]",
@@ -231,7 +233,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [2]",
+                "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2trayproxy [1]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
@@ -377,6 +379,29 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y",
+                    "short_id": ""
                 }
             }
         },
@@ -961,7 +986,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [127]",
+            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [133]",
             "type": "vless",
             "server": "llc.v2sub.ir",
             "server_port": 2082,
@@ -970,7 +995,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [136]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [142]",
             "type": "vless",
             "server": "sss71534.tas-bazi.com",
             "server_port": 443,
@@ -1060,7 +1085,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [2]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [1]",
             "type": "vless",
             "server": "configline.fast.hosting-ip.com",
             "server_port": 80,
