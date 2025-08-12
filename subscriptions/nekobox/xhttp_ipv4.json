@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -94,8 +95,8 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [6]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
                 "🇩🇪 DE | 🔓 VLESS | @lexernet [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -103,7 +104,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [123]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [130]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
@@ -141,6 +142,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -154,8 +156,8 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [6]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
                 "🇩🇪 DE | 🔓 VLESS | @lexernet [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -163,7 +165,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [123]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [130]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
@@ -287,6 +289,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "206.71.158.10",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -457,7 +477,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [3]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 2009,
@@ -466,7 +486,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 80,
@@ -589,7 +609,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [123]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [130]",
             "type": "vless",
             "server": "138.68.124.134",
             "server_port": 53340,

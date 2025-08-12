@@ -95,7 +95,6 @@
                 "❔ XX | 🔒 SS | @ai_duet [8]",
                 "🇳🇱 NL | 🔒 SS | @dalton_ping [2]",
                 "❔ XX | 🔒 SS | @darkma3ter24 [1]",
-                "🇷🇺 RU | 🔒 SS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 SS | @filtershekan_channel [5]",
                 "🇩🇪 DE | 🔒 SS | @freakconfig [5]",
                 "🇨🇦 CA | 🔒 SS | @free4allvpn [4]",
@@ -119,7 +118,8 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [3]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
-                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
+                "🇷🇺 RU | 🔒 SS | @shadowsockskeys [13]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [8]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [2]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [8]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -130,7 +130,7 @@
                 "🇺🇸 US | 🔒 SS | @vpn451 [10]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇳🇱 NL | 🔒 SS | @vpn451 [17]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [7]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -144,7 +144,6 @@
                 "❔ XX | 🔒 SS | @ai_duet [8]",
                 "🇳🇱 NL | 🔒 SS | @dalton_ping [2]",
                 "❔ XX | 🔒 SS | @darkma3ter24 [1]",
-                "🇷🇺 RU | 🔒 SS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 SS | @filtershekan_channel [5]",
                 "🇩🇪 DE | 🔒 SS | @freakconfig [5]",
                 "🇨🇦 CA | 🔒 SS | @free4allvpn [4]",
@@ -168,7 +167,8 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [3]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
-                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
+                "🇷🇺 RU | 🔒 SS | @shadowsockskeys [13]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [8]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [2]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [8]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -179,7 +179,7 @@
                 "🇺🇸 US | 🔒 SS | @vpn451 [10]",
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇳🇱 NL | 🔒 SS | @vpn451 [17]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [7]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -288,14 +288,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "a8bt9fY0QsLS6eLnXUe0Ym"
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 SS | @fastfreeconfig [55]",
-            "type": "shadowsocks",
-            "server": "ytreserved.opengate.wiki",
-            "server_port": 2222,
-            "method": "chacha20-ietf-poly1305",
-            "password": "trErto8XzLALaQEslTp_jw"
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @filtershekan_channel [5]",
@@ -482,7 +474,15 @@
             "password": "7ivrGEHY88sQk3DP"
         },
         {
-            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
+            "tag": "🇷🇺 RU | 🔒 SS | @shadowsockskeys [13]",
+            "type": "shadowsocks",
+            "server": "ytreserved.opengate.wiki",
+            "server_port": 2222,
+            "method": "chacha20-ietf-poly1305",
+            "password": "trErto8XzLALaQEslTp_jw"
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [8]",
             "type": "shadowsocks",
             "server": "sakura.outlinekeys.net",
             "server_port": 1235,
@@ -570,7 +570,7 @@
             "password": "pKjQM6UYCUfV6cWMru9dja"
         },
         {
-            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [7]",
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [5]",
             "type": "shadowsocks",
             "server": "mm.huawei-api.top",
             "server_port": 19852,

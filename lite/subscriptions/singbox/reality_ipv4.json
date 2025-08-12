@@ -118,7 +118,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [6]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+                "🇯🇵 JP | 🔒 VLESS | @mowjproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -127,8 +128,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [127]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [128]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [134]",
+                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [135]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -187,7 +188,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [6]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+                "🇯🇵 JP | 🔒 VLESS | @mowjproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -196,8 +198,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [127]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [128]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [134]",
+                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [135]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -932,7 +934,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "92.112.126.22",
             "server_port": 8442,
@@ -952,6 +954,33 @@
                     "public_key": "pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA",
                     "short_id": "59b75803"
                 }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "35.74.27.180",
+            "server_port": 2096,
+            "uuid": "f8c93834-99a4-44e7-b476-147a3ab582d0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1MAWRB1pWGt62JZszI7ppUwukazzBbJ00i_C5CNr5jk",
+                    "short_id": "28"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "config"
             }
         },
         {
@@ -1147,7 +1176,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [127]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [134]",
             "type": "vless",
             "server": "109.61.16.89",
             "server_port": 30938,
@@ -1170,7 +1199,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [128]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [135]",
             "type": "vless",
             "server": "51.222.87.29",
             "server_port": 8081,
