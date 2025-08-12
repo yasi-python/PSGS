@@ -104,8 +104,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇫🇮 FI | 🔒 VLESS | @netmellianti [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -173,8 +173,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇫🇮 FI | 🔒 VLESS | @netmellianti [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
@@ -878,29 +878,6 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
-            "type": "vless",
-            "server": "95.164.113.4",
-            "server_port": 443,
-            "uuid": "a6c5638d-dc8d-4303-a64c-a7f08a6aa1d4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "8453e5fd9af927"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
             "type": "vless",
             "server": "62.60.179.68",
@@ -920,6 +897,29 @@
                     "enabled": true,
                     "public_key": "e3dW-3-dYEVMkTUNOlqVZY2RuSXK-DxhvmdVn1lijxY",
                     "short_id": "8c0bcf"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @netmellianti [13]",
+            "type": "vless",
+            "server": "95.164.113.4",
+            "server_port": 443,
+            "uuid": "a6c5638d-dc8d-4303-a64c-a7f08a6aa1d4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "8453e5fd9af927"
                 }
             }
         },
