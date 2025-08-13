@@ -87,10 +87,9 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
-                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [48]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [9]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -103,6 +102,7 @@
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
+                "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
@@ -133,10 +133,9 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇮🇷 IR | 🔒 TROJAN | @drvpn_net [3]",
-                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [48]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [9]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
@@ -149,6 +148,7 @@
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
+                "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
@@ -381,29 +381,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @fastfreeconfig [48]",
-            "type": "trojan",
-            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-            "server_port": 443,
-            "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "de1.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/howdy",
-                "headers": {
-                    "Host": "de1.test3.net"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
             "type": "trojan",
             "server": "t3.teslacdn2.live",
@@ -436,7 +413,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [11]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [9]",
             "type": "trojan",
             "server": "icook.tw",
             "server_port": 443,
@@ -675,6 +652,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
+            "type": "trojan",
+            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+            "server_port": 443,
+            "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "de1.test3.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/howdy",
+                "headers": {
+                    "Host": "de1.test3.net"
                 }
             }
         },
