@@ -125,7 +125,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @outline_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
-                "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [18]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -148,6 +148,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [2]",
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "proxy",
@@ -192,7 +193,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @outline_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
-                "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [18]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -215,6 +216,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [2]",
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "auto",
@@ -1097,16 +1099,16 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [18]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
             "type": "vless",
-            "server": "45.89.63.107",
-            "server_port": 8443,
-            "uuid": "3f0e54f7-0e38-582c-b3bb-a4a20837bf98",
+            "server": "95.164.113.4",
+            "server_port": 443,
+            "uuid": "a6c5638d-dc8d-4303-a64c-a7f08a6aa1d4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.apple.com",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1114,8 +1116,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "2URqL2jksJcJKrT7Yzhb0ipAhhuzLMZnUOKyqhIqHhw",
-                    "short_id": "c8cf20379bb2"
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "8453e5fd9af927"
                 }
             }
         },
@@ -1649,6 +1651,29 @@
                     "enabled": true,
                     "public_key": "7cbcFHSx2vqz38zW9BmlSIHTTSdNtlgv_S5uZ0MSIAE",
                     "short_id": "788456bc"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "45.89.63.107",
+            "server_port": 8443,
+            "uuid": "3f0e54f7-0e38-582c-b3bb-a4a20837bf98",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2URqL2jksJcJKrT7Yzhb0ipAhhuzLMZnUOKyqhIqHhw",
+                    "short_id": "c8cf20379bb2"
                 }
             }
         },
