@@ -93,7 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [3]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @ghalagyann [20]",
@@ -105,7 +107,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -116,7 +117,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [11]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,7 +129,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [3]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @ghalagyann [20]",
@@ -140,7 +143,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -151,7 +153,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ry_proxy [11]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -261,6 +263,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "87.120.205.76",
+            "server_port": 1002,
+            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @flyv2ray [3]",
             "type": "vless",
             "server": "91.99.126.93",
@@ -268,6 +293,29 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
+            "type": "vless",
+            "server": "209.38.246.53",
+            "server_port": 51927,
+            "uuid": "86709b5c-c966-46f5-a343-461f512c15f2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L9gEDY_PBGnmad10FPmiO_ov3Um4YvDX0HuXQ1SbXlU",
+                    "short_id": "a83f"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -426,24 +474,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.147.163",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [19]",
-            "type": "vless",
-            "server": "91.99.3.139",
-            "server_port": 443,
-            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.3.139",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -653,22 +683,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
             "type": "vless",
-            "server": "91.99.219.10",
-            "server_port": 443,
-            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "server": "91.99.132.59",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.219.10",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
