@@ -92,17 +92,17 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TUIC | @fastfreeconfig [54]",
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [56]",
+                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
                 "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [26]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
+                "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]",
-                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [28]"
+                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,17 +113,17 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TUIC | @fastfreeconfig [54]",
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [56]",
+                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
                 "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [26]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
+                "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]",
-                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [28]"
+                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -210,12 +210,31 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TUIC | @fastfreeconfig [54]",
+            "tag": "❔ XX | 🔒 TUIC | @fastfreeconfig [56]",
             "type": "tuic",
-            "server": "136.244.88.153",
+            "server": "tuic4.cpionline.us",
             "server_port": 443,
-            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
-            "password": "e7b1c11f0d40cc95",
+            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+            "password": "Mahsaamini",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "tuic4.cpionline.us",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TUIC | @vipv2rey [25]",
+            "type": "tuic",
+            "server": "tuic61.cpionline.us",
+            "server_port": 443,
+            "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
+            "password": "FRebRlCrO huXaprEwr6",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "tls": {
@@ -223,7 +242,8 @@
                 "server_name": "www.apple.com",
                 "insecure": true,
                 "alpn": [
-                    "h3"
+                    "h3",
+                    "spdy/3.1"
                 ]
             }
         },
@@ -304,6 +324,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
+            "type": "tuic",
+            "server": "136.244.88.153",
+            "server_port": 443,
+            "uuid": "38e38f61-b1dd-4b34-90d0-f6222fd7393f",
+            "password": "e7b1c11f0d40cc95",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
             "tag": "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
             "type": "tuic",
             "server": "70.34.197.98",
@@ -371,44 +409,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "[2a12:5940:71f8::2]",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TUIC | @vipv2rey [25]",
-            "type": "tuic",
-            "server": "tuic61.cpionline.us",
-            "server_port": 443,
-            "uuid": "6313c68a-472b-4999-ba33-094a55ea7549",
-            "password": "FRebRlCrO huXaprEwr6",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TUIC | @vipv2rey [28]",
-            "type": "tuic",
-            "server": "tuic4.cpionline.us",
-            "server_port": 443,
-            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-            "password": "Mahsaamini",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "tuic4.cpionline.us",
                 "insecure": true,
                 "alpn": [
                     "h3",
