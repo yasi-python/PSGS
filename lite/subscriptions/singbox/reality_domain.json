@@ -98,7 +98,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -111,11 +110,12 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -123,6 +123,7 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
+                "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
@@ -151,7 +152,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -164,11 +164,12 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -176,6 +177,7 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
+                "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
@@ -421,29 +423,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
-            "type": "vless",
-            "server": "dash.svgspeedtest.net",
-            "server_port": 7852,
-            "uuid": "2917d821-9327-4c76-bf7f-1b7857b38811",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
-                    "short_id": "69"
-                }
             }
         },
         {
@@ -751,6 +730,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "az7-sub.serverfreedom.com",
+            "server_port": 20000,
+            "uuid": "052fa822-a267-4dcb-b708-eafdd7688993",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [13]",
+            "type": "vless",
+            "server": "cp.dayhostpro.com",
+            "server_port": 45655,
+            "uuid": "aaa3d1db-44b0-4303-9c43-ca083acbcf61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jeHj2bSbC3OI17X0ZR2vqrzXFQI_MtgMylJKiGPkcRw",
+                    "short_id": "4f"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -852,29 +877,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
-            "type": "vless",
-            "server": "az7-sub.serverfreedom.com",
-            "server_port": 20000,
-            "uuid": "052fa822-a267-4dcb-b708-eafdd7688993",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1039,6 +1041,29 @@
                     "enabled": true,
                     "public_key": "eFiSJk2KrONFWr2w3qXVNda1DVAlVrT5opUGFoOKj1M",
                     "short_id": "42f1e4b6"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @savagenet [1]",
+            "type": "vless",
+            "server": "dash.svgspeedtest.net",
+            "server_port": 7852,
+            "uuid": "2917d821-9327-4c76-bf7f-1b7857b38811",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
+                    "short_id": "69"
                 }
             }
         },
