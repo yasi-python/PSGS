@@ -81,8 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
-                "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
-                "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [7]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
@@ -96,7 +94,10 @@
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [42]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -109,8 +110,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
-                "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
-                "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [7]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
@@ -124,7 +123,10 @@
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [13]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [42]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [44]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -221,24 +223,6 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [13]",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [14]",
-            "type": "vless",
-            "server": "Ip2.yw5jk.org",
-            "server_port": 80,
-            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -401,6 +385,42 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [42]",
+            "type": "vless",
+            "server": "sss48716.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss48716.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_v_vpn [44]",
+            "type": "vless",
+            "server": "sss19711.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss19711.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -408,6 +428,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "sss93336.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss93336.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
