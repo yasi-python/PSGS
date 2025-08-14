@@ -98,11 +98,12 @@
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [21]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
+                "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [20]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [12]",
@@ -125,11 +126,12 @@
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [21]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
+                "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [20]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [18]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [12]",
@@ -276,6 +278,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
+            "type": "vless",
+            "server": "de6rt.samsungmarketshop.ir",
+            "server_port": 2083,
+            "uuid": "bf989dce-7af7-423b-a499-71da71cdcef1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
+                    "short_id": "aeba"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
             "type": "vless",
             "server": "alman.netblocksir.ir",
@@ -312,7 +337,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [20]",
             "type": "vless",
             "server": "sss94870.tas-bazi.com",
             "server_port": 443,
