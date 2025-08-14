@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [11]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
@@ -128,15 +127,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayng_ip [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "proxy",
@@ -174,7 +172,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [11]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
@@ -196,15 +193,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [5]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayng_ip [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "auto",
@@ -922,33 +918,6 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
-            "type": "vless",
-            "server": "65.109.204.158",
-            "server_port": 59542,
-            "uuid": "71162137-8946-4b03-8f57-f56902da0e84",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-0l8tuY5WxV9SLCKC5lRdz2k3aoqpM0SeZTwKu4pqxU",
-                    "short_id": "3a8329"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP"
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
             "type": "vless",
             "server": "62.60.179.68",
@@ -1452,6 +1421,33 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2rayng_ip [8]",
+            "type": "vless",
+            "server": "65.109.204.158",
+            "server_port": 59542,
+            "uuid": "71162137-8946-4b03-8f57-f56902da0e84",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-0l8tuY5WxV9SLCKC5lRdz2k3aoqpM0SeZTwKu4pqxU",
+                    "short_id": "3a8329"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP---@V2RAYNG_IP"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
             "type": "vless",
             "server": "5.75.215.191",
@@ -1476,59 +1472,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Digiv2ray"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
-            "type": "vless",
-            "server": "78.141.221.194",
-            "server_port": 8080,
-            "uuid": "a8df45a4-eb57-450d-a526-43dcef46981a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "67A3nqrlKiXipqzNn9DNoWFuxRXQ6xTa-UzLFDJryVQ",
-                    "short_id": "b1938907"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "www.speedtest.net"
-                ],
-                "path": "/"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
-            "type": "vless",
-            "server": "80.240.23.101",
-            "server_port": 443,
-            "uuid": "97d53a59-918e-45fc-bc5d-ba487f090cc1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hundleymechanical.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o",
-                    "short_id": "008c74"
-                }
             }
         },
         {
@@ -1647,7 +1590,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "65.109.204.158",
             "server_port": 27079,
