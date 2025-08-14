@@ -86,7 +86,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -109,10 +108,10 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [18]",
+                "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇬🇧 GB | 🔒 VLESS | @selinc [7]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -123,8 +122,6 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnod [4]",
-                "🇭🇷 HR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -144,7 +141,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -167,10 +163,10 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [18]",
+                "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇬🇧 GB | 🔒 VLESS | @selinc [7]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -181,8 +177,6 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnod [4]",
-                "🇭🇷 HR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -423,33 +417,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "def.irimcs.org",
-            "server_port": 2053,
-            "uuid": "ff07526f-7fab-431c-cf38-ab96eeb568f9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "penvJFtaVngcSYXhoZk1hf_AwOJRI8LtJEis-FmwpDA",
-                    "short_id": "fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
             }
         },
         {
@@ -999,7 +966,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1072,7 +1039,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [18]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
             "type": "vless",
             "server": "80808.sbs",
             "server_port": 8443,
@@ -1325,52 +1292,6 @@
                     "enabled": true,
                     "public_key": "17q39_glGtdUgFWkKwjxnBG0PxYkJbgt9bfkotaj7yg",
                     "short_id": "ac"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇷 HR | 🔒 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "deu246.bypassall.org",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "greenwolf.fonixapp.org",
-            "server_port": 12901,
-            "uuid": "d2bcb15b-8cf0-402c-af32-6b04615144c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UIgzNUpO2PvGIgjtIK1GEikBFRVvfA1jm7bfor0HlAM",
-                    "short_id": "b538b3"
                 }
             }
         },
