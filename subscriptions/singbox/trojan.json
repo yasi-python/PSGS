@@ -111,8 +111,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [11]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [15]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -147,6 +146,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+                "🇦🇲 AM | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -176,7 +177,6 @@
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
-                "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -230,8 +230,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [11]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [15]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -266,6 +265,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+                "🇦🇲 AM | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -295,7 +296,6 @@
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
-                "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianf [2]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -708,23 +708,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "104.17.244.30",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
-            "tls": {
-                "enabled": true,
-                "server_name": "104.17.244.30",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [15]",
             "type": "trojan",
             "server": "104.16.5.34",
             "server_port": 443,
@@ -1330,6 +1314,52 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+            "type": "trojan",
+            "server": "172.67.77.127",
+            "server_port": 443,
+            "password": "Aimer",
+            "tls": {
+                "enabled": true,
+                "server_name": "epgb.aimercc.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "epgb.aimercc.dpdns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "188.164.159.43",
+            "server_port": 2083,
+            "password": "Aimer",
+            "tls": {
+                "enabled": true,
+                "server_name": "epgb.aimercc.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "epgb.aimercc.dpdns.org"
+                }
+            }
+        },
+        {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
             "type": "trojan",
             "server": "145.239.237.92",
@@ -1784,26 +1814,6 @@
             "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
             "server_port": 15229,
             "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
-            "type": "trojan",
-            "server": "lllliraniv2rayllll.norooz.shop",
-            "server_port": 2083,
-            "password": "BWDcALS5TU",
-            "tls": {
-                "enabled": true,
-                "server_name": "lllliraniv2rayllll.norooz.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "iraniV2ray"
-            }
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @jiedianf [2]",
