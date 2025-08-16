@@ -91,12 +91,8 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -118,12 +114,8 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -392,75 +384,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "55a4210c-e765-427f-813d-0c55b763f6b0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "7b93491b-d1c0-4679-938d-56f0abec50b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-            "type": "vless",
-            "server": "80.240.23.101",
-            "server_port": 47567,
-            "uuid": "73cc7084-a427-4193-8fe0-6dd72ac48265",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qmdcGi9MFglpiaqalAFvOUGNehBjYIwaXLbula8K0gU",
-                    "short_id": "a862ded52ae3ea"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
             "type": "vless",
             "server": "212.95.41.20",
@@ -491,29 +414,6 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-299",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
         }
     ],
     "route": {
