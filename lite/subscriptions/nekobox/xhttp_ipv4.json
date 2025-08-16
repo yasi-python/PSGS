@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -94,7 +95,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
                 "🇺🇸 US | 🔓 VLESS | @vpnod [4]"
@@ -108,6 +108,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -122,7 +123,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
                 "🇺🇸 US | 🔓 VLESS | @vpnod [4]"
@@ -212,6 +212,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "172.234.236.56",
+            "server_port": 443,
+            "uuid": "498de120-ed30-4f7e-b498-da4917465793",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.234.236.56",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -456,15 +474,6 @@
                     "short_id": "2cc45a0088671249"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
-            "type": "vless",
-            "server": "91.99.216.9",
-            "server_port": 2009,
-            "uuid": "4f929f18-d2c8-49af-9701-6a5b8baabda6",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
