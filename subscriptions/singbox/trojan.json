@@ -98,6 +98,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [47]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
@@ -116,7 +117,6 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [37]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [38]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [39]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [40]",
@@ -175,7 +175,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
@@ -213,6 +213,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [47]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
@@ -231,7 +232,6 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [37]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [38]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [39]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [40]",
@@ -290,7 +290,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
@@ -500,6 +500,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [47]",
+            "type": "trojan",
+            "server": "us2.trojanvh.xyz",
+            "server_port": 80,
+            "password": "aa6eb272-1d8d-4461-9687-85ddbab1adb0",
+            "tls": {
+                "enabled": true,
+                "server_name": "us2.trojanvh.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -822,22 +838,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "stonebreak.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [37]",
-            "type": "trojan",
-            "server": "us2.trojanvh.xyz",
-            "server_port": 80,
-            "password": "aa6eb272-1d8d-4461-9687-85ddbab1adb0",
-            "tls": {
-                "enabled": true,
-                "server_name": "us2.trojanvh.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1826,7 +1826,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
             "type": "trojan",
             "server": "15.237.9.13",
             "server_port": 22223,
