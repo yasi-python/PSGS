@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -155,6 +157,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -290,6 +294,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "5.75.194.13",
+            "server_port": 80,
+            "uuid": "50190347-9a85-4386-bd33-98bc5bc238cd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "n0ZEgbjhlEmpHtlX0khZNVZV3qsGYYXwPztkgyG2xAA",
+                    "short_id": "53162280ce86"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "084533d8-da7f-4a08-a681-f995ae21adb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "short_id": ""
                 }
             }
         },
