@@ -97,8 +97,8 @@
                 "🚩 CF | 🔒 VLESS | @proxystore11 [11]",
                 "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [138]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -127,8 +127,8 @@
                 "🚩 CF | 🔒 VLESS | @proxystore11 [11]",
                 "🇮🇹 IT | 🔓 VLESS | @prrofile_purple [138]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -405,6 +405,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "sss18019.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "72609f31-30d5-442d-a40f-23722dd50e4f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss18019.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [17]",
             "type": "vless",
             "server": "sss2180.tas-bazi.com",
@@ -415,24 +433,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss2180.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "sss71534.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "aa077dd1-0a53-4313-8800-c9ac79a97003",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss71534.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
