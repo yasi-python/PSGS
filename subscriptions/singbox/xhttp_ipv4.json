@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -113,10 +114,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [13]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [139]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -131,7 +132,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayopen [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
@@ -156,6 +157,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -175,10 +177,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [13]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [139]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -193,7 +195,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayopen [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
@@ -308,6 +310,29 @@
             "uuid": "5c46a07c-aef0-4c3c-96ac-fe6f8a91ee4e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
@@ -597,11 +622,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
-            "uuid": "Parsashonam",
+            "uuid": "Parsashonam-300",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -666,7 +691,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [139]",
             "type": "vless",
             "server": "135.148.232.166",
             "server_port": 443,
@@ -963,7 +988,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [5]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 2009,
