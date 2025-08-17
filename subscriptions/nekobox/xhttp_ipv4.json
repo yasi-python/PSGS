@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -102,7 +102,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [13]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [139]",
@@ -143,9 +143,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -165,7 +165,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [13]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [139]",
@@ -286,29 +286,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "5c46a07c-aef0-4c3c-96ac-fe6f8a91ee4e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [50]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [6]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
-            "uuid": "Parsashonam",
+            "uuid": "Parsashonam-300",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -325,6 +307,24 @@
                     "short_id": "61e683d41fdb"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "5c46a07c-aef0-4c3c-96ac-fe6f8a91ee4e",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
@@ -614,11 +614,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
-            "uuid": "Parsashonam-300",
+            "uuid": "Parsashonam",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
