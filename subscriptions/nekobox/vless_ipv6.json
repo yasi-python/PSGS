@@ -82,9 +82,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @argo_vpn1 [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -97,6 +96,7 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
+                "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
@@ -112,9 +112,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @argo_vpn1 [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -127,6 +126,7 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
+                "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
@@ -256,41 +256,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
-            "type": "vless",
-            "server": "[2a06:98c1:3120::1]",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "MypHOtomoments.iR",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/PSZPkYG71g6bn84o/MTQxLjE0OC4yMDMuNg==?ed=2560",
-                "headers": {
-                    "Host": "MypHOtomoments.iR"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @father_vpn [4]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-296",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
             "type": "vless",
             "server": "[2a12:5940:1527::2]",
             "server_port": 443,
@@ -306,6 +272,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @father_vpn [4]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-296",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
@@ -490,6 +465,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "[::ffff:6812:cae8]"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raytg [74]",
+            "type": "vless",
+            "server": "[2a06:98c1:3120::1]",
+            "server_port": 443,
+            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "MypHOtomoments.iR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/PSZPkYG71g6bn84o/MTQxLjE0OC4yMDMuNg==?ed=2560",
+                "headers": {
+                    "Host": "MypHOtomoments.iR"
                 }
             }
         },
