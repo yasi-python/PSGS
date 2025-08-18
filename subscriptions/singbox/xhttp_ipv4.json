@@ -92,7 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [99]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [109]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [110]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -150,7 +153,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [99]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [109]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [110]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -284,7 +290,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [2]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
@@ -305,6 +311,61 @@
                     "short_id": "61e683d41fdb"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [99]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-300",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [109]",
+            "type": "vless",
+            "server": "46.62.143.172",
+            "server_port": 80,
+            "uuid": "24a1ca71-0d3f-485a-8f7b-e988d0063ba6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "moz.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wVqs3qokiXBz9TQp50f097lOtHFinIHyHpLvngGhenE",
+                    "short_id": "a28e1dc059"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [110]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "HqV2rayBot",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
