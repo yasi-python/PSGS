@@ -80,6 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -115,7 +117,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [3]",
-                "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
@@ -136,6 +138,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -171,7 +175,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [3]",
-                "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
@@ -268,6 +272,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "136.244.96.41",
+            "server_port": 8990,
+            "uuid": "9757007b-f75f-4f33-9456-a64bfbad30e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Om08OL0-DY2tV5Z27yFWpzdz_TiJSBxcGUdX5awq5zA",
+                    "short_id": "9912311de4630f2d"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "93.127.180.76",
+            "server_port": 32366,
+            "uuid": "305ee92e-b09e-4cae-92d3-fbbee519df28",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7zQkfmylLlg4bGtYU7OwPl5qNwRUzeZaycUjcIsONUk",
+                    "short_id": "36989f45e183f0"
                 }
             }
         },
@@ -1109,7 +1159,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [13]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2aryng_vpn [12]",
             "type": "vless",
             "server": "94.177.253.242",
             "server_port": 8585,
