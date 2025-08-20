@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -129,7 +130,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_v_vpn [41]",
@@ -152,6 +153,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -189,7 +191,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
                 "🇭🇺 HU | 🔒 VLESS | @v2ray_sos [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_v_vpn [41]",
@@ -284,6 +286,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "174.138.61.120",
+            "server_port": 2053,
+            "uuid": "7296dc74-e800-4d0e-a589-01342e41ca13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l7cy77hFGhLZqNgcuDzHK5adIA9GPfvwbal2HW5QeyU",
+                    "short_id": "c886"
                 }
             }
         },
@@ -1175,7 +1200,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ultrasurf_12 [3]",
             "type": "vless",
             "server": "85.9.204.21",
             "server_port": 23328,
