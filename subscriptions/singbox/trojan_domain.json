@@ -98,6 +98,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
@@ -111,9 +112,8 @@
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [3]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
-                "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [11]",
+                "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [10]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -142,6 +142,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @fati_ffx [2]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
@@ -155,9 +156,8 @@
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [3]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
-                "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [11]",
+                "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [10]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -358,6 +358,29 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
+            "type": "trojan",
+            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+            "server_port": 443,
+            "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "de1.test3.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/howdy",
+                "headers": {
+                    "Host": "de1.test3.net"
                 }
             }
         },
@@ -601,29 +624,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
-            "type": "trojan",
-            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-            "server_port": 443,
-            "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "de1.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/howdy",
-                "headers": {
-                    "Host": "de1.test3.net"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
             "type": "trojan",
             "server": "de1.test3.net",
@@ -640,7 +640,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [11]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [10]",
             "type": "trojan",
             "server": "www.speedtest.net",
             "server_port": 443,
