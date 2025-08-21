@@ -93,7 +93,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+                "❔ XX | 🔓 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -390,7 +390,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+                "❔ XX | 🔓 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -999,27 +999,13 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "ru.spirako.com",
-            "server_port": 443,
-            "uuid": "42d43fbd-7a28-4f38-8d22-0cb63c793a6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vdsina.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
-                }
-            }
+            "server": "gr.dnszone.top",
+            "server_port": 45500,
+            "uuid": "b36bd0e3-bfc4-4d7d-a5cf-4b12f329a0d8",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
