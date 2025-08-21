@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
@@ -103,8 +104,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
-                "🇺🇸 US | 🔓 VLESS | @netmellianti [16]",
+                "🇺🇸 US | 🔓 VLESS | @netmellianti [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -120,6 +120,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
@@ -131,8 +132,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
-                "🇺🇸 US | 🔓 VLESS | @netmellianti [16]",
+                "🇺🇸 US | 🔓 VLESS | @netmellianti [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -220,6 +220,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "150.241.108.219",
+            "server_port": 51410,
+            "uuid": "8bd2d4c0-066e-4aad-86a2-6fe8cd348905",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D45w-QY77mBJqaIH5b4SOh0vAyXG6quUhvjQRTamHks",
+                    "short_id": "e60c21"
                 }
             }
         },
@@ -383,25 +406,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
-            "type": "vless",
-            "server": "188.245.228.94",
-            "server_port": 443,
-            "uuid": "d7ed8991-e019-47c1-b578-93a8d8443830",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "188.245.228.94",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "199.232.208.19",
             "server_port": 80,
