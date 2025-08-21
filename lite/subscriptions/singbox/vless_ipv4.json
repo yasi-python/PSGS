@@ -99,8 +99,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
@@ -164,7 +163,6 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [1]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @hoshmasnoiyfarsi [12]",
@@ -224,7 +222,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [1]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -373,8 +371,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
@@ -438,7 +435,6 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [1]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @hoshmasnoiyfarsi [12]",
@@ -498,7 +494,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [1]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -850,32 +846,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "104.16.53.11",
-            "server_port": 8080,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/download",
-                "headers": {
-                    "Host": "104.16.53.11"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "172.64.151.232",
+            "server": "172.67.223.49",
             "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "uuid": "914b24f0-ad36-447a-8807-d6fdff103afb",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "server_name": "sudoshark.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -884,9 +864,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/=zani.yaemiko.ggff.net/?Join---v2ray_hubb---Join---v2ray_hubb---Join---v2ray_hubb---Join---v2ray_hubb?ed=2560",
+                "path": "/ADvrAJEsvSViONF5?ed=2560",
                 "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
+                    "Host": "sudoshark.workers.dev"
                 }
             }
         },
@@ -2013,31 +1993,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "173.239.8.164",
-            "server_port": 443,
-            "uuid": "9dac67dc-e6d5-4d1f-b2dd-6356e8b56b39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ntsafe.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ntsafe.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
             "type": "vless",
             "server": "92.114.24.92",
@@ -3083,7 +3038,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [1]",
             "type": "vless",
             "server": "188.245.228.94",
             "server_port": 443,
