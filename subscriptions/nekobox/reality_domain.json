@@ -98,7 +98,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
-                "🇯🇵 JP | 🔒 VLESS | @freakconfig [4]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [52]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [4]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [7]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [1]",
@@ -142,7 +143,7 @@
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [9]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [9]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [15]",
@@ -175,7 +176,6 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [2]",
                 "❔ XX | 🔒 VLESS | @vp22ray [3]",
                 "❔ XX | 🔒 VLESS | @vp22ray [4]",
-                "❔ XX | 🔒 VLESS | @vp22ray [5]",
                 "❔ XX | 🔒 VLESS | @vp22ray [6]",
                 "❔ XX | 🔒 VLESS | @vp22ray [7]",
                 "❔ XX | 🔒 VLESS | @vp22ray [8]",
@@ -227,7 +227,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
-                "🇯🇵 JP | 🔒 VLESS | @freakconfig [4]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [52]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [4]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [7]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [1]",
@@ -271,7 +272,7 @@
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [9]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [9]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [15]",
@@ -304,7 +305,6 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [2]",
                 "❔ XX | 🔒 VLESS | @vp22ray [3]",
                 "❔ XX | 🔒 VLESS | @vp22ray [4]",
-                "❔ XX | 🔒 VLESS | @vp22ray [5]",
                 "❔ XX | 🔒 VLESS | @vp22ray [6]",
                 "❔ XX | 🔒 VLESS | @vp22ray [7]",
                 "❔ XX | 🔒 VLESS | @vp22ray [8]",
@@ -884,7 +884,30 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @freakconfig [4]",
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "german.vp22ray.site",
+            "server_port": 2087,
+            "uuid": "d8e9fea7-00fd-4ff6-b177-f9b473d95993",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
+                    "short_id": "32c43ca1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [4]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
@@ -1971,7 +1994,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @qrv2ray [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @qrv2ray [9]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -2728,29 +2751,6 @@
             "server": "german.vp22ray.site",
             "server_port": 2087,
             "uuid": "5e29c2e5-7d6f-47d0-911d-3b66e8214ebe",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ftp.debian.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
-                    "short_id": "32c43ca1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @vp22ray [5]",
-            "type": "vless",
-            "server": "german.vp22ray.site",
-            "server_port": 2087,
-            "uuid": "d8e9fea7-00fd-4ff6-b177-f9b473d95993",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
