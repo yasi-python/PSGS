@@ -101,8 +101,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -121,6 +121,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [8]",
+                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
@@ -261,8 +262,7 @@
                 "🚩 CF | 🔓 VLESS | @vpncostumer [15]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
@@ -286,8 +286,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -306,6 +306,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [8]",
+                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
@@ -446,8 +447,7 @@
                 "🚩 CF | 🔓 VLESS | @vpncostumer [15]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
@@ -699,7 +699,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [42]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -715,18 +715,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "creative-computer.oneeat.co",
-            "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+            "server": "freeplus.v2raystorm.xyz",
+            "server_port": 443,
+            "uuid": "34f69418-0d46-498e-a1a5-4d1e157ff3cc",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "creative-computer.oneeat.co"
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1014,6 +1016,22 @@
                 "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
                 "headers": {
                     "Host": "cumhuriyet.com.tr"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "19e427b0-abd4-441b-900f-42af30d04088",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "revest.maketunnelim.Lat."
                 }
             }
         },
@@ -3403,23 +3421,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "bewildered-poem.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "0f4865d9-9405-4703-a282-46e326e6d9e7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "bewildered-poem.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
