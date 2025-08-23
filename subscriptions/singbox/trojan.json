@@ -125,7 +125,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🚩 CF | 🔒 TROJAN | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [4]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [5]",
@@ -144,9 +143,9 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔓 TROJAN | @hope_net [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇬🇧 GB | 🔓 TROJAN | @hope_net [6]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -183,6 +182,8 @@
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [3]",
                 "🇹🇼 TW | 🔒 TROJAN | @v2ray_collector [5]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [1]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [2]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -246,7 +247,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🚩 CF | 🔒 TROJAN | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [4]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [5]",
@@ -265,9 +265,9 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔓 TROJAN | @hope_net [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇬🇧 GB | 🔓 TROJAN | @hope_net [6]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -304,6 +304,8 @@
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [3]",
                 "🇹🇼 TW | 🔒 TROJAN | @v2ray_collector [5]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [1]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [2]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -1008,29 +1010,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [51]",
-            "type": "trojan",
-            "server": "104.25.197.102",
-            "server_port": 8443,
-            "password": "AQYZMBIoZd",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn65667.boshrachoice.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "cdn65667.boshrachoice.ir"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [3]",
             "type": "trojan",
             "server": "18.199.31.178",
@@ -1310,14 +1289,14 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇬🇧 GB | 🔓 TROJAN | @hope_net [8]",
+            "tag": "🇬🇧 GB | 🔓 TROJAN | @hope_net [6]",
             "type": "trojan",
             "server": "3.9.88.185",
             "server_port": 22222,
             "password": "telegram-id-privatevpns"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "172.67.180.238",
             "server_port": 443,
@@ -1340,7 +1319,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "104.25.203.49",
             "server_port": 443,
@@ -1988,6 +1967,52 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [1]",
+            "type": "trojan",
+            "server": "173.245.59.185",
+            "server_port": 443,
+            "password": "NISHIKUITAN222",
+            "tls": {
+                "enabled": true,
+                "server_name": "im.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "im.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [2]",
+            "type": "trojan",
+            "server": "172.66.46.249",
+            "server_port": 443,
+            "password": "90cd4a77-141a-43c9-991b-08263cfe9c10",
+            "tls": {
+                "enabled": true,
+                "server_name": "79193c43.aryoovpn-5fr.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "79193c43.aryoovpn-5fr.pages.dev"
                 }
             }
         },
