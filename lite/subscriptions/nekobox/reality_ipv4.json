@@ -101,6 +101,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
+                "🇵🇱 PL | 🔒 VLESS | @v2rayng_1378 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
                 "🇺🇸 US | 🔒 VLESS | @vpn_ioss [16]"
@@ -135,6 +136,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
+                "🇵🇱 PL | 🔒 VLESS | @v2rayng_1378 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
                 "🇺🇸 US | 🔒 VLESS | @vpn_ioss [16]"
@@ -732,6 +734,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @v2rayng_1378 [4]",
+            "type": "vless",
+            "server": "2.56.125.209",
+            "server_port": 49868,
+            "uuid": "be015dd2-30b4-4fcf-a9ee-080c13ac13fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "joEKL4Itljxodt1SOe1itSMrAH9bk_udpPtXgIjdu10",
+                    "short_id": "6d638e"
+                }
             }
         },
         {
