@@ -98,7 +98,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇮🇱 IL | 🔒 VLESS | @farahvpn [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -147,7 +146,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇮🇱 IL | 🔒 VLESS | @farahvpn [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -413,29 +411,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @farahvpn [17]",
-            "type": "vless",
-            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
-            "server_port": 443,
-            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "i2pd.website",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
-                    "short_id": "55e6af1a35e64a98"
-                }
             }
         },
         {
