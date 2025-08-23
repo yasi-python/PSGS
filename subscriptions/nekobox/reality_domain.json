@@ -90,6 +90,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -187,7 +189,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [2]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
@@ -220,6 +221,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -317,7 +320,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [2]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
@@ -679,6 +681,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "bf92707c-9d51-415d-b156-c88916b18da6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "ec9d4849-9a6d-444b-8773-cc5f4b163dbf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
             }
         },
         {
@@ -3041,33 +3089,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
-            "type": "vless",
-            "server": "de.pixvpn.app",
-            "server_port": 8443,
-            "uuid": "e906f679-b1fe-4e38-b590-196328d02408",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jd.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "41a4cee2c50c4fc3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-jd"
             }
         },
         {
