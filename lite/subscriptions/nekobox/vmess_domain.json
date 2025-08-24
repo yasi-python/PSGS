@@ -86,6 +86,7 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [10]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [12]",
                 "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
@@ -113,6 +114,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -136,6 +138,7 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [10]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [12]",
                 "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
@@ -163,6 +166,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -347,6 +351,15 @@
             "server": "mrgold.iranman.shop",
             "server_port": 52065,
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
+            "type": "vmess",
+            "server": "47.116.173.76",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0
         },
@@ -770,6 +783,31 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "vc.fly.dev",
+            "server_port": 443,
+            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+            "security": "auto",
+            "alter_id": 32,
+            "tls": {
+                "enabled": true,
+                "server_name": "vc.fly.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vc",
+                "headers": {
+                    "Host": "vc.fly.dev"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
