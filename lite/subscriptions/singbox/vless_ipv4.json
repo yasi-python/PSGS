@@ -100,8 +100,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -255,8 +254,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -621,29 +619,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "b466707d-ca06-4e0c-90e2-7ddb1f11c2ef",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.16.86.73"
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "159.89.110.200",
-            "server_port": 38681,
-            "uuid": "70a32ba0-4d6c-45bc-9c4f-7ae10a52b398",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configms [9]",
