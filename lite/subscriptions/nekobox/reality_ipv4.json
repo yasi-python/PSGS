@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -115,6 +116,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -226,6 +228,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "54.146.158.90",
+            "server_port": 443,
+            "uuid": "cd54a584-2aeb-4a81-8558-84822c5e60d1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J2bRPBQbUXzfoe-sch7fxMlzKqaX2L0kEm4Rcly6Kgo",
+                    "short_id": "d0c43a7737"
                 }
             }
         },
