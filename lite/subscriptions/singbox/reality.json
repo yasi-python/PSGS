@@ -121,6 +121,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [1]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇩🇪 DE | 🔒 VLESS | @info_2it_channel [5]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔒 VLESS | @iran_mehr_vpn [11]",
@@ -136,7 +137,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
                 "🇺🇸 US | 🔒 VLESS | @vpn_ioss [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -178,6 +178,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [1]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇩🇪 DE | 🔒 VLESS | @info_2it_channel [5]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔒 VLESS | @iran_mehr_vpn [11]",
@@ -193,7 +194,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
                 "🇺🇸 US | 🔒 VLESS | @vpn_ioss [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -1005,6 +1005,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "188.245.67.23",
+            "server_port": 38016,
+            "uuid": "7f680180-3ed7-415d-af90-2095cbe94362",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "business.stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3TrvJr0BfbCPdv-e4LZcUBotYcuifQZH3YER8FIZcS4",
+                    "short_id": "f7e6c039"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @info_2it_channel [5]",
             "type": "vless",
             "server": "91.107.147.144",
@@ -1358,29 +1381,6 @@
                     "enabled": true,
                     "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "94.141.123.233",
-            "server_port": 443,
-            "uuid": "9bd6b7dd-dd73-49f2-b866-781dac373d16",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdnjs.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
-                    "short_id": "82c8140feb118043"
                 }
             }
         },
