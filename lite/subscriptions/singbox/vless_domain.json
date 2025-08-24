@@ -102,7 +102,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -210,6 +210,9 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -287,7 +290,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -395,6 +398,9 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -715,16 +721,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8443,
-            "uuid": "3fc39959-b2af-435f-9711-ce4fb4d0e955",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "18.forfreedom10.workers.dev",
+                "server_name": "jdyq2881un.gheichi.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -733,9 +739,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/socks5://128.140.46.169:28227",
+                "path": "/",
                 "headers": {
-                    "Host": "18.forfreedom10.workers.dev"
+                    "Host": "jdyq2881un.gheichi.org"
                 }
             }
         },
@@ -2503,6 +2509,81 @@
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lease-17.access.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "lease-17.access.name.ng"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hetzner-7.boss.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hetzner-7.boss.name.ng"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hetzner-8.cache.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hetzner-8.cache.name.ng"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
