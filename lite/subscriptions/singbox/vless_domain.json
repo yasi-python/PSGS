@@ -118,8 +118,8 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [8]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [9]",
+                "🇷🇺 RU | 🔓 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
@@ -204,14 +204,14 @@
                 "🚩 CF | 🔓 VLESS | @nofilter_v2rayng [5]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @oonfig [3]",
-                "🚩 CF | 🔒 VLESS | @outline_vpn [18]",
+                "🇺🇸 US | 🔒 VLESS | @outline_vpn [18]",
                 "🇮🇷 IR | 🔓 VLESS | @outline_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @outline_vpn [20]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
+                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -304,8 +304,8 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [8]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [9]",
+                "🇷🇺 RU | 🔓 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
@@ -390,14 +390,14 @@
                 "🚩 CF | 🔓 VLESS | @nofilter_v2rayng [5]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @oonfig [3]",
-                "🚩 CF | 🔒 VLESS | @outline_vpn [18]",
+                "🇺🇸 US | 🔒 VLESS | @outline_vpn [18]",
                 "🇮🇷 IR | 🔓 VLESS | @outline_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @outline_vpn [20]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
+                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -972,36 +972,38 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [8]",
+            "tag": "🚩 CF | 🔒 VLESS | @falcunargo [9]",
             "type": "vless",
-            "server": "cumhuriyet.com.tr",
-            "server_port": 8080,
-            "uuid": "db0edd3d-b3f3-453f-e0b2-1d55c74c0c71",
+            "server": "alhilal.com",
+            "server_port": 443,
+            "uuid": "4e4768df-0fbb-4cc1-8fd3-7c6fea95742a",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-cOnFiG-TeLeGrAm-a05.pArAsToO.DpDnS.OrG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "path": "/",
                 "headers": {
-                    "Host": "cumhuriyet.com.tr"
+                    "Host": "rAyAn-cOnFiG-TeLeGrAm-a05.pArAsToO.DpDnS.OrG"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🇷🇺 RU | 🔓 VLESS | @falcunargo [10]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "19e427b0-abd4-441b-900f-42af30d04088",
+            "server": "download.ldop.com",
+            "server_port": 8855,
+            "uuid": "003e3cd8-e9ab-447d-ae72-6ddde8e031ba",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "revest.maketunnelim.Lat."
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
@@ -2375,7 +2377,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_vpn [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @outline_vpn [18]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -2493,7 +2495,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -2509,7 +2511,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [16]",
+            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
             "type": "vless",
             "server": "numberland.ir",
             "server_port": 8080,
