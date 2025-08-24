@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -128,6 +127,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [10]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [16]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
@@ -149,7 +150,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -185,6 +185,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [10]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [16]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
@@ -280,15 +282,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f14fe691-0868-4cb0-b6ff-e42444a84adf",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -694,6 +687,42 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss55168.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [14]",
+            "type": "vless",
+            "server": "sss51210.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss51210.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+            "type": "vless",
+            "server": "sss6000.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss6000.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
