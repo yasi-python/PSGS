@@ -89,7 +89,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [105]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -277,7 +277,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [105]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -697,13 +697,20 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [105]",
             "type": "vless",
-            "server": "v2shop-dubai1.bing-net.com",
-            "server_port": 3038,
-            "uuid": "92e1ef2b-c1f6-4198-abc7-a930cb498d30",
+            "server": "surfiran.com",
+            "server_port": 2052,
+            "uuid": "156c2517-e313-4ba3-ad88-68a9677f49aa",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@v2ray_configs_pools--@v2ray_configs_pools",
+                "headers": {
+                    "Host": "surfiran.com"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",

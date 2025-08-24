@@ -98,8 +98,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @argo_vpn1 [3]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [14]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [106]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [107]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -116,7 +116,7 @@
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇺🇸 US | 🔓 VLESS | @free1ss [18]",
+                "🇺🇸 US | 🔓 VLESS | @free1ss [17]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -245,7 +245,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [105]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -439,8 +439,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @argo_vpn1 [3]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [14]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [106]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [107]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
                 "🚩 CF | 🔓 VLESS | @configms [10]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -457,7 +457,7 @@
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇺🇸 US | 🔓 VLESS | @free1ss [18]",
+                "🇺🇸 US | 🔓 VLESS | @free1ss [17]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -586,7 +586,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [105]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -943,45 +943,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [106]",
             "type": "vless",
-            "server": "100.27.132.154",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "4eab40da-ff08-40bb-9d8a-e059a2a6da0d",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [107]",
             "type": "vless",
-            "server": "91.99.178.25",
-            "server_port": 443,
-            "uuid": "c39a101c-0a7b-4940-8e6a-f8346d70b24b",
+            "server": "172.67.187.251",
+            "server_port": 8880,
+            "uuid": "38141d3b-ddde-4a2f-8d26-a31ddcd49c8a",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.178.25",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "172.67.187.251"
                 }
             }
         },
@@ -1278,7 +1260,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @free1ss [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @free1ss [17]",
             "type": "vless",
             "server": "45.82.251.122",
             "server_port": 8880,
@@ -3533,13 +3515,20 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @config_proxy [41]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [105]",
             "type": "vless",
-            "server": "v2shop-dubai1.bing-net.com",
-            "server_port": 3038,
-            "uuid": "92e1ef2b-c1f6-4198-abc7-a930cb498d30",
+            "server": "surfiran.com",
+            "server_port": 2052,
+            "uuid": "156c2517-e313-4ba3-ad88-68a9677f49aa",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@v2ray_configs_pools--@v2ray_configs_pools",
+                "headers": {
+                    "Host": "surfiran.com"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
