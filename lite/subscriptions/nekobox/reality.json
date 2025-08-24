@@ -89,6 +89,7 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -100,7 +101,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -117,9 +117,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehrosaboran [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
-                "🇳🇱 NL | 🔒 VLESS | @proxycrone [12]",
-                "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
+                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
@@ -148,6 +148,7 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -159,7 +160,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -176,9 +176,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehrosaboran [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
-                "🇳🇱 NL | 🔒 VLESS | @proxycrone [12]",
-                "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
+                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_inter [9]",
@@ -509,6 +509,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
+            "type": "vless",
+            "server": "abri.abriabri.ir",
+            "server_port": 2233,
+            "uuid": "97ecfbb6-949b-4f4c-bce1-16a5036a0af5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
+                    "short_id": "e0"
+                }
+            }
+        },
+        {
             "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
@@ -779,29 +802,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "193.233.19.17",
-            "server_port": 2053,
-            "uuid": "d6873a1d-38bf-430d-a701-a874b9be3982",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
-                    "short_id": "96c58a92f1dd5eaa"
-                }
             }
         },
         {
@@ -1193,7 +1193,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
             "type": "vless",
             "server": "142.93.190.166",
             "server_port": 2053,
@@ -1216,16 +1216,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @proxycrone [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
             "type": "vless",
-            "server": "80.74.29.212",
-            "server_port": 8443,
-            "uuid": "4808ded8-1646-4c3c-8b4c-6b6fedc3cde9",
+            "server": "94.141.123.233",
+            "server_port": 443,
+            "uuid": "9bd6b7dd-dd73-49f2-b866-781dac373d16",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "cdnjs.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1233,13 +1233,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
-                    "short_id": ""
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "82c8140feb118043"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
             "type": "vless",
             "server": "159.203.141.231",
             "server_port": 2053,
