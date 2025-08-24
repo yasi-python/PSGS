@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VMESS | @config_proxy [53]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [3]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -114,7 +115,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [17]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -132,6 +132,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VMESS | @config_proxy [53]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [3]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -166,7 +167,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [17]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -260,6 +260,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @config_proxy [53]",
+            "type": "vmess",
+            "server": "raimoooooon.igram.sbs",
+            "server_port": 49597,
+            "uuid": "d500e784-4c49-43af-d8c1-9e88aef40294",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -783,31 +801,6 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [17]",
-            "type": "vmess",
-            "server": "172.67.131.27",
-            "server_port": 2053,
-            "uuid": "350e2b01-d410-44a6-90ba-6483f1062972",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
