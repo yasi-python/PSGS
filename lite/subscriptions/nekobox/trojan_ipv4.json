@@ -80,10 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
-                "🚩 CF | 🔓 TROJAN | @farahvpn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+                "🚩 CF | 🔓 TROJAN | @farahvpn [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -100,10 +101,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
-                "🚩 CF | 🔓 TROJAN | @farahvpn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+                "🚩 CF | 🔓 TROJAN | @farahvpn [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -200,23 +202,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
-            "type": "trojan",
-            "server": "63.176.143.79",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
             "type": "trojan",
             "server": "52.47.201.84",
             "server_port": 22223,
@@ -232,7 +218,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
             "type": "trojan",
             "server": "13.37.0.108",
             "server_port": 22223,
@@ -248,7 +234,23 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @farahvpn [19]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+            "type": "trojan",
+            "server": "3.71.171.209",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @farahvpn [17]",
             "type": "trojan",
             "server": "172.66.47.128",
             "server_port": 443,
@@ -260,6 +262,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "104.18.5.250",
+            "server_port": 443,
+            "password": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "tls": {
+                "enabled": true,
+                "server_name": "iSaa1.PAGeS.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "iSaa1.PAGeS.DeV"
                 }
             }
         },
