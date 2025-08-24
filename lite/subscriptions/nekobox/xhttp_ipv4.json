@@ -91,7 +91,8 @@
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +114,8 @@
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -409,6 +411,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "193.233.19.17",
+            "server_port": 2053,
+            "uuid": "d6873a1d-38bf-430d-a701-a874b9be3982",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
+                    "short_id": "96c58a92f1dd5eaa"
                 }
             }
         }
