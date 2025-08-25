@@ -92,11 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇪🇸 ES | 🔒 VLESS | @fastfreeconfig [49]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [6]",
@@ -127,6 +127,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -148,11 +149,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇪🇸 ES | 🔒 VLESS | @fastfreeconfig [49]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [6]",
@@ -183,6 +184,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -280,6 +282,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "91.99.169.64",
+            "server_port": 8443,
+            "uuid": "b1fe7cec-3028-4cf0-b1c3-af55efd23ad8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -337,29 +348,6 @@
             "uuid": "f51667a2-c1e6-5321-9d51-f03be3fc8d02",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @fastfreeconfig [49]",
-            "type": "vless",
-            "server": "217.71.204.148",
-            "server_port": 2096,
-            "uuid": "977cf430-e251-4b5f-8bc4-c974fdec0df9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "WWW.speedtest.net,Speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ueUB3nxbexEGsLstcIG5w84Tqz9IiHYdVQMdy6aPO0E",
-                    "short_id": "f8baf4dd88f32724"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
@@ -808,6 +796,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
+            "type": "vless",
+            "server": "217.71.204.148",
+            "server_port": 2096,
+            "uuid": "977cf430-e251-4b5f-8bc4-c974fdec0df9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.speedtest.net,Speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ueUB3nxbexEGsLstcIG5w84Tqz9IiHYdVQMdy6aPO0E",
+                    "short_id": "f8baf4dd88f32724"
                 }
             }
         },
