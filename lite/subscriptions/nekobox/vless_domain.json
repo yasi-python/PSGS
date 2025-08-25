@@ -90,7 +90,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -108,8 +108,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+                "🚩 CF | 🔓 VLESS | @falcunargo [13]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
@@ -198,7 +197,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [10]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -276,7 +275,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -294,8 +293,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+                "🚩 CF | 🔓 VLESS | @falcunargo [13]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
@@ -384,7 +382,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [10]",
                 "🚩 CF | 🔓 VLESS | @proxy_v2box [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -709,13 +707,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "bf37afd0-7d7c-4283-a9f5-9cc2ea96e974",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "74c1f4fc-8091-42ef-a6c9-a4b3ce0c1427",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vENom.ItgoOdMoRniNG422.Workers.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/mINLCAO9kH3i4dvI?ed=2560",
+                "headers": {
+                    "Host": "vENom.ItgoOdMoRniNG422.Workers.Dev"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -989,27 +1003,11 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [9]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "40acbc60-0607-43a6-a604-5f27751d36e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "revest.maketunnelim.Lat."
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @falcunargo [13]",
             "type": "vless",
             "server": "numberland.ir",
             "server_port": 8080,
-            "uuid": "b37596da-6f80-4dcd-f75c-c3c7b25922da",
+            "uuid": "d8b86bc9-822a-4030-d898-c923a30fa39c",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -2483,7 +2481,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [10]",
             "type": "vless",
             "server": "hdfynpv2c1.farvaharforever.com",
             "server_port": 443,

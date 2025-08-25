@@ -87,6 +87,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "❔ XX | 🔒 TROJAN | @hope_net [21]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -130,6 +131,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "❔ XX | 🔒 TROJAN | @hope_net [21]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -364,6 +366,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [21]",
+            "type": "trojan",
+            "server": "joinv2ngfast-7nr.pages.dev",
+            "server_port": 2096,
+            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "tls": {
+                "enabled": true,
+                "server_name": "joinV2NGFasT-7Nr.pAgeS.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "joinV2NGFasT-7Nr.pAgeS.DeV"
                 }
             }
         },
