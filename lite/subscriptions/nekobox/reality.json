@@ -101,9 +101,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇰🇷 KR | 🔒 VLESS | @config_proxy [45]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [46]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [47]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [4]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
@@ -162,9 +159,6 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇰🇷 KR | 🔒 VLESS | @config_proxy [45]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [46]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [47]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [4]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
@@ -806,75 +800,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
-            }
-        },
-        {
-            "tag": "🇰🇷 KR | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "3.35.172.182",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "146.190.255.206",
-            "server_port": 7020,
-            "uuid": "7b5f4468-74e1-4cee-be76-80a6316deec9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TmD2tgPqVKs9s4FiP6qgaRR1vE03_l30_PKlljwkJiQ",
-                    "short_id": "7fec3adb0c3aee58"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "15.222.44.89",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
             }
         },
         {
