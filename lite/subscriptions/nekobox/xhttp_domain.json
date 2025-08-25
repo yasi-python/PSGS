@@ -87,8 +87,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +105,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -282,24 +280,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "sss55168.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "e8a19247-cb95-4f9c-9c77-ea0355268762",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss55168.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
