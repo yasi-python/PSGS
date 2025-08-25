@@ -91,6 +91,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [62]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -277,6 +278,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [62]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -721,6 +723,24 @@
                 "path": "/CH_A2L",
                 "headers": {
                     "Host": "A2L.GODGAME.FUN"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "sss75298.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss75298.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -3418,7 +3438,7 @@
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
-            "uuid": "9a06b3d7-62ad-4e29-9fb8-14a137487dba",
+            "uuid": "c0cd7f83-7d67-4b82-9e7a-b6e5c0e31f1f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -3445,7 +3465,7 @@
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
-            "uuid": "c0cd7f83-7d67-4b82-9e7a-b6e5c0e31f1f",
+            "uuid": "934964d0-3114-405a-a84c-f3fd37a8379e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -3472,7 +3492,7 @@
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
-            "uuid": "934964d0-3114-405a-a84c-f3fd37a8379e",
+            "uuid": "8886725c-4799-4e86-8ef7-a8594fbb3226",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
