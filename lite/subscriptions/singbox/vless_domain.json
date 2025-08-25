@@ -103,8 +103,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [123]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [124]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [150]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -289,8 +288,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [123]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [124]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [150]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -733,36 +731,17 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [123]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [150]",
             "type": "vless",
-            "server": "hecror.bizipsych.ir",
-            "server_port": 38755,
-            "uuid": "7ff8a0c0-d0dd-4251-8f8f-46e9b44d44ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Hz-XqYNjjbZ4yOjM6IKlQSvzUbipK0DY5-rmH7f4SAo",
-                    "short_id": "585d50e4e2"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [124]",
-            "type": "vless",
-            "server": "test.vipfastconnect.top",
-            "server_port": 2053,
-            "uuid": "29b5f8cb-88b4-4f4f-a3e5-18b331ac3f5d",
+            "server": "Vray.v2ray1ng.sbs",
+            "server_port": 7195,
+            "uuid": "50b25340-baf4-4e5b-b1d8-cba632e61623",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "7195vless"
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
