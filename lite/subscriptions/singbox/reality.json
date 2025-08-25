@@ -101,7 +101,8 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
+                "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -158,7 +159,8 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
+                "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -513,7 +515,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
             "type": "vless",
             "server": "abri.abriabri.ir",
             "server_port": 2233,
@@ -532,6 +534,29 @@
                     "enabled": true,
                     "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
                     "short_id": "e0"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
+            "type": "vless",
+            "server": "warning.root.info.tr",
+            "server_port": 443,
+            "uuid": "909d4490-6cbb-4006-9dbd-3c7f5d79cfda",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D5_j99ZSJtC9MdMQGCWlVvUU0p8KRgHZ2ZEnv2z2FWU",
+                    "short_id": "b8fc40ff6d873611"
                 }
             }
         },

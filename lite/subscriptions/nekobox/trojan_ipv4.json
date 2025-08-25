@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
@@ -100,9 +100,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
+                "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
@@ -200,23 +200,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
-            "type": "trojan",
-            "server": "52.47.53.180",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [12]",
             "type": "trojan",
             "server": "13.37.54.205",
             "server_port": 22223,
@@ -232,7 +216,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
             "type": "trojan",
             "server": "52.29.60.180",
             "server_port": 22223,
@@ -248,10 +232,26 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
+            "type": "trojan",
+            "server": "63.176.217.80",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "104.25.254.4",
-            "server_port": 2087,
+            "server": "172.67.49.134",
+            "server_port": 443,
             "password": "auto",
             "tls": {
                 "enabled": true,
@@ -264,7 +264,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/trojanfree-76s.pages.dev",
+                "path": "/trojanfree-76s.pages.dev/?ed=2560",
                 "headers": {
                     "Host": "trojanfree-76s.pages.dev"
                 }
