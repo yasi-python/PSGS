@@ -101,9 +101,9 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
-                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -133,9 +133,9 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
-                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -463,29 +463,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
-            "type": "vless",
-            "server": "abri.abriabri.ir",
-            "server_port": 2233,
-            "uuid": "97ecfbb6-949b-4f4c-bce1-16a5036a0af5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
-                    "short_id": "e0"
-                }
-            }
-        },
-        {
             "tag": "🇦🇲 AM | 🔒 VLESS | @netmellianti [16]",
             "type": "vless",
             "server": "warning.root.info.tr",
@@ -509,7 +486,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
             "type": "vless",
             "server": "ru.sfasti.ru",
             "server_port": 443,
@@ -528,6 +505,29 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
+            "type": "vless",
+            "server": "abri.abriabri.ir",
+            "server_port": 2233,
+            "uuid": "97ecfbb6-949b-4f4c-bce1-16a5036a0af5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
+                    "short_id": "e0"
                 }
             }
         },
