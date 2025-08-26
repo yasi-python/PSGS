@@ -80,13 +80,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "❔ XX | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [16]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [18]",
                 "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
@@ -111,6 +111,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -129,13 +130,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "❔ XX | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [16]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [18]",
                 "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
@@ -160,6 +161,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -258,22 +260,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
-            "type": "vmess",
-            "server": "207.174.28.20",
-            "server_port": 20086,
-            "uuid": "c6e3e775-ea56-4dcd-950b-c323117367f4",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
             "type": "vmess",
             "server": "v2ray.codefyinc.com",
@@ -361,6 +347,15 @@
             "server": "mrgold.iranman.shop",
             "server_port": 52065,
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "127.1.1.127",
+            "server_port": 80,
+            "uuid": "602736e4-a2e8-4eb3-9fc9-7c7082925365",
             "security": "auto",
             "alter_id": 0
         },
@@ -723,6 +718,22 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "91.218.143.133",
+            "server_port": 20086,
+            "uuid": "a440e0d3-d39a-4bd8-a2c4-e22a6aef96e0",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?--TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
