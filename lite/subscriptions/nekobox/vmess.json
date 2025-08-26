@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -103,8 +104,7 @@
                 "🇨🇳 CN | 🔓 VMESS | @mftizi [20]",
                 "🇳🇿 NZ | 🔓 VMESS | @oonfig [4]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
-                "🇺🇸 US | 🔓 VMESS | @proxy_mtproto_vpns_free [4]",
-                "🇱🇻 LV | 🔓 VMESS | @proxy_mtproto_vpns_free [5]",
+                "🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
@@ -129,6 +129,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -152,8 +153,7 @@
                 "🇨🇳 CN | 🔓 VMESS | @mftizi [20]",
                 "🇳🇿 NZ | 🔓 VMESS | @oonfig [4]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
-                "🇺🇸 US | 🔓 VMESS | @proxy_mtproto_vpns_free [4]",
-                "🇱🇻 LV | 🔓 VMESS | @proxy_mtproto_vpns_free [5]",
+                "🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
                 "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
@@ -254,6 +254,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
+            "type": "vmess",
+            "server": "207.174.28.20",
+            "server_port": 20086,
+            "uuid": "c6e3e775-ea56-4dcd-950b-c323117367f4",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -607,45 +623,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @proxy_mtproto_vpns_free [4]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
             "type": "vmess",
-            "server": "209.126.84.189",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
+            "server": "31.56.146.186",
+            "server_port": 38040,
+            "uuid": "a8f9d5f9-7cad-40ff-9fee-835c6dd9bce4",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vmessws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔓 VMESS | @proxy_mtproto_vpns_free [5]",
-            "type": "vmess",
-            "server": "216.173.69.250",
-            "server_port": 8443,
-            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
