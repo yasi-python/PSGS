@@ -10,13 +10,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46] = vmess, movaghat.funfil.link, 48252, username = ab65e694-c044-46cf-802e-301dc9998c41, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70] = vmess, 195.211.99.143, 8443, username = 2e514a36-7ae8-4b6a-9e36-9c20e7228824, ws = true, tls = false, ws-path = /, ws-headers = Host:""
 🚩 CF | 🔓 VMESS | @nn_vpn [2] = vmess, www.speedtest.net, 80, username = c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c, ws = true, tls = false, ws-path = /, ws-headers = Host:"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."
 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5] = vmess, 65.109.190.91.suupermeat.ir, 2053, username = b4493eed-d316-45d5-addf-9857ffeba30e, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
 
 [Rule]
 GEOIP,IR,DIRECT
