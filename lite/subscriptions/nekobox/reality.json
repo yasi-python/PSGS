@@ -100,6 +100,7 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [4]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [32]",
@@ -155,6 +156,7 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [4]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [32]",
@@ -771,6 +773,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "91.99.115.173",
+            "server_port": 443,
+            "uuid": "6c5c2d3e-dd0d-4968-a748-5e8d2e8afb12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snapp.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mEzwGx3LUXPR-sw8RFmlGM_ctzTwPlgq-mxku4wtBnc",
+                    "short_id": "c1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
