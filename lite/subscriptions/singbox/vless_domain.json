@@ -103,6 +103,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [48]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -111,7 +112,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
+                "🚩 CF | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -289,6 +290,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [48]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -297,7 +299,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
+                "🚩 CF | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -733,6 +735,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 8080,
+            "uuid": "46b7dfdb-fc88-4dbc-819e-db3ab8093c90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "www.visa.com"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
             "type": "vless",
             "server": "nv111.momdping.com",
@@ -856,7 +874,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
+            "tag": "🚩 CF | 🔒 VLESS | @dalton_ping [5]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
