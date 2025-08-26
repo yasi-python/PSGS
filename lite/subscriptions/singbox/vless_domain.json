@@ -103,7 +103,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [36]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -287,7 +287,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [36]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -729,13 +729,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [36]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "MsV2ray-Telegram",
+            "server": "edt-f5k.pages.dev",
+            "server_port": 443,
+            "uuid": "98371613-b71d-4185-9e8a-eb7ba73373b4",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "edt-f5k.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "edt-f5k.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
