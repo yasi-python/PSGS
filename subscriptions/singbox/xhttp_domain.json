@@ -113,7 +113,6 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
-                "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [47]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
@@ -127,6 +126,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [6]",
                 "🇺🇸 US | 🔓 VLESS | @outline_ir [14]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [7]",
@@ -167,7 +167,6 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
-                "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [47]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
@@ -181,6 +180,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [6]",
                 "🇺🇸 US | 🔓 VLESS | @outline_ir [14]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
+                "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [7]",
@@ -479,29 +479,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @fastfreeconfig [47]",
-            "type": "vless",
-            "server": "dl-04.saitsazs.ir",
-            "server_port": 12107,
-            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
             "type": "vless",
             "server": "speedtest.net",
@@ -679,6 +656,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
+            "type": "vless",
+            "server": "dl-04.saitsazs.ir",
+            "server_port": 12107,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
