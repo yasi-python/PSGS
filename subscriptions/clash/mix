@@ -23,12 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]","type":"vmess","server":"movaghat.funfil.link","port":48252,"cipher":"auto","uuid":"ab65e694-c044-46cf-802e-301dc9998c41","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔒 TROJAN | @jiedianssr [3]","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @jiedianssr [5]","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇩🇪 DE | 🔒 SS | @jiedianssr [6]","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @jiedianssr [7]","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔓 VMESS | @nn_vpn [2]","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
   - {"name":"🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]","type":"vmess","server":"65.109.190.91.suupermeat.ir","port":2053,"cipher":"auto","uuid":"b4493eed-d316-45d5-addf-9857ffeba30e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]","type":"vmess","server":"movaghat.funfil.link","port":48252,"cipher":"auto","uuid":"ab65e694-c044-46cf-802e-301dc9998c41","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]'
       - '❔ XX | 🔒 TROJAN | @jiedianssr [3]'
       - '🇫🇷 FR | 🔒 TROJAN | @jiedianssr [5]'
       - '🇩🇪 DE | 🔒 SS | @jiedianssr [6]'
       - '🇳🇱 NL | 🔒 SS | @jiedianssr [7]'
+      - '🚩 CF | 🔓 VMESS | @nn_vpn [2]'
       - '🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]'
-      - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]'
 
   - name: 🌍 Global Media
     type: select

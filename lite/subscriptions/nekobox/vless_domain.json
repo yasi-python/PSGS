@@ -99,7 +99,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
+                "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -253,7 +253,9 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
+                "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -283,7 +285,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
+                "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -437,7 +439,9 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
-                "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
+                "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -844,7 +848,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @dalton_ping [5]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -3505,6 +3509,38 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
+            "server_port": 80,
+            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
+            "server_port": 80,
+            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
+                }
             }
         }
     ],

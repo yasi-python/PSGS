@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]",
-                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]"
+                "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
+                "🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]",
-                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]"
+                "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
+                "🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,6 +196,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
+            "type": "vmess",
+            "server": "movaghat.funfil.link",
+            "server_port": 48252,
+            "uuid": "ab65e694-c044-46cf-802e-301dc9998c41",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
             "type": "vmess",
             "server": "sv20.warzone1.in",
@@ -203,20 +214,27 @@
             "alter_id": 0
         },
         {
+            "tag": "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]",
             "type": "vmess",
             "server": "65.109.190.91.suupermeat.ir",
             "server_port": 2053,
             "uuid": "b4493eed-d316-45d5-addf-9857ffeba30e",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]",
-            "type": "vmess",
-            "server": "movaghat.funfil.link",
-            "server_port": 48252,
-            "uuid": "ab65e694-c044-46cf-802e-301dc9998c41",
             "security": "auto",
             "alter_id": 0
         }
