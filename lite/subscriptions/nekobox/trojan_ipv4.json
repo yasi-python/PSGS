@@ -83,7 +83,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -103,7 +104,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -248,18 +250,39 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "104.18.71.140",
+            "server": "151.101.3.10",
+            "server_port": 80,
+            "password": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "151.101.3.10"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "198.41.220.2",
             "server_port": 443,
-            "password": "WOeXShhJpL",
+            "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
             "tls": {
                 "enabled": true,
-                "server_name": "09jzus.zdzdzd.xyz",
+                "server_name": "jobscareerfortoday.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "jobscareerfortoday.com"
                 }
             }
         },
