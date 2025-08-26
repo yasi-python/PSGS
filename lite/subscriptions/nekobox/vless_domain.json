@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -91,7 +93,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
+                "❔ XX | 🔓 VLESS | @config_proxy [52]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -156,7 +158,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [31]",
-                "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
+                "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [8]",
                 "🚩 CF | 🔓 VLESS | @lakvpn1 [6]",
                 "🇫🇮 FI | 🔓 VLESS | @lakvpn1 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @lax_vpn [1]",
@@ -267,6 +269,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -276,7 +280,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
+                "❔ XX | 🔓 VLESS | @config_proxy [52]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -341,7 +345,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [31]",
-                "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
+                "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [8]",
                 "🚩 CF | 🔓 VLESS | @lakvpn1 [6]",
                 "🇫🇮 FI | 🔓 VLESS | @lakvpn1 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @lax_vpn [1]",
@@ -576,6 +580,40 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "ssl1.komanserver.ir",
+            "server_port": 443,
+            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "am.komanserver.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
+            "server_port": 80,
+            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ai_duet [9]",
             "type": "vless",
             "server": "141.9",
@@ -723,20 +761,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "sss48716.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
+            "server": "jetafn.hpcdn.info",
+            "server_port": 80,
+            "uuid": "230985db-22d2-4b47-ab6b-b4a3f36253b1",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss48716.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/16156/wsMMad",
+                "headers": {
+                    "Host": "jetafn.hpcdn.info"
                 }
             }
         },
@@ -1830,7 +1866,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @kurdistan_vpn_perfectt [8]",
             "type": "vless",
             "server": "informed-location.seotoolsforyou.co.uk",
             "server_port": 80,

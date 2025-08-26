@@ -24,13 +24,8 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]","type":"vmess","server":"movaghat.funfil.link","port":48252,"cipher":"auto","uuid":"ab65e694-c044-46cf-802e-301dc9998c41","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [56]","type":"vmess","server":"216.173.69.250","port":8443,"cipher":"auto","uuid":"91382092-2330-455b-8a1c-9c129cfe661a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [59]","type":"vmess","server":"62.146.235.193","port":28011,"cipher":"auto","uuid":"cfc5a87f-3c13-4e25-b556-176cdd6b5c6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62]","type":"vmess","server":"94.136.185.230","port":10534,"cipher":"auto","uuid":"b01c7ef9-33ec-41f6-bfbf-77ddc4d21649","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63]","type":"vmess","server":"91.99.185.216","port":20086,"cipher":"auto","uuid":"7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66]","type":"vmess","server":"15.204.234.200","port":41100,"cipher":"auto","uuid":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🚩 CF | 🔓 VMESS | @nn_vpn [2]","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
-  - {"name":"🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]","type":"vmess","server":"65.109.190.91.suupermeat.ir","port":2053,"cipher":"auto","uuid":"b4493eed-d316-45d5-addf-9857ffeba30e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]","type":"vmess","server":"65.109.190.91.suupermeat.ir","port":2053,"cipher":"auto","uuid":"b4493eed-d316-45d5-addf-9857ffeba30e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,13 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]'
-      - '🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [56]'
-      - '🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [59]'
-      - '🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62]'
-      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66]'
       - '🚩 CF | 🔓 VMESS | @nn_vpn [2]'
-      - '🇫🇮 FI | 🔓 VMESS | @proxystore11 [7]'
+      - '🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]'
 
   - name: 🌍 Global Media
     type: select
