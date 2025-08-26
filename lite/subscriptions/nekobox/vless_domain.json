@@ -91,7 +91,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -100,6 +99,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
+                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -198,7 +198,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -275,7 +275,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -284,6 +283,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
+                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -382,7 +382,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -721,31 +721,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
-            "type": "vless",
-            "server": "edt-f5k.pages.dev",
-            "server_port": 443,
-            "uuid": "98371613-b71d-4185-9e8a-eb7ba73373b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "edt-f5k.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "edt-f5k.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
             "type": "vless",
             "server": "nv111.momdping.com",
@@ -865,6 +840,31 @@
                 "path": "/Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry?ed=2048",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @dalton_ping [5]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 8443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "F237qFxLw0.LiRa0Xc8.InFo",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "F237qFxLw0.LiRa0Xc8.InFo"
                 }
             }
         },
@@ -2486,7 +2486,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+            "tag": "🚩 CF | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
             "type": "vless",
             "server": "Www.speedtest.net",
             "server_port": 2095,

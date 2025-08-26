@@ -83,13 +83,13 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -108,13 +108,13 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -258,29 +258,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "104.17.207.36",
-            "server_port": 443,
-            "password": "bIa-DailY_cOnFIgs",
-            "tls": {
-                "enabled": true,
-                "server_name": "kanale-daily-configs.blackoutconnection.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/TELEGRAM:@Daily_Configs?ed=2560",
-                "headers": {
-                    "Host": "kanale-daily-configs.blackoutconnection.ir"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -376,6 +353,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+            "type": "trojan",
+            "server": "63.176.217.80",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
