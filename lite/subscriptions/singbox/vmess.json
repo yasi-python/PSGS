@@ -98,9 +98,11 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [14]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [16]",
-                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [11]",
+                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
+                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [12]",
                 "🇳🇱 NL | 🔓 VMESS | @khoneproxy [13]",
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
@@ -115,13 +117,13 @@
                 "🇳🇿 NZ | 🔓 VMESS | @oonfig [4]",
                 "🚩 CF | 🔒 VMESS | @proxie [16]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
-                "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
+                "🇪🇸 ES | 🔓 VMESS | @proxy_v2box [15]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -146,9 +148,11 @@
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [14]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [16]",
-                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [11]",
+                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
+                "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [12]",
                 "🇳🇱 NL | 🔓 VMESS | @khoneproxy [13]",
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
@@ -163,13 +167,13 @@
                 "🇳🇿 NZ | 🔓 VMESS | @oonfig [4]",
                 "🚩 CF | 🔒 VMESS | @proxie [16]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
-                "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
+                "🇪🇸 ES | 🔓 VMESS | @proxy_v2box [15]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -355,6 +359,31 @@
             "alter_id": 0
         },
         {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
+            "type": "vmess",
+            "server": "38.14.107.226",
+            "server_port": 38003,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/path/340434130032",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [14]",
             "type": "vmess",
             "server": "47.79.41.14",
@@ -387,7 +416,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [11]",
+            "tag": "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [10]",
             "type": "vmess",
             "server": "cloudgetservice.mcloudservice.site",
             "server_port": 443,
@@ -406,6 +435,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/linvkws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @iran_mehr_vpn [12]",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e2fb28b8-a457-4bd2-801e-56fdcccbd88e",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvkwsss",
                 "headers": {
                     "Host": ""
                 }
@@ -606,7 +660,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @proxy_v2box [15]",
+            "tag": "🇪🇸 ES | 🔓 VMESS | @proxy_v2box [15]",
             "type": "vmess",
             "server": "s3.ipyar.org",
             "server_port": 32020,
@@ -699,16 +753,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "jrghxqxyoy",
+            "server": "25.26.27.210",
+            "server_port": 8880,
+            "uuid": "d9369b77-531e-31f4-a2a2-2273db2825a2",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/download/cdn",
+                "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
                 "headers": {
                     "Host": ""
                 }
