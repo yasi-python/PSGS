@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @config_proxy [46]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
+                "🇳🇱 NL | 🔓 VMESS | @config_proxy [56]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -123,7 +122,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇦🇹 AT | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -142,8 +142,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @config_proxy [46]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
+                "🇳🇱 NL | 🔓 VMESS | @config_proxy [56]",
                 "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
@@ -173,7 +172,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇦🇹 AT | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇮🇷 IR | 🔓 VMESS | @v2ray_sub [6]",
                 "🇺🇸 US | 🔓 VMESS | @v2rayng_1378 [3]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [4]",
@@ -268,45 +268,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [46]",
+            "tag": "🇳🇱 NL | 🔓 VMESS | @config_proxy [56]",
             "type": "vmess",
-            "server": "orvps2.horsenma.net",
-            "server_port": 8443,
-            "uuid": "57e595e6-ef54-4e0d-b8df-e96db9612b99",
+            "server": "ee1.daallygold.com",
+            "server_port": 52262,
+            "uuid": "af5a0d0c-c898-4a51-ba6a-47179d483e41",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "orvps2.horsenma.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/horsen",
-                "headers": {
-                    "Host": "orvps2.horsenma.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [47]",
-            "type": "vmess",
-            "server": "cdn.anymath.ir",
-            "server_port": 80,
-            "uuid": "a222c4e3-645a-4051-b62f-ddec1b2ef8e9",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/@CHANGE_IP1",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇺🇸 US | 🔒 VMESS | @fnet00 [2]",
@@ -744,16 +712,34 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
+            "tag": "🇦🇹 AT | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net",
-            "server_port": 8080,
-            "uuid": "8f7cb770-1305-11ee-b107-f23c91cfbbc9",
+            "server": "45.138.74.173",
+            "server_port": 13700,
+            "uuid": "94f9b111-6777-4794-ac4d-d1774a0c425f",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/linkws",
                 "headers": {
                     "Host": ""
                 }
