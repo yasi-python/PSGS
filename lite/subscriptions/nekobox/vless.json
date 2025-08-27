@@ -80,14 +80,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "❔ XX | 🔓 VLESS | @red2ray [14]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "❔ XX | 🔒 VLESS | @Fr33C0nfig [37]",
-                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [38]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]"
+                "❔ XX | 🔓 VLESS | @red2ray [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,14 +97,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "❔ XX | 🔓 VLESS | @red2ray [14]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "❔ XX | 🔒 VLESS | @Fr33C0nfig [37]",
-                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [38]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]"
+                "❔ XX | 🔓 VLESS | @red2ray [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,6 +194,77 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+            "type": "vless",
+            "server": "94.182.142.28",
+            "server_port": 2020,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+            "type": "vless",
+            "server": "de.multiapvps.ir",
+            "server_port": 4433,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+            "type": "vless",
+            "server": "usa.multiapvps.ir",
+            "server_port": 4434,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "fearless-change.oneeat.co",
+            "server_port": 80,
+            "uuid": "b055036a-2d81-4d46-ab18-4e1898b58cec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fearless-change.oneeat.co"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @deragv2ray [1]",
             "type": "vless",
             "server": "join-bede.deragv2ray.net",
@@ -260,95 +329,6 @@
                     "Host": "freeiranwebvip.ddns.net"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "freexxx.ndeso.web.id",
-            "server_port": 443,
-            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "freexxx.ndeso.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Free-CF-Proxy-AT24",
-                "headers": {
-                    "Host": "freexxx.ndeso.web.id"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @Fr33C0nfig [37]",
-            "type": "vless",
-            "server": "de.multiapvps.ir",
-            "server_port": 4433,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [38]",
-            "type": "vless",
-            "server": "usa.multiapvps.ir",
-            "server_port": 4434,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]",
-            "type": "vless",
-            "server": "94.182.142.28",
-            "server_port": 2020,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
