@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70]","type":"vmess","server":"195.211.99.143","port":8443,"cipher":"auto","uuid":"2e514a36-7ae8-4b6a-9e36-9c20e7228824","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"51.79.102.253"}}}
   - {"name":"🇺🇸 US | 🔒 VMESS | @fnet00 [2]","type":"vmess","server":"v2ray.codefyinc.com","port":443,"cipher":"auto","uuid":"2c981164-9b93-4bca-94ff-b78d3f8498d7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"Host":"v2ray.codefyinc.com"}}}
   - {"name":"🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]","type":"vmess","server":"5.182.36.199","port":6616,"cipher":"auto","uuid":"003f1279-c55d-427c-8327-9f71f8b1cc0b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]","type":"vmess","server":"163.172.220.71","port":6616,"cipher":"auto","uuid":"003f1279-c55d-427c-8327-9f71f8b1cc0b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
@@ -45,7 +45,7 @@ proxies:
   - {"name":"🇨🇳 CN | 🔓 VMESS | @mftizi [20]","type":"vmess","server":"183.236.51.38","port":49302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇿 NZ | 🔓 VMESS | @oonfig [4]","type":"vmess","server":"103.208.86.100","port":17264,"cipher":"auto","uuid":"0ba75e5e-46be-48bb-9107-4c4acf11705a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @proxse11 [1]","type":"vmess","server":"188.213.67.214","port":20883,"cipher":"auto","uuid":"1a5f5c30-daf9-46c6-96da-4de4b42bef85","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [16]","type":"vmess","server":"31.56.146.186","port":38040,"cipher":"auto","uuid":"a8f9d5f9-7cad-40ff-9fee-835c6dd9bce4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [15]","type":"vmess","server":"31.56.146.186","port":38040,"cipher":"auto","uuid":"a8f9d5f9-7cad-40ff-9fee-835c6dd9bce4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔓 VMESS | @pydriclub [4]","type":"vmess","server":"mtnn.pydarshop.ir","port":8880,"cipher":"auto","uuid":"30793c95-6a82-40fd-9af3-6130ac49835b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🚩 CF | 🔓 VMESS | @red2ray [12]","type":"vmess","server":"zula.ir","port":80,"cipher":"auto","uuid":"3fd9190e-a132-42ca-a33b-4a37b4b3e0cd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"pl2-vmess.sshmax.xyz"}}}
   - {"name":"🚩 CF | 🔒 VMESS | @v2ray4win [6]","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"auto","uuid":"a4df089f-3c1c-4cf7-9a5f-ab6d2212136c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/appsvws","headers":{"Host":"v2-kiava.kiava.workers.dev"}}}
@@ -68,7 +68,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70]'
+      - '🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]'
       - '🇺🇸 US | 🔒 VMESS | @fnet00 [2]'
       - '🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]'
       - '🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]'
@@ -90,7 +90,7 @@ proxy-groups:
       - '🇨🇳 CN | 🔓 VMESS | @mftizi [20]'
       - '🇳🇿 NZ | 🔓 VMESS | @oonfig [4]'
       - '🇮🇷 IR | 🔓 VMESS | @proxse11 [1]'
-      - '🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [16]'
+      - '🇫🇷 FR | 🔓 VMESS | @proxy_mtproto_vpns_free [15]'
       - '❔ XX | 🔓 VMESS | @pydriclub [4]'
       - '🚩 CF | 🔓 VMESS | @red2ray [12]'
       - '🚩 CF | 🔒 VMESS | @v2ray4win [6]'
