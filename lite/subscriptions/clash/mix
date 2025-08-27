@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [68]","type":"ss","server":"45.87.175.183","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [69]","type":"ss","server":"45.87.175.167","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR | 🔒 SS | @NamiraConfigs [70]","type":"ss","server":"77.105.166.12","port":8594,"password":"TRtfV6ruBpDRxAUyijftvD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 TH | 🔒 SS | @NamiraConfigs [69]","type":"ss","server":"119.59.98.58","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🚩 CF | 🔓 VMESS | @red2ray [12]","type":"vmess","server":"zula.ir","port":80,"cipher":"auto","uuid":"3fd9190e-a132-42ca-a33b-4a37b4b3e0cd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"pl2-vmess.sshmax.xyz"}}}
 
 proxy-groups:
@@ -40,9 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [68]'
-      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [69]'
-      - '🇫🇷 FR | 🔒 SS | @NamiraConfigs [70]'
+      - '🇹🇭 TH | 🔒 SS | @NamiraConfigs [69]'
       - '🚩 CF | 🔓 VMESS | @red2ray [12]'
 
   - name: 🌍 Global Media
