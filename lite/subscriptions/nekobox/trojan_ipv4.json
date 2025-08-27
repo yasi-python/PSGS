@@ -83,12 +83,13 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]"
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,12 +103,13 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]"
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -246,14 +248,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "3.147.17.142",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "server": "63.35.47.160",
+            "server_port": 443,
+            "password": "3648425794742788096",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "cosmic-mammal.squid592.motorcycles",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -341,6 +343,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+            "type": "trojan",
+            "server": "63.176.42.107",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
