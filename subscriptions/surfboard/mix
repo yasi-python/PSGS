@@ -15,12 +15,11 @@ DIRECT = direct
 🇩🇪 DE | 🔒 SS | @jiedianssr [5] = ss, 138.124.115.157, 1080, encrypt-method = chacha20-ietf-poly1305, password = M-nffO40KlclwbCX9CV1DQ
 🇳🇱 NL | 🔒 SS | @jiedianssr [6] = ss, 194.87.216.121, 443, encrypt-method = chacha20-ietf-poly1305, password = piv97XS1Cval86vfwHPD5j
 🚩 CF | 🔓 VMESS | @nn_vpn [2] = vmess, www.speedtest.net, 80, username = c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c, ws = true, tls = false, ws-path = /, ws-headers = Host:"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."
-🇫🇮 FI | 🔓 VMESS | @proxystore11 [3] = vmess, 65.109.190.91.suupermeat.ir, 2053, username = b4493eed-d316-45d5-addf-9857ffeba30e, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4], 🇩🇪 DE | 🔒 SS | @jiedianssr [5], 🇳🇱 NL | 🔒 SS | @jiedianssr [6], 🚩 CF | 🔓 VMESS | @nn_vpn [2]
 
 [Rule]
 GEOIP,IR,DIRECT
