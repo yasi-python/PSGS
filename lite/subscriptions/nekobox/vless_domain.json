@@ -91,6 +91,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [120]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -99,7 +100,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🚩 CF | 🔒 VLESS | @dalton_ping [4]",
+                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [4]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -195,7 +196,6 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -277,6 +277,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [120]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configtrapi [27]",
@@ -285,7 +286,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @confingv2raay [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
-                "🚩 CF | 🔒 VLESS | @dalton_ping [4]",
+                "🇬🇧 GB | 🔒 VLESS | @dalton_ping [4]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
@@ -381,7 +382,6 @@
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [3]",
                 "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
@@ -725,6 +725,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [120]",
+            "type": "vless",
+            "server": "app-stg.gopay.co.id.servpn.my.id",
+            "server_port": 443,
+            "uuid": "39ca66b9-a34c-4031-a6ce-8846f75d8cb9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app-stg.gopay.co.id.servpn.my.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@Hddify---@Hddify---@Hddify---@Hddify---@Hddify",
+                "headers": {
+                    "Host": "app-stg.gopay.co.id.servpn.my.id"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
             "type": "vless",
             "server": "nv111.momdping.com",
@@ -848,7 +873,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @dalton_ping [4]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @dalton_ping [4]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -2440,31 +2465,6 @@
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "KlIi9Yc11L.lIrA0xC8.iNfO",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "KlIi9Yc11L.lIrA0xC8.iNfO"
-                }
-            }
         },
         {
             "tag": "🇮🇷 IR | 🔒 VLESS | @proxycrone [13]",
