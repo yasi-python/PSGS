@@ -91,9 +91,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
                 "🇺🇸 US | 🔓 VLESS | @jiedianssr [8]",
@@ -119,9 +119,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
                 "🇺🇸 US | 🔓 VLESS | @jiedianssr [8]",
@@ -402,7 +402,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "45.88.183.158",
+            "server_port": 44629,
+            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
             "server": "172.234.221.94",
             "server_port": 56224,
@@ -411,41 +420,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "91.107.178.242",
-            "server_port": 20087,
-            "uuid": "f2c44225-736e-45a4-9cfb-490fa34e15a0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "89.44.197.77",
-            "server_port": 15946,
-            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "89.44.197.77"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "104.21.36.57",
+            "server": "162.159.1.33",
             "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
+            "uuid": "d643b9ca-57b7-4cd5-84b8-a77f26b6346e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
+                "server_name": "rayan-fg-1.narges.filegear-sg.me",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -454,9 +438,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "mirror.fullmargintraders.com"
+                    "Host": "rayan-fg-1.narges.filegear-sg.me"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "190.93.246.246",
+            "server_port": 8443,
+            "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bitget1.asdasd.click",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "bitget1.asdasd.click"
                 }
             }
         },

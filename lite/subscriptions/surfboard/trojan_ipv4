@@ -12,7 +12,6 @@ DIRECT = direct
 🇩🇪 DE | 🔒 TROJAN | @directvpn [13] = trojan, 18.184.155.163, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇩🇪 DE | 🔒 TROJAN | @directvpn [14] = trojan, 52.29.121.204, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇩🇪 DE | 🔒 TROJAN | @directvpn [15] = trojan, 35.159.254.111, 22223, password = telegram-id-directvpn, skip-cert-verify = false
-🇸🇪 SE | 🔓 TROJAN | @hope_net [19] = trojan, 65.20.115.19, 443, password = wkmY1R4EcP, skip-cert-verify = true
 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11] = trojan, 104.149.155.13, 443, password = 79c935c0-27dc-4383-b307-dcac1b8e5509, skip-cert-verify = false
 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13] = trojan, 176.32.39.29, 443, password = 8OXD5VVt8s, skip-cert-verify = false
 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1] = trojan, 146.190.87.238, 443, password = oZAugtgF5T, skip-cert-verify = false
@@ -21,9 +20,9 @@ DIRECT = direct
 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12] = trojan, 72.167.243.194, 2096, password = ttfang, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇸🇪 SE | 🔓 TROJAN | @hope_net [19], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇸🇪 SE | 🔓 TROJAN | @hope_net [19], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇸🇪 SE | 🔓 TROJAN | @hope_net [19], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @directvpn [13], 🇩🇪 DE | 🔒 TROJAN | @directvpn [14], 🇩🇪 DE | 🔒 TROJAN | @directvpn [15], 🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11], 🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13], 🇸🇬 SG | 🔒 TROJAN | @mpmehi [1], 🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]
 
 [Rule]
 GEOIP,IR,DIRECT
