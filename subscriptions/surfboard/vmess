@@ -10,13 +10,21 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46] = vmess, movaghat.funfil.link, 48252, username = ab65e694-c044-46cf-802e-301dc9998c41, ws = false, tls = false
+🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [56] = vmess, 45.67.230.79, 11052, username = 314185f7-931d-4656-922d-0857e7afd224, ws = false, tls = false
+🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [57] = vmess, 45.67.230.79, 11052, username = 314185f7-931d-4656-922d-0857e7afd224, ws = false, tls = false
+🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [59] = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"51.79.102.253"
+🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [60] = vmess, 216.173.69.250, 8443, username = 91382092-2330-455b-8a1c-9c129cfe661a, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61] = vmess, panel3.ipyar.org, 32017, username = c0ccdeb9-784c-4d67-b904-20dcaac9902a, ws = false, tls = false
+🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62] = vmess, 94.136.185.230, 10534, username = b01c7ef9-33ec-41f6-bfbf-77ddc4d21649, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63] = vmess, 91.99.185.216, 20086, username = 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66] = vmess, 15.204.234.200, 41100, username = c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, ws = false, tls = false
 🚩 CF | 🔓 VMESS | @nn_vpn [2] = vmess, www.speedtest.net, 80, username = c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c, ws = true, tls = false, ws-path = /, ws-headers = Host:"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."
-🇫🇮 FI | 🔓 VMESS | @proxystore11 [5] = vmess, 65.109.190.91.suupermeat.ir, 2053, username = b4493eed-d316-45d5-addf-9857ffeba30e, ws = false, tls = false
+🇫🇮 FI | 🔓 VMESS | @proxystore11 [3] = vmess, 65.109.190.91.suupermeat.ir, 2053, username = b4493eed-d316-45d5-addf-9857ffeba30e, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [5]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [56], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [59], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [56], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [59], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [56], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [59], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [62], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [63], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [66], 🚩 CF | 🔓 VMESS | @nn_vpn [2], 🇫🇮 FI | 🔓 VMESS | @proxystore11 [3]
 
 [Rule]
 GEOIP,IR,DIRECT

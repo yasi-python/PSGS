@@ -91,10 +91,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
@@ -128,13 +124,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [1]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [2]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [6]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [5]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [7]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [9]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [10]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [11]"
+                "🚩 CF | 🔒 VLESS | @proxystore11 [8]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -156,10 +150,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
@@ -193,13 +183,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [1]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [2]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [6]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [5]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [7]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [9]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [10]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [11]"
+                "🚩 CF | 🔒 VLESS | @proxystore11 [8]",
+                "🚩 CF | 🔒 VLESS | @proxystore11 [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -472,63 +460,6 @@
             "server": "94.182.142.28",
             "server_port": 2020,
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "141.95.52.109",
-            "server_port": 80,
-            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "141.95.52.109"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "178.162.245.230",
-            "server_port": 2052,
-            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "178.162.245.230"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "57.129.132.223"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "45.88.183.164",
-            "server_port": 49355,
-            "uuid": "ef246c6f-6e7d-4286-af33-5485544b0ba8",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1074,49 +1005,6 @@
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
-            "uuid": "24e0ed76-ae74-4318-9f04-09774dff0df7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "prx11.proxystore11.news",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/prx11",
-                "headers": {
-                    "Host": "prx11.proxystore11.news"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [2]",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 8443,
-            "uuid": "d8be0f7f-1052-4d9d-990a-c563fe12ddc4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "prx11.proxystore11.news",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 2087,
             "uuid": "0ae30c98-5d21-43e4-91d6-f57916195961",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1138,7 +1026,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
@@ -1163,7 +1051,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [7]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [5]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
@@ -1188,7 +1076,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [9]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [7]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
@@ -1213,7 +1101,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [10]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [8]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
@@ -1238,7 +1126,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [11]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [9]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 8443,
