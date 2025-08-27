@@ -91,11 +91,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
+                "🇺🇸 US | 🔓 VLESS | @jiedianssr [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]"
             ],
             "tag": "proxy",
@@ -118,11 +116,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
                 "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
+                "🇺🇸 US | 🔓 VLESS | @jiedianssr [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]"
             ],
             "tag": "auto",
@@ -400,7 +396,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "141.95.52.109",
             "server_port": 80,
@@ -416,47 +412,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "178.162.245.230",
-            "server_port": 2052,
-            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "178.162.245.230"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-            "type": "vless",
-            "server": "172.64.88.159",
-            "server_port": 80,
-            "uuid": "63d7714a-2ac5-46ac-93be-96cea00300f8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@V2ray_Alpha/?ed=2560",
-                "headers": {
-                    "Host": "172.64.88.159"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "179.61.219.170",
-            "server_port": 22934,
-            "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇨🇿 CZ | 🔓 VLESS | @jiedianssr [3]",
             "type": "vless",
             "server": "14.102.228.75",
@@ -469,6 +424,22 @@
                 "path": "/vless/",
                 "headers": {
                     "Host": "ov-canada1.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @jiedianssr [8]",
+            "type": "vless",
+            "server": "63.141.128.13",
+            "server_port": 8080,
+            "uuid": "094af2f8-b421-4d0c-a96c-00625147a30c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "c.jOin.zEdMoDeOn.oNl."
                 }
             }
         },
