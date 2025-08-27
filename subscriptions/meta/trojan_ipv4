@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🚩 CF | 🔓 TROJAN | @NamiraConfigs [56]","type":"trojan","server":"141.101.120.10","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]","type":"trojan","server":"198.23.229.250","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🚩 CF | 🔓 TROJAN | @NamiraConfigs [56]'
+      - '🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]'
       - '🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]'
 
   - name: 🌍 Global Media

@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔒 TROJAN | @jiedianssr [2]","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
+  - {"name":"🚩 CF | 🔓 TROJAN | @NamiraConfigs [56]","type":"trojan","server":"141.101.120.10","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]","type":"trojan","server":"198.23.229.250","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
+  - {"name":"❔ XX | 🔒 TROJAN | @jiedianssr [2]","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔒 TROJAN | @jiedianssr [2]'
+      - '🚩 CF | 🔓 TROJAN | @NamiraConfigs [56]'
+      - '🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]'
       - '🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]'
+      - '❔ XX | 🔒 TROJAN | @jiedianssr [2]'
 
   - name: 🌍 Global Media
     type: select
