@@ -80,14 +80,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [45]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -127,14 +128,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [45]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -254,6 +256,24 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "edf78ca5-7ccb-44d4-88e6-b5bfb00499f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -349,6 +369,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [45]",
+            "type": "vless",
+            "server": "5.161.151.225",
+            "server_port": 6009,
+            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "adtarget.com.tr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
+                    "short_id": "dc5db021ae2038a9"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
             "type": "vless",
             "server": "91.99.16.244",
@@ -368,29 +411,6 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
                 }
             }
         },
