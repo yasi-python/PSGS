@@ -9,14 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57] = trojan, ca-full.privateip.net, 443, password = 99c63d3a-4499-4a5b-aad6-826a6851f304, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @jiedianssr [2] = trojan, e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, 15229, password = bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, skip-cert-verify = true
 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4] = trojan, 15.236.173.146, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
-PSG-AUTO = url-test, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
-PSG-FALLBACK = fallback, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57], ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
+PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @jiedianssr [2], 🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]
 
 [Rule]
 GEOIP,IR,DIRECT
