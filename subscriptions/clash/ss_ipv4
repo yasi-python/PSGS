@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [55]","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇭 CH | 🔒 SS | @NamiraConfigs [56]","type":"ss","server":"204.136.10.115","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🔒 SS | @jiedianssr [5]","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @jiedianssr [6]","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
 
@@ -38,6 +40,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [55]'
+      - '🇨🇭 CH | 🔒 SS | @NamiraConfigs [56]'
       - '🇩🇪 DE | 🔒 SS | @jiedianssr [5]'
       - '🇳🇱 NL | 🔒 SS | @jiedianssr [6]'
 

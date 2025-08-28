@@ -24,9 +24,10 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]","type":"vmess","server":"movaghat.funfil.link","port":48252,"cipher":"auto","uuid":"ab65e694-c044-46cf-802e-301dc9998c41","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [68]","type":"vmess","server":"62.146.235.193","port":28011,"cipher":"auto","uuid":"cfc5a87f-3c13-4e25-b556-176cdd6b5c6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]","type":"vmess","server":"195.211.99.143","port":8443,"cipher":"auto","uuid":"2e514a36-7ae8-4b6a-9e36-9c20e7228824","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [55]","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇭 CH | 🔒 SS | @NamiraConfigs [56]","type":"ss","server":"204.136.10.115","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57]","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [58]","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
   - {"name":"❔ XX | 🔒 TROJAN | @jiedianssr [2]","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇩🇪 DE | 🔒 SS | @jiedianssr [5]","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
@@ -46,9 +47,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]'
-      - '🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [68]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]'
-      - '🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [55]'
+      - '🇨🇭 CH | 🔒 SS | @NamiraConfigs [56]'
+      - '🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [57]'
+      - '🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [58]'
       - '❔ XX | 🔒 TROJAN | @jiedianssr [2]'
       - '🇫🇷 FR | 🔒 TROJAN | @jiedianssr [4]'
       - '🇩🇪 DE | 🔒 SS | @jiedianssr [5]'
