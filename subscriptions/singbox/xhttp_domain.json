@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
+                "🇺🇦 UA | 🔒 VLESS | @config_proxy [42]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -124,12 +125,12 @@
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [3]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [6]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [5]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [1]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [6]",
@@ -152,6 +153,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
+                "🇺🇦 UA | 🔒 VLESS | @config_proxy [42]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -183,12 +185,12 @@
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [3]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [6]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [5]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [1]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [6]",
@@ -293,6 +295,29 @@
             "uuid": "7fa08b3d-86d8-4b14-92b3-4c56a83f027d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇦 UA | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "ukraine.marzxox.shop",
+            "server_port": 210,
+            "uuid": "5dc60071-2b66-4d01-94d0-5d28c46aa258",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -634,7 +659,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [5]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -643,7 +668,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [4]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -652,7 +677,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -661,7 +686,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [6]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -670,7 +695,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [7]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -679,7 +704,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
