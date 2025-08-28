@@ -92,6 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]"
             ],
             "tag": "proxy",
@@ -103,6 +106,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔓 VMESS | @red2ray [12]"
             ],
             "tag": "auto",
@@ -188,6 +194,40 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [68]",
+            "type": "vmess",
+            "server": "62.146.235.193",
+            "server_port": 28011,
+            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
+            "type": "vmess",
+            "server": "195.211.99.143",
+            "server_port": 8443,
+            "uuid": "2e514a36-7ae8-4b6a-9e36-9c20e7228824",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
+            "type": "vmess",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔓 VMESS | @red2ray [12]",
