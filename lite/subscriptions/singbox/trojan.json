@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🇭🇰 HK | 🔒 TROJAN | @ipv2rayng [17]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -111,7 +112,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
@@ -128,6 +129,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🇭🇰 HK | 🔒 TROJAN | @ipv2rayng [17]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -146,7 +148,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
@@ -248,6 +250,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @ipv2rayng [17]",
+            "type": "trojan",
+            "server": "updatess.sub-zrj.com",
+            "server_port": 321,
+            "password": "2f653ecd-c290-451e-a848-f8f525bc5a21",
+            "tls": {
+                "enabled": true,
+                "server_name": "data.sub-zrj.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -586,18 +604,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [19]",
             "type": "trojan",
-            "server": "18.157.139.35",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "server": "104.21.48.61",
+            "server_port": 443,
+            "password": "auto",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "nameless-term-9c25.vpnconnect202020.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nameless-term-9c25.vpnconnect202020.workers.dev"
                 }
             }
         },
