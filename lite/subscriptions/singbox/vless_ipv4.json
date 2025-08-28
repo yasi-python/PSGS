@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -201,47 +197,6 @@
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "104.24.150.187",
-            "server_port": 2087,
-            "uuid": "cbfa8a4f-ca68-45b2-80b7-dbdf4d00dc95",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless1.chuyangz1.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vless1.chuyangz1.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "104.16.178.238",
-            "server_port": 80,
-            "uuid": "d4eddaf9-a660-4905-b835-cad98677b380",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.16.178.238"
-                }
-            }
         }
     ],
     "route": {
