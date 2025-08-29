@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -102,8 +103,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [18]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
-                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -136,6 +136,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -157,8 +158,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [18]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
-                "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -294,6 +294,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "157.180.91.49",
+            "server_port": 2053,
+            "uuid": "859035ad-7cda-4bbc-ae7d-f4d4c0f1a091",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xwF90Z17AR1-ORLgy59XonaFMW_ZJaYDQ8V7Sd8ZYRY",
+                    "short_id": "402522a1ec224c96"
+                }
             }
         },
         {
@@ -800,7 +823,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
             "type": "vless",
             "server": "146.19.90.2",
             "server_port": 443,
@@ -819,29 +842,6 @@
                     "enabled": true,
                     "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
-            "type": "vless",
-            "server": "194.55.235.202",
-            "server_port": 443,
-            "uuid": "5a519368-9dbb-4ab4-8967-a30fb39a8881",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mega.io",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2KRLht-me2Je8FrYcUUv8OJ3_xoT8KMCurzwfDZcvCk",
-                    "short_id": "2c709739f487"
                 }
             }
         },
