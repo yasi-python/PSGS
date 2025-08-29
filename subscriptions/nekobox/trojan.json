@@ -131,9 +131,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [17]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -168,6 +169,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [10]",
                 "🇬🇧 GB | 🔒 TROJAN | @v2aryng_vpn [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [18]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -248,9 +250,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [17]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -285,6 +288,7 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2aryng_vpn [10]",
                 "🇬🇧 GB | 🔒 TROJAN | @v2aryng_vpn [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [18]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -1271,30 +1275,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "141.101.114.2",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "fcspring.ggff.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tr?ed",
-                "headers": {
-                    "Host": "fcspring.ggff.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [8]",
             "type": "trojan",
             "server": "3.120.0.132",
             "server_port": 22222,
@@ -1310,7 +1291,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [10]",
             "type": "trojan",
             "server": "104.20.20.243",
             "server_port": 443,
@@ -1329,6 +1310,29 @@
                 "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
                 "headers": {
                     "Host": "b96ef9ae.trojanfree-76s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @hope_net [17]",
+            "type": "trojan",
+            "server": "63.176.182.62",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "63.176.182.62",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1922,6 +1926,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "xvqn.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @v2raych [18]",
+            "type": "trojan",
+            "server": "104.17.49.240",
+            "server_port": 443,
+            "password": "WOeXShhJpL",
+            "tls": {
+                "enabled": true,
+                "server_name": "09jzus.zdzdzd.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
