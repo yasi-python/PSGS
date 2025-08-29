@@ -92,12 +92,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [50]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [53]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [54]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [53]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "🇭🇰 HK | 🔒 TROJAN | @ipv2rayng [17]",
@@ -106,7 +108,6 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [10]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [3]",
@@ -137,12 +138,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [50]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [53]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [54]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [53]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "🇭🇰 HK | 🔒 TROJAN | @ipv2rayng [17]",
@@ -151,7 +154,6 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [10]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [3]",
@@ -254,6 +256,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]",
+            "type": "trojan",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-full.privateip.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -361,6 +379,26 @@
                 "headers": {
                     "Host": "asia.artunnel57.host"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [53]",
+            "type": "trojan",
+            "server": "maradona_vpn.history-paint.art",
+            "server_port": 443,
+            "password": "Maradona_vpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "teo.history-paint.art",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc20337"
             }
         },
         {
@@ -505,26 +543,6 @@
                 "headers": {
                     "Host": "teo.history-paint.art"
                 }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
             }
         },
         {
