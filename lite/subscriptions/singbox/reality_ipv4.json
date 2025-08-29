@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [30]",
                 "🇷🇺 RU | 🔒 VLESS | @falcunargo [8]",
@@ -116,7 +117,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇷🇺 RU | 🔒 VLESS | @netmellianti [19]",
+                "🇷🇺 RU | 🔒 VLESS | @netmellianti [18]",
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [20]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -149,6 +150,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [30]",
                 "🇷🇺 RU | 🔒 VLESS | @falcunargo [8]",
@@ -172,7 +174,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
-                "🇷🇺 RU | 🔒 VLESS | @netmellianti [19]",
+                "🇷🇺 RU | 🔒 VLESS | @netmellianti [18]",
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [20]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -304,6 +306,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "91.99.97.62",
+            "server_port": 51479,
+            "uuid": "19b32b55-1547-49db-9ef7-8ca21d580ce3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -856,7 +885,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @netmellianti [19]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @netmellianti [18]",
             "type": "vless",
             "server": "212.41.8.198",
             "server_port": 443,
