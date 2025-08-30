@@ -80,21 +80,22 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [44]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔓 VLESS | @lranonline_new [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @prrofile_purple [134]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
@@ -108,21 +109,22 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [44]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔓 VLESS | @lranonline_new [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @prrofile_purple [134]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
@@ -216,6 +218,31 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "[2606:4700:3030::ac43:cc16]",
+            "server_port": 443,
+            "uuid": "6bebd1fe-0ca7-49ac-b260-cc7829411d76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d73b1c6c-326c-e5ee-2140-02d2dcaead56.890602.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/2djYS10ScnKMvFHYv5l",
+                "headers": {
+                    "Host": "d73b1c6c-326c-e5ee-2140-02d2dcaead56.890602.xyz"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @deli_servers [2]",
             "type": "vless",
             "server": "[2a01:4f8:c012:81c0::1]",
@@ -240,6 +267,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "[2a12:5940:1527::2]",
+            "server_port": 443,
+            "uuid": "78d743e4-1519-4770-aa84-ca0d6de0cc80",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2a12:5940:1527::2]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -322,24 +367,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
-            "type": "vless",
-            "server": "[2a12:5940:1527::2]",
-            "server_port": 443,
-            "uuid": "78d743e4-1519-4770-aa84-ca0d6de0cc80",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a12:5940:1527::2]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
             "type": "vless",
             "server": "[2a01:4f9:c010:1ac8::1]",
@@ -406,6 +433,15 @@
             }
         },
         {
+            "tag": "❔ XX | 🔓 VLESS | @lranonline_new [6]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-304",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @parsashonam [3]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
@@ -429,15 +465,6 @@
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
             "uuid": "Parsashonam-303",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @parsashonam [15]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-304",
             "flow": "",
             "packet_encoding": "xudp"
         },
