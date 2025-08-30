@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
@@ -120,8 +119,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]"
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -132,7 +130,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
@@ -172,8 +169,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]"
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -260,29 +256,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "159.65.20.117",
-            "server_port": 80,
-            "uuid": "af49c00f-a53b-4888-ba00-d9d021631dc2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "orderup.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "apMp75KQjgaRWegaiPc_ufULi0B7Mz-oUnSCJU9hRmc",
-                    "short_id": "0c4e1fcb8576e1"
                 }
             }
         },
@@ -986,15 +959,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]",
-            "type": "vless",
-            "server": "146.75.123.82",
-            "server_port": 80,
-            "uuid": "694d192c-d8ef-44e8-a128-9a86abed7cd9",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

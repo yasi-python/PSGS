@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @bored_vpn [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -109,6 +108,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [1]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
@@ -151,7 +151,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @bored_vpn [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -167,6 +166,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [1]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
@@ -308,29 +308,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "159.65.20.117",
-            "server_port": 80,
-            "uuid": "af49c00f-a53b-4888-ba00-d9d021631dc2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "orderup.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "apMp75KQjgaRWegaiPc_ufULi0B7Mz-oUnSCJU9hRmc",
-                    "short_id": "0c4e1fcb8576e1"
-                }
             }
         },
         {
@@ -681,6 +658,29 @@
             "server": "46.62.128.241",
             "server_port": 8443,
             "uuid": "96be492b-3388-4693-be03-9caefe6dfff5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
+            "type": "vless",
+            "server": "78.47.216.178",
+            "server_port": 8443,
+            "uuid": "3668c58e-63f9-41d9-af93-ea4eaefde81b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
