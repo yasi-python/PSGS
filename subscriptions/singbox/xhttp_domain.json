@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [23]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -113,7 +113,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [42]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -123,7 +124,6 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [1]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [6]",
@@ -146,7 +146,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [23]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -166,7 +166,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [15]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [42]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -176,7 +177,6 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [1]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [6]",
@@ -283,13 +283,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @config_proxy [23]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
             "type": "vless",
-            "server": "filmnet.filimnet.com",
-            "server_port": 80,
-            "uuid": "f385a62a-bbc8-4406-be01-83019c67b083",
+            "server": "sss46544.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "72c0e2d6-638b-4a01-936e-50a40637f1cc",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss46544.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -477,13 +486,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "645360ac-4ffc-4504-85d2-807309a313c1",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [42]",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 8443,
+            "uuid": "42fdc328-a930-40c4-8051-822dac85323a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "prx11.proxystore11.news",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -623,24 +650,6 @@
                     "enabled": true,
                     "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
                     "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [3]",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 8443,
-            "uuid": "42fdc328-a930-40c4-8051-822dac85323a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "prx11.proxystore11.news",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
