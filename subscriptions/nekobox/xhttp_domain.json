@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [23]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -134,7 +135,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [23]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
@@ -275,27 +277,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [23]",
             "type": "vless",
-            "server": "tiklit.mechanictak.ir",
-            "server_port": 34070,
-            "uuid": "1ec3c918-c1fa-49e0-9ee6-6b6636c5399f",
-            "flow": "xtls-rprx-vision",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "sss25065.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SSEJ4zfhMZX4vG95Ir_v88RYw7fQTqmsGGa89QgxuVk",
-                    "short_id": "c22c08d6c0d3"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
+            "type": "vless",
+            "server": "erfwp.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "fef15ae1-cdc9-42ec-9c76-ea083550fd45",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",

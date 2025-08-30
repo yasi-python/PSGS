@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -122,6 +121,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -148,7 +148,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -177,6 +176,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -302,29 +302,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "157.180.91.49",
-            "server_port": 2053,
-            "uuid": "859035ad-7cda-4bbc-ae7d-f4d4c0f1a091",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xwF90Z17AR1-ORLgy59XonaFMW_ZJaYDQ8V7Sd8ZYRY",
-                    "short_id": "402522a1ec224c96"
-                }
             }
         },
         {
@@ -997,6 +974,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "157.180.91.49",
+            "server_port": 2053,
+            "uuid": "f1a98928-162b-40ae-af09-a29c8030a137",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xwF90Z17AR1-ORLgy59XonaFMW_ZJaYDQ8V7Sd8ZYRY",
+                    "short_id": "402522a1ec224c96"
+                }
             }
         },
         {
