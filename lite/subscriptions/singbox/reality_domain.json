@@ -96,8 +96,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇮🇹 IT | 🔒 VLESS | @fastfreeconfig [57]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -114,7 +112,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇮🇪 IE | 🔒 VLESS | @qrv2ray [8]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [8]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -124,6 +122,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
+                "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -140,8 +140,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇮🇹 IT | 🔒 VLESS | @fastfreeconfig [57]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -158,7 +156,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇮🇪 IE | 🔒 VLESS | @qrv2ray [8]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [8]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -168,6 +166,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
+                "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -357,56 +357,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @fastfreeconfig [57]",
-            "type": "vless",
-            "server": "blog.curfuffled.com",
-            "server_port": 443,
-            "uuid": "15b18878-e774-4f6e-9c33-d8a6e6205fb3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA",
-                    "short_id": "975cfc3c7441"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "German.vp22ray.site",
-            "server_port": 40130,
-            "uuid": "eb7f17f3-4715-4b2d-87e5-39d12b1c962c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Seed.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
-                    "short_id": "d90b293e"
-                }
             }
         },
         {
@@ -802,7 +752,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 VLESS | @qrv2ray [8]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @qrv2ray [8]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1037,6 +987,56 @@
                     "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
                     "short_id": "32c43ca1"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @vp22ray [11]",
+            "type": "vless",
+            "server": "German.vp22ray.site",
+            "server_port": 40130,
+            "uuid": "eb7f17f3-4715-4b2d-87e5-39d12b1c962c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Seed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
+                    "short_id": "d90b293e"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
+            "type": "vless",
+            "server": "blog.curfuffled.com",
+            "server_port": 443,
+            "uuid": "15b18878-e774-4f6e-9c33-d8a6e6205fb3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA",
+                    "short_id": "975cfc3c7441"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
             }
         },
         {
