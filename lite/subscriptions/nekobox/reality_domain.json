@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -100,7 +101,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇮🇪 IE | 🔒 VLESS | @qrv2ray [9]",
+                "🇨🇦 CA | 🔒 VLESS | @qrv2ray [9]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -126,6 +127,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -144,7 +146,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇮🇪 IE | 🔒 VLESS | @qrv2ray [9]",
+                "🇨🇦 CA | 🔒 VLESS | @qrv2ray [9]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -299,6 +301,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "xcel00x.pet0er23mh21qq.com",
+            "server_port": 2053,
+            "uuid": "8d5dfcfb-0906-4505-9242-0507640d565f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
+                    "short_id": "96c58a92f1dd5eaa"
+                }
             }
         },
         {
@@ -744,7 +769,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 VLESS | @qrv2ray [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @qrv2ray [9]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,

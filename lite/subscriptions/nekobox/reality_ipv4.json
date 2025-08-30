@@ -81,15 +81,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
+                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
@@ -104,7 +103,6 @@
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [16]",
-                "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -128,7 +126,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -140,15 +138,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
+                "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
@@ -163,7 +160,6 @@
                 "🇮🇸 IS | 🔒 VLESS | @outline_vpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [16]",
-                "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -187,7 +183,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -305,29 +301,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "91.99.58.127",
-            "server_port": 2090,
-            "uuid": "efacffac-6e04-450d-aeb3-397ce072ab0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -348,33 +321,6 @@
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
-            "type": "vless",
-            "server": "65.109.194.11",
-            "server_port": 23584,
-            "uuid": "33b8247e-1a56-4fb6-a5cd-5424572be295",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "P493rf_2oHCfasd8wnbUs2KS8Z6D-nZibDPvwUbd_24",
-                    "short_id": "c92637"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "32135vless"
             }
         },
         {
@@ -521,6 +467,33 @@
                     "public_key": "MFhTxw6M0UU7nAoxP-jAw8szA2vhXy6KYmBCrDwbpRw",
                     "short_id": "99d38a68"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
+            "type": "vless",
+            "server": "65.109.194.11",
+            "server_port": 23584,
+            "uuid": "33b8247e-1a56-4fb6-a5cd-5424572be295",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "P493rf_2oHCfasd8wnbUs2KS8Z6D-nZibDPvwUbd_24",
+                    "short_id": "c92637"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "32135vless"
             }
         },
         {
@@ -851,33 +824,6 @@
                     "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": "e8ab71d0"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
-            "type": "vless",
-            "server": "83.136.254.131",
-            "server_port": 443,
-            "uuid": "TELEGRAM-CONFiGLiNE",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dMcDsJc1oYAr-1f45ZfQLEjvkUVwTJD1R6-uWXUgUkY",
-                    "short_id": "a7cc00af65e84b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
             }
         },
         {
@@ -1429,16 +1375,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
-            "server": "5.181.20.219",
-            "server_port": 17422,
-            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
+            "server": "83.136.254.131",
+            "server_port": 443,
+            "uuid": "TELEGRAM-CONFiGLiNE",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1446,9 +1392,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
-                    "short_id": "33"
+                    "public_key": "dMcDsJc1oYAr-1f45ZfQLEjvkUVwTJD1R6-uWXUgUkY",
+                    "short_id": "a7cc00af65e84b"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
             }
         }
     ],
