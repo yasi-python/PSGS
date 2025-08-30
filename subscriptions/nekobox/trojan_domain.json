@@ -86,7 +86,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [2]",
@@ -112,7 +111,8 @@
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [42]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
-                "❔ XX | 🔒 TROJAN | @xrayzxn [2]"
+                "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
+                "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -129,7 +129,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [2]",
@@ -155,7 +154,8 @@
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [42]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
-                "❔ XX | 🔒 TROJAN | @xrayzxn [2]"
+                "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
+                "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -348,29 +348,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [55]",
-            "type": "trojan",
-            "server": "amin.karkas1.ir",
-            "server_port": 443,
-            "password": "11ae0edd-2f63-4495-8683-037abbda9986",
-            "tls": {
-                "enabled": true,
-                "server_name": "amin.karkas1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/6vuNVgOFnqUEvj0sNkGkxxW7",
-                "headers": {
-                    "Host": "amin.karkas1.ir"
                 }
             }
         },
@@ -834,6 +811,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "6vuNVgOFnqUEvj0rcXIcStL"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+            "type": "trojan",
+            "server": "amin.karkas1.ir",
+            "server_port": 443,
+            "password": "11ae0edd-2f63-4495-8683-037abbda9986",
+            "tls": {
+                "enabled": true,
+                "server_name": "amin.karkas1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6vuNVgOFnqUEvj0sNkGkxxW7",
+                "headers": {
+                    "Host": "amin.karkas1.ir"
+                }
             }
         }
     ],
