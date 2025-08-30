@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]","type":"vless","server":"91.99.70.212","port":443,"uuid":"a34c2f4c-e027-4df3-b7ad-2bcc4be4187c","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.cdn77.com","grpc-opts":{"grpc-service-name":"@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"},"reality-opts":{"public-key":"Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk"}}
+  - {"name":"🇸🇬 SG | 🔒 VLESS | @config_proxy [55]","type":"vless","server":"91.242.241.45","port":8443,"uuid":"d2c5a7d9-a985-4b23-8297-bcf3df524547","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @freakconfig [15]","type":"vless","server":"91.99.58.127","port":2090,"uuid":"efacffac-6e04-450d-aeb3-397ce072ab0e","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo"}}
@@ -81,6 +82,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]'
+      - '🇸🇬 SG | 🔒 VLESS | @config_proxy [55]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇩🇪 DE | 🔒 VLESS | @freakconfig [15]'
