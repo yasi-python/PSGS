@@ -81,9 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @bored_vpn [11]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -113,6 +112,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -140,9 +140,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇬🇧 GB | 🔒 VLESS | @bored_vpn [11]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -172,6 +171,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -305,29 +305,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "193.151.135.21",
-            "server_port": 44443,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -351,7 +328,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "5.181.171.2",
             "server_port": 443,
@@ -1073,6 +1050,29 @@
                     "enabled": true,
                     "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "157.180.91.49",
+            "server_port": 2053,
+            "uuid": "93d01851-0d07-450d-9876-19e32c6ba447",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xwF90Z17AR1-ORLgy59XonaFMW_ZJaYDQ8V7Sd8ZYRY",
+                    "short_id": "402522a1ec224c96"
                 }
             }
         },
