@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
+                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
@@ -129,8 +130,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
+                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
@@ -258,6 +260,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "91.99.67.193",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.67.193",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -267,7 +287,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
             "type": "vless",
             "server": "109.120.138.47",
             "server_port": 443,

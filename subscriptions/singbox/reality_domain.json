@@ -102,6 +102,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -111,7 +112,6 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [10]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [53]",
                 "🇮🇷 IR | 🔒 VLESS | @freakconfig [12]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [13]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
@@ -148,6 +148,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
+                "❔ XX | 🔒 VLESS | @public504 [12]",
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [5]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
@@ -231,6 +232,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -240,7 +242,6 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [10]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [53]",
                 "🇮🇷 IR | 🔒 VLESS | @freakconfig [12]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [13]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
@@ -277,6 +278,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
+                "❔ XX | 🔒 VLESS | @public504 [12]",
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [5]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
@@ -692,6 +694,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "wa.sfasti.ru",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -915,29 +940,6 @@
                     "enabled": true,
                     "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
                     "short_id": "4c14"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [53]",
-            "type": "vless",
-            "server": "cloud.ns.n01l.nochofscu.sbs",
-            "server_port": 10443,
-            "uuid": "9d5fd220-4f17-48e2-a833-5b1a62a3411c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "n8tbatLDMMjIgL42OziDdK-lQGi3M1hFz4xVtmOjuTE",
-                    "short_id": "93a1f0fa"
                 }
             }
         },
@@ -1807,6 +1809,29 @@
             "server": "cloud.ns.g01e.nochofscu.sbs",
             "server_port": 10443,
             "uuid": "cc6bfed8-7010-4eab-a8e7-89793ade0815",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "n8tbatLDMMjIgL42OziDdK-lQGi3M1hFz4xVtmOjuTE",
+                    "short_id": "93a1f0fa"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @public504 [12]",
+            "type": "vless",
+            "server": "cloud.ns.n01l.nochofscu.sbs",
+            "server_port": 10443,
+            "uuid": "9d5fd220-4f17-48e2-a833-5b1a62a3411c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
