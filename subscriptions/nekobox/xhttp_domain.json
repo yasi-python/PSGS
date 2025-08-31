@@ -82,7 +82,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [83]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
@@ -113,13 +113,14 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [23]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -133,7 +134,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [83]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
@@ -164,13 +165,14 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [23]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -280,20 +282,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [83]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "my.parspack.com",
-            "server_port": 443,
-            "uuid": "38574744-d120-40e2-871e-648b50180e5b",
-            "flow": "",
+            "server": "public-hqTm.s2pp.ir",
+            "server_port": 2087,
+            "uuid": "2b01cd09-c941-40a7-8a22-2f25afd2da26",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "parspack.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MZwWogg41-H_JzZaKdJdpuMlAU5L3-wGrjU4C0or7zI",
+                    "short_id": "8cd94124"
                 }
             }
         },
@@ -637,6 +644,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "sss31842.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss31842.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
             "type": "vless",
             "server": "sss53988.tas-bazi.com",
@@ -745,7 +770,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "EVAY_VPN.fastly80.hosting-ip.com",
             "server_port": 80,

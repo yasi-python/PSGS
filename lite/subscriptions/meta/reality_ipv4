@@ -23,12 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @config_proxy [82]","type":"vless","server":"193.151.135.21","port":44443,"uuid":"53fff6cc-b4ec-43e8-ade5-e0c42972fc33","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇱🇻 LV | 🔒 VLESS | @falcunargo [7]","type":"vless","server":"45.133.216.114","port":8443,"uuid":"714d0dcd-17f8-4495-ba35-5f04d2d92c0f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.apple.com","reality-opts":{"public-key":"EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14","short-id":"425ba80cd1a821a8"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @freakconfig [17]","type":"vless","server":"78.47.216.178","port":8443,"uuid":"3668c58e-63f9-41d9-af93-ea4eaefde81b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms","short-id":"27e6b66aa77662fb"}}
-  - {"name":"🇷🇺 RU | 🔒 VLESS | @free1_vpn [8]","type":"vless","server":"94.26.228.10","port":443,"uuid":"1a6fe500-59da-4598-8576-256f06765ffb","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ru.sfasti.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8","short-id":"16895459a2c7768d"}}
+  - {"name":"🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]","type":"vless","server":"94.26.228.10","port":443,"uuid":"1a6fe500-59da-4598-8576-256f06765ffb","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ru.sfasti.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8","short-id":"16895459a2c7768d"}}
   - {"name":"🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]","type":"vless","server":"5.181.21.152","port":24170,"uuid":"6a8ee307-a1fb-4801-92e2-86253ecdd88d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw","short-id":"200f99e321"}}
   - {"name":"🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]","type":"vless","server":"146.59.116.201","port":443,"uuid":"c7060866-29f6-49b8-b13b-cf95dc4a0e79","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"convertio.co","grpc-opts":{"grpc-service-name":"@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"},"reality-opts":{"public-key":"-q5LnD8S-F7Q6khGlle_aovNZt3fhmxCYHjbWXZvdUQ","short-id":"e3b41bfe"}}
   - {"name":"🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]","type":"vless","server":"213.183.41.63","port":443,"uuid":"3c631fef-c28c-4dfe-aacc-9e67ace7d5b3","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"skyroom.online","grpc-opts":{"grpc-service-name":"free"},"reality-opts":{"public-key":"9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8","short-id":"1f"}}
@@ -83,12 +82,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | 🔒 VLESS | @config_proxy [82]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇱🇻 LV | 🔒 VLESS | @falcunargo [7]'
       - '🇩🇪 DE | 🔒 VLESS | @freakconfig [17]'
-      - '🇷🇺 RU | 🔒 VLESS | @free1_vpn [8]'
+      - '🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]'
       - '🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]'
       - '🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]'
       - '🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]'
