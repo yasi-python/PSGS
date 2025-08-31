@@ -79,8 +79,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 HY2 | @argo_vpn1 [15]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -90,8 +89,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 HY2 | @argo_vpn1 [15]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -179,25 +177,6 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 HY2 | @argo_vpn1 [15]",
-            "type": "hysteria2",
-            "server": "195.133.5.41",
-            "server_port": 33079,
-            "password": "9363eedf-00e9-4b14-8d66-e596b02538bc",
-            "obfs": {
-                "type": "salamander",
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "195.133.5.41",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ]
             }
         }
     ],
