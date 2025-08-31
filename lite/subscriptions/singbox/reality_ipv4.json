@@ -92,8 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇱🇻 LV | 🔒 VLESS | @falcunargo [7]",
+                "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -133,7 +135,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [16]",
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [18]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -149,8 +150,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇱🇻 LV | 🔒 VLESS | @falcunargo [7]",
+                "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -190,7 +193,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayngrit [16]",
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [18]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -282,6 +284,29 @@
             }
         },
         {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "103.253.43.210",
+            "server_port": 8443,
+            "uuid": "0c778d99-7329-4144-a1b6-a4a2f3ee6de8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -324,6 +349,29 @@
                     "enabled": true,
                     "public_key": "EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14",
                     "short_id": "425ba80cd1a821a8"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [57]",
+            "type": "vless",
+            "server": "40.233.102.224",
+            "server_port": 42557,
+            "uuid": "2429bee3-e0c1-47dd-b420-75e6512b184b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
+                    "short_id": "f430927d"
                 }
             }
         },
@@ -1264,29 +1312,6 @@
                     "enabled": true,
                     "public_key": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
                     "short_id": "d21e7c"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
-            "type": "vless",
-            "server": "40.233.102.224",
-            "server_port": 42557,
-            "uuid": "2429bee3-e0c1-47dd-b420-75e6512b184b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
-                    "short_id": "f430927d"
                 }
             }
         },
