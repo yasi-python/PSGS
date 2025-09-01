@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
@@ -128,6 +129,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
@@ -303,6 +305,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "james2.evovpn.ru",
+            "server_port": 443,
+            "uuid": "02f81d56-f7aa-4bfc-bb1a-00037e579c14",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-P9ZxYZP76-s_0mXFUDZeXxgUllKI1zkxSCqQca3NBM",
+                    "short_id": "8f36094fbbe8e92e"
+                }
             }
         },
         {

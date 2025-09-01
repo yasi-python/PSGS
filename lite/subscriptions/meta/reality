@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @config_proxy [52]","type":"vless","server":"james2.evovpn.ru","port":443,"uuid":"02f81d56-f7aa-4bfc-bb1a-00037e579c14","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"-P9ZxYZP76-s_0mXFUDZeXxgUllKI1zkxSCqQca3NBM","short-id":"8f36094fbbe8e92e"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [8]","type":"vless","server":"s1.aparat-movies-download.ir","port":4450,"uuid":"a19f4213-fcb8-4384-9c85-cb51cae8ab8b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"}}
   - {"name":"❔ XX | 🔒 VLESS | @custom_14 [8]","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]","type":"vless","server":"allll.primenet3.shop","port":3041,"uuid":"3b82c3ef-d428-4a62-ae97-f53c305f883d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.refersion.com","reality-opts":{"public-key":"uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw","short-id":"4c14"}}
@@ -115,6 +116,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔒 VLESS | @config_proxy [52]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [8]'
       - '❔ XX | 🔒 VLESS | @custom_14 [8]'
       - '🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]'
