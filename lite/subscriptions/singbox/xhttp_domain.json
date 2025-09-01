@@ -103,6 +103,7 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
@@ -129,6 +130,7 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔒 VLESS | @proxystore11 [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
@@ -317,6 +319,24 @@
             "uuid": "6a45de8b-46e5-4da4-b242-3e18f3228087",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
+            "type": "vless",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss25065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [1]",
