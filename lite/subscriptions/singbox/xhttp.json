@@ -110,7 +110,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
@@ -123,6 +122,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
@@ -158,7 +158,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
@@ -171,6 +170,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
@@ -467,29 +467,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "55a4210c-e765-427f-813d-0c55b763f6b0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
             "type": "vless",
             "server": "91.99.16.244",
@@ -677,6 +654,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
+            "type": "vless",
+            "server": "199.247.28.17",
+            "server_port": 44914,
+            "uuid": "55a4210c-e765-427f-813d-0c55b763f6b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "black-moai.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
+                    "short_id": "1ac2a2dde288"
                 }
             }
         },

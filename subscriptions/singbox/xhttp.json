@@ -127,7 +127,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [15]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [23]",
@@ -140,12 +140,12 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [16]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
+                "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @free_serverir [22]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
@@ -221,7 +221,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [15]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [23]",
@@ -234,12 +234,12 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [16]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
+                "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @free_serverir [22]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
@@ -749,22 +749,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
             "type": "vless",
-            "server": "sss19074.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-joiin",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss19074.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
@@ -961,6 +952,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
+            "type": "vless",
+            "server": "151.101.204.190",
+            "server_port": 80,
+            "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @free_serverir [22]",
             "type": "vless",
             "server": "91.99.217.44",
@@ -1039,15 +1039,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
-            "type": "vless",
-            "server": "151.101.204.190",
-            "server_port": 80,
-            "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
             "flow": "",
             "packet_encoding": "xudp"
         },

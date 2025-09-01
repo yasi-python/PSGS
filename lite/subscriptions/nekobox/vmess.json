@@ -127,7 +127,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -136,7 +136,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇵🇰 PK | 🔓 VMESS | @proxy_mtproto_vpns_free [13]",
+                "🚩 CF | 🔒 VMESS | @proxy_mtproto_vpns_free [16]",
+                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -233,7 +234,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -242,7 +243,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇵🇰 PK | 🔓 VMESS | @proxy_mtproto_vpns_free [13]",
+                "🚩 CF | 🔒 VMESS | @proxy_mtproto_vpns_free [16]",
+                "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -1161,7 +1163,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
             "type": "vmess",
             "server": "91.99.185.216",
             "server_port": 20086,
@@ -1295,22 +1297,38 @@
             }
         },
         {
-            "tag": "🇵🇰 PK | 🔓 VMESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🚩 CF | 🔒 VMESS | @proxy_mtproto_vpns_free [16]",
             "type": "vmess",
-            "server": "38.60.217.146",
+            "server": "npmjs.com",
             "server_port": 443,
-            "uuid": "9ea037cb-c7df-4282-ab10-7d6df9d146a3",
+            "uuid": "telegram-channel-freewireguard",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "Q4.19kAlA.co",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Q4.19kAlA.co"
+                }
             }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @proxy_mtproto_vpns_free [17]",
+            "type": "vmess",
+            "server": "83.147.18.100",
+            "server_port": 990,
+            "uuid": "048a869c-a2f6-35a8-40a0-7d982876d86d",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
