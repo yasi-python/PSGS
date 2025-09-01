@@ -133,9 +133,9 @@
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [11]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [13]",
+                "🇻🇳 VN | 🔓 TROJAN | @hope_net [17]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -257,9 +257,9 @@
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [11]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [13]",
+                "🇻🇳 VN | 🔓 TROJAN | @hope_net [17]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -1296,29 +1296,6 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
             "type": "trojan",
-            "server": "104.20.22.92",
-            "server_port": 443,
-            "password": "auto",
-            "tls": {
-                "enabled": true,
-                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
-                "headers": {
-                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [10]",
-            "type": "trojan",
             "server": "188.114.98.253",
             "server_port": 443,
             "password": "bpb-trojan",
@@ -1340,7 +1317,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [11]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [7]",
             "type": "trojan",
             "server": "104.23.124.181",
             "server_port": 443,
@@ -1356,7 +1333,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "104.17.236.17",
             "server_port": 443,
@@ -1364,6 +1341,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "104.17.236.17",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇻🇳 VN | 🔓 TROJAN | @hope_net [17]",
+            "type": "trojan",
+            "server": "160.30.21.105",
+            "server_port": 443,
+            "password": "94d219c9-1afc-4d42-b090-8b3794764380",
+            "tls": {
+                "enabled": true,
+                "server_name": "160.30.21.105",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
