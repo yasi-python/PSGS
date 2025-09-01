@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇱🇻 LV | 🔒 VLESS | @falcunargo [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -116,6 +114,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇱🇻 LV | 🔒 VLESS | @orange_vpns [15]",
                 "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [11]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
                 "🇮🇷 IR | 🔒 VLESS | @outlinev2rayng [13]",
@@ -150,9 +149,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇱🇻 LV | 🔒 VLESS | @falcunargo [7]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -174,6 +171,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
+                "🇱🇻 LV | 🔒 VLESS | @orange_vpns [15]",
                 "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [11]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
                 "🇮🇷 IR | 🔒 VLESS | @outlinev2rayng [13]",
@@ -284,29 +282,6 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "185.239.48.109",
-            "server_port": 8443,
-            "uuid": "a04e8e4c-9d80-4c8f-b476-9369b7557ac3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -326,29 +301,6 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @falcunargo [7]",
-            "type": "vless",
-            "server": "45.133.216.114",
-            "server_port": 8443,
-            "uuid": "714d0dcd-17f8-4495-ba35-5f04d2d92c0f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14",
-                    "short_id": "425ba80cd1a821a8"
                 }
             }
         },
@@ -856,6 +808,29 @@
                     "enabled": true,
                     "public_key": "e3dW-3-dYEVMkTUNOlqVZY2RuSXK-DxhvmdVn1lijxY",
                     "short_id": "8c0bcf"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔒 VLESS | @orange_vpns [15]",
+            "type": "vless",
+            "server": "45.133.216.114",
+            "server_port": 8443,
+            "uuid": "714d0dcd-17f8-4495-ba35-5f04d2d92c0f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14",
+                    "short_id": "425ba80cd1a821a8"
                 }
             }
         },

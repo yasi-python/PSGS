@@ -90,8 +90,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [44]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -222,8 +222,8 @@
                 "❔ XX | 🔒 VLESS | @catvpns [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [7]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [44]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇩🇪 DE | 🔒 VLESS | @configtrapi [21]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -690,16 +690,16 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "tr.spirako.com",
-            "server_port": 443,
-            "uuid": "a87126ae-b0a9-4e87-8a66-4c34f27dead3",
+            "server": "ftp7.tehran-park.com",
+            "server_port": 1210,
+            "uuid": "4f8a0f43-b24b-40a8-bf31-fe9e7277062e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tradingview.com",
+                "server_name": "ftp7.tehran-park.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -707,31 +707,35 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "public_key": "Vd0sQC88KWjeYFf9DoFF58X_sVVA2ixgDajUc6fTNgI",
                     "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--"
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [48]",
             "type": "vless",
-            "server": "abri.abriabri.ir",
-            "server_port": 32167,
-            "uuid": "80d77f6f-bff6-4dbe-887d-8cda5cb6e609",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "49416dc0-b6e9-4db7-b23a-16ab221b0fe7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "8GR3JcYx9_MbgHhxdSAOt-PLsO7tFg4yidfCCwtbQ1E",
-                    "short_id": "e0"
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
                 }
             }
         },

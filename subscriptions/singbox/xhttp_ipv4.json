@@ -97,11 +97,11 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
-                "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [51]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-                "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
@@ -148,11 +148,11 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [22]",
-                "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [51]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-                "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
@@ -342,13 +342,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @fastfreeconfig [47]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [51]",
             "type": "vless",
-            "server": "151.101.204.190",
-            "server_port": 80,
-            "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
+            "server": "91.99.126.93",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "5.161.151.225",
+            "server_port": 6009,
+            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "adtarget.com.tr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
+                    "short_id": "dc5db021ae2038a9"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -374,43 +397,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
-            "type": "vless",
-            "server": "91.99.126.93",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
+            "type": "vless",
+            "server": "151.101.204.190",
+            "server_port": 80,
+            "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
             "flow": "",
             "packet_encoding": "xudp"
         },
