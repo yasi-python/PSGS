@@ -100,9 +100,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🇫🇷 FR | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇬🇧 GB | 🔒 VLESS | @qrv2ray [7]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [7]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -117,6 +118,7 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
@@ -194,9 +196,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [14]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🇫🇷 FR | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇬🇧 GB | 🔒 VLESS | @qrv2ray [7]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [7]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
@@ -211,6 +214,7 @@
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
@@ -844,6 +848,29 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @prrofile_purple [140]",
+            "type": "vless",
+            "server": "allll.primenet3.shop",
+            "server_port": 28157,
+            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @public504 [10]",
             "type": "vless",
             "server": "cloud.ns.g01e.nochofscu.sbs",
@@ -890,7 +917,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @qrv2ray [7]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @qrv2ray [7]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1239,6 +1266,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "91.99.89.22",
+            "server_port": 2060,
+            "uuid": "Telegram--TokaVpn--TokaVpn",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HCtUEm_1Cd2n2q9w46sAcsOG-5ZPjsV66IsWE3at9gc",
+                    "short_id": "24"
                 }
             }
         },
