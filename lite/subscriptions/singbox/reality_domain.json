@@ -97,10 +97,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
+                "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
@@ -125,6 +124,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
+                "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -143,10 +143,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇷 FR | 🔒 VLESS | @evay_vpn [21]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
+                "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
@@ -171,6 +170,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
+                "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -387,56 +387,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "iranbaxvpn.v2rayn.com",
-            "server_port": 443,
-            "uuid": "5eb40b31-6d9b-461d-81c2-53909a01df5b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranbax.spacex.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "skowtu_zROaa0Y7h0Gss2-4mPXvEAngSPxQVukyWO1U",
-                    "short_id": "9ff0c049e20b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "german.vp22ray.site",
-            "server_port": 2087,
-            "uuid": "290719bc-bd21-4467-bdcd-33396fa88394",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ftp.debian.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
-                    "short_id": "32c43ca1"
-                }
-            }
-        },
-        {
             "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -484,6 +434,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
+            "type": "vless",
+            "server": "iranbaxvpn.v2rayn.com",
+            "server_port": 443,
+            "uuid": "5eb40b31-6d9b-461d-81c2-53909a01df5b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iranbax.spacex.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "skowtu_zROaa0Y7h0Gss2-4mPXvEAngSPxQVukyWO1U",
+                    "short_id": "9ff0c049e20b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
             }
         },
         {
@@ -1045,6 +1022,29 @@
             "server": "german.vp22ray.site",
             "server_port": 2087,
             "uuid": "2179abfc-2435-4b64-8c96-cb39184a4348",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I",
+                    "short_id": "32c43ca1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @vp22ray [10]",
+            "type": "vless",
+            "server": "german.vp22ray.site",
+            "server_port": 2087,
+            "uuid": "290719bc-bd21-4467-bdcd-33396fa88394",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
