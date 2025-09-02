@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [20]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -95,6 +95,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
+                "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -136,9 +137,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [20]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -151,6 +152,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
+                "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -272,6 +274,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "185.236.232.237",
+            "server_port": 1001,
+            "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+                    "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -314,29 +339,6 @@
                     "enabled": true,
                     "public_key": "a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY",
                     "short_id": "6a980a8c7d6a7919"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [54]",
-            "type": "vless",
-            "server": "143.110.169.61",
-            "server_port": 52189,
-            "uuid": "d8e1cfdc-7899-4c71-8d11-058933210c55",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "*.sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3mC2lH0qsBuTTzNSC3GtzcJlli2959J4yqZl08G4FCg",
-                    "short_id": "593f3efe"
                 }
             }
         },
@@ -629,6 +631,29 @@
                     "enabled": true,
                     "public_key": "3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY",
                     "short_id": "c2abcb19"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
+            "type": "vless",
+            "server": "143.110.169.61",
+            "server_port": 52189,
+            "uuid": "d8e1cfdc-7899-4c71-8d11-058933210c55",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "*.sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3mC2lH0qsBuTTzNSC3GtzcJlli2959J4yqZl08G4FCg",
+                    "short_id": "593f3efe"
                 }
             }
         },
