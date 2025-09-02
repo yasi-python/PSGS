@@ -100,7 +100,6 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -108,7 +107,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -117,6 +117,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
+                "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -147,7 +148,6 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -155,7 +155,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -164,6 +165,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
+                "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -334,15 +336,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "fad93457-35f3-4f1d-a4ad-c4be5b6d7124",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -447,20 +440,48 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "91.99.213.128",
+            "server": "159.89.111.53",
             "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
+            "uuid": "8fd45cd2-acd4-465b-bcd2-389c2a63ce9a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.99.213.128",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GGbLKidjoVxcbRbnkDybdlb1L0aWsCHGeokh3vH7sg4",
+                    "short_id": "fe88d42b9ab7d9"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "164.92.198.213",
+            "server_port": 443,
+            "uuid": "8fd45cd2-acd4-465b-bcd2-389c2a63ce9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GGbLKidjoVxcbRbnkDybdlb1L0aWsCHGeokh3vH7sg4",
+                    "short_id": "fe88d42b9ab7d9"
                 }
             }
         },
@@ -588,11 +609,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxie [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [18]",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
             "uuid": "45948c7b-cd85-4040-92b2-9e634e9ddd52",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sauron.melkore.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [19]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "9e1c1c4a-3ae8-43b3-af4e-6bd357e4c424",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
