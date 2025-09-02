@@ -123,7 +123,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -177,7 +178,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1315,6 +1317,29 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "185.250.181.128",
+            "server_port": 16106,
+            "uuid": "aa1aac84-6a86-41b9-bd34-1a036e06976f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FnkrwrjQqktvwxPvLn7KyWZIq8bUAvVaeCrI_VhAZ34",
+                    "short_id": "3b6239cf6fd84dd3"
                 }
             }
         }
