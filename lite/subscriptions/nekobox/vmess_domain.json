@@ -127,7 +127,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
@@ -153,7 +152,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -168,9 +166,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "❔ XX | 🔓 VMESS | @v2rayvmess [16]",
-                "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [17]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇱🇻 LV | 🔓 VMESS | @vmesc [18]",
+                "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [16]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [17]",
+                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [2]",
@@ -234,7 +233,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
@@ -260,7 +258,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -275,9 +272,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "❔ XX | 🔓 VMESS | @v2rayvmess [16]",
-                "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [17]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇱🇻 LV | 🔓 VMESS | @vmesc [18]",
+                "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [16]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [17]",
+                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [2]",
@@ -1163,31 +1161,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
-            "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2083,
-            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "api3.waltonweb.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/panel?ed=2560",
-                "headers": {
-                    "Host": "api3.waltonweb.ir"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
             "type": "vmess",
             "server": "91.99.185.216",
@@ -1580,22 +1553,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "104.16.68.38",
-            "server_port": 2095,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/linde06.indiavideo.sbs/linkws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
             "type": "vmess",
             "server": "ii.USA02.ml",
@@ -1835,7 +1792,23 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [17]",
+            "tag": "🇱🇻 LV | 🔓 VMESS | @vmesc [18]",
+            "type": "vmess",
+            "server": "216.173.69.250",
+            "server_port": 8443,
+            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇦🇺 AU | 🔓 VMESS | @vpnfail_v2ray [16]",
             "type": "vmess",
             "server": "46.250.243.56",
             "server_port": 50394,
@@ -1844,7 +1817,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [17]",
             "type": "vmess",
             "server": "23.162.200.227",
             "server_port": 443,
@@ -1869,7 +1842,7 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [19]",
+            "tag": "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "94.136.185.230",
             "server_port": 10534,
