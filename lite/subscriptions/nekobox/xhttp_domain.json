@@ -88,11 +88,12 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [12]",
+                "🇨🇦 CA | 🔒 VLESS | @vpnowl [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -112,11 +113,12 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [12]",
+                "🇨🇦 CA | 🔒 VLESS | @vpnowl [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -280,7 +282,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -348,6 +350,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @vpnowl [20]",
+            "type": "vless",
+            "server": "android-config.gstatic.cyberscaler.net",
+            "server_port": 443,
+            "uuid": "2e0c27f2-0960-4a65-8b86-91847fd80b04",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssl.gstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zMeFpcu-ppUKh_am7bNYWtLehvtvhjocEPP8efg1Jg4",
+                    "short_id": "e3a97c5b21"
                 }
             }
         },
