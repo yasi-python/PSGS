@@ -80,8 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
+                "🇫🇷 FR | 🔒 VLESS | @freakconfig [20]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -138,8 +140,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
+                "🇫🇷 FR | 🔒 VLESS | @freakconfig [20]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -276,6 +280,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "85.158.110.62",
+            "server_port": 8443,
+            "uuid": "0f894c36-63f0-4812-88c5-815aa234f11c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -319,6 +346,33 @@
                     "public_key": "a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY",
                     "short_id": "6a980a8c7d6a7919"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "80.13.135.11",
+            "server_port": 57546,
+            "uuid": "4aae04fa-f390-44bb-9558-a344c8baed36",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ratp.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "G4WqyBonyjuo6n6pIL_yLN33T9e8BNHIUlrVnqZPpTY",
+                    "short_id": "e9da"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "probrain-etl"
             }
         },
         {

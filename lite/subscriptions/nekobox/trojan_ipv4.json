@@ -80,11 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -105,11 +104,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -210,6 +208,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]",
+            "type": "trojan",
+            "server": "141.101.120.10",
+            "server_port": 443,
+            "password": "4b040268-f3a5-4136-b1a9-506012e8e3d9",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssp2.100896.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
             "type": "trojan",
             "server": "3.122.89.11",
@@ -254,52 +268,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "188.114.98.89",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "bpB-woRker-PanEL-AY6.pagEs.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/trBLUKS93cpgZZCas5?ed",
-                "headers": {
-                    "Host": "bpB-woRker-PanEL-AY6.pagEs.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "172.66.47.130",
-            "server_port": 443,
-            "password": "e8b87dd9-cc8f-407c-a1f3-a564009fe6ee",
-            "tls": {
-                "enabled": true,
-                "server_name": "dc1bf227.vf-8co.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dc1bf227.vf-8co.pages.dev"
                 }
             }
         },
