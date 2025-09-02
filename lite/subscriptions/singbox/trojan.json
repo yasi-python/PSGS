@@ -93,16 +93,15 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -124,16 +123,15 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -244,9 +242,9 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
             "type": "trojan",
-            "server": "maradona_vpn14.history-paint.art",
+            "server": "maradona_vpn10.history-paint.art",
             "server_port": 443,
             "password": "maradona_vpn",
             "tls": {
@@ -267,9 +265,32 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "maradona_vpn10.history-paint.art",
+            "server": "meti-u9d.pages.dev",
+            "server_port": 443,
+            "password": "1187ba87-8ebc-4a07-aa89-b331ed2cb356",
+            "tls": {
+                "enabled": true,
+                "server_name": "meti-u9d.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "meti-u9d.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
+            "type": "trojan",
+            "server": "maradona_vpn14.history-paint.art",
             "server_port": 443,
             "password": "maradona_vpn",
             "tls": {
@@ -395,29 +416,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "104.25.154.54",
-            "server_port": 443,
-            "password": "NISHIKUITAN222",
-            "tls": {
-                "enabled": true,
-                "server_name": "104.25.154.54",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "password": "2f1f7fbf-f37d-4275-c014-298a83f4e5a8"
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",

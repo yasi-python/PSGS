@@ -80,10 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
+                "🇫🇮 FI | 🔒 VLESS | @freakconfig [20]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -110,6 +109,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -136,10 +136,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [5]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
+                "🇫🇮 FI | 🔒 VLESS | @freakconfig [20]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -166,6 +165,7 @@
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -272,29 +272,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "85.158.110.62",
-            "server_port": 8443,
-            "uuid": "15171c7a-074b-4442-907b-f162feda2555",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -341,26 +318,30 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @freakconfig [20]",
             "type": "vless",
-            "server": "194.55.235.202",
-            "server_port": 443,
-            "uuid": "5a519368-9dbb-4ab4-8967-a30fb39a8881",
+            "server": "65.109.183.117",
+            "server_port": 2053,
+            "uuid": "bb258ed8-6563-4644-b3d1-f24fc3318727",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "mega.io",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "2KRLht-me2Je8FrYcUUv8OJ3_xoT8KMCurzwfDZcvCk",
-                    "short_id": "2c709739f487"
+                    "public_key": "UMrThJMi1keY7x1XbM11Xudyq5jhEikk8yPOWOWaSQY",
+                    "short_id": "f7f60c8f122c"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY"
             }
         },
         {
@@ -987,6 +968,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [10]",
+            "type": "vless",
+            "server": "194.55.235.202",
+            "server_port": 443,
+            "uuid": "5a519368-9dbb-4ab4-8967-a30fb39a8881",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2KRLht-me2Je8FrYcUUv8OJ3_xoT8KMCurzwfDZcvCk",
+                    "short_id": "2c709739f487"
+                }
             }
         },
         {

@@ -81,8 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
@@ -97,8 +98,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
-                "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
@@ -206,9 +208,9 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [56]",
             "type": "trojan",
-            "server": "maradona_vpn14.history-paint.art",
+            "server": "maradona_vpn10.history-paint.art",
             "server_port": 443,
             "password": "maradona_vpn",
             "tls": {
@@ -229,9 +231,32 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "maradona_vpn10.history-paint.art",
+            "server": "meti-u9d.pages.dev",
+            "server_port": 443,
+            "password": "1187ba87-8ebc-4a07-aa89-b331ed2cb356",
+            "tls": {
+                "enabled": true,
+                "server_name": "meti-u9d.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "meti-u9d.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
+            "type": "trojan",
+            "server": "maradona_vpn14.history-paint.art",
             "server_port": 443,
             "password": "maradona_vpn",
             "tls": {

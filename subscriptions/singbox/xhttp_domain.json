@@ -108,6 +108,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [43]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [18]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -125,7 +126,7 @@
                 "❔ XX | 🔓 VLESS | @v2graphy [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [22]",
@@ -159,6 +160,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [43]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [18]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -176,7 +178,7 @@
                 "❔ XX | 🔓 VLESS | @v2graphy [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [22]",
@@ -428,6 +430,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [43]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @filterk0sh [18]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -654,13 +665,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
             "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "server": "sss13712.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss13712.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
