@@ -116,12 +116,12 @@
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
-                "PSGayhekgboiq",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -131,7 +131,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -166,12 +167,12 @@
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
-                "PSGayhekgboiq",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -181,7 +182,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -700,7 +702,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
             "type": "vless",
             "server": "164.92.180.51",
             "server_port": 443,
@@ -782,25 +784,20 @@
             }
         },
         {
-            "tag": "PSGayhekgboiq",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [13]",
             "type": "vless",
-            "server": "74.63.11.211",
-            "server_port": 1002,
-            "uuid": "9455a3a8-bc7b-4577-bef5-7a8757fdda13",
-            "flow": "xtls-rprx-vision",
+            "server": "91.99.67.193",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
+                "server_name": "91.99.67.193",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
-                    "short_id": ""
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1007,6 +1004,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "157.230.20.80",
+            "server_port": 443,
+            "uuid": "8fd45cd2-acd4-465b-bcd2-389c2a63ce9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GGbLKidjoVxcbRbnkDybdlb1L0aWsCHGeokh3vH7sg4",
+                    "short_id": "fe88d42b9ab7d9"
                 }
             }
         }
