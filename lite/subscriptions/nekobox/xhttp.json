@@ -92,10 +92,10 @@
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -138,10 +138,10 @@
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -392,24 +392,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen [10]",
-            "type": "vless",
-            "server": "sss74251.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss74251.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
             "type": "vless",
             "server": "sss29026.tas-bazi.com",
@@ -458,6 +440,29 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "74.63.11.211",
+            "server_port": 1002,
+            "uuid": "65b71cc5-a34d-4efa-8af8-7a0d9bedd240",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
