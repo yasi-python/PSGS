@@ -97,7 +97,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [22]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -155,7 +154,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @turboo_server [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -182,7 +181,7 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
-                "🇮🇶 IQ | 🔒 VLESS | @vpnplusee_free [6]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -208,7 +207,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [22]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -266,7 +264,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @turboo_server [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -293,7 +291,7 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
-                "🇮🇶 IQ | 🔒 VLESS | @vpnplusee_free [6]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -514,29 +512,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [22]",
-            "type": "vless",
-            "server": "reality-sub.arvancloud.online",
-            "server_port": 44443,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1930,16 +1905,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [18]",
             "type": "vless",
-            "server": "de.pixvpn.app",
-            "server_port": 8443,
-            "uuid": "464ec76e-fd60-4ad4-993e-d2c262f88ed1",
+            "server": "ru.sfasti.ru",
+            "server_port": 443,
+            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "jd.com",
+                "server_name": "ru.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1947,13 +1922,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "41a4cee2c50c4fc3"
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-jd"
             }
         },
         {
@@ -2599,7 +2570,7 @@
             }
         },
         {
-            "tag": "🇮🇶 IQ | 🔒 VLESS | @vpnplusee_free [6]",
+            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
