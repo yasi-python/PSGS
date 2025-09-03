@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [25]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
@@ -102,7 +104,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [8]",
@@ -127,6 +129,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [25]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
@@ -147,7 +151,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [5]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [8]",
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [8]",
@@ -264,6 +268,33 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [25]",
+            "type": "vless",
+            "server": "sss37704.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "cbfaa4fa-8393-43db-a052-d86543462f0d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss37704.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [27]",
+            "type": "vless",
+            "server": "erfwp.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "fef15ae1-cdc9-42ec-9c76-ea083550fd45",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -508,7 +539,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
