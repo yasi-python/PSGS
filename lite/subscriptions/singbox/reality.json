@@ -131,9 +131,10 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [32]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
-                "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+                "🇫🇷 FR | 🔒 VLESS | @falcunargo [9]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -231,9 +232,10 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [32]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
-                "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+                "🇫🇷 FR | 🔒 VLESS | @falcunargo [9]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -1309,6 +1311,29 @@
             }
         },
         {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "103.253.43.210",
+            "server_port": 8443,
+            "uuid": "b0b6c432-d821-4ab1-8b3d-44387f45e151",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1355,7 +1380,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @falcunargo [9]",
             "type": "vless",
             "server": "80.13.135.11",
             "server_port": 57546,
