@@ -87,6 +87,7 @@
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -137,6 +138,7 @@
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -376,6 +378,24 @@
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "91.99.211.213",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.211.213",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",

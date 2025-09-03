@@ -100,18 +100,19 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
-                "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
+                "🇨🇦 CA | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -145,18 +146,19 @@
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
-                "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
+                "🇨🇦 CA | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -330,24 +332,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-            "type": "vless",
-            "server": "sss25065.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss25065.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
             "type": "vless",
             "server": "android-config.gstatic.cyberscaler.net",
@@ -398,6 +382,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayopen [9]",
+            "type": "vless",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss25065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
             "type": "vless",
             "server": "sss29026.tas-bazi.com",
@@ -416,7 +418,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @vpnowl [19]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @vpnowl [18]",
             "type": "vless",
             "server": "android-config.gstatic.cyberscaler.net",
             "server_port": 443,
@@ -533,6 +535,24 @@
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "91.99.211.213",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.211.213",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
