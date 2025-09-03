@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇺🇸 US | 🔒 VLESS | @config_proxy [50]","type":"vless","server":"64.81.117.172","port":443,"uuid":"0cd07402-0edb-4890-808d-cd6f0e2625ee","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"ts2.tc.mm.bing.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"0n_NS2q2bvgpgQt0-gNmGNXTH-B0aqaJdE1A40sjsyE"}}
+  - {"name":"🇮🇳 IN | 🔒 VLESS | @config_proxy [51]","type":"vless","server":"178.212.35.210","port":8080,"uuid":"c988e2e4-3e72-48e0-894f-c458f03246a7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"raES8OUSF_bmOvcHfuPIm-Fu-hlpd-9SLWCWmrRCW2M","short-id":"89a6e02cde6cea"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]","type":"vless","server":"139.59.205.214","port":27426,"uuid":"fcc1e91d-949b-4e6c-9cad-36f4f860324d","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY","short-id":"6a980a8c7d6a7919"}}
@@ -78,6 +80,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | 🔒 VLESS | @config_proxy [50]'
+      - '🇮🇳 IN | 🔒 VLESS | @config_proxy [51]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]'
