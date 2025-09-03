@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -104,8 +105,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nofiltering2 [20]",
                 "🇮🇶 IQ | 🔒 VLESS | @orange_vpns [14]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
-                "🇵🇱 PL | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [16]",
@@ -128,7 +127,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -141,6 +140,7 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -163,8 +163,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nofiltering2 [20]",
                 "🇮🇶 IQ | 🔒 VLESS | @orange_vpns [14]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [13]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
-                "🇵🇱 PL | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [16]",
@@ -187,7 +185,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -321,6 +319,33 @@
                     "public_key": "a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY",
                     "short_id": "6a980a8c7d6a7919"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
+            "type": "vless",
+            "server": "65.109.218.179",
+            "server_port": 2083,
+            "uuid": "12f3c866-a401-474b-f274-e1cacbf2adce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khamenei.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
+                    "short_id": "54602915a7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray"
             }
         },
         {
@@ -854,52 +879,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
-            "type": "vless",
-            "server": "95.179.255.236",
-            "server_port": 443,
-            "uuid": "49401c3a-1a7a-4152-90e1-e1c1c224f157",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Qrzz-NI8UehZoMmtrIxPNFsux36hwtO26_C10A5sHAg",
-                    "short_id": "86d67be548"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
-            "type": "vless",
-            "server": "185.254.220.229",
-            "server_port": 1002,
-            "uuid": "65b71cc5-a34d-4efa-8af8-7a0d9bedd240",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxycrone [11]",
             "type": "vless",
             "server": "159.203.141.231",
@@ -1422,24 +1401,24 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
-            "server": "193.151.135.21",
-            "server_port": 44443,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+            "server": "185.254.220.229",
+            "server_port": 1002,
+            "uuid": "65b71cc5-a34d-4efa-8af8-7a0d9bedd240",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "cdn.jsdelivr.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
                     "short_id": ""
                 }
             }
