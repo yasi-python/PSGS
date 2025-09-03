@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇰 DK | 🔒 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -150,9 +151,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇰 DK | 🔒 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -284,6 +286,52 @@
             }
         },
         {
+            "tag": "🇩🇰 DK | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "95.164.85.109",
+            "server_port": 59374,
+            "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
+                    "short_id": "d21e7c"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "85.158.110.62",
+            "server_port": 8443,
+            "uuid": "2c118923-b432-41ef-aa6b-5ce3ba9a414a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -327,33 +375,6 @@
                     "public_key": "a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY",
                     "short_id": "6a980a8c7d6a7919"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [57]",
-            "type": "vless",
-            "server": "65.109.218.179",
-            "server_port": 2083,
-            "uuid": "12f3c866-a401-474b-f274-e1cacbf2adce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "khamenei.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
-                    "short_id": "54602915a7"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "melov2ray"
             }
         },
         {
