@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
@@ -113,8 +114,10 @@
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [7]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
+                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [6]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
@@ -139,6 +142,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
@@ -158,8 +162,10 @@
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [7]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
+                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [6]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
@@ -274,6 +280,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2b28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [4]",
@@ -498,6 +522,42 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [5]",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2b28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2b28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @proxycrone [7]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -516,7 +576,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [147]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
             "type": "vless",
             "server": "android-config.gstatic.cyberscaler.net",
             "server_port": 443,
