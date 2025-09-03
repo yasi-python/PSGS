@@ -111,10 +111,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [7]",
@@ -161,10 +161,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [7]",
@@ -741,6 +741,29 @@
             }
         },
         {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
+            "type": "vless",
+            "server": "edge-api.cyberscaler.net",
+            "server_port": 443,
+            "uuid": "910e599d-9bdb-4704-b9f6-30904273a587",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ajax.aspnetcdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zMeFpcu-ppUKh_am7bNYWtLehvtvhjocEPP8efg1Jg4",
+                    "short_id": "9b4e2a7c1d"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [13]",
             "type": "vless",
             "server": "abri.abriabri.ir",
@@ -806,29 +829,6 @@
                     "enabled": true,
                     "public_key": "blF2p2FE_fexB29-tmU9HfVs6TwqsSQVxWAHIiP2KTk",
                     "short_id": "b28a0dd8"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @prrofile_purple [140]",
-            "type": "vless",
-            "server": "android-config.gstatic.cyberscaler.net",
-            "server_port": 443,
-            "uuid": "30bcf69c-1818-4581-988a-842f53ee6bea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl.gstatic.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zMeFpcu-ppUKh_am7bNYWtLehvtvhjocEPP8efg1Jg4",
-                    "short_id": "e3a97c5b21"
                 }
             }
         },
