@@ -1,3 +1,4 @@
+
 <?php
 
 declare(strict_types=1);
@@ -432,6 +433,15 @@ function generate_full_html(
             </div>
         </header>
 
+        <!-- START: Advertisement Banner 1 (Top Banner) -->
+        <div class="my-8 text-center">
+            <div class="bg-slate-200 dark:bg-slate-700 rounded-lg p-6 min-h-[100px] flex items-center justify-center">
+                <!-- Replace this div with your ad code -->
+                <span class="text-slate-500 dark:text-slate-400">Advertisement Banner (e.g., 728x90)</span>
+            </div>
+        </div>
+        <!-- END: Advertisement Banner 1 -->
+
         <main>
             <!-- Main Control Panel -->
             <div class="bg-white dark:bg-slate-800/50 dark:backdrop-blur-sm rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-slate-200 dark:border-slate-700 mb-8 sm:mb-10">
@@ -698,6 +708,15 @@ function generate_full_html(
     </div>
 </div>
 
+                <!-- START: Advertisement Banner 2 (Mid-Content Banner) -->
+                <div class="my-6 text-center">
+                    <div class="bg-slate-200 dark:bg-slate-700 rounded-lg p-6 min-h-[100px] flex items-center justify-center">
+                        <!-- Replace this div with your ad code -->
+                        <span class="text-slate-500 dark:text-slate-400">Advertisement Banner (e.g., 468x60 or Responsive)</span>
+                    </div>
+                </div>
+                <!-- END: Advertisement Banner 2 -->
+
                 <!-- Result Area for Simple Mode -->
                 <div id="resultArea" class="hidden bg-slate-50 dark:bg-slate-800/50 rounded-lg p-4 sm:p-6 border border-slate-200 dark:border-slate-700 mt-6">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 items-start">
@@ -751,6 +770,15 @@ function generate_full_html(
         </main>
         
         <footer class="text-center mt-12 sm:mt-16 py-6 sm:py-8 border-t border-slate-200 dark:border-slate-700">
+            <!-- START: Advertisement Banner 3 (Footer Banner) -->
+            <div class="my-6 text-center">
+                <div class="bg-slate-200 dark:bg-slate-700 rounded-lg p-6 min-h-[100px] flex items-center justify-center">
+                    <!-- Replace this div with your ad code -->
+                    <span class="text-slate-500 dark:text-slate-400">Advertisement Banner (e.g., Responsive)</span>
+                </div>
+            </div>
+            <!-- END: Advertisement Banner 3 -->
+
             <div class="flex flex-col sm:flex-row justify-center items-center gap-y-4 gap-x-6 text-slate-500 dark:text-slate-400 text-sm">
                 <p>Created with ❤️ by YEBEKHE</p>
                 <div class="flex items-center gap-x-3">
