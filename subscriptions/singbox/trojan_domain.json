@@ -106,11 +106,11 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
-                "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [1]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -147,11 +147,11 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
-                "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [1]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -517,22 +517,6 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @sobyv2ray [1]",
-            "type": "trojan",
-            "server": "x1-sweden-linode-v2-71u92.devefun.org",
-            "server_port": 1935,
-            "password": "1CvlKYj1aU",
-            "tls": {
-                "enabled": true,
-                "server_name": "x1-sweden-linode-v2-71u92.devefun.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
             "type": "trojan",
             "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
@@ -607,6 +591,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "pardazeshvpn-tg7.pages.dev",
+            "server_port": 443,
+            "password": "0ac0df1b-cfce-47b1-a286-91a0ec2fc7ef",
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg7.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2048",
+                "headers": {
+                    "Host": "pardazeshvpn-tg7.pages.dev"
                 }
             }
         },
