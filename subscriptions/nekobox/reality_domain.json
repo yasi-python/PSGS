@@ -85,7 +85,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -132,7 +131,7 @@
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [5]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [14]",
+                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇫🇷 FR | 🔒 VLESS | @server_nekobox [6]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -188,7 +187,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -235,7 +233,7 @@
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [5]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [14]",
+                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇫🇷 FR | 🔒 VLESS | @server_nekobox [6]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -490,29 +488,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 443,
-            "uuid": "c5a2bf28-999b-4517-bb2d-b6a2b5992bab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
-                    "short_id": "06c6eb7423f24de5"
-                }
             }
         },
         {
@@ -1653,7 +1628,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [13]",
             "type": "vless",
             "server": "80808.sbs",
             "server_port": 8443,
