@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [69]",
                 "🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [2]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
@@ -92,9 +93,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [4]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [6]",
@@ -317,6 +317,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [69]",
                 "🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [2]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
@@ -328,9 +329,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [4]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [6]",
@@ -648,6 +648,15 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "109.120.132.142",
+            "server_port": 40617,
+            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [1]",
             "type": "vless",
             "server": "209.38.222.192",
@@ -848,68 +857,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "95.164.68.37",
-            "server_port": 8443,
-            "uuid": "0857af62-bca8-440e-ba19-88f317763b48",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
-                    "short_id": ""
-                }
-            }
+            "server": "172.66.40.99",
+            "server_port": 80,
+            "uuid": "2a39bf1c-b568-46ef-90db-c2c9207da834",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "91.99.162.239",
-            "server_port": 443,
-            "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
+            "server": "104.16.69.78",
+            "server_port": 8880,
+            "uuid": "02811288-9ef3-42ef-86db-d9b1399c1a59",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.162.239",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "104.19.230.57",
-            "server_port": 2083,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hAstI.freeAIrLAINEs.coM",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "hAstI.freeAIrLAINEs.coM"
+                    "Host": "104.16.69.78"
                 }
             }
         },
