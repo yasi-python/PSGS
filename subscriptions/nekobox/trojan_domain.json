@@ -88,6 +88,7 @@
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "🇹🇼 TW | 🔓 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -98,7 +99,6 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -129,6 +129,7 @@
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "🇹🇼 TW | 🔓 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -139,7 +140,6 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -380,6 +380,13 @@
             }
         },
         {
+            "tag": "🇹🇼 TW | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "a.naiun.node-is.green",
+            "server_port": 52306,
+            "password": "a304a875-482e-4e48-9db5-15b4ab99beaf"
+        },
+        {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
             "type": "trojan",
             "server": "art1.history-paint.art",
@@ -583,29 +590,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [14]",
-            "type": "trojan",
-            "server": "pardazeshvpn-tg7.pages.dev",
-            "server_port": 443,
-            "password": "0ac0df1b-cfce-47b1-a286-91a0ec2fc7ef",
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg7.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@V2ray_Alpha/?ed=2048",
-                "headers": {
-                    "Host": "pardazeshvpn-tg7.pages.dev"
                 }
             }
         },

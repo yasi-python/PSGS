@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @config_proxy [30]","type":"vless","server":"95.164.68.37","port":8443,"uuid":"0857af62-bca8-440e-ba19-88f317763b48","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]","type":"vless","server":"139.59.205.214","port":27426,"uuid":"fcc1e91d-949b-4e6c-9cad-36f4f860324d","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY","short-id":"6a980a8c7d6a7919"}}
@@ -78,6 +79,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔒 VLESS | @config_proxy [30]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]'

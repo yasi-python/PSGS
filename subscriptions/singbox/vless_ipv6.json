@@ -108,7 +108,9 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @parsashonam [19]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [138]"
+                "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
+                "❔ XX | 🔒 VLESS | @v2raych [15]",
+                "❔ XX | 🔒 VLESS | @v2raych [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -135,7 +137,9 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @parsashonam [19]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [138]"
+                "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
+                "❔ XX | 🔒 VLESS | @v2raych [15]",
+                "❔ XX | 🔒 VLESS | @v2raych [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -464,6 +468,42 @@
             "uuid": "Parsashonam-305",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "[2606:4700:8dd6:8591:ba3b:8da6:e923:59df]",
+            "server_port": 443,
+            "uuid": "002a12e4-b869-47ba-b585-9c6104fe4256",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:8dd6:8591:ba3b:8da6:e923:59df]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "[2606:4700:8dd6:c1e3:90f8:a9ab:f083:d2ab]",
+            "server_port": 443,
+            "uuid": "002a12e4-b869-47ba-b585-9c6104fe4256",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:8dd6:c1e3:90f8:a9ab:f083:d2ab]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

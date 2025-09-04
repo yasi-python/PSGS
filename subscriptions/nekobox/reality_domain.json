@@ -85,6 +85,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -122,8 +123,8 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
-                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -194,6 +195,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -231,8 +233,8 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
-                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [13]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
@@ -502,6 +504,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇦🇿 AZ | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "azerbaijan.marzxox.shop",
+            "server_port": 210,
+            "uuid": "953d84ee-2985-44b9-8a69-b4d31bceab32",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1427,7 +1452,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
             "type": "vless",
             "server": "2-Join.V2RayTz.ru",
             "server_port": 443,
@@ -1450,7 +1475,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
             "type": "vless",
             "server": "edge-api.cyberscaler.net",
             "server_port": 443,
