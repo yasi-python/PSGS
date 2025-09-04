@@ -147,14 +147,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [23]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [7]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇩🇪 DE | 🔓 TROJAN | @v2raych [4]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
-                "🇭🇰 HK | 🔒 TROJAN | @v2raych [9]",
-                "🇨🇾 CY | 🔒 TROJAN | @v2raych [10]",
-                "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [3]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -254,14 +248,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [23]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [7]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇩🇪 DE | 🔓 TROJAN | @v2raych [4]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
-                "🇭🇰 HK | 🔒 TROJAN | @v2raych [9]",
-                "🇨🇾 CY | 🔒 TROJAN | @v2raych [10]",
-                "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [3]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -1528,22 +1516,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [7]",
-            "type": "trojan",
-            "server": "13.38.239.27",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
             "type": "trojan",
             "server": "135.181.253.237",
@@ -1560,117 +1532,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 TROJAN | @v2raych [4]",
+            "tag": "🚩 CF | 🔓 TROJAN | @v2raych [3]",
             "type": "trojan",
-            "server": "18.157.170.82",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns"
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-            "type": "trojan",
-            "server": "172.64.35.135",
+            "server": "104.19.148.27",
             "server_port": 443,
-            "password": "auto",
+            "password": "bpb-trojan",
             "tls": {
                 "enabled": true,
-                "server_name": "trojanmz.pages.dev",
+                "server_name": "fcspring.ggff.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/trojanmz.pages.dev/?ed=2560",
-                "headers": {
-                    "Host": "trojanmz.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [8]",
-            "type": "trojan",
-            "server": "104.20.18.121",
-            "server_port": 443,
-            "password": "auto",
-            "tls": {
-                "enabled": true,
-                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
-                "headers": {
-                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2raych [9]",
-            "type": "trojan",
-            "server": "103.252.116.138",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "tls": {
-                "enabled": true,
-                "server_name": "hk.freeguard.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾 CY | 🔒 TROJAN | @v2raych [10]",
-            "type": "trojan",
-            "server": "195.85.59.195",
-            "server_port": 2096,
-            "password": "slch2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "ocost-dy.wmlefl.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "ocost-dy.wmlefl.cc"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
-            "type": "trojan",
-            "server": "185.18.184.195",
-            "server_port": 2096,
-            "password": "slch2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "ocost-dy.wmlefl.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "ocost-dy.wmlefl.cc"
                 }
             }
         },
