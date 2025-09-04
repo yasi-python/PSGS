@@ -80,10 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -139,10 +139,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -278,6 +278,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "46.101.68.119",
+            "server_port": 1418,
+            "uuid": "60d6cc41-74a3-4740-8daa-efbb2556f8ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fjIuPlPwyFpjb4JroIq6iGpM_iU2zyg2OceRuT0hxzA",
+                    "short_id": "463eeabdea24aa"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -344,33 +367,6 @@
                     "public_key": "a9_vWuGpJlZk_1pa3iL2z3lRS5DEP13oRckgUJGPvUY",
                     "short_id": "6a980a8c7d6a7919"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [55]",
-            "type": "vless",
-            "server": "83.136.254.131",
-            "server_port": 443,
-            "uuid": "TELEGRAM-CONFiGLiNE",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dMcDsJc1oYAr-1f45ZfQLEjvkUVwTJD1R6-uWXUgUkY",
-                    "short_id": "a7cc00af65e84b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
             }
         },
         {
