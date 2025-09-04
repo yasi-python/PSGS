@@ -83,8 +83,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [39]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -141,7 +143,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [40]",
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [47]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -324,8 +326,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [39]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -382,7 +386,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [40]",
                 "🇫🇮 FI | 🔒 VLESS | @melov2ray [47]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -711,16 +715,39 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
             "type": "vless",
-            "server": "194.156.65.28",
+            "server": "161.35.71.211",
             "server_port": 443,
-            "uuid": "21792da3-074f-4d55-8a6b-4d84c5c0f682",
+            "uuid": "e4a4438f-585b-4555-b8e3-f032def5819c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.com",
+                "server_name": "161.35.71.211",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PxUNgm0eZte9F8f8ntMTADWX-37SzR",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "45.128.232.102",
+            "server_port": 16798,
+            "uuid": "3691b39b-4aa7-4f68-8304-902e4734e2f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -728,17 +755,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI",
-                    "short_id": ""
+                    "public_key": "UGm82qoVVxxTkwGLniA8C004EYPW52VG7GmdgHzwSXU",
+                    "short_id": "229b2a94"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "80.74.29.212",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "a5e78d90-d21f-4ee9-a8a7-b8140cd10341",
+            "uuid": "97c1709e-6b0b-4695-a983-71644b13f624",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -751,8 +778,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "150.241.99.63",
+            "server_port": 80,
+            "uuid": "84bdd0fc-5a87-496c-b891-0e1e54555e7b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
+                    "short_id": "5426024033df45"
                 }
             }
         },
@@ -2132,7 +2182,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "91.107.178.1",
             "server_port": 4918,
