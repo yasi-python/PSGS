@@ -85,6 +85,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -157,7 +161,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [7]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [13]",
+                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
@@ -194,6 +198,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [5]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -266,7 +274,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [7]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [13]",
+                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
@@ -502,6 +510,114 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "parrot-love.ir",
+            "server_port": 2027,
+            "uuid": "417e0f23-34b1-45c6-803d-4b596c502672",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "rep.en.xpnvip.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "rep.usa.spouver.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "rep.neth.electroluxxv.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
             }
         },
         {
@@ -2244,7 +2360,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [13]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [14]",
             "type": "vless",
             "server": "wa.sfasti.ru",
             "server_port": 443,
