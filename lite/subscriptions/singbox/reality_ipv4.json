@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -113,7 +114,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -152,6 +153,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -173,7 +175,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -284,6 +286,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "edb2ca15-c3b3-4fe1-bde3-70e58b038816",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
                 }
             }
         },
@@ -795,7 +820,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,

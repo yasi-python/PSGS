@@ -99,6 +99,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [9]",
@@ -151,6 +152,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [9]",
@@ -738,6 +740,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [14]",
+            "type": "vless",
+            "server": "de.astracat.ru",
+            "server_port": 1234,
+            "uuid": "99766fad-77bb-4b1c-a4f3-8f8028542033",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ttai5o9sL51jx8MWuQA2glnVnVRe0pzZmDbHnTzlynA",
+                    "short_id": "1A2B3C4D5E6F7890"
+                }
             }
         },
         {
