@@ -80,10 +80,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [32]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [25]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [26]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [53]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [19]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -143,10 +145,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [32]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [25]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [26]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [53]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [19]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -286,11 +290,11 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [25]",
             "type": "vless",
-            "server": "185.239.48.109",
+            "server": "103.253.43.210",
             "server_port": 8443,
-            "uuid": "90e06ea8-fce1-4a0c-b519-bde7d15d949e",
+            "uuid": "cd2baafb-c5ae-46dd-800c-febb21393781",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -303,8 +307,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [26]",
+            "type": "vless",
+            "server": "46.149.69.52",
+            "server_port": 4918,
+            "uuid": "ea03f531-04d8-402b-b95f-598ab9934933",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9x8pWtP9-IziwcCbi5ecBlWQasNRvcvUze1wmEtWkww",
+                    "short_id": "5297dc1dbb9e1a4b"
                 }
             }
         },
@@ -379,6 +406,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [53]",
+            "type": "vless",
+            "server": "65.109.183.117",
+            "server_port": 2053,
+            "uuid": "bb258ed8-6563-4644-b3d1-f24fc3318727",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UMrThJMi1keY7x1XbM11Xudyq5jhEikk8yPOWOWaSQY",
+                    "short_id": "f7f60c8f122c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY"
             }
         },
         {

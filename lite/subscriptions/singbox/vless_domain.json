@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -139,18 +140,17 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [30]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [18]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
-                "🇳🇱 NL | 🔓 VLESS | @flyv2ray [11]",
+                "🇳🇱 NL | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
+                "🇯🇵 JP | 🔒 VLESS | @free4allvpn [18]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
-                "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
                 "🇩🇪 DE | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [4]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [6]",
@@ -383,6 +383,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -429,18 +430,17 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [30]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [18]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
-                "🇳🇱 NL | 🔓 VLESS | @flyv2ray [11]",
+                "🇳🇱 NL | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
+                "🇯🇵 JP | 🔒 VLESS | @free4allvpn [18]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
-                "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
                 "🇩🇪 DE | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [4]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [6]",
@@ -762,6 +762,22 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -1571,31 +1587,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [56]",
-            "type": "vless",
-            "server": "backus1.dh03.shop",
-            "server_port": 443,
-            "uuid": "71504eaf-29ac-4190-89d1-dd9ce2c9ee14",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "backus1.dh03.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/higate",
-                "headers": {
-                    "Host": "backus1.dh03.shop"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir",
@@ -1682,7 +1673,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @flyv2ray [11]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @flyv2ray [10]",
             "type": "vless",
             "server": "www.crehistory.org",
             "server_port": 2095,
@@ -1700,20 +1691,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @free4allvpn [18]",
             "type": "vless",
-            "server": "sss31842.tas-bazi.com",
+            "server": "in-sep4th.wimax.cc",
             "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "uuid": "9f84ed30-e67b-45bb-983f-089c0f7541f7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sss31842.tas-bazi.com",
+                "server_name": "in-sep4th.wimax.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cat-photos/calico",
+                "headers": {
+                    "Host": "in-sep4th.wimax.cc"
                 }
             }
         },
@@ -1750,7 +1748,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
