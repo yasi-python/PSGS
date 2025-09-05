@@ -93,6 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70]",
                 "🇸🇬 SG | 🔓 VMESS | @argo_vpn1 [6]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
@@ -140,8 +143,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
-                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [10]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -199,6 +202,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70]",
                 "🇸🇬 SG | 🔓 VMESS | @argo_vpn1 [6]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
@@ -246,8 +252,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
-                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [10]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -385,6 +391,47 @@
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [68]",
+            "type": "vmess",
+            "server": "91.99.185.216",
+            "server_port": 20086,
+            "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [69]",
+            "type": "vmess",
+            "server": "103.61.139.137",
+            "server_port": 20521,
+            "uuid": "f8d93cfb-3d5d-447c-a697-16496dd74697",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [70]",
+            "type": "vmess",
+            "server": "15.204.234.200",
+            "server_port": 41100,
+            "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
             "security": "auto",
             "alter_id": 0
         },
@@ -1169,7 +1216,32 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [5]",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1190,22 +1262,6 @@
                 "path": "/linkvkwss",
                 "headers": {
                     "Host": "BLaZE-fRA-64.BLaZECLOuD.sitE"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [10]",
-            "type": "vmess",
-            "server": "91.99.185.216",
-            "server_port": 20086,
-            "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },

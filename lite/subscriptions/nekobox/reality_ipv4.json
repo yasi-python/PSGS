@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -130,6 +131,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -141,6 +143,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -191,6 +194,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -278,6 +282,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "94.26.228.10",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
@@ -1476,6 +1503,29 @@
                     "enabled": true,
                     "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
                     "short_id": "a4eed13ebbf2f9d2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
+            "type": "vless",
+            "server": "91.99.223.133",
+            "server_port": 443,
+            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
+                    "short_id": ""
                 }
             }
         },

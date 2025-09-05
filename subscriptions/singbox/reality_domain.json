@@ -97,6 +97,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -161,7 +162,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [7]",
+                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [4]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -198,6 +199,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -262,7 +264,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [7]",
+                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [4]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -494,6 +496,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "top.azadsb.sbs",
+            "server_port": 4918,
+            "uuid": "c2757f1f-80c0-4d5e-8d42-76727d51a6ee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9x8pWtP9-IziwcCbi5ecBlWQasNRvcvUze1wmEtWkww",
+                    "short_id": "5297dc1dbb9e1a4b"
+                }
             }
         },
         {
@@ -2052,7 +2077,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [7]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [4]",
             "type": "vless",
             "server": "wa.sfasti.ru",
             "server_port": 443,
