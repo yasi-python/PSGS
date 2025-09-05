@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 SS | @hope_net [19]",
                 "🇨🇳 CN | 🔒 SS | @mftizi [18]",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram [1]",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram [2]",
@@ -103,7 +102,8 @@
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [20]",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 [8]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [8]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [8]",
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,7 +114,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 SS | @hope_net [19]",
                 "🇨🇳 CN | 🔒 SS | @mftizi [18]",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram [1]",
                 "🇬🇧 GB | 🔒 SS | @nationalproxytelegram [2]",
@@ -125,7 +124,8 @@
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [20]",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 [8]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [8]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [8]",
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -210,14 +210,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @hope_net [19]",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇨🇳 CN | 🔒 SS | @mftizi [18]",
@@ -306,6 +298,14 @@
             "server_port": 1235,
             "method": "chacha20-ietf-poly1305",
             "password": "ImKTUQaW05UqH4fdQrvxPg"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 SS | @vpn_ioss [17]",
+            "type": "shadowsocks",
+            "server": "azjnac1.uksouth.cloudapp.azure.com",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "CePz6jepU2PGLlKB"
         }
     ],
     "route": {
