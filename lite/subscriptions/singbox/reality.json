@@ -95,6 +95,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
@@ -163,12 +164,12 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [16]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [139]",
-                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [141]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [147]",
+                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -201,6 +202,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
@@ -269,12 +271,12 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [16]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [139]",
-                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [141]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [147]",
+                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -454,6 +456,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "2144.458.854.125.3n95278zh9x6i4zi8r0r.curfuffled.com",
+            "server_port": 443,
+            "uuid": "f475cc9b-1ec9-4bb5-b48a-d19e08ca0a09",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "2144.458.854.125.3n95278zh9x6i4zi8r0r.curfuffled.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGsFvA6EJ_WutI3kRa5vdi0Qtgos6oa95lTn7oN7Pzw",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnow"
             }
         },
         {
@@ -2113,7 +2142,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
@@ -2205,7 +2234,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [139]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [147]",
             "type": "vless",
             "server": "194.156.65.28",
             "server_port": 443,
@@ -2228,7 +2257,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @prrofile_purple [141]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
             "type": "vless",
             "server": "198.199.84.91",
             "server_port": 2053,
