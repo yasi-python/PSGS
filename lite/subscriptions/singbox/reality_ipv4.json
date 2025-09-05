@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [93]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -114,6 +114,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -155,7 +156,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [93]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇳🇱 NL | 🔒 VLESS | @dalton_ping [5]",
@@ -177,6 +178,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @kingofilter [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
@@ -294,16 +296,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [93]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
             "type": "vless",
-            "server": "91.107.159.97",
-            "server_port": 443,
-            "uuid": "7c74dea1-426c-439d-8faf-afaf2c6b0077",
+            "server": "89.185.85.219",
+            "server_port": 8443,
+            "uuid": "464ec76e-fd60-4ad4-993e-d2c262f88ed1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "jd.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -311,9 +313,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "pxq_sXLY_HXTALGb_zb61Phln6mxkEN67u_ZBK2Uc3A",
-                    "short_id": "3d1fc5a13456b34a"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "41a4cee2c50c4fc3"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc-jd"
             }
         },
         {
@@ -820,6 +826,29 @@
                     "enabled": true,
                     "public_key": "jBFND69Qc1Bv9DC-z6T_9wGKZtJpitJlOm9s1Pc3Zmc",
                     "short_id": "f9"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [9]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-306",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },

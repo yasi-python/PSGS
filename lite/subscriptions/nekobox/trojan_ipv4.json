@@ -83,12 +83,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -108,12 +108,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -258,16 +258,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "167.82.30.71",
-            "server_port": 80,
-            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "104.21.36.165",
+            "server_port": 443,
+            "password": "azadnet-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "XN----PmCnaaC0dKn0Rb71NdA.PagES.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/4u7lAS4nPLtz0xPz?ed=2560",
+                "path": "/trbRb6rQQHUXO1sk03?ed=2560",
                 "headers": {
-                    "Host": "167.82.30.71"
+                    "Host": "XN----PmCnaaC0dKn0Rb71NdA.PagES.DeV"
                 }
             }
         },
@@ -343,7 +352,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [14]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [12]",
             "type": "trojan",
             "server": "188.42.88.195",
             "server_port": 2096,
