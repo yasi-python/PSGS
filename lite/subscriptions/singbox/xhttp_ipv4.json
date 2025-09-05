@@ -97,6 +97,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [12]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -114,7 +115,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
@@ -131,6 +132,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [12]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -148,7 +150,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
@@ -316,6 +318,24 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+            "type": "vless",
+            "server": "91.99.146.68",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.146.68",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
@@ -623,7 +643,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8443,

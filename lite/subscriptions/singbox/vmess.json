@@ -116,6 +116,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "❔ XX | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [13]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [15]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
@@ -141,7 +142,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
                 "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [10]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
@@ -167,7 +167,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -225,6 +226,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "❔ XX | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [13]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [15]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
@@ -250,7 +252,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
                 "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [10]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
@@ -276,7 +277,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -790,6 +792,15 @@
             "alter_id": 0
         },
         {
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "127.1.1.127",
+            "server_port": 80,
+            "uuid": "602736e4-a2e8-4eb3-9fc9-7c7082925365",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [13]",
             "type": "vmess",
             "server": "47.79.41.14",
@@ -1176,31 +1187,6 @@
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "BLaZE-fRA-64.BLaZECLOuD.sitE",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvkwss",
-                "headers": {
-                    "Host": "BLaZE-fRA-64.BLaZECLOuD.sitE"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [3]",
             "type": "vmess",
             "server": "104.17.148.22",
             "server_port": 2083,
@@ -1626,13 +1612,36 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "43.199.24.247",
-            "server_port": 3000,
-            "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/NASNET/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "91.218.143.133",
+            "server_port": 20086,
+            "uuid": "a440e0d3-d39a-4bd8-a2c4-e22a6aef96e0",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?--TELEGRAM-V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
