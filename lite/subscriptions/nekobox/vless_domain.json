@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -128,7 +127,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [30]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
@@ -139,7 +138,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+                "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
                 "🇩🇪 DE | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [4]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [6]",
@@ -372,7 +371,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @ai_duet [9]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [10]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [11]",
@@ -419,7 +417,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [30]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [32]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
@@ -430,7 +428,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+                "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
                 "🇩🇪 DE | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [4]",
                 "🚩 CF | 🔓 VLESS | @freenapsternetv [6]",
@@ -756,22 +754,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -1581,18 +1563,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "22253331-3afd-4b87-ec6f-25e995664743",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "98f0c223-cb75-4faa-859e-47110b1f052b",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iNTeRnET4EVERIeONe7.PaGes.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/olem/ws?ed=1024",
+                "path": "/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net/?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "iNTeRnET4EVERIeONe7.PaGes.DeV"
                 }
             }
         },
@@ -1751,7 +1742,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @freeconfigsplus [17]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
