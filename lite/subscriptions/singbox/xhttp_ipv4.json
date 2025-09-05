@@ -99,7 +99,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [12]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
@@ -115,7 +114,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
@@ -134,7 +132,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [12]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
@@ -150,7 +147,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
@@ -345,29 +341,6 @@
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [12]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-305",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -639,24 +612,6 @@
                     "enabled": true,
                     "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
                     "short_id": "2cc45a0088671249"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8443,
-            "uuid": "655a6041-0ab8-4a92-ad79-f0dba34f5ace",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-09.allhubb.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
