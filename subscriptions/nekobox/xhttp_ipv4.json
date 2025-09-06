@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
@@ -109,7 +110,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [2]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [136]",
@@ -132,8 +133,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -144,6 +144,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [15]",
@@ -173,7 +174,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [2]",
+                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxycrone [7]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [136]",
@@ -196,8 +197,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -286,6 +286,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "74b8015a-480e-45e9-b13f-c153bd7497b5",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
@@ -801,7 +810,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [2]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [1]",
             "type": "vless",
             "server": "104.21.48.1",
             "server_port": 443,
@@ -1267,24 +1276,6 @@
                     "enabled": true,
                     "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [8]",
-            "type": "vless",
-            "server": "91.99.213.128",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.213.128",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
