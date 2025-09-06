@@ -93,7 +93,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [3]",
@@ -130,8 +130,9 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
-                "🇱🇹 LT | 🔒 VLESS | @fastfreeconfig [52]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [53]",
+                "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [54]",
+                "🇸🇮 SI | 🔒 VLESS | @fastfreeconfig [55]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [17]",
@@ -369,7 +370,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [3]",
@@ -406,8 +407,9 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
-                "🇱🇹 LT | 🔒 VLESS | @fastfreeconfig [52]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [53]",
+                "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [54]",
+                "🇸🇮 SI | 🔒 VLESS | @fastfreeconfig [55]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [17]",
@@ -936,16 +938,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇦🇿 AZ | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "myfreexnum01tamiz.bazibazestan.ir",
-            "server_port": 443,
-            "uuid": "745e0663-483a-4817-9d7e-11190f4b3090",
+            "server": "azerbaijan.marzxox.shop",
+            "server_port": 210,
+            "uuid": "ffc1c222-bc53-4d5e-b328-d870af41ee2e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "cdn.jsdelivr.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -953,8 +955,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Mtdk_nmm5mWBlKzjIOoDXN8nL4zHL-F40WNP5e2E4ko",
-                    "short_id": "e1bc8e591c390c7c"
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
                 }
             }
         },
@@ -1569,11 +1571,52 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇱🇹 LT | 🔒 VLESS | @fastfreeconfig [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [53]",
             "type": "vless",
-            "server": "hield.ru",
+            "server": "small-meal.oneeat.co",
+            "server_port": 80,
+            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "small-meal.oneeat.co"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "axe.soyet2j.ir",
+            "server_port": 2053,
+            "uuid": "1983e26a-8bb3-40fd-86b5-f6e95d2c0037",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mojito.soyet2j.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/homepage?ed=2560",
+                "headers": {
+                    "Host": "mojito.soyet2j.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @fastfreeconfig [55]",
+            "type": "vless",
+            "server": "tunnyl.ru",
             "server_port": 443,
-            "uuid": "768be9eb-6833-4636-a1fd-0f5113628a0a",
+            "uuid": "31488877-bfde-4098-88a0-034d93dc14a2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1586,19 +1629,10 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
-                    "short_id": "06c6eb7423f24de5"
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [54]",
-            "type": "vless",
-            "server": "persianvpn.arash.sbs",
-            "server_port": 2025,
-            "uuid": "f874e932-d361-43b2-a7d8-e8fbe94599ca",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
