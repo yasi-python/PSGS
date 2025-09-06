@@ -104,8 +104,8 @@
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [2]",
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [7]",
-                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [11]",
+                "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [6]",
+                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [10]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [4]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [5]",
@@ -123,11 +123,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [23]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇪🇸 ES | 🔒 TROJAN | @v2raych [3]",
-                "🇺🇸 US | 🔒 TROJAN | @v2raych [4]",
-                "❔ XX | 🔒 TROJAN | @v2raych [11]",
-                "🇳🇱 NL | 🔓 TROJAN | @v2raych [16]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -171,8 +168,8 @@
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [2]",
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [7]",
-                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [11]",
+                "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [6]",
+                "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [10]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [4]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [5]",
@@ -190,11 +187,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [23]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇪🇸 ES | 🔒 TROJAN | @v2raych [3]",
-                "🇺🇸 US | 🔒 TROJAN | @v2raych [4]",
-                "❔ XX | 🔒 TROJAN | @v2raych [11]",
-                "🇳🇱 NL | 🔓 TROJAN | @v2raych [16]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -517,7 +511,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [7]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @netfreedom0 [6]",
             "type": "trojan",
             "server": "192.3.107.252",
             "server_port": 443,
@@ -533,7 +527,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [11]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @outlinev2rayng [10]",
             "type": "trojan",
             "server": "188.42.88.195",
             "server_port": 2096,
@@ -835,6 +829,22 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "type": "trojan",
+            "server": "3.76.18.3",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
             "type": "trojan",
             "server": "135.181.253.237",
@@ -847,82 +857,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔒 TROJAN | @v2raych [3]",
-            "type": "trojan",
-            "server": "185.251.81.195",
-            "server_port": 2096,
-            "password": "slch2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "ocost-dy.wmlefl.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳",
-                "headers": {
-                    "Host": "ocost-dy.wmlefl.cc"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @v2raych [4]",
-            "type": "trojan",
-            "server": "209.94.90.195",
-            "server_port": 2096,
-            "password": "slch2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "ocost-dy.wmlefl.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳",
-                "headers": {
-                    "Host": "ocost-dy.wmlefl.cc"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @v2raych [11]",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "password": "bbcacaa-aacb-abac-bdca-bbacaacbabcc",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 TROJAN | @v2raych [16]",
-            "type": "trojan",
-            "server": "194.60.133.108",
-            "server_port": 8080,
-            "password": "vRN8GgeWH36osjIF",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "194.60.133.108"
                 }
             }
         },
