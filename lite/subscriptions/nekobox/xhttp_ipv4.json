@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @argo_vpn1 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
@@ -100,8 +101,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,6 +113,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @argo_vpn1 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
@@ -132,8 +133,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -238,6 +238,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-306",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -593,29 +616,6 @@
                     "enabled": true,
                     "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
                     "short_id": "2cc45a0088671249"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]",
-            "type": "vless",
-            "server": "91.99.223.133",
-            "server_port": 443,
-            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
-                    "short_id": ""
                 }
             }
         }

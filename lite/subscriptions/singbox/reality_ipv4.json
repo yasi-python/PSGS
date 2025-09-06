@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [30]",
@@ -116,6 +117,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @nofiltering2 [20]",
@@ -140,7 +142,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [8]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -152,7 +153,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [30]",
@@ -176,6 +178,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [12]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @nofiltering2 [20]",
@@ -200,7 +203,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [8]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -288,11 +290,11 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "103.253.43.210",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "ecee3b52-69a0-45b4-9010-0eb3466ae7a7",
+            "uuid": "baa27699-cabd-4ca0-9b4c-54ef9f9e5c58",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -305,8 +307,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-306",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -860,6 +885,29 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "82.148.21.174",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
@@ -1432,29 +1480,6 @@
                     "enabled": true,
                     "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
                     "short_id": "a4eed13ebbf2f9d2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [15]",
-            "type": "vless",
-            "server": "91.99.223.133",
-            "server_port": 443,
-            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
-                    "short_id": ""
                 }
             }
         },
