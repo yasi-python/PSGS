@@ -116,7 +116,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇧 GB | 🔒 SS | @vmesc [8]",
-                "🇬🇧 GB | 🔒 SS | @vmesc [16]"
+                "🇬🇧 GB | 🔒 SS | @vmesc [16]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [24]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -151,7 +152,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇧 GB | 🔒 SS | @vmesc [8]",
-                "🇬🇧 GB | 🔒 SS | @vmesc [16]"
+                "🇬🇧 GB | 🔒 SS | @vmesc [16]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [24]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -436,6 +438,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "b2EJuconC460KllN"
+        },
+        {
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [24]",
+            "type": "shadowsocks",
+            "server": "entrance03.qqa678.cc",
+            "server_port": 47083,
+            "method": "aes-256-gcm",
+            "password": "e0c4345e-f943-4a45-977b-514fdec6ffe9"
         }
     ],
     "route": {
