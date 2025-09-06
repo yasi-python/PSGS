@@ -97,6 +97,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -199,6 +204,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -496,6 +506,121 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "mail.bahmannn.shop",
+            "server_port": 44016,
+            "uuid": "952f1a38-3c51-4fc2-ec9f-f3b80afb1e4c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KM787oTjqsqcyZuUmOjIUxzEiMqIuyBeDJ-mq4ZdwlA",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "uk2.ircloudmarket.com",
+            "server_port": 443,
+            "uuid": "5ca1c236-ead9-40c5-88ec-4ff8e450bdd9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "31488877-bfde-4098-88a0-034d93dc14a2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "49bb5693-cd21-4ee6-a7f7-87b541392dd7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "768be9eb-6833-4636-a1fd-0f5113628a0a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
             }
         },
         {

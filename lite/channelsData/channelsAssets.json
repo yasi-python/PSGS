@@ -116,8 +116,8 @@
     },
     "config_proxy": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -696,9 +696,9 @@
     },
     "ip_cf_config": {
         "types": [
+            "vless",
             "vmess",
             "ss",
-            "vless",
             "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1175,7 +1175,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1912,9 +1913,9 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "trojan",
             "vless",
+            "vmess",
             "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
