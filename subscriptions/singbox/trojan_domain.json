@@ -98,7 +98,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [9]",
+                "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [7]",
+                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [18]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -110,6 +111,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -138,7 +141,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [9]",
+                "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [7]",
+                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [18]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -150,6 +154,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -354,7 +360,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [9]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [7]",
             "type": "trojan",
             "server": "uk-03.allhubb.info",
             "server_port": 8443,
@@ -362,6 +368,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "uk-03.allhubb.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [18]",
+            "type": "trojan",
+            "server": "ca-sep6th.wimax.cc",
+            "server_port": 443,
+            "password": "dGaqoAFoO6",
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-sep6th.wimax.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -589,6 +611,52 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+            "type": "trojan",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "password": "Hpphpp1992@hph",
+            "tls": {
+                "enabled": true,
+                "server_name": "HPhBPB.PAgEs.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trcq4PeS5WGPat0Spm/UHJveHlJUC5ERS50cDIwMjQuQ01MaXVzc3NzLm5ldA==?ed=2560",
+                "headers": {
+                    "Host": "HPhBPB.PAgEs.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [15]",
+            "type": "trojan",
+            "server": "hphbpb.pages.dev",
+            "server_port": 443,
+            "password": "Hpphpp1992@hph",
+            "tls": {
+                "enabled": true,
+                "server_name": "HpHbpB.pAgES.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trddIjMK1ojGD8RwER/UHJveHlJUC5ERS50cDIwMjQuQ01MaXVzc3NzLm5ldA==?ed=2560",
+                "headers": {
+                    "Host": "HpHbpB.pAgES.DEv"
                 }
             }
         },
