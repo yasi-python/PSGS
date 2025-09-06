@@ -97,6 +97,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -105,10 +106,10 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [18]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -174,7 +175,6 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -200,6 +200,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -208,10 +209,10 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [18]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -277,7 +278,6 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -501,6 +501,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "xcel00x.pet0er23mh21qq.com",
+            "server_port": 2053,
+            "uuid": "bd09e50e-b127-4aec-b99c-a3d9157d034a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
+                    "short_id": "96c58a92f1dd5eaa"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -705,7 +728,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [8]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [7]",
             "type": "vless",
             "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
             "server_port": 39001,
@@ -728,7 +751,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
             "type": "vless",
             "server": "allll.primenet3.shop",
             "server_port": 3041,
@@ -774,7 +797,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "2144.458.854.125.3n95278zh9x6i4zi8r0r.curfuffled.com",
             "server_port": 443,
@@ -2396,29 +2419,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
-            "type": "vless",
-            "server": "wolf540.api-tel.ir",
-            "server_port": 36338,
-            "uuid": "d4710a65-4d89-4736-b575-917334dcfffb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WRbNyWLu_I0Mfyv6WWf4EwoE2srtKdwlUq2Z-tbJ6j4",
-                    "short_id": "82bd6d1066"
-                }
             }
         },
         {
