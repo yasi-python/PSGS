@@ -114,6 +114,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [8]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
@@ -127,8 +128,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -161,6 +161,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [8]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
@@ -174,8 +175,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🚩 CF | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -556,6 +556,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [8]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "445fde12-f6f9-4219-aba1-81480df65fd8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
             "type": "vless",
             "server": "151.101.204.190",
@@ -809,15 +818,6 @@
                     "short_id": "2cc45a0088671249"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [19]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 2052,
-            "uuid": "5dee6cfa-a6c2-48ec-b833-b072975c7177",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
