@@ -93,11 +93,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
@@ -107,8 +106,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -121,11 +119,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
@@ -135,8 +132,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -233,24 +229,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "margate.superip.ir",
-            "server_port": 3009,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "margate2.superip.ir",
-            "server_port": 3006,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -276,6 +254,29 @@
             "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "xcel00x.pet0er23mh21qq.com",
+            "server_port": 2053,
+            "uuid": "bd09e50e-b127-4aec-b99c-a3d9157d034a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
+                    "short_id": "96c58a92f1dd5eaa"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @filterk0sh [17]",
@@ -386,16 +387,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "margate.superip.ir",
-            "server_port": 3009,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "margate2.superip.ir",
             "server_port": 3006,
