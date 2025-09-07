@@ -103,8 +103,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [34]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [6]",
@@ -125,7 +124,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [29]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [49]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [18]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
@@ -167,6 +166,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇸🇬 SG | 🔓 VLESS | @ip_cf_config [16]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -344,8 +344,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [34]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [6]",
@@ -366,7 +365,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [29]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [49]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [18]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
@@ -408,6 +407,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇸🇬 SG | 🔓 VLESS | @ip_cf_config [16]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -861,52 +861,25 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "91.239.148.84",
-            "server_port": 20013,
-            "uuid": "c96c9785-fd43-4e93-aa00-b17ff8ed19ff",
-            "flow": "",
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "c2451396-9150-4061-9247-be826ed96b24",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vxh.wxgqlfx.cn",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/TG@wxgqlfx?ed=2560",
-                "headers": {
-                    "Host": "vxh.wxgqlfx.cn"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "104.21.24.161",
-            "server_port": 443,
-            "uuid": "40d11375-f419-4617-91b8-e97edf972632",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ba.ylka.us.kg",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "ba.ylka.us.kg"
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
                 }
             }
         },
@@ -1242,18 +1215,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [49]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
             "type": "vless",
-            "server": "151.101.0.223",
-            "server_port": 80,
-            "uuid": "a2514b27-7d60-44b3-b440-e8a9579510fa",
-            "flow": "",
+            "server": "91.99.199.145",
+            "server_port": 56127,
+            "uuid": "c316446d-825c-4c0e-882e-4c3badb7456d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
-                "headers": {
-                    "Host": "151.101.0.223"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iZBGYZP2PommEmcSDKWOypL3d3HWsWG7WDOh-Cuz418",
+                    "short_id": "6d26d809580dc9f7"
                 }
             }
         },
@@ -1991,6 +1971,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.31.16.98"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VLESS | @ip_cf_config [16]",
+            "type": "vless",
+            "server": "165.22.240.200",
+            "server_port": 80,
+            "uuid": "101eb13d-1f71-49c8-a46a-7fea72d96a5d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/FREE By Tharuwa (0767597317)",
+                "headers": {
+                    "Host": "165.22.240.200"
                 }
             }
         },

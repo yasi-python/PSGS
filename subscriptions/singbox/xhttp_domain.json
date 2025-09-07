@@ -95,6 +95,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [28]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [4]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -106,8 +107,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [15]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -152,6 +153,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [28]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [4]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -163,8 +165,8 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [15]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -309,6 +311,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [28]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhina.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
             "type": "vless",
             "server": "speedtest.net",
@@ -422,7 +442,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -431,7 +451,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
