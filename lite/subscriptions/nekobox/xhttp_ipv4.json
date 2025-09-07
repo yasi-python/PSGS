@@ -83,12 +83,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -100,7 +99,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,12 +114,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -131,7 +130,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -277,7 +277,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]",
             "type": "vless",
             "server": "91.99.146.68",
             "server_port": 443,
@@ -322,25 +322,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-            "type": "vless",
-            "server": "91.99.154.189",
-            "server_port": 443,
-            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.154.189",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "91.107.137.185",
             "server_port": 443,
@@ -582,6 +564,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.107.143.20",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "91.99.211.213",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.211.213",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
