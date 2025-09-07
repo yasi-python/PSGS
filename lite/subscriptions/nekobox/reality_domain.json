@@ -83,12 +83,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [25]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [17]",
+                "🇮🇱 IL | 🔒 VLESS | @ip_cf_config [16]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -96,7 +98,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇮 FI | 🔒 VLESS | @netmellianti [15]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -134,12 +136,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [25]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [17]",
+                "🇮🇱 IL | 🔒 VLESS | @ip_cf_config [16]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -147,7 +151,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇮 FI | 🔒 VLESS | @netmellianti [15]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -339,6 +343,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "nl-3.aliusvpn.ru",
+            "server_port": 8443,
+            "uuid": "719164a6-50f1-4485-a79b-2fbd9dc7bbb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wikiportal.su",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "44103f58"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -481,6 +508,29 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "8453e5fd9af927"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @ip_cf_config [16]",
+            "type": "vless",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i2pd.website",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
+                    "short_id": "55e6af1a35e64a98"
                 }
             }
         },
@@ -662,7 +712,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "2.realitysec1.ir",
             "server_port": 2689,
