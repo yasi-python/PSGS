@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [10]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -93,14 +94,13 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
+                "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +111,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [10]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -124,14 +125,13 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
+                "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -218,6 +218,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "108.162.196.159",
+            "server_port": 443,
+            "uuid": "8d65d671-e313-44ad-88b2-0a17f648fa51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "webp.yandeximage.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -426,7 +444,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
             "type": "vless",
             "server": "91.99.146.68",
             "server_port": 443,
@@ -564,24 +582,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.107.143.20",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
-            "type": "vless",
-            "server": "91.99.211.213",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.211.213",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

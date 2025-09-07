@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]",
-                "❔ XX | 🔒 HY2 | @v2raytg [52]"
+                "❔ XX | 🔒 HY2 | @config_proxy [48]",
+                "❔ XX | 🔒 HY2 | @v2raytg [52]",
+                "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]",
-                "❔ XX | 🔒 HY2 | @v2raytg [52]"
+                "❔ XX | 🔒 HY2 | @config_proxy [48]",
+                "❔ XX | 🔒 HY2 | @v2raytg [52]",
+                "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,19 +186,19 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]",
+            "tag": "❔ XX | 🔒 HY2 | @config_proxy [48]",
             "type": "hysteria2",
-            "server": "195.133.5.41",
-            "server_port": 33079,
-            "password": "9363eedf-00e9-4b14-8d66-e596b02538bc",
+            "server": "[2a12:5940:1680::2]",
+            "server_port": 45000,
+            "password": "Telegram-->@Ln2Ray",
             "obfs": {
                 "type": "salamander",
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+                "password": "Telegram-->@Ln2Ray"
             },
             "tls": {
                 "enabled": true,
-                "server_name": "195.133.5.41",
-                "insecure": true,
+                "server_name": "gavazn.55994421.xyz",
+                "insecure": false,
                 "alpn": [
                     "h3"
                 ]
@@ -215,6 +217,25 @@
             "tls": {
                 "enabled": true,
                 "server_name": "YAPC-1.afshin.ir",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 HY2 | @v2raytg [53]",
+            "type": "hysteria2",
+            "server": "195.133.5.41",
+            "server_port": 33079,
+            "password": "9363eedf-00e9-4b14-8d66-e596b02538bc",
+            "obfs": {
+                "type": "salamander",
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "195.133.5.41",
                 "insecure": true,
                 "alpn": [
                     "h3"
