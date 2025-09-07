@@ -97,9 +97,6 @@
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🇳🇱 NL | 🔒 VLESS | @config_proxy [22]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [30]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -203,6 +200,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [8]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -246,9 +245,6 @@
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🇳🇱 NL | 🔒 VLESS | @config_proxy [22]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [30]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -352,6 +348,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [8]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -566,7 +564,7 @@
             "type": "vless",
             "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "ddf3c54d-c135-4969-9a3c-e2f78c7ecac3",
+            "uuid": "289267ca-4f2d-4c67-a7c9-8b956e91ea34",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -582,83 +580,6 @@
                     "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [30]",
-            "type": "vless",
-            "server": "148.113.142.200",
-            "server_port": 2053,
-            "uuid": "cfbc5104-3679-45d1-9fab-c8a9b60152ec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
-                    "short_id": "5640288dca4f8519"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "3.142.97.230",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "91.99.70.212",
-            "server_port": 443,
-            "uuid": "a4927301-3463-4f16-8d51-9b485eef7beb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -3134,6 +3055,52 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "68.183.49.4",
+            "server_port": 2053,
+            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
+                    "short_id": "d7"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "138.124.186.202",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },
