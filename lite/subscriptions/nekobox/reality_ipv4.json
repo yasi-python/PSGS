@@ -81,11 +81,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [29]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [18]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -148,11 +149,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [29]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇳🇱 NL | 🔒 VLESS | @filterk0sh [18]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -321,9 +323,63 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "85.239.60.43",
+            "server": "3.120.108.90",
+            "server_port": 2096,
+            "uuid": "f8c93834-99a4-44e7-b476-147a3ab582d0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1MAWRB1pWGt62JZszI7ppUwukazzBbJ00i_C5CNr5jk",
+                    "short_id": "28"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "config"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "18.184.1.179",
+            "server_port": 2096,
+            "uuid": "f8c93834-99a4-44e7-b476-147a3ab582d0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1MAWRB1pWGt62JZszI7ppUwukazzBbJ00i_C5CNr5jk",
+                    "short_id": "28"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "config"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "91.242.241.45",
             "server_port": 8443,
             "uuid": "c2451396-9150-4061-9247-be826ed96b24",
             "flow": "xtls-rprx-vision",
@@ -338,7 +394,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
                     "short_id": ""
                 }
             }
@@ -409,29 +465,6 @@
                     "enabled": true,
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [52]",
-            "type": "vless",
-            "server": "91.99.199.145",
-            "server_port": 56127,
-            "uuid": "c316446d-825c-4c0e-882e-4c3badb7456d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.latimes.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iZBGYZP2PommEmcSDKWOypL3d3HWsWG7WDOh-Cuz418",
-                    "short_id": "6d26d809580dc9f7"
                 }
             }
         },

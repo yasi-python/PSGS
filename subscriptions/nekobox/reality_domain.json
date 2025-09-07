@@ -85,6 +85,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -137,6 +139,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -187,6 +190,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -239,6 +244,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -488,6 +494,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "fr.pixvpn.app",
+            "server_port": 8443,
+            "uuid": "464ec76e-fd60-4ad4-993e-d2c262f88ed1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "41a4cee2c50c4fc3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc-jd"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "none.mahi-yar.com",
+            "server_port": 7893,
+            "uuid": "25fff2dd-728f-45f7-9741-8fec20de619f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1766,6 +1822,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },
