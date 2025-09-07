@@ -93,18 +93,15 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [13]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -126,7 +123,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -138,18 +136,15 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [13]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
-                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -171,7 +166,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -267,15 +263,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "speedy.mooo.info",
-            "server_port": 80,
-            "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -319,15 +306,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-2",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -376,24 +354,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss53988.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [24]",
-            "type": "vless",
-            "server": "sss29026.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss29026.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -766,6 +726,24 @@
                     "enabled": true,
                     "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
                     "short_id": "2cc45a0088671249"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
+            "type": "vless",
+            "server": "91.107.143.20",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.143.20",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
