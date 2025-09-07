@@ -95,6 +95,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -112,13 +113,13 @@
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [9]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [8]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [1]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [3]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
@@ -151,6 +152,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -168,13 +170,13 @@
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [9]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [8]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [1]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [1]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [3]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
@@ -305,6 +307,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "ip.hostingcloud.reallyclody.ir",
+            "server_port": 2096,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rp-f.Qwpvakvsoj438.iR.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
@@ -483,25 +503,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
-            "type": "vless",
-            "server": "sss31842.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss31842.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [9]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [8]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -510,7 +512,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [12]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -590,6 +592,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "a98b1a4d-02d5-442b-a80e-928a1f7f81b4",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxycrone [1]",

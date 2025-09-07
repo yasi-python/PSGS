@@ -84,9 +84,12 @@
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [27]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [17]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
@@ -107,9 +110,12 @@
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [27]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [17]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
@@ -242,6 +248,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [27]",
+            "type": "vless",
+            "server": "sss36322.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "c93ad4ba-05d4-4afd-af65-8055bfd84544",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss36322.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [13]",
             "type": "vless",
             "server": "sss2180.tas-bazi.com",
@@ -274,6 +298,33 @@
             "server": "ips.rainoteam.store",
             "server_port": 80,
             "uuid": "6a45de8b-46e5-4da4-b242-3e18f3228087",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [17]",
+            "type": "vless",
+            "server": "ip.hostingcloud.reallyclody.ir",
+            "server_port": 2096,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rp-f.Qwpvakvsoj438.iR.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "a98b1a4d-02d5-442b-a80e-928a1f7f81b4",
             "flow": "",
             "packet_encoding": "xudp"
         },
