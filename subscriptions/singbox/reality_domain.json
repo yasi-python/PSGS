@@ -97,6 +97,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -124,11 +125,12 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [15]",
-                "🇬🇧 GB | 🔒 VLESS | @netmellianti [16]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
+                "🇳🇱 NL | 🔒 VLESS | @netmellianti [14]",
+                "🇬🇧 GB | 🔒 VLESS | @netmellianti [15]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [7]",
@@ -176,7 +178,6 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -202,6 +203,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -229,11 +231,12 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [15]",
-                "🇬🇧 GB | 🔒 VLESS | @netmellianti [16]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
+                "🇳🇱 NL | 🔒 VLESS | @netmellianti [14]",
+                "🇬🇧 GB | 🔒 VLESS | @netmellianti [15]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [7]",
@@ -281,7 +284,6 @@
                 "❔ XX | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -502,6 +504,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "ger.doorvpn.top",
+            "server_port": 8023,
+            "uuid": "b57bf118-3ab1-43ca-945f-9b4379bbd9d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs",
+                    "short_id": "0ae86db71378173b"
+                }
             }
         },
         {
@@ -1189,6 +1214,33 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [15]",
+            "type": "vless",
+            "server": "6.realitysec1.ir",
+            "server_port": 2689,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
             "type": "vless",
             "server": "all32-vip.f-sub.com",
@@ -1209,6 +1261,33 @@
                     "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "2.realitysec1.ir",
+            "server_port": 2689,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
             }
         },
         {
@@ -1235,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @netmellianti [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @netmellianti [14]",
             "type": "vless",
             "server": "3.realitysec1.ir",
             "server_port": 2689,
@@ -1262,36 +1341,9 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @netmellianti [16]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "5.realitysec1.ir",
-            "server_port": 2689,
-            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
-            "type": "vless",
-            "server": "6.realitysec1.ir",
             "server_port": 2689,
             "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
             "flow": "xtls-rprx-vision",
@@ -2458,29 +2510,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
-            "type": "vless",
-            "server": "public-hqTm.s2pp.ir",
-            "server_port": 8880,
-            "uuid": "hqV2rayNG-do",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Lb8fQTxqT1xIkPwqWlAq7ps68-9Pe-2nACOR4U0rkgs",
-                    "short_id": "4ab1cea53729"
-                }
             }
         },
         {

@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -144,6 +145,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -305,6 +307,29 @@
             "server": "91.107.141.0",
             "server_port": 23825,
             "password": "ziIjOlyGbM"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "23.227.38.208",
+            "server_port": 2053,
+            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "tls": {
+                "enabled": true,
+                "server_name": "bPB-V.pageS.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "bPB-V.pageS.dEV"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",

@@ -120,7 +120,8 @@
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇧 GB | 🔒 SS | @vmesc [13]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [15]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [15]",
+                "🇳🇱 NL | 🔒 SS | @zerobaipiao [23]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -159,7 +160,8 @@
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇧 GB | 🔒 SS | @vmesc [13]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [15]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [15]",
+                "🇳🇱 NL | 🔒 SS | @zerobaipiao [23]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -476,6 +478,14 @@
             "server_port": 47083,
             "method": "aes-256-gcm",
             "password": "e0c4345e-f943-4a45-977b-514fdec6ffe9"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @zerobaipiao [23]",
+            "type": "shadowsocks",
+            "server": "switcher-nick-croquet.freesocks.work",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9tqhMdIrTkgQ46PvhyAtMH"
         }
     ],
     "route": {
