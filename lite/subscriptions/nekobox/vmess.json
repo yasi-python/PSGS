@@ -105,6 +105,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [16]",
+                "🇫🇮 FI | 🔒 VMESS | @ip_cf_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -152,8 +154,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -212,6 +214,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [5]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🚩 CF | 🔓 VMESS | @ip_cf_config [16]",
+                "🇫🇮 FI | 🔒 VMESS | @ip_cf_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -259,8 +263,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -799,6 +803,31 @@
             "server": "mrgold.iranman.shop",
             "server_port": 52065,
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @ip_cf_config [16]",
+            "type": "vmess",
+            "server": "104.17.176.171",
+            "server_port": 8080,
+            "uuid": "vw6hjp6qlg",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/download/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VMESS | @ip_cf_config [17]",
+            "type": "vmess",
+            "server": "157.180.119.14",
+            "server_port": 2026,
+            "uuid": "6d910e6a-0d0c-4e7e-b557-97ee07b356d3",
             "security": "auto",
             "alter_id": 0
         },
@@ -1550,38 +1579,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "aeryrixsp630ww1.lovebaipiao.net",
-            "server_port": 54298,
-            "uuid": "5276ec30-a084-438d-85a0-5d9793e6ccb8",
+            "server": "51.68.191.233",
+            "server_port": 80,
+            "uuid": "f0eda072-9ae8-494c-a495-215fa5729467",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/zh",
+                "path": "/vmess/",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "89.31.120.192",
-            "server_port": 443,
-            "uuid": "44537595-9ccc-4b83-8936-5f9ad3229019",
+            "server": "s3.ipyar.org",
+            "server_port": 32020,
+            "uuid": "78b4fb57-39d7-4e9d-dd38-c9a38322bcb2",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
