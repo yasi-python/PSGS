@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [16]",
-                "🇹🇷 TR | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [7]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
@@ -119,6 +118,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
@@ -131,7 +131,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [16]",
-                "🇹🇷 TR | 🔓 VLESS | @config_proxy [46]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [7]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
@@ -169,6 +168,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
@@ -265,15 +265,6 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "application-tr-gateway.jupinn.com",
-            "server_port": 80,
-            "uuid": "fdf39264-c578-4ef8-818c-9d057f90c98e",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -831,6 +822,22 @@
                     "enabled": true,
                     "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
                     "short_id": "2cc45a0088671249"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+            "type": "trojan",
+            "server": "178.128.138.210",
+            "server_port": 443,
+            "password": "vBKpLOSYzQ",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
