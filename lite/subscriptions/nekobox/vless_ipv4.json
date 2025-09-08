@@ -91,8 +91,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [33]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -111,7 +111,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [19]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [16]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [15]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [20]",
@@ -154,6 +154,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇳🇱 NL | 🔓 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -322,8 +323,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [33]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -342,7 +343,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [19]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [16]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [15]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [20]",
@@ -385,6 +386,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇳🇱 NL | 🔓 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -833,16 +835,39 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "51.44.95.13",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "5.61.50.192",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "198.62.62.2",
+            "server_port": 443,
+            "uuid": "598b4251-fd03-48fe-b12d-630ac3adf2e5",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "ftm2.gerlemondns.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -851,27 +876,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
+                "path": "/hjgfdws",
                 "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "5.223.59.155",
-            "server_port": 443,
-            "uuid": "ed5e16c9-ef94-4b34-b95b-4cfc0c4a4b81",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "5.223.59.155",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "ftm2.gerlemondns.info"
                 }
             }
         },
@@ -1200,7 +1207,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [15]",
             "type": "vless",
             "server": "54.36.117.130",
             "server_port": 8080,
@@ -1953,6 +1960,15 @@
                     "Host": "104.31.16.98"
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @ip_cf_config [14]",
+            "type": "vless",
+            "server": "179.61.219.170",
+            "server_port": 22934,
+            "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @iran_access [13]",
