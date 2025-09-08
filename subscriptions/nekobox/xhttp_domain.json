@@ -83,7 +83,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -98,6 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -150,7 +151,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -165,6 +166,7 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -321,13 +323,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [68]",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "26b34533-c067-4f30-b33f-029809a3b030",
+            "server": "sss92681.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "54801305-3e0e-4d90-8996-b67065155465",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss92681.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
@@ -475,6 +486,15 @@
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "c8dd5664-0344-4818-a890-fb063e92089c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "26b34533-c067-4f30-b33f-029809a3b030",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [16]",
@@ -133,7 +132,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -157,8 +158,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [16]",
@@ -198,7 +198,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -298,38 +300,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [37]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
             "type": "vless",
-            "server": "91.107.143.20",
-            "server_port": 443,
-            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-            "flow": "",
+            "server": "91.99.115.171",
+            "server_port": 8080,
+            "uuid": "f33f8f0b-e520-4212-9c9b-aeefcdcc62af",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.107.143.20",
+                "server_name": "cp7.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "91.99.122.90",
-            "server_port": 443,
-            "uuid": "c93ad4ba-05d4-4afd-af65-8055bfd84544",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.122.90",
-                "insecure": true,
-                "utls": {
+                    "fingerprint": "firefox"
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8",
+                    "short_id": "a6df009b"
                 }
             }
         },
@@ -1016,20 +1005,71 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "91.107.143.20",
-            "server_port": 443,
-            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-            "flow": "",
+            "server": "91.98.138.146",
+            "server_port": 8080,
+            "uuid": "9d3be3a9-0e05-4778-9e1b-bcd1245eeb38",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.107.143.20",
+                "server_name": "cp7.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_JaeIX7rvrNgqUwSO6waouOFiXafA2uie1HYcJrJtUo",
+                    "short_id": "44980a97"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "91.99.92.127",
+            "server_port": 8080,
+            "uuid": "3478f8ea-d5c1-49c1-aebf-8dd51a2d40a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ILEnCFnhwmpSGdmwwpWf8bd8-9SR-xEn-bk0TpYe8nk",
+                    "short_id": "de8e4c556b"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "91.99.115.171",
+            "server_port": 8080,
+            "uuid": "f33f8f0b-e520-4212-9c9b-aeefcdcc62af",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8",
+                    "short_id": "a6df009b"
                 }
             }
         },
