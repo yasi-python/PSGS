@@ -100,6 +100,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [22]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -131,11 +133,9 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -179,8 +179,6 @@
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [18]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
                 "🇺🇸 US | 🔒 VLESS | @v2trayproxy [25]",
-                "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
@@ -205,6 +203,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "❔ XX | 🔒 VLESS | @expressvpn_420 [22]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -236,11 +236,9 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -284,8 +282,6 @@
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [18]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
                 "🇺🇸 US | 🔒 VLESS | @v2trayproxy [25]",
-                "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
@@ -575,6 +571,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "nama"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
+                    "short_id": "f23547"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [15]",
+            "type": "vless",
+            "server": "magazine.sentry-warrunner.xyz",
+            "server_port": 443,
+            "uuid": "14eba471-4623-4ed1-b937-f5b2206749bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrGT7bAn2UND3kx81QHACf_6qReN8V6_o70kZerONk4",
+                    "short_id": "1c547814"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers"
             }
         },
         {
@@ -1339,29 +1385,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
-            "type": "vless",
-            "server": "188.245.67.23",
-            "server_port": 4884,
-            "uuid": "ea060684-ec6c-422d-bac3-e2f11dc68680",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "business.stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3TrvJr0BfbCPdv-e4LZcUBotYcuifQZH3YER8FIZcS4",
-                    "short_id": "6d256a141a9ccb53"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1427,29 +1450,6 @@
                     "enabled": true,
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [51]",
-            "type": "vless",
-            "server": "45.38.170.28",
-            "server_port": 27780,
-            "uuid": "826486c6-c0c8-46c0-80bd-6af0d1ff212b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DUupKyQsDxX-LVMDI-Bmkphzxq31_HedIASW3GmeW0w",
-                    "short_id": "39"
                 }
             }
         },
@@ -2475,52 +2475,6 @@
                     "enabled": true,
                     "public_key": "PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8",
                     "short_id": "54c3eae868b911"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-            "type": "vless",
-            "server": "194.113.106.139",
-            "server_port": 24984,
-            "uuid": "c9e4f683-ee36-47cf-9c30-f751f1c118b5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bM_ol-LozWiGNhEGFm8xkaf4TiaOBzrG8R3kybOn2no",
-                    "short_id": "5292cb10"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-            "type": "vless",
-            "server": "128.140.35.236",
-            "server_port": 50713,
-            "uuid": "dab8ab46-5071-4d95-ac9b-bb469d6599fc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nobitex.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
-                    "short_id": "88417bc4"
                 }
             }
         },
