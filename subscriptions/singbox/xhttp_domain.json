@@ -95,7 +95,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
+                "❔ XX | 🔒 VLESS | @config_proxy [20]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -132,6 +132,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "❔ XX | 🔓 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [5]",
@@ -160,7 +161,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
+                "❔ XX | 🔒 VLESS | @config_proxy [20]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -197,6 +198,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "❔ XX | 🔓 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [5]",
@@ -325,13 +327,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [37]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [20]",
             "type": "vless",
-            "server": "Star.fastsoft98.ir",
-            "server_port": 80,
-            "uuid": "1d0b7dd4-98b1-4847-8017-98fa25f793aa",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "goat.postpapet.ir",
+            "server_port": 8443,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
@@ -741,6 +757,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [6]",
+            "type": "vless",
+            "server": "Star.fastsoft98.ir",
+            "server_port": 80,
+            "uuid": "1d0b7dd4-98b1-4847-8017-98fa25f793aa",
             "flow": "",
             "packet_encoding": "xudp"
         },
