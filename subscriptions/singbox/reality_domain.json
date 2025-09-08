@@ -97,6 +97,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -124,7 +125,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [7]",
+                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [6]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [8]",
@@ -203,6 +204,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -230,7 +232,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [7]",
+                "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [6]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [8]",
@@ -504,6 +506,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "87535ce1-9ffd-4b23-8bed-591e54246f50",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
             }
         },
         {
@@ -1191,7 +1216,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [7]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @manzariyeh_rasht [6]",
             "type": "vless",
             "server": "6.realitysec1.ir",
             "server_port": 2689,
