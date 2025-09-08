@@ -99,10 +99,11 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [49]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
@@ -133,10 +134,11 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [49]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [50]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
@@ -308,20 +310,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [49]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [50]",
             "type": "vless",
-            "server": "sss25065.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
-            "flow": "",
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sss25065.tas-bazi.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
+                    "short_id": "f23547"
                 }
             }
         },
@@ -360,6 +367,24 @@
             "uuid": "f657d830-b534-4c9e-9987-3e72df22289e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+            "type": "vless",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss25065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [8]",
