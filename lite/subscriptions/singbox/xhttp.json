@@ -99,6 +99,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [23]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -130,7 +131,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
@@ -149,6 +150,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [23]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -180,7 +182,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
@@ -338,6 +340,24 @@
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
+            "type": "vless",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss25065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [23]",
@@ -834,7 +854,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
             "type": "trojan",
             "server": "178.128.138.210",
             "server_port": 443,
