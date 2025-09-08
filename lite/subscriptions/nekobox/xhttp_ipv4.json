@@ -86,6 +86,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -115,6 +117,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -316,6 +320,42 @@
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+            "type": "vless",
+            "server": "91.98.46.139",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.98.46.139",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "91.98.35.142",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.98.35.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
