@@ -23,11 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @config_proxy [71]","type":"vless","server":"142.214.154.33","port":50656,"uuid":"60b4bff4-c1f7-4016-aa20-77b818c77f66","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"tesla.com","reality-opts":{"public-key":"T2AcKy-SX614aufq0znSBD-znVcyOmjMQ96sNdA6gkQ","short-id":"00cbcdf5d2"}}
-  - {"name":"🇸🇮 SI | 🔒 VLESS | @config_proxy [72]","type":"vless","server":"194.58.66.146","port":443,"uuid":"a2b80bbf-a95d-4116-bee4-5538000ecf9c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI","short-id":"5c0333ed45b1"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]","type":"vless","server":"51.75.162.3","port":443,"uuid":"8bf5c07a-acd3-4360-b940-62d6b77699af","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens","short-id":"370dd394052f2386"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [57]","type":"vless","server":"91.99.70.212","port":443,"uuid":"3b950794-0a46-419f-be46-f5dbc16156ec","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.cdn77.com","grpc-opts":{"grpc-service-name":"@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"},"reality-opts":{"public-key":"Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk"}}
   - {"name":"🇮🇪 IE | 🔒 VLESS | @free4allvpn [15]","type":"vless","server":"54.154.16.89","port":443,"uuid":"f4dcc4a5-e41b-4275-b9a8-fcdb697842bf","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"digikala.com","reality-opts":{"public-key":"afa58BD9R-dgUrH2ixLAZUN1IuPpWPCaxigHw1Ngj2k","short-id":"1585e8"}}
   - {"name":"🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]","type":"vless","server":"5.181.21.152","port":24170,"uuid":"6a8ee307-a1fb-4801-92e2-86253ecdd88d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw","short-id":"200f99e321"}}
   - {"name":"🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]","type":"vless","server":"146.59.116.201","port":443,"uuid":"c7060866-29f6-49b8-b13b-cf95dc4a0e79","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"convertio.co","grpc-opts":{"grpc-service-name":"@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"},"reality-opts":{"public-key":"-q5LnD8S-F7Q6khGlle_aovNZt3fhmxCYHjbWXZvdUQ","short-id":"e3b41bfe"}}
@@ -82,11 +81,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @config_proxy [71]'
-      - '🇸🇮 SI | 🔒 VLESS | @config_proxy [72]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]'
+      - '🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [57]'
       - '🇮🇪 IE | 🔒 VLESS | @free4allvpn [15]'
       - '🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]'
       - '🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]'
