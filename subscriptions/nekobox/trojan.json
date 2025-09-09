@@ -112,12 +112,11 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [9]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
-                "🇯🇵 JP | 🔒 TROJAN | @hope_net [15]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -149,7 +148,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇸🇪 SE | 🔒 TROJAN | @v2raych [8]",
+                "🇯🇵 JP | 🔒 TROJAN | @v2raych [9]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [13]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -215,12 +216,11 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [9]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
-                "🇯🇵 JP | 🔒 TROJAN | @hope_net [15]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [7]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -252,7 +252,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇸🇪 SE | 🔒 TROJAN | @v2raych [8]",
+                "🇯🇵 JP | 🔒 TROJAN | @v2raych [9]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [13]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -941,53 +943,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "104.21.92.73",
-            "server_port": 443,
-            "password": "dns68",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.putata.us.kg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "trojan.putata.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "104.20.21.187",
-            "server_port": 443,
-            "password": "auto",
-            "tls": {
-                "enabled": true,
-                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
-                "headers": {
-                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [9]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [7]",
             "type": "trojan",
             "server": "104.21.108.193",
             "server_port": 443,
@@ -1003,7 +959,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [10]",
+            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [8]",
             "type": "trojan",
             "server": "18.183.72.200",
             "server_port": 443,
@@ -1019,7 +975,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [10]",
             "type": "trojan",
             "server": "172.67.204.84",
             "server_port": 8443,
@@ -1042,7 +998,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 TROJAN | @hope_net [15]",
+            "tag": "🇯🇵 JP | 🔒 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "46.232.57.180",
             "server_port": 3333,
@@ -1054,6 +1010,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.21.7.153",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb.macser.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "bpb.macser.us.kg"
                 }
             }
         },
@@ -1607,14 +1586,46 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @v2raych [8]",
+            "tag": "🇯🇵 JP | 🔒 TROJAN | @v2raych [9]",
             "type": "trojan",
-            "server": "16.171.76.41",
+            "server": "54.249.161.173",
+            "server_port": 443,
+            "password": "8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3",
+            "tls": {
+                "enabled": true,
+                "server_name": "sniffle.meijireform.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "18.169.141.233",
             "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "46.232.54.161",
+            "server_port": 3333,
+            "password": "eb0c0b71-20d5-43b3-8c44-3e63e3fdd1a6",
+            "tls": {
+                "enabled": true,
+                "server_name": "yxhkhy1.yuwenle.vip",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

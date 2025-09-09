@@ -131,12 +131,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
@@ -165,7 +163,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔒 VLESS | @orange_vpns [14]",
                 "🇬🇧 GB | 🔒 VLESS | @orange_vpns [15]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [16]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [14]",
+                "🇪🇸 ES | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -237,12 +236,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
@@ -271,7 +268,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔒 VLESS | @orange_vpns [14]",
                 "🇬🇧 GB | 🔒 VLESS | @orange_vpns [15]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [16]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [14]",
+                "🇪🇸 ES | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -1333,29 +1331,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
-            "type": "vless",
-            "server": "209.38.235.111",
-            "server_port": 443,
-            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1444,29 +1419,6 @@
                     "enabled": true,
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [51]",
-            "type": "vless",
-            "server": "91.99.129.105",
-            "server_port": 33667,
-            "uuid": "7a3d2e42-3823-4b00-9818-293f7c6742ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "urkddCRB1-01SWciigBk31sfccR6KZr4wX_BInUHu3o",
-                    "short_id": "382874842551202c"
                 }
             }
         },
@@ -2135,7 +2087,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [16]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [14]",
             "type": "vless",
             "server": "103.175.79.2",
             "server_port": 443,
@@ -2154,6 +2106,29 @@
                     "enabled": true,
                     "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @proxy_mtproto_vpns_free [14]",
+            "type": "vless",
+            "server": "194.87.45.106",
+            "server_port": 443,
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OwBInmgIQ7Lt8J4noI304QjBQAccErkPDbMEcMweh0c",
+                    "short_id": "518e46e1"
                 }
             }
         },
