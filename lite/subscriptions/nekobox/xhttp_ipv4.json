@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [52]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -90,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
@@ -110,7 +110,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
+                "🚩 CF | 🔒 VLESS | @fastfreeconfig [52]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -120,7 +121,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
-                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
@@ -220,7 +220,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "040ec06e-60c8-4818-a46e-eb17cf310606",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sauron.melkore.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "91.99.115.171",
             "server_port": 8080,
@@ -393,29 +411,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [12]",
-            "type": "vless",
-            "server": "178.128.138.210",
-            "server_port": 443,
-            "uuid": "c0e0f2b4-0550-49b2-8231-efde819bd8e1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9ikzRJ5rL2e3cErzU03KCM8BkRpgSaWX6bwh9YMCmFY",
-                    "short_id": "a00a4ad4de"
                 }
             }
         },

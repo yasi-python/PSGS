@@ -96,8 +96,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [46]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -107,6 +105,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [14]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [15]",
@@ -145,10 +144,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [4]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [1]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [2]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -164,8 +162,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [46]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
@@ -175,6 +171,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [14]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [15]",
@@ -213,10 +210,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [4]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [1]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [2]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -340,38 +336,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "176bf635-b72a-4569-b0e5-b79af7d9332c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "filmnet.filimnet.com",
-            "server_port": 80,
-            "uuid": "7d7d135e-8c1c-4c09-8d29-b9498e25f759",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [3]",
             "type": "vless",
             "server": "speedtest.net",
@@ -451,6 +415,29 @@
             "uuid": "1f8626cd-5c2e-4887-b906-75396cde1423",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "176bf635-b72a-4569-b0e5-b79af7d9332c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
@@ -995,16 +982,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [1]",
-            "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "a12c7913-8c9a-4773-a578-51420e393538",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [3]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [1]",
             "type": "vless",
             "server": "margate.superip.ir",
             "server_port": 3009,
@@ -1013,7 +991,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [4]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [2]",
             "type": "vless",
             "server": "margate2.superip.ir",
             "server_port": 3006,
@@ -1022,7 +1000,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
             "type": "vless",
             "server": "EVAY_VPN.fastly80.hosting-ip.com",
             "server_port": 80,

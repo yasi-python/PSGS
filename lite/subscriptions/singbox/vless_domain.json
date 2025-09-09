@@ -105,6 +105,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [15]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -141,13 +142,12 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇵🇱 PL | 🔓 VLESS | @falcunargo [10]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
@@ -168,6 +168,7 @@
                 "❔ XX | 🔓 VLESS | @goodbyefiltering [8]",
                 "🇫🇮 FI | 🔓 VLESS | @grizzlyvpn [5]",
                 "❔ XX | 🔓 VLESS | @guard_revil [1]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [16]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -372,6 +373,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [15]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -408,13 +410,12 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇵🇱 PL | 🔓 VLESS | @falcunargo [10]",
-                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
@@ -435,6 +436,7 @@
                 "❔ XX | 🔓 VLESS | @goodbyefiltering [8]",
                 "🇫🇮 FI | 🔓 VLESS | @grizzlyvpn [5]",
                 "❔ XX | 🔓 VLESS | @guard_revil [1]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [16]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -917,6 +919,31 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2096,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "6Dd1Xt31Qm.SoLeNtRaA.iNfO",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "6Dd1Xt31Qm.SoLeNtRaA.iNfO"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1541,20 +1568,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [51]",
             "type": "vless",
-            "server": "cafearz.com",
-            "server_port": 8080,
-            "uuid": "0518ca46-4313-45ce-df4d-5268c1b30cf2",
+            "server": "EVAY_VPN.fAst.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "2dac3536-244a-4558-9ab9-ab9ae34638c1",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "cafearz.com"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
@@ -1632,15 +1652,6 @@
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
-            "type": "vless",
-            "server": "yde2.rayengame.com",
-            "server_port": 625,
-            "uuid": "6529058d-710b-4c77-8d21-9cbfab6511a6",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1926,6 +1937,33 @@
             "uuid": "10e7b4a9-1f80-48e2-b504-4da2c8415746",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [16]",
+            "type": "vless",
+            "server": "magazine.sentry-warrunner.xyz",
+            "server_port": 443,
+            "uuid": "14eba471-4623-4ed1-b937-f5b2206749bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrGT7bAn2UND3kx81QHACf_6qReN8V6_o70kZerONk4",
+                    "short_id": "1c547814"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers"
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @iran_access [12]",
