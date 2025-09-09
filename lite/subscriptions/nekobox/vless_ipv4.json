@@ -92,6 +92,8 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [17]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -111,7 +113,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
+                "🇸🇪 SE | 🔓 VLESS | @fastfreeconfig [53]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @filterk0sh [20]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [21]",
@@ -154,6 +156,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇺🇸 US | 🔓 VLESS | @ip_cf_config [13]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -324,6 +327,8 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [17]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -343,7 +348,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
+                "🇸🇪 SE | 🔓 VLESS | @fastfreeconfig [53]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @filterk0sh [20]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [21]",
@@ -386,6 +391,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
+                "🇺🇸 US | 🔓 VLESS | @ip_cf_config [13]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -842,6 +848,52 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "142.214.154.33",
+            "server_port": 50656,
+            "uuid": "60b4bff4-c1f7-4016-aa20-77b818c77f66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tesla.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T2AcKy-SX614aufq0znSBD-znVcyOmjMQ96sNdA6gkQ",
+                    "short_id": "00cbcdf5d2"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "194.58.66.146",
+            "server_port": 443,
+            "uuid": "a2b80bbf-a95d-4116-bee4-5538000ecf9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1178,27 +1230,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [56]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @fastfreeconfig [53]",
             "type": "vless",
-            "server": "103.175.79.10",
-            "server_port": 443,
-            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
-                    "short_id": ""
-                }
-            }
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-306",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @father_vpn [2]",
@@ -1927,6 +1965,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.31.16.98"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @ip_cf_config [13]",
+            "type": "vless",
+            "server": "63.141.128.31",
+            "server_port": 80,
+            "uuid": "00a87d0f-6eb9-4b10-9793-7b8bd4553617",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "63.141.128.31"
                 }
             }
         },

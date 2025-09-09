@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇺🇸 US | 🔒 VLESS | @config_proxy [43]","type":"vless","server":"142.214.154.33","port":50656,"uuid":"60b4bff4-c1f7-4016-aa20-77b818c77f66","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"tesla.com","reality-opts":{"public-key":"T2AcKy-SX614aufq0znSBD-znVcyOmjMQ96sNdA6gkQ","short-id":"00cbcdf5d2"}}
+  - {"name":"🇸🇮 SI | 🔒 VLESS | @config_proxy [44]","type":"vless","server":"194.58.66.146","port":443,"uuid":"a2b80bbf-a95d-4116-bee4-5538000ecf9c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI","short-id":"5c0333ed45b1"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]","type":"vless","server":"51.75.162.3","port":443,"uuid":"8bf5c07a-acd3-4360-b940-62d6b77699af","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens","short-id":"370dd394052f2386"}}
@@ -79,6 +81,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | 🔒 VLESS | @config_proxy [43]'
+      - '🇸🇮 SI | 🔒 VLESS | @config_proxy [44]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]'
