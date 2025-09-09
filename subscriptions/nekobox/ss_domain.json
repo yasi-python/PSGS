@@ -85,6 +85,7 @@
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [11]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [13]",
                 "🇬🇧 GB | 🔒 SS | @freevirgoolnet [1]",
+                "❔ XX | 🔒 SS | @hope_net [19]",
                 "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
                 "🇮🇷 IR | 🔒 SS | @jeyksatan [7]",
                 "🇬🇧 GB | 🔒 SS | @jeyksatan [8]",
@@ -100,13 +101,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [14]",
+                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [13]",
                 "🇩🇪 DE | 🔒 SS | @v2ray_sub [19]",
-                "🇮🇷 IR | 🔒 SS | @v2raych [18]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [2]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [1]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,6 +122,7 @@
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [11]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [13]",
                 "🇬🇧 GB | 🔒 SS | @freevirgoolnet [1]",
+                "❔ XX | 🔒 SS | @hope_net [19]",
                 "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
                 "🇮🇷 IR | 🔒 SS | @jeyksatan [7]",
                 "🇬🇧 GB | 🔒 SS | @jeyksatan [8]",
@@ -137,13 +138,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [14]",
+                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [13]",
                 "🇩🇪 DE | 🔒 SS | @v2ray_sub [19]",
-                "🇮🇷 IR | 🔒 SS | @v2raych [18]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
-                "🇨🇳 CN | 🔒 SS | @zerobaipiao [2]"
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [1]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -274,6 +274,14 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
+            "tag": "❔ XX | 🔒 SS | @hope_net [19]",
+            "type": "shadowsocks",
+            "server": "iepl1.forlive.live",
+            "server_port": 50101,
+            "method": "chacha20-ietf-poly1305",
+            "password": "0d26245c-8019-3746-ab2e-54a1a0d502a8"
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
@@ -394,7 +402,7 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [14]",
+            "tag": "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [13]",
             "type": "shadowsocks",
             "server": "lv.vpnsparta.pro",
             "server_port": 57456,
@@ -408,14 +416,6 @@
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "fe166c5b3465540f"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 SS | @v2raych [18]",
-            "type": "shadowsocks",
-            "server": "ir.npvnot.com",
-            "server_port": 11083,
-            "method": "aes-256-gcm",
-            "password": "NWMxNDhjZTA0MmEyNGFmMmQ3YmZlYTM1ZjgxOGM1"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
@@ -442,7 +442,7 @@
             "password": "ksg929BWf1K220dG"
         },
         {
-            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [2]",
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [1]",
             "type": "shadowsocks",
             "server": "entrance03.qqa678.cc",
             "server_port": 47083,
