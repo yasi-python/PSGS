@@ -97,9 +97,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [24]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [31]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -109,7 +109,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
@@ -207,9 +207,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [24]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [31]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -219,7 +219,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
@@ -515,16 +515,16 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [24]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server": "a.de.maviks.ru",
             "server_port": 443,
-            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "uuid": "56ae7ef3-8e6d-4d38-9338-6b1397abde86",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "i2pd.website",
+                "server_name": "www.microsoft.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -532,45 +532,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
-                    "short_id": "55e6af1a35e64a98"
+                    "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+                    "short_id": "f203719d3ff9a5f5"
                 }
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [31]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "tr.vipclubiran.ir",
-            "server_port": 47193,
-            "uuid": "8fd2252e-103a-41ed-8e9a-e2f741f904fa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Q9KrxctP_L5fT1sL_sQLejDpNn7KdH1b-wZ_GR0UtX4",
-                    "short_id": "f414e49bc35be542"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "fr.aerogd.org",
+            "server": "a.ru.maviks.ru",
             "server_port": 443,
-            "uuid": "2e18f22d-db34-4ac2-b190-47849c185ac5",
+            "uuid": "fa0afc09-73ee-4b65-bc18-a90c0138b5f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zjvjk4.workspacefiles.com",
+                "server_name": "maviks.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -578,8 +555,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "OMjorrdIZKdYHwNtHQKQCaJFNLsHumS1IdhZnioDeBk",
-                    "short_id": "aaca94aa121ab49d"
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "2hmoch3q.tree-top.cc",
+            "server_port": 443,
+            "uuid": "1911b201-0987-4c72-a09c-e61163631c27",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+                    "short_id": "21181028b56c8702"
                 }
             }
         },
@@ -811,7 +811,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "order.dissertationhelpspecialist.com",
             "server_port": 443,

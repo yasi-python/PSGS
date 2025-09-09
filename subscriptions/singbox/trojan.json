@@ -124,7 +124,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇪 IE | 🔓 TROJAN | @hope_net [9]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -155,6 +154,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [1]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -220,7 +220,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [5]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇪 IE | 🔓 TROJAN | @hope_net [9]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -251,6 +250,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇭🇰 HK | 🔒 TROJAN | @v2ray_collector [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [1]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -935,13 +935,6 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇮🇪 IE | 🔓 TROJAN | @hope_net [9]",
-            "type": "trojan",
-            "server": "79.125.78.127",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns"
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
             "type": "trojan",
             "server": "185.176.24.2",
@@ -1464,6 +1457,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [1]",
+            "type": "trojan",
+            "server": "108.162.198.69",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "fcspring.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tr?ed",
+                "headers": {
+                    "Host": "fcspring.ggff.net"
                 }
             }
         },

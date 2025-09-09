@@ -24,6 +24,9 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]","type":"vless","server":"qwert.blog","port":443,"uuid":"e0f5135c-b407-4530-baab-be4f51cc6027","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"real.qwert.blog","reality-opts":{"public-key":"GldzvpoHVgXvQQWfUVvipXFo2Jl0uyHz8hDgpikibBQ","short-id":"44baee35266d"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @config_proxy [41]","type":"vless","server":"a.de.maviks.ru","port":443,"uuid":"56ae7ef3-8e6d-4d38-9338-6b1397abde86","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo","short-id":"f203719d3ff9a5f5"}}
+  - {"name":"🇷🇺 RU | 🔒 VLESS | @config_proxy [42]","type":"vless","server":"a.ru.maviks.ru","port":443,"uuid":"fa0afc09-73ee-4b65-bc18-a90c0138b5f1","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"maviks.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ","short-id":"0f917152a871e9c0"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @config_proxy [43]","type":"vless","server":"2hmoch3q.tree-top.cc","port":443,"uuid":"1911b201-0987-4c72-a09c-e61163631c27","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.apple.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ","short-id":"21181028b56c8702"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [8]","type":"vless","server":"s1.aparat-movies-download.ir","port":4450,"uuid":"a19f4213-fcb8-4384-9c85-cb51cae8ab8b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"}}
   - {"name":"❔ XX | 🔒 VLESS | @custom_14 [8]","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]","type":"vless","server":"zonex.de.zopli.ir","port":33667,"uuid":"7a3d2e42-3823-4b00-9818-293f7c6742ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"store.steampowered.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"urkddCRB1-01SWciigBk31sfccR6KZr4wX_BInUHu3o","short-id":"382874842551202c"}}
@@ -72,6 +75,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔒 VLESS | @avaalvpn [4]'
+      - '🇩🇪 DE | 🔒 VLESS | @config_proxy [41]'
+      - '🇷🇺 RU | 🔒 VLESS | @config_proxy [42]'
+      - '🇳🇱 NL | 🔒 VLESS | @config_proxy [43]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [8]'
       - '❔ XX | 🔒 VLESS | @custom_14 [8]'
       - '🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]'
