@@ -86,7 +86,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [10]",
+                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [3]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -98,7 +98,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔓 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [9]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -127,7 +127,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [10]",
+                "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [3]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
@@ -139,7 +139,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔓 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [9]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -348,7 +348,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [10]",
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @free4allvpn [3]",
             "type": "trojan",
             "server": "ca-sep6th.wimax.cc",
             "server_port": 443,
@@ -587,11 +587,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @v2raych [11]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [9]",
             "type": "trojan",
-            "server": "svip.88de.hongxingdl.vip",
-            "server_port": 18147,
-            "password": "32ec77ea-c54c-405a-add3-dea6b579c853"
+            "server": "aio.proxybox.dpdns.org",
+            "server_port": 443,
+            "password": "318cab24-ec99-40a6-a54a-0db9c661a3d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "aio.proxybox.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/188.34.160.97-2053",
+                "headers": {
+                    "Host": "aio.proxybox.dpdns.org"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
