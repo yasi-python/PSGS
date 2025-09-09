@@ -89,7 +89,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [12]",
+                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -120,7 +120,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [12]",
+                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -389,25 +389,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [12]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
             "type": "trojan",
-            "server": "108.162.198.69",
-            "server_port": 443,
-            "password": "bpb-trojan",
+            "server": "13.36.17.197",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
-                "server_name": "fcspring.ggff.net",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tr?ed",
-                "headers": {
-                    "Host": "fcspring.ggff.net"
                 }
             }
         },

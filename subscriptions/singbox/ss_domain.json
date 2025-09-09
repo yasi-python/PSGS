@@ -116,7 +116,8 @@
                 "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -151,7 +152,8 @@
                 "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -436,6 +438,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "ksg929BWf1K220dG"
+        },
+        {
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [9]",
+            "type": "shadowsocks",
+            "server": "entrance03.qqa678.cc",
+            "server_port": 47083,
+            "method": "aes-256-gcm",
+            "password": "e0c4345e-f943-4a45-977b-514fdec6ffe9"
         }
     ],
     "route": {
