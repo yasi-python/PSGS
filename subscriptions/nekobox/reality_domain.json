@@ -85,7 +85,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [64]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -97,7 +99,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [15]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
@@ -144,7 +145,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -196,7 +196,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [64]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -208,7 +210,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇷🇺 RU | 🔒 VLESS | @filterk0sh [15]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [2]",
@@ -255,7 +256,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -509,11 +509,11 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "zZz.ZzZ.zZz.yasharteam.com",
-            "server_port": 443,
-            "uuid": "167dd1d0-930c-4d19-a288-66c461f5f463",
+            "server": "services.dissertationhelpspecialist.com",
+            "server_port": 8443,
+            "uuid": "e062bb9d-170b-4545-b4df-6590af05f845",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -526,8 +526,58 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "1uJxq_S0vz0bi1bBzy3i-r3vcvjMt9CRB6OpPCr0yFk",
+                    "short_id": "a739e76c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet-netmet"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "173e1c5c-e9d7-49d1-aba1-582f0070fd93",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "bfb3d71f-de3f-4e51-bc9b-48a917029149",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
                 }
             }
         },
@@ -802,33 +852,6 @@
                     "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
                     "short_id": "077dc29a23d311f2"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
-            "type": "vless",
-            "server": "order.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "24ae8efc-9b2c-46de-9663-8d9922424656",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
-                    "short_id": "3da49e0b43"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         },
         {
@@ -1961,29 +1984,6 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
-            "type": "vless",
-            "server": "deu246.bypassall.org",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },
