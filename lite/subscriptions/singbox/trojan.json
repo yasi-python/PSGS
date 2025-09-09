@@ -101,10 +101,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
@@ -132,10 +130,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
@@ -397,22 +393,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [14]",
-            "type": "trojan",
-            "server": "13.36.201.87",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -448,29 +428,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
-            "type": "trojan",
-            "server": "172.67.156.25",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "aio.zipzap.biz.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aioproxybot/129.150.49.58-18650",
-                "headers": {
-                    "Host": "aio.zipzap.biz.id"
                 }
             }
         },

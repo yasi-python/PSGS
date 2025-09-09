@@ -80,13 +80,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
@@ -112,13 +113,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
@@ -224,6 +226,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "91.99.92.127",
+            "server_port": 8080,
+            "uuid": "3478f8ea-d5c1-49c1-aebf-8dd51a2d40a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ILEnCFnhwmpSGdmwwpWf8bd8-9SR-xEn-bk0TpYe8nk",
+                    "short_id": "de8e4c556b"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
             "type": "vless",
             "server": "91.99.122.90",
@@ -324,7 +349,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "91.99.215.74",
             "server_port": 443,
