@@ -118,8 +118,8 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
+                "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [16]",
@@ -160,7 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [17]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
+                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -214,8 +214,8 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
+                "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [16]",
@@ -256,7 +256,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [17]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
+                "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -1282,6 +1282,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
+            "type": "vless",
+            "server": "138.124.186.202",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
             "type": "vless",
             "server": "51.75.162.3",
@@ -1302,33 +1325,6 @@
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
-            "type": "vless",
-            "server": "91.99.70.212",
-            "server_port": 443,
-            "uuid": "3b950794-0a46-419f-be46-f5dbc16156ec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
             }
         },
         {
@@ -2288,7 +2284,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
             "type": "vless",
             "server": "40.233.102.224",
             "server_port": 42557,
