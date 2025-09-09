@@ -100,10 +100,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [7]",
+                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [6]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_sub [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -134,10 +136,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [7]",
+                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [6]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_sub [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [13]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [10]",
+                "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -388,12 +392,20 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [7]",
+            "tag": "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [6]",
             "type": "shadowsocks",
             "server": "imap.roomyinmita.name",
             "server_port": 40565,
             "method": "chacha20-ietf-poly1305",
             "password": "2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @v2ray_sub [19]",
+            "type": "shadowsocks",
+            "server": "desrv.ssvpnapp.win",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "fe166c5b3465540f"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
@@ -418,6 +430,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "ksg929BWf1K220dG"
+        },
+        {
+            "tag": "🇨🇳 CN | 🔒 SS | @zerobaipiao [10]",
+            "type": "shadowsocks",
+            "server": "entrance03.qqa678.cc",
+            "server_port": 47083,
+            "method": "aes-256-gcm",
+            "password": "e0c4345e-f943-4a45-977b-514fdec6ffe9"
         }
     ],
     "route": {
