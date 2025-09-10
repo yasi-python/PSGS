@@ -95,7 +95,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [14]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -136,6 +136,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
@@ -214,7 +215,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [14]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -255,6 +256,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
@@ -561,7 +563,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -1141,6 +1143,29 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "167.99.143.25",
+            "server_port": 443,
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @evay_vpn [13]",
