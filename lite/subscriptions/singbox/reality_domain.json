@@ -101,6 +101,7 @@
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -109,10 +110,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇬🇧 GB | 🔒 VLESS | @outlinev2rayng [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -153,6 +152,7 @@
                 "🇲🇩 MD | 🔒 VLESS | @ehsawn8 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -161,10 +161,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇬🇧 GB | 🔒 VLESS | @outlinev2rayng [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -491,6 +489,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
+            "type": "vless",
+            "server": "pqh26v7.whatstrue.shop",
+            "server_port": 1001,
+            "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+                    "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
             "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -695,29 +716,6 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @outlinev2rayng [11]",
-            "type": "vless",
-            "server": "looutintl.outline360bot.com",
-            "server_port": 443,
-            "uuid": "2b3b9457-d4df-415c-b9be-189e8546f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU",
-                    "short_id": "ad2e"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -765,29 +763,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
-            "type": "vless",
-            "server": "pqh26v7.whatstrue.shop",
-            "server_port": 1001,
-            "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "telewebion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
-                    "short_id": "5fab0deb"
-                }
             }
         },
         {
