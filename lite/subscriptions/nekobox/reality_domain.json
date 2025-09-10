@@ -83,6 +83,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [2]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
@@ -90,8 +91,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [13]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -100,6 +101,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
+                "🇮🇱 IL | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -135,6 +138,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [2]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]",
@@ -142,8 +146,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [13]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -152,6 +156,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
+                "🇮🇱 IL | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -341,6 +347,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "dash.interela.shop",
+            "server_port": 20306,
+            "uuid": "21c662f5-ef06-41d8-9f5c-fd4e3a79e710",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jlcVrvv5r2hiyrBHaWe3Pl1RGnXA9pJkbR3quN6pXlU",
+                    "short_id": "a16d"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -506,7 +535,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [13]",
             "type": "vless",
             "server": "pqh26v7.whatstrue.shop",
             "server_port": 1001,
@@ -529,7 +558,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -753,6 +782,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "wa.sfasti.ru",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @outlinev2rayng [14]",
+            "type": "vless",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i2pd.website",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
+                    "short_id": "55e6af1a35e64a98"
+                }
             }
         },
         {
