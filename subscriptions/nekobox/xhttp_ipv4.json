@@ -90,10 +90,10 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [8]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [9]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [15]",
@@ -119,6 +119,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_sub [8]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇨🇦 CA | 🔓 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -150,10 +151,10 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [8]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [9]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [15]",
@@ -179,6 +180,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_sub [8]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇨🇦 CA | 🔓 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -434,7 +436,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "91.99.115.171",
             "server_port": 8880,
@@ -466,7 +468,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
             "type": "vless",
             "server": "91.98.46.139",
             "server_port": 443,
@@ -484,7 +486,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [11]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [10]",
             "type": "vless",
             "server": "91.98.35.142",
             "server_port": 443,
@@ -970,6 +972,24 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "139.177.199.49",
+            "server_port": 443,
+            "uuid": "b4df5662-9ae5-4e49-a042-353ac99fd572",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "139.177.199.49",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
