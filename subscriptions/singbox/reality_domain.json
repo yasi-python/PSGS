@@ -97,6 +97,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -205,6 +206,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -508,6 +510,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "pl.panelmarzban.com",
+            "server_port": 3038,
+            "uuid": "08016b13-fb33-4b61-9608-cf79d5e27414",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
             }
         },
         {
