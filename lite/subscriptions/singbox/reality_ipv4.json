@@ -92,11 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
@@ -155,11 +155,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
-                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
@@ -294,6 +294,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "104.236.78.72",
+            "server_port": 2053,
+            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
+                    "short_id": "d7"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -383,33 +406,6 @@
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [55]",
-            "type": "vless",
-            "server": "62.60.247.164",
-            "server_port": 443,
-            "uuid": "360d6959-6375-447c-a602-32a43f6589fa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Q5wQ-CFit2wmpY4ACfqdZI8CClmPn4sfLXXdpW73PS0",
-                    "short_id": "d5c5c558ee0132"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy"
             }
         },
         {

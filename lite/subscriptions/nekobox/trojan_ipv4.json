@@ -83,7 +83,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
+                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -92,8 +92,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,7 +106,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
+                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -116,8 +115,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -256,14 +254,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [15]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
             "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "server": "195.22.157.104",
+            "server_port": 48677,
+            "password": "1sbtkLK7F3",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
+                "server_name": "joon.arshiacomplus.dpdns.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -272,9 +270,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Stupid-World/103.106.228.126-2053",
+                "path": "/ewrf4d453",
                 "headers": {
-                    "Host": "vpn.stupidworld.web.id"
+                    "Host": "joon.arshiacomplus.dpdns.org"
                 }
             }
         },
@@ -426,29 +424,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]",
-            "type": "trojan",
-            "server": "195.22.157.104",
-            "server_port": 48677,
-            "password": "1sbtkLK7F3",
-            "tls": {
-                "enabled": true,
-                "server_name": "joon.arshiacomplus.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ewrf4d453",
-                "headers": {
-                    "Host": "joon.arshiacomplus.dpdns.org"
                 }
             }
         }
