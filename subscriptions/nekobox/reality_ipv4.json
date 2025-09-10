@@ -85,8 +85,7 @@
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -195,7 +194,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -243,8 +241,7 @@
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -353,7 +350,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -599,16 +595,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "80.74.29.212",
-            "server_port": 8443,
-            "uuid": "f1f688c8-2578-444f-9c88-670721680e93",
+            "server": "113.192.61.161",
+            "server_port": 30005,
+            "uuid": "4ac48210-29a4-480b-88f8-4bc736d7aa0c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "www.paypal.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -616,31 +612,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "public_key": "tgZQgdTPF_ylfbJUYbU-Z9tyAF5NGIQeZrqqEJDHbE8",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "104.236.78.72",
-            "server_port": 2053,
-            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.openstreetmap.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
-                    "short_id": "d7"
                 }
             }
         },
@@ -3224,29 +3197,6 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [9]",
-            "type": "vless",
-            "server": "5.181.168.10",
-            "server_port": 1443,
-            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com@V2rayBaaz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pFIyqIJ6RKofhtXRZJ0kcxPIolBHtDIcDYd5KvttUSY",
-                    "short_id": ""
                 }
             }
         },

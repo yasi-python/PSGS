@@ -89,7 +89,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -98,7 +98,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -118,7 +119,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -127,7 +128,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -385,14 +387,14 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [16]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
             "type": "trojan",
-            "server": "195.22.157.104",
-            "server_port": 48677,
-            "password": "1sbtkLK7F3",
+            "server": "192.0.54.195",
+            "server_port": 2096,
+            "password": "slch2024",
             "tls": {
                 "enabled": true,
-                "server_name": "joon.arshiacomplus.dpdns.org",
+                "server_name": "ocost-dy.wmlefl.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -401,9 +403,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ewrf4d453",
+                "path": "/Telegram",
                 "headers": {
-                    "Host": "joon.arshiacomplus.dpdns.org"
+                    "Host": "ocost-dy.wmlefl.cc"
                 }
             }
         },
@@ -555,6 +557,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raytg [65]",
+            "type": "trojan",
+            "server": "195.22.157.104",
+            "server_port": 48677,
+            "password": "1sbtkLK7F3",
+            "tls": {
+                "enabled": true,
+                "server_name": "joon.arshiacomplus.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ewrf4d453",
+                "headers": {
+                    "Host": "joon.arshiacomplus.dpdns.org"
                 }
             }
         }

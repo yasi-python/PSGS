@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -110,6 +109,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇺🇸 US | 🔒 VLESS | @ip_cf_config [15]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -155,7 +155,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -173,6 +172,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇺🇸 US | 🔒 VLESS | @ip_cf_config [15]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -290,29 +290,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "104.236.78.72",
-            "server_port": 2053,
-            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.openstreetmap.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
-                    "short_id": "d7"
                 }
             }
         },
@@ -716,6 +693,29 @@
                     "enabled": true,
                     "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
                     "short_id": "8b62ab46"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @ip_cf_config [15]",
+            "type": "vless",
+            "server": "134.122.121.205",
+            "server_port": 2053,
+            "uuid": "1df79df3-908d-4458-8eb0-fd31b0e2e22f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8",
+                    "short_id": "54c3eae868b911"
                 }
             }
         },
