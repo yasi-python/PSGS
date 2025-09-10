@@ -88,12 +88,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
-                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [16]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -119,12 +121,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
-                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [16]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -345,6 +349,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "176bf635-b72a-4569-b0e5-b79af7d9332c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
             "type": "vless",
             "server": "speedtest.net",
@@ -354,7 +381,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -404,7 +431,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [16]",
             "type": "vless",
             "server": "d7.mmadcoffee.info",
             "server_port": 443,
@@ -414,6 +441,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "d7.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [17]",
+            "type": "vless",
+            "server": "d8.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d8.mmadcoffee.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
