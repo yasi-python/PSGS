@@ -85,6 +85,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [43]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -193,6 +195,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [43]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -500,6 +504,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "hk01.youyacloud.me",
+            "server_port": 28888,
+            "uuid": "8da7bd17-70ab-472d-a925-cc827857dc35",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tvb.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "slSuocOAiBpxoouM2bOV03TG7LRqrGyKDivA__DEric",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "fr.aerogd.org",
+            "server_port": 443,
+            "uuid": "2e18f22d-db34-4ac2-b190-47849c185ac5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zjvjk4.workspacefiles.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OMjorrdIZKdYHwNtHQKQCaJFNLsHumS1IdhZnioDeBk",
+                    "short_id": "aaca94aa121ab49d"
+                }
             }
         },
         {

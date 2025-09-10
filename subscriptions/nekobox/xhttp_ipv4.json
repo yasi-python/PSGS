@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
@@ -133,7 +132,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [13]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [7]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -144,7 +143,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
@@ -197,7 +195,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [13]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [7]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -284,29 +282,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "167.99.143.25",
-            "server_port": 443,
-            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
-                    "short_id": ""
                 }
             }
         },
@@ -1263,7 +1238,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "178.128.138.210",
             "server_port": 443,
