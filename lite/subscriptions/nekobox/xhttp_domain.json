@@ -93,6 +93,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -123,6 +124,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -400,6 +402,24 @@
             "uuid": "117ca567-3180-4d62-abcc-8fc0104c93ff",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [18]",
+            "type": "vless",
+            "server": "d7.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "e787e535-0272-4fff-9a2f-0add85c46284",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d7.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",

@@ -105,6 +105,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -117,6 +118,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -152,6 +154,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [18]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -164,6 +167,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [16]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -444,6 +448,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [18]",
+            "type": "vless",
+            "server": "d7.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "e787e535-0272-4fff-9a2f-0add85c46284",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d7.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -623,6 +645,29 @@
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "91.99.115.171",
+            "server_port": 8880,
+            "uuid": "06ece026-e82b-4414-aa4f-1cd52cb5acb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CqSU_oA9ILgTKXnydoi4Shq2gKbfXxtVh92W0hPsOUo",
+                    "short_id": "e0547f6cc5dd9022"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [16]",

@@ -90,9 +90,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -143,9 +143,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+                "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [14]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -508,29 +508,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [54]",
-            "type": "vless",
-            "server": "uuk5v.tok8888.com",
-            "server_port": 8443,
-            "uuid": "d1bcd5ee-7bdb-4de9-9aa7-48f54a97390d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com.cn",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kHtBu5SWzLuz79nw0LkDkH4luWft_A-M6MNq4LA-RB4",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "pqh26v7.whatstrue.shop",
@@ -574,6 +551,33 @@
                     "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
                     "short_id": "6993f143e90756"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ip_cf_config [14]",
+            "type": "vless",
+            "server": "magazine.sentry-warrunner.xyz",
+            "server_port": 443,
+            "uuid": "14eba471-4623-4ed1-b937-f5b2206749bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrGT7bAn2UND3kx81QHACf_6qReN8V6_o70kZerONk4",
+                    "short_id": "1c547814"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers-@HELIX_Servers"
             }
         },
         {

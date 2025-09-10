@@ -92,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [36]",
-                "❔ XX | 🔓 VLESS | @config_proxy [46]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @filterk0sh [16]",
@@ -121,8 +119,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [36]",
-                "❔ XX | 🔓 VLESS | @config_proxy [46]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @filterk0sh [16]",
@@ -222,56 +218,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "[2a06:98c1:3122::]",
-            "server_port": 443,
-            "uuid": "b754b53a-aaf5-475c-eeed-46806c2aa63f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nkang2replace.airlineshoma.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nkang2replace.airlineshoma.com"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "[2a06:98c1:3122::]",
-            "server_port": 443,
-            "uuid": "b754b53a-aaf5-475c-eeed-46806c2aa63f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a06:98c1:3122::]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2a06:98c1:3122::]"
                 }
             }
         },
