@@ -94,14 +94,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -160,14 +160,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -474,13 +474,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "db7fe59f-98ff-4c03-a202-51d024b90bf6",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
@@ -542,29 +565,6 @@
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakConfig",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

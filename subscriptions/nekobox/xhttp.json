@@ -94,14 +94,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -136,7 +136,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -213,14 +214,14 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -255,7 +256,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -580,13 +582,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "db7fe59f-98ff-4c03-a202-51d024b90bf6",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @filterk0sh [13]",
@@ -648,29 +673,6 @@
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakConfig",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1195,11 +1197,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "5dee6cfa-a6c2-48ec-b833-b072975c7177",
+            "server": "164.92.203.185",
+            "server_port": 443,
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "15219f08-71de-42e9-92ef-82ddded32704",
             "flow": "",
             "packet_encoding": "xudp"
         },
