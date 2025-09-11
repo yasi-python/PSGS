@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -144,8 +143,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -288,45 +286,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "50.116.41.209",
-            "server_port": 443,
-            "uuid": "0d482f53-d06f-4583-80b2-b12c9072afc6",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "5dee6cfa-a6c2-48ec-b833-b072975c7177",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "50.116.41.209",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "45.156.186.135",
-            "server_port": 39350,
-            "uuid": "a61dd27a-9f20-4f64-8303-ad854afbe4cc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "clrVf2S41nWiPw1e0RLjZtCeCsdbTu6xLIhM1LVjIWk",
-                    "short_id": "2d6a46ff634a97"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",

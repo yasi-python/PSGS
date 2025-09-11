@@ -81,9 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
+                "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
+                "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -102,6 +101,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -147,9 +147,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
+                "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
+                "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -168,6 +167,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [1]",
@@ -301,7 +301,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -310,36 +310,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
@@ -565,6 +542,29 @@
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakConfig",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
