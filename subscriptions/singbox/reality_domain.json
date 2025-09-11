@@ -97,8 +97,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -134,8 +132,7 @@
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [1]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -215,8 +212,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -252,8 +247,7 @@
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [1]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -528,52 +522,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "hoho.yakarimmilan.ir",
-            "server_port": 16548,
-            "uuid": "f01faecf-1ad4-4eb9-a21d-7400a5e1a6f4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "preview.redd.it",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D7bY9fWkLs_S2_TMQ1bBI-MIJzeJ3rV5RA1_pOl6HBo",
-                    "short_id": "4660232e77cd95"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "hoho.yakarimmilan.ir",
-            "server_port": 16548,
-            "uuid": "f01faecf-1ad4-4eb9-a21d-7400a5e1a6f4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "preview.redd.it",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D7bY9fWkLs_S2_TMQ1bBI-MIJzeJ3rV5RA1_pOl6HBo",
-                    "short_id": "4660232e77cd95"
-                }
             }
         },
         {
@@ -1441,30 +1389,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [1]",
-            "type": "vless",
-            "server": "hoho.yakarimmilan.ir",
-            "server_port": 16548,
-            "uuid": "12ddaff3-c701-4157-a7d2-0928c9ee1e2d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "preview.redd.it",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D7bY9fWkLs_S2_TMQ1bBI-MIJzeJ3rV5RA1_pOl6HBo",
-                    "short_id": "4660232e77cd95"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "hoho.yakarimmilan.ir",
             "server_port": 16548,

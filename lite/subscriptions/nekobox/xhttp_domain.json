@@ -80,6 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @argo_vpn1 [20]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [77]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -93,14 +95,14 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvpn2 [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -112,6 +114,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @argo_vpn1 [20]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [77]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -125,14 +129,14 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayvpn2 [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -222,6 +226,33 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @argo_vpn1 [20]",
+            "type": "vless",
+            "server": "sss1175.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "1f5cfb7a-c03e-4779-b91f-a24e442e2a8f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss1175.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [77]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -429,13 +460,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "f6b73b24-f250-4c81-8a27-78dab763a9a0",
+            "server": "sss57281.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss57281.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
@@ -528,11 +568,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
+            "server": "speedtestcustom.com",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "f6b73b24-f250-4c81-8a27-78dab763a9a0",
             "flow": "",
             "packet_encoding": "xudp"
         },
