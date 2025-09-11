@@ -92,14 +92,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
-                "🇩🇪 DE | 🔓 VLESS | @ip_cf_config [15]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [15]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -121,14 +121,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
-                "🇩🇪 DE | 🔓 VLESS | @ip_cf_config [15]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [15]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -222,6 +222,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "193.24.208.231",
+            "server_port": 40002,
+            "uuid": "7e40a567-f9c1-44cc-af81-85ac16a9bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cafebazaar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk",
+                    "short_id": "4fe6a82ff811fa13"
                 }
             }
         },
@@ -322,24 +345,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @ip_cf_config [15]",
-            "type": "vless",
-            "server": "91.99.91.136",
-            "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.91.136",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -349,25 +354,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [15]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [8]",
             "type": "vless",
-            "server": "193.24.208.231",
-            "server_port": 40002,
-            "uuid": "7e40a567-f9c1-44cc-af81-85ac16a9bdf3",
-            "flow": "xtls-rprx-vision",
+            "server": "91.107.143.20",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cafebazaar.ir",
+                "server_name": "91.107.143.20",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk",
-                    "short_id": "4fe6a82ff811fa13"
                 }
             }
         },
