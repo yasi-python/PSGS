@@ -83,7 +83,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -107,7 +107,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -256,18 +256,25 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [14]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @ip_cf_config [15]",
             "type": "trojan",
-            "server": "154.3.37.9",
-            "server_port": 443,
-            "password": "745654",
+            "server": "188.244.122.195",
+            "server_port": 2096,
+            "password": "slch2024",
             "tls": {
                 "enabled": true,
-                "server_name": "hk.cestbon.work",
+                "server_name": "ocost-dy.wmlefl.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram",
+                "headers": {
+                    "Host": "ocost-dy.wmlefl.cc"
                 }
             }
         },
