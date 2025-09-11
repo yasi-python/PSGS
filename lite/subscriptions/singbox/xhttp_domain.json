@@ -104,11 +104,11 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [149]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -137,11 +137,11 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
-                "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [149]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -421,6 +421,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
+            "type": "vless",
+            "server": "d7.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "e787e535-0272-4fff-9a2f-0add85c46284",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d7.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "d8.mmadcoffee.info",
@@ -466,25 +484,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxy_mtproto_vpns_free [13]",
-            "type": "vless",
-            "server": "d7.mmadcoffee.info",
-            "server_port": 443,
-            "uuid": "e787e535-0272-4fff-9a2f-0add85c46284",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "d7.mmadcoffee.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [149]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,

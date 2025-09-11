@@ -97,6 +97,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [2]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -184,7 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -210,6 +212,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [2]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -297,7 +301,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -518,6 +522,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
+            "type": "vless",
+            "server": "order.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "d4c362ba-1915-4f51-b6e8-352446bf8aaf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
+                    "short_id": "3da49e0b43"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "hoho.yakarimmilan.ir",
+            "server_port": 16548,
+            "uuid": "97680e34-94bb-4c57-b12b-57921e096d6b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "preview.redd.it",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D7bY9fWkLs_S2_TMQ1bBI-MIJzeJ3rV5RA1_pOl6HBo",
+                    "short_id": "4660232e77cd95"
+                }
             }
         },
         {
@@ -2645,7 +2699,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "zZz.ZzZ.zZz.yasharteam.com",
             "server_port": 443,
