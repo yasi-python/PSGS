@@ -90,7 +90,10 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
+                "🇨🇦 CA | 🔒 VLESS | @expressvpn_420 [22]",
+                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -105,7 +108,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -147,7 +150,10 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
+                "🇨🇦 CA | 🔒 VLESS | @expressvpn_420 [22]",
+                "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -162,7 +168,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
+                "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -516,11 +522,80 @@
             }
         },
         {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @expressvpn_420 [22]",
+            "type": "vless",
+            "server": "canadaa.motorbazan.com",
+            "server_port": 8443,
+            "uuid": "a73c3f67-e303-43e7-841d-ff57b141938b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nn2Vf-5Q8DqxunZXrhIXUr329pkYvLyEb10zRVjpIxk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [23]",
+            "type": "vless",
+            "server": "germanya.motorbazan.com",
+            "server_port": 8443,
+            "uuid": "a73c3f67-e303-43e7-841d-ff57b141938b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nn2Vf-5Q8DqxunZXrhIXUr329pkYvLyEb10zRVjpIxk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakConfig1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -889,7 +964,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
             "type": "vless",
             "server": "hoho.yakarimmilan.ir",
             "server_port": 16548,
