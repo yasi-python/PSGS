@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]"
+                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
+                "🇩🇪 DE | 🔒 TUIC | @v2ray_collector [30]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]"
+                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
+                "🇩🇪 DE | 🔒 TUIC | @v2ray_collector [30]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -197,6 +199,24 @@
                 "alpn": [
                     "h3",
                     "spdy/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TUIC | @v2ray_collector [30]",
+            "type": "tuic",
+            "server": "77.223.214.193",
+            "server_port": 31467,
+            "uuid": "79c4fe11-9787-406b-bf94-c1c1dbf59e28",
+            "password": "VbU5eKdUDFtPNCAOvjrzYonJ",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
                 ]
             }
         }
