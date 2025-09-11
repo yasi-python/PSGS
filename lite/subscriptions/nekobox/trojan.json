@@ -89,6 +89,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
+                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -118,6 +119,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
+                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -377,6 +379,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
+            "type": "trojan",
+            "server": "154.3.37.9",
+            "server_port": 443,
+            "password": "745654",
+            "tls": {
+                "enabled": true,
+                "server_name": "hk.cestbon.work",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
