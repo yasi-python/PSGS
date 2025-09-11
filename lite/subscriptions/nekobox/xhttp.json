@@ -88,11 +88,12 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [7]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
@@ -105,7 +106,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -137,11 +137,12 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [7]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [141]",
@@ -154,7 +155,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -381,15 +381,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "f657d830-b534-4c9e-9987-3e72df22289e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
             "type": "vless",
             "server": "speedtest.net",
@@ -399,7 +390,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -431,11 +445,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
+            "server": "speedtestcustom.com",
             "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE",
+            "uuid": "c0102287-c292-4055-8bba-631af9181c2d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [7]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "69f6d665-19a8-4a20-93ff-2ff20b8aff7f",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -628,24 +651,6 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
-            "type": "vless",
-            "server": "91.99.146.68",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.146.68",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
