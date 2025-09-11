@@ -127,12 +127,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [27]",
-                "🇩🇪 DE | 🔒 VLESS | @filterk0sh [28]",
-                "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [29]",
+                "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [28]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -237,12 +237,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [27]",
-                "🇩🇪 DE | 🔒 VLESS | @filterk0sh [28]",
-                "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [29]",
+                "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [28]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -1521,6 +1521,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "194.87.29.240",
+            "server_port": 443,
+            "uuid": "8c3d7fca-9278-491a-a4f2-0e21982e4d5a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "bc97736f81817c41"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1592,29 +1615,6 @@
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @filterk0sh [27]",
             "type": "vless",
-            "server": "91.99.92.127",
-            "server_port": 8880,
-            "uuid": "44a6fabd-afbc-4150-a696-58eac865c578",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cp.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pNtsKb6dyTS0BnkfswffcWGi-oGDxJVPWZLkeDyLGwg",
-                    "short_id": "66d4e033f43b27"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @filterk0sh [28]",
-            "type": "vless",
             "server": "168.119.153.187",
             "server_port": 3041,
             "uuid": "39868283-168c-4c30-acd6-1a07b68fac7f",
@@ -1636,7 +1636,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [29]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [28]",
             "type": "vless",
             "server": "77.73.232.61",
             "server_port": 19747,
