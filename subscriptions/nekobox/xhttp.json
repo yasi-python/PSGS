@@ -136,8 +136,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -256,8 +255,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -1197,34 +1195,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "164.92.203.185",
-            "server_port": 443,
-            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "15219f08-71de-42e9-92ef-82ddded32704",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "5dee6cfa-a6c2-48ec-b833-b072975c7177",
             "flow": "",
             "packet_encoding": "xudp"
         },
