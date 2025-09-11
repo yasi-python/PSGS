@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -89,7 +90,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
+                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -111,6 +112,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -119,7 +121,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
+                "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [15]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -230,6 +232,29 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
+            "type": "trojan",
+            "server": "aio.proxybox.dpdns.org",
+            "server_port": 443,
+            "password": "318cab24-ec99-40a6-a54a-0db9c661a3d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "aio.proxybox.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/188.34.160.97-2053",
+                "headers": {
+                    "Host": "aio.proxybox.dpdns.org"
                 }
             }
         },
@@ -387,18 +412,25 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 TROJAN | @ip_cf_config [18]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @ip_cf_config [15]",
             "type": "trojan",
-            "server": "154.3.37.9",
-            "server_port": 443,
-            "password": "745654",
+            "server": "195.22.157.104",
+            "server_port": 48677,
+            "password": "1sbtkLK7F3",
             "tls": {
                 "enabled": true,
-                "server_name": "hk.cestbon.work",
+                "server_name": "joon.arshiacomplus.dpdns.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ewrf4d453",
+                "headers": {
+                    "Host": "joon.arshiacomplus.dpdns.org"
                 }
             }
         },
