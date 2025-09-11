@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🔒 VLESS | @config_proxy [53]","type":"vless","server":"91.242.241.45","port":8443,"uuid":"4ec308eb-e356-44d4-939a-1a23c87c93c4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]","type":"vless","server":"138.124.186.202","port":443,"uuid":"b4b8aa1f-77d2-4851-a5a4-f78886f3e997","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.bing.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs"}}
@@ -38,6 +37,7 @@ proxies:
   - {"name":"🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [5]","type":"vless","server":"65.109.194.11","port":23584,"uuid":"33b8247e-1a56-4fb6-a5cd-5424572be295","tls":true,"network":"grpc","client-fingerprint":"safari","udp":true,"servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"32135vless"},"reality-opts":{"public-key":"P493rf_2oHCfasd8wnbUs2KS8Z6D-nZibDPvwUbd_24","short-id":"c92637"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]","type":"vless","server":"185.113.10.132","port":8650,"uuid":"e1fd5a63-a979-459c-8f64-6f70cb682e23","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"cloudflare.com","reality-opts":{"public-key":"YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI","short-id":"354b9cbe48"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @injectormconf [38]","type":"vless","server":"5.135.21.191","port":8880,"uuid":"e02208b6-2626-49ef-8b93-0d80ed33f4ac","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"canva.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc","short-id":"8b62ab46"}}
+  - {"name":"🇫🇷 FR | 🔒 VLESS | @ip_cf_config [12]","type":"vless","server":"103.249.133.69","port":443,"uuid":"1ab44c12-1462-422e-aeab-aaa025636f61","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eAKw1k-H2cuw0AsjNH-3RG2RBHOZCPz8qQp-i5W-Zkk","short-id":"f73895c725c3"}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]","type":"vless","server":"144.126.234.182","port":51697,"uuid":"22f3cbcc-55b5-4d71-a3ca-9d6f3287aace","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"*.sourceforge.net","reality-opts":{"public-key":"3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY","short-id":"c2abcb19"}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]","type":"vless","server":"143.110.169.61","port":52189,"uuid":"d8e1cfdc-7899-4c71-8d11-058933210c55","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"*.sourceforge.net","reality-opts":{"public-key":"3mC2lH0qsBuTTzNSC3GtzcJlli2959J4yqZl08G4FCg","short-id":"593f3efe"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]","type":"vless","server":"157.230.28.73","port":23353,"uuid":"c34a9f73-3c11-4614-90ff-196add3fa4aa","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"*.sourceforge.net","reality-opts":{"public-key":"OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU","short-id":"a98a22e2"}}
@@ -86,7 +86,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🔒 VLESS | @config_proxy [53]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]'
@@ -101,6 +100,7 @@ proxy-groups:
       - '🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [5]'
       - '🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]'
       - '🇫🇷 FR | 🔒 VLESS | @injectormconf [38]'
+      - '🇫🇷 FR | 🔒 VLESS | @ip_cf_config [12]'
       - '🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]'
       - '🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]'
       - '🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]'
