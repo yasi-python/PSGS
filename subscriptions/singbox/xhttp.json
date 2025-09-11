@@ -95,6 +95,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -148,7 +149,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -214,6 +214,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -267,7 +268,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [10]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @evay_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [8]",
@@ -431,6 +431,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "sss71706.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss71706.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
@@ -1199,15 +1217,6 @@
             "server": "fast-01.saitsazs.ir",
             "server_port": 80,
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "5dee6cfa-a6c2-48ec-b833-b072975c7177",
             "flow": "",
             "packet_encoding": "xudp"
         },

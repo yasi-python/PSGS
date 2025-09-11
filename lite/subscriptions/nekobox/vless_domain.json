@@ -95,6 +95,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [15]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [1]",
@@ -131,8 +132,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [23]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
+                "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
@@ -369,6 +370,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "🇺🇸 US | 🔓 VLESS | @chanel_v2ray_2 [15]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [1]",
@@ -405,8 +407,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
                 "🚩 CF | 🔓 VLESS | @expressvpn_420 [23]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
+                "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
@@ -960,6 +962,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "panelaf.dnsline.top",
+            "server_port": 55522,
+            "uuid": "66185905-e3f9-4822-ba31-f46d3e6539f3",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1600,7 +1611,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1623,13 +1634,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "1f8626cd-5c2e-4887-b906-75396cde1423",
+            "server": "free2.lithub.ir",
+            "server_port": 200,
+            "uuid": "a15ecaa3-1f71-491a-83db-faa289d50486",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "free2.lithub.ir"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
