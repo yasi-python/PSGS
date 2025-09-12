@@ -23,20 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇷🇺 RU | 🔒 SS | @confingv2raay [1]","type":"ss","server":"176.32.39.154","port":64726,"password":"leobXyVllD7ASdCGRhX6V2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @jiedianf [2]","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @kafing_2 [11]","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱 PL | 🔒 SS | @outlineopenkey [5]","type":"ss","server":"77.83.246.74","port":443,"password":"E6vQlqtgag91cCOYqXIoL1","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🔒 SS | @outlineopenkey [6]","type":"ss","server":"89.185.84.185","port":443,"password":"sxwiQespa8dPpWqvDtF6Az","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇪🇸 ES | 🔒 SS | @outlineopenkey [7]","type":"ss","server":"194.87.45.189","port":443,"password":"w7Q8exUVEwhjjfsS7Rr8MF","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @satellitenewspersian [18]","type":"ss","server":"193.29.139.240","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔒 SS | @satellitenewspersian [20]","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 TW | 🔒 SS | @shadowsockskeys [17]","type":"ss","server":"1.170.16.83","port":10133,"password":"4166e394-f4c6-4f30-9acb-09a2644e0930","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪 SE | 🔒 SS | @shadowsockskeys [18]","type":"ss","server":"91.186.217.246","port":31764,"password":"Ftc17VH9ZXQON5vslJCYmv","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱 PL | 🔒 SS | @shadowsockskeys [19]","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🔒 SS | @sobyv2ray [3]","type":"ss","server":"91.134.11.136","port":100,"password":"B2DbIsmNjFN-85QJtKVeqA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🔒 SS | @sobyv2ray [4]","type":"ss","server":"91.134.11.136","port":100,"password":"NP_LonGeuc8o45eA7BYD9g","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @vpngate_config [18]","type":"ss","server":"135.148.67.88","port":2087,"password":"a9dIXhPAuSDCKUPU","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,20 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | 🔒 SS | @confingv2raay [1]'
-      - '🇳🇱 NL | 🔒 SS | @jiedianf [2]'
-      - '🇺🇸 US | 🔒 SS | @kafing_2 [11]'
-      - '🇵🇱 PL | 🔒 SS | @outlineopenkey [5]'
-      - '🇬🇧 GB | 🔒 SS | @outlineopenkey [6]'
-      - '🇪🇸 ES | 🔒 SS | @outlineopenkey [7]'
       - '🇳🇱 NL | 🔒 SS | @satellitenewspersian [18]'
       - '🇺🇸 US | 🔒 SS | @satellitenewspersian [20]'
-      - '🇹🇼 TW | 🔒 SS | @shadowsockskeys [17]'
-      - '🇸🇪 SE | 🔒 SS | @shadowsockskeys [18]'
-      - '🇵🇱 PL | 🔒 SS | @shadowsockskeys [19]'
       - '🇫🇷 FR | 🔒 SS | @sobyv2ray [3]'
       - '🇫🇷 FR | 🔒 SS | @sobyv2ray [4]'
-      - '🇺🇸 US | 🔒 SS | @vpngate_config [18]'
 
   - name: 🌍 Global Media
     type: select
