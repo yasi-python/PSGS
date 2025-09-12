@@ -23,15 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [1]","type":"vless","server":"209.38.222.192","port":8443,"uuid":"f9e5a31e-a5c2-48e0-a5e9-01461464406d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/Telegram-@FNET00","headers":{"Host":"zula.ir"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [2]","type":"vless","server":"82.25.101.123","port":34712,"uuid":"65cd9b4b-90a1-43f4-9682-3e33c8a29b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @custom_config [1]","type":"vless","server":"185.204.169.242","port":80,"uuid":"4b41943d-f4bf-4341-8acc-042e6a9ee17e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@custom_config","headers":{"Host":"185.204.169.242"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @jeyksatan [15]","type":"vless","server":"91.99.203.70","port":51615,"uuid":"2eaef053-5fd6-4def-b234-d760690355ff","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]","type":"vless","server":"91.99.14.202","port":443,"uuid":"7b6eca4c-44ae-40c6-973a-4e3b29d30803","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @netmellianti [14]","type":"vless","server":"193.24.208.231","port":40002,"uuid":"7e40a567-f9c1-44cc-af81-85ac16a9bdf3","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"cafebazaar.ir","reality-opts":{"public-key":"0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk","short-id":"4fe6a82ff811fa13"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @netmellianti [16]","type":"vless","server":"104.26.6.89","port":443,"uuid":"a4b17aa4-8723-4f12-945d-9e3bdf926bf7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"77777788.xyz","ws-opts":{"path":"/hajmi?ed=2560","headers":{"Host":"nb-fi.77777788.xyz"}}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [19]","type":"vless","server":"91.99.115.171","port":8080,"uuid":"f33f8f0b-e520-4212-9c9b-aeefcdcc62af","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"cp7.cloudflare.com","reality-opts":{"public-key":"T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8","short-id":"a6df009b"}}
-  - {"name":"🇺🇸 US | 🔓 VLESS | @vaslbemmonid [6]","type":"vless","server":"151.101.3.8","port":80,"uuid":"6cde4a90-dbd4-41d2-914f-1a86daab0212","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"befreewithus.net"}}}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,15 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [1]'
-      - '🇩🇪 DE | 🔓 VLESS | @amirinventor2010 [2]'
-      - '🇩🇪 DE | 🔓 VLESS | @custom_config [1]'
-      - '🇩🇪 DE | 🔓 VLESS | @jeyksatan [15]'
-      - '🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]'
-      - '🇩🇪 DE | 🔒 VLESS | @netmellianti [14]'
-      - '🚩 CF | 🔒 VLESS | @netmellianti [16]'
-      - '🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [19]'
-      - '🇺🇸 US | 🔓 VLESS | @vaslbemmonid [6]'
+
 
   - name: 🌍 Global Media
     type: select
