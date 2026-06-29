@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [61]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
+                "❔ XX | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [61]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
+                "❔ XX | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,23 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [61]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "pq-unitedstates3.09vpn.com",
+            "server_port": 80,
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "pq-unitedstates3.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "ov-germany6.09vpn.com",
             "server_port": 8443,

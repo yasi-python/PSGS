@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "212.192.31.146",
+            "server_port": 443,
+            "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "212.192.31.146",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panika",
+                "headers": {
+                    "Host": "212.192.31.146"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]",
             "type": "vmess",
             "server": "51.79.102.253",
             "server_port": 80,
@@ -125,15 +150,6 @@
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
-            "type": "vmess",
-            "server": "45.67.230.79",
-            "server_port": 11052,
-            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
