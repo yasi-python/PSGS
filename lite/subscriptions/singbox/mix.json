@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [60]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [60]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +113,28 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "tag": "🇦🇹 AT | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "77.110.110.117",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9JeYy8SkViXuSHVs9GFeSe"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "142.4.216.225",
             "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "JIhN6rBKkaEboLNXVSv5rq"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [62]",
+            "type": "shadowsocks",
+            "server": "45.87.175.154",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         }
     ],
     "route": {
