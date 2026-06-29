@@ -77,7 +77,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [65]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "❔ XX | 🔒 SS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -85,7 +88,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [65]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "❔ XX | 🔒 SS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -101,20 +107,87 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                    "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 SS | @NamiraConfigs [52]",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         }
     ],
     "route": {
