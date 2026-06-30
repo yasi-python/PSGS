@@ -80,13 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,13 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +190,7 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "spain.unixzone.us",
             "server_port": 36326,
@@ -210,7 +206,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2095,
@@ -226,7 +222,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 443,
@@ -251,7 +247,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2096,
@@ -276,25 +272,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "dalton.makanyab.app",
-            "server_port": 443,
-            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dalton.makanyab.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
             "server": "13.40.188.81",
             "server_port": 443,
@@ -304,24 +282,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "13.40.188.81",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "213.108.20.152",
-            "server_port": 443,
-            "uuid": "f76412c3-abdf-4318-baf8-4a1bfa438968",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "node-de-frankfurt.neverlock.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

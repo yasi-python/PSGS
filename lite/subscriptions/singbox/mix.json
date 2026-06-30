@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,43 +111,41 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
             "type": "vless",
-            "server": "213.108.20.152",
-            "server_port": 443,
-            "uuid": "f76412c3-abdf-4318-baf8-4a1bfa438968",
-            "flow": "xtls-rprx-vision",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2096,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "node-de-frankfurt.neverlock.uk",
+                "server_name": "my-pp.arminpixel2.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-            "type": "vmess",
-            "server": "47.251.91.241",
-            "server_port": 42899,
-            "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [62]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
-            "server": "dalton.makanyab.app",
+            "server": "13.40.188.81",
             "server_port": 443,
-            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
+            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dalton.makanyab.app",
+                "server_name": "13.40.188.81",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
