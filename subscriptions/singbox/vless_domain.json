@@ -92,10 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,25 +190,16 @@
             }
         },
         {
-            "tag": "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "sinavip5.cnavippanel.com",
-            "server_port": 8091,
-            "uuid": "67fd52ed-21a7-4f3f-8a56-3de3ec91c1db",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "anten.ir",
-            "server_port": 8443,
-            "uuid": "a8609a02-b76d-4cc8-a8d5-496088b20ff1",
+            "server": "wstg.datasynctrue.online",
+            "server_port": 443,
+            "uuid": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sinavm.sinavm.sinavm.ir",
+                "server_name": "wstg.datasynctrue.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -223,36 +208,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM",
+                "path": "/api/connect",
                 "headers": {
-                    "Host": "sinavm.sinavm.sinavm.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "sinavip6.cnavippanel.com",
-            "server_port": 8092,
-            "uuid": "67fd52ed-21a7-4f3f-8a56-3de3ec91c1db",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "cdn-ad.th3team.ir",
-            "server_port": 2087,
-            "uuid": "cc31ea54-643d-40f1-9461-b121b53177ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pppp26256.th3team.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "wstg.datasynctrue.online"
                 }
             }
         }

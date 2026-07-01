@@ -79,8 +79,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -90,8 +89,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -178,24 +176,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "cdn-ad.th3team.ir",
-            "server_port": 2087,
-            "uuid": "cc31ea54-643d-40f1-9461-b121b53177ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pppp26256.th3team.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }

@@ -23,11 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"sca24.speedmeter.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [55]","type":"vless","server":"sinavip5.cnavippanel.com","port":8091,"uuid":"67fd52ed-21a7-4f3f-8a56-3de3ec91c1db","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]","type":"vless","server":"anten.ir","port":8443,"uuid":"a8609a02-b76d-4cc8-a8d5-496088b20ff1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"sinavm.sinavm.sinavm.ir","ws-opts":{"path":"/assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM","headers":{"Host":"sinavm.sinavm.sinavm.ir"}}}
-  - {"name":"🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [60]","type":"vless","server":"sinavip6.cnavippanel.com","port":8092,"uuid":"67fd52ed-21a7-4f3f-8a56-3de3ec91c1db","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]","type":"vless","server":"cdn-ad.th3team.ir","port":2087,"uuid":"cc31ea54-643d-40f1-9461-b121b53177ce","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"pppp26256.th3team.ir"}
+  - {"name":"🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"wstg.datasynctrue.online","port":443,"uuid":"ff0b6ba8-bed0-4c4d-bbc9-23af47582615","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/api/connect","headers":{"Host":"wstg.datasynctrue.online"}}}
+  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [65]","type":"vless","server":"sca21.speedmeter.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sca21.speedmeter.shop"}
+  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [66]","type":"vless","server":"sca18.speedmeter.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [51]'
-      - '🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [55]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]'
-      - '🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [60]'
-      - '🇸🇨 SC | 🔒 VLESS | @NamiraConfigs [62]'
+      - '🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [60]'
+      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [65]'
+      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [66]'
 
   - name: 🌍 Global Media
     type: select
