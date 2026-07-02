@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [44]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [44]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,20 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [44]",
-            "type": "vmess",
-            "server": "23.162.200.198",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "tstsrat.speed1vipsarbaziclick.site",
+            "server_port": 80,
+            "uuid": "1b5660c7-e4be-43e1-a4bd-3b6b3dfc8791",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/profile",
+                "headers": {
+                    "Host": "tstsrat.speed1vipsarbaziclick.site"
+                }
+            }
         }
     ],
     "route": {
