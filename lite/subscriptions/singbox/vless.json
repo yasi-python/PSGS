@@ -92,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
@@ -105,8 +103,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
@@ -194,41 +190,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "45.13.119.219",
-            "server_port": 8888,
-            "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "45.85.118.50",
-            "server_port": 8880,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "45.85.118.50"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "104.17.146.18",
-            "server_port": 8443,
-            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
+            "server": "nahan-core.fatitelegram.workers.dev",
+            "server_port": 443,
+            "uuid": "73796e63-0000-4000-8000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
+                "server_name": "nahan-core.fatitelegram.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -237,9 +208,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sync",
                 "headers": {
-                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
+                    "Host": "nahan-core.fatitelegram.workers.dev"
                 }
             }
         }

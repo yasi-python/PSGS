@@ -1,18 +1,40 @@
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/yebekhe
+//profile-web-page-url: ithub.com/itsyebekhe/PSG
 {
     "dns": {
-        "independent_cache": true,
+        "final": "local-dns",
         "rules": [
             {
-                "domain": [
-                    "dns.google"
-                ],
-                "server": "dns-direct"
+                "action": "route",
+                "clash_mode": "Global",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
             },
             {
-                "outbound": [
-                    "any"
+                "action": "route",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "server": "direct-dns"
+            },
+            {
+                "action": "route",
+                "rule_set": [
+                    "geosite-ir"
                 ],
-                "server": "dns-direct"
+                "server": "direct-dns"
             }
         ],
         "servers": [
@@ -32,46 +54,36 @@
                 "detour": "direct",
                 "tag": "direct-dns"
             }
-        ]
-    },
-    "experimental": {
-        "cache_file": {
-            "enabled": true,
-            "path": "../cache/clash.db",
-            "store_fakeip": true
-        },
-        "clash_api": {
-            "external_controller": "127.0.0.1:9090",
-            "external_ui": "../files/yacd"
-        }
+        ],
+        "strategy": "prefer_ipv4"
     },
     "inbounds": [
         {
-            "domain_strategy": "",
-            "endpoint_independent_nat": true,
-            "inet4_address": [
-                "172.19.0.1/28"
+            "address": [
+                "172.19.0.1/30",
+                "fdfe:dcba:9876::1/126"
             ],
+            "auto_route": true,
+            "endpoint_independent_nat": false,
             "mtu": 9000,
-            "sniff": true,
-            "sniff_override_destination": false,
-            "stack": "mixed",
-            "tag": "tun-in",
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 2080
+                }
+            },
+            "stack": "system",
+            "strict_route": false,
             "type": "tun"
         },
         {
-            "domain_strategy": "",
             "listen": "127.0.0.1",
             "listen_port": 2080,
-            "sniff": true,
-            "sniff_override_destination": false,
-            "tag": "mixed-in",
-            "type": "mixed"
+            "type": "mixed",
+            "users": []
         }
     ],
-    "log": {
-        "level": "info"
-    },
     "outbounds": [
         {
             "outbounds": [
@@ -80,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
@@ -93,8 +103,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
@@ -104,10 +112,6 @@
         },
         {
             "tag": "direct",
-            "type": "direct"
-        },
-        {
-            "tag": "bypass",
             "type": "direct"
         },
         {
@@ -186,41 +190,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "45.13.119.219",
-            "server_port": 8888,
-            "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "45.85.118.50",
-            "server_port": 8880,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "45.85.118.50"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "104.17.146.18",
-            "server_port": 8443,
-            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
+            "server": "nahan-core.fatitelegram.workers.dev",
+            "server_port": 443,
+            "uuid": "73796e63-0000-4000-8000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
+                "server_name": "nahan-core.fatitelegram.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -229,38 +208,85 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sync",
                 "headers": {
-                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
+                    "Host": "nahan-core.fatitelegram.workers.dev"
                 }
             }
         }
     ],
     "route": {
         "auto_detect_interface": true,
-        "rule_set": [],
+        "final": "proxy",
+        "rule_set": [
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ads",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+            }
+        ],
         "rules": [
             {
-                "action": "hijack-dns",
-                "port": [
-                    53
-                ]
+                "action": "sniff"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Global",
+                "outbound": "proxy"
             },
             {
                 "action": "hijack-dns",
-                "protocol": [
-                    "dns"
+                "protocol": "dns"
+            },
+            {
+                "action": "route",
+                "outbound": "direct",
+                "rule_set": [
+                    "geoip-private",
+                    "geosite-private",
+                    "geosite-ir",
+                    "geoip-ir"
                 ]
             },
             {
                 "action": "reject",
-                "ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
-                ],
-                "source_ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
+                "rule_set": [
+                    "geosite-ads"
                 ]
             }
         ]
