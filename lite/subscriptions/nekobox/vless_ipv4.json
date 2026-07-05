@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,7 +184,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "5.157.51.172",
+            "server_port": 443,
+            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-6a20f558.noooo.win",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "192.166.82.165",
             "server_port": 80,

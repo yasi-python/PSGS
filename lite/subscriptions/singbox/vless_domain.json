@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,38 +190,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "s643.ccgfw.top",
+            "server": "tmesubgift.up.railway.app",
             "server_port": 443,
-            "uuid": "6d49fae1-374d-313e-b360-1227b0ea8dea",
-            "flow": "xtls-rprx-vision",
+            "uuid": "2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "7190s643.ccgfw.top",
+                "server_name": "tmesubgift.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+                "headers": {
+                    "Host": "tmesubgift.up.railway.app"
                 }
             }
         }
