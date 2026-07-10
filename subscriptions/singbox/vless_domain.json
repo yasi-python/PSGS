@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
@@ -107,6 +109,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
@@ -194,6 +198,49 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [44]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server_port": 443,
+            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "headers": {
+                    "Host": "ansooyefilter-production-454e.up.railway.app"
                 }
             }
         },
