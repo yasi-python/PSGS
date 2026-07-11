@@ -90,11 +90,10 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [40]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,11 +114,10 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [40]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -428,7 +426,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [40]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
             "type": "vless",
             "server": "fn.fifapes.monster",
             "server_port": 2090,
@@ -462,7 +460,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "gr1.fifapes.monster",
             "server_port": 8882,
@@ -492,31 +490,6 @@
                 "path": "/ws/d3a18bec-bb33-81e2-7671-66dac9921868",
                 "headers": {
                     "Host": "foloki-production.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "rare-creation-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "39dfd8b4-47a8-158c-80e9-e80a747828fc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rare-creation-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/39dfd8b4-47a8-158c-80e9-e80a747828fc",
-                "headers": {
-                    "Host": "rare-creation-production.up.railway.app"
                 }
             }
         }

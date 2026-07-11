@@ -77,9 +77,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +88,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +107,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "x4g-production-213b.up.railway.app",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "x4g-production-213b.up.railway.app",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,32 +125,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
+                "path": "/",
                 "headers": {
-                    "Host": "x4g-production-213b.up.railway.app"
+                    "Host": "127.0.0.1"
                 }
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "جاویدشاه",
             "type": "vless",
-            "server": "gr1.fifapes.monster",
-            "server_port": 8882,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "foloki-production.up.railway.app",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "d3a18bec-bb33-81e2-7671-66dac9921868",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "foloki-production.up.railway.app",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -157,9 +150,50 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/d3a18bec-bb33-81e2-7671-66dac9921868",
+                "path": "/",
                 "headers": {
-                    "Host": "foloki-production.up.railway.app"
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38]",
+            "type": "vmess",
+            "server": "47.250.45.234",
+            "server_port": 43063,
+            "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
