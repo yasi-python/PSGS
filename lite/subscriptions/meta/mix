@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]","type":"vmess","server":"jazzghost.com","port":8998,"cipher":"auto","uuid":"45e6cc1d-fc2e-4c97-8633-b33caa28e130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔ XX | 🔓 VLESS | @NamiraConfigs [65]","type":"vless","server":"young.maxic.ir","port":2110,"uuid":"edd0d872-702c-42d4-bb3f-ded08ab89678","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"❔ XX | 🔓 VLESS | @NamiraConfigs [66]","type":"vless","server":"ziba.maxic.ir","port":2100,"uuid":"2674a67b-b8b4-4fd3-982c-d274b6514f9f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [67]","type":"vless","server":"172.67.193.253","port":443,"uuid":"c35050ce-01ab-45a9-91b8-54cec637d0a8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"octopusss5.info","ws-opts":{"path":"/udfyfws","headers":{"Host":"octopusss5.info"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]'
+      - '❔ XX | 🔓 VLESS | @NamiraConfigs [65]'
+      - '❔ XX | 🔓 VLESS | @NamiraConfigs [66]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [67]'
 
   - name: 🌍 Global Media
     type: select
