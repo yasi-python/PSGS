@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]","type":"vmess","server":"dn.torontomovie.com","port":8080,"cipher":"auto","uuid":"a020b5fa-fa21-4f08-9bcd-95f4de69484c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇭 CH | 🔒 SS | @NamiraConfigs [54]","type":"ss","server":"45.95.232.138","port":443,"password":"XHYr2n0lkPTtez7RFjWJOK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [65]","type":"vmess","server":"dn.torontomovie.com","port":8080,"cipher":"auto","uuid":"a020b5fa-fa21-4f08-9bcd-95f4de69484c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]'
+      - '🇨🇭 CH | 🔒 SS | @NamiraConfigs [54]'
+      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [65]'
 
   - name: 🌍 Global Media
     type: select

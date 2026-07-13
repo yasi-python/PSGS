@@ -94,7 +94,7 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,7 +107,7 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +196,7 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "104.26.12.222",
+            "server": "104.21.36.120",
             "server_port": 443,
             "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
             "flow": "",
@@ -221,14 +221,14 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "162.159.45.201",
-            "server_port": 2083,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "server": "api.amirv2yats.qzz.io",
+            "server_port": 443,
+            "uuid": "5c05c433-cc31-53df-ac83-e7f8e6bc71a3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
+                "server_name": "api.amirv2yats.qzz.io",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -237,34 +237,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fp=chrome",
+                "path": "/ws/amir",
                 "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
+                    "Host": "api.amirv2yats.qzz.io"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
             "type": "vless",
-            "server": "104.20.32.49",
-            "server_port": 2083,
-            "uuid": "3bad1d20-8601-49be-86a2-2141d21dec99",
+            "server": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev",
+            "server_port": 2082,
+            "uuid": "febc7c0d-1c70-4fb6-9326-51da52efc483",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gentle-dream-6aa3.soh8khan13.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "gentle-dream-6aa3.soh8khan13.workers.dev"
+                    "Host": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"
                 }
             }
         }
