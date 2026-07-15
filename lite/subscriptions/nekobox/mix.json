@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,30 +105,31 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "s---w.pagess.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "server": "portal.support.panel.console.admin.developer.iranvatanam.com",
+            "server_port": 800,
+            "uuid": "58556539-5e64-4864-8dba-c1c0f9acd1d2",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "gb.f6r.ir",
+            "server": "nlj.maqror.ir",
             "server_port": 3389,
             "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]",
-            "type": "shadowsocks",
-            "server": "45.95.232.138",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XHYr2n0lkPTtez7RFjWJOK"
+            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "s---w.pagess.ir",
+            "server_port": 3389,
+            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
