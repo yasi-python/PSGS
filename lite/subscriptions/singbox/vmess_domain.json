@@ -92,9 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
                 "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
@@ -106,9 +103,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
                 "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
@@ -192,74 +186,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
-            "type": "vmess",
-            "server": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
-            "server_port": 2087,
-            "uuid": "efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/mehdi",
-                "headers": {
-                    "Host": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
-            "type": "vmess",
-            "server": "2cdn.njkrpl.com",
-            "server_port": 443,
-            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "2cdn.njkrpl.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "2cdn.njkrpl.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-            "type": "vmess",
-            "server": "165.140.216.142",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "165.140.216.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
