@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,27 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [65]",
-            "type": "vmess",
-            "server": "31.77.149.131",
-            "server_port": 110,
-            "uuid": "958f5940-de3d-4466-bb30-b605993db27e",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]",
+            "type": "vless",
+            "server": "45.144.55.242",
+            "server_port": 2082,
+            "uuid": "67987ef9-513f-46c8-a7a3-e9c079fd220b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6MDFX0qhhDPj0AMWrWvPt4O_96o2um_tcwx-tvZO0j0",
+                    "short_id": "a515f3864f836e6a"
+                }
+            }
         }
     ],
     "route": {
