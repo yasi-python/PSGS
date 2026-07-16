@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [69]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [69]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +105,43 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "juso5.pastilbastani.ir",
+            "server_port": 443,
+            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "juso5.pastilbastani.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [70]",
             "type": "vless",
             "server": "036o7.pastilbastani.ir",
             "server_port": 443,
@@ -115,33 +151,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "036o7.pastilbastani.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "18.194.133.160",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "62.238.41.102",
-            "server_port": 443,
-            "uuid": "154c18ae-f5eb-4cfd-8429-1f582c93913b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bot.sobhanpor.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
