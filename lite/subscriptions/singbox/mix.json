@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "193.84.255.91",
+            "server_port": 26072,
+            "uuid": "91c053b5-2682-4ec6-93ad-307a17ce5139",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
             "server": "15.188.249.140",
             "server_port": 22223,
@@ -122,7 +131,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
             "server": "www.ntu.edu.sg",
             "server_port": 443,
@@ -143,31 +152,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [68]",
-            "type": "vmess",
-            "server": "69.46.46.71",
-            "server_port": 443,
-            "uuid": "63d7e870-e195-47b9-abc1-8f21f999a0ea",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "3x-ui-upgrade-production-4817.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws",
-                "headers": {
-                    "Host": "3x-ui-upgrade-production-4817.up.railway.app"
                 }
             }
         }
