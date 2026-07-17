@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🚩 CF | 🔒 VMESS | @NamiraConfigs [68] = vmess, 2cdn.njkrpl.com, 443, username = a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, ws = true, tls = true, ws-path = /, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @NamiraConfigs [68]
+PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @NamiraConfigs [68]
+PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @NamiraConfigs [68]
 
 [Rule]
 GEOIP,IR,DIRECT

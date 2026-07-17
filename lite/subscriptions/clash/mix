@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [68]","type":"vmess","server":"2cdn.njkrpl.com","port":443,"cipher":"auto","uuid":"a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [68]'
 
   - name: 🌍 Global Media
     type: select

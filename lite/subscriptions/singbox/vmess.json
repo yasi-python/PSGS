@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,20 +190,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
             "type": "vmess",
-            "server": "165.140.216.142",
+            "server": "2cdn.njkrpl.com",
             "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "165.140.216.142",
+                "server_name": "2cdn.njkrpl.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "2cdn.njkrpl.com"
                 }
             }
         }

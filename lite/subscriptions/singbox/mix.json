@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "43.174.246.46",
+            "server": "x4g-production-ed65.up.railway.app",
             "server_port": 443,
-            "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
+            "uuid": "37966092-f71c-8f7a-484f-d68c68f01ab7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sni2.irandoc.info",
+                "server_name": "x4g-production-ed65.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -131,45 +131,59 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/37807/api",
+                "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
                 "headers": {
-                    "Host": "sni2.irandoc.info"
+                    "Host": "x4g-production-ed65.up.railway.app"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
             "type": "vmess",
-            "server": "165.140.216.142",
+            "server": "2cdn.njkrpl.com",
             "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "165.140.216.142",
+                "server_name": "2cdn.njkrpl.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "2cdn.njkrpl.com"
+                }
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]",
             "type": "vless",
-            "server": "juso5.pastilbastani.ir",
+            "server": "x4gamoarsham-production.up.railway.app",
             "server_port": 443,
-            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
+            "uuid": "77a2daa7-5d63-a8ed-80a0-9a840a556d97",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "juso5.pastilbastani.ir",
+                "server_name": "x4gamoarsham-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/77a2daa7-5d63-a8ed-80a0-9a840a556d97",
+                "headers": {
+                    "Host": "x4gamoarsham-production.up.railway.app"
                 }
             }
         }
