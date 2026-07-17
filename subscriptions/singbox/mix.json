@@ -89,6 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [55]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]",
@@ -101,9 +103,7 @@
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [64]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
                 "❔ XX | 🔒 VMESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +111,8 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [55]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]",
@@ -123,9 +125,7 @@
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [64]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
                 "❔ XX | 🔒 VMESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +135,47 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "195.63.137.251",
+            "server_port": 8090,
+            "uuid": "ef14c532-b69a-4f46-ae29-272f2fdaf673",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "195.63.137.251"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "dash1.dequa.ir",
+            "server_port": 443,
+            "uuid": "26c5d167-03ae-42f9-81a2-b9d57b3409a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [55]",
@@ -281,56 +322,6 @@
                 "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
                 "headers": {
                     "Host": "x4g-production-ed65.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
-            "type": "vmess",
-            "server": "2cdn.njkrpl.com",
-            "server_port": 443,
-            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "2cdn.njkrpl.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "2cdn.njkrpl.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "x4gamoarsham-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "77a2daa7-5d63-a8ed-80a0-9a840a556d97",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4gamoarsham-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/77a2daa7-5d63-a8ed-80a0-9a840a556d97",
-                "headers": {
-                    "Host": "x4gamoarsham-production.up.railway.app"
                 }
             }
         }

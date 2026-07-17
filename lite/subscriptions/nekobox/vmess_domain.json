@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
+                "❔ XX | 🔒 VMESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
+                "❔ XX | 🔒 VMESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,16 +184,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
             "type": "vmess",
-            "server": "2cdn.njkrpl.com",
+            "server": "165.140.216.141",
             "server_port": 443,
-            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "2cdn.njkrpl.com",
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @NamiraConfigs [66]",
+            "type": "vmess",
+            "server": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
+            "server_port": 2087,
+            "uuid": "efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -200,9 +220,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/mehdi",
                 "headers": {
-                    "Host": "2cdn.njkrpl.com"
+                    "Host": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
                 }
             }
         }
