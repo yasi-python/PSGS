@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [64]","type":"vless","server":"185.247.16.3","port":2200,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [66]","type":"vless","server":"162.159.44.180","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/fp=chrome","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [65]","type":"vless","server":"185.247.16.3","port":2200,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [67]","type":"vless","server":"162.159.44.180","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/fp=chrome","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [64]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [66]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [65]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [67]'
 
   - name: 🌍 Global Media
     type: select
