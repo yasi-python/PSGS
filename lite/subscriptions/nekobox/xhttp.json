@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,31 +182,22 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "138.124.72.60",
-            "server_port": 13791,
-            "uuid": "2410ed4e-b04c-45c4-a893-67e073c70398",
+            "server": "cdn1.portalcode.ir",
+            "server_port": 8443,
+            "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "3.127.97.180",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "3.127.97.180",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "434df2a384e0a10f.rainzone.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
