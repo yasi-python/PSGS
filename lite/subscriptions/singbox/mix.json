@@ -90,8 +90,8 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +100,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -114,6 +114,24 @@
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
             "type": "vmess",
             "server": "165.140.216.141",
             "server_port": 443,
@@ -131,7 +149,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "x4g-production-c124.up.railway.app",
             "server_port": 443,
@@ -152,31 +170,6 @@
                 "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
                 "headers": {
                     "Host": "x4g-production-c124.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "Time.is",
-            "server_port": 2096,
-            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.testiam13.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/v2box",
-                "headers": {
-                    "Host": "a.testiam13.workers.dev"
                 }
             }
         }

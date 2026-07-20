@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +182,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [59]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "x4g-production-c124.up.railway.app",
             "server_port": 443,
@@ -205,31 +203,6 @@
                 "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
                 "headers": {
                     "Host": "x4g-production-c124.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "Time.is",
-            "server_port": 2096,
-            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.testiam13.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/v2box",
-                "headers": {
-                    "Host": "a.testiam13.workers.dev"
                 }
             }
         }
