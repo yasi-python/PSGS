@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]","type":"vless","server":"82.115.16.211","port":2082,"uuid":"1c404fde-0aa5-482c-ab00-0b34db703ac8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"82.115.16.211"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"18.194.222.164","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"199.232.22.39","port":443,"uuid":"891710f4-45f3-41b1-99a6-6f1510f83c10","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ssl.fastly.com","ws-opts":{"path":"/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed","headers":{"Host":"pan21.global.ssl.fastly.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select
