@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,15 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [47]",
+            "type": "vless",
+            "server": "195.133.18.161",
+            "server_port": 30153,
+            "uuid": "da97d2d7-d255-4efd-8398-7101d698768e",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
@@ -151,31 +160,6 @@
                 "path": "/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
                 "headers": {
                     "Host": "shegeftihaaa.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "104.18.42.98",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
                 }
             }
         }
