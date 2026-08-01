@@ -92,8 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,6 +196,24 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "ddc-chr.astralweb.tech",
+            "server_port": 443,
+            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ddc-chr.astralweb.tech",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "uspanel.unixzone.us",
@@ -208,27 +230,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "music1000.melobitmusic1.ir",
-            "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "server": "nodde.soft88.site",
+            "server_port": 45141,
+            "uuid": "dce873e4-10be-4d1b-ae61-8b0d551d5bec",
             "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
                 }
             }
         }

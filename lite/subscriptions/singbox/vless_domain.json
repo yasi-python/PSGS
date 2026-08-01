@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1M=
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 SS | @NamiraConfigs [51]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 SS | @NamiraConfigs [51]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +190,22 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 SS | @NamiraConfigs [51]",
-            "type": "shadowsocks",
-            "server": "103.106.229.69",
-            "server_port": 9090,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC"
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"ddc-chr.astralweb.tech","port":443,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ddc-chr.astralweb.tech"}
   - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"music1000.melobitmusic1.ir","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
+  - {"name":"🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]","type":"vless","server":"nodde.soft88.site","port":45141,"uuid":"dce873e4-10be-4d1b-ae61-8b0d551d5bec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]'
       - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]'
 
   - name: 🌍 Global Media
     type: select
