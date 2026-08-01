@@ -92,10 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [29]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [29]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +196,23 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [29]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [33]",
+            "type": "vless",
+            "server": "uspanel.unixzone.us",
+            "server_port": 30016,
+            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/usserver",
+                "headers": {
+                    "Host": "uspanel.unixzone.us"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
             "type": "vless",
             "server": "music1000.melobitmusic1.ir",
             "server_port": 2053,
@@ -221,7 +237,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "ordakbot.ir",
             "server_port": 80,
@@ -237,7 +253,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
             "type": "vless",
             "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
             "server_port": 443,
@@ -258,22 +274,6 @@
                 "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "headers": {
                     "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "www.iplocation.net",
-            "server_port": 8880,
-            "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-                "headers": {
-                    "Host": "www.iplocation.net"
                 }
             }
         }
