@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"8.6.112.7","port":8443,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"ger3.kickfarsi.com"}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]","type":"vless","server":"15.224.27.66","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"178.104.53.175","port":3031,"uuid":"1b73f053-2709-4698-bbec-cb20e8a5f288","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]","type":"vless","server":"15.224.129.178","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"162.159.137.54","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"support.zoom.us.yxls.eu.cc","ws-opts":{"path":"/sg-melbi","headers":{"Host":"support.zoom.us.yxls.eu.cc"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]'
+      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
