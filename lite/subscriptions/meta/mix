@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"panel3.nanaweb.ir","port":3031,"uuid":"1b73f053-2709-4698-bbec-cb20e8a5f288","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,7 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]'
       - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
