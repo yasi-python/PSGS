@@ -80,15 +80,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [34]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [35]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,15 +100,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [34]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [35]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,6 +196,74 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [34]",
+            "type": "vless",
+            "server": "ip.kickfarsi.com",
+            "server_port": 8443,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger3.kickfarsi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "panel3.nanaweb.ir",
+            "server_port": 3031,
+            "uuid": "1b73f053-2709-4698-bbec-cb20e8a5f288",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "one-for-all.levikogjgfdd.ir",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "45.131.215.61",
+            "server_port": 52315,
+            "uuid": "29498268-55f3-4b51-ba1a-1eba23f4ab63",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "45.131.215.61"
                 }
             }
         },
@@ -298,65 +368,6 @@
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "162.159.137.54",
-            "server_port": 443,
-            "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "support.zoom.us.yxls.eu.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg-melbi",
-                "headers": {
-                    "Host": "support.zoom.us.yxls.eu.cc"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
-            "type": "vless",
-            "server": "panel3.nanaweb.ir",
-            "server_port": 3031,
-            "uuid": "1b73f053-2709-4698-bbec-cb20e8a5f288",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "one-for-all.levikogjgfdd.ir",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
         }
     ],
     "route": {
