@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,15 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "82.198.246.37",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
@@ -128,31 +137,6 @@
             "uuid": "0e288730-2200-4578-8e70-bc2b562bef7f",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "116.204.164.5",
-            "server_port": 7443,
-            "uuid": "6eb831ea-8829-457b-a5d1-52f640a97486",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@Marisa_kristi",
-                "headers": {
-                    "Host": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-                }
-            }
         }
     ],
     "route": {
