@@ -77,9 +77,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [52]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +88,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [52]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +107,16 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "104.18.37.228",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hhlfy.twiladaphne.ndjp.net",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,9 +125,59 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fp",
+                "path": "/",
                 "headers": {
-                    "Host": "hhlfy.twiladaphne.ndjp.net"
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
                 }
             }
         },
@@ -151,24 +203,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "po.fastbrokencompony.com"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "78.159.245.32",
-            "server_port": 28474,
-            "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "secure.furrycdn.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
