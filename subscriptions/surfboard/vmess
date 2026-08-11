@@ -9,12 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34] = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [30] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔒 VMESS | @NamiraConfigs [32] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [33] = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [30], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [32], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [33]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [30], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [32], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [33]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [30], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [32], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [33]
 
 [Rule]
 GEOIP,IR,DIRECT
