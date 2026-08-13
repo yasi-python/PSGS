@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [55]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [55]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,24 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
+            "type": "vless",
+            "server": "52.58.164.47",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [56]",
+            "type": "shadowsocks",
+            "server": "93.123.13.7",
+            "server_port": 16460,
+            "method": "chacha20-ietf-poly1305",
+            "password": "8yezd40lr2w4zz08"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
             "server": "104.16.65.1",
             "server_port": 443,
@@ -136,23 +153,6 @@
                     "Host": "0h3qt.oqwt.pl0.hh.vavava.kdns.fr"
                 }
             }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "93.123.13.7",
-            "server_port": 40312,
-            "uuid": "9f108161-c3cf-444b-989a-2d864b165435",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [55]",
-            "type": "shadowsocks",
-            "server": "93.123.13.7",
-            "server_port": 25783,
-            "method": "chacha20-ietf-poly1305",
-            "password": "8cmuvza9gyetx0z8"
         }
     ],
     "route": {
