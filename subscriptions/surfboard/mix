@@ -13,12 +13,11 @@ DIRECT = direct
 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50] = ss, 93.123.13.7, 16460, encrypt-method = chacha20-ietf-poly1305, password = 8yezd40lr2w4zz08
 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53] = ss, 93.123.13.7, 25783, encrypt-method = chacha20-ietf-poly1305, password = 8cmuvza9gyetx0z8
 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55] = ss, au1.levikogjgfdd.ir, 27116, encrypt-method = chacha20-ietf-poly1305, password = bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56] = vmess, 176.120.17.21, 1016, username = 40de0de7-0edc-4959-9ec2-86d938b50f0c, ws = false, tls = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55], 🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]
-PSG-AUTO = url-test, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55], 🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]
-PSG-FALLBACK = fallback, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55], 🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]
+PSG-AUTO = url-test, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]
+PSG-FALLBACK = fallback, 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [44], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [50], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [53], 🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]
 
 [Rule]
 GEOIP,IR,DIRECT

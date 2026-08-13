@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [53]",
                 "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]"
+                "🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [53]",
                 "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]"
+                "🇦🇺 AU | 🔒 SS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,14 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [53]",
+            "type": "shadowsocks",
+            "server": "93.123.13.7",
+            "server_port": 25783,
+            "method": "chacha20-ietf-poly1305",
+            "password": "8cmuvza9gyetx0z8"
         },
         {
             "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
@@ -120,24 +128,6 @@
             "server_port": 27116,
             "method": "chacha20-ietf-poly1305",
             "password": "bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [56]",
-            "type": "vmess",
-            "server": "176.120.17.21",
-            "server_port": 1016,
-            "uuid": "40de0de7-0edc-4959-9ec2-86d938b50f0c",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "astra.iraniangamersclub.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
