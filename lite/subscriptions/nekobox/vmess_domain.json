@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,31 +182,20 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "162.19.10.99",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "180.178.60.252",
-            "server_port": 10000,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
