@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"billowing-wind-5b29.133-323.workers.dev","port":8880,"uuid":"c18fd69e-92ba-446e-981b-213dbb551593","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.KR.CMLiussss.net","headers":{"Host":"billowing-wind-5b29.133-323.workers.dev"}}}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"finite-node.rtxconfigz.com","port":443,"uuid":"25f3beef-a4b6-40bc-aa74-17a0f89f683c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"finite-node.rtxconfigz.com","ws-opts":{"path":"/","headers":{"Host":"telegram.us"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"billowing-wind-5b29.133-323.workers.dev","port":8880,"uuid":"c18fd69e-92ba-446e-981b-213dbb551593","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.KR.CMLiussss.net","headers":{"Host":"billowing-wind-5b29.133-323.workers.dev"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [46]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [54]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]'
 
   - name: 🌍 Global Media
     type: select

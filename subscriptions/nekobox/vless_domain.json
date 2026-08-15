@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "finite-node.rtxconfigz.com",
+            "server_port": 443,
+            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "finite-node.rtxconfigz.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "finite-node.rtxconfigz.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "billowing-wind-5b29.133-323.workers.dev",
             "server_port": 8880,
@@ -200,7 +227,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
