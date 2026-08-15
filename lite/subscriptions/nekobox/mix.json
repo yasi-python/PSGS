@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,19 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "95.85.224.3",
+            "server_port": 8443,
+            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
@@ -153,15 +166,6 @@
                     "Host": "po.fastbrokencompony.com"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]",
-            "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

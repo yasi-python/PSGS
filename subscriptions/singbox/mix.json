@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [46]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [47]",
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [49]",
@@ -102,8 +103,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [57]",
                 "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +111,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [46]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [47]",
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [49]",
@@ -124,8 +125,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [57]",
                 "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +135,15 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [46]",
+            "type": "vmess",
+            "server": "65.109.178.10",
+            "server_port": 2086,
+            "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [47]",
@@ -418,15 +427,6 @@
                     "Host": "po.fastbrokencompony.com"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]",
-            "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
