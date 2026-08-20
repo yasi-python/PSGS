@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,59 +105,43 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "141.101.123.76",
-            "server_port": 443,
-            "uuid": "3bb6fd82-3a15-eaea-6168-4dac2b70079e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nahan-fog-af01.dfghttr2012.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "nahan-fog-af01.dfghttr2012.workers.dev"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "104.16.72.101",
-            "server_port": 80,
-            "uuid": "d5598622-46b8-b017-3af3-232500000001",
+            "server": "172.67.209.127",
+            "server_port": 8880,
+            "uuid": "f4e6476f-40d0-40cb-841f-cc2f6909ff20",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
                 "headers": {
-                    "Host": "104.16.72.101"
+                    "Host": "172.67.209.127"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
-            "server": "172.67.133.170",
-            "server_port": 8080,
-            "uuid": "7c6a566b-4c4a-b8f2-1719-a3096b424141",
+            "server": "216.167.54.75",
+            "server_port": 47212,
+            "uuid": "cd477134-ffce-473a-8dca-8ce5fc6eb3eb",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "millionaire.levikogjgfdd.ir",
+            "server_port": 8880,
+            "uuid": "7db9bcc1-78f1-455d-944b-3363b867e670",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
                 "headers": {
-                    "Host": "172.67.133.170"
+                    "Host": "millionaire.levikogjgfdd.ir"
                 }
             }
         }
