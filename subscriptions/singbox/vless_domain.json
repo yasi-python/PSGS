@@ -92,11 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,11 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,7 +194,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "vip-nl-1.hkd4fwmg.vip",
             "server_port": 31883,
@@ -216,7 +212,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [52]",
             "type": "vless",
             "server": "neth6.lckdwn.ru",
             "server_port": 443,
@@ -241,7 +237,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "lizca2.footballfantasyforum.com",
             "server_port": 443,
@@ -255,56 +251,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "web-production-7bd3d.up.railway.app",
-            "server_port": 443,
-            "uuid": "f5507df1-ba48-4dea-aba1-d3770aac4e1d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "web-production-7bd3d.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/vless/f5507df1-ba48-4dea-aba1-d3770aac4e1d?ed=2048",
-                "headers": {
-                    "Host": "web-production-7bd3d.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "hphphphph-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "869a7792-7f60-43fb-bfaf-1510ec7bb719",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hphphphph-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048",
-                "headers": {
-                    "Host": "hphphphph-production.up.railway.app"
                 }
             }
         }
