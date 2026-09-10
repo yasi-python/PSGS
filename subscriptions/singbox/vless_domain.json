@@ -92,9 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +107,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +198,50 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
+            "type": "vless",
+            "server": "vip-nl-1.hkd4fwmg.vip",
+            "server_port": 31883,
+            "uuid": "20593145-d975-46f9-9bad-d9f3c8e2d899",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip-nl-1.hkd4fwmg.vip",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "neth6.lckdwn.ru",
+            "server_port": 443,
+            "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "neth6.lckdwn.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "neth6.lckdwn.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "lizca2.footballfantasyforum.com",
             "server_port": 443,
@@ -212,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "web-production-7bd3d.up.railway.app",
             "server_port": 443,
@@ -237,7 +284,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "hphphphph-production.up.railway.app",
             "server_port": 443,
