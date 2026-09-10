@@ -9,14 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | 🔒 SS | @NamiraConfigs [48] = ss, 51.222.12.127, 445, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
-🇺🇸 US | 🔒 SS | @NamiraConfigs [49] = ss, 15.204.247.124, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
-🇰🇷 KR | 🔒 SS | @NamiraConfigs [58] = ss, 141.164.45.187, 6679, encrypt-method = aes-256-gcm, password = TEzjfAYq2IjtuoS
+🇨🇦 CA | 🔒 SS | @NamiraConfigs [50] = ss, 51.222.12.127, 445, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
+🇺🇸 US | 🔒 SS | @NamiraConfigs [51] = ss, 15.204.247.124, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [48], 🇺🇸 US | 🔒 SS | @NamiraConfigs [49], 🇰🇷 KR | 🔒 SS | @NamiraConfigs [58]
-PSG-AUTO = url-test, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [48], 🇺🇸 US | 🔒 SS | @NamiraConfigs [49], 🇰🇷 KR | 🔒 SS | @NamiraConfigs [58]
-PSG-FALLBACK = fallback, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [48], 🇺🇸 US | 🔒 SS | @NamiraConfigs [49], 🇰🇷 KR | 🔒 SS | @NamiraConfigs [58]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [50], 🇺🇸 US | 🔒 SS | @NamiraConfigs [51]
+PSG-AUTO = url-test, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [50], 🇺🇸 US | 🔒 SS | @NamiraConfigs [51]
+PSG-FALLBACK = fallback, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [50], 🇺🇸 US | 🔒 SS | @NamiraConfigs [51]
 
 [Rule]
 GEOIP,IR,DIRECT
