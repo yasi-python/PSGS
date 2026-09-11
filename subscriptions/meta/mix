@@ -23,6 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [30]","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
+  - {"name":"🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [31]","type":"vmess","server":"149.88.23.207","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [32]","type":"vmess","server":"94.184.21.218","port":80,"cipher":"auto","uuid":"09e18d23-eaa6-43bd-8cd0-3bd191962bcc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33]","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
   - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [35]","type":"vmess","server":"newrelax.relaxedboy.online","port":110,"cipher":"auto","uuid":"8e9687fc-a3a7-414a-8676-8e2136797cfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -34,9 +37,6 @@ proxies:
   - {"name":"🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42]","type":"vmess","server":"snnsjsowowiwueieyeye.sobu.ir","port":40864,"cipher":"auto","uuid":"4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
   - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"spiderpanel-production-aedc.up.railway.app","port":443,"uuid":"b9724ecb-a72d-41e6-be9d-86d64fed9204","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"spiderpanel-production-aedc.up.railway.app","ws-opts":{"path":"/ws/b9724ecb-a72d-41e6-be9d-86d64fed9204","headers":{"Host":"spiderpanel-production-aedc.up.railway.app"}}}
   - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"172.67.217.10","port":443,"uuid":"bfea31b5-371b-48d9-a9fa-4767ed6a5973","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"bluerocketway-bcc.lat","ws-opts":{"path":"/jetiona","headers":{"Host":"bluerocketway-bcc.lat"}}}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"15.188.69.42","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"15.188.69.42","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"15.188.69.42","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,6 +50,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [30]'
+      - '🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [31]'
+      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [32]'
       - '🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33]'
       - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [34]'
       - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [35]'
@@ -61,9 +64,6 @@ proxy-groups:
       - '🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42]'
       - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]'
       - '🚩 CF | 🔒 VLESS | @NamiraConfigs [44]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [46]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]'
 
   - name: 🌍 Global Media
     type: select
