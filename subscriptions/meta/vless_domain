@@ -23,11 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [33]","type":"vless","server":"pl6.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pl6.moritech.net","flow":"xtls-rprx-vision"}
-  - {"name":"🇦🇿 AZ | 🔓 VLESS | @NamiraConfigs [35]","type":"vless","server":"basalam.horqen.ir","port":21289,"uuid":"c12db015-a63c-43e5-a744-6398a90373b5","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇷🇴 RO | 🔒 VLESS | @NamiraConfigs [36]","type":"vless","server":"roma3.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"roma3.moritech.net","flow":"xtls-rprx-vision"}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
-  - {"name":"🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"austria-2.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"flow":"xtls-rprx-vision"}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"gemsubbgem.world","port":443,"uuid":"50a87e21-f0e2-4b53-a787-91adfe748f63","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"gemsubbgem.world","flow":"xtls-rprx-vision","reality-opts":{"public-key":"6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"german.axnode.net","port":443,"uuid":"1a63104d-0961-4881-91ef-3d243243f048","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"german.axnode.net","reality-opts":{"public-key":"SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU","short-id":"75"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"netherlands.axnode.net","port":443,"uuid":"1a63104d-0961-4881-91ef-3d243243f048","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"netherlands.axnode.net","reality-opts":{"public-key":"SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU","short-id":"75"}}
+  - {"name":"🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"uk.axnode.net","port":443,"uuid":"1a63104d-0961-4881-91ef-3d243243f048","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"uk.axnode.net","reality-opts":{"public-key":"SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU","short-id":"75"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [33]'
-      - '🇦🇿 AZ | 🔓 VLESS | @NamiraConfigs [35]'
-      - '🇷🇴 RO | 🔒 VLESS | @NamiraConfigs [36]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]'
-      - '🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [48]'
 
   - name: 🌍 Global Media
     type: select
