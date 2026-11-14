@@ -92,9 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [23]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [25]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [28]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [33]",
+                "🇦🇿 AZ | 🔓 VLESS | @NamiraConfigs [35]",
+                "🇷🇴 RO | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +107,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [23]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [25]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [28]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [33]",
+                "🇦🇿 AZ | 🔓 VLESS | @NamiraConfigs [35]",
+                "🇷🇴 RO | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,36 +198,83 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [23]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [33]",
             "type": "vless",
-            "server": "app.life-pro.ir",
-            "server_port": 8082,
-            "uuid": "79f98593-6a21-4783-a425-3d5609a79df1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [25]",
-            "type": "vless",
-            "server": "app.life-pro.ir",
-            "server_port": 8082,
-            "uuid": "79f98593-6a21-4783-a425-3d5609a79df1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [28]",
-            "type": "vless",
-            "server": "skk.moe",
-            "server_port": 8880,
-            "uuid": "9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4",
-            "flow": "",
+            "server": "pl6.moritech.net",
+            "server_port": 443,
+            "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-                "headers": {
-                    "Host": "skk.moe"
+            "tls": {
+                "enabled": true,
+                "server_name": "pl6.moritech.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇿 AZ | 🔓 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "basalam.horqen.ir",
+            "server_port": 21289,
+            "uuid": "c12db015-a63c-43e5-a744-6398a90373b5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇴 RO | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "roma3.moritech.net",
+            "server_port": 443,
+            "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "roma3.moritech.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [41]",
+            "type": "vless",
+            "server": "austria-2.moritech.net",
+            "server_port": 443,
+            "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "austria-2.moritech.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
