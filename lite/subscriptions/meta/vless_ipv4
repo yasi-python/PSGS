@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"188.114.96.246","port":8443,"uuid":"9443badf-414f-4b12-b19a-7cc2c7431163","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"moz.ar-marz.fun","ws-opts":{"path":"/man","headers":{"Host":"moz.ar-marz.fun"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"104.25.242.200","port":8443,"uuid":"9443badf-414f-4b12-b19a-7cc2c7431163","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"moz.ar-marz.fun","ws-opts":{"path":"/man","headers":{"Host":"moz.ar-marz.fun"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"188.114.99.157","port":8443,"uuid":"9443badf-414f-4b12-b19a-7cc2c7431163","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"moz.ar-marz.fun","ws-opts":{"path":"/man","headers":{"Host":"moz.ar-marz.fun"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select
