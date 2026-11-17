@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"195.72.62.7","port":443,"uuid":"8197b9b9-8945-460f-99c9-325ef8a8a7c3","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"fexzoo.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU","short-id":"2a67748b0d641e16"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"chs.luna-nodes.com","port":443,"uuid":"f0cd939d-966a-4dc9-9454-ea0b4907f3ca","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"www.zalando.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8","short-id":"5d710a72f5"}}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]'
+
 
   - name: 🌍 Global Media
     type: select

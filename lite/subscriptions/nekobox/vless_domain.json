@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,25 +182,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "chs.luna-nodes.com",
+            "server": "fr-free.fastestrelay.com",
             "server_port": 443,
-            "uuid": "f0cd939d-966a-4dc9-9454-ea0b4907f3ca",
-            "flow": "xtls-rprx-vision",
+            "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.zalando.de",
+                "server_name": "fr-free.fastestrelay.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8",
-                    "short_id": "5d710a72f5"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/700gvl",
+                "headers": {
+                    "Host": "fr-free.fastestrelay.com"
                 }
             }
         }

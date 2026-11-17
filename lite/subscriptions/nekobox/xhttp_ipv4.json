@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,11 +182,22 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]",
-            "type": "trojan",
-            "server": "nexianetwork.anymor.org",
-            "server_port": 6565,
-            "password": "og7z59up8iv4afom"
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "216.24.57.1",
+            "server_port": 2083,
+            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "enorgg.maniyadg7shard.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

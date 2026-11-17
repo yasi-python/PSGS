@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"chs.luna-nodes.com","port":443,"uuid":"f0cd939d-966a-4dc9-9454-ea0b4907f3ca","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"www.zalando.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8","short-id":"5d710a72f5"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"fr-free.fastestrelay.com","port":443,"uuid":"364D2D52-E61E-4E52-80EC-2BC6BDF15349","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fr-free.fastestrelay.com","ws-opts":{"path":"/700gvl","headers":{"Host":"fr-free.fastestrelay.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select
