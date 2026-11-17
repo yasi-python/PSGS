@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,77 +105,75 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "188.114.96.246",
-            "server_port": 8443,
-            "uuid": "9443badf-414f-4b12-b19a-7cc2c7431163",
-            "flow": "",
+            "server": "122.8.92.4",
+            "server_port": 443,
+            "uuid": "0e23fd15-184f-9c40-4f25-9a488061cff4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "moz.ar-marz.fun",
+                "server_name": "cdn.steamstatic.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/man",
-                "headers": {
-                    "Host": "moz.ar-marz.fun"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "104.25.242.200",
-            "server_port": 8443,
-            "uuid": "9443badf-414f-4b12-b19a-7cc2c7431163",
-            "flow": "",
+            "server": "48.102.160.14",
+            "server_port": 443,
+            "uuid": "882b1d03-f43c-4adf-abe7-4ace93d7e37b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "moz.ar-marz.fun",
+                "server_name": "node1.vazza.ratcraft.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "w8Rd8PWysfYdCgaSwlhJxedwn3xor_CD2cWv_lIRIDE",
+                    "short_id": "acd68c16677b6967"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/man",
-                "headers": {
-                    "Host": "moz.ar-marz.fun"
-                }
+                "type": "grpc",
+                "service_name": "grpc"
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "188.114.99.157",
-            "server_port": 8443,
-            "uuid": "9443badf-414f-4b12-b19a-7cc2c7431163",
-            "flow": "",
+            "server": "93.183.127.54",
+            "server_port": 24447,
+            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "moz.ar-marz.fun",
+                "server_name": "lakes.blog-forme.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/man",
-                "headers": {
-                    "Host": "moz.ar-marz.fun"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
                 }
             }
         }
