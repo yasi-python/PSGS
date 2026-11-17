@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFA=
+//profile-title: base64:UFNHIHwgVFJPSkFOX0RPTUFJTg==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,50 +190,11 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "122.8.92.4",
-            "server_port": 443,
-            "uuid": "0e23fd15-184f-9c40-4f25-9a488061cff4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.steamstatic.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "93.183.127.54",
-            "server_port": 24447,
-            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lakes.blog-forme.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
-                    "short_id": "3258252d44113e23"
-                }
-            }
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [48]",
+            "type": "trojan",
+            "server": "nexianetwork.anymor.org",
+            "server_port": 6565,
+            "password": "og7z59up8iv4afom"
         }
     ],
     "route": {

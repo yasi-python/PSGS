@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"mia15.qevnora.site","port":8443,"uuid":"78d4b3a0-7c19-4a81-9ef9-d39fd8d4ec58","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"s15.xovra.fun","flow":"xtls-rprx-vision"}
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"motyui-production.up.railway.app","port":443,"uuid":"9a9d3a6f-e7dd-4fe8-bcb9-a0d053a986a0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"motyui-production.up.railway.app","ws-opts":{"path":"/api/pxMqKL","headers":{"Host":"motyui-production.up.railway.app"}}}
-  - {"name":"🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"fastifyturkey.beautishine.ir","port":34393,"uuid":"3316cc0f-bffa-424d-a3c9-3618ab348995","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"fastifyturkey.beautishine.ir"}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"afshin.daltoonserver.ir","port":330,"uuid":"36079649-5841-485b-ba94-0f7b427db146","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"updates.cdn-apple.com","reality-opts":{"public-key":"x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg","short-id":"33decb55cc"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"de.dataroom.cfd","port":2083,"uuid":"3ac26062-7999-4fd5-bd68-447af8f19fe1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de.dataroom.cfd","ws-opts":{"path":"/vless","headers":{"Host":"de.dataroom.cfd"}}}
+  - {"name":"🇧🇾 BY | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"bl1.nexfile.net","port":4443,"uuid":"a35c508f-4d5d-4531-842e-6e9d43c762c0","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"bl1.nexfile.net"}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"pl3.fox-lisa.ru","port":443,"uuid":"ccb8ff48-3934-4250-b4ec-bb76b95d154f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pl3.fox-lisa.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs","short-id":"027af64166562b09"}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"render.com","port":2053,"uuid":"49fe1f7b-e6f6-43dc-a67d-caade85128ba","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"org-nether-soeiwhal-bssutudhdhese-beqhjdwter.maniyadg7shard.ir"}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"afshin.daltoonserver.ir","port":8989,"uuid":"36079649-5841-485b-ba94-0f7b427db146","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"s6-sms-cdn.ecom-stg.samsung.con","reality-opts":{"public-key":"5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo","short-id":"4210c5901a6ba9da"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"chs.luna-nodes.com","port":443,"uuid":"f0cd939d-966a-4dc9-9454-ea0b4907f3ca","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"www.zalando.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8","short-id":"5d710a72f5"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]'
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]'
-      - '🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [43]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇧🇾 BY | 🔒 VLESS | @NamiraConfigs [39]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select
