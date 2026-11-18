@@ -23,7 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"178.104.151.84","port":19455,"uuid":"2bea88e4-5108-418a-b984-a657ce14d9e2","tls":true,"network":"xhttp","client-fingerprint":"safari","udp":true,"servername":"technolife.com","reality-opts":{"public-key":"aXD5D9IqVSV6-fJoeaSd2Ih_YpsUglMFmxeYAvzComE","short-id":"f290bef421011549"}}
+  - {"name":"🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"164.37.111.78","port":8080,"uuid":"7def466a-5810-47cd-b56a-402f28dd03bf","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"150.251.142.97","port":2053,"uuid":"3be8be9d-5afc-481b-966f-ab683914ce59","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.samsung.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"f3Ooz7Yxw4QqQNxddxYG0zOewK8zullgKVTBZxR1a0Y","short-id":"cc981b746a300649"}}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"130.78.31.44","port":443,"uuid":"df97ce68-477f-4484-94c7-79eccab7319d","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"pol5.angelsleep9.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Fgl3cxer1ZznUcZpuUQZnqdSkqwwFepl5W4o6Lk0mEc"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"89.105.212.9","port":443,"uuid":"3be8be9d-5afc-481b-966f-ab683914ce59","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"onf.ru","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk","short-id":"5c766813929a1fdd"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"77.90.47.14","port":8443,"uuid":"483c6187-3c8d-436b-8413-536c2c87b70c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"badewelt-sinsheim.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA","short-id":"1d151a49"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"42455d33-3ca0-48f4-afee-1b1b7621adb1","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"ef500b05-a5e8-4446-bbe3-cb836cc4fc46","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [38]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select

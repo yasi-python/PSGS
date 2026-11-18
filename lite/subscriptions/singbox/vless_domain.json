@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,52 +192,34 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "karemddert-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "5ce30b34-b2ca-4651-8600-ad217f62e866",
+            "server": "fb73e849da5c3163.bluebleu.ir",
+            "server_port": 48007,
+            "uuid": "9ccaa02e-508c-4175-91a2-17a1e512bb6e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "karemddert-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/mVNPPb",
-                "headers": {
-                    "Host": "karemddert-production.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "subgift.gcorecdn.com",
-            "server_port": 443,
-            "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
-            "flow": "",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "subgift.gcorecdn.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/t.me-SubGift",
-                "headers": {
-                    "Host": "subgift.gcorecdn.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

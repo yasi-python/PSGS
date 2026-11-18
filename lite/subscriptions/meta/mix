@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"karemddert-production.up.railway.app","port":443,"uuid":"5ce30b34-b2ca-4651-8600-ad217f62e866","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"karemddert-production.up.railway.app","ws-opts":{"path":"/api/mVNPPb","headers":{"Host":"karemddert-production.up.railway.app"}}}
-  - {"name":"🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"subgift.gcorecdn.com","port":443,"uuid":"740b2630-b42d-425c-bacd-37e7e30d78f1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"subgift.gcorecdn.com","ws-opts":{"path":"/t.me-SubGift","headers":{"Host":"subgift.gcorecdn.com"}}}
-  - {"name":"🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]","type":"trojan","server":"pationgfdder-production.up.railway.app","port":443,"password":"5rHKGD3yFVHXNW6L","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"77.90.47.14","port":8443,"uuid":"483c6187-3c8d-436b-8413-536c2c87b70c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"badewelt-sinsheim.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA","short-id":"1d151a49"}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"fb73e849da5c3163.bluebleu.ir","port":48007,"uuid":"9ccaa02e-508c-4175-91a2-17a1e512bb6e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"ef500b05-a5e8-4446-bbe3-cb836cc4fc46","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]'
-      - '🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]'
-      - '🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select

@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,75 +113,57 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "karemddert-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "5ce30b34-b2ca-4651-8600-ad217f62e866",
-            "flow": "",
+            "server": "77.90.47.14",
+            "server_port": 8443,
+            "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "karemddert-production.up.railway.app",
+                "server_name": "badewelt-sinsheim.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/mVNPPb",
-                "headers": {
-                    "Host": "karemddert-production.up.railway.app"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
+                    "short_id": "1d151a49"
                 }
             }
         },
         {
-            "tag": "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "subgift.gcorecdn.com",
-            "server_port": 443,
-            "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+            "server": "fb73e849da5c3163.bluebleu.ir",
+            "server_port": 48007,
+            "uuid": "9ccaa02e-508c-4175-91a2-17a1e512bb6e",
             "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "subgift.gcorecdn.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/t.me-SubGift",
-                "headers": {
-                    "Host": "subgift.gcorecdn.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]",
-            "type": "trojan",
-            "server": "pationgfdder-production.up.railway.app",
-            "server_port": 443,
-            "password": "5rHKGD3yFVHXNW6L",
-            "tls": {
-                "enabled": true,
-                "server_name": "pationgfdder-production.up.railway.app",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/uBwwBj",
-                "headers": {
-                    "Host": "pationgfdder-production.up.railway.app"
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }
