@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,20 +190,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]",
             "type": "vless",
-            "server": "216.24.57.1",
-            "server_port": 2083,
-            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
-            "flow": "",
+            "server": "178.104.151.84",
+            "server_port": 19455,
+            "uuid": "2bea88e4-5108-418a-b984-a657ce14d9e2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "enorgg.maniyadg7shard.ir",
+                "server_name": "technolife.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aXD5D9IqVSV6-fJoeaSd2Ih_YpsUglMFmxeYAvzComE",
+                    "short_id": "f290bef421011549"
                 }
             }
         }

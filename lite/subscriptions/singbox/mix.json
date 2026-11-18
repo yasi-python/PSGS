@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,57 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "216.24.57.1",
-            "server_port": 2083,
-            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
+            "server": "karemddert-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "5ce30b34-b2ca-4651-8600-ad217f62e866",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "enorgg.maniyadg7shard.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "48.103.120.21",
-            "server_port": 443,
-            "uuid": "a30903dc-1bf0-0002-8b1b-603a3a56211c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-svc-io.galioncc.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-                    "short_id": "868419504747f6de"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "fr-free.fastestrelay.com",
-            "server_port": 443,
-            "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fr-free.fastestrelay.com",
+                "server_name": "karemddert-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -172,9 +131,57 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/700gvl",
+                "path": "/api/mVNPPb",
                 "headers": {
-                    "Host": "fr-free.fastestrelay.com"
+                    "Host": "karemddert-production.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "subgift.gcorecdn.com",
+            "server_port": 443,
+            "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "subgift.gcorecdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/t.me-SubGift",
+                "headers": {
+                    "Host": "subgift.gcorecdn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]",
+            "type": "trojan",
+            "server": "pationgfdder-production.up.railway.app",
+            "server_port": 443,
+            "password": "5rHKGD3yFVHXNW6L",
+            "tls": {
+                "enabled": true,
+                "server_name": "pationgfdder-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/uBwwBj",
+                "headers": {
+                    "Host": "pationgfdder-production.up.railway.app"
                 }
             }
         }

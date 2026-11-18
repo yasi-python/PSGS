@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,16 +192,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "fr-free.fastestrelay.com",
+            "server": "karemddert-production.up.railway.app",
             "server_port": 443,
-            "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
+            "uuid": "5ce30b34-b2ca-4651-8600-ad217f62e866",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "fr-free.fastestrelay.com",
+                "server_name": "karemddert-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -208,9 +210,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/700gvl",
+                "path": "/api/mVNPPb",
                 "headers": {
-                    "Host": "fr-free.fastestrelay.com"
+                    "Host": "karemddert-production.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "subgift.gcorecdn.com",
+            "server_port": 443,
+            "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "subgift.gcorecdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/t.me-SubGift",
+                "headers": {
+                    "Host": "subgift.gcorecdn.com"
                 }
             }
         }

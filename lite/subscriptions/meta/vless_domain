@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"fr-free.fastestrelay.com","port":443,"uuid":"364D2D52-E61E-4E52-80EC-2BC6BDF15349","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fr-free.fastestrelay.com","ws-opts":{"path":"/700gvl","headers":{"Host":"fr-free.fastestrelay.com"}}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"karemddert-production.up.railway.app","port":443,"uuid":"5ce30b34-b2ca-4651-8600-ad217f62e866","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"karemddert-production.up.railway.app","ws-opts":{"path":"/api/mVNPPb","headers":{"Host":"karemddert-production.up.railway.app"}}}
+  - {"name":"🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"subgift.gcorecdn.com","port":443,"uuid":"740b2630-b42d-425c-bacd-37e7e30d78f1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"subgift.gcorecdn.com","ws-opts":{"path":"/t.me-SubGift","headers":{"Host":"subgift.gcorecdn.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇱🇺 LU | 🔒 VLESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select
