@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [37]"
+                "🚩 CF | 🔒 TROJAN | @NamiraConfigs [45]",
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [37]"
+                "🚩 CF | 🔒 TROJAN | @NamiraConfigs [45]",
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,14 +184,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [37]",
+            "tag": "🚩 CF | 🔒 TROJAN | @NamiraConfigs [45]",
             "type": "trojan",
-            "server": "cmdfghrety-production.up.railway.app",
-            "server_port": 443,
-            "password": "zi-xIc935WTzUG-g",
+            "server": "104.20.26.192",
+            "server_port": 2053,
+            "password": "IDgAbZbs8cZw",
             "tls": {
                 "enabled": true,
-                "server_name": "cmdfghrety-production.up.railway.app",
+                "server_name": "rAyan02-1d7cmk9v-t3.rayAn-02.worKers.dEV",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -198,9 +200,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/api/g7iw3m",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "cmdfghrety-production.up.railway.app"
+                    "Host": "rAyan02-1d7cmk9v-t3.rayAn-02.worKers.dEV"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [50]",
+            "type": "trojan",
+            "server": "208.69.78.208",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "resources.yourultimateprofessionalcareerhub.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

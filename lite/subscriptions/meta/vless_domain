@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"fb73e849da5c3163.bluebleu.ir","port":48007,"uuid":"9ccaa02e-508c-4175-91a2-17a1e512bb6e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"ef500b05-a5e8-4446-bbe3-cb836cc4fc46","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"0ec134d1-307a-42ca-880c-4a7a09c7450d","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"alb1.angelsleep9.com","port":443,"uuid":"df97ce68-477f-4484-94c7-79eccab7319d","tls":true,"network":"raw","client-fingerprint":"firefox","udp":true,"servername":"alb1.angelsleep9.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs","short-id":"28ffd89d510a739b"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]'
       - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select

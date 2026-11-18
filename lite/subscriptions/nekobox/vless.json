@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,43 +184,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "77.90.47.14",
-            "server_port": 8443,
-            "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "badewelt-sinsheim.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
-                    "short_id": "1d151a49"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "fb73e849da5c3163.bluebleu.ir",
-            "server_port": 48007,
-            "uuid": "9ccaa02e-508c-4175-91a2-17a1e512bb6e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "panel.jorvexo.ir",
             "server_port": 1152,
-            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "uuid": "0ec134d1-307a-42ca-880c-4a7a09c7450d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -237,6 +203,29 @@
                     "enabled": true,
                     "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
                     "short_id": "ead6bdba606219a2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "alb1.angelsleep9.com",
+            "server_port": 443,
+            "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "alb1.angelsleep9.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs",
+                    "short_id": "28ffd89d510a739b"
                 }
             }
         }
