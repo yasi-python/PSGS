@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFBfSVBWNA==
+//profile-title: base64:UFNHIHwgVFJPSkFOX0lQVjQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,48 +190,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
-            "type": "vless",
-            "server": "46.247.108.198",
-            "server_port": 443,
-            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "h2-service.storagedirectguide.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EBUqXkDmiIOYVd_2iUZ-kILO6BvOXDRZwnAWfxnBG1w",
-                    "short_id": "bbeb3bf48e514ec6"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]",
-            "type": "vless",
-            "server": "177.3.252.14",
-            "server_port": 443,
-            "uuid": "146d567c-6335-4e63-a8aa-7ec068642440",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pl1.obxodvpn.us",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw",
-                    "short_id": "5c42ed8c"
+            "tag": "🚩 CF | 🔓 TROJAN | @NamiraConfigs [49]",
+            "type": "trojan",
+            "server": "188.114.96.3",
+            "server_port": 2096,
+            "password": "vP!XvZBNdw.e*ddSgmH!",
+            "transport": {
+                "type": "ws",
+                "path": "/tr/ZFttmjSqvda5ohOQ?ed=2560",
+                "headers": {
+                    "Host": "n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev"
                 }
             }
         }

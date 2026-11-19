@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,39 +186,39 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [42]",
             "type": "vless",
-            "server": "46.247.108.198",
-            "server_port": 443,
-            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "server": "83.229.84.243",
+            "server_port": 37763,
+            "uuid": "06fbcd77-ade5-4d93-9135-e070a60fc5ce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "h2-service.storagedirectguide.com",
+                "server_name": "www.sony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EBUqXkDmiIOYVd_2iUZ-kILO6BvOXDRZwnAWfxnBG1w",
-                    "short_id": "bbeb3bf48e514ec6"
+                    "public_key": "bLUz0xB26LhvPQSTWCnsHPzhtK_UCrF5I8_rXHRnNlw",
+                    "short_id": "76"
                 }
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "177.3.252.14",
+            "server": "48.102.174.211",
             "server_port": 443,
-            "uuid": "146d567c-6335-4e63-a8aa-7ec068642440",
+            "uuid": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pl1.obxodvpn.us",
+                "server_name": "polandchuzhoi.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -224,8 +226,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw",
-                    "short_id": "5c42ed8c"
+                    "public_key": "iBEesuOsglmAW2h0Cts7hsATNKhXkHnZq2dbR7Xn0HY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "195.206.235.234",
+            "server_port": 443,
+            "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "4935e4t.de25.h1clayd.click",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
+                    "short_id": "6976d670818644cc"
                 }
             }
         }

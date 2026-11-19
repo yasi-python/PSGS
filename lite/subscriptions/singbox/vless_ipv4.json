@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,16 +190,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "144.31.214.68",
-            "server_port": 8443,
-            "uuid": "12910384-1ef8-40a3-818a-57277063ea66",
+            "server": "104.18.151.231",
+            "server_port": 443,
+            "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "kk-fr2-21468.testkknegr.online",
+                "server_name": "steep-lake-615e.xeremed6978165.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -207,8 +207,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "vlgrpc"
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "steep-lake-615e.xeremed6978165.workers.dev"
+                }
             }
         }
     ],
