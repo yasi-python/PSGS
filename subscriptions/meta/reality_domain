@@ -23,7 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"static2.denmexa.ir","port":2789,"uuid":"45ef2743-ad11-4812-b7dc-82e311517c11","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI","short-id":"4e4aaad65cc07da8"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"4dc7f947-869c-4ea9-aa18-6f76b143b1fd","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]","type":"vless","server":"1626282bs96377171.trivoxa.ir","port":54854,"uuid":"f6abd59d-f4ed-49fb-8c4e-a6031c7c151c","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"tradingview.com","reality-opts":{"public-key":"86N3w2k5BA6n9BVKlLC_a0t7hiAQ8Fv1jViXl-d7sVA","short-id":"31dfb3"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"slot1.ipoxxo.online","port":2083,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"github.com","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"s1.berluno.ir","port":1155,"uuid":"ab8fedf7-6228-41a1-ae2c-c861625ad6ce","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI","short-id":"4e4aaad65cc07da8"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"slot1.ipoxxo.online","port":443,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"github.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select

@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"104.18.151.231","port":443,"uuid":"eaf76557-2219-4799-8171-d7020adfefd0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"steep-lake-615e.xeremed6978165.workers.dev","ws-opts":{"path":"/ws","headers":{"Host":"steep-lake-615e.xeremed6978165.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"render.com","port":2087,"uuid":"316acccc-720d-499e-a92d-9caa7a26c495","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"n5r.droonix.ir"}
+  - {"name":"🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]","type":"trojan","server":"66.163.122.26","port":443,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"aws.pishigaman.sbs","port":443,"uuid":"b57f25ad-1f6c-45c6-a28f-b7e6baff23dc","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"d1rr98pcpt2gf8.cloudfront.net","ws-opts":{"path":"/wss?ed=2560","headers":{"Host":"d1rr98pcpt2gf8.cloudfront.net"}}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"slot1.ipoxxo.online","port":443,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"github.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [53]'
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]'
+      - '🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select

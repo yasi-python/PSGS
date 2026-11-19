@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +105,32 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "104.18.151.231",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [53]",
+            "type": "trojan",
+            "server": "66.163.122.26",
             "server_port": 443,
-            "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "aws.pishigaman.sbs",
+            "server_port": 443,
+            "uuid": "b57f25ad-1f6c-45c6-a28f-b7e6baff23dc",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "steep-lake-615e.xeremed6978165.workers.dev",
+                "server_name": "d1rr98pcpt2gf8.cloudfront.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,52 +139,32 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "/wss?ed=2560",
                 "headers": {
-                    "Host": "steep-lake-615e.xeremed6978165.workers.dev"
+                    "Host": "d1rr98pcpt2gf8.cloudfront.net"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "tether.dev",
+            "server": "slot1.ipoxxo.online",
             "server_port": 443,
-            "uuid": "dd2525ab-e5b7-58c4-a9b4-511100000000",
-            "flow": "",
+            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "xtdp.akaram-5624-cba.workers.dev",
+                "server_name": "github.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "xtdp.akaram-5624-cba.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "render.com",
-            "server_port": 2087,
-            "uuid": "316acccc-720d-499e-a92d-9caa7a26c495",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "n5r.droonix.ir",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
+                    "short_id": "f150baf0f97c7aed"
                 }
             }
         }
