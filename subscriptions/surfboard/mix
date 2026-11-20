@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩 CF | 🔒 TROJAN | @NamiraConfigs [37] = trojan, vhz1g2exuurs.n5z4sme6ujfs.workers.dev, 443, password = 50414e45-4c5f-5a45-5553-d1d89df6aa4d, skip-cert-verify = false
-🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41] = trojan, werty-production.up.railway.app, 443, password = 6PXChM2Bqbi3fmGV, skip-cert-verify = false
-🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48] = trojan, ldjfrfhvdvfg-production.up.railway.app, 443, password = J312MA7LbSkAk--8, skip-cert-verify = false
+🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38] = trojan, 208.69.78.60, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = false
+🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39] = trojan, 208.69.78.222, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = false
+🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46] = trojan, 193.108.119.96, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 TROJAN | @NamiraConfigs [37], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]
-PSG-AUTO = url-test, 🚩 CF | 🔒 TROJAN | @NamiraConfigs [37], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]
-PSG-FALLBACK = fallback, 🚩 CF | 🔒 TROJAN | @NamiraConfigs [37], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38], 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39], 🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]
+PSG-AUTO = url-test, 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38], 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39], 🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]
+PSG-FALLBACK = fallback, 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38], 🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39], 🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]
 
 [Rule]
 GEOIP,IR,DIRECT

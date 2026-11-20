@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,16 +194,16 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
-            "server": "ch.outforyou.ir",
-            "server_port": 46280,
-            "uuid": "6f82218b-ab3d-4ff2-b3c9-4547c43cf531",
+            "server": "95.85.232.83",
+            "server_port": 2087,
+            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
+                "server_name": "trips.blog-forme.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -211,45 +211,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ",
-                    "short_id": "e53690af52736850"
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
                 }
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "94.72.100.12",
-            "server_port": 443,
-            "uuid": "b004e898-f6cf-54a5-d281-f063d741ad53",
+            "server": "104.17.70.206",
+            "server_port": 8443,
+            "uuid": "3692de53-42e6-4aed-a522-40ec355dcd2f",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "xray-ckc68nno-swift-harbor-8.cloady.io",
+                "server_name": "free.sahanwickramasinghe.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -258,9 +235,32 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/3e0261245277336d",
+                "path": "/?Telegram---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP",
                 "headers": {
-                    "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
+                    "Host": "free.sahanwickramasinghe.com"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "71b840t.de7.h1clayd.click",
+            "server_port": 443,
+            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "71b840t.de7.h1clayd.click",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+                    "short_id": "e572b6579ea525d4"
                 }
             }
         }

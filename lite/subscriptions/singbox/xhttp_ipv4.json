@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFJPSkFOX0RPTUFJTg==
+//profile-title: base64:UFNHIHwgWEhUVFBfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @NamiraConfigs [37]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @NamiraConfigs [37]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,71 +190,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @NamiraConfigs [37]",
-            "type": "trojan",
-            "server": "vhz1g2exuurs.n5z4sme6ujfs.workers.dev",
-            "server_port": 443,
-            "password": "50414e45-4c5f-5a45-5553-d1d89df6aa4d",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "95.85.232.83",
+            "server_port": 2087,
+            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vhz1g2exuurs.n5z4sme6ujfs.workers.dev",
+                "server_name": "trips.blog-forme.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/stream/PANEL_ZEUS/d1d89df6aa4d",
-                "headers": {
-                    "Host": "vhz1g2exuurs.n5z4sme6ujfs.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [41]",
-            "type": "trojan",
-            "server": "werty-production.up.railway.app",
-            "server_port": 443,
-            "password": "6PXChM2Bqbi3fmGV",
-            "tls": {
-                "enabled": true,
-                "server_name": "werty-production.up.railway.app",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/Ckp_VT",
-                "headers": {
-                    "Host": "werty-production.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [48]",
-            "type": "trojan",
-            "server": "ldjfrfhvdvfg-production.up.railway.app",
-            "server_port": 443,
-            "password": "J312MA7LbSkAk--8",
-            "tls": {
-                "enabled": true,
-                "server_name": "ldjfrfhvdvfg-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/00utMY",
-                "headers": {
-                    "Host": "ldjfrfhvdvfg-production.up.railway.app"
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
                 }
             }
         }

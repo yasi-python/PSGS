@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38]",
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39]",
+                "🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38]",
+                "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39]",
+                "🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,25 +186,50 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [38]",
+            "type": "trojan",
+            "server": "208.69.78.60",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "in.tradingview.com",
+                "server_name": "cdn.yourultimateprofessionalcareerhub.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 TROJAN | @NamiraConfigs [39]",
+            "type": "trojan",
+            "server": "208.69.78.222",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "yourultimateprofessionalcareerhub.com",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @NamiraConfigs [46]",
+            "type": "trojan",
+            "server": "193.108.119.96",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "learn.iloverussia2026.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

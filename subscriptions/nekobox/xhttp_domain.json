@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,48 +182,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
             "type": "vless",
-            "server": "5cbf7ed7d9f385cf5cbf7ed7d9f385cf5cbf7ed7d9f385cf.drwsh.org",
-            "server_port": 8080,
-            "uuid": "9a2ae733-250c-447f-9ef3-ab9c7bd97999",
-            "flow": "xtls-rprx-vision",
+            "server": "nl4v6.remconnect.site",
+            "server_port": 2053,
+            "uuid": "bfca5524-06f8-4f2c-afea-214759690c44",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "telewebion.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZrRUiPYpM3K35z4cTmMoDSBcQu_lk5k5NU4TrftiSEA",
-                    "short_id": "4cc7250e6e133f94"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
+                "server_name": "nl4v6.remconnect.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
                 }
             }
         }
