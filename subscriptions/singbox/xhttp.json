@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,11 +194,57 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "45.144.49.138",
+            "server_port": 1152,
+            "uuid": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "in.tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "5cbf7ed7d9f385cf5cbf7ed7d9f385cf5cbf7ed7d9f385cf.drwsh.org",
+            "server_port": 8080,
+            "uuid": "9a2ae733-250c-447f-9ef3-ab9c7bd97999",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZrRUiPYpM3K35z4cTmMoDSBcQu_lk5k5NU4TrftiSEA",
+                    "short_id": "4cc7250e6e133f94"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
             "server": "panel.jorvexo.ir",
             "server_port": 1152,
-            "uuid": "4dc7f947-869c-4ea9-aa18-6f76b143b1fd",
+            "uuid": "6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -213,52 +259,6 @@
                     "enabled": true,
                     "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
                     "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "1626282bs96377171.trivoxa.ir",
-            "server_port": 54854,
-            "uuid": "f6abd59d-f4ed-49fb-8c4e-a6031c7c151c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "86N3w2k5BA6n9BVKlLC_a0t7hiAQ8Fv1jViXl-d7sVA",
-                    "short_id": "31dfb3"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "slot1.ipoxxo.online",
-            "server_port": 2083,
-            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "github.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
-                    "short_id": "f150baf0f97c7aed"
                 }
             }
         }

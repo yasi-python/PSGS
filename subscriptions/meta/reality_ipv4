@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"138.124.9.201","port":8443,"uuid":"74af70c0-bea7-4412-9a1a-f7eab9c91ef8","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"admin.mistral.ai","flow":"xtls-rprx-vision","reality-opts":{"public-key":"-rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q","short-id":"4d3affb557796d1c"}}
-  - {"name":"🇮🇪 IE | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"54.75.112.120","port":443,"uuid":"fad6c240-14d0-47ce-9264-21c5f18689c1","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"ZODw0ijKEfbSpHjvQqTyYzsbLpnlnA3j9Io5PfmZ-Ts"}}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"45.144.49.138","port":1152,"uuid":"e18f77f3-e518-4c8c-b230-c79e3708c7f4","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"164.37.110.126","port":443,"uuid":"f439541f-c4d2-43b3-9659-8d3515d7a64c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"212.192.156.15","flow":"xtls-rprx-vision","reality-opts":{"public-key":"a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U","short-id":"5fd3245e96291c37"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"13.140.83.125","port":32196,"uuid":"aa1f86a3-6e26-4f8b-a84d-6b89c784beec","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rmwLy_HRbMrwENhsXoLNVc4gROhT-8vRMq9KH4QAakA","short-id":"50be11792f2ff2c6"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [45]'
-      - '🇮🇪 IE | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [38]'
+      - '🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [40]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]'
 
   - name: 🌍 Global Media
     type: select
