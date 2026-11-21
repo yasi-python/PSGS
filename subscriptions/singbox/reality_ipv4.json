@@ -92,10 +92,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇱🇻 LV | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +109,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇱🇻 LV | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,16 +202,85 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [38]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
             "type": "vless",
-            "server": "70.34.211.236",
-            "server_port": 40118,
-            "uuid": "4e932df2-a06a-4043-861c-87fe8d217aae",
+            "server": "153.80.22.106",
+            "server_port": 443,
+            "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "rusbox729.alexdjane.am",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM",
+                    "short_id": "686f7ed96ec0227d"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "158.220.95.242",
+            "server_port": 443,
+            "uuid": "5980f1e1-970c-43b9-b3e8-a8ddd70ceadc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PCm0k-SvNd00cgNuqqnbCzmwVZd5vkgX2ZLk2_qngRs",
+                    "short_id": "b60a93"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "91.192.158.251",
+            "server_port": 2066,
+            "uuid": "4bec3709-0954-4173-ae59-3dee6cb8b961",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "84GM9QUTdTfTrhR-8loDOu7VA0LFW8X02vSvBQdsLAg",
+                    "short_id": "1b2a3f"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "45.63.115.136",
+            "server_port": 46122,
+            "uuid": "29872718-970b-493e-abc9-524fa266d16b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -214,44 +289,44 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs",
-                    "short_id": "9b98825681aba023"
+                    "short_id": "c077229044b68285"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [39]",
+            "tag": "🇱🇻 LV | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "95.179.145.100",
-            "server_port": 40118,
-            "uuid": "4e932df2-a06a-4043-861c-87fe8d217aae",
+            "server": "195.123.209.159",
+            "server_port": 8443,
+            "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "www.apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs",
-                    "short_id": "184a6838386d384e"
+                    "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
+                    "short_id": "f8d0271b4b5f9efc"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "143.203.216.187",
+            "server": "45.154.96.24",
             "server_port": 443,
-            "uuid": "6db6b948-655f-4f68-a9e7-865050e05b31",
+            "uuid": "9fc65c1f-f7e2-44dd-be6f-a9270732b97a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "remote.propaint.cl",
+                "server_name": "firmwaresign.partners.nvidia.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -259,22 +334,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "o7R9liafUMmCf4Sr14gLaB-gZ7mo_axffMCT176tuHw",
-                    "short_id": "672cfc"
+                    "public_key": "o2KcQK-yk3JFACI2IuGoYLa23sClJ2_Az_mKzIj2PhY",
+                    "short_id": "40c55f20dfbf097c"
                 }
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "144.31.90.235",
-            "server_port": 443,
-            "uuid": "6ab79fec-ca02-447b-b7be-5945f6e6ea8f",
+            "server": "138.16.206.147",
+            "server_port": 9114,
+            "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "blog-asia.livemusic.ac",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -282,9 +357,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w",
-                    "short_id": "adff113498e0f7fc"
+                    "public_key": "4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs",
+                    "short_id": "6ba85179e30d4fc2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "inetgrpc"
             }
         }
     ],
