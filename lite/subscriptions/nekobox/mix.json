@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,73 +105,52 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "usa3.mobileemdad.top",
-            "server_port": 443,
-            "uuid": "a2f9003e-dc03-476e-a2f4-94421c8c2c6f",
+            "server": "sshwug.g44mozgh.ir",
+            "server_port": 5894,
+            "uuid": "60ec0bb0-6ec1-4062-9246-66a6f8270c7e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nobitex.ir",
+                "server_name": "play.google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-                    "short_id": "08"
+                    "public_key": "KXLDswKQcUewxqcVc4G69vA1wQ3dr45AjOQFZ9pNEnw",
+                    "short_id": "007f3473438a5f2a"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "144.31.215.233",
-            "server_port": 2096,
-            "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
+            "server": "46.8.69.218",
+            "server_port": 8080,
+            "uuid": "cda4db41-d347-4b9e-9519-7408d81f3416",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "st46d76.rumedia-cdn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/cdn/v3/live",
-                "headers": {
-                    "Host": "st46d76.rumedia-cdn.com"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "5952962f-6a85-4ff2-9d45-c51de43fa843",
+            "server": "static.58.252.109.65.clients.your-server.de",
+            "server_port": 443,
+            "uuid": "2b696acb-1311-4ab7-b832-b376d29dca27",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "in.tradingview.com",
+                "server_name": "static.170.55.238.62.clients.your-server.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

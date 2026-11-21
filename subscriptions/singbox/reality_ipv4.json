@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,39 +190,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "45.10.59.39",
+            "server": "185.88.101.105",
             "server_port": 443,
-            "uuid": "a2f9003e-dc03-476e-a2f4-94421c8c2c6f",
+            "uuid": "f2341274-8dd8-4b80-95fd-780641f6f2da",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-                    "short_id": "f88610dd"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "164.37.111.78",
-            "server_port": 8080,
-            "uuid": "a2f9003e-dc03-476e-a2f4-94421c8c2c6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "fl13.svinka.pro",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -232,9 +207,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc",
-                    "short_id": "eb11f7630faaaf60"
+                    "public_key": "aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ",
+                    "short_id": "0858af97f4e7324d"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "fl13svinkapro-grpc"
             }
         }
     ],

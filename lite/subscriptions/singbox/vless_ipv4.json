@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,29 +190,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "144.31.215.233",
-            "server_port": 2096,
-            "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
+            "server": "46.8.69.218",
+            "server_port": 8080,
+            "uuid": "cda4db41-d347-4b9e-9519-7408d81f3416",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "st46d76.rumedia-cdn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/cdn/v3/live",
-                "headers": {
-                    "Host": "st46d76.rumedia-cdn.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
