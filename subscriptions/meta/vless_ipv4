@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"195.15.207.252","port":443,"uuid":"65b6bc06-44c9-4b21-8dc0-bdf1d688c0e6","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"ch.mntw.lol","flow":"xtls-rprx-vision","reality-opts":{"public-key":"dqhYuWM5WUOgUYe4FmvLZS-Nb4tY9qZ7_WffpePl6lQ","short-id":"76d0389e457fcba0"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"172.67.130.187","port":2083,"uuid":"2b8738de-1af5-4267-b101-c05707769ed4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fans.liverpool.qzz.io","ws-opts":{"path":"/eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"fans.liverpool.qzz.io"}}}
-  - {"name":"🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"80.79.121.156","port":443,"uuid":"6ab79fec-ca02-447b-b7be-5945f6e6ea8f","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"archive-eu-west.livemusic.ac","flow":"xtls-rprx-vision","reality-opts":{"public-key":"x9HClr5eRPhMPuBIndkjqFU_0D0M-p4sJVAxuTP68kM","short-id":"dcfad1cc10d0d15b"}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]","type":"vless","server":"167.235.108.33","port":443,"uuid":"2929b620-54e1-4236-8740-8a7a2e399d39","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"70.34.211.236","port":40118,"uuid":"4e932df2-a06a-4043-861c-87fe8d217aae","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs","short-id":"9b98825681aba023"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"95.179.145.100","port":40118,"uuid":"4e932df2-a06a-4043-861c-87fe8d217aae","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs","short-id":"184a6838386d384e"}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"143.203.216.187","port":443,"uuid":"6db6b948-655f-4f68-a9e7-865050e05b31","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"remote.propaint.cl","flow":"xtls-rprx-vision","reality-opts":{"public-key":"o7R9liafUMmCf4Sr14gLaB-gZ7mo_axffMCT176tuHw","short-id":"672cfc"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"144.31.90.235","port":443,"uuid":"6ab79fec-ca02-447b-b7be-5945f6e6ea8f","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"blog-asia.livemusic.ac","flow":"xtls-rprx-vision","reality-opts":{"public-key":"DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w","short-id":"adff113498e0f7fc"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"92.223.124.62","port":443,"uuid":"10e60745-9685-4b7e-8539-a1fd06ce0d4e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"api.gcore.com"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [43]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [51]'
-      - '🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [52]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]'
+      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [38]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [39]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select

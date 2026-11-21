@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,57 +190,26 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "178.20.28.5",
-            "server_port": 8443,
-            "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
+            "server": "144.31.90.235",
+            "server_port": 443,
+            "uuid": "6ab79fec-ca02-447b-b7be-5945f6e6ea8f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "res.cdn.office.net",
+                "server_name": "blog-asia.livemusic.ac",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo",
-                    "short_id": ""
+                    "public_key": "DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w",
+                    "short_id": "adff113498e0f7fc"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "TunService"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "62.233.39.5",
-            "server_port": 8443,
-            "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "download.nvidia.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "TunService"
             }
         }
     ],
