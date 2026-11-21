@@ -23,15 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [37]","type":"vless","server":"fl.sorixset.ir","port":443,"uuid":"849e5ed7-90da-487e-a044-c9052563895c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pakar.sorixset.ir"}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"fr-free.fastestrelay.com","port":443,"uuid":"364D2D52-E61E-4E52-80EC-2BC6BDF15349","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fr-free.fastestrelay.com","ws-opts":{"path":"/700gvl","headers":{"Host":"fr-free.fastestrelay.com"}}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"Er.zxnetworkstatus.com","port":8443,"uuid":"8a579d46-c0e6-4cdf-8561-2c1c5e26ea5f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"er.zxnetworkstatus.com","flow":"xtls-rprx-vision"}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"du5g.altheora.ir","port":27181,"uuid":"a8779cac-a237-4b17-922d-a43a8bc8c5ac","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"login.zanjanphone.ir","ws-opts":{"path":"/user","headers":{"Host":"login.zanjanphone.ir"}}}
-  - {"name":"🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [42]","type":"vless","server":"nef.gmax12.ir","port":80,"uuid":"61838e4b-243a-4e5f-9be7-a22f3edfec37","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"3a2a85ca-f856-442b-9130-c9074de732be","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"fdn3.gmax12.ir","port":8080,"uuid":"61838e4b-243a-4e5f-9be7-a22f3edfec37","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
-  - {"name":"🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"sshwug.g44mozgh.ir","port":5894,"uuid":"60ec0bb0-6ec1-4062-9246-66a6f8270c7e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"KXLDswKQcUewxqcVc4G69vA1wQ3dr45AjOQFZ9pNEnw","short-id":"007f3473438a5f2a"}}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"static.58.252.109.65.clients.your-server.de","port":443,"uuid":"2b696acb-1311-4ab7-b832-b376d29dca27","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"static.170.55.238.62.clients.your-server.de","flow":"xtls-rprx-vision"}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"80cb66x.nl13.h1clayd.click","port":443,"uuid":"cda0862a-0f87-4be9-8ed8-1d0c9e382839","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"80cb66x.nl13.h1clayd.click","reality-opts":{"public-key":"jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0","short-id":"f72d4a2c7cbbacb1"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"helixgaming.ir","port":5090,"uuid":"a1137891-68b2-43dd-b520-a9c97de52ba2","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"MZkENaBoeKtwdwtpSS9baWGtXVnVI7idKiHi-ftXoGo","short-id":"ede9df4652"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"de.shadowshine.cc","port":443,"uuid":"e486717e-7621-42ac-98b7-d4a40c99f9bc","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"de.shadowshine.cc","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,15 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [37]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [38]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [41]'
-      - '🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [42]'
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]'
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]'
-      - '🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]'
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select

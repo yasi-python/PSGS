@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "sshwug.g44mozgh.ir",
-            "server_port": 5894,
-            "uuid": "60ec0bb0-6ec1-4062-9246-66a6f8270c7e",
+            "server": "178.20.28.5",
+            "server_port": 8443,
+            "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "play.google.com",
+                "server_name": "res.cdn.office.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -130,31 +130,53 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "KXLDswKQcUewxqcVc4G69vA1wQ3dr45AjOQFZ9pNEnw",
-                    "short_id": "007f3473438a5f2a"
+                    "public_key": "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "TunService"
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "46.8.69.218",
-            "server_port": 8080,
-            "uuid": "cda4db41-d347-4b9e-9519-7408d81f3416",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "static.58.252.109.65.clients.your-server.de",
-            "server_port": 443,
-            "uuid": "2b696acb-1311-4ab7-b832-b376d29dca27",
+            "server": "62.233.39.5",
+            "server_port": 8443,
+            "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "static.170.55.238.62.clients.your-server.de",
+                "server_name": "download.nvidia.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "TunService"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "167.235.108.33",
+            "server_port": 443,
+            "uuid": "2929b620-54e1-4236-8740-8a7a2e399d39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "167.235.108.33",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

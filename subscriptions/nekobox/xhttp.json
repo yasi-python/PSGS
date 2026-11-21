@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [44]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [44]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,16 +184,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [43]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [44]",
             "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "3a2a85ca-f856-442b-9130-c9074de732be",
+            "server": "62.233.39.5",
+            "server_port": 443,
+            "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "in.tradingview.com",
+                "server_name": "cdn.steamstatic.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -199,8 +201,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
+                    "public_key": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "80cb66x.nl13.h1clayd.click",
+            "server_port": 443,
+            "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "80cb66x.nl13.h1clayd.click",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
+                    "short_id": "f72d4a2c7cbbacb1"
                 }
             }
         }
