@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"rt.velnix-services.ir","port":17550,"uuid":"4690521d-18a6-47de-bdef-85fd353e270e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI","short-id":"9ab3bfdd8ec94f3f"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select

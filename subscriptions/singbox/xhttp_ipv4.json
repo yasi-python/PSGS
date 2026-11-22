@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]",
             "type": "vless",
-            "server": "91.99.119.37",
-            "server_port": 8443,
-            "uuid": "21d31e34-fda0-413b-b8c4-3b6b0c793f73",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "62.233.39.5",
+            "server_port": 443,
+            "uuid": "3dcf80c9-4e6d-0fc7-1112-126507d3ee3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.steamstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
+                    "short_id": ""
+                }
+            }
         }
     ],
     "route": {
