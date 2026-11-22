@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"rt.velnix-services.ir","port":17550,"uuid":"4690521d-18a6-47de-bdef-85fd353e270e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI","short-id":"9ab3bfdd8ec94f3f"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"153.56.229.218","port":443,"uuid":"26843758-24de-4f76-b5d0-624038e353c4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"71b840t.de7.h1clayd.click","reality-opts":{"public-key":"3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE","short-id":"e572b6579ea525d4"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"146.103.42.165","port":9543,"uuid":"920b3cd9-4f82-4669-bbd2-d4a28b9052c6","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"storage.yandexcloud.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc","short-id":"123abcdf"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"212.192.3.63","port":9543,"uuid":"920b3cd9-4f82-4669-bbd2-d4a28b9052c6","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"storage.yandexcloud.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc","short-id":"123abcdf"}}
+  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"sto.edgeptr.org","port":443,"uuid":"0e366659-5f34-4e2c-96ba-9b934574bc61","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","reality-opts":{"public-key":"EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0","short-id":"f0eb800bd980b00b"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]'
+      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select

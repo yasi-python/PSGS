@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]"
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]"
+                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,16 +194,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [38]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
-            "server": "mojif.fusetea.ir",
-            "server_port": 1080,
-            "uuid": "e923b311-f4be-4e82-88d7-b8c973309e91",
+            "server": "lon.edgeptr.org",
+            "server_port": 443,
+            "uuid": "0e366659-5f34-4e2c-96ba-9b934574bc61",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.aparat.com",
+                "server_name": "ajax.aspnetcdn.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -209,22 +211,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "u3EnhSlPtnsjoA4OQwRa8Pk5mQCnBXHYWSP1bfdjYm8",
-                    "short_id": "a17c76d6a2f35aaf"
+                    "public_key": "NgeK43tvGe6YZNEdr4HL-CdimEA59KNFtu1nCNh8LFE",
+                    "short_id": "f0eb800bd980b00b"
                 }
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [39]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
-            "server": "62.233.39.5",
-            "server_port": 443,
-            "uuid": "3dcf80c9-4e6d-0fc7-1112-126507d3ee3f",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "4440dbe9-ec73-4852-a10b-387b0d39c6ad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.steamstatic.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -232,8 +234,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
-                    "short_id": ""
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "31.77.144.255",
+            "server_port": 8444,
+            "uuid": "95580a09-cce7-4b62-af74-a514083ba9e4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amd.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+                    "short_id": "635a76c25a4b1820"
                 }
             }
         }

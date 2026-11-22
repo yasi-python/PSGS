@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +105,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "rt.velnix-services.ir",
-            "server_port": 17550,
-            "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
+            "server": "146.103.42.165",
+            "server_port": 9543,
+            "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "play.google.com",
+                "server_name": "storage.yandexcloud.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+                    "short_id": "123abcdf"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "sto.edgeptr.org",
+            "server_port": 443,
+            "uuid": "0e366659-5f34-4e2c-96ba-9b934574bc61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.lovelive-anime.jp",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -122,56 +145,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
-                    "short_id": "9ab3bfdd8ec94f3f"
+                    "public_key": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
+                    "short_id": "f0eb800bd980b00b"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "104.24.30.89",
-            "server_port": 443,
-            "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/fp=chrome",
-                "headers": {
-                    "Host": "rAyAn-007.nAsTaRaN.DpDnS.OrG"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "153.56.229.218",
-            "server_port": 443,
-            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
+            "server": "212.192.3.63",
+            "server_port": 9543,
+            "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "71b840t.de7.h1clayd.click",
+                "server_name": "storage.yandexcloud.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
-                    "short_id": "e572b6579ea525d4"
+                    "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+                    "short_id": "123abcdf"
                 }
             }
         }
