@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,22 +186,49 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [38]",
             "type": "vless",
-            "server": "t1.g-boot.ir",
-            "server_port": 443,
-            "uuid": "cb961f67-2428-442f-8ba8-a9a960d11f5a",
+            "server": "render.com",
+            "server_port": 8443,
+            "uuid": "0acaa484-60d2-43fc-9c25-13b9c3949f1a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1.g-boot.ir",
+                "server_name": "germany.netpluse.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "chatgpt.com",
+            "server_port": 8443,
+            "uuid": "e88c423d-9f23-4d25-aef0-940571858d58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sinavm2.soft10.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "91.99.119.37",
+            "server_port": 8443,
+            "uuid": "21d31e34-fda0-413b-b8c4-3b6b0c793f73",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

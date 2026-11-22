@@ -23,13 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"sonau.yaremonta.loc.cc","port":443,"uuid":"c5468915-f60c-4134-b4d3-eb24501d7c65","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"dl.google.com","reality-opts":{"public-key":"_DS81HrngZsd_laYN5H0ZLvrqWhiW2DgMP2ea8KQkBc","short-id":"abcd1234"}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"doccity.ir","port":443,"uuid":"574b437b-f673-4eaf-bffc-9d5caa072944","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true,"flow":"xtls-rprx-vision"}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"ir.g-boot.ir","port":443,"uuid":"f56ae4e8-c524-4af5-8fbe-a2e85aee943f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.nvidia.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"KaVqOudPdBy9TIEDxGMN_fcOGlKJmNg2e2grikDJ2lE","short-id":"9a597f16c2171bab"}}
-  - {"name":"🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"nfe.gmax12.ir","port":80,"uuid":"d12d1e91-1daf-4934-b7bf-2d93f7674dee","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"fdn4.gmax12.ir","port":8080,"uuid":"e34e3a48-bdde-4fd0-ac17-c60c00d7000b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
-  - {"name":"🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"vip.xoamrz.ir","port":35464,"uuid":"e848d0b5-ef9a-4f04-8085-38a432f7151b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"au2-images.shop.samsung.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"IV5mtlwbCtW7uS0_v6dfoCRVzEeKmB0d9V4wIK2K-UQ","short-id":"c3ab7073b6fed589"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"t1.g-boot.ir","port":443,"uuid":"cb961f67-2428-442f-8ba8-a9a960d11f5a","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"t1.g-boot.ir"}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"render.com","port":8443,"uuid":"0acaa484-60d2-43fc-9c25-13b9c3949f1a","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"germany.netpluse.ir"}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [40]","type":"vless","server":"srv2.drhomes.ir","port":443,"uuid":"bcccb771-1c01-42d6-b94b-40e47f1b656f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"www.wjzhx.com","port":443,"uuid":"bb8cab4d-bc03-49e3-8ad4-8a77d4a4aa4a","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"www.wjzhx.com"}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"docs.asasin4.ir","port":30940,"uuid":"2516e5aa-d196-49ce-bbab-c3c80e53e0a4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"dl.google.com","reality-opts":{"public-key":"zEUysQ5SnjL4rvmXQI93vQ63_maNqZSX7ivk0a3LY2U","short-id":"d9cc6f4a"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"welovefoxy.ir","port":27418,"uuid":"88cf0e4f-b329-48ad-848e-452a2fb29f10","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.sony.com.sg","flow":"xtls-rprx-vision","reality-opts":{"public-key":"K4WYWOj2q4513ku5iJ5d-2qjnWmmiCBMfw4ThkQEVmA","short-id":"0112935d"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"chatgpt.com","port":8443,"uuid":"e88c423d-9f23-4d25-aef0-940571858d58","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"sinavm2.soft10.ir"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [42]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [44]'
-      - '🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [45]'
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [51]'
-      - '🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [52]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [38]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [40]'
+      - '🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [42]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [43]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [44]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [45]'
 
   - name: 🌍 Global Media
     type: select
