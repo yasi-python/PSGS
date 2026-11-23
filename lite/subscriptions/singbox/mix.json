@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +113,14 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "su1aul34.moeinconsert.ir",
-            "server_port": 2087,
-            "uuid": "6863bed5-1550-485d-a391-f073f02e49b8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
+            "type": "trojan",
+            "server": "170.101.101.131",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "83713b454b45ec43.filimino.ir",
+                "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -131,48 +129,34 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "191.217.244.190",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
+            "type": "trojan",
+            "server": "170.101.101.237",
             "server_port": 443,
-            "uuid": "a086c8e2-7a2f-4265-9518-6d7529106b80",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "ertgmb.wey-land.net",
+                "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l6dfeSmhGc7dGLU_PqhPtMbj4_eONm2Sz_S9D8ePFxY",
-                    "short_id": ""
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "Ge5.mamad.web.tr",
-            "server_port": 8080,
-            "uuid": "6e1606a7-6206-46ee-b787-7fbb73ae19c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]",
+            "type": "trojan",
+            "server": "170.101.101.19",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UJPYLuFqLE71fNdm4iZBpDGRYDkCB0u3f-RA_goSMlI",
-                    "short_id": "306dd0965746924a"
+                    "fingerprint": "chrome"
                 }
             }
         }
