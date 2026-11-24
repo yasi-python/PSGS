@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,43 +182,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [45]",
             "type": "vless",
-            "server": "serv2.arv-winapp.ir",
-            "server_port": 443,
-            "uuid": "1f14a4f5-8575-44db-aab9-332549009d6a",
+            "server": "F1297.zarqivo.ir",
+            "server_port": 2095,
+            "uuid": "20e4c36a-787f-4154-a9b4-47245a9ffc01",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "static.241.123.238.62.clients.your-server.de",
+                "server_name": "Filano.zarqivo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "homestead-walloping.sports-streams.org",
-            "server_port": 443,
-            "uuid": "f579e279-cdff-4175-a92d-350374fc14dc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "blog.worldoftanks.eu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM",
-                    "short_id": ""
                 }
             }
         }

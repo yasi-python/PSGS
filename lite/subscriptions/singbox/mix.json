@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,50 +111,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [55]",
-            "type": "trojan",
-            "server": "170.101.101.131",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "Ge5.mamad.web.tr",
+            "server_port": 20829,
+            "uuid": "9e816222-31ca-47b6-82c7-c086215a9cef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56]",
-            "type": "trojan",
-            "server": "170.101.101.237",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
+            "type": "vless",
+            "server": "rial-ge1.torshikhoone.ir",
             "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "uuid": "af65ec7a-1de2-4ef4-afc1-733ddde252a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
+                "server_name": "www.hetzner.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]",
-            "type": "trojan",
-            "server": "170.101.101.19",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw",
+                    "short_id": "b1c9c3d3cc3b662b"
                 }
             }
         }
