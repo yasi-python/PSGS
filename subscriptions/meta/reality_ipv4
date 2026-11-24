@@ -23,7 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"193.106.221.121","port":777,"uuid":"5fa77250-c3c3-48a2-b432-1f9c6e718571","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"it.nvidia.com","reality-opts":{"public-key":"5Cf3coHU6y-v8Sn3avXr7v5fw4s5AdPMu1_RNITmqTQ","short-id":"14"}}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"31.76.87.225","port":443,"uuid":"b7791707-83d9-444b-9d05-f5c99e90acd4","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"p1.sklserv.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_jwAtRb0diil6EAGA6BpNtCZE9FsvzjFZtcdRQggUQ","short-id":"4c68bb9c4f73dcb8"}}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"64.188.74.211","port":8443,"uuid":"c53ea5e9-ed8b-4990-805d-7f1d6451426c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"durov.sky-vault.top","flow":"xtls-rprx-vision","reality-opts":{"public-key":"fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI","short-id":"3cbc3d737fb9c4af"}}
+  - {"name":"🇱🇻 LV | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"185.81.129.161","port":443,"uuid":"13908eee-ea78-4363-adab-6cca98ecfce3","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"lite.3apes.pro","flow":"xtls-rprx-vision","reality-opts":{"public-key":"q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"}}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"13.143.189.174","port":6443,"uuid":"391a32c6-084c-4d61-8e8d-472678021dac","tls":true,"network":"grpc","client-fingerprint":"qq","udp":true,"servername":"downloadmirror.intel.com","grpc-opts":{"grpc-service-name":"/api/v1/update"},"reality-opts":{"public-key":"T_DB978NmE_RxqrscgvQl6vch18YDEAJY-uk7tBtBzY","short-id":"50831b4958b2643a"}}
+  - {"name":"🇧🇾 BY | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"178.172.227.124","port":10444,"uuid":"1af36694-b548-4b18-89a0-bc076eab4ed7","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"ads.x5.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo","short-id":"8debcf36f1cc69ff"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"93.123.101.198","port":443,"uuid":"a346c521-7a7f-452b-9356-a4893feb5982","tls":true,"network":"tcp","client-fingerprint":null,"udp":true,"servername":"de14-r.bankai.party","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [44]'
+      - '🇱🇻 LV | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇧🇾 BY | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select

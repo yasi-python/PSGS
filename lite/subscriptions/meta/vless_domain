@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"Ge5.mamad.web.tr","port":20829,"uuid":"9e816222-31ca-47b6-82c7-c086215a9cef","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true,"flow":"xtls-rprx-vision"}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"rial-ge1.torshikhoone.ir","port":443,"uuid":"af65ec7a-1de2-4ef4-afc1-733ddde252a0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.hetzner.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw","short-id":"b1c9c3d3cc3b662b"}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"api.ferrin.uk","port":443,"uuid":"7d1a74fd-8a38-4a29-863f-5da53a9e557e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"7d1a74fd.ferrin.uk"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select

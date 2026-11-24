@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,34 +190,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "Ge5.mamad.web.tr",
-            "server_port": 20829,
-            "uuid": "9e816222-31ca-47b6-82c7-c086215a9cef",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "rial-ge1.torshikhoone.ir",
+            "server": "api.ferrin.uk",
             "server_port": 443,
-            "uuid": "af65ec7a-1de2-4ef4-afc1-733ddde252a0",
-            "flow": "xtls-rprx-vision",
+            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.hetzner.com",
+                "server_name": "7d1a74fd.ferrin.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw",
-                    "short_id": "b1c9c3d3cc3b662b"
                 }
             }
         }

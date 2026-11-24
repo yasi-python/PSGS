@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,25 +192,48 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [55]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "rial-ge1.torshikhoone.ir",
+            "server": "169.40.42.231",
             "server_port": 443,
-            "uuid": "af65ec7a-1de2-4ef4-afc1-733ddde252a0",
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.hetzner.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "ios"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw",
-                    "short_id": "b1c9c3d3cc3b662b"
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "93.123.101.198",
+            "server_port": 443,
+            "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de14-r.bankai.party",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+                    "short_id": ""
                 }
             }
         }
