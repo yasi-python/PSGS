@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"tr.extremumnews.com","port":6443,"uuid":"391a32c6-084c-4d61-8e8d-472678021dac","tls":true,"network":"grpc","client-fingerprint":"qq","udp":true,"servername":"download.amd.com","grpc-opts":{"grpc-service-name":"/api/v1/update"},"reality-opts":{"public-key":"BrBQVb1nC7aHUPm3pSYHYQ4N60y2XrhwXznWys87Vyc","short-id":"b96ac15d1f46e05a"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"7b8b98e4-5981-489b-ba30-bcd24531c911","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"tr-net.zabuza.ir","port":443,"uuid":"3a775f0d-6dab-41c5-bd1e-59c01b18dd5f","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"SbGr1o25LoWAwLzpA57cbio5L_SuKX7REU168ook21s","short-id":"86b0af3aade00ad2"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"y2wh6v.salamatradio.net","port":443,"uuid":"36019976-8d8c-451c-a1d4-cb412d6fbcc9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.mozilla.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE","short-id":"e8d7e3da0692598d"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [42]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]'
+      - '🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select

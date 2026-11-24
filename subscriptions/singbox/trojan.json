@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFA=
+//profile-title: base64:UFNHIHwgVFJPSkFO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,10 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [50]",
-                "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,79 +190,25 @@
             }
         },
         {
-            "tag": "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "api.ferrin.uk",
-            "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]",
+            "type": "trojan",
+            "server": "78.17.171.140",
+            "server_port": 2053,
+            "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX",
             "tls": {
                 "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
+                "server_name": "ra-p1.victorycloud.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "7b8b98e4-5981-489b-ba30-bcd24531c911",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "api.ferrin.uk",
-            "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇿🇦 ZA | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "api.ferrin.uk",
-            "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/2fc2ec03a65d451dffa4592d68c43a29?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
+                "headers": {
+                    "Host": "ra-p1.victorycloud.ru"
                 }
             }
         }

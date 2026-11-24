@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFA=
+//profile-title: base64:UFNHIHwgUkVBTElUWV9ET01BSU4=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,20 +190,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "api.ferrin.uk",
+            "server": "y2wh6v.salamatradio.net",
             "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
+            "uuid": "36019976-8d8c-451c-a1d4-cb412d6fbcc9",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
+                "server_name": "www.mozilla.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE",
+                    "short_id": "e8d7e3da0692598d"
                 }
             }
         }
