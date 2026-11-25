@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,31 +184,38 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [49]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "fr.pasmazy1.ir",
-            "server_port": 43433,
-            "uuid": "9c1e88e6-d3b6-416a-91d4-5acdf2f7ef0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "tr.pasmazy1.ir",
-            "server_port": 4537,
-            "uuid": "9c1e88e6-d3b6-416a-91d4-5acdf2f7ef0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "c0ab1e52bc0e3321.ultradns.space",
-            "server_port": 8880,
-            "uuid": "6e3e3312-b3b8-4551-823c-adc3134a4d19",
+            "server": "SUR.Deev-Guard.ir",
+            "server_port": 3036,
+            "uuid": "d1ec39e3-ad7b-4b65-9f65-813696f9a04e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "axe.mastopen14.ir",
+            "server_port": 443,
+            "uuid": "737bf975-f7ce-4326-b1cb-cecd39ba7d60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mojito1703.mastopen14.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/f13eb798-4cc9-41b0-a955-88a2fb289821",
+                "headers": {
+                    "Host": "mojito1703.mastopen14.ir"
+                }
+            }
         }
     ],
     "route": {

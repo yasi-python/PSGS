@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,16 +194,52 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "render.com",
+            "server": "dns1.mmbaipn12.ir",
             "server_port": 443,
-            "uuid": "7a5777f7-41f4-487b-b8f3-a14ab84b97da",
+            "uuid": "b7b12c51-f083-4669-9c4e-011734a82c58",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "germn1-orng-bye-god-xn--fhq0la447aac5504dea701axr1g.maniyadg7shard.ir",
+                "server_name": "dns1.mmbaipn12.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "render.com",
+            "server_port": 2087,
+            "uuid": "eb6ba095-8184-4a85-992f-7a42049124cc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ritmexo.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "render.com",
+            "server_port": 2087,
+            "uuid": "eb6ba095-8184-4a85-992f-7a42049124cc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ritmexo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

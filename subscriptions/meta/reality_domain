@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"mepladu.klyck.online","port":443,"uuid":"de32225b-374c-4a6a-830e-7c4e367fcfb5","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"mepladu.klyck.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE","short-id":"f5a3723f6b3bf8f0"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"netherlands.vpnserverhub.com","port":443,"uuid":"6a83e99a-9b53-43ab-8970-e48d32a516a3","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"de2.fusetea.ir","port":5050,"uuid":"09c439fd-489e-4ae3-9264-ee9f08996c53","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"app.stiga.com","reality-opts":{"public-key":"hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20","short-id":"3a774e5fbeb5d406"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select

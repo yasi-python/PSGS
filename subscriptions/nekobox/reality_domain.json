@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,25 +184,48 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]",
             "type": "vless",
-            "server": "mepladu.klyck.online",
+            "server": "netherlands.vpnserverhub.com",
             "server_port": 443,
-            "uuid": "de32225b-374c-4a6a-830e-7c4e367fcfb5",
+            "uuid": "6a83e99a-9b53-43ab-8970-e48d32a516a3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "mepladu.klyck.online",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE",
-                    "short_id": "f5a3723f6b3bf8f0"
+                    "public_key": "y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "de2.fusetea.ir",
+            "server_port": 5050,
+            "uuid": "09c439fd-489e-4ae3-9264-ee9f08996c53",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app.stiga.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20",
+                    "short_id": "3a774e5fbeb5d406"
                 }
             }
         }

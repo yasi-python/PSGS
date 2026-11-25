@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"85.234.86.230","port":6443,"uuid":"391a32c6-084c-4d61-8e8d-472678021dac","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"download.amd.com","grpc-opts":{"grpc-service-name":"/api/v1/update"},"reality-opts":{"public-key":"3PLiGB7-JrVgOon0cmuxYLf0rOhuVIooAgch7gB8zD8","short-id":"d7d3b7ffae8086ac"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"31.77.156.166","port":443,"uuid":"4a540369-1aa5-4213-807b-3785fa0eee34","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"haha.pashalloh.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Ve9Ez5dzThTcOvXxeQlVC6MzHXgWImDJzFEp8wxAsEA","short-id":"e3d3f391"}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"mepladu.klyck.online","port":443,"uuid":"de32225b-374c-4a6a-830e-7c4e367fcfb5","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"mepladu.klyck.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE","short-id":"f5a3723f6b3bf8f0"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"netherlands.vpnserverhub.com","port":443,"uuid":"6a83e99a-9b53-43ab-8970-e48d32a516a3","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"de2.fusetea.ir","port":5050,"uuid":"09c439fd-489e-4ae3-9264-ee9f08996c53","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"app.stiga.com","reality-opts":{"public-key":"hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20","short-id":"3a774e5fbeb5d406"}}
+  - {"name":"🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [58]","type":"vless","server":"187.54.12.146","port":10455,"uuid":"d27390ea-4177-4ee3-a3fe-2cf513f33f7d","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"addons.mozilla.org","reality-opts":{"public-key":"NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c","short-id":"54cd1667f48828f9"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [42]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]'
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [45]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [58]'
 
   - name: 🌍 Global Media
     type: select
