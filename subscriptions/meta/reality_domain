@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"tr-net.zabuza.ir","port":443,"uuid":"3a775f0d-6dab-41c5-bd1e-59c01b18dd5f","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"SbGr1o25LoWAwLzpA57cbio5L_SuKX7REU168ook21s","short-id":"86b0af3aade00ad2"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"y2wh6v.salamatradio.net","port":443,"uuid":"36019976-8d8c-451c-a1d4-cb412d6fbcc9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.mozilla.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE","short-id":"e8d7e3da0692598d"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"mepladu.klyck.online","port":443,"uuid":"de32225b-374c-4a6a-830e-7c4e367fcfb5","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"mepladu.klyck.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE","short-id":"f5a3723f6b3bf8f0"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [41]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [46]'
 
   - name: 🌍 Global Media
     type: select

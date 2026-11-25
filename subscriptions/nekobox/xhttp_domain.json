@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,25 +182,20 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 TROJAN | @NamiraConfigs [50]",
-            "type": "trojan",
-            "server": "78.17.171.140",
-            "server_port": 2053,
-            "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+            "type": "vless",
+            "server": "render.com",
+            "server_port": 443,
+            "uuid": "7a5777f7-41f4-487b-b8f3-a14ab84b97da",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ra-p1.victorycloud.ru",
+                "server_name": "germn1-orng-bye-god-xn--fhq0la447aac5504dea701axr1g.maniyadg7shard.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/2fc2ec03a65d451dffa4592d68c43a29?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
-                "headers": {
-                    "Host": "ra-p1.victorycloud.ru"
                 }
             }
         }

@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,48 +194,75 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [41]",
             "type": "vless",
-            "server": "31.77.158.172",
+            "server": "109.73.207.225",
             "server_port": 443,
-            "uuid": "7d63243c-983e-44db-a1b8-13dc3fd6f7a2",
+            "uuid": "ef1da56e-8117-03eb-bcd8-9094ebbdf985",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdnjs.com",
+                "server_name": "games.robloxfans.fun",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mg2MoLpb8B51aZiko_nW2SBRoaudv-O6HLHx8VYP7Do",
-                    "short_id": ""
+                    "public_key": "KFIPjM9UI5YaPMOKE2oJWg9pO1HD_FlByAwirvVauhA",
+                    "short_id": "812e5d00c043b6ec"
                 }
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [42]",
             "type": "vless",
-            "server": "185.227.137.69",
-            "server_port": 443,
-            "uuid": "8b2db5b1-e042-44b1-891a-220f948fe827",
+            "server": "85.234.86.230",
+            "server_port": 6443,
+            "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.google.com",
+                "server_name": "download.amd.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ygBHinch-Hdr9jq11BOT0pQqVEcRFrZ0y9_1jYeF0H8",
-                    "short_id": "11e2da7275c7dff3"
+                    "public_key": "3PLiGB7-JrVgOon0cmuxYLf0rOhuVIooAgch7gB8zD8",
+                    "short_id": "d7d3b7ffae8086ac"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/api/v1/update"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "31.77.156.166",
+            "server_port": 443,
+            "uuid": "4a540369-1aa5-4213-807b-3785fa0eee34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "haha.pashalloh.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ve9Ez5dzThTcOvXxeQlVC6MzHXgWImDJzFEp8wxAsEA",
+                    "short_id": "e3d3f391"
                 }
             }
         }

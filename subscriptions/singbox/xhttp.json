@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgWEhUVFA=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,25 +192,38 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
             "type": "vless",
-            "server": "185.227.137.69",
+            "server": "render.com",
             "server_port": 443,
-            "uuid": "8b2db5b1-e042-44b1-891a-220f948fe827",
-            "flow": "xtls-rprx-vision",
+            "uuid": "7a5777f7-41f4-487b-b8f3-a14ab84b97da",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.google.com",
+                "server_name": "germn1-orng-bye-god-xn--fhq0la447aac5504dea701axr1g.maniyadg7shard.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]",
+            "type": "vless",
+            "server": "72.56.69.70",
+            "server_port": 443,
+            "uuid": "00799b08-1090-4ed3-bec0-0fa26816a703",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "plaksa.bootless.ru",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "ygBHinch-Hdr9jq11BOT0pQqVEcRFrZ0y9_1jYeF0H8",
-                    "short_id": "11e2da7275c7dff3"
+                    "fingerprint": "chrome"
                 }
             }
         }
