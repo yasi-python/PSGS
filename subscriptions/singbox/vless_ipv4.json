@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,34 +192,16 @@
             }
         },
         {
-            "tag": "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
-            "type": "vless",
-            "server": "165.231.157.126",
-            "server_port": 8443,
-            "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api-6b04608f.adhil.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
             "type": "vless",
-            "server": "104.21.68.231",
+            "server": "104.21.61.123",
             "server_port": 8443,
             "uuid": "cbfdab46-e183-4cc3-bab9-df954c8c601e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.memepunk.ir",
+                "server_name": "cdn.memetics.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -232,30 +212,32 @@
                 "type": "ws",
                 "path": "/vless-ws",
                 "headers": {
-                    "Host": "cdn.memepunk.ir"
+                    "Host": "cdn.memetics.ir"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "31.57.201.8",
-            "server_port": 443,
-            "uuid": "2fe2ce08-4c91-4a60-9c1d-ba4964e758ab",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.62.113",
+            "server_port": 8443,
+            "uuid": "cbfdab46-e183-4cc3-bab9-df954c8c601e",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.ipxo.com",
+                "server_name": "cdn.memegift.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU",
-                    "short_id": "d211e464747fdf2c"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless-ws",
+                "headers": {
+                    "Host": "cdn.memegift.ir"
                 }
             }
         }

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"31.57.201.8","port":443,"uuid":"2fe2ce08-4c91-4a60-9c1d-ba4964e758ab","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.ipxo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU","short-id":"d211e464747fdf2c"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"104.21.62.113","port":8443,"uuid":"cbfdab46-e183-4cc3-bab9-df954c8c601e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.memegift.ir","ws-opts":{"path":"/vless-ws","headers":{"Host":"cdn.memegift.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select

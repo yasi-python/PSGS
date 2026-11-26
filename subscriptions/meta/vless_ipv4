@@ -23,10 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]","type":"vless","server":"165.231.157.126","port":8443,"uuid":"0173d52e-8e1b-4681-831e-11529677b72f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6b04608f.adhil.uk","flow":"xtls-rprx-vision"}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"104.21.68.231","port":8443,"uuid":"cbfdab46-e183-4cc3-bab9-df954c8c601e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.memepunk.ir","ws-opts":{"path":"/vless-ws","headers":{"Host":"cdn.memepunk.ir"}}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"46.8.103.141","port":57801,"uuid":"f0759ea5-08d3-481b-8b0a-f277aabbafb3","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"led.samsung.com","reality-opts":{"public-key":"2nDTIBwF8WaGUbfuwwjRiOBrmUm25XpepbH0blYj92g","short-id":"7f"}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"31.57.201.8","port":443,"uuid":"2fe2ce08-4c91-4a60-9c1d-ba4964e758ab","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.ipxo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU","short-id":"d211e464747fdf2c"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"104.21.61.123","port":8443,"uuid":"cbfdab46-e183-4cc3-bab9-df954c8c601e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.memetics.ir","ws-opts":{"path":"/vless-ws","headers":{"Host":"cdn.memetics.ir"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"104.21.62.113","port":8443,"uuid":"cbfdab46-e183-4cc3-bab9-df954c8c601e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.memegift.ir","ws-opts":{"path":"/vless-ws","headers":{"Host":"cdn.memegift.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]'
       - '🚩 CF | 🔒 VLESS | @NamiraConfigs [39]'
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [40]'
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
