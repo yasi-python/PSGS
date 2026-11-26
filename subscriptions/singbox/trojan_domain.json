@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFBfSVBWNA==
+//profile-title: base64:UFNHIHwgVFJPSkFOX0RPTUFJTg==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [58]"
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [58]"
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,25 +190,25 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "187.54.12.146",
-            "server_port": 10455,
-            "uuid": "d27390ea-4177-4ee3-a3fe-2cf513f33f7d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]",
+            "type": "trojan",
+            "server": "thugicd.thugiping.com",
+            "server_port": 443,
+            "password": "98e4171c-15a5-4c6b-89c8-f19a4442651a",
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "thugiping.thugiping.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c",
-                    "short_id": "54cd1667f48828f9"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "thugiping.thugiping.com"
                 }
             }
         }
