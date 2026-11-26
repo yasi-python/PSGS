@@ -92,12 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,12 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -200,143 +194,68 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @NamiraConfigs [37]",
             "type": "vless",
-            "server": "216.24.57.1",
-            "server_port": 443,
-            "uuid": "6c93bf74-1812-470d-9bfb-ef5781298aa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn-V2shop2.zorfel.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [38]",
-            "type": "vless",
-            "server": "187.55.160.2",
-            "server_port": 443,
-            "uuid": "e0f67e0a-6323-4ecb-9c1c-ca9ee4e48cf9",
+            "server": "165.231.157.126",
+            "server_port": 8443,
+            "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "88evieqs50.cdn.cachefleet.com",
+                "server_name": "api-6b04608f.adhil.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "104.21.68.231",
+            "server_port": 8443,
+            "uuid": "cbfdab46-e183-4cc3-bab9-df954c8c601e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.memepunk.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless-ws",
+                "headers": {
+                    "Host": "cdn.memepunk.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "31.57.201.8",
+            "server_port": 443,
+            "uuid": "2fe2ce08-4c91-4a60-9c1d-ba4964e758ab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ipxo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "q_DfQMBNrcvoptJHMYGyjj76Tpb8ircnm5dIRnjYtx0",
-                    "short_id": "84d35337f990929d"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "172.66.157.141",
-            "server_port": 2083,
-            "uuid": "d21d1bf2-206a-41c6-a40c-49bdd1f6f3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/c216a10ece89acba?ed=2560",
-                "headers": {
-                    "Host": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
-            "type": "vless",
-            "server": "104.16.82.253",
-            "server_port": 8443,
-            "uuid": "d21d1bf2-206a-41c6-a40c-49bdd1f6f3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/c216a10ece89acba?ed=2560",
-                "headers": {
-                    "Host": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "104.27.127.133",
-            "server_port": 2083,
-            "uuid": "d21d1bf2-206a-41c6-a40c-49bdd1f6f3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/c216a10ece89acba?ed=2560",
-                "headers": {
-                    "Host": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "104.27.25.196",
-            "server_port": 443,
-            "uuid": "d21d1bf2-206a-41c6-a40c-49bdd1f6f3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/c216a10ece89acba?ed=2560",
-                "headers": {
-                    "Host": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"
+                    "public_key": "D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU",
+                    "short_id": "d211e464747fdf2c"
                 }
             }
         }

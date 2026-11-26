@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,27 +182,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "104.27.25.196",
+            "server": "31.57.201.8",
             "server_port": 443,
-            "uuid": "d21d1bf2-206a-41c6-a40c-49bdd1f6f3be",
-            "flow": "",
+            "uuid": "2fe2ce08-4c91-4a60-9c1d-ba4964e758ab",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev",
+                "server_name": "www.ipxo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/c216a10ece89acba?ed=2560",
-                "headers": {
-                    "Host": "net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU",
+                    "short_id": "d211e464747fdf2c"
                 }
             }
         }

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFJPSkFO
+//profile-title: base64:UFNHIHwgUkVBTElUWV9JUFY0
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,25 +190,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [42]",
-            "type": "trojan",
-            "server": "thugicd.thugiping.com",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "31.57.201.8",
             "server_port": 443,
-            "password": "98e4171c-15a5-4c6b-89c8-f19a4442651a",
+            "uuid": "2fe2ce08-4c91-4a60-9c1d-ba4964e758ab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "thugiping.thugiping.com",
+                "server_name": "www.ipxo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "thugiping.thugiping.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU",
+                    "short_id": "d211e464747fdf2c"
                 }
             }
         }

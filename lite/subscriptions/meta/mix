@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"tpii.sublinkplas.ir","port":12190,"uuid":"4828eb4e-cdf1-40a7-a540-950487c9b794","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM","short-id":"8101b9ba16eb77c7"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"104.27.25.196","port":443,"uuid":"d21d1bf2-206a-41c6-a40c-49bdd1f6f3be","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev","ws-opts":{"path":"/c216a10ece89acba?ed=2560","headers":{"Host":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"}}}
+  - {"name":"🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"fr1oo.sublinkplas.ir","port":12190,"uuid":"b28e9267-bb15-4e09-b126-a49aad8a52a2","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM","short-id":"3e5cba1bd6eb6221"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"31.57.201.8","port":443,"uuid":"2fe2ce08-4c91-4a60-9c1d-ba4964e758ab","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.ipxo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU","short-id":"d211e464747fdf2c"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"nl3ww.sublinkplas.ir","port":12190,"uuid":"b28e9267-bb15-4e09-b126-a49aad8a52a2","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM","short-id":"aa74a7a98e86f2ed"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [48]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [49]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
